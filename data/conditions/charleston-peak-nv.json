@@ -18,14 +18,15 @@
   "score": 30,
   "score_label": "Conditions poor",
   "gear_flags": [
+    "wind layer recommended",
     "insulation layer required"
   ],
   "current": {
-    "temp_f": 29,
-    "feels_like_f": 23,
-    "wind_mph": 10,
-    "gusts_mph": 16,
-    "rain_pct": 2
+    "temp_f": 28,
+    "feels_like_f": 19,
+    "wind_mph": 14,
+    "gusts_mph": 20,
+    "rain_pct": 1
   },
   "aqi": {
     "aqi": null,
@@ -36,7 +37,7 @@
   "forecast": [
     {
       "date": "2026-04-01",
-      "high_f": 30,
+      "high_f": 29,
       "low_f": 17,
       "rain_pct": 61,
       "uv": 8
@@ -70,5 +71,5 @@
       "uv": 8
     }
   ],
-  "updated_at": "2026-04-01T21:40:16.880076+00:00"
+  "updated_at": "2026-04-01T22:36:08.605734+00:00"
 }
