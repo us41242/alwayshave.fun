@@ -15,16 +15,60 @@
   "alerts_url": "https://stateparks.utah.gov/parks/snow-canyon/",
   "status": "Open",
   "notes": "Sandstone scrambling \u2014 watch for rattlesnakes spring",
-  "score": 30,
-  "score_label": "Conditions poor",
-  "gear_flags": [],
-  "current": {},
+  "score": 58,
+  "score_label": "Use caution",
+  "gear_flags": [
+    "wind layer recommended"
+  ],
+  "current": {
+    "temp_f": 52,
+    "feels_like_f": 48,
+    "wind_mph": 8,
+    "gusts_mph": 22,
+    "rain_pct": 18
+  },
   "aqi": {
     "aqi": null,
     "category": "Unknown",
     "pollutant": ""
   },
   "river": null,
-  "forecast": [],
-  "updated_at": "2026-04-01T11:54:40.805971+00:00"
+  "forecast": [
+    {
+      "date": "2026-04-01",
+      "high_f": 69,
+      "low_f": 52,
+      "rain_pct": 76,
+      "uv": 7
+    },
+    {
+      "date": "2026-04-02",
+      "high_f": 71,
+      "low_f": 53,
+      "rain_pct": 9,
+      "uv": 7
+    },
+    {
+      "date": "2026-04-03",
+      "high_f": 67,
+      "low_f": 42,
+      "rain_pct": 9,
+      "uv": 7
+    },
+    {
+      "date": "2026-04-04",
+      "high_f": 73,
+      "low_f": 47,
+      "rain_pct": 1,
+      "uv": 7
+    },
+    {
+      "date": "2026-04-05",
+      "high_f": 77,
+      "low_f": 55,
+      "rain_pct": 2,
+      "uv": 7
+    }
+  ],
+  "updated_at": "2026-04-01T13:20:41.760784+00:00"
 }
