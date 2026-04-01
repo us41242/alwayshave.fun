@@ -1,0 +1,67 @@
+{
+  "trail_id": "23",
+  "name": "Black Canyon Water Trail",
+  "slug": "black-canyon-water-trail-nv",
+  "state": "NV",
+  "region": "Nevada",
+  "lat": "35.9697",
+  "lng": "-114.7304",
+  "difficulty": "Easy",
+  "length_mi": "12",
+  "status": "Open",
+  "score": 88,
+  "score_label": "Great day to go",
+  "gear_flags": [
+    "wind layer recommended"
+  ],
+  "current": {
+    "temp_f": 70,
+    "feels_like_f": 62,
+    "wind_mph": 17,
+    "gusts_mph": 28,
+    "rain_pct": 15
+  },
+  "aqi": {
+    "aqi": 42,
+    "category": "Good",
+    "pollutant": "O3"
+  },
+  "forecast": [
+    {
+      "date": "2026-03-31",
+      "high_f": 86,
+      "low_f": 71,
+      "rain_pct": 20,
+      "uv": 4
+    },
+    {
+      "date": "2026-04-01",
+      "high_f": 82,
+      "low_f": 63,
+      "rain_pct": 17,
+      "uv": 7
+    },
+    {
+      "date": "2026-04-02",
+      "high_f": 83,
+      "low_f": 63,
+      "rain_pct": 2,
+      "uv": 7
+    },
+    {
+      "date": "2026-04-03",
+      "high_f": 76,
+      "low_f": 55,
+      "rain_pct": 0,
+      "uv": 7
+    },
+    {
+      "date": "2026-04-04",
+      "high_f": 83,
+      "low_f": 57,
+      "rain_pct": 0,
+      "uv": 7
+    }
+  ],
+  "updated_at": "2026-04-01T06:23:00.879808+00:00"
+}

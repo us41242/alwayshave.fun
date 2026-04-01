@@ -1,0 +1,68 @@
+{
+  "trail_id": "15",
+  "name": "Havasupai Garden (Hermit)",
+  "slug": "hermit-trail-gc-az",
+  "state": "AZ",
+  "region": "Southwest",
+  "lat": "36.0589",
+  "lng": "-112.2169",
+  "difficulty": "Expert",
+  "length_mi": "17",
+  "status": "Open",
+  "score": 60,
+  "score_label": "Use caution",
+  "gear_flags": [
+    "wind layer recommended",
+    "rain gear recommended"
+  ],
+  "current": {
+    "temp_f": 46,
+    "feels_like_f": 38,
+    "wind_mph": 15,
+    "gusts_mph": 26,
+    "rain_pct": 69
+  },
+  "aqi": {
+    "aqi": 50,
+    "category": "Good",
+    "pollutant": "O3"
+  },
+  "forecast": [
+    {
+      "date": "2026-03-31",
+      "high_f": 64,
+      "low_f": 48,
+      "rain_pct": 63,
+      "uv": 3
+    },
+    {
+      "date": "2026-04-01",
+      "high_f": 59,
+      "low_f": 41,
+      "rain_pct": 79,
+      "uv": 7
+    },
+    {
+      "date": "2026-04-02",
+      "high_f": 62,
+      "low_f": 40,
+      "rain_pct": 4,
+      "uv": 7
+    },
+    {
+      "date": "2026-04-03",
+      "high_f": 56,
+      "low_f": 38,
+      "rain_pct": 1,
+      "uv": 7
+    },
+    {
+      "date": "2026-04-04",
+      "high_f": 62,
+      "low_f": 40,
+      "rain_pct": 1,
+      "uv": 7
+    }
+  ],
+  "updated_at": "2026-04-01T06:22:51.581579+00:00"
+}

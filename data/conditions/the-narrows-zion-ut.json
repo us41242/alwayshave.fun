@@ -1,0 +1,68 @@
+{
+  "trail_id": "2",
+  "name": "The Narrows (Bottom-Up)",
+  "slug": "the-narrows-zion-ut",
+  "state": "UT",
+  "region": "Southwest",
+  "lat": "37.2916",
+  "lng": "-112.9477",
+  "difficulty": "Moderate",
+  "length_mi": "9.4",
+  "status": "Open",
+  "score": 60,
+  "score_label": "Use caution",
+  "gear_flags": [
+    "wind layer recommended",
+    "rain gear recommended"
+  ],
+  "current": {
+    "temp_f": 50,
+    "feels_like_f": 44,
+    "wind_mph": 12,
+    "gusts_mph": 27,
+    "rain_pct": 77
+  },
+  "aqi": {
+    "aqi": 43,
+    "category": "Good",
+    "pollutant": "O3"
+  },
+  "forecast": [
+    {
+      "date": "2026-04-01",
+      "high_f": 57,
+      "low_f": 45,
+      "rain_pct": 88,
+      "uv": 5
+    },
+    {
+      "date": "2026-04-02",
+      "high_f": 62,
+      "low_f": 43,
+      "rain_pct": 15,
+      "uv": 7
+    },
+    {
+      "date": "2026-04-03",
+      "high_f": 61,
+      "low_f": 35,
+      "rain_pct": 19,
+      "uv": 7
+    },
+    {
+      "date": "2026-04-04",
+      "high_f": 66,
+      "low_f": 45,
+      "rain_pct": 0,
+      "uv": 7
+    },
+    {
+      "date": "2026-04-05",
+      "high_f": 69,
+      "low_f": 52,
+      "rain_pct": 3,
+      "uv": 7
+    }
+  ],
+  "updated_at": "2026-04-01T06:22:36.501343+00:00"
+}

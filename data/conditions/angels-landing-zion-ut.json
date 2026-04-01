@@ -1,0 +1,68 @@
+{
+  "trail_id": "1",
+  "name": "Angels Landing",
+  "slug": "angels-landing-zion-ut",
+  "state": "UT",
+  "region": "Southwest",
+  "lat": "37.269",
+  "lng": "-112.9469",
+  "difficulty": "Hard",
+  "length_mi": "5.4",
+  "status": "Open",
+  "score": 60,
+  "score_label": "Use caution",
+  "gear_flags": [
+    "wind layer recommended",
+    "rain gear recommended"
+  ],
+  "current": {
+    "temp_f": 49,
+    "feels_like_f": 42,
+    "wind_mph": 13,
+    "gusts_mph": 26,
+    "rain_pct": 74
+  },
+  "aqi": {
+    "aqi": 43,
+    "category": "Good",
+    "pollutant": "O3"
+  },
+  "forecast": [
+    {
+      "date": "2026-04-01",
+      "high_f": 56,
+      "low_f": 44,
+      "rain_pct": 85,
+      "uv": 5
+    },
+    {
+      "date": "2026-04-02",
+      "high_f": 61,
+      "low_f": 42,
+      "rain_pct": 13,
+      "uv": 7
+    },
+    {
+      "date": "2026-04-03",
+      "high_f": 59,
+      "low_f": 34,
+      "rain_pct": 14,
+      "uv": 7
+    },
+    {
+      "date": "2026-04-04",
+      "high_f": 64,
+      "low_f": 43,
+      "rain_pct": 0,
+      "uv": 7
+    },
+    {
+      "date": "2026-04-05",
+      "high_f": 68,
+      "low_f": 51,
+      "rain_pct": 2,
+      "uv": 7
+    }
+  ],
+  "updated_at": "2026-04-01T06:22:35.410938+00:00"
+}

@@ -1,0 +1,67 @@
+{
+  "trail_id": "22",
+  "name": "River Mountains Loop",
+  "slug": "river-mountains-loop-nv",
+  "state": "NV",
+  "region": "Nevada",
+  "lat": "36.0421",
+  "lng": "-114.9036",
+  "difficulty": "Moderate",
+  "length_mi": "34.5",
+  "status": "Open",
+  "score": 88,
+  "score_label": "Great day to go",
+  "gear_flags": [
+    "wind layer recommended"
+  ],
+  "current": {
+    "temp_f": 62,
+    "feels_like_f": 52,
+    "wind_mph": 20,
+    "gusts_mph": 35,
+    "rain_pct": 9
+  },
+  "aqi": {
+    "aqi": 42,
+    "category": "Good",
+    "pollutant": "O3"
+  },
+  "forecast": [
+    {
+      "date": "2026-03-31",
+      "high_f": 77,
+      "low_f": 62,
+      "rain_pct": 21,
+      "uv": 4
+    },
+    {
+      "date": "2026-04-01",
+      "high_f": 76,
+      "low_f": 54,
+      "rain_pct": 13,
+      "uv": 7
+    },
+    {
+      "date": "2026-04-02",
+      "high_f": 75,
+      "low_f": 54,
+      "rain_pct": 1,
+      "uv": 7
+    },
+    {
+      "date": "2026-04-03",
+      "high_f": 71,
+      "low_f": 49,
+      "rain_pct": 0,
+      "uv": 7
+    },
+    {
+      "date": "2026-04-04",
+      "high_f": 77,
+      "low_f": 50,
+      "rain_pct": 0,
+      "uv": 7
+    }
+  ],
+  "updated_at": "2026-04-01T06:22:59.647847+00:00"
+}

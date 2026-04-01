@@ -1,0 +1,69 @@
+{
+  "trail_id": "6",
+  "name": "Charleston Peak (USFS)",
+  "slug": "charleston-peak-nv",
+  "state": "NV",
+  "region": "Nevada",
+  "lat": "36.2716",
+  "lng": "-115.6956",
+  "difficulty": "Hard",
+  "length_mi": "18.2",
+  "status": "Open",
+  "score": 60,
+  "score_label": "Use caution",
+  "gear_flags": [
+    "wind layer recommended",
+    "insulation layer required",
+    "rain gear recommended"
+  ],
+  "current": {
+    "temp_f": 22,
+    "feels_like_f": 4,
+    "wind_mph": 31,
+    "gusts_mph": 51,
+    "rain_pct": 60
+  },
+  "aqi": {
+    "aqi": 21,
+    "category": "Good",
+    "pollutant": "PM10"
+  },
+  "forecast": [
+    {
+      "date": "2026-03-31",
+      "high_f": 34,
+      "low_f": 22,
+      "rain_pct": 70,
+      "uv": 6
+    },
+    {
+      "date": "2026-04-01",
+      "high_f": 27,
+      "low_f": 18,
+      "rain_pct": 63,
+      "uv": 8
+    },
+    {
+      "date": "2026-04-02",
+      "high_f": 36,
+      "low_f": 20,
+      "rain_pct": 5,
+      "uv": 8
+    },
+    {
+      "date": "2026-04-03",
+      "high_f": 32,
+      "low_f": 14,
+      "rain_pct": 1,
+      "uv": 8
+    },
+    {
+      "date": "2026-04-04",
+      "high_f": 38,
+      "low_f": 23,
+      "rain_pct": 3,
+      "uv": 8
+    }
+  ],
+  "updated_at": "2026-04-01T06:22:41.210375+00:00"
+}

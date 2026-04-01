@@ -1,0 +1,65 @@
+{
+  "trail_id": "24",
+  "name": "Paria Canyon",
+  "slug": "paria-canyon-az",
+  "state": "AZ",
+  "region": "Southwest",
+  "lat": "37.1041",
+  "lng": "-111.9296",
+  "difficulty": "Hard",
+  "length_mi": "38",
+  "status": "Open",
+  "score": 58,
+  "score_label": "Use caution",
+  "gear_flags": [],
+  "current": {
+    "temp_f": 57,
+    "feels_like_f": 54,
+    "wind_mph": 3,
+    "gusts_mph": 20,
+    "rain_pct": 18
+  },
+  "aqi": {
+    "aqi": null,
+    "category": "Unknown",
+    "pollutant": ""
+  },
+  "forecast": [
+    {
+      "date": "2026-04-01",
+      "high_f": 64,
+      "low_f": 49,
+      "rain_pct": 44,
+      "uv": 7
+    },
+    {
+      "date": "2026-04-02",
+      "high_f": 69,
+      "low_f": 43,
+      "rain_pct": 2,
+      "uv": 8
+    },
+    {
+      "date": "2026-04-03",
+      "high_f": 60,
+      "low_f": 37,
+      "rain_pct": 4,
+      "uv": 7
+    },
+    {
+      "date": "2026-04-04",
+      "high_f": 65,
+      "low_f": 41,
+      "rain_pct": 0,
+      "uv": 7
+    },
+    {
+      "date": "2026-04-05",
+      "high_f": 72,
+      "low_f": 47,
+      "rain_pct": 2,
+      "uv": 7
+    }
+  ],
+  "updated_at": "2026-04-01T06:23:02.034130+00:00"
+}

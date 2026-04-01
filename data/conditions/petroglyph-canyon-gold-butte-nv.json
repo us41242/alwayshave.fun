@@ -1,0 +1,69 @@
+{
+  "trail_id": "10",
+  "name": "Petroglyph Canyon (Gold Butte)",
+  "slug": "petroglyph-canyon-gold-butte-nv",
+  "state": "NV",
+  "region": "Nevada",
+  "lat": "36.61",
+  "lng": "-114.09",
+  "difficulty": "Easy",
+  "length_mi": "2",
+  "status": "Open",
+  "score": 40,
+  "score_label": "Conditions poor",
+  "gear_flags": [
+    "wind layer recommended",
+    "insulation layer required",
+    "rain gear recommended"
+  ],
+  "current": {
+    "temp_f": 38,
+    "feels_like_f": 26,
+    "wind_mph": 21,
+    "gusts_mph": 36,
+    "rain_pct": 41
+  },
+  "aqi": {
+    "aqi": null,
+    "category": "Unknown",
+    "pollutant": ""
+  },
+  "forecast": [
+    {
+      "date": "2026-03-31",
+      "high_f": 54,
+      "low_f": 38,
+      "rain_pct": 38,
+      "uv": 5
+    },
+    {
+      "date": "2026-04-01",
+      "high_f": 49,
+      "low_f": 34,
+      "rain_pct": 63,
+      "uv": 7
+    },
+    {
+      "date": "2026-04-02",
+      "high_f": 52,
+      "low_f": 35,
+      "rain_pct": 4,
+      "uv": 7
+    },
+    {
+      "date": "2026-04-03",
+      "high_f": 51,
+      "low_f": 28,
+      "rain_pct": 1,
+      "uv": 7
+    },
+    {
+      "date": "2026-04-04",
+      "high_f": 59,
+      "low_f": 37,
+      "rain_pct": 0,
+      "uv": 7
+    }
+  ],
+  "updated_at": "2026-04-01T06:22:45.821289+00:00"
+}

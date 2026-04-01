@@ -1,0 +1,67 @@
+{
+  "trail_id": "18",
+  "name": "Wire Pass to Buckskin Gulch",
+  "slug": "wire-pass-buckskin-az",
+  "state": "AZ",
+  "region": "Southwest",
+  "lat": "37.0469",
+  "lng": "-111.9444",
+  "difficulty": "Moderate",
+  "length_mi": "7.2",
+  "status": "Open",
+  "score": 58,
+  "score_label": "Use caution",
+  "gear_flags": [
+    "wind layer recommended"
+  ],
+  "current": {
+    "temp_f": 53,
+    "feels_like_f": 49,
+    "wind_mph": 4,
+    "gusts_mph": 26,
+    "rain_pct": 17
+  },
+  "aqi": {
+    "aqi": null,
+    "category": "Unknown",
+    "pollutant": ""
+  },
+  "forecast": [
+    {
+      "date": "2026-04-01",
+      "high_f": 61,
+      "low_f": 46,
+      "rain_pct": 39,
+      "uv": 7
+    },
+    {
+      "date": "2026-04-02",
+      "high_f": 65,
+      "low_f": 42,
+      "rain_pct": 2,
+      "uv": 8
+    },
+    {
+      "date": "2026-04-03",
+      "high_f": 58,
+      "low_f": 34,
+      "rain_pct": 4,
+      "uv": 7
+    },
+    {
+      "date": "2026-04-04",
+      "high_f": 63,
+      "low_f": 39,
+      "rain_pct": 0,
+      "uv": 7
+    },
+    {
+      "date": "2026-04-05",
+      "high_f": 69,
+      "low_f": 45,
+      "rain_pct": 2,
+      "uv": 7
+    }
+  ],
+  "updated_at": "2026-04-01T06:22:55.035724+00:00"
+}

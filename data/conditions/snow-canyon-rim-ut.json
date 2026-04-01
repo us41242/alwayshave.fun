@@ -1,0 +1,65 @@
+{
+  "trail_id": "25",
+  "name": "Snow Canyon State Park Rim",
+  "slug": "snow-canyon-rim-ut",
+  "state": "UT",
+  "region": "Southwest",
+  "lat": "37.1892",
+  "lng": "-113.6492",
+  "difficulty": "Moderate",
+  "length_mi": "3.8",
+  "status": "Open",
+  "score": 70,
+  "score_label": "Good conditions",
+  "gear_flags": [],
+  "current": {
+    "temp_f": 61,
+    "feels_like_f": 54,
+    "wind_mph": 12,
+    "gusts_mph": 20,
+    "rain_pct": 38
+  },
+  "aqi": {
+    "aqi": 41,
+    "category": "Good",
+    "pollutant": "O3"
+  },
+  "forecast": [
+    {
+      "date": "2026-04-01",
+      "high_f": 68,
+      "low_f": 54,
+      "rain_pct": 62,
+      "uv": 6
+    },
+    {
+      "date": "2026-04-02",
+      "high_f": 70,
+      "low_f": 50,
+      "rain_pct": 7,
+      "uv": 7
+    },
+    {
+      "date": "2026-04-03",
+      "high_f": 66,
+      "low_f": 42,
+      "rain_pct": 7,
+      "uv": 7
+    },
+    {
+      "date": "2026-04-04",
+      "high_f": 73,
+      "low_f": 48,
+      "rain_pct": 0,
+      "uv": 7
+    },
+    {
+      "date": "2026-04-05",
+      "high_f": 77,
+      "low_f": 56,
+      "rain_pct": 1,
+      "uv": 7
+    }
+  ],
+  "updated_at": "2026-04-01T06:23:03.166599+00:00"
+}

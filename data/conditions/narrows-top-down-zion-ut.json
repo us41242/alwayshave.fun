@@ -1,0 +1,69 @@
+{
+  "trail_id": "16",
+  "name": "Zion Narrows (Top-Down)",
+  "slug": "narrows-top-down-zion-ut",
+  "state": "UT",
+  "region": "Southwest",
+  "lat": "37.428",
+  "lng": "-112.911",
+  "difficulty": "Hard",
+  "length_mi": "16",
+  "status": "Open",
+  "score": 60,
+  "score_label": "Use caution",
+  "gear_flags": [
+    "wind layer recommended",
+    "insulation layer required",
+    "rain gear recommended"
+  ],
+  "current": {
+    "temp_f": 44,
+    "feels_like_f": 37,
+    "wind_mph": 9,
+    "gusts_mph": 23,
+    "rain_pct": 80
+  },
+  "aqi": {
+    "aqi": 43,
+    "category": "Good",
+    "pollutant": "O3"
+  },
+  "forecast": [
+    {
+      "date": "2026-04-01",
+      "high_f": 51,
+      "low_f": 38,
+      "rain_pct": 90,
+      "uv": 6
+    },
+    {
+      "date": "2026-04-02",
+      "high_f": 53,
+      "low_f": 34,
+      "rain_pct": 32,
+      "uv": 7
+    },
+    {
+      "date": "2026-04-03",
+      "high_f": 52,
+      "low_f": 28,
+      "rain_pct": 32,
+      "uv": 7
+    },
+    {
+      "date": "2026-04-04",
+      "high_f": 58,
+      "low_f": 38,
+      "rain_pct": 1,
+      "uv": 7
+    },
+    {
+      "date": "2026-04-05",
+      "high_f": 62,
+      "low_f": 45,
+      "rain_pct": 4,
+      "uv": 7
+    }
+  ],
+  "updated_at": "2026-04-01T06:22:52.705910+00:00"
+}
