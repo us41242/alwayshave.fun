@@ -15,22 +15,22 @@
   "alerts_url": "https://www.fs.usda.gov/htnf",
   "status": "Open",
   "notes": "Avoid mid-summer heat \u2014 best Oct\u2013Apr",
-  "score": 70,
-  "score_label": "Good conditions",
+  "score": 30,
+  "score_label": "Conditions poor",
   "gear_flags": [
     "wind layer recommended"
   ],
   "current": {
-    "temp_f": 49,
-    "feels_like_f": 42,
-    "wind_mph": 12,
-    "gusts_mph": 49,
-    "rain_pct": 37
+    "temp_f": 48,
+    "feels_like_f": 28,
+    "wind_mph": 41,
+    "gusts_mph": 65,
+    "rain_pct": 28
   },
   "aqi": {
-    "aqi": 46,
-    "category": "Good",
-    "pollutant": "PM10"
+    "aqi": null,
+    "category": "Unknown",
+    "pollutant": ""
   },
   "river": null,
   "forecast": [
@@ -43,8 +43,8 @@
     },
     {
       "date": "2026-04-02",
-      "high_f": 67,
-      "low_f": 44,
+      "high_f": 68,
+      "low_f": 46,
       "rain_pct": 0,
       "uv": 8
     },
@@ -70,5 +70,5 @@
       "uv": 8
     }
   ],
-  "updated_at": "2026-04-01T07:39:33.941613+00:00"
+  "updated_at": "2026-04-01T08:22:42.760744+00:00"
 }

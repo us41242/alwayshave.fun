@@ -15,60 +15,16 @@
   "alerts_url": "https://www.nps.gov/lake/planyourvisit/conditions.htm",
   "status": "Open",
   "notes": "Paved trail \u2014 no permit required",
-  "score": 88,
-  "score_label": "Great day to go",
-  "gear_flags": [
-    "wind layer recommended"
-  ],
-  "current": {
-    "temp_f": 70,
-    "feels_like_f": 63,
-    "wind_mph": 12,
-    "gusts_mph": 24,
-    "rain_pct": 21
-  },
+  "score": 30,
+  "score_label": "Conditions poor",
+  "gear_flags": [],
+  "current": {},
   "aqi": {
-    "aqi": 41,
-    "category": "Good",
-    "pollutant": "O3"
+    "aqi": null,
+    "category": "Unknown",
+    "pollutant": ""
   },
   "river": null,
-  "forecast": [
-    {
-      "date": "2026-04-01",
-      "high_f": 84,
-      "low_f": 63,
-      "rain_pct": 25,
-      "uv": 7
-    },
-    {
-      "date": "2026-04-02",
-      "high_f": 84,
-      "low_f": 64,
-      "rain_pct": 1,
-      "uv": 7
-    },
-    {
-      "date": "2026-04-03",
-      "high_f": 77,
-      "low_f": 56,
-      "rain_pct": 0,
-      "uv": 7
-    },
-    {
-      "date": "2026-04-04",
-      "high_f": 84,
-      "low_f": 58,
-      "rain_pct": 0,
-      "uv": 7
-    },
-    {
-      "date": "2026-04-05",
-      "high_f": 89,
-      "low_f": 65,
-      "rain_pct": 0,
-      "uv": 7
-    }
-  ],
-  "updated_at": "2026-04-01T07:39:57.832351+00:00"
+  "forecast": [],
+  "updated_at": "2026-04-01T08:24:14.854297+00:00"
 }

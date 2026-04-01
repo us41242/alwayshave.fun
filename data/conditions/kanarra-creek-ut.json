@@ -15,62 +15,16 @@
   "alerts_url": "https://www.kanarraville.org/kanarra-falls",
   "status": "Open",
   "notes": "Permit required ($12); ladder required in upper section",
-  "score": 60,
-  "score_label": "Use caution",
-  "gear_flags": [
-    "wind layer recommended",
-    "insulation layer required",
-    "rain gear recommended"
-  ],
-  "current": {
-    "temp_f": 43,
-    "feels_like_f": 31,
-    "wind_mph": 21,
-    "gusts_mph": 34,
-    "rain_pct": 79
-  },
+  "score": 30,
+  "score_label": "Conditions poor",
+  "gear_flags": [],
+  "current": {},
   "aqi": {
-    "aqi": 43,
-    "category": "Good",
-    "pollutant": "O3"
+    "aqi": null,
+    "category": "Unknown",
+    "pollutant": ""
   },
   "river": null,
-  "forecast": [
-    {
-      "date": "2026-04-01",
-      "high_f": 52,
-      "low_f": 40,
-      "rain_pct": 84,
-      "uv": 5
-    },
-    {
-      "date": "2026-04-02",
-      "high_f": 57,
-      "low_f": 34,
-      "rain_pct": 33,
-      "uv": 7
-    },
-    {
-      "date": "2026-04-03",
-      "high_f": 50,
-      "low_f": 28,
-      "rain_pct": 33,
-      "uv": 7
-    },
-    {
-      "date": "2026-04-04",
-      "high_f": 61,
-      "low_f": 33,
-      "rain_pct": 1,
-      "uv": 7
-    },
-    {
-      "date": "2026-04-05",
-      "high_f": 65,
-      "low_f": 42,
-      "rain_pct": 3,
-      "uv": 7
-    }
-  ],
-  "updated_at": "2026-04-01T07:40:15.184378+00:00"
+  "forecast": [],
+  "updated_at": "2026-04-01T08:24:41.868671+00:00"
 }

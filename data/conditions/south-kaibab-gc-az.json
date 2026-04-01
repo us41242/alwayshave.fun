@@ -15,8 +15,8 @@
   "alerts_url": "https://www.nps.gov/grca/planyourvisit/conditions.htm",
   "status": "Open",
   "notes": "No water on trail \u2014 carry all water",
-  "score": 60,
-  "score_label": "Use caution",
+  "score": 30,
+  "score_label": "Conditions poor",
   "gear_flags": [
     "wind layer recommended",
     "insulation layer required",
@@ -25,27 +25,27 @@
   "current": {
     "temp_f": 40,
     "feels_like_f": 31,
-    "wind_mph": 16,
-    "gusts_mph": 24,
-    "rain_pct": 87
+    "wind_mph": 15,
+    "gusts_mph": 25,
+    "rain_pct": 84
   },
   "aqi": {
-    "aqi": 49,
-    "category": "Good",
-    "pollutant": "O3"
+    "aqi": null,
+    "category": "Unknown",
+    "pollutant": ""
   },
   "river": null,
   "forecast": [
     {
       "date": "2026-04-01",
-      "high_f": 52,
+      "high_f": 51,
       "low_f": 36,
       "rain_pct": 86,
       "uv": 7
     },
     {
       "date": "2026-04-02",
-      "high_f": 57,
+      "high_f": 56,
       "low_f": 34,
       "rain_pct": 3,
       "uv": 7
@@ -72,5 +72,5 @@
       "uv": 7
     }
   ],
-  "updated_at": "2026-04-01T07:39:44.242075+00:00"
+  "updated_at": "2026-04-01T08:23:18.168465+00:00"
 }
