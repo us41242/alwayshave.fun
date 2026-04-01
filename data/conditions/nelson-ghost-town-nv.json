@@ -15,17 +15,17 @@
   "alerts_url": "https://www.nps.gov/lake/planyourvisit/conditions.htm",
   "status": "Open",
   "notes": "Desert wash trail \u2014 no shade",
-  "score": 40,
-  "score_label": "Conditions poor",
+  "score": 70,
+  "score_label": "Good conditions",
   "gear_flags": [
     "wind layer recommended"
   ],
   "current": {
-    "temp_f": 55,
-    "feels_like_f": 41,
-    "wind_mph": 26,
-    "gusts_mph": 41,
-    "rain_pct": 13
+    "temp_f": 57,
+    "feels_like_f": 52,
+    "wind_mph": 6,
+    "gusts_mph": 21,
+    "rain_pct": 3
   },
   "aqi": {
     "aqi": null,
@@ -36,9 +36,9 @@
   "forecast": [
     {
       "date": "2026-04-01",
-      "high_f": 73,
+      "high_f": 72,
       "low_f": 54,
-      "rain_pct": 26,
+      "rain_pct": 28,
       "uv": 7
     },
     {
@@ -70,5 +70,5 @@
       "uv": 7
     }
   ],
-  "updated_at": "2026-04-01T09:04:23.896940+00:00"
+  "updated_at": "2026-04-01T10:35:53.708734+00:00"
 }

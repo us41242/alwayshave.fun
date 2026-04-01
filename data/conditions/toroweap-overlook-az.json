@@ -17,15 +17,13 @@
   "notes": "60 miles of dirt road \u2014 high clearance required",
   "score": 40,
   "score_label": "Conditions poor",
-  "gear_flags": [
-    "wind layer recommended"
-  ],
+  "gear_flags": [],
   "current": {
     "temp_f": 54,
-    "feels_like_f": 46,
-    "wind_mph": 13,
-    "gusts_mph": 25,
-    "rain_pct": 33
+    "feels_like_f": 48,
+    "wind_mph": 9,
+    "gusts_mph": 18,
+    "rain_pct": 36
   },
   "aqi": {
     "aqi": null,
@@ -36,8 +34,8 @@
   "forecast": [
     {
       "date": "2026-04-01",
-      "high_f": 69,
-      "low_f": 51,
+      "high_f": 68,
+      "low_f": 52,
       "rain_pct": 43,
       "uv": 7
     },
@@ -45,7 +43,7 @@
       "date": "2026-04-02",
       "high_f": 73,
       "low_f": 49,
-      "rain_pct": 4,
+      "rain_pct": 3,
       "uv": 7
     },
     {
@@ -66,9 +64,9 @@
       "date": "2026-04-05",
       "high_f": 78,
       "low_f": 54,
-      "rain_pct": 4,
+      "rain_pct": 6,
       "uv": 7
     }
   ],
-  "updated_at": "2026-04-01T09:04:28.007887+00:00"
+  "updated_at": "2026-04-01T10:35:57.038554+00:00"
 }
