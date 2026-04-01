@@ -17,60 +17,14 @@
   "notes": "Unmaintained \u2014 route-finding required",
   "score": 30,
   "score_label": "Conditions poor",
-  "gear_flags": [
-    "wind layer recommended",
-    "insulation layer required",
-    "rain gear recommended"
-  ],
-  "current": {
-    "temp_f": 44,
-    "feels_like_f": 38,
-    "wind_mph": 10,
-    "gusts_mph": 24,
-    "rain_pct": 80
-  },
+  "gear_flags": [],
+  "current": {},
   "aqi": {
     "aqi": null,
     "category": "Unknown",
     "pollutant": ""
   },
   "river": null,
-  "forecast": [
-    {
-      "date": "2026-04-01",
-      "high_f": 58,
-      "low_f": 41,
-      "rain_pct": 86,
-      "uv": 7
-    },
-    {
-      "date": "2026-04-02",
-      "high_f": 62,
-      "low_f": 40,
-      "rain_pct": 4,
-      "uv": 7
-    },
-    {
-      "date": "2026-04-03",
-      "high_f": 56,
-      "low_f": 38,
-      "rain_pct": 1,
-      "uv": 7
-    },
-    {
-      "date": "2026-04-04",
-      "high_f": 62,
-      "low_f": 40,
-      "rain_pct": 1,
-      "uv": 7
-    },
-    {
-      "date": "2026-04-05",
-      "high_f": 69,
-      "low_f": 47,
-      "rain_pct": 6,
-      "uv": 7
-    }
-  ],
-  "updated_at": "2026-04-01T08:23:20.988222+00:00"
+  "forecast": [],
+  "updated_at": "2026-04-01T09:03:51.532249+00:00"
 }
