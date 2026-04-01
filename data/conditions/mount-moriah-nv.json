@@ -17,59 +17,14 @@
   "notes": "Remote \u2014 no cell service; snow until July",
   "score": 30,
   "score_label": "Conditions poor",
-  "gear_flags": [
-    "wind layer recommended",
-    "insulation layer required"
-  ],
-  "current": {
-    "temp_f": 28,
-    "feels_like_f": 16,
-    "wind_mph": 16,
-    "gusts_mph": 28,
-    "rain_pct": 3
-  },
+  "gear_flags": [],
+  "current": {},
   "aqi": {
     "aqi": null,
     "category": "Unknown",
     "pollutant": ""
   },
   "river": null,
-  "forecast": [
-    {
-      "date": "2026-04-01",
-      "high_f": 30,
-      "low_f": 20,
-      "rain_pct": 75,
-      "uv": 7
-    },
-    {
-      "date": "2026-04-02",
-      "high_f": 27,
-      "low_f": 3,
-      "rain_pct": 5,
-      "uv": 6
-    },
-    {
-      "date": "2026-04-03",
-      "high_f": 29,
-      "low_f": 0,
-      "rain_pct": 2,
-      "uv": 7
-    },
-    {
-      "date": "2026-04-04",
-      "high_f": 35,
-      "low_f": 18,
-      "rain_pct": 1,
-      "uv": 7
-    },
-    {
-      "date": "2026-04-05",
-      "high_f": 41,
-      "low_f": 22,
-      "rain_pct": 1,
-      "uv": 7
-    }
-  ],
-  "updated_at": "2026-04-01T22:37:59.265626+00:00"
+  "forecast": [],
+  "updated_at": "2026-04-01T23:37:02.509571+00:00"
 }

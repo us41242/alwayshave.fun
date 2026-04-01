@@ -15,16 +15,61 @@
   "alerts_url": "https://www.fs.usda.gov/htnf",
   "status": "Open",
   "notes": "Popular weekend trail \u2014 arrive before 8am",
-  "score": 30,
-  "score_label": "Conditions poor",
-  "gear_flags": [],
-  "current": {},
+  "score": 58,
+  "score_label": "Use caution",
+  "gear_flags": [
+    "wind layer recommended",
+    "insulation layer required"
+  ],
+  "current": {
+    "temp_f": 41,
+    "feels_like_f": 29,
+    "wind_mph": 17,
+    "gusts_mph": 26,
+    "rain_pct": 1
+  },
   "aqi": {
     "aqi": null,
     "category": "Unknown",
     "pollutant": ""
   },
   "river": null,
-  "forecast": [],
-  "updated_at": "2026-04-01T22:37:44.685960+00:00"
+  "forecast": [
+    {
+      "date": "2026-04-01",
+      "high_f": 43,
+      "low_f": 28,
+      "rain_pct": 54,
+      "uv": 8
+    },
+    {
+      "date": "2026-04-02",
+      "high_f": 50,
+      "low_f": 31,
+      "rain_pct": 0,
+      "uv": 8
+    },
+    {
+      "date": "2026-04-03",
+      "high_f": 43,
+      "low_f": 23,
+      "rain_pct": 1,
+      "uv": 8
+    },
+    {
+      "date": "2026-04-04",
+      "high_f": 50,
+      "low_f": 34,
+      "rain_pct": 1,
+      "uv": 8
+    },
+    {
+      "date": "2026-04-05",
+      "high_f": 54,
+      "low_f": 40,
+      "rain_pct": 3,
+      "uv": 8
+    }
+  ],
+  "updated_at": "2026-04-01T23:36:06.036102+00:00"
 }
