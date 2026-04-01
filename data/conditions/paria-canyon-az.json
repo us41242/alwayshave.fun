@@ -15,16 +15,60 @@
   "alerts_url": "https://www.blm.gov/visit/paria-canyon",
   "status": "Open",
   "notes": "Multi-day \u2014 permit required; flash flood danger",
-  "score": 30,
-  "score_label": "Conditions poor",
-  "gear_flags": [],
-  "current": {},
+  "score": 58,
+  "score_label": "Use caution",
+  "gear_flags": [
+    "wind layer recommended"
+  ],
+  "current": {
+    "temp_f": 59,
+    "feels_like_f": 51,
+    "wind_mph": 20,
+    "gusts_mph": 32,
+    "rain_pct": 2
+  },
   "aqi": {
     "aqi": null,
     "category": "Unknown",
     "pollutant": ""
   },
   "river": null,
-  "forecast": [],
-  "updated_at": "2026-04-01T19:38:47.511729+00:00"
+  "forecast": [
+    {
+      "date": "2026-04-01",
+      "high_f": 62,
+      "low_f": 49,
+      "rain_pct": 47,
+      "uv": 7
+    },
+    {
+      "date": "2026-04-02",
+      "high_f": 71,
+      "low_f": 43,
+      "rain_pct": 2,
+      "uv": 8
+    },
+    {
+      "date": "2026-04-03",
+      "high_f": 60,
+      "low_f": 34,
+      "rain_pct": 2,
+      "uv": 7
+    },
+    {
+      "date": "2026-04-04",
+      "high_f": 66,
+      "low_f": 41,
+      "rain_pct": 0,
+      "uv": 8
+    },
+    {
+      "date": "2026-04-05",
+      "high_f": 72,
+      "low_f": 45,
+      "rain_pct": 3,
+      "uv": 8
+    }
+  ],
+  "updated_at": "2026-04-01T20:43:44.902301+00:00"
 }

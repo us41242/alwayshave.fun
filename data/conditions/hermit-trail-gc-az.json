@@ -15,60 +15,16 @@
   "alerts_url": "https://www.nps.gov/grca/planyourvisit/conditions.htm",
   "status": "Open",
   "notes": "Unmaintained \u2014 route-finding required",
-  "score": 58,
-  "score_label": "Use caution",
-  "gear_flags": [
-    "wind layer recommended"
-  ],
-  "current": {
-    "temp_f": 52,
-    "feels_like_f": 45,
-    "wind_mph": 18,
-    "gusts_mph": 24,
-    "rain_pct": 2
-  },
+  "score": 30,
+  "score_label": "Conditions poor",
+  "gear_flags": [],
+  "current": {},
   "aqi": {
     "aqi": null,
     "category": "Unknown",
     "pollutant": ""
   },
   "river": null,
-  "forecast": [
-    {
-      "date": "2026-04-01",
-      "high_f": 59,
-      "low_f": 42,
-      "rain_pct": 86,
-      "uv": 4
-    },
-    {
-      "date": "2026-04-02",
-      "high_f": 62,
-      "low_f": 40,
-      "rain_pct": 3,
-      "uv": 7
-    },
-    {
-      "date": "2026-04-03",
-      "high_f": 55,
-      "low_f": 36,
-      "rain_pct": 1,
-      "uv": 7
-    },
-    {
-      "date": "2026-04-04",
-      "high_f": 62,
-      "low_f": 39,
-      "rain_pct": 0,
-      "uv": 7
-    },
-    {
-      "date": "2026-04-05",
-      "high_f": 68,
-      "low_f": 47,
-      "rain_pct": 6,
-      "uv": 7
-    }
-  ],
-  "updated_at": "2026-04-01T19:38:20.226773+00:00"
+  "forecast": [],
+  "updated_at": "2026-04-01T20:42:30.643345+00:00"
 }
