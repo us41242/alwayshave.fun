@@ -2,8 +2,11 @@ name: Fetch Trail Conditions
 
 on:
   schedule:
-    - cron: '*/30 * * * *'  # every 30 minutes
-  workflow_dispatch:          # allows manual trigger from GitHub UI
+    - cron: '*/30 * * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
 
 jobs:
   fetch:
@@ -34,3 +37,5 @@ jobs:
           git add data/
           git diff --staged --quiet || git commit -m "data: update trail conditions $(date -u +%Y-%m-%dT%H:%M:%SZ)"
           git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
