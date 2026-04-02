@@ -19,10 +19,10 @@
   "score_label": "Good conditions",
   "gear_flags": [],
   "current": {
-    "temp_f": 51,
-    "feels_like_f": 46,
-    "wind_mph": 5,
-    "gusts_mph": 12,
+    "temp_f": 50,
+    "feels_like_f": 45,
+    "wind_mph": 6,
+    "gusts_mph": 8,
     "rain_pct": 1
   },
   "aqi": {
@@ -53,7 +53,7 @@
       "date": "2026-04-03",
       "high_f": 62,
       "low_f": 35,
-      "rain_pct": 7,
+      "rain_pct": 1,
       "uv": 7
     },
     {
@@ -71,5 +71,5 @@
       "uv": 7
     }
   ],
-  "updated_at": "2026-04-02T02:07:55.324039+00:00"
+  "updated_at": "2026-04-02T02:24:11.986790+00:00"
 }
