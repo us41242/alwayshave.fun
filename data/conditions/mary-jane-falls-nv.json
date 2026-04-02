@@ -15,7 +15,7 @@
   "alerts_url": "https://www.fs.usda.gov/htnf",
   "status": "Open",
   "notes": "Popular weekend trail \u2014 arrive before 8am",
-  "score": 30,
+  "score": 40,
   "score_label": "Conditions poor",
   "gear_flags": [
     "wind layer recommended",
@@ -23,9 +23,9 @@
   ],
   "current": {
     "temp_f": 35,
-    "feels_like_f": 20,
-    "wind_mph": 23,
-    "gusts_mph": 37,
+    "feels_like_f": 22,
+    "wind_mph": 18,
+    "gusts_mph": 33,
     "rain_pct": 0
   },
   "aqi": {
@@ -37,7 +37,7 @@
   "forecast": [
     {
       "date": "2026-04-02",
-      "high_f": 52,
+      "high_f": 53,
       "low_f": 31,
       "rain_pct": 0,
       "uv": 8
@@ -71,5 +71,5 @@
       "uv": 6
     }
   ],
-  "updated_at": "2026-04-02T10:08:44.832624+00:00"
+  "updated_at": "2026-04-02T11:25:25.816304+00:00"
 }
