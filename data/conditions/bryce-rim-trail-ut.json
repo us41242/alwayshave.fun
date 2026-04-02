@@ -17,15 +17,12 @@
   "notes": "Snow possible May; check road status",
   "score": 58,
   "score_label": "Use caution",
-  "gear_flags": [
-    "wind layer recommended",
-    "insulation layer required"
-  ],
+  "gear_flags": [],
   "current": {
-    "temp_f": 40,
-    "feels_like_f": 31,
-    "wind_mph": 11,
-    "gusts_mph": 23,
+    "temp_f": 45,
+    "feels_like_f": 38,
+    "wind_mph": 10,
+    "gusts_mph": 19,
     "rain_pct": 0
   },
   "aqi": {
@@ -39,7 +36,7 @@
       "date": "2026-04-02",
       "high_f": 53,
       "low_f": 28,
-      "rain_pct": 4,
+      "rain_pct": 3,
       "uv": 8
     },
     {
@@ -71,5 +68,5 @@
       "uv": 7
     }
   ],
-  "updated_at": "2026-04-02T15:34:47.892966+00:00"
+  "updated_at": "2026-04-02T16:55:48.728125+00:00"
 }
