@@ -19,10 +19,10 @@
   "score_label": "Use caution",
   "gear_flags": [],
   "current": {
-    "temp_f": 80,
-    "feels_like_f": 77,
-    "wind_mph": 7,
-    "gusts_mph": 12,
+    "temp_f": 82,
+    "feels_like_f": 78,
+    "wind_mph": 13,
+    "gusts_mph": 14,
     "rain_pct": 0
   },
   "aqi": {
@@ -41,15 +41,15 @@
     },
     {
       "date": "2026-04-03",
-      "high_f": 77,
-      "low_f": 56,
+      "high_f": 76,
+      "low_f": 57,
       "rain_pct": 0,
       "uv": 7
     },
     {
       "date": "2026-04-04",
       "high_f": 85,
-      "low_f": 57,
+      "low_f": 56,
       "rain_pct": 0,
       "uv": 7
     },
@@ -68,5 +68,5 @@
       "uv": 6
     }
   ],
-  "updated_at": "2026-04-02T20:03:45.000053+00:00"
+  "updated_at": "2026-04-02T20:35:44.605470+00:00"
 }

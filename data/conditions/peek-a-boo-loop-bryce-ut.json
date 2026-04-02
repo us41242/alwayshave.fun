@@ -15,60 +15,16 @@
   "alerts_url": "https://www.nps.gov/brca/planyourvisit/conditions.htm",
   "status": "Open",
   "notes": "Hoodoos narrow \u2014 ice possible May/Oct",
-  "score": 58,
-  "score_label": "Use caution",
-  "gear_flags": [
-    "wind layer recommended"
-  ],
-  "current": {
-    "temp_f": 50,
-    "feels_like_f": 41,
-    "wind_mph": 20,
-    "gusts_mph": 29,
-    "rain_pct": 1
-  },
+  "score": 30,
+  "score_label": "Conditions poor",
+  "gear_flags": [],
+  "current": {},
   "aqi": {
     "aqi": null,
     "category": "Unknown",
     "pollutant": ""
   },
   "river": null,
-  "forecast": [
-    {
-      "date": "2026-04-02",
-      "high_f": 52,
-      "low_f": 28,
-      "rain_pct": 1,
-      "uv": 8
-    },
-    {
-      "date": "2026-04-03",
-      "high_f": 46,
-      "low_f": 20,
-      "rain_pct": 0,
-      "uv": 7
-    },
-    {
-      "date": "2026-04-04",
-      "high_f": 54,
-      "low_f": 26,
-      "rain_pct": 0,
-      "uv": 8
-    },
-    {
-      "date": "2026-04-05",
-      "high_f": 56,
-      "low_f": 34,
-      "rain_pct": 1,
-      "uv": 8
-    },
-    {
-      "date": "2026-04-06",
-      "high_f": 57,
-      "low_f": 37,
-      "rain_pct": 18,
-      "uv": 7
-    }
-  ],
-  "updated_at": "2026-04-02T20:03:42.244947+00:00"
+  "forecast": [],
+  "updated_at": "2026-04-02T20:35:32.417564+00:00"
 }
