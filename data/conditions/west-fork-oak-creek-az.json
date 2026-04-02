@@ -15,10 +15,18 @@
   "alerts_url": "https://www.fs.usda.gov/coconino",
   "status": "Open",
   "notes": "Creek crossings \u2014 check water levels after rain",
-  "score": 30,
-  "score_label": "Conditions poor",
-  "gear_flags": [],
-  "current": {},
+  "score": 58,
+  "score_label": "Use caution",
+  "gear_flags": [
+    "wind layer recommended"
+  ],
+  "current": {
+    "temp_f": 62,
+    "feels_like_f": 50,
+    "wind_mph": 21,
+    "gusts_mph": 28,
+    "rain_pct": 1
+  },
   "aqi": {
     "aqi": null,
     "category": "Unknown",
@@ -28,6 +36,42 @@
     "cfs": 40,
     "stage": "low"
   },
-  "forecast": [],
-  "updated_at": "2026-04-02T22:59:54.371312+00:00"
+  "forecast": [
+    {
+      "date": "2026-04-02",
+      "high_f": 64,
+      "low_f": 44,
+      "rain_pct": 1,
+      "uv": 7
+    },
+    {
+      "date": "2026-04-03",
+      "high_f": 60,
+      "low_f": 40,
+      "rain_pct": 0,
+      "uv": 8
+    },
+    {
+      "date": "2026-04-04",
+      "high_f": 63,
+      "low_f": 40,
+      "rain_pct": 0,
+      "uv": 7
+    },
+    {
+      "date": "2026-04-05",
+      "high_f": 68,
+      "low_f": 50,
+      "rain_pct": 23,
+      "uv": 6
+    },
+    {
+      "date": "2026-04-06",
+      "high_f": 67,
+      "low_f": 47,
+      "rain_pct": 24,
+      "uv": 5
+    }
+  ],
+  "updated_at": "2026-04-02T23:04:05.313594+00:00"
 }
