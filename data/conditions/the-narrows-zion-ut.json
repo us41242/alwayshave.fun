@@ -19,11 +19,11 @@
   "score_label": "Use caution",
   "gear_flags": [],
   "current": {
-    "temp_f": 47,
-    "feels_like_f": 40,
-    "wind_mph": 10,
-    "gusts_mph": 13,
-    "rain_pct": 1
+    "temp_f": 46,
+    "feels_like_f": 39,
+    "wind_mph": 9,
+    "gusts_mph": 9,
+    "rain_pct": 3
   },
   "aqi": {
     "aqi": null,
@@ -31,7 +31,7 @@
     "pollutant": ""
   },
   "river": {
-    "cfs": 8240,
+    "cfs": 8110,
     "stage": "flood"
   },
   "forecast": [
@@ -39,7 +39,7 @@
       "date": "2026-04-02",
       "high_f": 63,
       "low_f": 41,
-      "rain_pct": 10,
+      "rain_pct": 7,
       "uv": 7
     },
     {
@@ -71,5 +71,5 @@
       "uv": 6
     }
   ],
-  "updated_at": "2026-04-02T06:11:34.197312+00:00"
+  "updated_at": "2026-04-02T07:47:00.802595+00:00"
 }

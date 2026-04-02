@@ -15,17 +15,17 @@
   "alerts_url": "https://www.nps.gov/brca/planyourvisit/conditions.htm",
   "status": "Open",
   "notes": "Snow possible May; check road status",
-  "score": 40,
+  "score": 30,
   "score_label": "Conditions poor",
   "gear_flags": [
     "wind layer recommended",
     "insulation layer required"
   ],
   "current": {
-    "temp_f": 36,
-    "feels_like_f": 26,
-    "wind_mph": 14,
-    "gusts_mph": 21,
+    "temp_f": 35,
+    "feels_like_f": 24,
+    "wind_mph": 13,
+    "gusts_mph": 26,
     "rain_pct": 0
   },
   "aqi": {
@@ -39,7 +39,7 @@
       "date": "2026-04-02",
       "high_f": 53,
       "low_f": 27,
-      "rain_pct": 6,
+      "rain_pct": 5,
       "uv": 8
     },
     {
@@ -71,5 +71,5 @@
       "uv": 7
     }
   ],
-  "updated_at": "2026-04-02T06:11:34.809133+00:00"
+  "updated_at": "2026-04-02T07:47:01.687089+00:00"
 }
