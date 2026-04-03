@@ -15,10 +15,18 @@
   "alerts_url": "https://www.nps.gov/zion/planyourvisit/conditions.htm",
   "status": "Open",
   "notes": "Flash flood danger \u2014 check weather 24hr upstream",
-  "score": 60,
-  "score_label": "Use caution",
-  "gear_flags": [],
-  "current": {},
+  "score": 70,
+  "score_label": "Good conditions",
+  "gear_flags": [
+    "insulation layer required"
+  ],
+  "current": {
+    "temp_f": 40,
+    "feels_like_f": 31,
+    "wind_mph": 5,
+    "gusts_mph": 12,
+    "rain_pct": 0
+  },
   "aqi": {
     "aqi": 42,
     "category": "Good",
@@ -30,9 +38,45 @@
     "fire_count_50km": 0
   },
   "river": {
-    "cfs": 7840,
+    "cfs": 7770,
     "stage": "flood"
   },
-  "forecast": [],
-  "updated_at": "2026-04-03T15:09:26.419408+00:00"
+  "forecast": [
+    {
+      "date": "2026-04-03",
+      "high_f": 54,
+      "low_f": 30,
+      "rain_pct": 0,
+      "uv": 7
+    },
+    {
+      "date": "2026-04-04",
+      "high_f": 61,
+      "low_f": 34,
+      "rain_pct": 0,
+      "uv": 8
+    },
+    {
+      "date": "2026-04-05",
+      "high_f": 63,
+      "low_f": 43,
+      "rain_pct": 4,
+      "uv": 7
+    },
+    {
+      "date": "2026-04-06",
+      "high_f": 64,
+      "low_f": 48,
+      "rain_pct": 36,
+      "uv": 7
+    },
+    {
+      "date": "2026-04-07",
+      "high_f": 65,
+      "low_f": 48,
+      "rain_pct": 13,
+      "uv": 8
+    }
+  ],
+  "updated_at": "2026-04-03T16:02:36.258854+00:00"
 }

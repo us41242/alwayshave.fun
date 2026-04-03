@@ -15,10 +15,18 @@
   "alerts_url": "https://www.blm.gov/visit/vermilion-cliffs",
   "status": "Open",
   "notes": "Flash flood zone \u2014 avoid any chance of rain",
-  "score": 30,
-  "score_label": "Conditions poor",
-  "gear_flags": [],
-  "current": {},
+  "score": 58,
+  "score_label": "Use caution",
+  "gear_flags": [
+    "insulation layer required"
+  ],
+  "current": {
+    "temp_f": 42,
+    "feels_like_f": 31,
+    "wind_mph": 12,
+    "gusts_mph": 14,
+    "rain_pct": 0
+  },
   "aqi": {
     "aqi": null,
     "category": "Unknown",
@@ -30,6 +38,42 @@
     "fire_count_50km": 0
   },
   "river": null,
-  "forecast": [],
-  "updated_at": "2026-04-03T15:09:46.997570+00:00"
+  "forecast": [
+    {
+      "date": "2026-04-03",
+      "high_f": 56,
+      "low_f": 33,
+      "rain_pct": 3,
+      "uv": 7
+    },
+    {
+      "date": "2026-04-04",
+      "high_f": 63,
+      "low_f": 34,
+      "rain_pct": 0,
+      "uv": 8
+    },
+    {
+      "date": "2026-04-05",
+      "high_f": 68,
+      "low_f": 43,
+      "rain_pct": 2,
+      "uv": 7
+    },
+    {
+      "date": "2026-04-06",
+      "high_f": 72,
+      "low_f": 48,
+      "rain_pct": 31,
+      "uv": 7
+    },
+    {
+      "date": "2026-04-07",
+      "high_f": 76,
+      "low_f": 50,
+      "rain_pct": 7,
+      "uv": 8
+    }
+  ],
+  "updated_at": "2026-04-03T16:02:37.562315+00:00"
 }
