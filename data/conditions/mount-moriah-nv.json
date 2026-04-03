@@ -15,16 +15,16 @@
   "alerts_url": "https://www.fs.usda.gov/htnf",
   "status": "Open",
   "notes": "Remote \u2014 no cell service; snow until July",
-  "score": 30,
-  "score_label": "Conditions poor",
+  "score": 60,
+  "score_label": "Use caution",
   "gear_flags": [],
   "current": {},
   "aqi": {
-    "aqi": null,
-    "category": "Unknown",
-    "pollutant": ""
+    "aqi": 44,
+    "category": "Good",
+    "pollutant": "O3"
   },
   "river": null,
   "forecast": [],
-  "updated_at": "2026-04-03T09:56:33.302062+00:00"
+  "updated_at": "2026-04-03T10:08:07.945310+00:00"
 }

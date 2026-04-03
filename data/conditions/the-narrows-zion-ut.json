@@ -15,22 +15,22 @@
   "alerts_url": "https://www.nps.gov/zion/planyourvisit/conditions.htm",
   "status": "Open",
   "notes": "Check Virgin River flow \u2014 USGS gauge 09380000",
-  "score": 40,
-  "score_label": "Conditions poor",
+  "score": 70,
+  "score_label": "Good conditions",
   "gear_flags": [
     "insulation layer required"
   ],
   "current": {
-    "temp_f": 38,
-    "feels_like_f": 31,
+    "temp_f": 37,
+    "feels_like_f": 30,
     "wind_mph": 3,
-    "gusts_mph": 13,
+    "gusts_mph": 12,
     "rain_pct": 0
   },
   "aqi": {
-    "aqi": null,
-    "category": "Unknown",
-    "pollutant": ""
+    "aqi": 39,
+    "category": "Good",
+    "pollutant": "O3"
   },
   "river": {
     "cfs": 7800,
@@ -73,5 +73,5 @@
       "uv": 8
     }
   ],
-  "updated_at": "2026-04-03T09:54:15.883009+00:00"
+  "updated_at": "2026-04-03T10:06:23.304379+00:00"
 }

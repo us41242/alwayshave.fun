@@ -15,19 +15,19 @@
   "alerts_url": "https://www.nps.gov/grca/planyourvisit/conditions.htm",
   "status": "Open",
   "notes": "Summer heat extreme \u2014 start before sunrise",
-  "score": 30,
-  "score_label": "Conditions poor",
+  "score": 60,
+  "score_label": "Use caution",
   "gear_flags": [],
   "current": {},
   "aqi": {
-    "aqi": null,
-    "category": "Unknown",
-    "pollutant": ""
+    "aqi": 48,
+    "category": "Good",
+    "pollutant": "O3"
   },
   "river": {
     "cfs": 8110,
     "stage": "flood"
   },
   "forecast": [],
-  "updated_at": "2026-04-03T09:55:03.204630+00:00"
+  "updated_at": "2026-04-03T10:06:48.677764+00:00"
 }
