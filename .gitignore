@@ -152,7 +152,7 @@ venv.bak/
 .ropeproject
 
 # mkdocs documentation
-/site
+# /site  <- commented out: we use site/ for our HTML
 
 # mypy
 .mypy_cache/
@@ -209,5 +209,7 @@ __marimo__/
 .env.local
 .env.local
 *.env.local
-!site/
-!site/sitemap.xml
+# Claude Code worktrees and local tooling
+.claude/
+.DS_Store
+photos/.DS_Store
