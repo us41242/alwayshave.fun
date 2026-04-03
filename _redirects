@@ -1,4 +1,1 @@
-# Cloudflare Workers static assets routing
-# / serves index.html automatically
-# /{state}/{slug} rewrites to trail.html (200 = serve without changing URL)
-/:state/:slug   /trail.html   200
+# Routing is handled by worker.js — no rules needed here.
