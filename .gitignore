@@ -213,3 +213,7 @@ __marimo__/
 .claude/
 .DS_Store
 photos/.DS_Store
+# Node / Wrangler
+node_modules/
+.wrangler/
+package-lock.json

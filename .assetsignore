@@ -1,6 +1,10 @@
 node_modules/
 worker.js
 .git/
+.wrangler/
+.claude/
+.DS_Store
+Get images for always have fun
 scripts/
 seeds/
 requirements.txt
