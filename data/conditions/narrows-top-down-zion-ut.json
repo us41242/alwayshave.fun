@@ -15,14 +15,14 @@
   "alerts_url": "https://www.nps.gov/zion/planyourvisit/conditions.htm",
   "status": "Open",
   "notes": "Flash flood danger \u2014 check weather 24hr upstream",
-  "score": 60,
-  "score_label": "Use caution",
+  "score": 30,
+  "score_label": "Conditions poor",
   "gear_flags": [],
   "current": {},
   "aqi": {
-    "aqi": 42,
-    "category": "Good",
-    "pollutant": "O3"
+    "aqi": null,
+    "category": "Unknown",
+    "pollutant": ""
   },
   "fire": {
     "risk_level": "low",
@@ -34,5 +34,5 @@
     "stage": "flood"
   },
   "forecast": [],
-  "updated_at": "2026-04-03T11:39:10.434601+00:00"
+  "updated_at": "2026-04-03T12:00:27.584247+00:00"
 }

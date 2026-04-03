@@ -17,17 +17,8 @@
   "notes": "High-alpine \u2014 thunderstorm risk after noon; start before 7am",
   "score": 60,
   "score_label": "Use caution",
-  "gear_flags": [
-    "wind layer recommended",
-    "insulation layer required"
-  ],
-  "current": {
-    "temp_f": 14,
-    "feels_like_f": 4,
-    "wind_mph": 10,
-    "gusts_mph": 30,
-    "rain_pct": 6
-  },
+  "gear_flags": [],
+  "current": {},
   "aqi": {
     "aqi": 33,
     "category": "Good",
@@ -39,42 +30,6 @@
     "fire_count_50km": 0
   },
   "river": null,
-  "forecast": [
-    {
-      "date": "2026-04-03",
-      "high_f": 25,
-      "low_f": 4,
-      "rain_pct": 21,
-      "uv": 8
-    },
-    {
-      "date": "2026-04-04",
-      "high_f": 32,
-      "low_f": 9,
-      "rain_pct": 1,
-      "uv": 8
-    },
-    {
-      "date": "2026-04-05",
-      "high_f": 40,
-      "low_f": 21,
-      "rain_pct": 14,
-      "uv": 8
-    },
-    {
-      "date": "2026-04-06",
-      "high_f": 37,
-      "low_f": 23,
-      "rain_pct": 80,
-      "uv": 6
-    },
-    {
-      "date": "2026-04-07",
-      "high_f": 39,
-      "low_f": 25,
-      "rain_pct": 78,
-      "uv": 7
-    }
-  ],
-  "updated_at": "2026-04-03T11:40:50.204958+00:00"
+  "forecast": [],
+  "updated_at": "2026-04-03T12:02:08.702468+00:00"
 }
