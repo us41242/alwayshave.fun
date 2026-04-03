@@ -15,16 +15,16 @@
   "alerts_url": "https://rivermountainstrail.org/",
   "status": "Open",
   "notes": "Full loop 34mi \u2014 sections open to bikes/horses",
-  "score": 46,
-  "score_label": "Conditions poor",
+  "score": 16,
+  "score_label": "Stay home",
   "gear_flags": [
     "N95 mask recommended for wildfire smoke"
   ],
   "current": {},
   "aqi": {
-    "aqi": 44,
-    "category": "Good",
-    "pollutant": "O3"
+    "aqi": null,
+    "category": "Unknown",
+    "pollutant": ""
   },
   "fire": {
     "risk_level": "elevated",
@@ -33,5 +33,5 @@
   },
   "river": null,
   "forecast": [],
-  "updated_at": "2026-04-03T19:13:43.998651+00:00"
+  "updated_at": "2026-04-03T20:00:17.318996+00:00"
 }
