@@ -15,12 +15,20 @@
   "alerts_url": "https://www.fs.usda.gov/ltbmu",
   "status": "Open",
   "notes": "No cars beyond Spooner Summit; bike-legal trail",
-  "score": 60,
-  "score_label": "Use caution",
-  "gear_flags": [],
-  "current": {},
+  "score": 88,
+  "score_label": "Great day to go",
+  "gear_flags": [
+    "wind layer recommended"
+  ],
+  "current": {
+    "temp_f": 46,
+    "feels_like_f": 32,
+    "wind_mph": 20,
+    "gusts_mph": 26,
+    "rain_pct": 0
+  },
   "aqi": {
-    "aqi": 44,
+    "aqi": 42,
     "category": "Good",
     "pollutant": "O3"
   },
@@ -30,6 +38,42 @@
     "fire_count_50km": 0
   },
   "river": null,
-  "forecast": [],
-  "updated_at": "2026-04-03T22:35:44.371860+00:00"
+  "forecast": [
+    {
+      "date": "2026-04-03",
+      "high_f": 46,
+      "low_f": 25,
+      "rain_pct": 0,
+      "uv": 7
+    },
+    {
+      "date": "2026-04-04",
+      "high_f": 56,
+      "low_f": 38,
+      "rain_pct": 0,
+      "uv": 7
+    },
+    {
+      "date": "2026-04-05",
+      "high_f": 59,
+      "low_f": 43,
+      "rain_pct": 0,
+      "uv": 7
+    },
+    {
+      "date": "2026-04-06",
+      "high_f": 59,
+      "low_f": 42,
+      "rain_pct": 1,
+      "uv": 7
+    },
+    {
+      "date": "2026-04-07",
+      "high_f": 58,
+      "low_f": 40,
+      "rain_pct": 4,
+      "uv": 7
+    }
+  ],
+  "updated_at": "2026-04-03T23:36:05.445188+00:00"
 }

@@ -15,10 +15,18 @@
   "alerts_url": "https://www.blm.gov/visit/gold-butte",
   "status": "Open",
   "notes": "4WD required; no services for 50 miles",
-  "score": 22,
-  "score_label": "Stay home",
-  "gear_flags": [],
-  "current": {},
+  "score": 50,
+  "score_label": "Use caution",
+  "gear_flags": [
+    "wind layer recommended"
+  ],
+  "current": {
+    "temp_f": 45,
+    "feels_like_f": 32,
+    "wind_mph": 16,
+    "gusts_mph": 21,
+    "rain_pct": 0
+  },
   "aqi": {
     "aqi": null,
     "category": "Unknown",
@@ -30,6 +38,42 @@
     "fire_count_50km": 0
   },
   "river": null,
-  "forecast": [],
-  "updated_at": "2026-04-03T22:32:57.540079+00:00"
+  "forecast": [
+    {
+      "date": "2026-04-03",
+      "high_f": 45,
+      "low_f": 27,
+      "rain_pct": 0,
+      "uv": 7
+    },
+    {
+      "date": "2026-04-04",
+      "high_f": 55,
+      "low_f": 31,
+      "rain_pct": 0,
+      "uv": 7
+    },
+    {
+      "date": "2026-04-05",
+      "high_f": 64,
+      "low_f": 36,
+      "rain_pct": 2,
+      "uv": 7
+    },
+    {
+      "date": "2026-04-06",
+      "high_f": 64,
+      "low_f": 45,
+      "rain_pct": 7,
+      "uv": 6
+    },
+    {
+      "date": "2026-04-07",
+      "high_f": 66,
+      "low_f": 44,
+      "rain_pct": 0,
+      "uv": 8
+    }
+  ],
+  "updated_at": "2026-04-03T23:33:20.064068+00:00"
 }

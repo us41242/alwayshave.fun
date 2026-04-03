@@ -17,8 +17,16 @@
   "notes": "Road open late Jun \u2014 check NPS seasonal closure",
   "score": 60,
   "score_label": "Use caution",
-  "gear_flags": [],
-  "current": {},
+  "gear_flags": [
+    "insulation layer required"
+  ],
+  "current": {
+    "temp_f": 23,
+    "feels_like_f": 16,
+    "wind_mph": 1,
+    "gusts_mph": 9,
+    "rain_pct": 0
+  },
   "aqi": {
     "aqi": 42,
     "category": "Good",
@@ -30,6 +38,42 @@
     "fire_count_50km": 0
   },
   "river": null,
-  "forecast": [],
-  "updated_at": "2026-04-03T22:32:36.037499+00:00"
+  "forecast": [
+    {
+      "date": "2026-04-03",
+      "high_f": 24,
+      "low_f": -1,
+      "rain_pct": 0,
+      "uv": 7
+    },
+    {
+      "date": "2026-04-04",
+      "high_f": 31,
+      "low_f": 14,
+      "rain_pct": 0,
+      "uv": 7
+    },
+    {
+      "date": "2026-04-05",
+      "high_f": 36,
+      "low_f": 18,
+      "rain_pct": 1,
+      "uv": 7
+    },
+    {
+      "date": "2026-04-06",
+      "high_f": 40,
+      "low_f": 23,
+      "rain_pct": 15,
+      "uv": 8
+    },
+    {
+      "date": "2026-04-07",
+      "high_f": 42,
+      "low_f": 26,
+      "rain_pct": 3,
+      "uv": 8
+    }
+  ],
+  "updated_at": "2026-04-03T23:33:18.482906+00:00"
 }
