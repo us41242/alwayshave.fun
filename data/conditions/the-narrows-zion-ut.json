@@ -15,14 +15,14 @@
   "alerts_url": "https://www.nps.gov/zion/planyourvisit/conditions.htm",
   "status": "Open",
   "notes": "Check Virgin River flow \u2014 USGS gauge 09380000",
-  "score": 30,
-  "score_label": "Conditions poor",
+  "score": 60,
+  "score_label": "Use caution",
   "gear_flags": [],
   "current": {},
   "aqi": {
-    "aqi": null,
-    "category": "Unknown",
-    "pollutant": ""
+    "aqi": 43,
+    "category": "Good",
+    "pollutant": "O3"
   },
   "fire": {
     "risk_level": "low",
@@ -34,5 +34,5 @@
     "stage": "flood"
   },
   "forecast": [],
-  "updated_at": "2026-04-03T21:33:05.314803+00:00"
+  "updated_at": "2026-04-03T22:32:15.176155+00:00"
 }
