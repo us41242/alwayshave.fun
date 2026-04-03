@@ -859,10 +859,31 @@
     }
 
     // ─── EMAIL FORM ───────────────────────────────────────────────────────────
-    document.getElementById('email-form').addEventListener('submit', function(e) {
+    document.getElementById('email-form').addEventListener('submit', async function(e) {
       e.preventDefault();
-      // TODO: connect to ConvertKit / Mailchimp / Cloudflare Worker
-      this.innerHTML = '<p style="color:var(--brand);font-weight:600;font-size:0.9rem">✓ You\'re on the list! Check your inbox Friday.</p>';
+      const form  = this;
+      const email = form.querySelector('input[type="email"]').value.trim();
+      const btn   = form.querySelector('button');
+      btn.disabled = true;
+      btn.textContent = 'Subscribing…';
+      try {
+        const res = await fetch('/api/subscribe', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ email }),
+        });
+        if (res.ok) {
+          form.innerHTML = '<p style="color:var(--brand);font-weight:600;font-size:0.9rem">✓ You\'re on the list! Check your inbox Friday.</p>';
+        } else {
+          const data = await res.json().catch(() => ({}));
+          btn.disabled = false;
+          btn.textContent = 'Notify Me';
+          btn.insertAdjacentHTML('afterend', `<p style="color:#ef4444;font-size:0.78rem;margin-top:6px">${data.error || 'Something went wrong — please try again.'}</p>`);
+        }
+      } catch {
+        btn.disabled = false;
+        btn.textContent = 'Notify Me';
+      }
     });
 
     // ─── INIT ─────────────────────────────────────────────────────────────────
