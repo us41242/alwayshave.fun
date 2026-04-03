@@ -80,7 +80,17 @@ def fetch_river(gauge_id):
         print(f"  river error ({gauge_id}): {e}")
         return None
 
-def compute_score(weather, aqi_data):
+def load_fire_data(slug):
+    """Load fire proximity data written by fetch_fires.py, fallback to 20 pts."""
+    path = f"data/fires/{slug}.json"
+    try:
+        with open(path) as f:
+            return json.load(f)
+    except Exception:
+        return {"score_pts": 20, "risk_level": "unknown"}
+
+
+def compute_score(weather, aqi_data, fire_data=None):
     score = 0
 
     # Weather — 40 pts
@@ -102,8 +112,8 @@ def compute_score(weather, aqi_data):
     elif aqi <= 100: score += 20
     elif aqi <= 150: score += 10
 
-    # Fire risk — 20 pts (hardcoded good until fetch_fires.py is integrated)
-    score += 20
+    # Fire risk — 20 pts (from fetch_fires.py; fallback 20 if no data)
+    score += (fire_data or {}).get("score_pts", 20)
 
     # Closure status — 10 pts (hardcoded open until USFS scraper is integrated)
     score += 10
@@ -117,7 +127,7 @@ def score_label(score):
     if score >= 30: return "Conditions poor"
     return "Stay home"
 
-def gear_flags(weather, aqi_data):
+def gear_flags(weather, aqi_data, fire_data=None):
     flags = []
     if weather and "current" in weather:
         c = weather["current"]
@@ -132,7 +142,9 @@ def gear_flags(weather, aqi_data):
         flags.append("N95 mask recommended")
     elif aqi > 50:
         flags.append("mask for sensitive groups")
-    return flags
+    if fire_data and fire_data.get("risk_level") in ("elevated", "high"):
+        flags.append("N95 mask recommended for wildfire smoke")
+    return list(dict.fromkeys(flags))  # deduplicate, preserve order
 
 def process_trail(trail):
     slug      = trail.get("slug", "").strip()
@@ -146,10 +158,11 @@ def process_trail(trail):
 
     print(f"  fetching: {trail.get('name')}")
 
-    weather  = fetch_weather(lat, lng)
-    aqi_data = fetch_aqi(lat, lng)
-    river    = fetch_river(gauge_id)
-    score    = compute_score(weather, aqi_data)
+    weather   = fetch_weather(lat, lng)
+    aqi_data  = fetch_aqi(lat, lng)
+    river     = fetch_river(gauge_id)
+    fire_data = load_fire_data(slug)
+    score     = compute_score(weather, aqi_data, fire_data)
 
     current  = {}
     forecast = []
@@ -192,9 +205,12 @@ def process_trail(trail):
         "notes":       trail.get("notes"),
         "score":       score,
         "score_label": score_label(score),
-        "gear_flags":  gear_flags(weather, aqi_data),
+        "gear_flags":  gear_flags(weather, aqi_data, fire_data),
         "current":     current,
         "aqi":         aqi_data,
+        "fire":        {"risk_level": fire_data.get("risk_level", "unknown"),
+                        "nearest_fire_km": fire_data.get("nearest_fire_km"),
+                        "fire_count_50km": fire_data.get("fire_count_50km", 0)},
         "river":       river,
         "forecast":    forecast,
         "updated_at":  datetime.now(timezone.utc).isoformat(),
