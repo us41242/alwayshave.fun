@@ -15,18 +15,10 @@
   "alerts_url": "https://www.nps.gov/deva/planyourvisit/conditions.htm",
   "status": "Open",
   "notes": "Near Death Valley \u2014 extreme summer heat",
-  "score": 58,
-  "score_label": "Use caution",
-  "gear_flags": [
-    "wind layer recommended"
-  ],
-  "current": {
-    "temp_f": 51,
-    "feels_like_f": 38,
-    "wind_mph": 17,
-    "gusts_mph": 23,
-    "rain_pct": 0
-  },
+  "score": 30,
+  "score_label": "Conditions poor",
+  "gear_flags": [],
+  "current": {},
   "aqi": {
     "aqi": null,
     "category": "Unknown",
@@ -38,42 +30,6 @@
     "fire_count_50km": 0
   },
   "river": null,
-  "forecast": [
-    {
-      "date": "2026-04-03",
-      "high_f": 67,
-      "low_f": 40,
-      "rain_pct": 0,
-      "uv": 7
-    },
-    {
-      "date": "2026-04-04",
-      "high_f": 72,
-      "low_f": 50,
-      "rain_pct": 0,
-      "uv": 8
-    },
-    {
-      "date": "2026-04-05",
-      "high_f": 76,
-      "low_f": 57,
-      "rain_pct": 0,
-      "uv": 8
-    },
-    {
-      "date": "2026-04-06",
-      "high_f": 77,
-      "low_f": 58,
-      "rain_pct": 0,
-      "uv": 8
-    },
-    {
-      "date": "2026-04-07",
-      "high_f": 78,
-      "low_f": 60,
-      "rain_pct": 0,
-      "uv": 8
-    }
-  ],
-  "updated_at": "2026-04-03T17:05:18.956303+00:00"
+  "forecast": [],
+  "updated_at": "2026-04-03T18:02:59.681979+00:00"
 }
