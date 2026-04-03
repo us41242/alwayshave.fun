@@ -15,14 +15,14 @@
   "alerts_url": "https://www.nps.gov/grca/planyourvisit/conditions.htm",
   "status": "Open",
   "notes": "60 miles of dirt road \u2014 high clearance required",
-  "score": 70,
-  "score_label": "Good conditions",
+  "score": 58,
+  "score_label": "Use caution",
   "gear_flags": [],
   "current": {
     "temp_f": 50,
-    "feels_like_f": 44,
+    "feels_like_f": 42,
     "wind_mph": 6,
-    "gusts_mph": 14,
+    "gusts_mph": 13,
     "rain_pct": 0
   },
   "aqi": {
@@ -34,7 +34,7 @@
   "forecast": [
     {
       "date": "2026-04-03",
-      "high_f": 68,
+      "high_f": 69,
       "low_f": 42,
       "rain_pct": 0,
       "uv": 7
@@ -68,5 +68,5 @@
       "uv": 8
     }
   ],
-  "updated_at": "2026-04-03T08:03:24.097972+00:00"
+  "updated_at": "2026-04-03T08:56:54.876713+00:00"
 }

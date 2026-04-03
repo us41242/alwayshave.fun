@@ -17,12 +17,14 @@
   "notes": "Heat advisory Jun\u2013Sep; carry extra water",
   "score": 70,
   "score_label": "Good conditions",
-  "gear_flags": [],
+  "gear_flags": [
+    "wind layer recommended"
+  ],
   "current": {
     "temp_f": 56,
-    "feels_like_f": 47,
-    "wind_mph": 12,
-    "gusts_mph": 20,
+    "feels_like_f": 48,
+    "wind_mph": 8,
+    "gusts_mph": 21,
     "rain_pct": 0
   },
   "aqi": {
@@ -34,7 +36,7 @@
   "forecast": [
     {
       "date": "2026-04-03",
-      "high_f": 71,
+      "high_f": 72,
       "low_f": 50,
       "rain_pct": 0,
       "uv": 7
@@ -68,5 +70,5 @@
       "uv": 7
     }
   ],
-  "updated_at": "2026-04-03T08:01:52.094816+00:00"
+  "updated_at": "2026-04-03T08:54:55.954493+00:00"
 }
