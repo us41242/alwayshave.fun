@@ -15,17 +15,17 @@
   "alerts_url": "https://www.fs.usda.gov/htnf",
   "status": "Open",
   "notes": "Snow above 9000ft until June \u2014 check SNOTEL",
-  "score": 40,
+  "score": 30,
   "score_label": "Conditions poor",
   "gear_flags": [
     "wind layer recommended",
     "insulation layer required"
   ],
   "current": {
-    "temp_f": 35,
-    "feels_like_f": 23,
-    "wind_mph": 14,
-    "gusts_mph": 20,
+    "temp_f": 29,
+    "feels_like_f": 19,
+    "wind_mph": 10,
+    "gusts_mph": 21,
     "rain_pct": 0
   },
   "aqi": {
@@ -45,13 +45,13 @@
     {
       "date": "2026-04-03",
       "high_f": 32,
-      "low_f": 13,
+      "low_f": 12,
       "rain_pct": 0,
       "uv": 8
     },
     {
       "date": "2026-04-04",
-      "high_f": 38,
+      "high_f": 37,
       "low_f": 22,
       "rain_pct": 0,
       "uv": 8
@@ -71,5 +71,5 @@
       "uv": 7
     }
   ],
-  "updated_at": "2026-04-02T23:57:56.734636+00:00"
+  "updated_at": "2026-04-03T02:25:01.913360+00:00"
 }

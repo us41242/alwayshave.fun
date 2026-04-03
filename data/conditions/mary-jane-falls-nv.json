@@ -17,12 +17,15 @@
   "notes": "Popular weekend trail \u2014 arrive before 8am",
   "score": 58,
   "score_label": "Use caution",
-  "gear_flags": [],
+  "gear_flags": [
+    "wind layer recommended",
+    "insulation layer required"
+  ],
   "current": {
-    "temp_f": 49,
-    "feels_like_f": 39,
-    "wind_mph": 12,
-    "gusts_mph": 16,
+    "temp_f": 42,
+    "feels_like_f": 32,
+    "wind_mph": 10,
+    "gusts_mph": 21,
     "rain_pct": 0
   },
   "aqi": {
@@ -48,7 +51,7 @@
     },
     {
       "date": "2026-04-04",
-      "high_f": 50,
+      "high_f": 48,
       "low_f": 31,
       "rain_pct": 0,
       "uv": 8
@@ -68,5 +71,5 @@
       "uv": 7
     }
   ],
-  "updated_at": "2026-04-02T23:59:16.210904+00:00"
+  "updated_at": "2026-04-03T02:26:38.002754+00:00"
 }

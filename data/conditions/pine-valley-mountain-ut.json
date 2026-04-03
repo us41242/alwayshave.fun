@@ -15,15 +15,17 @@
   "alerts_url": "https://www.fs.usda.gov/dixie",
   "status": "Open",
   "notes": "Multi-day backpack; no established campsites \u2014 LNT",
-  "score": 70,
-  "score_label": "Good conditions",
-  "gear_flags": [],
+  "score": 58,
+  "score_label": "Use caution",
+  "gear_flags": [
+    "insulation layer required"
+  ],
   "current": {
-    "temp_f": 50,
-    "feels_like_f": 43,
-    "wind_mph": 10,
-    "gusts_mph": 15,
-    "rain_pct": 1
+    "temp_f": 43,
+    "feels_like_f": 35,
+    "wind_mph": 11,
+    "gusts_mph": 17,
+    "rain_pct": 5
   },
   "aqi": {
     "aqi": null,
@@ -35,20 +37,20 @@
     {
       "date": "2026-04-02",
       "high_f": 51,
-      "low_f": 33,
-      "rain_pct": 6,
+      "low_f": 34,
+      "rain_pct": 5,
       "uv": 7
     },
     {
       "date": "2026-04-03",
-      "high_f": 48,
+      "high_f": 49,
       "low_f": 28,
       "rain_pct": 2,
       "uv": 7
     },
     {
       "date": "2026-04-04",
-      "high_f": 61,
+      "high_f": 60,
       "low_f": 32,
       "rain_pct": 0,
       "uv": 7
@@ -68,5 +70,5 @@
       "uv": 7
     }
   ],
-  "updated_at": "2026-04-03T00:00:24.636344+00:00"
+  "updated_at": "2026-04-03T02:26:43.620510+00:00"
 }

@@ -15,14 +15,14 @@
   "alerts_url": "https://www.nps.gov/lake/planyourvisit/conditions.htm",
   "status": "Open",
   "notes": "Paved trail \u2014 no permit required",
-  "score": 58,
-  "score_label": "Use caution",
+  "score": 70,
+  "score_label": "Good conditions",
   "gear_flags": [],
   "current": {
-    "temp_f": 80,
-    "feels_like_f": 73,
-    "wind_mph": 9,
-    "gusts_mph": 11,
+    "temp_f": 74,
+    "feels_like_f": 69,
+    "wind_mph": 5,
+    "gusts_mph": 10,
     "rain_pct": 0
   },
   "aqi": {
@@ -48,8 +48,8 @@
     },
     {
       "date": "2026-04-04",
-      "high_f": 85,
-      "low_f": 56,
+      "high_f": 84,
+      "low_f": 55,
       "rain_pct": 0,
       "uv": 7
     },
@@ -68,5 +68,5 @@
       "uv": 6
     }
   ],
-  "updated_at": "2026-04-02T23:59:18.315175+00:00"
+  "updated_at": "2026-04-03T02:26:39.262322+00:00"
 }
