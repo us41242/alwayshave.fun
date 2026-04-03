@@ -20,11 +20,16 @@
   "gear_flags": [],
   "current": {},
   "aqi": {
-    "aqi": 39,
+    "aqi": 42,
     "category": "Good",
     "pollutant": "O3"
   },
+  "fire": {
+    "risk_level": "low",
+    "nearest_fire_km": null,
+    "fire_count_50km": 0
+  },
   "river": null,
   "forecast": [],
-  "updated_at": "2026-04-03T11:12:53.774107+00:00"
+  "updated_at": "2026-04-03T11:39:58.071783+00:00"
 }

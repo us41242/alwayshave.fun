@@ -1,0 +1,35 @@
+{
+  "trail_id": "33",
+  "name": "Garden of the Gods Main Loop",
+  "slug": "garden-of-the-gods-co",
+  "state": "CO",
+  "region": "Colorado",
+  "lat": "38.8739",
+  "lng": "-104.8697",
+  "difficulty": "Easy",
+  "length_mi": "3.5",
+  "gain_ft": "300",
+  "best_months": "Year-round",
+  "trail_type": "Loop",
+  "park_name": "Garden of the Gods Park",
+  "alerts_url": "https://www.gardenofgods.com",
+  "status": "Open",
+  "notes": "Free entry; busy weekends \u2014 arrive before 9am",
+  "score": 60,
+  "score_label": "Use caution",
+  "gear_flags": [],
+  "current": {},
+  "aqi": {
+    "aqi": 37,
+    "category": "Good",
+    "pollutant": "O3"
+  },
+  "fire": {
+    "risk_level": "low",
+    "nearest_fire_km": null,
+    "fire_count_50km": 0
+  },
+  "river": null,
+  "forecast": [],
+  "updated_at": "2026-04-03T11:40:39.402406+00:00"
+}

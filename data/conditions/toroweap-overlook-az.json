@@ -24,7 +24,12 @@
     "category": "Unknown",
     "pollutant": ""
   },
+  "fire": {
+    "risk_level": "low",
+    "nearest_fire_km": null,
+    "fire_count_50km": 0
+  },
   "river": null,
   "forecast": [],
-  "updated_at": "2026-04-03T11:12:22.119985+00:00"
+  "updated_at": "2026-04-03T11:39:26.780537+00:00"
 }

@@ -1,0 +1,77 @@
+{
+  "trail_id": "39",
+  "name": "Crystal Cove Beach to El Moro",
+  "slug": "crystal-cove-el-moro-ca",
+  "state": "CA",
+  "region": "California",
+  "lat": "33.5692",
+  "lng": "-117.8399",
+  "difficulty": "Easy",
+  "length_mi": "4.4",
+  "gain_ft": "400",
+  "best_months": "Year-round",
+  "trail_type": "Out & back",
+  "park_name": "Crystal Cove SP",
+  "alerts_url": "https://www.parks.ca.gov/?page_id=644",
+  "status": "Open",
+  "notes": "Coastal trail with beach access; busy weekends \u2014 reserve parking",
+  "score": 70,
+  "score_label": "Good conditions",
+  "gear_flags": [],
+  "current": {
+    "temp_f": 55,
+    "feels_like_f": 53,
+    "wind_mph": 5,
+    "gusts_mph": 6,
+    "rain_pct": 0
+  },
+  "aqi": {
+    "aqi": null,
+    "category": "Unknown",
+    "pollutant": ""
+  },
+  "fire": {
+    "risk_level": "low",
+    "nearest_fire_km": null,
+    "fire_count_50km": 0
+  },
+  "river": null,
+  "forecast": [
+    {
+      "date": "2026-04-03",
+      "high_f": 72,
+      "low_f": 55,
+      "rain_pct": 0,
+      "uv": 7
+    },
+    {
+      "date": "2026-04-04",
+      "high_f": 72,
+      "low_f": 59,
+      "rain_pct": 0,
+      "uv": 7
+    },
+    {
+      "date": "2026-04-05",
+      "high_f": 80,
+      "low_f": 65,
+      "rain_pct": 0,
+      "uv": 7
+    },
+    {
+      "date": "2026-04-06",
+      "high_f": 76,
+      "low_f": 64,
+      "rain_pct": 0,
+      "uv": 8
+    },
+    {
+      "date": "2026-04-07",
+      "high_f": 74,
+      "low_f": 62,
+      "rain_pct": 0,
+      "uv": 7
+    }
+  ],
+  "updated_at": "2026-04-03T11:40:52.792109+00:00"
+}

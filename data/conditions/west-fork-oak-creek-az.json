@@ -24,10 +24,15 @@
     "category": "Good",
     "pollutant": "O3"
   },
+  "fire": {
+    "risk_level": "low",
+    "nearest_fire_km": null,
+    "fire_count_50km": 0
+  },
   "river": {
     "cfs": 38,
     "stage": "low"
   },
   "forecast": [],
-  "updated_at": "2026-04-03T11:11:11.747544+00:00"
+  "updated_at": "2026-04-03T11:38:49.287007+00:00"
 }
