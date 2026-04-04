@@ -15,27 +15,27 @@
   "alerts_url": "https://www.nps.gov/brca/planyourvisit/conditions.htm",
   "status": "Open",
   "notes": "Snow possible May; check road status",
-  "score": 70,
-  "score_label": "Good conditions",
+  "score": 88,
+  "score_label": "Great day to go",
   "gear_flags": [
     "insulation layer required"
   ],
   "current": {
-    "temp_f": 36,
-    "feels_like_f": 27,
-    "wind_mph": 7,
-    "gusts_mph": 8,
+    "temp_f": 40,
+    "feels_like_f": 32,
+    "wind_mph": 8,
+    "gusts_mph": 10,
     "rain_pct": 0
   },
   "aqi": {
-    "aqi": 32,
+    "aqi": 40,
     "category": "Good",
     "pollutant": "PM2.5",
     "source": "airnow"
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": 282.3,
+    "nearest_fire_km": 154.7,
     "fire_count_50km": 0
   },
   "river": null,
@@ -739,7 +739,42 @@
       "low_f": 41,
       "rain_pct": 2,
       "uv": 8
+    },
+    {
+      "date": "2026-04-04",
+      "high_f": 53,
+      "low_f": 24,
+      "rain_pct": 0,
+      "uv": 8
+    },
+    {
+      "date": "2026-04-05",
+      "high_f": 58,
+      "low_f": 35,
+      "rain_pct": 0,
+      "uv": 8
+    },
+    {
+      "date": "2026-04-06",
+      "high_f": 61,
+      "low_f": 40,
+      "rain_pct": 31,
+      "uv": 8
+    },
+    {
+      "date": "2026-04-07",
+      "high_f": 63,
+      "low_f": 40,
+      "rain_pct": 14,
+      "uv": 8
+    },
+    {
+      "date": "2026-04-08",
+      "high_f": 62,
+      "low_f": 41,
+      "rain_pct": 2,
+      "uv": 8
     }
   ],
-  "updated_at": "2026-04-04T15:57:37.927300+00:00"
+  "updated_at": "2026-04-04T16:37:03.143053+00:00"
 }

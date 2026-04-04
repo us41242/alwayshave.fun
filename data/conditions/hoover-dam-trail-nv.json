@@ -15,8 +15,8 @@
   "alerts_url": "https://www.nps.gov/lake/planyourvisit/conditions.htm",
   "status": "Open",
   "notes": "Paved trail \u2014 no permit required",
-  "score": 86,
-  "score_label": "Great day to go",
+  "score": 46,
+  "score_label": "Conditions poor",
   "gear_flags": [
     "N95 mask recommended for wildfire smoke"
   ],
@@ -36,7 +36,7 @@
   "fire": {
     "risk_level": "elevated",
     "nearest_fire_km": 40.9,
-    "fire_count_50km": 2
+    "fire_count_50km": 3
   },
   "river": null,
   "forecast": [
@@ -566,5 +566,5 @@
       "uv": 7
     }
   ],
-  "updated_at": "2026-04-04T16:02:01.869662+00:00"
+  "updated_at": "2026-04-04T16:41:27.620843+00:00"
 }

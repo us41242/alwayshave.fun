@@ -17,13 +17,11 @@
   "notes": "Multi-day backpack; no established campsites \u2014 LNT",
   "score": 88,
   "score_label": "Great day to go",
-  "gear_flags": [
-    "insulation layer required"
-  ],
+  "gear_flags": [],
   "current": {
-    "temp_f": 43,
-    "feels_like_f": 33,
-    "wind_mph": 11,
+    "temp_f": 46,
+    "feels_like_f": 36,
+    "wind_mph": 12,
     "gusts_mph": 16,
     "rain_pct": 0
   },
@@ -599,7 +597,42 @@
       "low_f": 47,
       "rain_pct": 2,
       "uv": 8
+    },
+    {
+      "date": "2026-04-04",
+      "high_f": 61,
+      "low_f": 29,
+      "rain_pct": 0,
+      "uv": 7
+    },
+    {
+      "date": "2026-04-05",
+      "high_f": 65,
+      "low_f": 34,
+      "rain_pct": 1,
+      "uv": 7
+    },
+    {
+      "date": "2026-04-06",
+      "high_f": 65,
+      "low_f": 48,
+      "rain_pct": 15,
+      "uv": 8
+    },
+    {
+      "date": "2026-04-07",
+      "high_f": 65,
+      "low_f": 46,
+      "rain_pct": 9,
+      "uv": 8
+    },
+    {
+      "date": "2026-04-08",
+      "high_f": 65,
+      "low_f": 47,
+      "rain_pct": 2,
+      "uv": 8
     }
   ],
-  "updated_at": "2026-04-04T16:02:06.688933+00:00"
+  "updated_at": "2026-04-04T16:41:33.312336+00:00"
 }
