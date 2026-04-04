@@ -16,7 +16,7 @@ def load_trails(path="seeds/trails.csv"):
             trails.append(row)
     return trails
 
-def fetch_weather(lat, lng):
+def fetch_weather(lat, lng, retries=3, backoff=5):
     url = (
         f"https://api.open-meteo.com/v1/forecast"
         f"?latitude={lat}&longitude={lng}"
@@ -24,13 +24,20 @@ def fetch_weather(lat, lng):
         f"&daily=temperature_2m_max,temperature_2m_min,precipitation_probability_max,uv_index_max"
         f"&temperature_unit=fahrenheit&wind_speed_unit=mph&timezone=auto&forecast_days=5"
     )
-    try:
-        r = requests.get(url, timeout=10)
-        r.raise_for_status()
-        return r.json()
-    except Exception as e:
-        print(f"  weather error: {e}")
-        return None
+    import time
+    for attempt in range(retries):
+        try:
+            r = requests.get(url, timeout=15)
+            r.raise_for_status()
+            data = r.json()
+            if "current" in data:
+                return data
+            print(f"  weather: no 'current' in response (attempt {attempt+1}): {str(data)[:120]}")
+        except Exception as e:
+            print(f"  weather error (attempt {attempt+1}): {e}")
+        if attempt < retries - 1:
+            time.sleep(backoff * (attempt + 1))
+    return None
 
 def fetch_aqi(lat, lng):
     url = (
@@ -158,14 +165,23 @@ def process_trail(trail):
 
     print(f"  fetching: {trail.get('name')}")
 
+    # Load existing data so we can fall back to it if API fails
+    existing = {}
+    existing_path = f"data/conditions/{slug}.json"
+    try:
+        with open(existing_path) as f:
+            existing = json.load(f)
+    except Exception:
+        pass
+
     weather   = fetch_weather(lat, lng)
     aqi_data  = fetch_aqi(lat, lng)
     river     = fetch_river(gauge_id)
     fire_data = load_fire_data(slug)
     score     = compute_score(weather, aqi_data, fire_data)
 
-    current  = {}
-    forecast = []
+    current  = existing.get("current", {})  # preserve last-known data on failure
+    forecast = existing.get("forecast", [])
 
     if weather:
         c = weather.get("current", {})
