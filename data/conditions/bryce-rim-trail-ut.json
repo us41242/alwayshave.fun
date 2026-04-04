@@ -15,18 +15,18 @@
   "alerts_url": "https://www.nps.gov/brca/planyourvisit/conditions.htm",
   "status": "Open",
   "notes": "Snow possible May; check road status",
-  "score": 88,
+  "score": 100,
   "score_label": "Great day to go",
   "gear_flags": [],
   "current": {
-    "temp_f": 48,
-    "feels_like_f": 41,
+    "temp_f": 50,
+    "feels_like_f": 43,
     "wind_mph": 11,
     "gusts_mph": 12,
     "rain_pct": 0
   },
   "aqi": {
-    "aqi": 28,
+    "aqi": 32,
     "category": "Good",
     "pollutant": "O3",
     "source": "airnow"
@@ -912,7 +912,42 @@
       "low_f": 40,
       "rain_pct": 2,
       "uv": 7
+    },
+    {
+      "date": "2026-04-04",
+      "high_f": 53,
+      "low_f": 24,
+      "rain_pct": 0,
+      "uv": 8
+    },
+    {
+      "date": "2026-04-05",
+      "high_f": 58,
+      "low_f": 34,
+      "rain_pct": 0,
+      "uv": 8
+    },
+    {
+      "date": "2026-04-06",
+      "high_f": 59,
+      "low_f": 40,
+      "rain_pct": 31,
+      "uv": 7
+    },
+    {
+      "date": "2026-04-07",
+      "high_f": 62,
+      "low_f": 39,
+      "rain_pct": 14,
+      "uv": 7
+    },
+    {
+      "date": "2026-04-08",
+      "high_f": 62,
+      "low_f": 40,
+      "rain_pct": 2,
+      "uv": 7
     }
   ],
-  "updated_at": "2026-04-04T18:53:25.438297+00:00"
+  "updated_at": "2026-04-04T19:31:39.285470+00:00"
 }

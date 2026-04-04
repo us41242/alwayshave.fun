@@ -15,11 +15,9 @@
   "alerts_url": "https://www.fs.usda.gov/kaibab",
   "status": "Open",
   "notes": "High-clearance vehicle required for access road",
-  "score": 88,
-  "score_label": "Great day to go",
-  "gear_flags": [
-    "wind layer recommended"
-  ],
+  "score": 60,
+  "score_label": "Use caution",
+  "gear_flags": [],
   "current": {
     "temp_f": 62,
     "feels_like_f": 51,
@@ -28,10 +26,10 @@
     "rain_pct": 0
   },
   "aqi": {
-    "aqi": 34,
+    "aqi": 39,
     "category": "Good",
-    "pollutant": "O3",
-    "source": "airnow"
+    "pollutant": "PM2.5",
+    "source": "open-meteo"
   },
   "fire": {
     "risk_level": "low",
@@ -919,5 +917,5 @@
       "uv": 8
     }
   ],
-  "updated_at": "2026-04-04T18:53:26.748165+00:00"
+  "updated_at": "2026-04-04T19:32:50.399719+00:00"
 }
