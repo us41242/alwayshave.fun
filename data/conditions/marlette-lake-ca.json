@@ -15,12 +15,9 @@
   "alerts_url": "https://www.fs.usda.gov/ltbmu",
   "status": "Open",
   "notes": "No cars beyond Spooner Summit; bike-legal trail",
-  "score": 70,
-  "score_label": "Good conditions",
-  "gear_flags": [
-    "wind layer recommended",
-    "insulation layer required"
-  ],
+  "score": 60,
+  "score_label": "Use caution",
+  "gear_flags": [],
   "current": {
     "temp_f": 38,
     "feels_like_f": 23,
@@ -29,7 +26,7 @@
     "rain_pct": 0
   },
   "aqi": {
-    "aqi": 33,
+    "aqi": 29,
     "category": "Good",
     "pollutant": "O3",
     "source": "airnow"
@@ -217,5 +214,5 @@
       "uv": 6
     }
   ],
-  "updated_at": "2026-04-04T07:07:36.784015+00:00"
+  "updated_at": "2026-04-04T08:33:06.360936+00:00"
 }
