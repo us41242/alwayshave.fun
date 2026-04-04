@@ -15,12 +15,9 @@
   "alerts_url": "https://www.fs.usda.gov/coconino",
   "status": "Open",
   "notes": "Creek crossings \u2014 check water levels after rain",
-  "score": 88,
-  "score_label": "Great day to go",
-  "gear_flags": [
-    "wind layer recommended",
-    "insulation layer required"
-  ],
+  "score": 60,
+  "score_label": "Use caution",
+  "gear_flags": [],
   "current": {
     "temp_f": 41,
     "feels_like_f": 25,
@@ -29,7 +26,7 @@
     "rain_pct": 0
   },
   "aqi": {
-    "aqi": 45,
+    "aqi": 44,
     "category": "Good",
     "pollutant": "O3",
     "source": "airnow"
@@ -605,5 +602,5 @@
       "uv": 8
     }
   ],
-  "updated_at": "2026-04-04T13:55:16.043311+00:00"
+  "updated_at": "2026-04-04T14:36:18.487189+00:00"
 }

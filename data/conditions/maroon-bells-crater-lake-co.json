@@ -17,9 +17,7 @@
   "notes": "Shuttle required from Aspen 5am\u20135pm; no private vehicles",
   "score": 60,
   "score_label": "Use caution",
-  "gear_flags": [
-    "insulation layer required"
-  ],
+  "gear_flags": [],
   "current": {
     "temp_f": 2,
     "feels_like_f": -9,
@@ -28,7 +26,7 @@
     "rain_pct": 0
   },
   "aqi": {
-    "aqi": 26,
+    "aqi": 27,
     "category": "Good",
     "pollutant": "O3",
     "source": "airnow"
@@ -531,5 +529,5 @@
       "uv": 8
     }
   ],
-  "updated_at": "2026-04-04T13:59:29.335582+00:00"
+  "updated_at": "2026-04-04T14:40:08.606089+00:00"
 }

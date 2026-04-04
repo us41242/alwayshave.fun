@@ -15,8 +15,8 @@
   "alerts_url": "https://www.nps.gov/lake/planyourvisit/conditions.htm",
   "status": "Open",
   "notes": "Kayak/canoe only \u2014 check river release schedule",
-  "score": 86,
-  "score_label": "Great day to go",
+  "score": 46,
+  "score_label": "Conditions poor",
   "gear_flags": [
     "N95 mask recommended for wildfire smoke"
   ],
@@ -28,7 +28,7 @@
     "rain_pct": 0
   },
   "aqi": {
-    "aqi": 37,
+    "aqi": 38,
     "category": "Good",
     "pollutant": "O3",
     "source": "airnow"
@@ -601,5 +601,5 @@
       "uv": 7
     }
   ],
-  "updated_at": "2026-04-04T13:57:22.588896+00:00"
+  "updated_at": "2026-04-04T14:38:13.722315+00:00"
 }

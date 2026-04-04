@@ -15,20 +15,21 @@
   "alerts_url": "https://www.fs.usda.gov/kaibab",
   "status": "Open",
   "notes": "High-clearance vehicle required for access road",
-  "score": 70,
-  "score_label": "Good conditions",
+  "score": 88,
+  "score_label": "Great day to go",
   "gear_flags": [
+    "wind layer recommended",
     "insulation layer required"
   ],
   "current": {
-    "temp_f": 37,
-    "feels_like_f": 28,
-    "wind_mph": 10,
-    "gusts_mph": 15,
+    "temp_f": 43,
+    "feels_like_f": 32,
+    "wind_mph": 11,
+    "gusts_mph": 25,
     "rain_pct": 0
   },
   "aqi": {
-    "aqi": 33,
+    "aqi": 32,
     "category": "Good",
     "pollutant": "O3",
     "source": "airnow"
@@ -637,7 +638,42 @@
       "low_f": 52,
       "rain_pct": 1,
       "uv": 8
+    },
+    {
+      "date": "2026-04-04",
+      "high_f": 68,
+      "low_f": 37,
+      "rain_pct": 0,
+      "uv": 7
+    },
+    {
+      "date": "2026-04-05",
+      "high_f": 76,
+      "low_f": 44,
+      "rain_pct": 2,
+      "uv": 7
+    },
+    {
+      "date": "2026-04-06",
+      "high_f": 74,
+      "low_f": 53,
+      "rain_pct": 18,
+      "uv": 7
+    },
+    {
+      "date": "2026-04-07",
+      "high_f": 75,
+      "low_f": 49,
+      "rain_pct": 2,
+      "uv": 8
+    },
+    {
+      "date": "2026-04-08",
+      "high_f": 77,
+      "low_f": 52,
+      "rain_pct": 1,
+      "uv": 8
     }
   ],
-  "updated_at": "2026-04-04T13:52:57.779959+00:00"
+  "updated_at": "2026-04-04T14:33:08.699130+00:00"
 }
