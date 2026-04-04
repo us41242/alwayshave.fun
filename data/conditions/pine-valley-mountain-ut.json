@@ -17,9 +17,7 @@
   "notes": "Multi-day backpack; no established campsites \u2014 LNT",
   "score": 60,
   "score_label": "Use caution",
-  "gear_flags": [
-    "insulation layer required"
-  ],
+  "gear_flags": [],
   "current": {
     "temp_f": 31,
     "feels_like_f": 23,
@@ -28,7 +26,7 @@
     "rain_pct": 0
   },
   "aqi": {
-    "aqi": 36,
+    "aqi": 34,
     "category": "Good",
     "pollutant": "O3",
     "source": "airnow"
@@ -286,5 +284,5 @@
       "uv": 8
     }
   ],
-  "updated_at": "2026-04-04T09:13:24.958393+00:00"
+  "updated_at": "2026-04-04T09:43:11.885781+00:00"
 }

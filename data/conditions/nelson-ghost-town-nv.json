@@ -19,9 +19,9 @@
   "score_label": "Great day to go",
   "gear_flags": [],
   "current": {
-    "temp_f": 52,
+    "temp_f": 51,
     "feels_like_f": 41,
-    "wind_mph": 12,
+    "wind_mph": 11,
     "gusts_mph": 18,
     "rain_pct": 0
   },
@@ -352,7 +352,42 @@
       "low_f": 59,
       "rain_pct": 0,
       "uv": 8
+    },
+    {
+      "date": "2026-04-04",
+      "high_f": 74,
+      "low_f": 49,
+      "rain_pct": 0,
+      "uv": 7
+    },
+    {
+      "date": "2026-04-05",
+      "high_f": 81,
+      "low_f": 56,
+      "rain_pct": 1,
+      "uv": 7
+    },
+    {
+      "date": "2026-04-06",
+      "high_f": 83,
+      "low_f": 62,
+      "rain_pct": 2,
+      "uv": 7
+    },
+    {
+      "date": "2026-04-07",
+      "high_f": 84,
+      "low_f": 58,
+      "rain_pct": 0,
+      "uv": 8
+    },
+    {
+      "date": "2026-04-08",
+      "high_f": 83,
+      "low_f": 59,
+      "rain_pct": 0,
+      "uv": 8
     }
   ],
-  "updated_at": "2026-04-04T09:11:15.352305+00:00"
+  "updated_at": "2026-04-04T09:41:04.713565+00:00"
 }

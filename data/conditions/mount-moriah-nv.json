@@ -17,9 +17,7 @@
   "notes": "Remote \u2014 no cell service; snow until July",
   "score": 60,
   "score_label": "Use caution",
-  "gear_flags": [
-    "insulation layer required"
-  ],
+  "gear_flags": [],
   "current": {
     "temp_f": 18,
     "feels_like_f": 8,
@@ -28,7 +26,7 @@
     "rain_pct": 0
   },
   "aqi": {
-    "aqi": 34,
+    "aqi": 35,
     "category": "Good",
     "pollutant": "O3",
     "source": "airnow"
@@ -321,5 +319,5 @@
       "uv": 6
     }
   ],
-  "updated_at": "2026-04-04T09:13:23.950312+00:00"
+  "updated_at": "2026-04-04T09:42:11.232385+00:00"
 }

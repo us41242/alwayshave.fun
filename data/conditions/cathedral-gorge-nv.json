@@ -15,11 +15,9 @@
   "alerts_url": "https://parks.nv.gov/parks/cathedral-gorge",
   "status": "Open",
   "notes": "Slot canyon walls narrow \u2014 avoid during rain/flash flood risk",
-  "score": 40,
-  "score_label": "Conditions poor",
-  "gear_flags": [
-    "insulation layer required"
-  ],
+  "score": 60,
+  "score_label": "Use caution",
+  "gear_flags": [],
   "current": {
     "temp_f": 37,
     "feels_like_f": 30,
@@ -28,10 +26,10 @@
     "rain_pct": 0
   },
   "aqi": {
-    "aqi": null,
-    "category": "Unknown",
-    "pollutant": "",
-    "source": "none"
+    "aqi": 39,
+    "category": "Good",
+    "pollutant": "PM2.5",
+    "source": "open-meteo"
   },
   "fire": {
     "risk_level": "low",
@@ -146,5 +144,5 @@
       "uv": 7
     }
   ],
-  "updated_at": "2026-04-04T09:08:56.301222+00:00"
+  "updated_at": "2026-04-04T09:38:55.949177+00:00"
 }
