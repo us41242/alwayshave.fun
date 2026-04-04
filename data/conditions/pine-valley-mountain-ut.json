@@ -15,8 +15,8 @@
   "alerts_url": "https://www.fs.usda.gov/dixie",
   "status": "Open",
   "notes": "Multi-day backpack; no established campsites \u2014 LNT",
-  "score": 100,
-  "score_label": "Great day to go",
+  "score": 60,
+  "score_label": "Use caution",
   "gear_flags": [],
   "current": {
     "temp_f": 51,
@@ -26,7 +26,7 @@
     "rain_pct": 0
   },
   "aqi": {
-    "aqi": 32,
+    "aqi": 34,
     "category": "Good",
     "pollutant": "O3",
     "source": "airnow"
@@ -669,5 +669,5 @@
       "uv": 8
     }
   ],
-  "updated_at": "2026-04-04T18:04:13.861214+00:00"
+  "updated_at": "2026-04-04T18:47:44.630765+00:00"
 }

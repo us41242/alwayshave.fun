@@ -15,16 +15,16 @@
   "alerts_url": "https://www.nps.gov/lake/planyourvisit/conditions.htm",
   "status": "Open",
   "notes": "Kayak/canoe only \u2014 check river release schedule",
-  "score": 86,
-  "score_label": "Great day to go",
+  "score": 74,
+  "score_label": "Good conditions",
   "gear_flags": [
     "N95 mask recommended for wildfire smoke"
   ],
   "current": {
-    "temp_f": 74,
-    "feels_like_f": 65,
-    "wind_mph": 13,
-    "gusts_mph": 16,
+    "temp_f": 77,
+    "feels_like_f": 68,
+    "wind_mph": 15,
+    "gusts_mph": 18,
     "rain_pct": 0
   },
   "aqi": {
@@ -774,7 +774,42 @@
       "low_f": 67,
       "rain_pct": 0,
       "uv": 7
+    },
+    {
+      "date": "2026-04-04",
+      "high_f": 84,
+      "low_f": 54,
+      "rain_pct": 0,
+      "uv": 7
+    },
+    {
+      "date": "2026-04-05",
+      "high_f": 90,
+      "low_f": 61,
+      "rain_pct": 0,
+      "uv": 7
+    },
+    {
+      "date": "2026-04-06",
+      "high_f": 92,
+      "low_f": 68,
+      "rain_pct": 2,
+      "uv": 7
+    },
+    {
+      "date": "2026-04-07",
+      "high_f": 92,
+      "low_f": 65,
+      "rain_pct": 0,
+      "uv": 7
+    },
+    {
+      "date": "2026-04-08",
+      "high_f": 93,
+      "low_f": 67,
+      "rain_pct": 0,
+      "uv": 7
     }
   ],
-  "updated_at": "2026-04-04T18:02:10.222876+00:00"
+  "updated_at": "2026-04-04T18:46:40.553409+00:00"
 }
