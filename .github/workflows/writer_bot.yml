@@ -1,0 +1,44 @@
+name: Daily Article Writer
+
+on:
+  schedule:
+    - cron: '0 7 * * *'   # 7am UTC = midnight PST / 3am EST
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: writer-bot
+  cancel-in-progress: false
+
+jobs:
+  write:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          ref: main
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Generate daily article draft
+        run: python3 scripts/writer_bot.py
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+
+      - name: Commit draft
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "content: daily article draft — Jake's take"
+          file_pattern: "content/drafts/"
+          branch: main

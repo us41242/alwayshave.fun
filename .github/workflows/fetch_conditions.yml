@@ -35,12 +35,15 @@ jobs:
         run: |
           python3 scripts/fetch_fires.py
           python3 scripts/fetch_conditions.py
+          python3 scripts/condition_notifier.py
           python3 scripts/build_index.py
           python3 scripts/generate_sitemap.py
         env:
           AIRNOW_KEY: ${{ secrets.AIRNOW_KEY }}
           WAQI_KEY: ${{ secrets.WAQI_KEY }}
           NASA_FIRMS_KEY: ${{ secrets.NASA_FIRMS_KEY }}
+          BREVO_API_KEY: ${{ secrets.BREVO_API_KEY }}
+          BREVO_LIST_ID: ${{ secrets.BREVO_LIST_ID }}
 
       - name: Commit and push data
         uses: stefanzweifel/git-auto-commit-action@v5
