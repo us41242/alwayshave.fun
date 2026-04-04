@@ -15,11 +15,9 @@
   "alerts_url": "https://www.nps.gov/grca/planyourvisit/conditions.htm",
   "status": "Open",
   "notes": "Unmaintained \u2014 route-finding required",
-  "score": 78,
-  "score_label": "Good conditions",
+  "score": 50,
+  "score_label": "Use caution",
   "gear_flags": [
-    "wind layer recommended",
-    "insulation layer required",
     "mask for sensitive groups"
   ],
   "current": {
@@ -37,7 +35,7 @@
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": null,
+    "nearest_fire_km": 243.9,
     "fire_count_50km": 0
   },
   "river": null,
@@ -323,5 +321,5 @@
       "uv": 8
     }
   ],
-  "updated_at": "2026-04-04T08:41:25.066282+00:00"
+  "updated_at": "2026-04-04T09:10:24.647696+00:00"
 }

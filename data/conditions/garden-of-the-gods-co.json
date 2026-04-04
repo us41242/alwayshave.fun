@@ -15,27 +15,27 @@
   "alerts_url": "https://www.gardenofgods.com",
   "status": "Open",
   "notes": "Free entry; busy weekends \u2014 arrive before 9am",
-  "score": 70,
-  "score_label": "Good conditions",
+  "score": 62,
+  "score_label": "Use caution",
   "gear_flags": [
     "insulation layer required"
   ],
   "current": {
-    "temp_f": 37,
-    "feels_like_f": 28,
-    "wind_mph": 6,
-    "gusts_mph": 11,
+    "temp_f": 36,
+    "feels_like_f": 29,
+    "wind_mph": 2,
+    "gusts_mph": 2,
     "rain_pct": 0
   },
   "aqi": {
-    "aqi": 37,
+    "aqi": 36,
     "category": "Good",
     "pollutant": "O3",
     "source": "airnow"
   },
   "fire": {
-    "risk_level": "low",
-    "nearest_fire_km": null,
+    "risk_level": "moderate",
+    "nearest_fire_km": 87.6,
     "fire_count_50km": 0
   },
   "river": null,
@@ -284,7 +284,42 @@
       "low_f": 47,
       "rain_pct": 27,
       "uv": 8
+    },
+    {
+      "date": "2026-04-04",
+      "high_f": 58,
+      "low_f": 28,
+      "rain_pct": 2,
+      "uv": 7
+    },
+    {
+      "date": "2026-04-05",
+      "high_f": 61,
+      "low_f": 32,
+      "rain_pct": 2,
+      "uv": 8
+    },
+    {
+      "date": "2026-04-06",
+      "high_f": 66,
+      "low_f": 48,
+      "rain_pct": 27,
+      "uv": 7
+    },
+    {
+      "date": "2026-04-07",
+      "high_f": 62,
+      "low_f": 43,
+      "rain_pct": 58,
+      "uv": 7
+    },
+    {
+      "date": "2026-04-08",
+      "high_f": 70,
+      "low_f": 47,
+      "rain_pct": 27,
+      "uv": 8
     }
   ],
-  "updated_at": "2026-04-04T08:45:42.265099+00:00"
+  "updated_at": "2026-04-04T09:13:49.388982+00:00"
 }

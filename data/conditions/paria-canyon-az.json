@@ -15,11 +15,9 @@
   "alerts_url": "https://www.blm.gov/visit/paria-canyon",
   "status": "Open",
   "notes": "Multi-day \u2014 permit required; flash flood danger",
-  "score": 70,
-  "score_label": "Good conditions",
-  "gear_flags": [
-    "insulation layer required"
-  ],
+  "score": 60,
+  "score_label": "Use caution",
+  "gear_flags": [],
   "current": {
     "temp_f": 40,
     "feels_like_f": 30,
@@ -35,7 +33,7 @@
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": null,
+    "nearest_fire_km": 278.3,
     "fire_count_50km": 0
   },
   "river": null,
@@ -286,5 +284,5 @@
       "uv": 8
     }
   ],
-  "updated_at": "2026-04-04T08:43:34.967820+00:00"
+  "updated_at": "2026-04-04T09:12:19.958358+00:00"
 }

@@ -15,7 +15,7 @@
   "alerts_url": "https://www.fs.usda.gov/htnf",
   "status": "Open",
   "notes": "Popular weekend trail \u2014 arrive before 8am",
-  "score": 60,
+  "score": 52,
   "score_label": "Use caution",
   "gear_flags": [
     "insulation layer required"
@@ -23,19 +23,19 @@
   "current": {
     "temp_f": 33,
     "feels_like_f": 22,
-    "wind_mph": 10,
+    "wind_mph": 9,
     "gusts_mph": 13,
     "rain_pct": 0
   },
   "aqi": {
-    "aqi": 16,
+    "aqi": 14,
     "category": "Good",
     "pollutant": "PM10",
     "source": "airnow"
   },
   "fire": {
-    "risk_level": "low",
-    "nearest_fire_km": null,
+    "risk_level": "moderate",
+    "nearest_fire_km": 67.1,
     "fire_count_50km": 0
   },
   "river": null,
@@ -214,7 +214,42 @@
       "low_f": 43,
       "rain_pct": 3,
       "uv": 8
+    },
+    {
+      "date": "2026-04-04",
+      "high_f": 48,
+      "low_f": 33,
+      "rain_pct": 0,
+      "uv": 8
+    },
+    {
+      "date": "2026-04-05",
+      "high_f": 54,
+      "low_f": 35,
+      "rain_pct": 1,
+      "uv": 8
+    },
+    {
+      "date": "2026-04-06",
+      "high_f": 55,
+      "low_f": 43,
+      "rain_pct": 4,
+      "uv": 8
+    },
+    {
+      "date": "2026-04-07",
+      "high_f": 57,
+      "low_f": 42,
+      "rain_pct": 0,
+      "uv": 8
+    },
+    {
+      "date": "2026-04-08",
+      "high_f": 54,
+      "low_f": 43,
+      "rain_pct": 3,
+      "uv": 8
     }
   ],
-  "updated_at": "2026-04-04T08:43:29.298624+00:00"
+  "updated_at": "2026-04-04T09:11:14.374722+00:00"
 }

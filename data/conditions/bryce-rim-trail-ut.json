@@ -22,7 +22,7 @@
   ],
   "current": {
     "temp_f": 24,
-    "feels_like_f": 16,
+    "feels_like_f": 15,
     "wind_mph": 7,
     "gusts_mph": 16,
     "rain_pct": 0
@@ -35,7 +35,7 @@
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": null,
+    "nearest_fire_km": 282.3,
     "fire_count_50km": 0
   },
   "river": null,
@@ -319,7 +319,42 @@
       "low_f": 41,
       "rain_pct": 2,
       "uv": 8
+    },
+    {
+      "date": "2026-04-04",
+      "high_f": 53,
+      "low_f": 24,
+      "rain_pct": 0,
+      "uv": 8
+    },
+    {
+      "date": "2026-04-05",
+      "high_f": 58,
+      "low_f": 34,
+      "rain_pct": 0,
+      "uv": 8
+    },
+    {
+      "date": "2026-04-06",
+      "high_f": 61,
+      "low_f": 39,
+      "rain_pct": 23,
+      "uv": 7
+    },
+    {
+      "date": "2026-04-07",
+      "high_f": 63,
+      "low_f": 39,
+      "rain_pct": 7,
+      "uv": 8
+    },
+    {
+      "date": "2026-04-08",
+      "high_f": 62,
+      "low_f": 41,
+      "rain_pct": 2,
+      "uv": 8
     }
   ],
-  "updated_at": "2026-04-04T08:39:13.449047+00:00"
+  "updated_at": "2026-04-04T09:06:38.613607+00:00"
 }
