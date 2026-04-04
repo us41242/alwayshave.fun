@@ -15,18 +15,19 @@
   "alerts_url": "https://www.nps.gov/yose/planyourvisit/conditions.htm",
   "status": "Open",
   "notes": "Cable permit required May\u2013Oct; lottery in spring \u2014 book early",
-  "score": 88,
+  "dog_friendly": "No",
+  "score": 100,
   "score_label": "Great day to go",
   "gear_flags": [],
   "current": {
-    "temp_f": 49,
-    "feels_like_f": 47,
+    "temp_f": 51,
+    "feels_like_f": 48,
     "wind_mph": 6,
-    "gusts_mph": 6,
+    "gusts_mph": 7,
     "rain_pct": 0
   },
   "aqi": {
-    "aqi": 42,
+    "aqi": 44,
     "category": "Good",
     "pollutant": "O3",
     "source": "airnow"
@@ -947,8 +948,52 @@
       "low_f": 35,
       "rain_pct": 33,
       "uv": 7
+    },
+    {
+      "date": "2026-04-04",
+      "high_f": 51,
+      "low_f": 33,
+      "rain_pct": 0,
+      "uv": 8,
+      "sunrise": "2026-04-04T06:38",
+      "sunset": "2026-04-04T19:23"
+    },
+    {
+      "date": "2026-04-05",
+      "high_f": 52,
+      "low_f": 37,
+      "rain_pct": 2,
+      "uv": 8,
+      "sunrise": "2026-04-05T06:36",
+      "sunset": "2026-04-05T19:24"
+    },
+    {
+      "date": "2026-04-06",
+      "high_f": 54,
+      "low_f": 38,
+      "rain_pct": 2,
+      "uv": 8,
+      "sunrise": "2026-04-06T06:35",
+      "sunset": "2026-04-06T19:25"
+    },
+    {
+      "date": "2026-04-07",
+      "high_f": 55,
+      "low_f": 35,
+      "rain_pct": 1,
+      "uv": 8,
+      "sunrise": "2026-04-07T06:33",
+      "sunset": "2026-04-07T19:26"
+    },
+    {
+      "date": "2026-04-08",
+      "high_f": 49,
+      "low_f": 35,
+      "rain_pct": 22,
+      "uv": 7,
+      "sunrise": "2026-04-08T06:32",
+      "sunset": "2026-04-08T19:27"
     }
   ],
-  "updated_at": "2026-04-04T20:02:46.386586+00:00",
-  "dog_friendly": "No"
+  "updated_at": "2026-04-04T21:38:41.281542+00:00"
 }

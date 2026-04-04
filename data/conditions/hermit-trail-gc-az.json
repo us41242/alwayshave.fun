@@ -15,11 +15,10 @@
   "alerts_url": "https://www.nps.gov/grca/planyourvisit/conditions.htm",
   "status": "Open",
   "notes": "Unmaintained \u2014 route-finding required",
-  "score": 88,
-  "score_label": "Great day to go",
-  "gear_flags": [
-    "wind layer recommended"
-  ],
+  "dog_friendly": "No",
+  "score": 60,
+  "score_label": "Use caution",
+  "gear_flags": [],
   "current": {
     "temp_f": 59,
     "feels_like_f": 48,
@@ -881,6 +880,5 @@
       "uv": 8
     }
   ],
-  "updated_at": "2026-04-04T19:58:01.315162+00:00",
-  "dog_friendly": "No"
+  "updated_at": "2026-04-04T21:33:41.668497+00:00"
 }

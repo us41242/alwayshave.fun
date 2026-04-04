@@ -15,20 +15,19 @@
   "alerts_url": "https://www.fs.usda.gov/coconino",
   "status": "Open",
   "notes": "Creek crossings \u2014 check water levels after rain",
-  "score": 88,
+  "dog_friendly": "Yes",
+  "score": 100,
   "score_label": "Great day to go",
-  "gear_flags": [
-    "wind layer recommended"
-  ],
+  "gear_flags": [],
   "current": {
-    "temp_f": 63,
-    "feels_like_f": 53,
-    "wind_mph": 18,
-    "gusts_mph": 25,
+    "temp_f": 65,
+    "feels_like_f": 55,
+    "wind_mph": 15,
+    "gusts_mph": 20,
     "rain_pct": 0
   },
   "aqi": {
-    "aqi": 44,
+    "aqi": 43,
     "category": "Good",
     "pollutant": "O3",
     "source": "airnow"
@@ -917,8 +916,52 @@
       "low_f": 50,
       "rain_pct": 1,
       "uv": 8
+    },
+    {
+      "date": "2026-04-04",
+      "high_f": 66,
+      "low_f": 40,
+      "rain_pct": 0,
+      "uv": 8,
+      "sunrise": "2026-04-04T06:09",
+      "sunset": "2026-04-04T18:50"
+    },
+    {
+      "date": "2026-04-05",
+      "high_f": 74,
+      "low_f": 48,
+      "rain_pct": 2,
+      "uv": 8,
+      "sunrise": "2026-04-05T06:07",
+      "sunset": "2026-04-05T18:51"
+    },
+    {
+      "date": "2026-04-06",
+      "high_f": 68,
+      "low_f": 49,
+      "rain_pct": 42,
+      "uv": 6,
+      "sunrise": "2026-04-06T06:06",
+      "sunset": "2026-04-06T18:52"
+    },
+    {
+      "date": "2026-04-07",
+      "high_f": 73,
+      "low_f": 48,
+      "rain_pct": 9,
+      "uv": 8,
+      "sunrise": "2026-04-07T06:04",
+      "sunset": "2026-04-07T18:52"
+    },
+    {
+      "date": "2026-04-08",
+      "high_f": 73,
+      "low_f": 50,
+      "rain_pct": 2,
+      "uv": 8,
+      "sunrise": "2026-04-08T06:03",
+      "sunset": "2026-04-08T18:53"
     }
   ],
-  "updated_at": "2026-04-04T19:58:00.589814+00:00",
-  "dog_friendly": "Yes"
+  "updated_at": "2026-04-04T21:32:40.742756+00:00"
 }

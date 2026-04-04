@@ -15,8 +15,9 @@
   "alerts_url": "https://www.blm.gov/visit/paria-canyon",
   "status": "Open",
   "notes": "Multi-day \u2014 permit required; flash flood danger",
-  "score": 100,
-  "score_label": "Great day to go",
+  "dog_friendly": "Yes",
+  "score": 60,
+  "score_label": "Use caution",
   "gear_flags": [],
   "current": {
     "temp_f": 63,
@@ -26,7 +27,7 @@
     "rain_pct": 0
   },
   "aqi": {
-    "aqi": 36,
+    "aqi": 39,
     "category": "Good",
     "pollutant": "O3",
     "source": "airnow"
@@ -844,6 +845,5 @@
       "uv": 8
     }
   ],
-  "updated_at": "2026-04-04T20:01:12.677430+00:00",
-  "dog_friendly": "Yes"
+  "updated_at": "2026-04-04T21:36:37.294117+00:00"
 }

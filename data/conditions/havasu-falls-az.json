@@ -15,14 +15,15 @@
   "alerts_url": "https://thehavasupaitribe.com/tourism/",
   "status": "Open",
   "notes": "Permit required \u2014 sells out months in advance",
-  "score": 100,
+  "dog_friendly": "No",
+  "score": 88,
   "score_label": "Great day to go",
   "gear_flags": [],
   "current": {
-    "temp_f": 73,
-    "feels_like_f": 68,
-    "wind_mph": 7,
-    "gusts_mph": 12,
+    "temp_f": 77,
+    "feels_like_f": 70,
+    "wind_mph": 9,
+    "gusts_mph": 11,
     "rain_pct": 0
   },
   "aqi": {
@@ -912,8 +913,52 @@
       "low_f": 61,
       "rain_pct": 0,
       "uv": 8
+    },
+    {
+      "date": "2026-04-04",
+      "high_f": 78,
+      "low_f": 46,
+      "rain_pct": 0,
+      "uv": 7,
+      "sunrise": "2026-04-04T06:12",
+      "sunset": "2026-04-04T18:55"
+    },
+    {
+      "date": "2026-04-05",
+      "high_f": 86,
+      "low_f": 55,
+      "rain_pct": 1,
+      "uv": 7,
+      "sunrise": "2026-04-05T06:10",
+      "sunset": "2026-04-05T18:56"
+    },
+    {
+      "date": "2026-04-06",
+      "high_f": 78,
+      "low_f": 62,
+      "rain_pct": 49,
+      "uv": 7,
+      "sunrise": "2026-04-06T06:09",
+      "sunset": "2026-04-06T18:57"
+    },
+    {
+      "date": "2026-04-07",
+      "high_f": 83,
+      "low_f": 58,
+      "rain_pct": 2,
+      "uv": 8,
+      "sunrise": "2026-04-07T06:07",
+      "sunset": "2026-04-07T18:57"
+    },
+    {
+      "date": "2026-04-08",
+      "high_f": 84,
+      "low_f": 61,
+      "rain_pct": 1,
+      "uv": 8,
+      "sunrise": "2026-04-08T06:06",
+      "sunset": "2026-04-08T18:58"
     }
   ],
-  "updated_at": "2026-04-04T19:57:59.518472+00:00",
-  "dog_friendly": "No"
+  "updated_at": "2026-04-04T21:32:38.900225+00:00"
 }

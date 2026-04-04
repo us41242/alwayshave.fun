@@ -15,11 +15,10 @@
   "alerts_url": "https://www.nps.gov/grba/planyourvisit/conditions.htm",
   "status": "Seasonal",
   "notes": "Road open late Jun \u2014 check NPS seasonal closure",
+  "dog_friendly": "Yes",
   "score": 60,
   "score_label": "Use caution",
-  "gear_flags": [
-    "insulation layer required"
-  ],
+  "gear_flags": [],
   "current": {
     "temp_f": 29,
     "feels_like_f": 24,
@@ -28,7 +27,7 @@
     "rain_pct": 0
   },
   "aqi": {
-    "aqi": 42,
+    "aqi": 43,
     "category": "Good",
     "pollutant": "O3",
     "source": "airnow"
@@ -566,6 +565,5 @@
       "uv": 8
     }
   ],
-  "updated_at": "2026-04-04T19:55:45.255448+00:00",
-  "dog_friendly": "Yes"
+  "updated_at": "2026-04-04T21:31:56.278335+00:00"
 }
