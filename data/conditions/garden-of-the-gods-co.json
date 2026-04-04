@@ -18,13 +18,14 @@
   "score": 70,
   "score_label": "Good conditions",
   "gear_flags": [
+    "wind layer recommended",
     "insulation layer required"
   ],
   "current": {
-    "temp_f": 39,
-    "feels_like_f": 30,
-    "wind_mph": 6,
-    "gusts_mph": 11,
+    "temp_f": 40,
+    "feels_like_f": 28,
+    "wind_mph": 13,
+    "gusts_mph": 24,
     "rain_pct": 0
   },
   "aqi": {
@@ -108,7 +109,42 @@
       "low_f": 43,
       "rain_pct": 58,
       "uv": 6
+    },
+    {
+      "date": "2026-04-03",
+      "high_f": 54,
+      "low_f": 34,
+      "rain_pct": 0,
+      "uv": 7
+    },
+    {
+      "date": "2026-04-04",
+      "high_f": 57,
+      "low_f": 30,
+      "rain_pct": 1,
+      "uv": 7
+    },
+    {
+      "date": "2026-04-05",
+      "high_f": 61,
+      "low_f": 32,
+      "rain_pct": 2,
+      "uv": 8
+    },
+    {
+      "date": "2026-04-06",
+      "high_f": 64,
+      "low_f": 47,
+      "rain_pct": 27,
+      "uv": 7
+    },
+    {
+      "date": "2026-04-07",
+      "high_f": 67,
+      "low_f": 43,
+      "rain_pct": 58,
+      "uv": 6
     }
   ],
-  "updated_at": "2026-04-04T04:36:19.545043+00:00"
+  "updated_at": "2026-04-04T05:01:27.337736+00:00"
 }

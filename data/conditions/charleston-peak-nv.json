@@ -15,22 +15,22 @@
   "alerts_url": "https://www.fs.usda.gov/htnf",
   "status": "Open",
   "notes": "Snow above 9000ft until June \u2014 check SNOTEL",
-  "score": 60,
-  "score_label": "Use caution",
+  "score": 30,
+  "score_label": "Conditions poor",
   "gear_flags": [
     "insulation layer required"
   ],
   "current": {
-    "temp_f": 22,
-    "feels_like_f": 13,
-    "wind_mph": 6,
-    "gusts_mph": 15,
+    "temp_f": 23,
+    "feels_like_f": 14,
+    "wind_mph": 5,
+    "gusts_mph": 17,
     "rain_pct": 0
   },
   "aqi": {
-    "aqi": 11,
-    "category": "Good",
-    "pollutant": "PM10"
+    "aqi": null,
+    "category": "Unknown",
+    "pollutant": ""
   },
   "fire": {
     "risk_level": "low",
@@ -108,7 +108,42 @@
       "low_f": 31,
       "rain_pct": 0,
       "uv": 8
+    },
+    {
+      "date": "2026-04-03",
+      "high_f": 31,
+      "low_f": 15,
+      "rain_pct": 0,
+      "uv": 8
+    },
+    {
+      "date": "2026-04-04",
+      "high_f": 36,
+      "low_f": 22,
+      "rain_pct": 0,
+      "uv": 8
+    },
+    {
+      "date": "2026-04-05",
+      "high_f": 42,
+      "low_f": 23,
+      "rain_pct": 1,
+      "uv": 8
+    },
+    {
+      "date": "2026-04-06",
+      "high_f": 44,
+      "low_f": 30,
+      "rain_pct": 4,
+      "uv": 7
+    },
+    {
+      "date": "2026-04-07",
+      "high_f": 46,
+      "low_f": 31,
+      "rain_pct": 0,
+      "uv": 8
     }
   ],
-  "updated_at": "2026-04-04T04:29:40.388047+00:00"
+  "updated_at": "2026-04-04T04:54:59.360531+00:00"
 }
