@@ -15,8 +15,8 @@
   "alerts_url": "https://www.parks.ca.gov/?page_id=644",
   "status": "Open",
   "notes": "Coastal trail with beach access; busy weekends \u2014 reserve parking",
-  "score": 100,
-  "score_label": "Great day to go",
+  "score": 30,
+  "score_label": "Conditions poor",
   "gear_flags": [],
   "current": {
     "temp_f": 57,
@@ -26,10 +26,10 @@
     "rain_pct": 0
   },
   "aqi": {
-    "aqi": 50,
-    "category": "Good",
-    "pollutant": "PM2.5",
-    "source": "open-meteo"
+    "aqi": null,
+    "category": "Unknown",
+    "pollutant": "",
+    "source": "none"
   },
   "fire": {
     "risk_level": "low",
@@ -494,5 +494,5 @@
       "uv": 8
     }
   ],
-  "updated_at": "2026-04-04T11:36:24.373394+00:00"
+  "updated_at": "2026-04-04T12:01:21.576748+00:00"
 }
