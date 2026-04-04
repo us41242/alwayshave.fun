@@ -15,12 +15,9 @@
   "alerts_url": "https://www.blm.gov/visit/gold-butte",
   "status": "Open",
   "notes": "4WD required; no services for 50 miles",
-  "score": 50,
+  "score": 52,
   "score_label": "Use caution",
-  "gear_flags": [
-    "wind layer recommended",
-    "insulation layer required"
-  ],
+  "gear_flags": [],
   "current": {
     "temp_f": 44,
     "feels_like_f": 33,
@@ -29,10 +26,10 @@
     "rain_pct": 0
   },
   "aqi": {
-    "aqi": null,
-    "category": "Unknown",
-    "pollutant": "",
-    "source": "none"
+    "aqi": 29,
+    "category": "Good",
+    "pollutant": "PM2.5",
+    "source": "open-meteo"
   },
   "fire": {
     "risk_level": "moderate",
@@ -497,5 +494,5 @@
       "uv": 8
     }
   ],
-  "updated_at": "2026-04-04T17:31:27.930495+00:00"
+  "updated_at": "2026-04-04T18:00:37.537967+00:00"
 }
