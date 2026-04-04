@@ -39,26 +39,60 @@ def fetch_weather(lat, lng, retries=3, backoff=5):
             time.sleep(backoff * (attempt + 1))
     return None
 
+def _aqi_category(aqi):
+    if aqi <= 50:   return "Good"
+    if aqi <= 100:  return "Moderate"
+    if aqi <= 150:  return "Unhealthy for Sensitive Groups"
+    if aqi <= 200:  return "Unhealthy"
+    if aqi <= 300:  return "Very Unhealthy"
+    return "Hazardous"
+
 def fetch_aqi(lat, lng):
-    url = (
-        f"https://www.airnowapi.org/aq/observation/latLong/current/"
-        f"?format=application/json&latitude={lat}&longitude={lng}"
-        f"&distance=75&API_KEY={AIRNOW_KEY}"
-    )
+    # Primary: AirNow (ground-level monitors, US only)
+    if AIRNOW_KEY:
+        url = (
+            f"https://www.airnowapi.org/aq/observation/latLong/current/"
+            f"?format=application/json&latitude={lat}&longitude={lng}"
+            f"&distance=75&API_KEY={AIRNOW_KEY}"
+        )
+        try:
+            r = requests.get(url, timeout=10)
+            r.raise_for_status()
+            data = r.json()
+            if data:
+                best = sorted(data, key=lambda x: x.get("AQI", 0), reverse=True)[0]
+                return {
+                    "aqi":       best.get("AQI"),
+                    "category":  best.get("Category", {}).get("Name", "Unknown"),
+                    "pollutant": best.get("ParameterName", ""),
+                    "source":    "airnow"
+                }
+        except Exception as e:
+            print(f"  AQI (AirNow) error: {e}")
+
+    # Fallback: Open-Meteo Air Quality (CAMS satellite, global coverage, no key required)
     try:
+        url = (
+            f"https://air-quality-api.open-meteo.com/v1/air-quality"
+            f"?latitude={lat}&longitude={lng}"
+            f"&current=us_aqi,pm2_5"
+        )
         r = requests.get(url, timeout=10)
         r.raise_for_status()
         data = r.json()
-        if data:
-            best = sorted(data, key=lambda x: x.get("AQI", 0), reverse=True)[0]
+        aqi_val = data.get("current", {}).get("us_aqi")
+        if aqi_val is not None:
+            aqi_int = round(aqi_val)
             return {
-                "aqi":       best.get("AQI"),
-                "category":  best.get("Category", {}).get("Name", "Unknown"),
-                "pollutant": best.get("ParameterName", "")
+                "aqi":       aqi_int,
+                "category":  _aqi_category(aqi_int),
+                "pollutant": "PM2.5",
+                "source":    "open-meteo"
             }
     except Exception as e:
-        print(f"  AQI error: {e}")
-    return {"aqi": None, "category": "Unknown", "pollutant": ""}
+        print(f"  AQI (Open-Meteo fallback) error: {e}")
+
+    return {"aqi": None, "category": "Unknown", "pollutant": "", "source": "none"}
 
 def fetch_river(gauge_id):
     if not gauge_id or not gauge_id.strip():
