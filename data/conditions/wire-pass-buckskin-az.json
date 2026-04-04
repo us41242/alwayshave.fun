@@ -15,11 +15,9 @@
   "alerts_url": "https://www.blm.gov/visit/vermilion-cliffs-national-monument",
   "status": "Open",
   "notes": "Flash flood zone \u2014 avoid any chance of rain",
-  "score": 70,
-  "score_label": "Good conditions",
-  "gear_flags": [
-    "insulation layer required"
-  ],
+  "score": 60,
+  "score_label": "Use caution",
+  "gear_flags": [],
   "current": {
     "temp_f": 38,
     "feels_like_f": 29,
@@ -181,5 +179,5 @@
       "uv": 8
     }
   ],
-  "updated_at": "2026-04-04T08:26:42.716869+00:00"
+  "updated_at": "2026-04-04T08:43:28.222755+00:00"
 }
