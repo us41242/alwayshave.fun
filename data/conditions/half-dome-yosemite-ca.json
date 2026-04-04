@@ -17,18 +17,16 @@
   "notes": "Cable permit required May\u2013Oct; lottery in spring \u2014 book early",
   "score": 88,
   "score_label": "Great day to go",
-  "gear_flags": [
-    "insulation layer required"
-  ],
+  "gear_flags": [],
   "current": {
-    "temp_f": 44,
-    "feels_like_f": 38,
-    "wind_mph": 3,
-    "gusts_mph": 6,
+    "temp_f": 47,
+    "feels_like_f": 43,
+    "wind_mph": 4,
+    "gusts_mph": 5,
     "rain_pct": 0
   },
   "aqi": {
-    "aqi": 39,
+    "aqi": 41,
     "category": "Good",
     "pollutant": "O3",
     "source": "airnow"
@@ -739,7 +737,42 @@
       "low_f": 34,
       "rain_pct": 33,
       "uv": 5
+    },
+    {
+      "date": "2026-04-04",
+      "high_f": 51,
+      "low_f": 33,
+      "rain_pct": 0,
+      "uv": 8
+    },
+    {
+      "date": "2026-04-05",
+      "high_f": 52,
+      "low_f": 36,
+      "rain_pct": 2,
+      "uv": 8
+    },
+    {
+      "date": "2026-04-06",
+      "high_f": 54,
+      "low_f": 37,
+      "rain_pct": 3,
+      "uv": 8
+    },
+    {
+      "date": "2026-04-07",
+      "high_f": 55,
+      "low_f": 35,
+      "rain_pct": 1,
+      "uv": 8
+    },
+    {
+      "date": "2026-04-08",
+      "high_f": 49,
+      "low_f": 35,
+      "rain_pct": 33,
+      "uv": 7
     }
   ],
-  "updated_at": "2026-04-04T16:43:38.396916+00:00"
+  "updated_at": "2026-04-04T17:36:12.870536+00:00"
 }

@@ -15,11 +15,9 @@
   "alerts_url": "https://www.fs.usda.gov/htnf",
   "status": "Open",
   "notes": "Popular weekend trail \u2014 arrive before 8am",
-  "score": 62,
+  "score": 52,
   "score_label": "Use caution",
-  "gear_flags": [
-    "insulation layer required"
-  ],
+  "gear_flags": [],
   "current": {
     "temp_f": 40,
     "feels_like_f": 32,
@@ -28,7 +26,7 @@
     "rain_pct": 0
   },
   "aqi": {
-    "aqi": 20,
+    "aqi": 15,
     "category": "Good",
     "pollutant": "PM10",
     "source": "airnow"
@@ -496,5 +494,5 @@
       "uv": 8
     }
   ],
-  "updated_at": "2026-04-04T16:39:25.841035+00:00"
+  "updated_at": "2026-04-04T17:33:57.834962+00:00"
 }
