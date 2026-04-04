@@ -15,11 +15,9 @@
   "alerts_url": "https://parks.nv.gov/parks/valley-of-fire",
   "status": "Open",
   "notes": "Heat advisory Jun\u2013Sep; carry extra water",
-  "score": 56,
-  "score_label": "Use caution",
-  "gear_flags": [
-    "N95 mask recommended for wildfire smoke"
-  ],
+  "score": 70,
+  "score_label": "Good conditions",
+  "gear_flags": [],
   "current": {
     "temp_f": 64,
     "feels_like_f": 54,
@@ -33,9 +31,9 @@
     "pollutant": ""
   },
   "fire": {
-    "risk_level": "elevated",
-    "nearest_fire_km": 32.5,
-    "fire_count_50km": 3
+    "risk_level": "low",
+    "nearest_fire_km": null,
+    "fire_count_50km": 0
   },
   "river": null,
   "forecast": [
@@ -75,5 +73,5 @@
       "uv": 7
     }
   ],
-  "updated_at": "2026-04-04T02:02:19.089101+00:00"
+  "updated_at": "2026-04-04T02:10:25.226046+00:00"
 }

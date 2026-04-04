@@ -34,7 +34,7 @@
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": 124.2,
+    "nearest_fire_km": null,
     "fire_count_50km": 0
   },
   "river": null,
@@ -75,5 +75,5 @@
       "uv": 7
     }
   ],
-  "updated_at": "2026-04-04T02:04:09.793275+00:00"
+  "updated_at": "2026-04-04T02:12:51.539587+00:00"
 }

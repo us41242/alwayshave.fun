@@ -15,7 +15,7 @@
   "alerts_url": "https://www.fs.usda.gov/htnf",
   "status": "Open",
   "notes": "Avoid mid-summer heat \u2014 best Oct\u2013Apr",
-  "score": 92,
+  "score": 100,
   "score_label": "Great day to go",
   "gear_flags": [],
   "current": {
@@ -31,8 +31,8 @@
     "pollutant": "O3"
   },
   "fire": {
-    "risk_level": "moderate",
-    "nearest_fire_km": 51.4,
+    "risk_level": "low",
+    "nearest_fire_km": null,
     "fire_count_50km": 0
   },
   "river": null,
@@ -73,5 +73,5 @@
       "uv": 8
     }
   ],
-  "updated_at": "2026-04-04T02:02:17.789435+00:00"
+  "updated_at": "2026-04-04T02:10:23.474034+00:00"
 }

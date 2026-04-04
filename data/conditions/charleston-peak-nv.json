@@ -15,7 +15,7 @@
   "alerts_url": "https://www.fs.usda.gov/htnf",
   "status": "Open",
   "notes": "Snow above 9000ft until June \u2014 check SNOTEL",
-  "score": 52,
+  "score": 60,
   "score_label": "Use caution",
   "gear_flags": [
     "insulation layer required"
@@ -33,8 +33,8 @@
     "pollutant": "PM10"
   },
   "fire": {
-    "risk_level": "moderate",
-    "nearest_fire_km": 70.8,
+    "risk_level": "low",
+    "nearest_fire_km": null,
     "fire_count_50km": 0
   },
   "river": null,
@@ -75,5 +75,5 @@
       "uv": 8
     }
   ],
-  "updated_at": "2026-04-04T02:02:18.417973+00:00"
+  "updated_at": "2026-04-04T02:10:24.363010+00:00"
 }
