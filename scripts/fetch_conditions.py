@@ -43,7 +43,7 @@ def fetch_aqi(lat, lng):
     url = (
         f"https://www.airnowapi.org/aq/observation/latLong/current/"
         f"?format=application/json&latitude={lat}&longitude={lng}"
-        f"&distance=25&API_KEY={AIRNOW_KEY}"
+        f"&distance=75&API_KEY={AIRNOW_KEY}"
     )
     try:
         r = requests.get(url, timeout=10)
