@@ -6,8 +6,12 @@ export default {
     const parts = url.pathname.replace(/^\//, '').split('/').filter(p => p.length > 0);
     const first = (parts[0] || '').toLowerCase();
 
-    // /{state}/{slug}  →  serve trail.html (keeps the URL intact)
+    // /{state}/{slug}  →  try pre-rendered static file first, fall back to trail.html
     if (parts.length === 2 && STATES.includes(first)) {
+      const [state, slug] = parts;
+      const staticUrl = new URL(`/generated/${state}/${slug}.html`, url.origin);
+      const staticRes = await env.ASSETS.fetch(staticUrl);
+      if (staticRes.status === 200) return staticRes;
       return env.ASSETS.fetch(new URL('/trail.html', url.origin));
     }
 
