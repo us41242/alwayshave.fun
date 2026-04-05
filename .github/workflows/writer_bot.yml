@@ -2,12 +2,13 @@ name: Daily Article Writer
 
 on:
   schedule:
-    - cron: '0 7 * * *'   # 7am UTC = midnight PST / 3am EST
+    - cron: '0 7 * * *'    # 7am UTC — morning batch (2 articles)
+    - cron: '0 15 * * *'   # 3pm UTC — afternoon batch (2 more)
   workflow_dispatch:
     inputs:
       count:
         description: 'Number of articles to write'
-        default: '4'
+        default: '2'
 
 permissions:
   contents: write
@@ -40,7 +41,7 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: Generate and publish articles
-        run: python3 scripts/writer_bot.py --count ${{ github.event.inputs.count || '4' }} --auto-publish
+        run: python3 scripts/writer_bot.py --count ${{ github.event.inputs.count || '2' }} --auto-publish
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
 

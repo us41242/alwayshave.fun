@@ -175,7 +175,13 @@ def generate_article(prompt):
         raise ValueError("GEMINI_API_KEY not set")
 
     import time
-    models = ["gemini-2.0-flash", "gemini-2.0-flash-lite", "gemini-1.5-flash-latest"]
+    # Model priority: newest first, then fallbacks with higher free-tier quotas
+    models = [
+        "gemini-2.0-flash",
+        "gemini-2.0-flash-lite",
+        "gemini-1.5-flash",
+        "gemini-1.5-flash-8b",
+    ]
     body = {
         "contents": [{"parts": [{"text": prompt}]}],
         "generationConfig": {
@@ -190,7 +196,7 @@ def generate_article(prompt):
                 url = f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent?key={GEMINI_KEY}"
                 r = requests.post(url, json=body, timeout=60)
                 if r.status_code == 429:
-                    wait = 30 * (attempt + 1)
+                    wait = 20 * (attempt + 1)  # 20s, 40s, 60s — shorter than before
                     print(f"  Rate limited on {model} (attempt {attempt+1}), waiting {wait}s…")
                     time.sleep(wait)
                     continue
