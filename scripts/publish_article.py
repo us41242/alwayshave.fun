@@ -164,6 +164,7 @@ def build_html(fm, body_md, photo_url, slug):
     trail_slug  = fm.get("trail_slug", slug).lower().replace(" ", "-").replace("(","").replace(")","")
     trail_name  = fm.get("trail_name", fm.get("trail", ""))
     score       = fm.get("score", "")
+    dog         = fm.get("dog_friendly", "")
     author      = fm.get("author", "Jake")
     tags        = fm.get("tags", "[]").strip("[]").replace('"','').split(",")
     page_url    = f"{BASE_URL}/articles/{slug}"
@@ -269,6 +270,8 @@ def build_html(fm, body_md, photo_url, slug):
     .article-title {{ font-size: clamp(1.6rem, 4vw, 2.2rem); font-weight: 900; line-height: 1.2; margin-bottom: 14px; color: #e6edf3; }}
     .article-meta {{ font-size: .82rem; color: #8b949e; display: flex; gap: 16px; flex-wrap: wrap; align-items: center; }}
     .author-badge {{ background: #161b22; border: 1px solid #30363d; border-radius: 20px; padding: 3px 10px; font-size: .75rem; color: #8b949e; }}
+    .dog-yes {{ background: #052e16; border: 1px solid #166534; border-radius: 20px; padding: 3px 10px; font-size: .75rem; color: #22c55e; }}
+    .dog-no  {{ background: #1c1917; border: 1px solid #44403c; border-radius: 20px; padding: 3px 10px; font-size: .75rem; color: #78716c; }}
     .article-body {{ font-size: 1rem; color: #c9d1d9; }}
     .article-body h2 {{ font-size: 1.3rem; font-weight: 700; color: #e6edf3; margin: 36px 0 12px; }}
     .article-body h3 {{ font-size: 1.1rem; font-weight: 600; color: #e6edf3; margin: 28px 0 10px; }}
@@ -309,6 +312,7 @@ def build_html(fm, body_md, photo_url, slug):
         <span class="author-badge">by {author}</span>
         <span>{display_date}</span>
         {f'<span>Score: <strong style="color:#16a34a">{score}/100</strong> at time of writing</span>' if score else ''}
+        {f'<span class="dog-yes">🐾 Dogs welcome</span>' if dog == 'Yes' else f'<span class="dog-no">🚫 No dogs</span>' if dog == 'No' else ''}
       </div>
     </header>
 

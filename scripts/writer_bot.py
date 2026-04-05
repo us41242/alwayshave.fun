@@ -157,6 +157,7 @@ title: [title]
 meta_description: [meta]
 trail_slug: {trail.get('slug')}
 trail_name: {trail.get('name')}
+dog_friendly: {trail.get('dog_friendly', '')}
 state: {trail.get('state', '').lower()}
 date: {datetime.now(timezone.utc).strftime('%Y-%m-%d')}
 score: {score}
