@@ -18,12 +18,10 @@
   "dog_friendly": "No",
   "score": 88,
   "score_label": "Great day to go",
-  "gear_flags": [
-    "insulation layer required"
-  ],
+  "gear_flags": [],
   "current": {
-    "temp_f": 45,
-    "feels_like_f": 35,
+    "temp_f": 46,
+    "feels_like_f": 36,
     "wind_mph": 9,
     "gusts_mph": 9,
     "rain_pct": 0
@@ -47,7 +45,7 @@
     {
       "date": "2026-04-05",
       "high_f": 72,
-      "low_f": 43,
+      "low_f": 44,
       "rain_pct": 0,
       "uv": 7,
       "sunrise": "2026-04-05T07:10",
@@ -90,5 +88,5 @@
       "sunset": "2026-04-09T20:01"
     }
   ],
-  "updated_at": "2026-04-05T11:28:44.183644+00:00"
+  "updated_at": "2026-04-05T11:54:31.605010+00:00"
 }

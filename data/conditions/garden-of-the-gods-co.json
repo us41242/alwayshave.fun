@@ -18,9 +18,7 @@
   "dog_friendly": "Yes",
   "score": 60,
   "score_label": "Use caution",
-  "gear_flags": [
-    "insulation layer required"
-  ],
+  "gear_flags": [],
   "current": {
     "temp_f": 33,
     "feels_like_f": 24,
@@ -40,52 +38,6 @@
     "fire_count_50km": 0
   },
   "river": null,
-  "forecast": [
-    {
-      "date": "2026-04-05",
-      "high_f": 60,
-      "low_f": 32,
-      "rain_pct": 1,
-      "uv": 8,
-      "sunrise": "2026-04-05T06:37",
-      "sunset": "2026-04-05T19:26"
-    },
-    {
-      "date": "2026-04-06",
-      "high_f": 70,
-      "low_f": 40,
-      "rain_pct": 19,
-      "uv": 8,
-      "sunrise": "2026-04-06T06:35",
-      "sunset": "2026-04-06T19:27"
-    },
-    {
-      "date": "2026-04-07",
-      "high_f": 62,
-      "low_f": 48,
-      "rain_pct": 71,
-      "uv": 5,
-      "sunrise": "2026-04-07T06:34",
-      "sunset": "2026-04-07T19:28"
-    },
-    {
-      "date": "2026-04-08",
-      "high_f": 68,
-      "low_f": 48,
-      "rain_pct": 41,
-      "uv": 8,
-      "sunrise": "2026-04-08T06:32",
-      "sunset": "2026-04-08T19:29"
-    },
-    {
-      "date": "2026-04-09",
-      "high_f": 68,
-      "low_f": 49,
-      "rain_pct": 40,
-      "uv": 6,
-      "sunrise": "2026-04-09T06:31",
-      "sunset": "2026-04-09T19:30"
-    }
-  ],
-  "updated_at": "2026-04-05T11:34:26.370164+00:00"
+  "forecast": [],
+  "updated_at": "2026-04-05T12:01:08.223908+00:00"
 }

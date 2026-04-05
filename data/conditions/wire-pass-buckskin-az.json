@@ -16,16 +16,16 @@
   "status": "Open",
   "notes": "Flash flood zone \u2014 avoid any chance of rain",
   "dog_friendly": "Yes",
-  "score": 70,
-  "score_label": "Good conditions",
+  "score": 88,
+  "score_label": "Great day to go",
   "gear_flags": [
     "insulation layer required"
   ],
   "current": {
-    "temp_f": 39,
-    "feels_like_f": 31,
-    "wind_mph": 3,
-    "gusts_mph": 4,
+    "temp_f": 41,
+    "feels_like_f": 34,
+    "wind_mph": 1,
+    "gusts_mph": 2,
     "rain_pct": 0
   },
   "aqi": {
@@ -43,7 +43,7 @@
   "forecast": [
     {
       "date": "2026-04-05",
-      "high_f": 70,
+      "high_f": 69,
       "low_f": 39,
       "rain_pct": 0,
       "uv": 8,
@@ -87,5 +87,5 @@
       "sunset": "2026-04-09T19:57"
     }
   ],
-  "updated_at": "2026-04-05T11:32:15.310252+00:00"
+  "updated_at": "2026-04-05T11:56:54.358348+00:00"
 }
