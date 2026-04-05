@@ -25,6 +25,35 @@ import shutil
 import glob
 from datetime import datetime, timezone
 
+DATA_DIR = "data/conditions"
+
+
+def load_related_trails(current_slug, state, count=3):
+    """Return up to N trails from the same state (excluding current), sorted by score."""
+    related = []
+    try:
+        for path in glob.glob(f"{DATA_DIR}/*.json"):
+            try:
+                with open(path) as f:
+                    d = json.load(f)
+                if d.get("slug") == current_slug:
+                    continue
+                if (d.get("state") or "").lower() != state.lower():
+                    continue
+                related.append({
+                    "slug":  d.get("slug", ""),
+                    "name":  d.get("name", ""),
+                    "state": (d.get("state") or "").lower(),
+                    "score": d.get("score", 0),
+                    "label": d.get("score_label", ""),
+                })
+            except Exception:
+                continue
+        related.sort(key=lambda x: x["score"], reverse=True)
+    except Exception:
+        pass
+    return related[:count]
+
 BASE_URL     = "https://alwayshave.fun"
 ARTICLES_DIR = "articles"
 PHOTOS_DIR   = "photos/articles"
@@ -138,6 +167,7 @@ def build_html(fm, body_md, photo_url, slug):
     tags        = fm.get("tags", "[]").strip("[]").replace('"','').split(",")
     page_url    = f"{BASE_URL}/articles/{slug}"
     trail_url   = f"{BASE_URL}/{state}/{trail_slug}" if state else None
+    related     = load_related_trails(trail_slug, state) if state else []
 
     # Format date nicely
     try:
@@ -182,6 +212,23 @@ def build_html(fm, body_md, photo_url, slug):
     trail_link = ""
     if trail_url and trail_name:
         trail_link = f'<a href="{trail_url}" class="trail-link">📍 Live conditions for {trail_name} →</a>'
+
+    # Related trails block — same-state trails by score
+    related_html = ""
+    if related:
+        state_names = {"nv":"Nevada","ut":"Utah","az":"Arizona","co":"Colorado","ca":"California","nm":"New Mexico"}
+        state_name  = state_names.get(state, state.upper())
+        items = "".join(
+            f'<a class="rel-trail" href="/{r["state"]}/{r["slug"]}">'
+            f'<span class="rel-name">{r["name"]}</span>'
+            f'<span class="rel-score" style="color:{"#22c55e" if r["score"]>=85 else "#f59e0b" if r["score"]>=50 else "#ef4444"}">'
+            f'{r["score"]}/100 · {r["label"]}</span></a>'
+            for r in related
+        )
+        related_html = f'''<div class="related-trails">
+      <div class="rel-heading">More {state_name} trail conditions</div>
+      <div class="rel-list">{items}</div>
+    </div>'''
 
     return f'''<!DOCTYPE html>
 <html lang="en">
@@ -231,6 +278,13 @@ def build_html(fm, body_md, photo_url, slug):
     .article-body em {{ color: #8b949e; }}
     .trail-link {{ display: inline-block; margin: 32px 0; background: #161b22; border: 1px solid #30363d; border-radius: 10px; padding: 14px 20px; font-weight: 600; color: #58a6ff; font-size: .95rem; }}
     .trail-link:hover {{ border-color: #58a6ff; text-decoration: none; }}
+    .related-trails {{ border-top: 1px solid #30363d; margin-top: 40px; padding-top: 28px; }}
+    .rel-heading {{ font-size: .8rem; font-weight: 700; text-transform: uppercase; letter-spacing: .06em; color: #6e7681; margin-bottom: 14px; }}
+    .rel-list {{ display: flex; flex-direction: column; gap: 10px; }}
+    .rel-trail {{ display: flex; justify-content: space-between; align-items: center; background: #161b22; border: 1px solid #30363d; border-radius: 8px; padding: 12px 16px; text-decoration: none; transition: border-color .15s; }}
+    .rel-trail:hover {{ border-color: #58a6ff; text-decoration: none; }}
+    .rel-name {{ font-weight: 600; font-size: .9rem; color: #e6edf3; }}
+    .rel-score {{ font-size: .8rem; font-weight: 500; }}
     footer {{ border-top: 1px solid #30363d; padding: 32px 0; margin-top: 48px; font-size: .8rem; color: #6e7681; text-align: center; line-height: 2; }}
     footer a {{ color: #8b949e; }}
     footer a:hover {{ color: #e6edf3; }}
@@ -261,6 +315,8 @@ def build_html(fm, body_md, photo_url, slug):
       {body_html}
       {trail_link}
     </div>
+
+    {related_html}
 
     <footer>
       <a href="/">← All Trails</a> &nbsp;·&nbsp;
