@@ -113,6 +113,54 @@ def build_meta(d):
     if dog in ("Yes", "No"):
         additional.append({"@type": "PropertyValue", "name": "Dog Friendly", "value": dog})
 
+    # FAQPage — answers high-intent "is X trail safe/open/dog-friendly?" queries
+    faq_pairs = []
+    faq_pairs.append({
+        "q": f"What are the current conditions at {name}?",
+        "a": f"As of the latest update, {name} is scoring {score}/100 ({label}). "
+             f"Temperature: {temp}°F, wind: {wind} mph, rain chance: {rain}%. "
+             f"Data is refreshed every 30 minutes."
+    })
+    faq_pairs.append({
+        "q": f"Is {name} dog-friendly?",
+        "a": (f"Yes, dogs are welcome on {name}. Leash required."
+              if dog == "Yes" else
+              f"No, dogs are not permitted on {name}.")
+        if dog in ("Yes", "No") else
+        f"Check the park's current pet policy before visiting {name}."
+    })
+    faq_pairs.append({
+        "q": f"How difficult is {name}?",
+        "a": f"{name} is rated {diff}. "
+             f"The trail is {miles} miles with {gain} ft of elevation gain."
+        if diff and miles else f"{name} difficulty: {diff or 'see trail details'}."
+    })
+    if aqi_val is not None:
+        faq_pairs.append({
+            "q": f"What is the air quality (AQI) at {name} today?",
+            "a": f"Current AQI at {name} is {aqi_val} — {aqi_category(aqi_val)}. "
+                 f"AQI under 50 is Good; 51-100 is Moderate; above 100 may require a mask."
+        })
+    faq_pairs.append({
+        "q": f"When is the best time to visit {name}?",
+        "a": f"The best months to hike {name} are {d.get('best_months', 'spring and fall')}."
+        if d.get("best_months") else
+        f"Spring and fall typically offer the best conditions at {name}."
+    })
+
+    faq_schema = {
+        "@type": "FAQPage",
+        "@id": f"{page_url}#faq",
+        "mainEntity": [
+            {
+                "@type": "Question",
+                "name": p["q"],
+                "acceptedAnswer": {"@type": "Answer", "text": p["a"]}
+            }
+            for p in faq_pairs
+        ]
+    }
+
     schema = {
         "@context": "https://schema.org",
         "@graph": [
@@ -139,7 +187,8 @@ def build_meta(d):
                     {"@type": "ListItem", "position": 2, "name": state_name,   "item": f"{BASE_URL}/{state_lc}"},
                     {"@type": "ListItem", "position": 3, "name": name,         "item": page_url}
                 ]
-            }
+            },
+            faq_schema
         ]
     }
 
@@ -177,13 +226,15 @@ def inject_head(html, m):
          f'<meta name="twitter:description" id="tw-desc" content="{m["meta_desc"]}">'),
         (r'<meta name="twitter:image"[^>]*>',
          f'<meta name="twitter:image" id="tw-image" content="{m["photo_url"]}">'),
-        (r'<script type="application/ld\+json"[^>]*>.*?</script>',
-         f'<script type="application/ld+json" id="schema-ld">{m["schema"]}</script>'),
     ]
 
     for pattern, replacement in subs:
         repl = replacement  # capture for lambda closure
         html = re.sub(pattern, lambda _m, r=repl: r, html, flags=re.DOTALL | re.IGNORECASE)
+
+    # Inject schema before </head> — trail.html has no existing ld+json block
+    schema_tag = f'<script type="application/ld+json" id="schema-ld">{m["schema"]}</script>\n'
+    html = html.replace('</head>', schema_tag + '</head>', 1)
 
     return html
 
