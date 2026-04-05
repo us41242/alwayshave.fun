@@ -16,8 +16,8 @@
   "status": "Open",
   "notes": "Permit required \u2014 sells out months in advance",
   "dog_friendly": "No",
-  "score": 100,
-  "score_label": "Great day to go",
+  "score": 60,
+  "score_label": "Use caution",
   "gear_flags": [],
   "current": {
     "temp_f": 68,
@@ -38,52 +38,6 @@
     "fire_count_50km": 0
   },
   "river": null,
-  "forecast": [
-    {
-      "date": "2026-04-05",
-      "high_f": 86,
-      "low_f": 53,
-      "rain_pct": 0,
-      "uv": 7,
-      "sunrise": "2026-04-05T06:10",
-      "sunset": "2026-04-05T18:56"
-    },
-    {
-      "date": "2026-04-06",
-      "high_f": 76,
-      "low_f": 60,
-      "rain_pct": 24,
-      "uv": 4,
-      "sunrise": "2026-04-06T06:09",
-      "sunset": "2026-04-06T18:57"
-    },
-    {
-      "date": "2026-04-07",
-      "high_f": 82,
-      "low_f": 56,
-      "rain_pct": 1,
-      "uv": 8,
-      "sunrise": "2026-04-07T06:07",
-      "sunset": "2026-04-07T18:57"
-    },
-    {
-      "date": "2026-04-08",
-      "high_f": 83,
-      "low_f": 60,
-      "rain_pct": 0,
-      "uv": 8,
-      "sunrise": "2026-04-08T06:06",
-      "sunset": "2026-04-08T18:58"
-    },
-    {
-      "date": "2026-04-09",
-      "high_f": 82,
-      "low_f": 63,
-      "rain_pct": 1,
-      "uv": 7,
-      "sunrise": "2026-04-09T06:05",
-      "sunset": "2026-04-09T18:59"
-    }
-  ],
-  "updated_at": "2026-04-05T16:39:18.770957+00:00"
+  "forecast": [],
+  "updated_at": "2026-04-05T17:33:01.996379+00:00"
 }
