@@ -16,18 +16,18 @@
   "status": "Open",
   "notes": "Creek crossings \u2014 check water levels after rain",
   "dog_friendly": "Yes",
-  "score": 88,
+  "score": 100,
   "score_label": "Great day to go",
   "gear_flags": [],
   "current": {
-    "temp_f": 46,
-    "feels_like_f": 34,
+    "temp_f": 50,
+    "feels_like_f": 39,
     "wind_mph": 13,
-    "gusts_mph": 15,
+    "gusts_mph": 18,
     "rain_pct": 0
   },
   "aqi": {
-    "aqi": 16,
+    "aqi": 17,
     "category": "Good",
     "pollutant": "O3",
     "source": "airnow"
@@ -45,7 +45,7 @@
     {
       "date": "2026-04-05",
       "high_f": 73,
-      "low_f": 44,
+      "low_f": 43,
       "rain_pct": 1,
       "uv": 8,
       "sunrise": "2026-04-05T06:07",
@@ -88,5 +88,5 @@
       "sunset": "2026-04-09T18:54"
     }
   ],
-  "updated_at": "2026-04-05T13:56:31.003145+00:00"
+  "updated_at": "2026-04-05T14:37:09.350902+00:00"
 }
