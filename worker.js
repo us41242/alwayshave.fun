@@ -9,6 +9,13 @@ export default {
     const parts = url.pathname.replace(/^\//, '').split('/').filter(p => p.length > 0);
     const first = (parts[0] || '').toLowerCase();
 
+    // /articles  →  serve articles index
+    if (parts.length === 1 && first === 'articles') {
+      const idxUrl = new URL('/articles/index.html', url.origin);
+      const idxRes = await env.ASSETS.fetch(idxUrl);
+      if (idxRes.status === 200) return idxRes;
+    }
+
     // /articles/{slug}  →  serve published article HTML
     if (parts.length === 2 && parts[0] === 'articles') {
       const articleUrl = new URL(`/articles/${parts[1]}.html`, url.origin);

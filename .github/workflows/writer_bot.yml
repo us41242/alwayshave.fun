@@ -4,6 +4,10 @@ on:
   schedule:
     - cron: '0 7 * * *'   # 7am UTC = midnight PST / 3am EST
   workflow_dispatch:
+    inputs:
+      count:
+        description: 'Number of articles to write'
+        default: '4'
 
 permissions:
   contents: write
@@ -22,6 +26,10 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           ref: main
+          fetch-depth: 0
+
+      - name: Pull latest
+        run: git pull --rebase origin main
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -31,14 +39,17 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
-      - name: Generate daily article draft
-        run: python3 scripts/writer_bot.py
+      - name: Generate and publish articles
+        run: python3 scripts/writer_bot.py --count ${{ github.event.inputs.count || '4' }} --auto-publish
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
 
-      - name: Commit draft
+      - name: Rebuild articles index
+        run: python3 scripts/build_articles_index.py
+
+      - name: Commit articles
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "content: daily article draft — Jake's take"
-          file_pattern: "content/drafts/"
+          commit_message: "content: daily articles — Jake's takes"
+          file_pattern: "articles/ photos/articles/ content/ site/"
           branch: main

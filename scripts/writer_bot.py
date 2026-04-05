@@ -43,21 +43,35 @@ def load_conditions(slug):
         return None
 
 
-def already_written_today():
-    today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
-    os.makedirs(DRAFTS_DIR, exist_ok=True)
-    for fname in os.listdir(DRAFTS_DIR):
-        if fname.startswith(today):
-            return fname
-    return None
+def recently_written_slugs(days=7):
+    """Return slugs already published in the last N days — avoid repeating."""
+    cutoff = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+    written = set()
+    for directory in (DRAFTS_DIR, PUBLISHED):
+        if not os.path.isdir(directory):
+            continue
+        for fname in os.listdir(directory):
+            if fname.endswith(".md"):
+                # Strip date prefix to get slug
+                slug = fname.replace(".md", "")
+                import re as _re
+                slug = _re.sub(r'^\d{4}-\d{2}-\d{2}-', '', slug)
+                written.add(slug)
+    # Also check articles/ dir for published HTML
+    if os.path.isdir("articles"):
+        for fname in os.listdir("articles"):
+            if fname.endswith(".html"):
+                written.add(fname[:-5])
+    return written
 
 
-def pick_trail(trails):
-    """Pick a trail with good or interesting conditions — prioritize high scores or caution alerts."""
+def pick_trails(trails, count=1):
+    """Pick N trails with good/interesting conditions, avoiding recent repeats."""
+    skip = recently_written_slugs()
     scored = []
     for t in trails:
         slug = t.get("slug", "").strip()
-        if not slug:
+        if not slug or slug in skip:
             continue
         c = load_conditions(slug)
         if not c:
@@ -66,14 +80,14 @@ def pick_trail(trails):
         aqi       = (c.get("aqi") or {}).get("aqi") or 0
         wind      = (c.get("current") or {}).get("wind_mph") or 0
         has_alert = aqi > 100 or wind > 25
-        # Interesting = high score OR a caution story to tell
-        interest = score + (15 if has_alert else 0)
+        interest  = score + (15 if has_alert else 0)
         scored.append((interest, t, c))
 
     scored.sort(key=lambda x: x[0], reverse=True)
-    # Pick from top 10 with some randomness so we don't repeat the same trail
-    pool = scored[:10]
-    return random.choice(pool)[1], random.choice(pool)[2]
+    # Shuffle top 15 so we get variety, then take N
+    pool = scored[:15]
+    random.shuffle(pool)
+    return [(t, c) for _, t, c in pool[:count]]
 
 
 def build_prompt(trail, conditions):
@@ -142,6 +156,7 @@ OUTPUT FORMAT (markdown):
 title: [title]
 meta_description: [meta]
 trail_slug: {trail.get('slug')}
+trail_name: {trail.get('name')}
 state: {trail.get('state', '').lower()}
 date: {datetime.now(timezone.utc).strftime('%Y-%m-%d')}
 score: {score}
@@ -203,21 +218,44 @@ def save_draft(trail, content):
 
 
 def main():
-    already = already_written_today()
-    if already:
-        print(f"Already wrote today: {already}. One article per day. Come back tomorrow.")
-        return
+    import argparse
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--count", type=int, default=int(os.environ.get("ARTICLE_COUNT", 1)),
+                        help="Number of articles to write (default 1)")
+    parser.add_argument("--auto-publish", action="store_true",
+                        default=os.environ.get("AUTO_PUBLISH", "").lower() in ("1", "true", "yes"),
+                        help="Auto-publish drafts after writing")
+    args = parser.parse_args()
 
     trails = load_trails()
-    trail, conditions = pick_trail(trails)
-    print(f"Writing about: {trail.get('name')} (score {conditions.get('score')}/100)")
+    picks  = pick_trails(trails, count=args.count)
 
-    prompt  = build_prompt(trail, conditions)
-    article = generate_article(prompt)
-    path    = save_draft(trail, article)
+    if not picks:
+        print("No eligible trails found — all recently covered or no conditions data.")
+        return
 
-    print(f"\nDraft ready for your review: {path}")
-    print("Add a photo and run: python3 scripts/publish_article.py <draft-file>")
+    paths = []
+    for trail, conditions in picks:
+        print(f"Writing about: {trail.get('name')} (score {conditions.get('score')}/100)")
+        prompt  = build_prompt(trail, conditions)
+        article = generate_article(prompt)
+        path    = save_draft(trail, article)
+        paths.append(path)
+        print()
+
+    if args.auto_publish and paths:
+        import subprocess
+        for path in paths:
+            print(f"Auto-publishing: {path}")
+            result = subprocess.run(
+                ["python3", "scripts/publish_article.py", path],
+                capture_output=True, text=True
+            )
+            print(result.stdout)
+            if result.returncode != 0:
+                print(f"  publish error: {result.stderr}")
+
+    print(f"\nWrote {len(paths)} article(s).")
 
 
 if __name__ == "__main__":
