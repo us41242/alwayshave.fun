@@ -18,16 +18,18 @@
   "dog_friendly": "Yes",
   "score": 88,
   "score_label": "Great day to go",
-  "gear_flags": [],
+  "gear_flags": [
+    "insulation layer required"
+  ],
   "current": {
-    "temp_f": 46,
+    "temp_f": 44,
     "feels_like_f": 33,
-    "wind_mph": 15,
-    "gusts_mph": 18,
+    "wind_mph": 13,
+    "gusts_mph": 16,
     "rain_pct": 0
   },
   "aqi": {
-    "aqi": 18,
+    "aqi": 16,
     "category": "Good",
     "pollutant": "O3",
     "source": "airnow"
@@ -45,8 +47,8 @@
     {
       "date": "2026-04-05",
       "high_f": 73,
-      "low_f": 45,
-      "rain_pct": 2,
+      "low_f": 44,
+      "rain_pct": 1,
       "uv": 8,
       "sunrise": "2026-04-05T06:07",
       "sunset": "2026-04-05T18:51"
@@ -88,5 +90,5 @@
       "sunset": "2026-04-09T18:54"
     }
   ],
-  "updated_at": "2026-04-05T11:56:51.546513+00:00"
+  "updated_at": "2026-04-05T12:57:08.944836+00:00"
 }
