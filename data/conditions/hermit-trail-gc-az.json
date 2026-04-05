@@ -16,18 +16,18 @@
   "status": "Open",
   "notes": "Unmaintained \u2014 route-finding required",
   "dog_friendly": "No",
-  "score": 100,
+  "score": 88,
   "score_label": "Great day to go",
   "gear_flags": [],
   "current": {
-    "temp_f": 67,
+    "temp_f": 68,
     "feels_like_f": 58,
     "wind_mph": 15,
-    "gusts_mph": 16,
+    "gusts_mph": 17,
     "rain_pct": 0
   },
   "aqi": {
-    "aqi": 48,
+    "aqi": 47,
     "category": "Good",
     "pollutant": "O3",
     "source": "airnow"
@@ -52,7 +52,7 @@
       "date": "2026-04-06",
       "high_f": 63,
       "low_f": 49,
-      "rain_pct": 39,
+      "rain_pct": 45,
       "uv": 3,
       "sunrise": "2026-04-06T06:07",
       "sunset": "2026-04-06T18:54"
@@ -61,7 +61,7 @@
       "date": "2026-04-07",
       "high_f": 68,
       "low_f": 44,
-      "rain_pct": 2,
+      "rain_pct": 4,
       "uv": 8,
       "sunrise": "2026-04-07T06:06",
       "sunset": "2026-04-07T18:55"
@@ -70,7 +70,7 @@
       "date": "2026-04-08",
       "high_f": 72,
       "low_f": 50,
-      "rain_pct": 1,
+      "rain_pct": 2,
       "uv": 8,
       "sunrise": "2026-04-08T06:04",
       "sunset": "2026-04-08T18:56"
@@ -79,11 +79,11 @@
       "date": "2026-04-09",
       "high_f": 69,
       "low_f": 51,
-      "rain_pct": 1,
+      "rain_pct": 2,
       "uv": 7,
       "sunrise": "2026-04-09T06:03",
       "sunset": "2026-04-09T18:57"
     }
   ],
-  "updated_at": "2026-04-05T20:36:01.133476+00:00"
+  "updated_at": "2026-04-05T21:34:08.517841+00:00"
 }

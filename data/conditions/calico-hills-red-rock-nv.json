@@ -16,21 +16,21 @@
   "status": "Open",
   "notes": "Avoid mid-summer heat \u2014 best Oct\u2013Apr",
   "dog_friendly": "Yes",
-  "score": 70,
-  "score_label": "Good conditions",
+  "score": 100,
+  "score_label": "Great day to go",
   "gear_flags": [],
   "current": {
-    "temp_f": 72,
-    "feels_like_f": 67,
-    "wind_mph": 8,
-    "gusts_mph": 10,
+    "temp_f": 74,
+    "feels_like_f": 68,
+    "wind_mph": 7,
+    "gusts_mph": 8,
     "rain_pct": 0
   },
   "aqi": {
-    "aqi": null,
-    "category": "Unknown",
-    "pollutant": "",
-    "source": "none"
+    "aqi": 45,
+    "category": "Good",
+    "pollutant": "O3",
+    "source": "airnow"
   },
   "fire": {
     "risk_level": "low",
@@ -79,11 +79,11 @@
       "date": "2026-04-09",
       "high_f": 70,
       "low_f": 62,
-      "rain_pct": 2,
+      "rain_pct": 1,
       "uv": 7,
       "sunrise": "2026-04-09T06:16",
       "sunset": "2026-04-09T19:10"
     }
   ],
-  "updated_at": "2026-04-05T20:32:41.768458+00:00"
+  "updated_at": "2026-04-05T21:32:11.847814+00:00"
 }
