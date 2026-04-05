@@ -16,8 +16,8 @@
   "status": "Open",
   "notes": "Popular weekend trail \u2014 arrive before 8am",
   "dog_friendly": "Yes",
-  "score": 100,
-  "score_label": "Great day to go",
+  "score": 60,
+  "score_label": "Use caution",
   "gear_flags": [],
   "current": {
     "temp_f": 53,
@@ -27,7 +27,7 @@
     "rain_pct": 0
   },
   "aqi": {
-    "aqi": 18,
+    "aqi": 14,
     "category": "Good",
     "pollutant": "PM10",
     "source": "airnow"
@@ -38,52 +38,6 @@
     "fire_count_50km": 0
   },
   "river": null,
-  "forecast": [
-    {
-      "date": "2026-04-05",
-      "high_f": 53,
-      "low_f": 35,
-      "rain_pct": 0,
-      "uv": 8,
-      "sunrise": "2026-04-05T06:22",
-      "sunset": "2026-04-05T19:07"
-    },
-    {
-      "date": "2026-04-06",
-      "high_f": 51,
-      "low_f": 39,
-      "rain_pct": 1,
-      "uv": 6,
-      "sunrise": "2026-04-06T06:20",
-      "sunset": "2026-04-06T19:08"
-    },
-    {
-      "date": "2026-04-07",
-      "high_f": 56,
-      "low_f": 40,
-      "rain_pct": 0,
-      "uv": 8,
-      "sunrise": "2026-04-07T06:19",
-      "sunset": "2026-04-07T19:09"
-    },
-    {
-      "date": "2026-04-08",
-      "high_f": 56,
-      "low_f": 43,
-      "rain_pct": 1,
-      "uv": 8,
-      "sunrise": "2026-04-08T06:18",
-      "sunset": "2026-04-08T19:10"
-    },
-    {
-      "date": "2026-04-09",
-      "high_f": 51,
-      "low_f": 42,
-      "rain_pct": 4,
-      "uv": 7,
-      "sunrise": "2026-04-09T06:16",
-      "sunset": "2026-04-09T19:11"
-    }
-  ],
-  "updated_at": "2026-04-05T22:38:04.754306+00:00"
+  "forecast": [],
+  "updated_at": "2026-04-05T23:37:36.373890+00:00"
 }
