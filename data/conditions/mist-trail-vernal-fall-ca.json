@@ -16,18 +16,18 @@
   "status": "Open",
   "notes": "Extremely slippery when wet \u2014 wet season trail",
   "dog_friendly": "No",
-  "score": 100,
+  "score": 88,
   "score_label": "Great day to go",
   "gear_flags": [],
   "current": {
-    "temp_f": 51,
-    "feels_like_f": 41,
+    "temp_f": 49,
+    "feels_like_f": 40,
     "wind_mph": 9,
-    "gusts_mph": 8,
+    "gusts_mph": 9,
     "rain_pct": 0
   },
   "aqi": {
-    "aqi": 37,
+    "aqi": 39,
     "category": "Good",
     "pollutant": "O3",
     "source": "airnow"
@@ -41,8 +41,8 @@
   "forecast": [
     {
       "date": "2026-04-05",
-      "high_f": 69,
-      "low_f": 51,
+      "high_f": 68,
+      "low_f": 48,
       "rain_pct": 3,
       "uv": 8,
       "sunrise": "2026-04-05T06:36",
@@ -85,5 +85,5 @@
       "sunset": "2026-04-09T19:28"
     }
   ],
-  "updated_at": "2026-04-05T09:45:05.106089+00:00"
+  "updated_at": "2026-04-05T10:39:25.642217+00:00"
 }
