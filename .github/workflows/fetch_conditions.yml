@@ -22,6 +22,10 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           ref: main
+          fetch-depth: 0
+
+      - name: Pull latest to avoid non-fast-forward push failures
+        run: git pull --rebase origin main
 
       - name: Set up Python
         uses: actions/setup-python@v5

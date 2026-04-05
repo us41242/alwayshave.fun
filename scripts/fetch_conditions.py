@@ -215,7 +215,7 @@ def process_trail(trail):
     score     = compute_score(weather, aqi_data, fire_data)
 
     current  = existing.get("current", {})  # preserve last-known data on failure
-    forecast = existing.get("forecast", [])
+    forecast = []  # always rebuild forecast fresh — never accumulate across runs
 
     if weather:
         c = weather.get("current", {})
@@ -226,7 +226,9 @@ def process_trail(trail):
             "gusts_mph":    round(c.get("wind_gusts_10m", 0)),
             "rain_pct":     round(c.get("precipitation_probability", 0)),
         }
-        daily = weather.get("daily", {})
+        daily   = weather.get("daily", {})
+        sunrise = daily.get("sunrise", [])
+        sunset  = daily.get("sunset",  [])
         for i, day in enumerate(daily.get("time", [])):
             forecast.append({
                 "date":     day,
@@ -234,8 +236,8 @@ def process_trail(trail):
                 "low_f":    round(daily.get("temperature_2m_min",           [0]*10)[i]),
                 "rain_pct": round(daily.get("precipitation_probability_max",[0]*10)[i]),
                 "uv":       round(daily.get("uv_index_max",                 [0]*10)[i]),
-                "sunrise":  (daily.get("sunrise", [""]*(i+1)) or [""]*(i+1))[i] if i < len(daily.get("sunrise", [])) else "",
-                "sunset":   (daily.get("sunset",  [""]*(i+1)) or [""]*(i+1))[i] if i < len(daily.get("sunset",  [])) else "",
+                "sunrise":  sunrise[i] if i < len(sunrise) else "",
+                "sunset":   sunset[i]  if i < len(sunset)  else "",
             })
 
     output = {
