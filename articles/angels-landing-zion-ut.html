@@ -55,6 +55,10 @@
     .rel-trail:hover { border-color: #58a6ff; text-decoration: none; }
     .rel-name { font-weight: 600; font-size: .9rem; color: #e6edf3; }
     .rel-score { font-size: .8rem; font-weight: 500; }
+    .related-articles { border-top: 1px solid #30363d; margin-top: 24px; padding-top: 24px; }
+    .rel-art-list { display: flex; flex-direction: column; gap: 8px; }
+    .rel-article { display: block; background: #161b22; border: 1px solid #30363d; border-radius: 8px; padding: 10px 16px; font-size: .9rem; font-weight: 500; color: #58a6ff; text-decoration: none; transition: border-color .15s; }
+    .rel-article:hover { border-color: #58a6ff; color: #79c0ff; }
     footer { border-top: 1px solid #30363d; padding: 32px 0; margin-top: 48px; font-size: .8rem; color: #6e7681; text-align: center; line-height: 2; }
     footer a { color: #8b949e; }
     footer a:hover { color: #e6edf3; }
@@ -78,7 +82,7 @@
         <span class="author-badge">by Jake</span>
         <span>April 4, 2026</span>
         <span>Score: <strong style="color:#16a34a">100/100</strong> at time of writing</span>
-        <span class="dog-no">🚫 No dogs</span>
+        
       </div>
     </header>
 
@@ -123,7 +127,11 @@
 
     <div class="related-trails">
       <div class="rel-heading">More Utah trail conditions</div>
-      <div class="rel-list"><a class="rel-trail" href="/ut/snow-canyon-rim-ut"><span class="rel-name">Snow Canyon State Park Rim</span><span class="rel-score" style="color:#22c55e">100/100 · Great day to go</span></a><a class="rel-trail" href="/ut/narrows-top-down-zion-ut"><span class="rel-name">Zion Narrows (Top-Down)</span><span class="rel-score" style="color:#22c55e">88/100 · Great day to go</span></a><a class="rel-trail" href="/ut/the-narrows-zion-ut"><span class="rel-name">The Narrows (Bottom-Up)</span><span class="rel-score" style="color:#22c55e">88/100 · Great day to go</span></a></div>
+      <div class="rel-list"><a class="rel-trail" href="/ut/kanarra-creek-ut"><span class="rel-name">Kanarra Creek Slot Canyon</span><span class="rel-score" style="color:#22c55e">100/100 · Great day to go</span></a><a class="rel-trail" href="/ut/snow-canyon-rim-ut"><span class="rel-name">Snow Canyon State Park Rim</span><span class="rel-score" style="color:#22c55e">100/100 · Great day to go</span></a><a class="rel-trail" href="/ut/the-narrows-zion-ut"><span class="rel-name">The Narrows (Bottom-Up)</span><span class="rel-score" style="color:#22c55e">100/100 · Great day to go</span></a></div>
+    </div>
+    <div class="related-articles">
+      <div class="rel-heading">More Jake's takes from Utah</div>
+      <div class="rel-art-list"><a class="rel-article" href="/articles/the-narrows-zion-ut">The Narrows Is Running Perfect Right Now</a><a class="rel-article" href="/articles/kanarra-creek-ut">Kanarra Creek Is Perfect — Grab a Permit First</a><a class="rel-article" href="/articles/zion-narrows-top-down-ut">Zion Narrows Top-Down — Is April the Right Time to Go?</a></div>
     </div>
 
     <footer>

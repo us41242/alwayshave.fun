@@ -30,7 +30,7 @@
     .nav-logo { font-weight: 800; font-size: 1.1rem; text-decoration: none; color: #e6edf3; }
     .nav-sep { color: #30363d; }
     .nav-link { color: #8b949e; font-size: .9rem; }
-    .hero { width: 100%; max-height: 680px; object-fit: contain; background: #0c1117; display: block; }
+    .hero { width: 100%; max-height: 520px; object-fit: cover; object-position: center center; display: block; }
     .wrap { max-width: 720px; margin: 0 auto; padding: 0 20px; }
     .article-header { padding: 36px 0 28px; border-bottom: 1px solid #30363d; margin-bottom: 32px; }
     .article-title { font-size: clamp(1.6rem, 4vw, 2.2rem); font-weight: 900; line-height: 1.2; margin-bottom: 14px; color: #e6edf3; }
@@ -55,6 +55,10 @@
     .rel-trail:hover { border-color: #58a6ff; text-decoration: none; }
     .rel-name { font-weight: 600; font-size: .9rem; color: #e6edf3; }
     .rel-score { font-size: .8rem; font-weight: 500; }
+    .related-articles { border-top: 1px solid #30363d; margin-top: 24px; padding-top: 24px; }
+    .rel-art-list { display: flex; flex-direction: column; gap: 8px; }
+    .rel-article { display: block; background: #161b22; border: 1px solid #30363d; border-radius: 8px; padding: 10px 16px; font-size: .9rem; font-weight: 500; color: #58a6ff; text-decoration: none; transition: border-color .15s; }
+    .rel-article:hover { border-color: #58a6ff; color: #79c0ff; }
     footer { border-top: 1px solid #30363d; padding: 32px 0; margin-top: 48px; font-size: .8rem; color: #6e7681; text-align: center; line-height: 2; }
     footer a { color: #8b949e; }
     footer a:hover { color: #e6edf3; }
@@ -78,7 +82,7 @@
         <span class="author-badge">by Jake</span>
         <span>April 4, 2026</span>
         <span>Score: <strong style="color:#16a34a">100/100</strong> at time of writing</span>
-        <span class="dog-yes">🐾 Dogs welcome</span>
+        
       </div>
     </header>
 
@@ -122,7 +126,11 @@
 
     <div class="related-trails">
       <div class="rel-heading">More Arizona trail conditions</div>
-      <div class="rel-list"><a class="rel-trail" href="/az/toroweap-overlook-az"><span class="rel-name">Toroweap Overlook</span><span class="rel-score" style="color:#22c55e">100/100 · Great day to go</span></a><a class="rel-trail" href="/az/havasu-falls-az"><span class="rel-name">Havasu Falls</span><span class="rel-score" style="color:#22c55e">100/100 · Great day to go</span></a><a class="rel-trail" href="/az/kanab-creek-wilderness-az"><span class="rel-name">Kanab Creek Wilderness</span><span class="rel-score" style="color:#22c55e">88/100 · Great day to go</span></a></div>
+      <div class="rel-list"><a class="rel-trail" href="/az/west-fork-oak-creek-az"><span class="rel-name">West Fork Oak Creek</span><span class="rel-score" style="color:#22c55e">100/100 · Great day to go</span></a><a class="rel-trail" href="/az/bright-angel-trail-gc-az"><span class="rel-name">Bright Angel Trail</span><span class="rel-score" style="color:#22c55e">90/100 · Great day to go</span></a><a class="rel-trail" href="/az/toroweap-overlook-az"><span class="rel-name">Toroweap Overlook</span><span class="rel-score" style="color:#22c55e">90/100 · Great day to go</span></a></div>
+    </div>
+    <div class="related-articles">
+      <div class="rel-heading">More Jake's takes from Arizona</div>
+      <div class="rel-art-list"><a class="rel-article" href="/articles/west-fork-oak-creek-az">West Fork Oak Creek Is Running at 100 — Get to Sedona</a><a class="rel-article" href="/articles/bright-angel-trail-gc-az">Bright Angel Trail: 90/100, But Watch the Rain</a><a class="rel-article" href="/articles/hermit-trail-gc-az">Hermit Trail: 90/100 Grand Canyon Day</a></div>
     </div>
 
     <footer>

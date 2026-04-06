@@ -61,6 +61,43 @@ DRAFTS_DIR   = "content/drafts"
 PUBLISHED_DIR = "content/published"
 
 
+def load_related_articles(current_slug, state, count=3):
+    """Return up to N published articles from the same state (excluding current)."""
+    import re as _re
+    articles = []
+    for directory in (PUBLISHED_DIR, DRAFTS_DIR):
+        if not os.path.isdir(directory):
+            continue
+        for fname in os.listdir(directory):
+            if not fname.endswith(".md"):
+                continue
+            slug = _re.sub(r'^\d{4}-\d{2}-\d{2}-', '', fname[:-3])
+            if slug == current_slug:
+                continue
+            path = os.path.join(directory, fname)
+            try:
+                with open(path) as f:
+                    raw = f.read()
+                # Quick frontmatter parse
+                fm_state = ""
+                title = ""
+                date_str = ""
+                for line in raw.split("\n"):
+                    if line.startswith("state:"):
+                        fm_state = line.split(":", 1)[1].strip()
+                    elif line.startswith("title:"):
+                        title = line.split(":", 1)[1].strip()
+                    elif line.startswith("date:"):
+                        date_str = line.split(":", 1)[1].strip()
+                if fm_state == state and title and slug not in [a["slug"] for a in articles]:
+                    articles.append({"slug": slug, "title": title, "date": date_str})
+            except Exception:
+                continue
+    # Sort newest first, return up to count
+    articles.sort(key=lambda x: x["date"], reverse=True)
+    return articles[:count]
+
+
 # ── Minimal Markdown → HTML ──────────────────────────────────────────────────
 
 def md_to_html(text):
@@ -215,11 +252,12 @@ def build_html(fm, body_md, photo_url, slug):
     if trail_url and trail_name:
         trail_link = f'<a href="{trail_url}" class="trail-link">📍 Live conditions for {trail_name} →</a>'
 
+    state_names = {"nv":"Nevada","ut":"Utah","az":"Arizona","co":"Colorado","ca":"California","nm":"New Mexico"}
+    state_name  = state_names.get(state, state.upper())
+
     # Related trails block — same-state trails by score
     related_html = ""
     if related:
-        state_names = {"nv":"Nevada","ut":"Utah","az":"Arizona","co":"Colorado","ca":"California","nm":"New Mexico"}
-        state_name  = state_names.get(state, state.upper())
         items = "".join(
             f'<a class="rel-trail" href="/{r["state"]}/{r["slug"]}">'
             f'<span class="rel-name">{r["name"]}</span>'
@@ -230,6 +268,19 @@ def build_html(fm, body_md, photo_url, slug):
         related_html = f'''<div class="related-trails">
       <div class="rel-heading">More {state_name} trail conditions</div>
       <div class="rel-list">{items}</div>
+    </div>'''
+
+    # Related articles block — other published articles from same state
+    related_arts = load_related_articles(slug, state, count=3)
+    related_articles_html = ""
+    if related_arts:
+        art_items = "".join(
+            f'<a class="rel-article" href="/articles/{a["slug"]}">{a["title"]}</a>'
+            for a in related_arts
+        )
+        related_articles_html = f'''<div class="related-articles">
+      <div class="rel-heading">More Jake\'s takes from {state_name}</div>
+      <div class="rel-art-list">{art_items}</div>
     </div>'''
 
     return f'''<!DOCTYPE html>
@@ -289,6 +340,10 @@ def build_html(fm, body_md, photo_url, slug):
     .rel-trail:hover {{ border-color: #58a6ff; text-decoration: none; }}
     .rel-name {{ font-weight: 600; font-size: .9rem; color: #e6edf3; }}
     .rel-score {{ font-size: .8rem; font-weight: 500; }}
+    .related-articles {{ border-top: 1px solid #30363d; margin-top: 24px; padding-top: 24px; }}
+    .rel-art-list {{ display: flex; flex-direction: column; gap: 8px; }}
+    .rel-article {{ display: block; background: #161b22; border: 1px solid #30363d; border-radius: 8px; padding: 10px 16px; font-size: .9rem; font-weight: 500; color: #58a6ff; text-decoration: none; transition: border-color .15s; }}
+    .rel-article:hover {{ border-color: #58a6ff; color: #79c0ff; }}
     footer {{ border-top: 1px solid #30363d; padding: 32px 0; margin-top: 48px; font-size: .8rem; color: #6e7681; text-align: center; line-height: 2; }}
     footer a {{ color: #8b949e; }}
     footer a:hover {{ color: #e6edf3; }}
@@ -322,6 +377,7 @@ def build_html(fm, body_md, photo_url, slug):
     </div>
 
     {related_html}
+    {related_articles_html}
 
     <footer>
       <a href="/">← All Trails</a> &nbsp;·&nbsp;
