@@ -31,26 +31,7 @@ def generate_sitemap(trails):
     # Homepage
     urls.append({"loc": BASE_URL, "lastmod": today, "priority": "1.0", "changefreq": "hourly"})
 
-    # Regional hubs
-    regions = sorted(set(t.get("region", "") for t in trails if t.get("region")))
-    for region in regions:
-        slug = region.lower().replace(" ", "-")
-        urls.append({
-            "loc": f"{BASE_URL}/region/{slug}",
-            "lastmod": today,
-            "priority": "0.8",
-            "changefreq": "hourly"
-        })
-
-    # State hubs
     states = sorted(set(t.get("state", "") for t in trails if t.get("state")))
-    for state in states:
-        urls.append({
-            "loc": f"{BASE_URL}/state/{state.lower()}",
-            "lastmod": today,
-            "priority": "0.8",
-            "changefreq": "hourly"
-        })
 
     # Individual trail pages
     for trail in trails:
@@ -64,15 +45,6 @@ def generate_sitemap(trails):
             "lastmod": lastmod,
             "priority": "0.9",
             "changefreq": "hourly"
-        })
-
-    # Weekend planner pages per state
-    for state in states:
-        urls.append({
-            "loc": f"{BASE_URL}/{state.lower()}/best-camping-weather-this-weekend",
-            "lastmod": today,
-            "priority": "0.7",
-            "changefreq": "daily"
         })
 
     # Article index
