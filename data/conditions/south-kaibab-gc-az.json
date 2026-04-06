@@ -16,6 +16,7 @@
   "status": "Open",
   "notes": "No water on trail \u2014 carry all water",
   "dog_friendly": "No",
+  "vehicle_req": "Any",
   "score": 78,
   "score_label": "Good conditions",
   "gear_flags": [
@@ -25,7 +26,7 @@
     "temp_f": 46,
     "feels_like_f": 36,
     "wind_mph": 8,
-    "gusts_mph": 9,
+    "gusts_mph": 10,
     "rain_pct": 0
   },
   "aqi": {
@@ -44,11 +45,13 @@
     {
       "date": "2026-04-06",
       "high_f": 61,
-      "low_f": 43,
+      "low_f": 44,
       "rain_pct": 52,
       "uv": 4,
       "sunrise": "2026-04-06T06:06",
-      "sunset": "2026-04-06T18:54"
+      "sunset": "2026-04-06T18:54",
+      "predicted_score": 60,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-04-07",
@@ -57,7 +60,9 @@
       "rain_pct": 2,
       "uv": 8,
       "sunrise": "2026-04-07T06:05",
-      "sunset": "2026-04-07T18:55"
+      "sunset": "2026-04-07T18:55",
+      "predicted_score": 90,
+      "score_label": "Great day to go"
     },
     {
       "date": "2026-04-08",
@@ -66,7 +71,9 @@
       "rain_pct": 2,
       "uv": 8,
       "sunrise": "2026-04-08T06:04",
-      "sunset": "2026-04-08T18:56"
+      "sunset": "2026-04-08T18:56",
+      "predicted_score": 90,
+      "score_label": "Great day to go"
     },
     {
       "date": "2026-04-09",
@@ -75,7 +82,9 @@
       "rain_pct": 1,
       "uv": 7,
       "sunrise": "2026-04-09T06:02",
-      "sunset": "2026-04-09T18:56"
+      "sunset": "2026-04-09T18:56",
+      "predicted_score": 90,
+      "score_label": "Great day to go"
     },
     {
       "date": "2026-04-10",
@@ -84,8 +93,10 @@
       "rain_pct": 8,
       "uv": 6,
       "sunrise": "2026-04-10T06:01",
-      "sunset": "2026-04-10T18:57"
+      "sunset": "2026-04-10T18:57",
+      "predicted_score": 90,
+      "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-04-06T11:30:39.566262+00:00"
+  "updated_at": "2026-04-06T12:11:02.300997+00:00"
 }

@@ -16,14 +16,17 @@
   "status": "Open",
   "notes": "Cable permit required May\u2013Oct; lottery in spring \u2014 book early",
   "dog_friendly": "No",
-  "score": 60,
-  "score_label": "Use caution",
-  "gear_flags": [],
+  "vehicle_req": "Any",
+  "score": 70,
+  "score_label": "Good conditions",
+  "gear_flags": [
+    "insulation layer required"
+  ],
   "current": {
-    "temp_f": 37,
-    "feels_like_f": 28,
-    "wind_mph": 8,
-    "gusts_mph": 8,
+    "temp_f": 39,
+    "feels_like_f": 30,
+    "wind_mph": 6,
+    "gusts_mph": 6,
     "rain_pct": 0
   },
   "aqi": {
@@ -38,6 +41,62 @@
     "fire_count_50km": 0
   },
   "river": null,
-  "forecast": [],
-  "updated_at": "2026-04-06T11:37:08.522251+00:00"
+  "forecast": [
+    {
+      "date": "2026-04-06",
+      "high_f": 52,
+      "low_f": 37,
+      "rain_pct": 2,
+      "uv": 8,
+      "sunrise": "2026-04-06T06:35",
+      "sunset": "2026-04-06T19:25",
+      "predicted_score": 100,
+      "score_label": "Great day to go"
+    },
+    {
+      "date": "2026-04-07",
+      "high_f": 51,
+      "low_f": 38,
+      "rain_pct": 1,
+      "uv": 8,
+      "sunrise": "2026-04-07T06:33",
+      "sunset": "2026-04-07T19:26",
+      "predicted_score": 100,
+      "score_label": "Great day to go"
+    },
+    {
+      "date": "2026-04-08",
+      "high_f": 54,
+      "low_f": 36,
+      "rain_pct": 6,
+      "uv": 8,
+      "sunrise": "2026-04-08T06:32",
+      "sunset": "2026-04-08T19:27",
+      "predicted_score": 100,
+      "score_label": "Great day to go"
+    },
+    {
+      "date": "2026-04-09",
+      "high_f": 49,
+      "low_f": 34,
+      "rain_pct": 27,
+      "uv": 6,
+      "sunrise": "2026-04-09T06:30",
+      "sunset": "2026-04-09T19:28",
+      "predicted_score": 88,
+      "score_label": "Great day to go"
+    },
+    {
+      "date": "2026-04-10",
+      "high_f": 47,
+      "low_f": 30,
+      "rain_pct": 73,
+      "uv": 8,
+      "sunrise": "2026-04-10T06:29",
+      "sunset": "2026-04-10T19:28",
+      "predicted_score": 60,
+      "score_label": "Use caution"
+    }
+  ],
+  "updated_at": "2026-04-06T12:15:21.746831+00:00"
 }
