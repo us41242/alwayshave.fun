@@ -459,6 +459,21 @@
     /* ── SCORE BAR (below hero) ──────────────────── */
     .score-bar-track { height: 3px; background: var(--border); margin-bottom: 20px; border-radius: 2px; overflow: hidden; }
     .score-bar-fill  { height: 100%; border-radius: 2px; transition: width 0.9s cubic-bezier(0.4,0,0.2,1); }
+
+    /* ── BEST DAY STRIP ──────────────────────────── */
+    .bestday-strip { display: flex; gap: 8px; overflow-x: auto; padding-bottom: 4px; }
+    .bestday-day {
+      flex: 1; min-width: 68px; text-align: center; padding: 10px 6px;
+      border-radius: 8px; border: 1px solid var(--border); background: var(--surface2);
+      cursor: default; transition: border-color .15s;
+    }
+    .bestday-day.best-pick { border-color: var(--brand); background: rgba(34,197,94,.07); }
+    .bestday-day.today-pick { border-color: #58a6ff; }
+    .bestday-dow  { font-size: 0.65rem; text-transform: uppercase; letter-spacing: .06em; color: var(--text-muted); margin-bottom: 5px; }
+    .bestday-score { font-size: 1.15rem; font-weight: 800; line-height: 1; }
+    .bestday-temp  { font-size: 0.65rem; color: var(--text-muted); margin-top: 4px; }
+    .bestday-rain  { font-size: 0.6rem; color: var(--text-subtle); margin-top: 2px; }
+    .bestday-note  { font-size: 0.78rem; color: var(--text-muted); margin-top: 10px; }
   </style>
 </head>
 <body>
@@ -561,6 +576,13 @@
     <div class="card hidden" id="river-card">
       <div class="card-title">River / Stream Level</div>
       <div id="river-content"></div>
+    </div>
+
+    <!-- BEST DAY THIS WEEK -->
+    <div class="card" id="bestday-card" style="display:none">
+      <div class="card-title">Best Day This Week</div>
+      <div class="bestday-strip" id="bestday-strip"></div>
+      <div class="bestday-note" id="bestday-note"></div>
     </div>
 
     <!-- FORECAST -->
@@ -805,6 +827,32 @@
           ${srTime ? `<div class="forecast-sun" title="Sunrise / Sunset">☀️ ${srTime}–${ssTime}</div>` : ''}
         </div>`;
       }).join('');
+
+      // ── Best Day This Week ───────────────────────
+      const forecastDays = d.forecast || [];
+      const scoredDays   = forecastDays.filter(day => day.predicted_score != null);
+      if (scoredDays.length >= 2) {
+        const bestScore = Math.max(...scoredDays.map(x => x.predicted_score));
+        const bestIdx   = scoredDays.findIndex(x => x.predicted_score === bestScore);
+        const todayDate = new Date().toISOString().slice(0, 10);
+        document.getElementById('bestday-card').style.display = '';
+        document.getElementById('bestday-strip').innerHTML = scoredDays.map((day, i) => {
+          const sc    = day.predicted_score;
+          const col   = scoreColor(sc);
+          const isBest= i === bestIdx;
+          const isToday = day.date === todayDate;
+          const cls   = isBest ? 'bestday-day best-pick' : isToday ? 'bestday-day today-pick' : 'bestday-day';
+          return `<div class="${cls}">
+            <div class="bestday-dow">${dayLabel(day.date)}${isToday ? ' ·now' : ''}</div>
+            <div class="bestday-score" style="color:${col}">${sc}</div>
+            <div class="bestday-temp">${day.high_f}° / ${day.low_f}°</div>
+            <div class="bestday-rain">${day.rain_pct}% rain</div>
+          </div>`;
+        }).join('');
+        const bestDay = scoredDays[bestIdx];
+        document.getElementById('bestday-note').textContent =
+          `Best window: ${dayLabel(bestDay.date)} — ${bestDay.high_f}°F, ${bestDay.rain_pct}% rain, score ${bestDay.predicted_score}/100.`;
+      }
 
       // ── Gear ─────────────────────────────────────
       const flags = d.gear_flags || [];

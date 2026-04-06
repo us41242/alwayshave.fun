@@ -1,0 +1,37 @@
+name: Reddit Trip Report Scraper
+
+on:
+  schedule:
+    - cron: '0 8 * * 1'   # Every Monday 8am UTC
+  workflow_dispatch:
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    env:
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          ref: main
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - run: pip install -r requirements.txt
+
+      - name: Run Reddit scraper
+        run: python3 scripts/reddit_scraper.py
+        env:
+          SERVICE_ACCOUNT_CREDENTIALS: ${{ secrets.SERVICE_ACCOUNT_CREDENTIALS }}
+
+      - name: Commit Reddit data
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "data: weekly Reddit trip report snapshot"
+          file_pattern: "data/reddit/"
+          branch: main

@@ -161,6 +161,20 @@ def compute_score(weather, aqi_data, fire_data=None):
 
     return min(score, 100)
 
+def _forecast_score(high_f, rain_pct, current_aqi=999, current_fire_pts=20):
+    """Simplified daily score from forecast data — no per-day wind or AQI."""
+    score = 0
+    if 50 <= high_f <= 75 and rain_pct < 10:       score += 40
+    elif 40 <= high_f <= 85 and rain_pct <= 30:    score += 28
+    elif 35 <= high_f <= 95 and rain_pct <= 60:    score += 10
+    aqi = current_aqi if current_aqi < 999 else 999
+    if aqi <= 50:    score += 30
+    elif aqi <= 100: score += 20
+    elif aqi <= 150: score += 10
+    score += current_fire_pts  # carry forward current fire data
+    score += 10                # assume open
+    return min(score, 100)
+
 def score_label(score):
     if score >= 85: return "Great day to go"
     if score >= 70: return "Good conditions"
@@ -229,15 +243,22 @@ def process_trail(trail):
         daily   = weather.get("daily", {})
         sunrise = daily.get("sunrise", [])
         sunset  = daily.get("sunset",  [])
+        aqi_val      = aqi_data.get("aqi") or 999
+        fire_pts     = (fire_data or {}).get("score_pts", 20)
         for i, day in enumerate(daily.get("time", [])):
+            hi       = round(daily.get("temperature_2m_max",          [0]*10)[i])
+            rain     = round(daily.get("precipitation_probability_max",[0]*10)[i])
+            day_score = _forecast_score(hi, rain, aqi_val, fire_pts)
             forecast.append({
-                "date":     day,
-                "high_f":   round(daily.get("temperature_2m_max",          [0]*10)[i]),
-                "low_f":    round(daily.get("temperature_2m_min",           [0]*10)[i]),
-                "rain_pct": round(daily.get("precipitation_probability_max",[0]*10)[i]),
-                "uv":       round(daily.get("uv_index_max",                 [0]*10)[i]),
-                "sunrise":  sunrise[i] if i < len(sunrise) else "",
-                "sunset":   sunset[i]  if i < len(sunset)  else "",
+                "date":            day,
+                "high_f":          hi,
+                "low_f":           round(daily.get("temperature_2m_min", [0]*10)[i]),
+                "rain_pct":        rain,
+                "uv":              round(daily.get("uv_index_max",        [0]*10)[i]),
+                "sunrise":         sunrise[i] if i < len(sunrise) else "",
+                "sunset":          sunset[i]  if i < len(sunset)  else "",
+                "predicted_score": day_score,
+                "score_label":     score_label(day_score),
             })
 
     output = {
@@ -256,8 +277,9 @@ def process_trail(trail):
         "park_name":   trail.get("park_name"),
         "alerts_url":  trail.get("alerts_url"),
         "status":      trail.get("trail_status", "Unknown"),
-        "notes":       trail.get("notes"),
+        "notes":        trail.get("notes"),
         "dog_friendly": trail.get("dog_friendly", ""),
+        "vehicle_req":  trail.get("vehicle_req", "Any"),
         "score":       score,
         "score_label": score_label(score),
         "gear_flags":  gear_flags(weather, aqi_data, fire_data),
