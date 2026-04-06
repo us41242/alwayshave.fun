@@ -372,6 +372,8 @@
 
     /* ── ACTION LINKS ────────────────────────────── */
     .action-links { display: flex; gap: 10px; flex-wrap: wrap; margin-bottom: 12px; }
+    .jakes-take-link { display: block; margin: 12px 0 20px; padding: 12px 18px; background: #161b22; border: 1px solid #30363d; border-radius: 8px; color: #58a6ff; font-size: .9rem; font-weight: 600; text-decoration: none; transition: border-color .15s; }
+    .jakes-take-link:hover { border-color: #58a6ff; }
     .btn {
       display: inline-flex;
       align-items: center;
@@ -954,6 +956,17 @@
       if (d.alerts_url) btns.push(`<a href="${d.alerts_url}" target="_blank" rel="noopener" class="btn btn-primary">🔔 Official Alerts</a>`);
       if (d.notes && d.notes.toLowerCase().includes('recreation.gov')) btns.push(`<a href="https://www.recreation.gov" target="_blank" rel="noopener" class="btn btn-secondary">🏕 Book on Recreation.gov</a>`);
       document.getElementById('action-links').innerHTML = btns.join('');
+
+      // ── Jake's Take article link (if exists) ─────
+      fetch(`/articles/${d.slug}`, { method: 'HEAD' }).then(r => {
+        if (r.ok) {
+          const link = document.createElement('a');
+          link.href = `/articles/${d.slug}`;
+          link.className = 'jakes-take-link';
+          link.innerHTML = '📝 Jake\'s Take — read the full conditions report →';
+          document.getElementById('action-links').after(link);
+        }
+      }).catch(() => {});
 
       // ── Show everything ──────────────────────────
       document.getElementById('loading').classList.add('hidden');
