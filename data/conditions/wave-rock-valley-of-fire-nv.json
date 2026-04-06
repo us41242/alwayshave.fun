@@ -22,14 +22,14 @@
     "mask for sensitive groups"
   ],
   "current": {
-    "temp_f": 74,
+    "temp_f": 72,
     "feels_like_f": 64,
-    "wind_mph": 7,
-    "gusts_mph": 7,
+    "wind_mph": 4,
+    "gusts_mph": 4,
     "rain_pct": 0
   },
   "aqi": {
-    "aqi": 73,
+    "aqi": 67,
     "category": "Moderate",
     "pollutant": "PM2.5",
     "source": "open-meteo"
@@ -42,26 +42,17 @@
   "river": null,
   "forecast": [
     {
-      "date": "2026-04-05",
-      "high_f": 85,
-      "low_f": 58,
-      "rain_pct": 0,
-      "uv": 7,
-      "sunrise": "2026-04-05T06:17",
-      "sunset": "2026-04-05T19:03"
-    },
-    {
       "date": "2026-04-06",
       "high_f": 87,
-      "low_f": 64,
-      "rain_pct": 2,
-      "uv": 5,
+      "low_f": 63,
+      "rain_pct": 1,
+      "uv": 4,
       "sunrise": "2026-04-06T06:16",
       "sunset": "2026-04-06T19:04"
     },
     {
       "date": "2026-04-07",
-      "high_f": 87,
+      "high_f": 88,
       "low_f": 60,
       "rain_pct": 0,
       "uv": 7,
@@ -70,8 +61,8 @@
     },
     {
       "date": "2026-04-08",
-      "high_f": 88,
-      "low_f": 63,
+      "high_f": 89,
+      "low_f": 64,
       "rain_pct": 0,
       "uv": 7,
       "sunrise": "2026-04-08T06:13",
@@ -79,13 +70,22 @@
     },
     {
       "date": "2026-04-09",
-      "high_f": 86,
-      "low_f": 66,
+      "high_f": 87,
+      "low_f": 65,
       "rain_pct": 0,
       "uv": 7,
       "sunrise": "2026-04-09T06:12",
       "sunset": "2026-04-09T19:07"
+    },
+    {
+      "date": "2026-04-10",
+      "high_f": 83,
+      "low_f": 66,
+      "rain_pct": 6,
+      "uv": 7,
+      "sunrise": "2026-04-10T06:10",
+      "sunset": "2026-04-10T19:07"
     }
   ],
-  "updated_at": "2026-04-06T05:10:22.910246+00:00"
+  "updated_at": "2026-04-06T07:08:54.128782+00:00"
 }

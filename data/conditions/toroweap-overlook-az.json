@@ -22,14 +22,14 @@
     "mask for sensitive groups"
   ],
   "current": {
-    "temp_f": 66,
-    "feels_like_f": 55,
-    "wind_mph": 10,
-    "gusts_mph": 18,
+    "temp_f": 60,
+    "feels_like_f": 50,
+    "wind_mph": 9,
+    "gusts_mph": 12,
     "rain_pct": 0
   },
   "aqi": {
-    "aqi": 64,
+    "aqi": 74,
     "category": "Moderate",
     "pollutant": "O3",
     "source": "airnow"
@@ -42,20 +42,11 @@
   "river": null,
   "forecast": [
     {
-      "date": "2026-04-05",
-      "high_f": 81,
-      "low_f": 49,
-      "rain_pct": 0,
-      "uv": 7,
-      "sunrise": "2026-04-05T06:10",
-      "sunset": "2026-04-05T18:55"
-    },
-    {
       "date": "2026-04-06",
-      "high_f": 81,
-      "low_f": 58,
+      "high_f": 79,
+      "low_f": 57,
       "rain_pct": 21,
-      "uv": 3,
+      "uv": 4,
       "sunrise": "2026-04-06T06:09",
       "sunset": "2026-04-06T18:56"
     },
@@ -63,15 +54,15 @@
       "date": "2026-04-07",
       "high_f": 82,
       "low_f": 51,
-      "rain_pct": 2,
+      "rain_pct": 1,
       "uv": 8,
       "sunrise": "2026-04-07T06:07",
       "sunset": "2026-04-07T18:57"
     },
     {
       "date": "2026-04-08",
-      "high_f": 80,
-      "low_f": 57,
+      "high_f": 81,
+      "low_f": 55,
       "rain_pct": 1,
       "uv": 8,
       "sunrise": "2026-04-08T06:06",
@@ -79,13 +70,22 @@
     },
     {
       "date": "2026-04-09",
-      "high_f": 79,
-      "low_f": 60,
+      "high_f": 80,
+      "low_f": 59,
       "rain_pct": 2,
-      "uv": 8,
+      "uv": 7,
       "sunrise": "2026-04-09T06:04",
       "sunset": "2026-04-09T18:59"
+    },
+    {
+      "date": "2026-04-10",
+      "high_f": 76,
+      "low_f": 61,
+      "rain_pct": 12,
+      "uv": 7,
+      "sunrise": "2026-04-10T06:03",
+      "sunset": "2026-04-10T19:00"
     }
   ],
-  "updated_at": "2026-04-06T05:14:46.474824+00:00"
+  "updated_at": "2026-04-06T07:14:01.507513+00:00"
 }
