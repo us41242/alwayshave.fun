@@ -324,6 +324,7 @@
     .forecast-high { font-size: 0.82rem; font-weight: 700; }
     .forecast-low  { font-size: 0.72rem; color: var(--text-muted); }
     .forecast-uv   { font-size: 0.62rem; color: var(--text-subtle); }
+    .forecast-sun  { font-size: 0.58rem; color: #a78a21; margin-top: 2px; }
 
     /* ── GEAR ────────────────────────────────────── */
     .gear-card {
@@ -911,7 +912,10 @@
       }
 
       // ── Forecast ─────────────────────────────────
-      document.getElementById('forecast-grid').innerHTML = (d.forecast || []).map(day => `
+      document.getElementById('forecast-grid').innerHTML = (d.forecast || []).map(day => {
+        const srTime = day.sunrise ? day.sunrise.slice(11,16) : null;
+        const ssTime = day.sunset  ? day.sunset.slice(11,16)  : null;
+        return `
         <div class="forecast-day">
           <div class="forecast-label">${dayLabel(day.date)}<br>${dateLabel(day.date)}</div>
           <div class="forecast-chart"><div class="bar-bg"><div class="bar-fill" style="height:${Math.max(day.rain_pct,3)}%"></div></div></div>
@@ -919,7 +923,9 @@
           <div class="forecast-high">${day.high_f}°</div>
           <div class="forecast-low">${day.low_f}°</div>
           <div class="forecast-uv">UV ${day.uv}</div>
-        </div>`).join('');
+          ${srTime ? `<div class="forecast-sun" title="Sunrise / Sunset">☀️ ${srTime}–${ssTime}</div>` : ''}
+        </div>`;
+      }).join('');
 
       // ── Gear ─────────────────────────────────────
       const flags = d.gear_flags || [];
