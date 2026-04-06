@@ -323,7 +323,7 @@
     .forecast-pct  { font-size: 0.68rem; color: #60a5fa; font-weight: 600; }
     .forecast-high { font-size: 0.82rem; font-weight: 700; }
     .forecast-low  { font-size: 0.72rem; color: var(--text-muted); }
-    .forecast-uv   { font-size: 0.62rem; color: var(--text-subtle); }
+    .forecast-uv   { font-size: 0.62rem; color: var(--text-muted); }
     .forecast-sun  { font-size: 0.58rem; color: #a78a21; margin-top: 2px; }
 
     /* ── GEAR ────────────────────────────────────── */
@@ -432,7 +432,7 @@
       border-top: 1px solid var(--border);
       padding: 24px 0 0;
       text-align: center;
-      color: var(--text-subtle);
+      color: var(--text-muted);
       font-size: 0.78rem;
       line-height: 1.7;
     }
@@ -445,6 +445,7 @@
     @keyframes spin { to { transform: rotate(360deg); } }
     .error-state { display: flex; flex-direction: column; align-items: center; justify-content: center; min-height: 60vh; color: var(--text-muted); gap: 12px; text-align: center; }
     .hidden { display: none !important; }
+    .sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0,0,0,0); white-space: nowrap; border: 0; }
 
     /* ── AQI ─────────────────────────────────────── */
     .aqi-good           { color: #22c55e; }
@@ -608,8 +609,8 @@
   </nav>
 
   <!-- LOADING -->
-  <div id="loading" class="loading-state">
-    <div class="spinner"></div>
+  <div id="loading" class="loading-state" role="status" aria-live="polite">
+    <div class="spinner" aria-hidden="true"></div>
     <p>Loading trail conditions…</p>
   </div>
 
@@ -651,7 +652,7 @@
   <main id="content" class="hidden">
 
     <!-- Score progress bar -->
-    <div class="score-bar-track">
+    <div class="score-bar-track" role="progressbar" aria-label="Trail score" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0" id="score-bar-track">
       <div class="score-bar-fill" id="score-bar" style="width:0%"></div>
     </div>
 
@@ -727,7 +728,8 @@
       <div class="email-heading">Get weekly trail conditions</div>
       <div class="email-sub">Every Friday: weekend forecast for your favorite trails. No spam, ever.</div>
       <form class="email-form" id="email-form">
-        <input type="email" class="email-input" placeholder="you@example.com" required>
+        <label for="email-input" class="sr-only">Email address</label>
+        <input type="email" id="email-input" class="email-input" placeholder="you@example.com" required aria-label="Email address">
         <button type="submit" class="email-btn">Notify Me</button>
       </form>
     </div>
@@ -885,6 +887,7 @@
       const bar = document.getElementById('score-bar');
       bar.style.background = color;
       requestAnimationFrame(() => { bar.style.width = d.score + '%'; });
+      document.getElementById('score-bar-track').setAttribute('aria-valuenow', d.score);
 
       // ── Metrics ──────────────────────────────────
       document.getElementById('m-temp').textContent   = cur.temp_f      != null ? `${cur.temp_f}°F` : '—';
