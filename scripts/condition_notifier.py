@@ -53,8 +53,37 @@ def load_all_conditions():
     return results
 
 
+def get_trail_subscribers(slug):
+    """Return emails subscribed to alerts for this trail via Brevo TRAIL_ALERTS attribute."""
+    if not BREVO_KEY:
+        return []
+    try:
+        emails = []
+        offset, limit = 0, 500
+        while True:
+            r = requests.get(
+                f"https://api.brevo.com/v3/contacts?limit={limit}&offset={offset}&sort=asc",
+                headers={"api-key": BREVO_KEY}, timeout=20,
+            )
+            if r.status_code != 200:
+                break
+            data     = r.json()
+            contacts = data.get("contacts", [])
+            for c in contacts:
+                alerts = (c.get("attributes") or {}).get("TRAIL_ALERTS", "") or ""
+                if slug in [s.strip() for s in alerts.split(",")]:
+                    emails.append(c["email"])
+            if len(contacts) < limit:
+                break
+            offset += limit
+        return emails
+    except Exception as e:
+        print(f"  [notifier] Error fetching subscribers for {slug}: {e}")
+        return []
+
+
 def send_alert(trail_data, old_score, new_score):
-    """Send a condition-improvement alert via Brevo."""
+    """Send a condition-improvement alert via Brevo to per-trail subscribers."""
     if not BREVO_KEY:
         print(f"  [notifier] No BREVO_KEY — skipping email for {trail_data['name']}")
         return
@@ -98,30 +127,43 @@ def send_alert(trail_data, old_score, new_score):
 </div>
 """
 
-    payload = {
-        "sender":      {"name": "alwayshave.fun", "email": "hello@alwayshave.fun"},
-        "to":          [{"email": "hello@alwayshave.fun"}],  # BCC to list via Brevo campaign
-        "subject":     subject,
-        "htmlContent": html,
-        "listIds":     [BREVO_LIST_ID],
-    }
-
-    headers = {
+    brevo_headers = {
         "api-key":      BREVO_KEY,
         "Content-Type": "application/json",
     }
 
-    try:
-        # For now, log the shift — full campaign send requires Brevo campaign API
-        # This creates a transactional record; swap for campaign API when list grows
-        print(f"  [notifier] SHIFT DETECTED: {name} {old_score} → {new_score} ({label})")
-        print(f"  [notifier] Trail URL: {trail_url}")
-        # Uncomment to enable transactional email:
-        # r = requests.post("https://api.brevo.com/v3/smtp/email", json=payload, headers=headers, timeout=15)
-        # r.raise_for_status()
-        # print(f"  [notifier] Email sent for {name}")
-    except Exception as e:
-        print(f"  [notifier] Email error for {name}: {e}")
+    print(f"  [notifier] SHIFT: {name} {old_score} → {new_score} ({label})")
+    print(f"  [notifier] URL: {trail_url}")
+
+    # Get per-trail subscribers
+    subscribers = get_trail_subscribers(slug)
+    print(f"  [notifier] Subscribers for {slug}: {len(subscribers)}")
+
+    if not subscribers:
+        return  # no one watching this trail yet
+
+    # Send one transactional email per subscriber
+    sent = 0
+    for email in subscribers:
+        payload = {
+            "sender":      {"name": "alwayshave.fun", "email": "hello@alwayshave.fun"},
+            "to":          [{"email": email}],
+            "subject":     subject,
+            "htmlContent": html,
+        }
+        try:
+            r = requests.post(
+                "https://api.brevo.com/v3/smtp/email",
+                json=payload, headers=brevo_headers, timeout=15,
+            )
+            if r.status_code in (200, 201):
+                sent += 1
+            else:
+                print(f"  [notifier] Brevo error {r.status_code} for {email}: {r.text[:100]}")
+        except Exception as e:
+            print(f"  [notifier] Send error for {email}: {e}")
+
+    print(f"  [notifier] Sent {sent}/{len(subscribers)} alerts for {name}")
 
 
 def main():

@@ -148,20 +148,30 @@ def ensure_worksheet(sh, tab_name):
 
 def fetch_subreddit_posts(subreddit, after_days=8):
     """Fetch recent posts from a subreddit using public JSON API."""
-    headers = {"User-Agent": "alwayshave.fun-trail-intel/1.0"}
+    headers = {
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
+                      "AppleWebKit/537.36 (KHTML, like Gecko) "
+                      "Chrome/123.0.0.0 Safari/537.36",
+        "Accept": "application/json",
+    }
     cutoff  = datetime.now(timezone.utc) - timedelta(days=after_days)
     posts   = []
     after   = None
     for _ in range(3):  # max 3 pages
-        url    = f"https://www.reddit.com/r/{subreddit}/new.json?limit=100"
+        url    = f"https://www.reddit.com/r/{subreddit}/new.json?limit=100&raw_json=1"
         if after:
             url += f"&after={after}"
         try:
-            r = requests.get(url, headers=headers, timeout=15)
+            r = requests.get(url, headers=headers, timeout=20)
             if r.status_code == 429:
-                time.sleep(5)
+                print(f"    Rate limited on r/{subreddit} — waiting 30s")
+                time.sleep(30)
                 continue
+            if r.status_code == 403:
+                print(f"    r/{subreddit}: 403 (IP blocked by Reddit)")
+                break
             if r.status_code != 200:
+                print(f"    r/{subreddit}: HTTP {r.status_code}")
                 break
             data     = r.json()
             children = data.get("data", {}).get("children", [])

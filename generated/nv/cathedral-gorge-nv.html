@@ -374,6 +374,15 @@
     .action-links { display: flex; gap: 10px; flex-wrap: wrap; margin-bottom: 12px; }
     .jakes-take-link { display: block; margin: 12px 0 20px; padding: 12px 18px; background: #161b22; border: 1px solid #30363d; border-radius: 8px; color: #58a6ff; font-size: .9rem; font-weight: 600; text-decoration: none; transition: border-color .15s; }
     .jakes-take-link:hover { border-color: #58a6ff; }
+    .alert-box { margin: 12px 0 20px; padding: 14px 18px; background: #161b22; border: 1px solid #30363d; border-radius: 8px; }
+    .alert-trigger { background: none; border: none; color: var(--text-muted); font-size: .84rem; cursor: pointer; font-family: inherit; padding: 0; display: flex; align-items: center; gap: 6px; }
+    .alert-trigger:hover { color: var(--text); }
+    .alert-inline { display: none; margin-top: 10px; }
+    .alert-inline.open { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; }
+    .alert-email-in { flex: 1; min-width: 180px; padding: 7px 12px; border-radius: 6px; border: 1px solid var(--border); background: var(--surface2); color: var(--text); font-size: .84rem; font-family: inherit; }
+    .alert-email-in:focus { outline: none; border-color: var(--brand); }
+    .alert-submit { padding: 7px 14px; border-radius: 6px; background: var(--brand); color: #000; border: none; font-weight: 700; font-size: .84rem; cursor: pointer; font-family: inherit; white-space: nowrap; }
+    .alert-msg { font-size: .78rem; color: var(--brand); margin-top: 6px; }
     .btn {
       display: inline-flex;
       align-items: center;
@@ -732,6 +741,19 @@
     <!-- ACTION LINKS -->
     <div class="action-links" id="action-links"></div>
 
+    <!-- CONDITIONS ALERT OPT-IN -->
+    <div class="alert-box" id="alert-box" style="display:none">
+      <button class="alert-trigger" id="alert-trigger" onclick="toggleAlert()">
+        🔔 Alert me when conditions improve
+      </button>
+      <div class="alert-inline" id="alert-inline">
+        <label for="alert-email" class="sr-only">Email address for trail alert</label>
+        <input type="email" id="alert-email" class="alert-email-in" placeholder="you@example.com" aria-label="Email address for trail alert">
+        <button class="alert-submit" onclick="submitAlert()">Notify Me</button>
+      </div>
+      <div class="alert-msg" id="alert-msg" style="display:none"></div>
+    </div>
+
     <!-- EMAIL -->
     <div class="email-section">
       <div class="email-heading">Get weekly trail conditions</div>
@@ -1035,14 +1057,57 @@
     });
 
     // ─── INIT ─────────────────────────────────────────────────────────────────
+    // ─── TRAIL ALERT ──────────────────────────────────────────────────────────
+    let _alertSlug = '';
+
+    function toggleAlert() {
+      const inline = document.getElementById('alert-inline');
+      inline.classList.toggle('open');
+      if (inline.classList.contains('open')) {
+        document.getElementById('alert-email').focus();
+      }
+    }
+
+    async function submitAlert() {
+      const email = document.getElementById('alert-email').value.trim();
+      const msg   = document.getElementById('alert-msg');
+      if (!email || !email.includes('@')) {
+        msg.style.display = ''; msg.style.color = '#ef4444';
+        msg.textContent = 'Enter a valid email.'; return;
+      }
+      try {
+        const r = await fetch('/api/trail-alert', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ email, slug: _alertSlug }),
+        });
+        if (r.ok) {
+          document.getElementById('alert-inline').classList.remove('open');
+          document.getElementById('alert-trigger').textContent = '✅ You\'re on the list';
+          document.getElementById('alert-trigger').style.color = 'var(--brand)';
+          document.getElementById('alert-trigger').onclick = null;
+          msg.style.display = ''; msg.style.color = 'var(--brand)';
+          msg.textContent = 'We\'ll email you when conditions improve.';
+        } else {
+          msg.style.display = ''; msg.style.color = '#ef4444';
+          msg.textContent = 'Something went wrong — try again.';
+        }
+      } catch {
+        msg.style.display = ''; msg.style.color = '#ef4444';
+        msg.textContent = 'Network error — try again.';
+      }
+    }
+
     (async function init() {
       const parts = window.location.pathname.replace(/^\//, '').split('/').filter(Boolean);
       const slug  = parts[1] || parts[0];
       if (!slug) { document.getElementById('loading').classList.add('hidden'); document.getElementById('error').classList.remove('hidden'); return; }
+      _alertSlug = slug;
       try {
         const res  = await fetch(`${DATA_BASE}/${slug}.json`);
         if (!res.ok) throw new Error(`HTTP ${res.status}`);
         render(await res.json());
+        document.getElementById('alert-box').style.display = '';
       } catch (err) {
         console.error(err);
         document.getElementById('loading').classList.add('hidden');
