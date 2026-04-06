@@ -172,7 +172,9 @@ ARTICLE REQUIREMENTS:
 3. Body: 600-800 words. No mandatory section headers — write it like the excerpt above. Cover: what conditions mean on the ground, one real risk or thing to know, dog situation (Riley tested), logistics (parking, permit, timing), closing push.
 4. Poor/caution conditions: give them a plan — best window, gear fix, or nearby alternative.
 5. SEO: trail name, state, 2-3 natural long-tail phrases. No stuffing.
-6. Do not use: "stunning," "breathtaking," "nestled," "picturesque," "don't miss," "hidden gem."
+6. Do not use: "stunning," "breathtaking," "nestled," "picturesque," "don't miss," "hidden gem," "you know?", "by the way" (except in parentheticals like the excerpt).
+7. No bold text (**word**) — the voice doesn't need emphasis markers. No markdown headers (##, ###) in the body. Flowing paragraphs only.
+8. Write as if talking to one friend, not broadcasting to the internet. "You" = singular, specific person.
 
 OUTPUT FORMAT (markdown):
 ---
