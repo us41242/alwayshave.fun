@@ -17,25 +17,25 @@
   "notes": "No cars beyond Spooner Summit; bike-legal trail",
   "dog_friendly": "Yes",
   "vehicle_req": "AWD",
-  "score": 100,
+  "score": 92,
   "score_label": "Great day to go",
   "gear_flags": [],
   "current": {
     "temp_f": 56,
     "feels_like_f": 53,
-    "wind_mph": 5,
+    "wind_mph": 7,
     "gusts_mph": 9,
-    "rain_pct": 0
+    "rain_pct": 1
   },
   "aqi": {
-    "aqi": 36,
+    "aqi": 42,
     "category": "Good",
     "pollutant": "O3",
     "source": "airnow"
   },
   "fire": {
-    "risk_level": "low",
-    "nearest_fire_km": 228.2,
+    "risk_level": "moderate",
+    "nearest_fire_km": 91.8,
     "fire_count_50km": 0
   },
   "river": null,
@@ -48,7 +48,7 @@
       "uv": 7,
       "sunrise": "2026-04-06T06:35",
       "sunset": "2026-04-06T19:28",
-      "predicted_score": 100,
+      "predicted_score": 92,
       "score_label": "Great day to go"
     },
     {
@@ -59,7 +59,7 @@
       "uv": 7,
       "sunrise": "2026-04-07T06:34",
       "sunset": "2026-04-07T19:29",
-      "predicted_score": 100,
+      "predicted_score": 92,
       "score_label": "Great day to go"
     },
     {
@@ -70,8 +70,8 @@
       "uv": 8,
       "sunrise": "2026-04-08T06:32",
       "sunset": "2026-04-08T19:30",
-      "predicted_score": 88,
-      "score_label": "Great day to go"
+      "predicted_score": 80,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-04-09",
@@ -81,8 +81,8 @@
       "uv": 6,
       "sunrise": "2026-04-09T06:31",
       "sunset": "2026-04-09T19:31",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
+      "predicted_score": 62,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-04-10",
@@ -92,9 +92,9 @@
       "uv": 7,
       "sunrise": "2026-04-10T06:29",
       "sunset": "2026-04-10T19:32",
-      "predicted_score": 60,
+      "predicted_score": 52,
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-04-06T20:16:09.143203+00:00"
+  "updated_at": "2026-04-06T21:14:38.655266+00:00"
 }
