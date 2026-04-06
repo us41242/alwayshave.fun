@@ -93,3 +93,50 @@ Wire up dog-friendly flags, state landing pages, and IndexNow submission.
 - "Best time to hike [trail]" content pages — 40 pages, high long-tail SEO value
 - Submit sitemap to Google Search Console if not already done
 - Consider adding a `/articles` index page so the article archive is crawlable
+
+---
+
+## 2026-04-06 — Session 5
+
+### Fixed
+- **fetch_conditions.yml concurrent run merge conflicts** — two 30-min cron runs writing different JSON to same files would conflict on `git pull --rebase`. Fix: `git pull --rebase -X theirs` so the current run's fresh data wins.
+- **Duplicate `fetch_conditions.yaml`** — old broken version (with `git reset --hard`, no concurrency block, missing scripts) was running alongside the correct `.yml`. Deleted the `.yaml`.
+- **`if: secrets.CF_CACHE_PURGE_TOKEN != ''` syntax** — invalid in GitHub Actions `if` expressions. Changed to env var + bash conditional.
+- **Writer bot Gemini 2.5 Flash truncation** — Gemini 2.5 Flash is a thinking model; its reasoning chain consumes output tokens before text output. With `maxOutputTokens: 1500`, only ~200 chars of text were written. Fixed: 8192 tokens + handle multi-part response to skip thought parts.
+- **Misnamed article files** — `zion-narrows-top-down-ut.html` and `valley-of-fire-wave-rock-nv.html` were wrong slug names (didn't match trail data slugs). Replaced with correct `narrows-top-down-zion-ut` and `wave-rock-valley-of-fire-nv`.
+- **Articles missing from sitemap** — 14 articles were live but not in sitemap.xml. Google couldn't discover them. Added article URLs (+ state landing pages; removed phantom `/state/` and `/region/` URLs).
+- **Article meta descriptions** — all articles were using `{title} — trail conditions guide...` as meta description instead of the specific `meta_description` from frontmatter. Fixed.
+
+### Added
+- **7 new articles published today** (17 total):
+  - The Narrows (Bottom-Up) UT — 100/100
+  - River Mountains Loop NV — 100/100, dog-friendly
+  - Kanarra Creek Slot Canyon UT — 100/100, permit required
+  - Paria Canyon AZ — 100/100, 38-mile multi-day
+  - Hermit Trail GC AZ — 90/100 (bot-generated with Gemini 2.5 Flash)
+  - Petroglyph Canyon Gold Butte NV — 90/100 (bot-generated)
+  - Bright Angel Trail GC AZ — 90/100, highest-traffic GC query
+  - West Fork Oak Creek AZ — 100/100, dog-friendly, Sedona
+  - Garden of the Gods CO — 70/100, first Colorado article
+- **Sunrise/sunset on forecast cards** — `☀️ HH:MM–HH:MM` below each day's forecast card. Data was already in conditions JSON from Open-Meteo, just not displayed.
+- **Related article cross-links** — each article now shows "More Jake's takes from [State]" with links to 3 other published articles from same state. Bidirectional linking.
+- **Trail → article link** — trail detail pages now show "Jake's Take" link if an article exists for that trail (JS HEAD request check).
+- **CF_CACHE_PURGE_TOKEN** and **CLOUDFLARE_ZONE_ID** added to GitHub Actions secrets.
+- **Writer bot voice prompt** — rewrote with verbatim Wire Pass excerpt as gold-standard voice reference + 7 specific rules. No preamble, data → ground truth, direct risk callout, parenthetical color, closing push, banned words.
+
+### Changed
+- **Gemini model list** — `gemini-1.5-flash` (now 404) and `gemini-1.5-flash-8b` removed. Replaced with `gemini-2.5-flash` as primary (works on free tier), 2.0-flash/lite as fallbacks.
+- **ANTHROPIC_API_KEY** — not yet in GitHub Actions secrets. Writer bot falls back to Gemini 2.5 Flash successfully. STILL NEEDED for Claude Haiku as primary generator.
+
+### Learned
+- Gemini 2.5 Flash is a thinking model — its reasoning chain consumes output tokens before visible text. Need 8192 max tokens, not 1500. Also returns multi-part content (thought + text parts).
+- Concurrent GitHub Actions cron runs with 30-min schedule will both write to the same JSON files and conflict on push. `-X theirs` in rebase resolves this with the current run's data winning.
+- Two workflow files with the same name but different extensions (`.yaml` + `.yml`) both run — GitHub treats them as separate workflows. This created a race condition where both ran on schedule.
+- `secrets` context is not available in `if` expressions at the step level — use env var exposure + bash conditional instead.
+
+### Upcoming
+- ANTHROPIC_API_KEY — Josh needs to create at console.anthropic.com and add to repo secrets
+- Vehicle requirements column in seeds/trails.csv → overlander queries
+- Weekly roundup articles ("Best 5 hikes this weekend in Utah") — Thu/Fri schedule
+- Remaining 23 trails without articles — bot generating 4/day, ~6 days to full coverage
+- HowTo schema for difficulty ratings
