@@ -286,6 +286,29 @@ def save_draft(trail, content):
     return path
 
 
+def publish_scheduled_drafts():
+    """Publish any drafts dated today that are sitting in content/drafts/."""
+    import subprocess, re as _re
+    today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+    published = 0
+    if not os.path.isdir(DRAFTS_DIR):
+        return 0
+    for fname in sorted(os.listdir(DRAFTS_DIR)):
+        if fname.startswith(today) and fname.endswith(".md"):
+            path = os.path.join(DRAFTS_DIR, fname)
+            print(f"Publishing scheduled draft: {path}")
+            result = subprocess.run(
+                ["python3", "scripts/publish_article.py", path],
+                capture_output=True, text=True
+            )
+            print(result.stdout.strip())
+            if result.returncode != 0:
+                print(f"  publish error: {result.stderr.strip()}")
+            else:
+                published += 1
+    return published
+
+
 def main():
     import argparse
     parser = argparse.ArgumentParser()
@@ -294,7 +317,17 @@ def main():
     parser.add_argument("--auto-publish", action="store_true",
                         default=os.environ.get("AUTO_PUBLISH", "").lower() in ("1", "true", "yes"),
                         help="Auto-publish drafts after writing")
+    parser.add_argument("--skip-write", action="store_true",
+                        help="Only publish scheduled drafts, skip writing new articles")
     args = parser.parse_args()
+
+    # Always publish any drafts scheduled for today first
+    n = publish_scheduled_drafts()
+    if n:
+        print(f"Published {n} scheduled draft(s).\n")
+
+    if args.skip_write:
+        return
 
     trails = load_trails()
     picks  = pick_trails(trails, count=args.count)
