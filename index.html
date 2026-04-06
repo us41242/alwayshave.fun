@@ -378,6 +378,7 @@
     footer { border-top: 1px solid var(--border); padding: 24px 0 0; text-align: center; color: var(--text-subtle); font-size: 0.78rem; line-height: 1.7; }
     footer a { color: var(--text-muted); text-decoration: none; }
     footer a:hover { color: var(--brand); }
+    .sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0,0,0,0); white-space: nowrap; border: 0; }
   </style>
 </head>
 <body>
@@ -432,7 +433,8 @@
       <div class="email-heading">Get Friday trail condition reports</div>
       <div class="email-sub">Weekend forecast for your region, every Friday. No spam, unsubscribe any time.</div>
       <form class="email-form" id="email-form">
-        <input type="email" class="email-input" placeholder="you@example.com" required>
+        <label for="email-input" class="sr-only">Email address</label>
+        <input type="email" id="email-input" class="email-input" placeholder="you@example.com" required aria-label="Email address">
         <button type="submit" class="email-btn">Subscribe</button>
       </form>
     </div>
