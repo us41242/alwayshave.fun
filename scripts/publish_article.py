@@ -250,7 +250,8 @@ def build_html(fm, body_md, photo_url, slug):
     }
 
     trail_link = ""
-    if trail_url and trail_name:
+    conditions_path = os.path.join(DATA_DIR, f"{trail_slug}.json")
+    if trail_url and trail_name and os.path.exists(conditions_path):
         trail_link = f'<a href="{trail_url}" class="trail-link">📍 Live conditions for {trail_name} →</a>'
 
     state_names = {"nv":"Nevada","ut":"Utah","az":"Arizona","co":"Colorado","ca":"California","nm":"New Mexico"}
