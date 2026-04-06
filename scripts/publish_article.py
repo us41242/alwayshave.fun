@@ -196,6 +196,7 @@ def find_photo(slug, drafts_dir):
 
 def build_html(fm, body_md, photo_url, slug):
     title       = fm.get("title", slug)
+    meta_desc   = fm.get("meta_description", f"{title} — trail conditions guide from alwayshave.fun")
     date_str    = fm.get("date", datetime.now(timezone.utc).strftime("%Y-%m-%d"))
     state       = fm.get("state", "")
     trail_slug  = fm.get("trail_slug", slug).lower().replace(" ", "-").replace("(","").replace(")","")
@@ -289,17 +290,17 @@ def build_html(fm, body_md, photo_url, slug):
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{title} | alwayshave.fun</title>
-  <meta name="description" content="{title} — real-time trail conditions guide from alwayshave.fun">
+  <meta name="description" content="{meta_desc}">
   <link rel="canonical" href="{page_url}">
   <meta property="og:title" content="{title}">
-  <meta property="og:description" content="{title} — trail conditions guide from alwayshave.fun">
+  <meta property="og:description" content="{meta_desc}">
   <meta property="og:image" content="{photo_url}">
   <meta property="og:url" content="{page_url}">
   <meta property="og:type" content="article">
   <meta property="og:site_name" content="alwayshave.fun">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="{title}">
-  <meta name="twitter:description" content="{title} — trail conditions guide from alwayshave.fun">
+  <meta name="twitter:description" content="{meta_desc}">
   <meta name="twitter:image" content="{photo_url}">
   <script type="application/ld+json">{json.dumps(schema, separators=(",",":"))}</script>
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⛰️</text></svg>">
