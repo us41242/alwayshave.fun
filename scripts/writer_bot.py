@@ -172,23 +172,58 @@ tags: [{trail.get('state', '').lower()}, {trail.get('region', '').lower().replac
 
 
 def generate_article(prompt):
-    if not GEMINI_KEY:
-        raise ValueError("GEMINI_API_KEY not set")
-
     import time
-    # Model priority: newest first, then fallbacks with higher free-tier quotas
+
+    ANTHROPIC_KEY = os.environ.get("ANTHROPIC_API_KEY", "")
+    if ANTHROPIC_KEY:
+        return _generate_claude(prompt, ANTHROPIC_KEY)
+
+    if GEMINI_KEY:
+        return _generate_gemini(prompt)
+
+    raise RuntimeError("No AI API key set — need ANTHROPIC_API_KEY or GEMINI_API_KEY")
+
+
+def _generate_claude(prompt, api_key):
+    """Generate via Claude claude-haiku-4-5-20251001 — fast, reliable, no rate limit issues."""
+    import time
+    url = "https://api.anthropic.com/v1/messages"
+    headers = {
+        "x-api-key": api_key,
+        "anthropic-version": "2023-06-01",
+        "content-type": "application/json",
+    }
+    body = {
+        "model": "claude-haiku-4-5-20251001",
+        "max_tokens": 1500,
+        "temperature": 1,
+        "messages": [{"role": "user", "content": prompt}],
+    }
+    for attempt in range(3):
+        try:
+            r = requests.post(url, headers=headers, json=body, timeout=60)
+            r.raise_for_status()
+            data = r.json()
+            return data["content"][0]["text"]
+        except Exception as e:
+            if attempt < 2:
+                time.sleep(10)
+            else:
+                raise
+    raise RuntimeError("Claude generation failed")
+
+
+def _generate_gemini(prompt):
+    """Gemini fallback — free tier, rate limits may apply."""
+    import time
     models = [
         "gemini-2.0-flash",
         "gemini-2.0-flash-lite",
         "gemini-1.5-flash",
-        "gemini-1.5-flash-8b",
     ]
     body = {
         "contents": [{"parts": [{"text": prompt}]}],
-        "generationConfig": {
-            "temperature": 0.85,
-            "maxOutputTokens": 1400,
-        }
+        "generationConfig": {"temperature": 0.85, "maxOutputTokens": 1400},
     }
     last_err = None
     for model in models:
@@ -197,13 +232,12 @@ def generate_article(prompt):
                 url = f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent?key={GEMINI_KEY}"
                 r = requests.post(url, json=body, timeout=60)
                 if r.status_code == 429:
-                    wait = 20 * (attempt + 1)  # 20s, 40s, 60s — shorter than before
+                    wait = 20 * (attempt + 1)
                     print(f"  Rate limited on {model} (attempt {attempt+1}), waiting {wait}s…")
                     time.sleep(wait)
                     continue
                 r.raise_for_status()
-                data = r.json()
-                return data["candidates"][0]["content"]["parts"][0]["text"]
+                return r.json()["candidates"][0]["content"]["parts"][0]["text"]
             except Exception as e:
                 last_err = e
                 if attempt < 2:

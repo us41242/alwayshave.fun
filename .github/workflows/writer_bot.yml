@@ -43,6 +43,7 @@ jobs:
       - name: Generate and publish articles
         run: python3 scripts/writer_bot.py --count ${{ github.event.inputs.count || '2' }} --auto-publish
         env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
 
       - name: Rebuild articles index
