@@ -65,9 +65,12 @@ jobs:
           git push origin main
 
       - name: Purge Cloudflare cache
-        if: ${{ secrets.CF_CACHE_PURGE_TOKEN != '' }}
+        env:
+          CF_CACHE_PURGE_TOKEN: ${{ secrets.CF_CACHE_PURGE_TOKEN }}
+          CLOUDFLARE_ZONE_ID: ${{ secrets.CLOUDFLARE_ZONE_ID }}
         run: |
-          curl -s -X POST "https://api.cloudflare.com/client/v4/zones/${{ secrets.CLOUDFLARE_ZONE_ID }}/purge_cache" \
-            -H "Authorization: Bearer ${{ secrets.CF_CACHE_PURGE_TOKEN }}" \
+          [ -z "$CF_CACHE_PURGE_TOKEN" ] && echo "No purge token, skipping" && exit 0
+          curl -s -X POST "https://api.cloudflare.com/client/v4/zones/$CLOUDFLARE_ZONE_ID/purge_cache" \
+            -H "Authorization: Bearer $CF_CACHE_PURGE_TOKEN" \
             -H "Content-Type: application/json" \
             --data '{"purge_everything":true}' | python3 -c "import json,sys; d=json.load(sys.stdin); print('Cache purge:', 'success' if d.get('success') else d.get('errors'))"
