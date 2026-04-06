@@ -75,6 +75,37 @@ def generate_sitemap(trails):
             "changefreq": "daily"
         })
 
+    # Article index
+    urls.append({"loc": f"{BASE_URL}/articles", "lastmod": today, "priority": "0.8", "changefreq": "daily"})
+
+    # Individual articles
+    articles_dir = "articles"
+    if os.path.isdir(articles_dir):
+        for fname in sorted(os.listdir(articles_dir)):
+            if fname.endswith(".html") and fname != "index.html":
+                slug = fname[:-5]
+                # Get article date from published markdown if available
+                article_date = today
+                for pub_file in os.listdir("content/published") if os.path.isdir("content/published") else []:
+                    if f"-{slug}.md" in pub_file:
+                        article_date = pub_file[:10]
+                        break
+                urls.append({
+                    "loc": f"{BASE_URL}/articles/{slug}",
+                    "lastmod": article_date,
+                    "priority": "0.7",
+                    "changefreq": "weekly"
+                })
+
+    # State landing pages (pre-rendered)
+    for state in states:
+        urls.append({
+            "loc": f"{BASE_URL}/{state.lower()}",
+            "lastmod": today,
+            "priority": "0.8",
+            "changefreq": "hourly"
+        })
+
     # Fire and smoke map
     urls.append({"loc": f"{BASE_URL}/wildfire-smoke-map", "lastmod": today, "priority": "0.8", "changefreq": "hourly"})
 
