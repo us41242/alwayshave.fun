@@ -218,7 +218,7 @@ def _generate_claude(prompt, api_key):
     }
     body = {
         "model": "claude-haiku-4-5-20251001",
-        "max_tokens": 1500,
+        "max_tokens": 2048,
         "temperature": 1,
         "messages": [{"role": "user", "content": prompt}],
     }
@@ -240,27 +240,30 @@ def _generate_gemini(prompt):
     """Gemini fallback — free tier, rate limits may apply."""
     import time
     models = [
+        "gemini-2.5-flash",
         "gemini-2.0-flash",
         "gemini-2.0-flash-lite",
-        "gemini-1.5-flash",
     ]
     body = {
         "contents": [{"parts": [{"text": prompt}]}],
-        "generationConfig": {"temperature": 0.85, "maxOutputTokens": 1400},
+        "generationConfig": {"temperature": 0.85, "maxOutputTokens": 8192},
     }
     last_err = None
     for model in models:
         for attempt in range(3):
             try:
                 url = f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent?key={GEMINI_KEY}"
-                r = requests.post(url, json=body, timeout=60)
+                r = requests.post(url, json=body, timeout=120)
                 if r.status_code == 429:
                     wait = 20 * (attempt + 1)
                     print(f"  Rate limited on {model} (attempt {attempt+1}), waiting {wait}s…")
                     time.sleep(wait)
                     continue
                 r.raise_for_status()
-                return r.json()["candidates"][0]["content"]["parts"][0]["text"]
+                parts = r.json()["candidates"][0]["content"]["parts"]
+                # Join text parts, skipping thinking parts (thought=True)
+                text = "".join(p.get("text", "") for p in parts if not p.get("thought"))
+                return text
             except Exception as e:
                 last_err = e
                 if attempt < 2:
