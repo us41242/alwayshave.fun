@@ -23,9 +23,9 @@
     "mask for sensitive groups"
   ],
   "current": {
-    "temp_f": 79,
-    "feels_like_f": 80,
-    "wind_mph": 0,
+    "temp_f": 82,
+    "feels_like_f": 82,
+    "wind_mph": 1,
     "gusts_mph": 5,
     "rain_pct": 0
   },
@@ -55,8 +55,8 @@
     },
     {
       "date": "2026-04-08",
-      "high_f": 89,
-      "low_f": 62,
+      "high_f": 88,
+      "low_f": 63,
       "rain_pct": 2,
       "uv": 8,
       "sunrise": "2026-04-08T06:06",
@@ -67,7 +67,7 @@
     {
       "date": "2026-04-09",
       "high_f": 85,
-      "low_f": 64,
+      "low_f": 63,
       "rain_pct": 1,
       "uv": 8,
       "sunrise": "2026-04-09T06:05",
@@ -98,5 +98,5 @@
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-04-07T19:14:41.168590+00:00"
+  "updated_at": "2026-04-07T20:09:43.284858+00:00"
 }
