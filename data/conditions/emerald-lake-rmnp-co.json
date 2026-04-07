@@ -24,21 +24,21 @@
     "mask for sensitive groups"
   ],
   "current": {
-    "temp_f": 45,
-    "feels_like_f": 34,
+    "temp_f": 48,
+    "feels_like_f": 39,
     "wind_mph": 13,
     "gusts_mph": 24,
     "rain_pct": 1
   },
   "aqi": {
-    "aqi": 55,
+    "aqi": 65,
     "category": "Moderate",
     "pollutant": "PM2.5",
     "source": "open-meteo"
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": 574.9,
+    "nearest_fire_km": 171.1,
     "fire_count_50km": 0
   },
   "river": null,
@@ -99,5 +99,5 @@
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-04-07T20:15:31.595001+00:00"
+  "updated_at": "2026-04-07T21:21:46.786457+00:00"
 }
