@@ -17,28 +17,86 @@
   "notes": "No cars beyond Spooner Summit; bike-legal trail",
   "dog_friendly": "Yes",
   "vehicle_req": "AWD",
-  "score": 60,
-  "score_label": "Use caution",
-  "gear_flags": [],
+  "score": 70,
+  "score_label": "Good conditions",
+  "gear_flags": [
+    "insulation layer required"
+  ],
   "current": {
-    "temp_f": 44,
-    "feels_like_f": 39,
-    "wind_mph": 3,
-    "gusts_mph": 9,
+    "temp_f": 39,
+    "feels_like_f": 32,
+    "wind_mph": 2,
+    "gusts_mph": 2,
     "rain_pct": 0
   },
   "aqi": {
-    "aqi": 40,
+    "aqi": 35,
     "category": "Good",
     "pollutant": "O3",
     "source": "airnow"
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": null,
+    "nearest_fire_km": 1788.9,
     "fire_count_50km": 0
   },
   "river": null,
-  "forecast": [],
-  "updated_at": "2026-04-07T07:52:26.578217+00:00"
+  "forecast": [
+    {
+      "date": "2026-04-07",
+      "high_f": 55,
+      "low_f": 38,
+      "rain_pct": 1,
+      "uv": 7,
+      "sunrise": "2026-04-07T06:34",
+      "sunset": "2026-04-07T19:29",
+      "predicted_score": 100,
+      "score_label": "Great day to go"
+    },
+    {
+      "date": "2026-04-08",
+      "high_f": 54,
+      "low_f": 40,
+      "rain_pct": 12,
+      "uv": 8,
+      "sunrise": "2026-04-08T06:32",
+      "sunset": "2026-04-08T19:30",
+      "predicted_score": 88,
+      "score_label": "Great day to go"
+    },
+    {
+      "date": "2026-04-09",
+      "high_f": 54,
+      "low_f": 39,
+      "rain_pct": 44,
+      "uv": 6,
+      "sunrise": "2026-04-09T06:31",
+      "sunset": "2026-04-09T19:31",
+      "predicted_score": 70,
+      "score_label": "Good conditions"
+    },
+    {
+      "date": "2026-04-10",
+      "high_f": 50,
+      "low_f": 37,
+      "rain_pct": 90,
+      "uv": 6,
+      "sunrise": "2026-04-10T06:29",
+      "sunset": "2026-04-10T19:32",
+      "predicted_score": 60,
+      "score_label": "Use caution"
+    },
+    {
+      "date": "2026-04-11",
+      "high_f": 44,
+      "low_f": 33,
+      "rain_pct": 76,
+      "uv": 7,
+      "sunrise": "2026-04-11T06:28",
+      "sunset": "2026-04-11T19:33",
+      "predicted_score": 60,
+      "score_label": "Use caution"
+    }
+  ],
+  "updated_at": "2026-04-07T09:06:51.994823+00:00"
 }
