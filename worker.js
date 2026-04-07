@@ -9,6 +9,16 @@ export default {
     const parts = url.pathname.replace(/^\//, '').split('/').filter(p => p.length > 0);
     const first = (parts[0] || '').toLowerCase();
 
+    // /states  →  serve states hub page
+    if (parts.length === 1 && first === 'states') {
+      return env.ASSETS.fetch(new URL('/states.html', url.origin));
+    }
+
+    // /great-today  →  serve great trails page
+    if (parts.length === 1 && first === 'great-today') {
+      return env.ASSETS.fetch(new URL('/great-today.html', url.origin));
+    }
+
     // /articles  →  serve articles index
     if (parts.length === 1 && first === 'articles') {
       const idxUrl = new URL('/articles/index.html', url.origin);

@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en" style="scroll-behavior:smooth">
+<head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-SENVGVQJ6X"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-SENVGVQJ6X');
+</script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Great Trails Today — Score 85+ | alwayshave.fun</title>
+  <meta name="description" content="Trails scoring 85 or higher right now. Perfect conditions for hiking, camping, and overlanding across the American West. Updated every 30 minutes.">
+  <link rel="canonical" href="https://alwayshave.fun/great-today">
+  <meta property="og:title" content="Great Trails Today | alwayshave.fun">
+  <meta property="og:description" content="Trails scoring 85+ right now. Perfect conditions across the American West.">
+  <meta property="og:url" content="https://alwayshave.fun/great-today">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="alwayshave.fun">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Great Trails Today | alwayshave.fun">
+  <meta name="twitter:description" content="Trails scoring 85+ right now. Perfect conditions across the American West.">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⛰️</text></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --bg: #0c1117; --surface: #161b22; --surface2: #1f2937;
+      --border: #30363d; --text: #e6edf3; --text-muted: #8b949e;
+      --text-subtle: #6e7681; --brand: #22c55e;
+    }
+    body { font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif; background: var(--bg); color: var(--text); line-height: 1.5; min-height: 100vh; }
+
+    /* Nav */
+    nav { position: sticky; top: 0; z-index: 200; padding: 14px 24px; display: flex; align-items: center; justify-content: space-between; background: rgba(12,17,23,0.95); backdrop-filter: blur(12px); border-bottom: 1px solid var(--border); }
+    .nav-logo { font-weight: 900; font-size: 1.1rem; color: var(--brand); text-decoration: none; letter-spacing: -0.03em; }
+    .nav-tagline { font-size: 0.78rem; color: var(--text-muted); }
+    @media (max-width: 500px) { .nav-tagline { display: none; } }
+
+    .wrap { max-width: 960px; margin: 0 auto; padding: 40px 20px 60px; }
+
+    /* Breadcrumb */
+    .breadcrumb { font-size: 0.78rem; color: var(--text-subtle); margin-bottom: 8px; }
+    .breadcrumb a { color: var(--text-muted); text-decoration: none; }
+    .breadcrumb a:hover { color: var(--brand); }
+
+    h1 { font-size: clamp(1.6rem, 4vw, 2.2rem); font-weight: 900; letter-spacing: -0.03em; margin-bottom: 8px; }
+    h1 span { color: var(--brand); }
+    .page-sub { font-size: 0.92rem; color: var(--text-muted); margin-bottom: 36px; max-width: 540px; }
+
+    /* Trail cards — same as homepage */
+    .trail-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 14px; }
+    .trail-card {
+      background: var(--surface); border: 1px solid var(--border); border-radius: 14px;
+      text-decoration: none; color: inherit; display: flex; flex-direction: column;
+      overflow: hidden; transition: border-color 0.15s, transform 0.12s; position: relative;
+    }
+    .trail-card:hover { border-color: var(--text-subtle); transform: translateY(-2px); }
+
+    .card-photo { height: 240px; background: linear-gradient(135deg, #1a2a1a, #0c1117); background-size: cover; background-position: center; position: relative; flex-shrink: 0; }
+    .card-photo-overlay { position: absolute; inset: 0; background: linear-gradient(to top, rgba(12,17,23,0.65) 0%, transparent 55%); }
+    .card-photo-label { position: absolute; bottom: 0; left: 0; right: 0; padding: 0 12px 10px; background: none; }
+    .card-photo-label .card-name { font-size: 0.95rem; font-weight: 700; line-height: 1.2; color: #fff; }
+    .card-photo-label .card-park { font-size: 0.68rem; color: rgba(255,255,255,0.55); margin-top: 2px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+    .card-score-badge { position: absolute; top: 10px; right: 10px; width: 46px; height: 46px; border-radius: 50%; display: flex; flex-direction: column; align-items: center; justify-content: center; font-weight: 800; border: 2px solid currentColor; background: rgba(12,17,23,0.75); backdrop-filter: blur(6px); flex-shrink: 0; }
+    .card-score-badge .snum { font-size: 1rem; line-height: 1; }
+    .card-score-badge .sdenom { font-size: 0.48rem; opacity: 0.6; }
+    .card-body { padding: 8px 12px 10px; display: flex; align-items: center; gap: 6px; font-size: 0.72rem; color: var(--text-muted); white-space: nowrap; overflow: hidden; }
+    .card-conditions { display: contents; }
+    .score-label-text { font-weight: 600; font-size: 0.72rem; }
+    .card-sep { opacity: 0.35; }
+
+    .card-photo.state-NV { background: linear-gradient(135deg, #2d1a0e, #1a1010); }
+    .card-photo.state-UT { background: linear-gradient(135deg, #2d1508, #1a1008); }
+    .card-photo.state-AZ { background: linear-gradient(135deg, #1a0e2d, #0e0a1a); }
+
+    .diff-easy     { color: #22c55e; }
+    .diff-moderate { color: #eab308; }
+    .diff-hard     { color: #f97316; }
+    .diff-expert   { color: #ef4444; }
+
+    /* Loading / empty */
+    .loading-msg { text-align: center; padding: 48px; color: var(--text-muted); font-size: 0.9rem; grid-column: 1 / -1; }
+    .spinner { width: 30px; height: 30px; border: 3px solid var(--surface2); border-top-color: var(--brand); border-radius: 50%; animation: spin 0.75s linear infinite; margin: 0 auto 12px; }
+    @keyframes spin { to { transform: rotate(360deg); } }
+    .empty-state { text-align: center; padding: 48px 24px; color: var(--text-muted); grid-column: 1 / -1; }
+
+    /* Footer */
+    footer { border-top: 1px solid var(--border); padding: 24px 0 0; text-align: center; color: var(--text-subtle); font-size: 0.78rem; line-height: 1.7; margin-top: 48px; }
+    footer a { color: var(--text-muted); text-decoration: none; }
+    footer a:hover { color: var(--brand); }
+  </style>
+</head>
+<body>
+  <nav>
+    <a href="/" class="nav-logo">alwayshave.fun</a>
+    <span class="nav-tagline">Outdoor conditions, updated every 30 min</span>
+  </nav>
+
+  <div class="wrap">
+    <div class="breadcrumb"><a href="/">Home</a> / Great Today</div>
+    <h1><span id="great-count">—</span> trails great <span>today</span></h1>
+    <p class="page-sub">Every trail scoring 85/100 or higher right now — perfect conditions for getting outside.</p>
+
+    <div id="trail-listing">
+      <div class="trail-grid">
+        <div class="loading-msg"><div class="spinner"></div>Loading trail conditions…</div>
+      </div>
+    </div>
+
+    <footer>
+      <p>alwayshave.fun — Real-time outdoor conditions.</p>
+      <p>Data: Open-Meteo · AirNow · NASA FIRMS · Updated every 30 min</p>
+    </footer>
+  </div>
+
+  <script>
+    const CARD_FOCUS = {
+      'toroweap-overlook-az':'50% 40%','wire-pass-buckskin-az':'50% 60%',
+      'kanab-creek-wilderness-az':'50% 30%','south-kaibab-gc-az':'50% 40%',
+      'angels-landing-zion-ut':'50% 35%','the-narrows-zion-ut':'50% 50%',
+      'narrows-top-down-zion-ut':'50% 40%','wave-rock-valley-of-fire-nv':'50% 50%',
+      'calico-hills-red-rock-nv':'50% 60%','havasu-falls-az':'50% 40%',
+      'west-fork-oak-creek-az':'50% 50%','bright-angel-trail-gc-az':'50% 40%',
+    };
+
+    function scoreColor(s) {
+      if (s >= 85) return '#16a34a';
+      if (s >= 70) return '#65a30d';
+      if (s >= 50) return '#d97706';
+      if (s >= 30) return '#ea580c';
+      return '#dc2626';
+    }
+    function diffClass(d) {
+      return {easy:'diff-easy',moderate:'diff-moderate',hard:'diff-hard',expert:'diff-expert'}[(d||'').toLowerCase()] || '';
+    }
+
+    function cardHTML(t) {
+      const stateSlug = (t.state||'').toLowerCase();
+      const href = `/${stateSlug}/${t.slug}`;
+      const cond = t.conditions;
+      const color = cond ? scoreColor(cond.score) : null;
+      const badge = cond
+        ? `<div class="card-score-badge" style="color:${color};border-color:${color}"><span class="snum">${cond.score}</span><span class="sdenom">/100</span></div>`
+        : '';
+      const condLine = cond
+        ? `<span class="score-label-text" style="color:${color}">${cond.score_label}</span>`
+        : '';
+      return `
+        <a class="trail-card" href="${href}">
+          <div class="card-photo state-${t.state}" id="photo-${t.slug}">
+            <div class="card-photo-overlay"></div>
+            ${badge}
+            <div class="card-photo-label">
+              <div class="card-name">${t.name}</div>
+              ${t.park_name ? `<div class="card-park">${t.park_name}</div>` : ''}
+            </div>
+          </div>
+          <div class="card-body">
+            <span class="${diffClass(t.difficulty)}">${t.difficulty}</span>
+            <span class="card-sep">·</span>
+            <span>${t.length_mi} mi</span>
+            <span class="card-sep">·</span>
+            <span>${t.state}</span>
+            <span class="card-sep">·</span>
+            <div class="card-conditions">${condLine}</div>
+          </div>
+        </a>`;
+    }
+
+    function tryLoadCardPhoto(slug) {
+      const el = document.getElementById(`photo-${slug}`);
+      if (!el) return;
+      const url = `/photos/${slug}/${slug}-card.webp`;
+      const position = CARD_FOCUS[slug] || '50% 50%';
+      const img = new Image();
+      img.onload = () => { el.style.backgroundImage = `url('${url}')`; el.style.backgroundPosition = position; };
+      img.src = url;
+    }
+
+    async function loadGreatTrails() {
+      const index = await fetch('/data/trails-index.json').then(r => r.json());
+      const allTrails = index.map(t => ({ ...t, conditions: null }));
+
+      const BATCH = 8;
+      for (let i = 0; i < allTrails.length; i += BATCH) {
+        await Promise.allSettled(allTrails.slice(i, i + BATCH).map(async trail => {
+          try {
+            const res = await fetch(`/data/conditions/${trail.slug}.json`);
+            if (!res.ok) return;
+            trail.conditions = await res.json();
+          } catch {}
+        }));
+      }
+
+      const great = allTrails
+        .filter(t => (t.conditions?.score || 0) >= 85)
+        .sort((a, b) => b.conditions.score - a.conditions.score);
+
+      document.getElementById('great-count').textContent = great.length;
+
+      if (great.length === 0) {
+        document.getElementById('trail-listing').innerHTML = `
+          <div class="empty-state">
+            <p>No trails are scoring 85+ right now — but conditions change every 30 minutes.</p>
+            <p style="margin-top:12px"><a href="/" style="color:var(--brand);text-decoration:none;font-weight:600">Browse all trails →</a></p>
+          </div>`;
+        return;
+      }
+
+      document.getElementById('trail-listing').innerHTML =
+        `<div class="trail-grid">${great.map(cardHTML).join('')}</div>`;
+
+      great.forEach(t => tryLoadCardPhoto(t.slug));
+    }
+
+    loadGreatTrails().catch(err => {
+      console.error(err);
+      document.getElementById('trail-listing').innerHTML = '<p style="text-align:center;padding:40px;color:var(--text-muted)">Failed to load trail data.</p>';
+    });
+  </script>
+</body>
+</html>

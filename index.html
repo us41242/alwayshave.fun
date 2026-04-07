@@ -1,6 +1,14 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" style="scroll-behavior:smooth">
 <head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-SENVGVQJ6X"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-SENVGVQJ6X');
+</script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>alwayshave.fun — Real-Time Trail Conditions for Hikers & Overlanders</title>
@@ -176,6 +184,8 @@
       font-weight: 500;
     }
     .hero-stat-pill strong { color: var(--brand); font-weight: 800; }
+    a.hero-stat-pill { text-decoration: none; transition: background 0.15s, border-color 0.15s; }
+    a.hero-stat-pill:hover { background: rgba(255,255,255,0.18); border-color: rgba(255,255,255,0.3); }
 
     /* ── MAIN ────────────────────────────────────── */
     .page-content {
@@ -397,9 +407,9 @@
       <h1>Always have <span>fun</span> outdoors.</h1>
       <p class="site-hero-sub">Real-time weather, air quality, and trail scores for hikers, campers, and overlanders. Updated every 30 minutes.</p>
       <div class="hero-stats">
-        <div class="hero-stat-pill"><strong id="stat-trails">30</strong> trails tracked</div>
-        <div class="hero-stat-pill"><strong id="stat-states">3</strong> states</div>
-        <div class="hero-stat-pill"><strong id="stat-great">—</strong> great today</div>
+        <a href="#trail-listing" class="hero-stat-pill"><strong id="stat-trails">30</strong> trails tracked</a>
+        <a href="/states" class="hero-stat-pill"><strong id="stat-states">3</strong> states</a>
+        <a href="/great-today" class="hero-stat-pill"><strong id="stat-great">—</strong> great today</a>
       </div>
     </div>
   </div>
