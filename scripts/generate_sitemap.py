@@ -78,6 +78,12 @@ def generate_sitemap(trails):
             "changefreq": "hourly"
         })
 
+    # States hub page
+    urls.append({"loc": f"{BASE_URL}/states", "lastmod": today, "priority": "0.8", "changefreq": "daily"})
+
+    # Great today page
+    urls.append({"loc": f"{BASE_URL}/great-today", "lastmod": today, "priority": "0.8", "changefreq": "hourly"})
+
     # Fire and smoke map
     urls.append({"loc": f"{BASE_URL}/wildfire-smoke-map", "lastmod": today, "priority": "0.8", "changefreq": "hourly"})
 
