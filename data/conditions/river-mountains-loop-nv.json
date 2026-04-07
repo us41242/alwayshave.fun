@@ -17,9 +17,11 @@
   "notes": "Full loop 34mi \u2014 sections open to bikes/horses",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 60,
-  "score_label": "Use caution",
-  "gear_flags": [],
+  "score": 46,
+  "score_label": "Conditions poor",
+  "gear_flags": [
+    "N95 mask recommended for wildfire smoke"
+  ],
   "current": {
     "temp_f": 72,
     "feels_like_f": 62,
@@ -28,17 +30,17 @@
     "rain_pct": 0
   },
   "aqi": {
-    "aqi": 38,
+    "aqi": 34,
     "category": "Good",
     "pollutant": "O3",
     "source": "airnow"
   },
   "fire": {
-    "risk_level": "low",
-    "nearest_fire_km": 1260.2,
-    "fire_count_50km": 0
+    "risk_level": "elevated",
+    "nearest_fire_km": 35.0,
+    "fire_count_50km": 2
   },
   "river": null,
   "forecast": [],
-  "updated_at": "2026-04-07T08:57:35.731469+00:00"
+  "updated_at": "2026-04-07T10:22:06.319411+00:00"
 }

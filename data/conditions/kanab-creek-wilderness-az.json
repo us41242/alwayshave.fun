@@ -28,14 +28,14 @@
     "rain_pct": 7
   },
   "aqi": {
-    "aqi": 38,
+    "aqi": 35,
     "category": "Good",
     "pollutant": "O3",
     "source": "airnow"
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": 1096.9,
+    "nearest_fire_km": 217.4,
     "fire_count_50km": 0
   },
   "river": {
@@ -43,5 +43,5 @@
     "stage": "low"
   },
   "forecast": [],
-  "updated_at": "2026-04-07T08:46:35.065183+00:00"
+  "updated_at": "2026-04-07T10:13:44.650836+00:00"
 }
