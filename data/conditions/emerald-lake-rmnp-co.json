@@ -17,21 +17,21 @@
   "notes": "Timed entry permit required Jun\u2013Oct; Bear Lake Rd closes seasonally",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 70,
-  "score_label": "Good conditions",
+  "score": 88,
+  "score_label": "Great day to go",
   "gear_flags": [
     "wind layer recommended",
     "insulation layer required"
   ],
   "current": {
-    "temp_f": 39,
-    "feels_like_f": 26,
-    "wind_mph": 20,
-    "gusts_mph": 31,
+    "temp_f": 42,
+    "feels_like_f": 32,
+    "wind_mph": 18,
+    "gusts_mph": 29,
     "rain_pct": 0
   },
   "aqi": {
-    "aqi": 42,
+    "aqi": 44,
     "category": "Good",
     "pollutant": "PM2.5",
     "source": "open-meteo"
@@ -48,7 +48,7 @@
       "high_f": 48,
       "low_f": 31,
       "rain_pct": 3,
-      "uv": 7,
+      "uv": 8,
       "sunrise": "2026-04-07T06:36",
       "sunset": "2026-04-07T19:33",
       "predicted_score": 88,
@@ -68,7 +68,7 @@
     {
       "date": "2026-04-09",
       "high_f": 49,
-      "low_f": 32,
+      "low_f": 31,
       "rain_pct": 78,
       "uv": 7,
       "sunrise": "2026-04-09T06:32",
@@ -78,10 +78,10 @@
     },
     {
       "date": "2026-04-10",
-      "high_f": 52,
-      "low_f": 29,
+      "high_f": 51,
+      "low_f": 28,
       "rain_pct": 74,
-      "uv": 7,
+      "uv": 6,
       "sunrise": "2026-04-10T06:31",
       "sunset": "2026-04-10T19:36",
       "predicted_score": 60,
@@ -89,15 +89,15 @@
     },
     {
       "date": "2026-04-11",
-      "high_f": 48,
-      "low_f": 31,
+      "high_f": 46,
+      "low_f": 30,
       "rain_pct": 77,
-      "uv": 6,
+      "uv": 7,
       "sunrise": "2026-04-11T06:29",
       "sunset": "2026-04-11T19:37",
       "predicted_score": 60,
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-04-07T16:20:15.602141+00:00"
+  "updated_at": "2026-04-07T17:38:29.738407+00:00"
 }
