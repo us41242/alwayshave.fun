@@ -17,11 +17,9 @@
   "notes": "Hoodoos narrow \u2014 ice possible May/Oct",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 88,
-  "score_label": "Great day to go",
-  "gear_flags": [
-    "insulation layer required"
-  ],
+  "score": 30,
+  "score_label": "Conditions poor",
+  "gear_flags": [],
   "current": {
     "temp_f": 40,
     "feels_like_f": 28,
@@ -30,10 +28,10 @@
     "rain_pct": 0
   },
   "aqi": {
-    "aqi": 25,
-    "category": "Good",
-    "pollutant": "PM2.5",
-    "source": "airnow"
+    "aqi": null,
+    "category": "Unknown",
+    "pollutant": "",
+    "source": "none"
   },
   "fire": {
     "risk_level": "low",
@@ -41,62 +39,6 @@
     "fire_count_50km": 0
   },
   "river": null,
-  "forecast": [
-    {
-      "date": "2026-04-07",
-      "high_f": 62,
-      "low_f": 39,
-      "rain_pct": 5,
-      "uv": 8,
-      "sunrise": "2026-04-07T07:04",
-      "sunset": "2026-04-07T19:56",
-      "predicted_score": 100,
-      "score_label": "Great day to go"
-    },
-    {
-      "date": "2026-04-08",
-      "high_f": 64,
-      "low_f": 45,
-      "rain_pct": 4,
-      "uv": 8,
-      "sunrise": "2026-04-08T07:03",
-      "sunset": "2026-04-08T19:57",
-      "predicted_score": 100,
-      "score_label": "Great day to go"
-    },
-    {
-      "date": "2026-04-09",
-      "high_f": 62,
-      "low_f": 42,
-      "rain_pct": 4,
-      "uv": 7,
-      "sunrise": "2026-04-09T07:01",
-      "sunset": "2026-04-09T19:58",
-      "predicted_score": 100,
-      "score_label": "Great day to go"
-    },
-    {
-      "date": "2026-04-10",
-      "high_f": 58,
-      "low_f": 43,
-      "rain_pct": 8,
-      "uv": 7,
-      "sunrise": "2026-04-10T07:00",
-      "sunset": "2026-04-10T19:59",
-      "predicted_score": 100,
-      "score_label": "Great day to go"
-    },
-    {
-      "date": "2026-04-11",
-      "high_f": 51,
-      "low_f": 37,
-      "rain_pct": 64,
-      "uv": 8,
-      "sunrise": "2026-04-11T06:58",
-      "sunset": "2026-04-11T20:00",
-      "predicted_score": 60,
-      "score_label": "Use caution"
-    }
-  ],
-  "updated_at": "2026-04-07T11:41:20.794760+00:00"
+  "forecast": [],
+  "updated_at": "2026-04-07T13:30:59.746756+00:00"
 }

@@ -17,18 +17,20 @@
   "notes": "High-clearance vehicle required for access road",
   "dog_friendly": "Yes",
   "vehicle_req": "High-Clearance",
-  "score": 60,
-  "score_label": "Use caution",
-  "gear_flags": [],
+  "score": 70,
+  "score_label": "Good conditions",
+  "gear_flags": [
+    "insulation layer required"
+  ],
   "current": {
-    "temp_f": 58,
-    "feels_like_f": 52,
-    "wind_mph": 7,
-    "gusts_mph": 12,
-    "rain_pct": 7
+    "temp_f": 40,
+    "feels_like_f": 35,
+    "wind_mph": 3,
+    "gusts_mph": 3,
+    "rain_pct": 0
   },
   "aqi": {
-    "aqi": 32,
+    "aqi": 31,
     "category": "Good",
     "pollutant": "O3",
     "source": "airnow"
@@ -42,6 +44,62 @@
     "cfs": -999999,
     "stage": "low"
   },
-  "forecast": [],
-  "updated_at": "2026-04-07T11:35:12.049797+00:00"
+  "forecast": [
+    {
+      "date": "2026-04-07",
+      "high_f": 78,
+      "low_f": 40,
+      "rain_pct": 0,
+      "uv": 8,
+      "sunrise": "2026-04-07T06:06",
+      "sunset": "2026-04-07T18:57",
+      "predicted_score": 88,
+      "score_label": "Great day to go"
+    },
+    {
+      "date": "2026-04-08",
+      "high_f": 80,
+      "low_f": 49,
+      "rain_pct": 0,
+      "uv": 8,
+      "sunrise": "2026-04-08T06:05",
+      "sunset": "2026-04-08T18:58",
+      "predicted_score": 88,
+      "score_label": "Great day to go"
+    },
+    {
+      "date": "2026-04-09",
+      "high_f": 77,
+      "low_f": 54,
+      "rain_pct": 1,
+      "uv": 7,
+      "sunrise": "2026-04-09T06:03",
+      "sunset": "2026-04-09T18:59",
+      "predicted_score": 88,
+      "score_label": "Great day to go"
+    },
+    {
+      "date": "2026-04-10",
+      "high_f": 73,
+      "low_f": 57,
+      "rain_pct": 7,
+      "uv": 6,
+      "sunrise": "2026-04-10T06:02",
+      "sunset": "2026-04-10T19:00",
+      "predicted_score": 100,
+      "score_label": "Great day to go"
+    },
+    {
+      "date": "2026-04-11",
+      "high_f": 65,
+      "low_f": 48,
+      "rain_pct": 56,
+      "uv": 7,
+      "sunrise": "2026-04-11T06:00",
+      "sunset": "2026-04-11T19:01",
+      "predicted_score": 70,
+      "score_label": "Good conditions"
+    }
+  ],
+  "updated_at": "2026-04-07T13:27:26.949853+00:00"
 }
