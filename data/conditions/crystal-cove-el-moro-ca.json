@@ -17,21 +17,21 @@
   "notes": "Coastal trail with beach access; busy weekends \u2014 reserve parking",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 30,
-  "score_label": "Conditions poor",
+  "score": 70,
+  "score_label": "Good conditions",
   "gear_flags": [
     "mask for sensitive groups",
     "N95 mask recommended for wildfire smoke"
   ],
   "current": {
-    "temp_f": 58,
-    "feels_like_f": 58,
+    "temp_f": 57,
+    "feels_like_f": 57,
     "wind_mph": 2,
-    "gusts_mph": 4,
-    "rain_pct": 0
+    "gusts_mph": 2,
+    "rain_pct": 1
   },
   "aqi": {
-    "aqi": 53,
+    "aqi": 51,
     "category": "Moderate",
     "pollutant": "PM2.5",
     "source": "open-meteo"
@@ -42,6 +42,62 @@
     "fire_count_50km": 8
   },
   "river": null,
-  "forecast": [],
-  "updated_at": "2026-04-07T10:27:29.034471+00:00"
+  "forecast": [
+    {
+      "date": "2026-04-07",
+      "high_f": 66,
+      "low_f": 57,
+      "rain_pct": 1,
+      "uv": 8,
+      "sunrise": "2026-04-07T06:30",
+      "sunset": "2026-04-07T19:16",
+      "predicted_score": 70,
+      "score_label": "Good conditions"
+    },
+    {
+      "date": "2026-04-08",
+      "high_f": 69,
+      "low_f": 57,
+      "rain_pct": 0,
+      "uv": 8,
+      "sunrise": "2026-04-08T06:29",
+      "sunset": "2026-04-08T19:17",
+      "predicted_score": 70,
+      "score_label": "Good conditions"
+    },
+    {
+      "date": "2026-04-09",
+      "high_f": 74,
+      "low_f": 64,
+      "rain_pct": 0,
+      "uv": 7,
+      "sunrise": "2026-04-09T06:27",
+      "sunset": "2026-04-09T19:17",
+      "predicted_score": 70,
+      "score_label": "Good conditions"
+    },
+    {
+      "date": "2026-04-10",
+      "high_f": 73,
+      "low_f": 62,
+      "rain_pct": 15,
+      "uv": 8,
+      "sunrise": "2026-04-10T06:26",
+      "sunset": "2026-04-10T19:18",
+      "predicted_score": 58,
+      "score_label": "Use caution"
+    },
+    {
+      "date": "2026-04-11",
+      "high_f": 68,
+      "low_f": 60,
+      "rain_pct": 47,
+      "uv": 7,
+      "sunrise": "2026-04-11T06:25",
+      "sunset": "2026-04-11T19:19",
+      "predicted_score": 40,
+      "score_label": "Conditions poor"
+    }
+  ],
+  "updated_at": "2026-04-07T11:46:42.341861+00:00"
 }

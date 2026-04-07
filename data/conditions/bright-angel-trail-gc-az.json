@@ -25,9 +25,9 @@
   ],
   "current": {
     "temp_f": 42,
-    "feels_like_f": 35,
+    "feels_like_f": 34,
     "wind_mph": 7,
-    "gusts_mph": 7,
+    "gusts_mph": 6,
     "rain_pct": 0
   },
   "aqi": {
@@ -42,14 +42,14 @@
     "fire_count_50km": 0
   },
   "river": {
-    "cfs": 8110,
+    "cfs": 8150,
     "stage": "flood"
   },
   "forecast": [
     {
       "date": "2026-04-07",
       "high_f": 68,
-      "low_f": 42,
+      "low_f": 40,
       "rain_pct": 1,
       "uv": 8,
       "sunrise": "2026-04-07T06:05",
@@ -70,10 +70,10 @@
     },
     {
       "date": "2026-04-09",
-      "high_f": 69,
-      "low_f": 47,
+      "high_f": 70,
+      "low_f": 48,
       "rain_pct": 1,
-      "uv": 7,
+      "uv": 8,
       "sunrise": "2026-04-09T06:02",
       "sunset": "2026-04-09T18:57",
       "predicted_score": 90,
@@ -81,8 +81,8 @@
     },
     {
       "date": "2026-04-10",
-      "high_f": 64,
-      "low_f": 49,
+      "high_f": 65,
+      "low_f": 48,
       "rain_pct": 5,
       "uv": 6,
       "sunrise": "2026-04-10T06:01",
@@ -92,15 +92,15 @@
     },
     {
       "date": "2026-04-11",
-      "high_f": 57,
-      "low_f": 42,
+      "high_f": 54,
+      "low_f": 37,
       "rain_pct": 49,
-      "uv": 6,
+      "uv": 7,
       "sunrise": "2026-04-11T06:00",
       "sunset": "2026-04-11T18:58",
       "predicted_score": 60,
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-04-07T10:17:15.878590+00:00"
+  "updated_at": "2026-04-07T11:40:26.262231+00:00"
 }

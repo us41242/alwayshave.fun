@@ -17,20 +17,20 @@
   "notes": "Free entry; busy weekends \u2014 arrive before 9am",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 70,
-  "score_label": "Good conditions",
+  "score": 60,
+  "score_label": "Use caution",
   "gear_flags": [
     "insulation layer required"
   ],
   "current": {
-    "temp_f": 36,
-    "feels_like_f": 30,
-    "wind_mph": 3,
-    "gusts_mph": 5,
+    "temp_f": 34,
+    "feels_like_f": 28,
+    "wind_mph": 1,
+    "gusts_mph": 2,
     "rain_pct": 0
   },
   "aqi": {
-    "aqi": 31,
+    "aqi": 32,
     "category": "Good",
     "pollutant": "O3",
     "source": "airnow"
@@ -46,7 +46,7 @@
       "date": "2026-04-07",
       "high_f": 63,
       "low_f": 32,
-      "rain_pct": 15,
+      "rain_pct": 16,
       "uv": 6,
       "sunrise": "2026-04-07T06:34",
       "sunset": "2026-04-07T19:28",
@@ -66,10 +66,10 @@
     },
     {
       "date": "2026-04-09",
-      "high_f": 71,
-      "low_f": 51,
+      "high_f": 72,
+      "low_f": 50,
       "rain_pct": 54,
-      "uv": 6,
+      "uv": 7,
       "sunrise": "2026-04-09T06:31",
       "sunset": "2026-04-09T19:30",
       "predicted_score": 70,
@@ -77,10 +77,10 @@
     },
     {
       "date": "2026-04-10",
-      "high_f": 63,
+      "high_f": 65,
       "low_f": 50,
       "rain_pct": 53,
-      "uv": 7,
+      "uv": 6,
       "sunrise": "2026-04-10T06:29",
       "sunset": "2026-04-10T19:31",
       "predicted_score": 70,
@@ -88,8 +88,8 @@
     },
     {
       "date": "2026-04-11",
-      "high_f": 67,
-      "low_f": 49,
+      "high_f": 66,
+      "low_f": 50,
       "rain_pct": 57,
       "uv": 5,
       "sunrise": "2026-04-11T06:28",
@@ -98,5 +98,5 @@
       "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-04-07T10:25:10.095587+00:00"
+  "updated_at": "2026-04-07T11:45:30.017218+00:00"
 }

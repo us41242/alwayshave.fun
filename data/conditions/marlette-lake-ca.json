@@ -23,8 +23,8 @@
     "insulation layer required"
   ],
   "current": {
-    "temp_f": 38,
-    "feels_like_f": 31,
+    "temp_f": 35,
+    "feels_like_f": 29,
     "wind_mph": 2,
     "gusts_mph": 2,
     "rain_pct": 0
@@ -45,7 +45,7 @@
     {
       "date": "2026-04-07",
       "high_f": 56,
-      "low_f": 36,
+      "low_f": 35,
       "rain_pct": 0,
       "uv": 7,
       "sunrise": "2026-04-07T06:34",
@@ -66,8 +66,8 @@
     },
     {
       "date": "2026-04-09",
-      "high_f": 54,
-      "low_f": 39,
+      "high_f": 53,
+      "low_f": 40,
       "rain_pct": 47,
       "uv": 6,
       "sunrise": "2026-04-09T06:31",
@@ -77,10 +77,10 @@
     },
     {
       "date": "2026-04-10",
-      "high_f": 50,
+      "high_f": 49,
       "low_f": 37,
       "rain_pct": 88,
-      "uv": 6,
+      "uv": 7,
       "sunrise": "2026-04-10T06:29",
       "sunset": "2026-04-10T19:32",
       "predicted_score": 60,
@@ -88,15 +88,15 @@
     },
     {
       "date": "2026-04-11",
-      "high_f": 44,
-      "low_f": 33,
+      "high_f": 39,
+      "low_f": 32,
       "rain_pct": 79,
-      "uv": 7,
+      "uv": 5,
       "sunrise": "2026-04-11T06:28",
       "sunset": "2026-04-11T19:33",
       "predicted_score": 60,
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-04-07T10:27:39.860106+00:00"
+  "updated_at": "2026-04-07T11:46:43.087326+00:00"
 }

@@ -17,18 +17,20 @@
   "notes": "Near Death Valley \u2014 extreme summer heat",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 60,
-  "score_label": "Use caution",
-  "gear_flags": [],
+  "score": 70,
+  "score_label": "Good conditions",
+  "gear_flags": [
+    "wind layer recommended"
+  ],
   "current": {
-    "temp_f": 68,
-    "feels_like_f": 59,
-    "wind_mph": 7,
-    "gusts_mph": 7,
+    "temp_f": 61,
+    "feels_like_f": 44,
+    "wind_mph": 26,
+    "gusts_mph": 30,
     "rain_pct": 0
   },
   "aqi": {
-    "aqi": 46,
+    "aqi": 47,
     "category": "Good",
     "pollutant": "O3",
     "source": "airnow"
@@ -39,6 +41,62 @@
     "fire_count_50km": 0
   },
   "river": null,
-  "forecast": [],
-  "updated_at": "2026-04-07T10:23:44.045537+00:00"
+  "forecast": [
+    {
+      "date": "2026-04-07",
+      "high_f": 81,
+      "low_f": 60,
+      "rain_pct": 0,
+      "uv": 8,
+      "sunrise": "2026-04-07T06:23",
+      "sunset": "2026-04-07T19:14",
+      "predicted_score": 88,
+      "score_label": "Great day to go"
+    },
+    {
+      "date": "2026-04-08",
+      "high_f": 80,
+      "low_f": 62,
+      "rain_pct": 0,
+      "uv": 8,
+      "sunrise": "2026-04-08T06:22",
+      "sunset": "2026-04-08T19:15",
+      "predicted_score": 88,
+      "score_label": "Great day to go"
+    },
+    {
+      "date": "2026-04-09",
+      "high_f": 73,
+      "low_f": 58,
+      "rain_pct": 1,
+      "uv": 7,
+      "sunrise": "2026-04-09T06:20",
+      "sunset": "2026-04-09T19:16",
+      "predicted_score": 100,
+      "score_label": "Great day to go"
+    },
+    {
+      "date": "2026-04-10",
+      "high_f": 71,
+      "low_f": 55,
+      "rain_pct": 8,
+      "uv": 8,
+      "sunrise": "2026-04-10T06:19",
+      "sunset": "2026-04-10T19:17",
+      "predicted_score": 100,
+      "score_label": "Great day to go"
+    },
+    {
+      "date": "2026-04-11",
+      "high_f": 62,
+      "low_f": 48,
+      "rain_pct": 29,
+      "uv": 8,
+      "sunrise": "2026-04-11T06:18",
+      "sunset": "2026-04-11T19:18",
+      "predicted_score": 88,
+      "score_label": "Great day to go"
+    }
+  ],
+  "updated_at": "2026-04-07T11:44:18.161656+00:00"
 }
