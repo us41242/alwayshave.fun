@@ -17,8 +17,8 @@
   "notes": "High-clearance vehicle required for access road",
   "dog_friendly": "Yes",
   "vehicle_req": "High-Clearance",
-  "score": 100,
-  "score_label": "Great day to go",
+  "score": 60,
+  "score_label": "Use caution",
   "gear_flags": [],
   "current": {
     "temp_f": 58,
@@ -28,7 +28,7 @@
     "rain_pct": 7
   },
   "aqi": {
-    "aqi": 46,
+    "aqi": 44,
     "category": "Good",
     "pollutant": "O3",
     "source": "airnow"
@@ -42,62 +42,6 @@
     "cfs": -999999,
     "stage": "low"
   },
-  "forecast": [
-    {
-      "date": "2026-04-06",
-      "high_f": 71,
-      "low_f": 44,
-      "rain_pct": 14,
-      "uv": 6,
-      "sunrise": "2026-04-06T06:07",
-      "sunset": "2026-04-06T18:56",
-      "predicted_score": 88,
-      "score_label": "Great day to go"
-    },
-    {
-      "date": "2026-04-07",
-      "high_f": 78,
-      "low_f": 44,
-      "rain_pct": 1,
-      "uv": 8,
-      "sunrise": "2026-04-07T06:06",
-      "sunset": "2026-04-07T18:57",
-      "predicted_score": 88,
-      "score_label": "Great day to go"
-    },
-    {
-      "date": "2026-04-08",
-      "high_f": 80,
-      "low_f": 48,
-      "rain_pct": 0,
-      "uv": 8,
-      "sunrise": "2026-04-08T06:05",
-      "sunset": "2026-04-08T18:58",
-      "predicted_score": 88,
-      "score_label": "Great day to go"
-    },
-    {
-      "date": "2026-04-09",
-      "high_f": 77,
-      "low_f": 55,
-      "rain_pct": 1,
-      "uv": 7,
-      "sunrise": "2026-04-09T06:03",
-      "sunset": "2026-04-09T18:59",
-      "predicted_score": 88,
-      "score_label": "Great day to go"
-    },
-    {
-      "date": "2026-04-10",
-      "high_f": 74,
-      "low_f": 57,
-      "rain_pct": 9,
-      "uv": 7,
-      "sunrise": "2026-04-10T06:02",
-      "sunset": "2026-04-10T19:00",
-      "predicted_score": 100,
-      "score_label": "Great day to go"
-    }
-  ],
-  "updated_at": "2026-04-07T03:38:26.192012+00:00"
+  "forecast": [],
+  "updated_at": "2026-04-07T05:51:00.124307+00:00"
 }
