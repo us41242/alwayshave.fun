@@ -20,18 +20,17 @@
   "score": 78,
   "score_label": "Good conditions",
   "gear_flags": [
-    "insulation layer required",
     "mask for sensitive groups"
   ],
   "current": {
-    "temp_f": 42,
-    "feels_like_f": 33,
-    "wind_mph": 8,
-    "gusts_mph": 9,
+    "temp_f": 47,
+    "feels_like_f": 39,
+    "wind_mph": 6,
+    "gusts_mph": 12,
     "rain_pct": 0
   },
   "aqi": {
-    "aqi": 64,
+    "aqi": 58,
     "category": "Moderate",
     "pollutant": "O3",
     "source": "airnow"
@@ -42,7 +41,7 @@
     "fire_count_50km": 0
   },
   "river": {
-    "cfs": 8190,
+    "cfs": 8310,
     "stage": "flood"
   },
   "forecast": [
@@ -60,7 +59,7 @@
     {
       "date": "2026-04-08",
       "high_f": 70,
-      "low_f": 44,
+      "low_f": 45,
       "rain_pct": 1,
       "uv": 8,
       "sunrise": "2026-04-08T06:04",
@@ -102,5 +101,5 @@
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-04-07T13:29:34.128296+00:00"
+  "updated_at": "2026-04-07T14:56:50.948919+00:00"
 }
