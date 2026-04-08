@@ -24,14 +24,14 @@
     "mask for sensitive groups"
   ],
   "current": {
-    "temp_f": 64,
-    "feels_like_f": 50,
+    "temp_f": 60,
+    "feels_like_f": 47,
     "wind_mph": 18,
-    "gusts_mph": 24,
+    "gusts_mph": 22,
     "rain_pct": 0
   },
   "aqi": {
-    "aqi": 61,
+    "aqi": 64,
     "category": "Moderate",
     "pollutant": "O3",
     "source": "airnow"
@@ -45,8 +45,8 @@
   "forecast": [
     {
       "date": "2026-04-08",
-      "high_f": 88,
-      "low_f": 61,
+      "high_f": 87,
+      "low_f": 57,
       "rain_pct": 1,
       "uv": 8,
       "sunrise": "2026-04-08T06:06",
@@ -67,7 +67,7 @@
     },
     {
       "date": "2026-04-10",
-      "high_f": 81,
+      "high_f": 82,
       "low_f": 64,
       "rain_pct": 11,
       "uv": 7,
@@ -78,8 +78,8 @@
     },
     {
       "date": "2026-04-11",
-      "high_f": 70,
-      "low_f": 59,
+      "high_f": 72,
+      "low_f": 58,
       "rain_pct": 43,
       "uv": 7,
       "sunrise": "2026-04-11T06:02",
@@ -89,8 +89,8 @@
     },
     {
       "date": "2026-04-12",
-      "high_f": 68,
-      "low_f": 53,
+      "high_f": 69,
+      "low_f": 54,
       "rain_pct": 31,
       "uv": 8,
       "sunrise": "2026-04-12T06:00",
@@ -99,5 +99,5 @@
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-04-08T10:40:19.108710+00:00"
+  "updated_at": "2026-04-08T11:59:51.858807+00:00"
 }
