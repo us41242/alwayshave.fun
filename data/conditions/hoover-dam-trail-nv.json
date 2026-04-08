@@ -17,21 +17,21 @@
   "notes": "Paved trail \u2014 no permit required",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 46,
+  "score": 36,
   "score_label": "Conditions poor",
   "gear_flags": [
     "mask for sensitive groups",
     "N95 mask recommended for wildfire smoke"
   ],
   "current": {
-    "temp_f": 95,
-    "feels_like_f": 91,
-    "wind_mph": 6,
-    "gusts_mph": 10,
+    "temp_f": 96,
+    "feels_like_f": 89,
+    "wind_mph": 13,
+    "gusts_mph": 15,
     "rain_pct": 0
   },
   "aqi": {
-    "aqi": 54,
+    "aqi": 71,
     "category": "Moderate",
     "pollutant": "O3",
     "source": "airnow"
@@ -68,7 +68,7 @@
     {
       "date": "2026-04-10",
       "high_f": 89,
-      "low_f": 71,
+      "low_f": 70,
       "rain_pct": 5,
       "uv": 7,
       "sunrise": "2026-04-10T06:11",
@@ -99,5 +99,5 @@
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-04-08T19:52:20.050233+00:00"
+  "updated_at": "2026-04-08T20:54:25.045200+00:00"
 }
