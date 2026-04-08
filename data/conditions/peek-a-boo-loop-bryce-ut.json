@@ -24,15 +24,15 @@
   ],
   "current": {
     "temp_f": 42,
-    "feels_like_f": 30,
-    "wind_mph": 12,
-    "gusts_mph": 17,
+    "feels_like_f": 32,
+    "wind_mph": 10,
+    "gusts_mph": 16,
     "rain_pct": 0
   },
   "aqi": {
     "aqi": 24,
     "category": "Good",
-    "pollutant": "O3",
+    "pollutant": "PM2.5",
     "source": "airnow"
   },
   "fire": {
@@ -45,7 +45,7 @@
     {
       "date": "2026-04-08",
       "high_f": 64,
-      "low_f": 41,
+      "low_f": 40,
       "rain_pct": 1,
       "uv": 8,
       "sunrise": "2026-04-08T07:03",
@@ -98,5 +98,5 @@
       "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-04-08T11:59:55.075731+00:00"
+  "updated_at": "2026-04-08T13:58:24.179440+00:00"
 }

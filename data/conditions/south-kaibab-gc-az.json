@@ -17,35 +17,35 @@
   "notes": "No water on trail \u2014 carry all water",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 78,
-  "score_label": "Good conditions",
+  "score": 60,
+  "score_label": "Use caution",
   "gear_flags": [
     "insulation layer required",
     "mask for sensitive groups"
   ],
   "current": {
-    "temp_f": 42,
-    "feels_like_f": 34,
+    "temp_f": 39,
+    "feels_like_f": 31,
     "wind_mph": 6,
-    "gusts_mph": 10,
+    "gusts_mph": 9,
     "rain_pct": 0
   },
   "aqi": {
-    "aqi": 64,
+    "aqi": 58,
     "category": "Moderate",
     "pollutant": "O3",
     "source": "airnow"
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": 256.1,
+    "nearest_fire_km": 255.8,
     "fire_count_50km": 0
   },
   "river": null,
   "forecast": [
     {
       "date": "2026-04-08",
-      "high_f": 67,
+      "high_f": 68,
       "low_f": 35,
       "rain_pct": 1,
       "uv": 8,
@@ -59,7 +59,7 @@
       "high_f": 68,
       "low_f": 43,
       "rain_pct": 3,
-      "uv": 7,
+      "uv": 8,
       "sunrise": "2026-04-09T06:02",
       "sunset": "2026-04-09T18:56",
       "predicted_score": 90,
@@ -70,7 +70,7 @@
       "high_f": 65,
       "low_f": 49,
       "rain_pct": 8,
-      "uv": 6,
+      "uv": 7,
       "sunrise": "2026-04-10T06:01",
       "sunset": "2026-04-10T18:57",
       "predicted_score": 90,
@@ -81,7 +81,7 @@
       "high_f": 57,
       "low_f": 43,
       "rain_pct": 39,
-      "uv": 6,
+      "uv": 7,
       "sunrise": "2026-04-11T06:00",
       "sunset": "2026-04-11T18:58",
       "predicted_score": 60,
@@ -92,12 +92,12 @@
       "high_f": 54,
       "low_f": 38,
       "rain_pct": 25,
-      "uv": 7,
+      "uv": 8,
       "sunrise": "2026-04-12T05:58",
       "sunset": "2026-04-12T18:59",
       "predicted_score": 78,
       "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-04-08T11:59:51.235225+00:00"
+  "updated_at": "2026-04-08T13:58:20.190728+00:00"
 }
