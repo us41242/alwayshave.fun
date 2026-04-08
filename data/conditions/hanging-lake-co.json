@@ -17,21 +17,23 @@
   "notes": "Timed entry permit required May\u2013Oct \u2014 book Recreation.gov",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 88,
+  "score": 100,
   "score_label": "Great day to go",
-  "gear_flags": [],
+  "gear_flags": [
+    "wind layer recommended"
+  ],
   "current": {
-    "temp_f": 48,
-    "feels_like_f": 41,
-    "wind_mph": 10,
-    "gusts_mph": 19,
+    "temp_f": 56,
+    "feels_like_f": 48,
+    "wind_mph": 15,
+    "gusts_mph": 27,
     "rain_pct": 0
   },
   "aqi": {
-    "aqi": 41,
+    "aqi": 40,
     "category": "Good",
-    "pollutant": "PM2.5",
-    "source": "open-meteo"
+    "pollutant": "O3",
+    "source": "airnow"
   },
   "fire": {
     "risk_level": "low",
@@ -42,9 +44,9 @@
   "forecast": [
     {
       "date": "2026-04-08",
-      "high_f": 60,
+      "high_f": 61,
       "low_f": 35,
-      "rain_pct": 2,
+      "rain_pct": 3,
       "uv": 8,
       "sunrise": "2026-04-08T06:41",
       "sunset": "2026-04-08T19:39",
@@ -75,10 +77,10 @@
     },
     {
       "date": "2026-04-11",
-      "high_f": 55,
-      "low_f": 37,
+      "high_f": 57,
+      "low_f": 38,
       "rain_pct": 60,
-      "uv": 4,
+      "uv": 5,
       "sunrise": "2026-04-11T06:36",
       "sunset": "2026-04-11T19:42",
       "predicted_score": 70,
@@ -86,15 +88,15 @@
     },
     {
       "date": "2026-04-12",
-      "high_f": 55,
+      "high_f": 53,
       "low_f": 34,
       "rain_pct": 44,
-      "uv": 8,
+      "uv": 7,
       "sunrise": "2026-04-12T06:35",
       "sunset": "2026-04-12T19:43",
       "predicted_score": 70,
       "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-04-08T16:48:51.369661+00:00"
+  "updated_at": "2026-04-08T18:16:12.988601+00:00"
 }
