@@ -17,16 +17,16 @@
   "notes": "Summer heat extreme \u2014 start before sunrise",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 90,
-  "score_label": "Great day to go",
+  "score": 78,
+  "score_label": "Good conditions",
   "gear_flags": [
     "mask for sensitive groups"
   ],
   "current": {
-    "temp_f": 51,
-    "feels_like_f": 42,
-    "wind_mph": 7,
-    "gusts_mph": 7,
+    "temp_f": 49,
+    "feels_like_f": 38,
+    "wind_mph": 9,
+    "gusts_mph": 9,
     "rain_pct": 0
   },
   "aqi": {
@@ -41,7 +41,7 @@
     "fire_count_50km": 0
   },
   "river": {
-    "cfs": 8190,
+    "cfs": 8150,
     "stage": "flood"
   },
   "forecast": [
@@ -49,7 +49,7 @@
       "date": "2026-04-08",
       "high_f": 70,
       "low_f": 46,
-      "rain_pct": 0,
+      "rain_pct": 1,
       "uv": 8,
       "sunrise": "2026-04-08T06:04",
       "sunset": "2026-04-08T18:56",
@@ -60,7 +60,7 @@
       "date": "2026-04-09",
       "high_f": 70,
       "low_f": 50,
-      "rain_pct": 2,
+      "rain_pct": 3,
       "uv": 7,
       "sunrise": "2026-04-09T06:02",
       "sunset": "2026-04-09T18:57",
@@ -71,7 +71,7 @@
       "date": "2026-04-10",
       "high_f": 65,
       "low_f": 48,
-      "rain_pct": 6,
+      "rain_pct": 8,
       "uv": 6,
       "sunrise": "2026-04-10T06:01",
       "sunset": "2026-04-10T18:57",
@@ -82,7 +82,7 @@
       "date": "2026-04-11",
       "high_f": 54,
       "low_f": 43,
-      "rain_pct": 45,
+      "rain_pct": 39,
       "uv": 6,
       "sunrise": "2026-04-11T06:00",
       "sunset": "2026-04-11T18:58",
@@ -93,7 +93,7 @@
       "date": "2026-04-12",
       "high_f": 55,
       "low_f": 38,
-      "rain_pct": 29,
+      "rain_pct": 25,
       "uv": 7,
       "sunrise": "2026-04-12T05:58",
       "sunset": "2026-04-12T18:59",
@@ -101,5 +101,5 @@
       "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-04-08T09:11:08.477400+00:00"
+  "updated_at": "2026-04-08T10:40:16.817969+00:00"
 }
