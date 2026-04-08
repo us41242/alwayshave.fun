@@ -17,20 +17,20 @@
   "notes": "Kayak/canoe only \u2014 check river release schedule",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 86,
-  "score_label": "Great day to go",
+  "score": 74,
+  "score_label": "Good conditions",
   "gear_flags": [
     "N95 mask recommended for wildfire smoke"
   ],
   "current": {
-    "temp_f": 74,
-    "feels_like_f": 67,
-    "wind_mph": 5,
+    "temp_f": 84,
+    "feels_like_f": 80,
+    "wind_mph": 2,
     "gusts_mph": 6,
     "rain_pct": 0
   },
   "aqi": {
-    "aqi": 41,
+    "aqi": 44,
     "category": "Good",
     "pollutant": "O3",
     "source": "airnow"
@@ -68,7 +68,7 @@
       "date": "2026-04-10",
       "high_f": 88,
       "low_f": 67,
-      "rain_pct": 6,
+      "rain_pct": 5,
       "uv": 7,
       "sunrise": "2026-04-10T06:11",
       "sunset": "2026-04-10T19:08",
@@ -79,7 +79,7 @@
       "date": "2026-04-11",
       "high_f": 81,
       "low_f": 61,
-      "rain_pct": 26,
+      "rain_pct": 20,
       "uv": 7,
       "sunrise": "2026-04-11T06:10",
       "sunset": "2026-04-11T19:09",
@@ -90,7 +90,7 @@
       "date": "2026-04-12",
       "high_f": 73,
       "low_f": 57,
-      "rain_pct": 15,
+      "rain_pct": 12,
       "uv": 7,
       "sunrise": "2026-04-12T06:09",
       "sunset": "2026-04-12T19:09",
@@ -98,5 +98,5 @@
       "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-04-08T15:22:14.397746+00:00"
+  "updated_at": "2026-04-08T16:46:31.565888+00:00"
 }

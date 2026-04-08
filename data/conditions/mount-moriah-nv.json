@@ -17,11 +17,9 @@
   "notes": "Remote \u2014 no cell service; snow until July",
   "dog_friendly": "Yes",
   "vehicle_req": "High-Clearance",
-  "score": 70,
-  "score_label": "Good conditions",
-  "gear_flags": [
-    "insulation layer required"
-  ],
+  "score": 60,
+  "score_label": "Use caution",
+  "gear_flags": [],
   "current": {
     "temp_f": 35,
     "feels_like_f": 28,
@@ -30,7 +28,7 @@
     "rain_pct": 0
   },
   "aqi": {
-    "aqi": 43,
+    "aqi": 44,
     "category": "Good",
     "pollutant": "O3",
     "source": "airnow"
@@ -41,62 +39,6 @@
     "fire_count_50km": 0
   },
   "river": null,
-  "forecast": [
-    {
-      "date": "2026-04-08",
-      "high_f": 45,
-      "low_f": 27,
-      "rain_pct": 5,
-      "uv": 8,
-      "sunrise": "2026-04-08T06:09",
-      "sunset": "2026-04-08T19:07",
-      "predicted_score": 88,
-      "score_label": "Great day to go"
-    },
-    {
-      "date": "2026-04-09",
-      "high_f": 46,
-      "low_f": 29,
-      "rain_pct": 8,
-      "uv": 7,
-      "sunrise": "2026-04-09T06:08",
-      "sunset": "2026-04-09T19:08",
-      "predicted_score": 88,
-      "score_label": "Great day to go"
-    },
-    {
-      "date": "2026-04-10",
-      "high_f": 47,
-      "low_f": 28,
-      "rain_pct": 10,
-      "uv": 8,
-      "sunrise": "2026-04-10T06:06",
-      "sunset": "2026-04-10T19:09",
-      "predicted_score": 88,
-      "score_label": "Great day to go"
-    },
-    {
-      "date": "2026-04-11",
-      "high_f": 38,
-      "low_f": 28,
-      "rain_pct": 51,
-      "uv": 7,
-      "sunrise": "2026-04-11T06:05",
-      "sunset": "2026-04-11T19:10",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
-    },
-    {
-      "date": "2026-04-12",
-      "high_f": 31,
-      "low_f": 19,
-      "rain_pct": 75,
-      "uv": 7,
-      "sunrise": "2026-04-12T06:03",
-      "sunset": "2026-04-12T19:11",
-      "predicted_score": 60,
-      "score_label": "Use caution"
-    }
-  ],
-  "updated_at": "2026-04-08T15:24:19.436220+00:00"
+  "forecast": [],
+  "updated_at": "2026-04-08T16:47:34.848550+00:00"
 }
