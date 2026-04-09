@@ -17,28 +17,27 @@
   "notes": "Road open late Jun \u2014 check NPS seasonal closure",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 70,
-  "score_label": "Good conditions",
+  "score": 60,
+  "score_label": "Use caution",
   "gear_flags": [
-    "wind layer recommended",
     "insulation layer required"
   ],
   "current": {
-    "temp_f": 37,
-    "feels_like_f": 23,
-    "wind_mph": 18,
-    "gusts_mph": 26,
+    "temp_f": 30,
+    "feels_like_f": 20,
+    "wind_mph": 10,
+    "gusts_mph": 18,
     "rain_pct": 1
   },
   "aqi": {
-    "aqi": 46,
+    "aqi": 47,
     "category": "Good",
     "pollutant": "O3",
     "source": "airnow"
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": 129.3,
+    "nearest_fire_km": null,
     "fire_count_50km": 0
   },
   "river": null,
@@ -47,7 +46,7 @@
       "date": "2026-04-08",
       "high_f": 38,
       "low_f": 22,
-      "rain_pct": 2,
+      "rain_pct": 1,
       "uv": 8,
       "sunrise": "2026-04-08T06:10",
       "sunset": "2026-04-08T19:07",
@@ -56,8 +55,8 @@
     },
     {
       "date": "2026-04-09",
-      "high_f": 38,
-      "low_f": 24,
+      "high_f": 39,
+      "low_f": 23,
       "rain_pct": 1,
       "uv": 7,
       "sunrise": "2026-04-09T06:08",
@@ -67,14 +66,14 @@
     },
     {
       "date": "2026-04-10",
-      "high_f": 40,
+      "high_f": 36,
       "low_f": 19,
       "rain_pct": 14,
       "uv": 8,
       "sunrise": "2026-04-10T06:07",
       "sunset": "2026-04-10T19:09",
-      "predicted_score": 88,
-      "score_label": "Great day to go"
+      "predicted_score": 70,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-04-11",
@@ -99,5 +98,5 @@
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-04-08T23:42:43.418175+00:00"
+  "updated_at": "2026-04-09T02:46:14.299957+00:00"
 }

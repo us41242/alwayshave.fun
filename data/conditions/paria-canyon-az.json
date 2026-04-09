@@ -17,27 +17,27 @@
   "notes": "Multi-day \u2014 permit required; flash flood danger",
   "dog_friendly": "Yes",
   "vehicle_req": "High-Clearance",
-  "score": 78,
-  "score_label": "Good conditions",
+  "score": 90,
+  "score_label": "Great day to go",
   "gear_flags": [
     "mask for sensitive groups"
   ],
   "current": {
-    "temp_f": 79,
-    "feels_like_f": 70,
-    "wind_mph": 10,
-    "gusts_mph": 12,
+    "temp_f": 69,
+    "feels_like_f": 58,
+    "wind_mph": 11,
+    "gusts_mph": 14,
     "rain_pct": 0
   },
   "aqi": {
-    "aqi": 51,
+    "aqi": 54,
     "category": "Moderate",
     "pollutant": "O3",
     "source": "airnow"
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": 218.1,
+    "nearest_fire_km": null,
     "fire_count_50km": 0
   },
   "river": null,
@@ -56,7 +56,7 @@
     {
       "date": "2026-04-09",
       "high_f": 81,
-      "low_f": 51,
+      "low_f": 52,
       "rain_pct": 2,
       "uv": 7,
       "sunrise": "2026-04-09T07:01",
@@ -67,7 +67,7 @@
     {
       "date": "2026-04-10",
       "high_f": 77,
-      "low_f": 54,
+      "low_f": 53,
       "rain_pct": 10,
       "uv": 7,
       "sunrise": "2026-04-10T06:59",
@@ -98,5 +98,5 @@
       "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-04-08T23:47:11.576122+00:00"
+  "updated_at": "2026-04-09T02:50:16.980772+00:00"
 }

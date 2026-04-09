@@ -17,25 +17,25 @@
   "notes": "Sandstone scrambling \u2014 watch for rattlesnakes spring",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 88,
+  "score": 100,
   "score_label": "Great day to go",
   "gear_flags": [],
   "current": {
-    "temp_f": 83,
-    "feels_like_f": 72,
-    "wind_mph": 12,
-    "gusts_mph": 14,
+    "temp_f": 73,
+    "feels_like_f": 64,
+    "wind_mph": 8,
+    "gusts_mph": 11,
     "rain_pct": 0
   },
   "aqi": {
-    "aqi": 50,
+    "aqi": 49,
     "category": "Good",
-    "pollutant": "PM2.5",
+    "pollutant": "O3",
     "source": "airnow"
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": 145.4,
+    "nearest_fire_km": null,
     "fire_count_50km": 0
   },
   "river": null,
@@ -65,7 +65,7 @@
     {
       "date": "2026-04-10",
       "high_f": 78,
-      "low_f": 59,
+      "low_f": 60,
       "rain_pct": 7,
       "uv": 6,
       "sunrise": "2026-04-10T07:06",
@@ -96,5 +96,5 @@
       "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-04-08T23:47:12.180508+00:00"
+  "updated_at": "2026-04-09T02:50:17.821768+00:00"
 }
