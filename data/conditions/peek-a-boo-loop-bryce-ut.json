@@ -17,21 +17,21 @@
   "notes": "Hoodoos narrow \u2014 ice possible May/Oct",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 76,
-  "score_label": "Good conditions",
+  "score": 64,
+  "score_label": "Use caution",
   "gear_flags": [
     "mask for sensitive groups",
     "N95 mask recommended for wildfire smoke"
   ],
   "current": {
     "temp_f": 62,
-    "feels_like_f": 54,
-    "wind_mph": 14,
-    "gusts_mph": 17,
+    "feels_like_f": 52,
+    "wind_mph": 16,
+    "gusts_mph": 18,
     "rain_pct": 0
   },
   "aqi": {
-    "aqi": 61,
+    "aqi": 71,
     "category": "Moderate",
     "pollutant": "O3",
     "source": "airnow"
@@ -57,7 +57,7 @@
     {
       "date": "2026-04-10",
       "high_f": 60,
-      "low_f": 41,
+      "low_f": 40,
       "rain_pct": 7,
       "uv": 7,
       "sunrise": "2026-04-10T07:00",
@@ -69,7 +69,7 @@
       "date": "2026-04-11",
       "high_f": 54,
       "low_f": 37,
-      "rain_pct": 48,
+      "rain_pct": 47,
       "uv": 8,
       "sunrise": "2026-04-11T06:58",
       "sunset": "2026-04-11T20:00",
@@ -80,7 +80,7 @@
       "date": "2026-04-12",
       "high_f": 50,
       "low_f": 33,
-      "rain_pct": 41,
+      "rain_pct": 39,
       "uv": 8,
       "sunrise": "2026-04-12T06:57",
       "sunset": "2026-04-12T20:01",
@@ -91,7 +91,7 @@
       "date": "2026-04-13",
       "high_f": 43,
       "low_f": 28,
-      "rain_pct": 64,
+      "rain_pct": 63,
       "uv": 7,
       "sunrise": "2026-04-13T06:55",
       "sunset": "2026-04-13T20:02",
@@ -99,5 +99,5 @@
       "score_label": "Conditions poor"
     }
   ],
-  "updated_at": "2026-04-09T21:24:02.935483+00:00"
+  "updated_at": "2026-04-09T21:46:18.564823+00:00"
 }
