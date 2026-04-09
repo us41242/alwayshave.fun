@@ -23,14 +23,14 @@
     "insulation layer required"
   ],
   "current": {
-    "temp_f": 15,
-    "feels_like_f": 6,
-    "wind_mph": 4,
+    "temp_f": 12,
+    "feels_like_f": 3,
+    "wind_mph": 5,
     "gusts_mph": 6,
     "rain_pct": 0
   },
   "aqi": {
-    "aqi": 19,
+    "aqi": 21,
     "category": "Good",
     "pollutant": "PM2.5",
     "source": "airnow"
@@ -46,22 +46,11 @@
   },
   "forecast": [
     {
-      "date": "2026-04-08",
-      "high_f": 27,
-      "low_f": 10,
-      "rain_pct": 3,
-      "uv": 9,
-      "sunrise": "2026-04-08T06:28",
-      "sunset": "2026-04-08T19:21",
-      "predicted_score": 60,
-      "score_label": "Use caution"
-    },
-    {
       "date": "2026-04-09",
       "high_f": 23,
-      "low_f": 8,
+      "low_f": 7,
       "rain_pct": 9,
-      "uv": 8,
+      "uv": 9,
       "sunrise": "2026-04-09T06:27",
       "sunset": "2026-04-09T19:22",
       "predicted_score": 60,
@@ -80,8 +69,8 @@
     },
     {
       "date": "2026-04-11",
-      "high_f": 21,
-      "low_f": 7,
+      "high_f": 20,
+      "low_f": 6,
       "rain_pct": 45,
       "uv": 9,
       "sunrise": "2026-04-11T06:24",
@@ -91,15 +80,26 @@
     },
     {
       "date": "2026-04-12",
-      "high_f": 8,
-      "low_f": -10,
+      "high_f": 9,
+      "low_f": -8,
       "rain_pct": 71,
-      "uv": 7,
+      "uv": 9,
       "sunrise": "2026-04-12T06:22",
       "sunset": "2026-04-12T19:24",
       "predicted_score": 60,
       "score_label": "Use caution"
+    },
+    {
+      "date": "2026-04-13",
+      "high_f": 11,
+      "low_f": -1,
+      "rain_pct": 23,
+      "uv": 8,
+      "sunrise": "2026-04-13T06:21",
+      "sunset": "2026-04-13T19:25",
+      "predicted_score": 60,
+      "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-04-09T05:21:30.972515+00:00"
+  "updated_at": "2026-04-09T07:03:14.365523+00:00"
 }
