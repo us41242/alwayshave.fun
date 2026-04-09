@@ -112,18 +112,23 @@
       background: linear-gradient(160deg, #1a2a1a, #0c1117);
       background-size: cover;
       background-position: center 40%;
+      background-attachment: fixed;
       display: flex;
       align-items: flex-end;
+    }
+    @supports (-webkit-touch-callout: none) {
+      .site-hero { background-attachment: scroll; }
     }
     .site-hero-overlay {
       position: absolute;
       inset: 0;
       background: linear-gradient(
         to top,
-        rgba(12,17,23,1)    0%,
-        rgba(12,17,23,0.8)  15%,
-        rgba(12,17,23,0.3)  35%,
-        rgba(12,17,23,0)    55%
+        rgba(12,17,23,0.85)  0%,
+        rgba(12,17,23,0.5)   20%,
+        rgba(12,17,23,0.25)  45%,
+        rgba(12,17,23,0.15)  70%,
+        rgba(12,17,23,0.1)   100%
       );
     }
     .site-hero-content {
@@ -468,12 +473,36 @@
     const INDEX_URL  = '/data/trails-index.json';
     const STATE_NAMES = { NV:'Nevada', UT:'Utah', AZ:'Arizona', CA:'California', CO:'Colorado' };
 
-    // ── Hero image ───────────────────────────────
+    // ── Hero image (random on each load) ─────────
+    const heroImages = [
+      '/photos/LANDINGcathedral-rock-sedona-az.webp',
+      '/photos/angels-landing-zion-ut/angels-landing-zion-ut.webp',
+      '/photos/bright-angel-trail-gc-az/bright-angel-trail-gc-az.webp',
+      '/photos/bryce-rim-trail-ut/bryce-rim-trail-ut.webp',
+      '/photos/calico-hills-red-rock-nv/calico-hills-red-rock-nv.webp',
+      '/photos/emerald-lake-rmnp-co/emerald-lake-rmnp-co.webp',
+      '/photos/half-dome-yosemite-ca/half-dome-yosemite-ca.webp',
+      '/photos/havasu-falls-az/havasu-falls-az.webp',
+      '/photos/ice-lake-basin-co/ice-lake-basin-co.webp',
+      '/photos/maroon-bells-crater-lake-co/maroon-bells-crater-lake-co.webp',
+      '/photos/mist-trail-vernal-fall-ca/mist-trail-vernal-fall-ca.webp',
+      '/photos/narrows-top-down-zion-ut/narrows-top-down-zion-ut.webp',
+      '/photos/paria-canyon-az/paria-canyon-az.webp',
+      '/photos/snow-canyon-rim-ut/snow-canyon-rim-ut.webp',
+      '/photos/south-kaibab-gc-az/south-kaibab-gc-az.webp',
+      '/photos/the-narrows-zion-ut/the-narrows-zion-ut.webp',
+      '/photos/toroweap-overlook-az/toroweap-overlook-az.webp',
+      '/photos/wave-rock-valley-of-fire-nv/wave-rock-valley-of-fire-nv.webp',
+      '/photos/west-fork-oak-creek-az/west-fork-oak-creek-az.webp',
+      '/photos/wheeler-peak-great-basin-nv/wheeler-peak-great-basin-nv.webp',
+      '/photos/wire-pass-buckskin-az/wire-pass-buckskin-az.webp',
+    ];
+    const heroSrc = heroImages[Math.floor(Math.random() * heroImages.length)];
     const heroImg = new Image();
     heroImg.onload = () => {
-      document.getElementById('site-hero').style.backgroundImage = `url('/photos/LANDINGcathedral-rock-sedona-az.webp')`;
+      document.getElementById('site-hero').style.backgroundImage = `url('${heroSrc}')`;
     };
-    heroImg.src = '/photos/LANDINGcathedral-rock-sedona-az.webp';
+    heroImg.src = heroSrc;
 
     // ── Nav scroll ───────────────────────────────
     window.addEventListener('scroll', () => {
