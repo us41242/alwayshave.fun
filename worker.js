@@ -4,6 +4,24 @@ const STATES = ['nv', 'ut', 'az', 'ca', 'co', 'nm'];
 // Worker maps /articles/{slug} → /articles/{slug}.html
 
 export default {
+  async scheduled(event, env, ctx) {
+    const resp = await fetch(
+      'https://api.github.com/repos/us41242/alwayshave-fun/actions/workflows/fetch_conditions.yml/dispatches',
+      {
+        method: 'POST',
+        headers: {
+          'Authorization': `Bearer ${env.GH_DISPATCH_TOKEN}`,
+          'Accept': 'application/vnd.github+json',
+          'User-Agent': 'alwayshave-fun-cron',
+        },
+        body: JSON.stringify({ ref: 'main' }),
+      }
+    );
+    if (!resp.ok) {
+      console.error(`dispatch failed: ${resp.status} ${await resp.text()}`);
+    }
+  },
+
   async fetch(request, env) {
     const url = new URL(request.url);
     const parts = url.pathname.replace(/^\//, '').split('/').filter(p => p.length > 0);
