@@ -17,16 +17,16 @@
   "notes": "No water on trail \u2014 carry all water",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 50,
-  "score_label": "Use caution",
+  "score": 78,
+  "score_label": "Good conditions",
   "gear_flags": [
     "mask for sensitive groups"
   ],
   "current": {
-    "temp_f": 45,
-    "feels_like_f": 37,
-    "wind_mph": 5,
-    "gusts_mph": 16,
+    "temp_f": 48,
+    "feels_like_f": 39,
+    "wind_mph": 6,
+    "gusts_mph": 12,
     "rain_pct": 0
   },
   "aqi": {
@@ -41,6 +41,62 @@
     "fire_count_50km": 0
   },
   "river": null,
-  "forecast": [],
-  "updated_at": "2026-04-09T09:54:21.375373+00:00"
+  "forecast": [
+    {
+      "date": "2026-04-09",
+      "high_f": 68,
+      "low_f": 42,
+      "rain_pct": 1,
+      "uv": 8,
+      "sunrise": "2026-04-09T06:02",
+      "sunset": "2026-04-09T18:56",
+      "predicted_score": 90,
+      "score_label": "Great day to go"
+    },
+    {
+      "date": "2026-04-10",
+      "high_f": 64,
+      "low_f": 40,
+      "rain_pct": 12,
+      "uv": 6,
+      "sunrise": "2026-04-10T06:01",
+      "sunset": "2026-04-10T18:57",
+      "predicted_score": 78,
+      "score_label": "Good conditions"
+    },
+    {
+      "date": "2026-04-11",
+      "high_f": 60,
+      "low_f": 43,
+      "rain_pct": 18,
+      "uv": 8,
+      "sunrise": "2026-04-11T06:00",
+      "sunset": "2026-04-11T18:58",
+      "predicted_score": 78,
+      "score_label": "Good conditions"
+    },
+    {
+      "date": "2026-04-12",
+      "high_f": 56,
+      "low_f": 40,
+      "rain_pct": 32,
+      "uv": 8,
+      "sunrise": "2026-04-12T05:58",
+      "sunset": "2026-04-12T18:59",
+      "predicted_score": 60,
+      "score_label": "Use caution"
+    },
+    {
+      "date": "2026-04-13",
+      "high_f": 48,
+      "low_f": 31,
+      "rain_pct": 50,
+      "uv": 7,
+      "sunrise": "2026-04-13T05:57",
+      "sunset": "2026-04-13T19:00",
+      "predicted_score": 60,
+      "score_label": "Use caution"
+    }
+  ],
+  "updated_at": "2026-04-09T10:28:24.954468+00:00"
 }
