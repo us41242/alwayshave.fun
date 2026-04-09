@@ -20,7 +20,6 @@
   "score": 52,
   "score_label": "Use caution",
   "gear_flags": [
-    "wind layer recommended",
     "insulation layer required"
   ],
   "current": {
@@ -31,7 +30,7 @@
     "rain_pct": 0
   },
   "aqi": {
-    "aqi": 15,
+    "aqi": 14,
     "category": "Good",
     "pollutant": "PM10",
     "source": "airnow"
@@ -99,5 +98,5 @@
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-04-09T11:01:12.815428+00:00"
+  "updated_at": "2026-04-09T11:21:12.601742+00:00"
 }
