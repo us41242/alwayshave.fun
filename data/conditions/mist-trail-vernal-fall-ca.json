@@ -21,10 +21,10 @@
   "score_label": "Great day to go",
   "gear_flags": [],
   "current": {
-    "temp_f": 60,
-    "feels_like_f": 57,
-    "wind_mph": 4,
-    "gusts_mph": 7,
+    "temp_f": 61,
+    "feels_like_f": 60,
+    "wind_mph": 5,
+    "gusts_mph": 9,
     "rain_pct": 1
   },
   "aqi": {
@@ -44,7 +44,7 @@
       "date": "2026-04-09",
       "high_f": 64,
       "low_f": 48,
-      "rain_pct": 20,
+      "rain_pct": 26,
       "uv": 6,
       "sunrise": "2026-04-09T06:31",
       "sunset": "2026-04-09T19:28",
@@ -96,5 +96,5 @@
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-04-09T17:29:39.416113+00:00"
+  "updated_at": "2026-04-09T17:47:51.854879+00:00"
 }
