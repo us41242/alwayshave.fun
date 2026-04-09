@@ -17,20 +17,20 @@
   "notes": "Heat advisory Jun\u2013Sep; carry extra water",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 86,
-  "score_label": "Great day to go",
+  "score": 74,
+  "score_label": "Good conditions",
   "gear_flags": [
     "N95 mask recommended for wildfire smoke"
   ],
   "current": {
-    "temp_f": 74,
-    "feels_like_f": 70,
-    "wind_mph": 1,
-    "gusts_mph": 11,
+    "temp_f": 77,
+    "feels_like_f": 74,
+    "wind_mph": 3,
+    "gusts_mph": 10,
     "rain_pct": 0
   },
   "aqi": {
-    "aqi": 43,
+    "aqi": 41,
     "category": "Good",
     "pollutant": "PM2.5",
     "source": "open-meteo"
@@ -46,7 +46,7 @@
       "date": "2026-04-09",
       "high_f": 89,
       "low_f": 62,
-      "rain_pct": 1,
+      "rain_pct": 0,
       "uv": 7,
       "sunrise": "2026-04-09T06:12",
       "sunset": "2026-04-09T19:07",
@@ -98,5 +98,5 @@
       "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-04-09T16:42:49.891744+00:00"
+  "updated_at": "2026-04-09T17:01:27.784349+00:00"
 }
