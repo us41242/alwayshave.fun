@@ -17,21 +17,22 @@
   "notes": "Check Virgin River flow \u2014 USGS gauge 09380000",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 74,
-  "score_label": "Good conditions",
+  "score": 64,
+  "score_label": "Use caution",
   "gear_flags": [
+    "mask for sensitive groups",
     "N95 mask recommended for wildfire smoke"
   ],
   "current": {
-    "temp_f": 75,
+    "temp_f": 76,
     "feels_like_f": 70,
-    "wind_mph": 9,
-    "gusts_mph": 17,
+    "wind_mph": 8,
+    "gusts_mph": 18,
     "rain_pct": 0
   },
   "aqi": {
-    "aqi": 50,
-    "category": "Good",
+    "aqi": 54,
+    "category": "Moderate",
     "pollutant": "O3",
     "source": "airnow"
   },
@@ -41,7 +42,7 @@
     "fire_count_50km": 2
   },
   "river": {
-    "cfs": 8140,
+    "cfs": 8210,
     "stage": "flood"
   },
   "forecast": [
@@ -53,8 +54,8 @@
       "uv": 7,
       "sunrise": "2026-04-09T07:04",
       "sunset": "2026-04-09T20:01",
-      "predicted_score": 74,
-      "score_label": "Good conditions"
+      "predicted_score": 64,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-04-10",
@@ -64,8 +65,8 @@
       "uv": 7,
       "sunrise": "2026-04-10T07:03",
       "sunset": "2026-04-10T20:02",
-      "predicted_score": 86,
-      "score_label": "Great day to go"
+      "predicted_score": 76,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-04-11",
@@ -75,8 +76,8 @@
       "uv": 8,
       "sunrise": "2026-04-11T07:02",
       "sunset": "2026-04-11T20:03",
-      "predicted_score": 74,
-      "score_label": "Good conditions"
+      "predicted_score": 64,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-04-12",
@@ -86,7 +87,7 @@
       "uv": 7,
       "sunrise": "2026-04-12T07:00",
       "sunset": "2026-04-12T20:04",
-      "predicted_score": 46,
+      "predicted_score": 36,
       "score_label": "Conditions poor"
     },
     {
@@ -97,9 +98,9 @@
       "uv": 6,
       "sunrise": "2026-04-13T06:59",
       "sunset": "2026-04-13T20:04",
-      "predicted_score": 46,
+      "predicted_score": 36,
       "score_label": "Conditions poor"
     }
   ],
-  "updated_at": "2026-04-09T21:01:27.970731+00:00"
+  "updated_at": "2026-04-09T21:21:41.221708+00:00"
 }
