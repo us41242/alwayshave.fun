@@ -17,8 +17,8 @@
   "notes": "Sandstone scrambling \u2014 watch for rattlesnakes spring",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 88,
-  "score_label": "Great day to go",
+  "score": 60,
+  "score_label": "Use caution",
   "gear_flags": [],
   "current": {
     "temp_f": 82,
@@ -39,62 +39,6 @@
     "fire_count_50km": 0
   },
   "river": null,
-  "forecast": [
-    {
-      "date": "2026-04-09",
-      "high_f": 84,
-      "low_f": 55,
-      "rain_pct": 1,
-      "uv": 6,
-      "sunrise": "2026-04-09T07:07",
-      "sunset": "2026-04-09T20:04",
-      "predicted_score": 88,
-      "score_label": "Great day to go"
-    },
-    {
-      "date": "2026-04-10",
-      "high_f": 79,
-      "low_f": 60,
-      "rain_pct": 5,
-      "uv": 7,
-      "sunrise": "2026-04-10T07:06",
-      "sunset": "2026-04-10T20:05",
-      "predicted_score": 88,
-      "score_label": "Great day to go"
-    },
-    {
-      "date": "2026-04-11",
-      "high_f": 71,
-      "low_f": 52,
-      "rain_pct": 11,
-      "uv": 7,
-      "sunrise": "2026-04-11T07:05",
-      "sunset": "2026-04-11T20:05",
-      "predicted_score": 88,
-      "score_label": "Great day to go"
-    },
-    {
-      "date": "2026-04-12",
-      "high_f": 65,
-      "low_f": 51,
-      "rain_pct": 60,
-      "uv": 6,
-      "sunrise": "2026-04-12T07:03",
-      "sunset": "2026-04-12T20:06",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
-    },
-    {
-      "date": "2026-04-13",
-      "high_f": 61,
-      "low_f": 47,
-      "rain_pct": 60,
-      "uv": 7,
-      "sunrise": "2026-04-13T07:02",
-      "sunset": "2026-04-13T20:07",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
-    }
-  ],
-  "updated_at": "2026-04-09T20:27:14.984684+00:00"
+  "forecast": [],
+  "updated_at": "2026-04-09T20:48:20.660349+00:00"
 }
