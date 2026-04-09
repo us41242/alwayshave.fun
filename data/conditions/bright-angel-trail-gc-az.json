@@ -38,7 +38,7 @@
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": 247.9,
+    "nearest_fire_km": 156.7,
     "fire_count_50km": 0
   },
   "river": {
@@ -60,7 +60,7 @@
     {
       "date": "2026-04-10",
       "high_f": 66,
-      "low_f": 47,
+      "low_f": 46,
       "rain_pct": 5,
       "uv": 7,
       "sunrise": "2026-04-10T06:01",
@@ -71,7 +71,7 @@
     {
       "date": "2026-04-11",
       "high_f": 62,
-      "low_f": 43,
+      "low_f": 41,
       "rain_pct": 16,
       "uv": 8,
       "sunrise": "2026-04-11T06:00",
@@ -102,5 +102,5 @@
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-04-09T20:02:39.873629+00:00"
+  "updated_at": "2026-04-09T20:23:38.922918+00:00"
 }
