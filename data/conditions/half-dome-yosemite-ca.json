@@ -28,10 +28,10 @@
     "rain_pct": 1
   },
   "aqi": {
-    "aqi": 28,
+    "aqi": 32,
     "category": "Good",
-    "pollutant": "PM2.5",
-    "source": "open-meteo"
+    "pollutant": "O3",
+    "source": "airnow"
   },
   "fire": {
     "risk_level": "moderate",
@@ -40,5 +40,5 @@
   },
   "river": null,
   "forecast": [],
-  "updated_at": "2026-04-09T18:30:28.036757+00:00"
+  "updated_at": "2026-04-09T18:49:58.244519+00:00"
 }

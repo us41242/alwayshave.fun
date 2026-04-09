@@ -24,9 +24,9 @@
   ],
   "current": {
     "temp_f": 42,
-    "feels_like_f": 36,
-    "wind_mph": 10,
-    "gusts_mph": 12,
+    "feels_like_f": 35,
+    "wind_mph": 12,
+    "gusts_mph": 14,
     "rain_pct": 0
   },
   "aqi": {
@@ -44,7 +44,7 @@
   "forecast": [
     {
       "date": "2026-04-09",
-      "high_f": 45,
+      "high_f": 46,
       "low_f": 28,
       "rain_pct": 3,
       "uv": 7,
@@ -98,5 +98,5 @@
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-04-09T18:29:09.876251+00:00"
+  "updated_at": "2026-04-09T18:47:10.253117+00:00"
 }
