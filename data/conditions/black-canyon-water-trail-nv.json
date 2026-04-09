@@ -17,8 +17,8 @@
   "notes": "Kayak/canoe only \u2014 check river release schedule",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 36,
-  "score_label": "Conditions poor",
+  "score": 76,
+  "score_label": "Good conditions",
   "gear_flags": [
     "mask for sensitive groups",
     "N95 mask recommended for wildfire smoke"
@@ -26,8 +26,8 @@
   "current": {
     "temp_f": 74,
     "feels_like_f": 66,
-    "wind_mph": 8,
-    "gusts_mph": 10,
+    "wind_mph": 7,
+    "gusts_mph": 9,
     "rain_pct": 0
   },
   "aqi": {
@@ -42,6 +42,62 @@
     "fire_count_50km": 2
   },
   "river": null,
-  "forecast": [],
-  "updated_at": "2026-04-09T10:46:28.410009+00:00"
+  "forecast": [
+    {
+      "date": "2026-04-09",
+      "high_f": 94,
+      "low_f": 70,
+      "rain_pct": 1,
+      "uv": 7,
+      "sunrise": "2026-04-09T06:13",
+      "sunset": "2026-04-09T19:07",
+      "predicted_score": 46,
+      "score_label": "Conditions poor"
+    },
+    {
+      "date": "2026-04-10",
+      "high_f": 90,
+      "low_f": 70,
+      "rain_pct": 6,
+      "uv": 7,
+      "sunrise": "2026-04-10T06:11",
+      "sunset": "2026-04-10T19:08",
+      "predicted_score": 46,
+      "score_label": "Conditions poor"
+    },
+    {
+      "date": "2026-04-11",
+      "high_f": 82,
+      "low_f": 60,
+      "rain_pct": 5,
+      "uv": 7,
+      "sunrise": "2026-04-11T06:10",
+      "sunset": "2026-04-11T19:09",
+      "predicted_score": 64,
+      "score_label": "Use caution"
+    },
+    {
+      "date": "2026-04-12",
+      "high_f": 75,
+      "low_f": 57,
+      "rain_pct": 32,
+      "uv": 7,
+      "sunrise": "2026-04-12T06:09",
+      "sunset": "2026-04-12T19:09",
+      "predicted_score": 46,
+      "score_label": "Conditions poor"
+    },
+    {
+      "date": "2026-04-13",
+      "high_f": 69,
+      "low_f": 53,
+      "rain_pct": 9,
+      "uv": 7,
+      "sunrise": "2026-04-13T06:07",
+      "sunset": "2026-04-13T19:10",
+      "predicted_score": 76,
+      "score_label": "Good conditions"
+    }
+  ],
+  "updated_at": "2026-04-09T11:05:56.566363+00:00"
 }

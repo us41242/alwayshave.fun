@@ -30,7 +30,7 @@
     "rain_pct": 0
   },
   "aqi": {
-    "aqi": 35,
+    "aqi": 33,
     "category": "Good",
     "pollutant": "PM2.5",
     "source": "open-meteo"
@@ -46,7 +46,7 @@
       "date": "2026-04-09",
       "high_f": 48,
       "low_f": 34,
-      "rain_pct": 21,
+      "rain_pct": 23,
       "uv": 6,
       "sunrise": "2026-04-09T06:30",
       "sunset": "2026-04-09T19:28",
@@ -98,5 +98,5 @@
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-04-09T10:48:55.654986+00:00"
+  "updated_at": "2026-04-09T11:08:56.323172+00:00"
 }
