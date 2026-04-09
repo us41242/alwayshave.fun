@@ -20,18 +20,17 @@
   "score": 60,
   "score_label": "Use caution",
   "gear_flags": [
-    "wind layer recommended",
     "insulation layer required"
   ],
   "current": {
-    "temp_f": 31,
-    "feels_like_f": 19,
+    "temp_f": 30,
+    "feels_like_f": 18,
     "wind_mph": 13,
-    "gusts_mph": 20,
+    "gusts_mph": 19,
     "rain_pct": 0
   },
   "aqi": {
-    "aqi": 20,
+    "aqi": 15,
     "category": "Good",
     "pollutant": "PM10",
     "source": "airnow"
@@ -43,17 +42,6 @@
   },
   "river": null,
   "forecast": [
-    {
-      "date": "2026-04-08",
-      "high_f": 44,
-      "low_f": 29,
-      "rain_pct": 0,
-      "uv": 8,
-      "sunrise": "2026-04-08T06:18",
-      "sunset": "2026-04-08T19:10",
-      "predicted_score": 88,
-      "score_label": "Great day to go"
-    },
     {
       "date": "2026-04-09",
       "high_f": 41,
@@ -97,7 +85,18 @@
       "sunset": "2026-04-12T19:14",
       "predicted_score": 60,
       "score_label": "Use caution"
+    },
+    {
+      "date": "2026-04-13",
+      "high_f": 18,
+      "low_f": 10,
+      "rain_pct": 41,
+      "uv": 6,
+      "sunrise": "2026-04-13T06:11",
+      "sunset": "2026-04-13T19:14",
+      "predicted_score": 60,
+      "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-04-09T06:57:14.952411+00:00"
+  "updated_at": "2026-04-09T08:23:45.188030+00:00"
 }

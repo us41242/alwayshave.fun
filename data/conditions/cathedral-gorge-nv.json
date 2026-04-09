@@ -21,8 +21,8 @@
   "score_label": "Good conditions",
   "gear_flags": [],
   "current": {
-    "temp_f": 58,
-    "feels_like_f": 50,
+    "temp_f": 57,
+    "feels_like_f": 48,
     "wind_mph": 5,
     "gusts_mph": 5,
     "rain_pct": 0
@@ -41,20 +41,9 @@
   "river": null,
   "forecast": [
     {
-      "date": "2026-04-08",
-      "high_f": 78,
-      "low_f": 44,
-      "rain_pct": 0,
-      "uv": 8,
-      "sunrise": "2026-04-08T06:11",
-      "sunset": "2026-04-08T19:06",
-      "predicted_score": 58,
-      "score_label": "Use caution"
-    },
-    {
       "date": "2026-04-09",
       "high_f": 75,
-      "low_f": 52,
+      "low_f": 51,
       "rain_pct": 0,
       "uv": 6,
       "sunrise": "2026-04-09T06:10",
@@ -64,7 +53,7 @@
     },
     {
       "date": "2026-04-10",
-      "high_f": 70,
+      "high_f": 69,
       "low_f": 49,
       "rain_pct": 11,
       "uv": 8,
@@ -94,7 +83,18 @@
       "sunset": "2026-04-12T19:10",
       "predicted_score": 40,
       "score_label": "Conditions poor"
+    },
+    {
+      "date": "2026-04-13",
+      "high_f": 43,
+      "low_f": 35,
+      "rain_pct": 34,
+      "uv": 6,
+      "sunrise": "2026-04-13T06:04",
+      "sunset": "2026-04-13T19:11",
+      "predicted_score": 40,
+      "score_label": "Conditions poor"
     }
   ],
-  "updated_at": "2026-04-09T06:58:47.810596+00:00"
+  "updated_at": "2026-04-09T08:25:44.473199+00:00"
 }

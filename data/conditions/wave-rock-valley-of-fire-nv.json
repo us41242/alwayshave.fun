@@ -17,8 +17,8 @@
   "notes": "Heat advisory Jun\u2013Sep; carry extra water",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 90,
-  "score_label": "Great day to go",
+  "score": 50,
+  "score_label": "Use caution",
   "gear_flags": [
     "mask for sensitive groups"
   ],
@@ -30,7 +30,7 @@
     "rain_pct": 0
   },
   "aqi": {
-    "aqi": 88,
+    "aqi": 77,
     "category": "Moderate",
     "pollutant": "PM2.5",
     "source": "open-meteo"
@@ -41,62 +41,6 @@
     "fire_count_50km": 0
   },
   "river": null,
-  "forecast": [
-    {
-      "date": "2026-04-08",
-      "high_f": 90,
-      "low_f": 63,
-      "rain_pct": 0,
-      "uv": 8,
-      "sunrise": "2026-04-08T06:13",
-      "sunset": "2026-04-08T19:06",
-      "predicted_score": 60,
-      "score_label": "Use caution"
-    },
-    {
-      "date": "2026-04-09",
-      "high_f": 89,
-      "low_f": 64,
-      "rain_pct": 0,
-      "uv": 7,
-      "sunrise": "2026-04-09T06:12",
-      "sunset": "2026-04-09T19:07",
-      "predicted_score": 60,
-      "score_label": "Use caution"
-    },
-    {
-      "date": "2026-04-10",
-      "high_f": 84,
-      "low_f": 67,
-      "rain_pct": 8,
-      "uv": 7,
-      "sunrise": "2026-04-10T06:10",
-      "sunset": "2026-04-10T19:07",
-      "predicted_score": 78,
-      "score_label": "Good conditions"
-    },
-    {
-      "date": "2026-04-11",
-      "high_f": 78,
-      "low_f": 58,
-      "rain_pct": 14,
-      "uv": 7,
-      "sunrise": "2026-04-11T06:09",
-      "sunset": "2026-04-11T19:08",
-      "predicted_score": 78,
-      "score_label": "Good conditions"
-    },
-    {
-      "date": "2026-04-12",
-      "high_f": 72,
-      "low_f": 56,
-      "rain_pct": 30,
-      "uv": 6,
-      "sunrise": "2026-04-12T06:08",
-      "sunset": "2026-04-12T19:09",
-      "predicted_score": 78,
-      "score_label": "Good conditions"
-    }
-  ],
-  "updated_at": "2026-04-09T06:57:16.107549+00:00"
+  "forecast": [],
+  "updated_at": "2026-04-09T08:24:46.740524+00:00"
 }
