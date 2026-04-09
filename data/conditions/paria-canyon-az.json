@@ -17,14 +17,14 @@
   "notes": "Multi-day \u2014 permit required; flash flood danger",
   "dog_friendly": "Yes",
   "vehicle_req": "High-Clearance",
-  "score": 88,
+  "score": 100,
   "score_label": "Great day to go",
   "gear_flags": [],
   "current": {
-    "temp_f": 49,
-    "feels_like_f": 42,
-    "wind_mph": 3,
-    "gusts_mph": 7,
+    "temp_f": 54,
+    "feels_like_f": 47,
+    "wind_mph": 2,
+    "gusts_mph": 5,
     "rain_pct": 0
   },
   "aqi": {
@@ -43,7 +43,7 @@
     {
       "date": "2026-04-09",
       "high_f": 80,
-      "low_f": 45,
+      "low_f": 46,
       "rain_pct": 1,
       "uv": 7,
       "sunrise": "2026-04-09T07:01",
@@ -96,5 +96,5 @@
       "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-04-09T14:25:46.367931+00:00"
+  "updated_at": "2026-04-09T14:48:17.388135+00:00"
 }
