@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hero Image Picker — alwayshave.fun</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { background: #0c1117; color: #fff; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; }
+
+  .hero {
+    position: relative;
+    height: 72vh;
+    min-height: 500px;
+    max-height: 760px;
+    background: linear-gradient(160deg, #1a2a1a, #0c1117);
+    background-size: cover;
+    background-position: center 40%;
+    display: flex;
+    align-items: flex-end;
+    transition: background-image 0.4s ease;
+  }
+  .hero-overlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to top,
+      rgba(12,17,23,1) 0%,
+      rgba(12,17,23,0.8) 15%,
+      rgba(12,17,23,0.3) 35%,
+      rgba(12,17,23,0) 55%
+    );
+  }
+  .hero-content {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    max-width: 920px;
+    margin: 0 auto;
+    padding: 0 24px 48px;
+  }
+  .hero-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    background: rgba(34,197,94,0.15);
+    color: #22c55e;
+    border: 1px solid rgba(34,197,94,0.3);
+    border-radius: 999px;
+    padding: 6px 14px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    margin-bottom: 18px;
+  }
+  .hero h1 {
+    font-size: clamp(2.2rem, 6vw, 3.8rem);
+    font-weight: 900;
+    letter-spacing: -0.04em;
+    line-height: 1.05;
+    color: #fff;
+    text-shadow: 0 2px 20px rgba(0,0,0,0.3);
+    margin-bottom: 14px;
+  }
+  .hero h1 span { color: #22c55e; }
+  .hero-sub {
+    font-size: clamp(0.9rem, 2vw, 1.05rem);
+    color: rgba(255,255,255,0.7);
+    max-width: 480px;
+    line-height: 1.6;
+    margin-bottom: 32px;
+  }
+  .hero-stats { display: flex; gap: 10px; flex-wrap: wrap; }
+  .hero-stat-pill {
+    background: rgba(255,255,255,0.1);
+    backdrop-filter: blur(8px);
+    border: 1px solid rgba(255,255,255,0.15);
+    border-radius: 8px;
+    padding: 8px 16px;
+    font-size: 0.82rem;
+    color: rgba(255,255,255,0.85);
+    font-weight: 500;
+  }
+  .hero-stat-pill strong { color: #22c55e; font-weight: 800; }
+
+  /* Navigation arrows */
+  .nav-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 10;
+    background: rgba(0,0,0,0.6);
+    border: 2px solid rgba(255,255,255,0.3);
+    color: #fff;
+    font-size: 2rem;
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background 0.2s, border-color 0.2s;
+    user-select: none;
+  }
+  .nav-arrow:hover { background: rgba(0,0,0,0.85); border-color: #22c55e; }
+  .nav-arrow.left { left: 24px; }
+  .nav-arrow.right { right: 24px; }
+
+  /* Info bar */
+  .info-bar {
+    max-width: 920px;
+    margin: 24px auto;
+    padding: 0 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+  .image-label {
+    font-size: 1.1rem;
+    font-weight: 600;
+  }
+  .image-label .index { color: #22c55e; }
+  .image-path {
+    font-size: 0.85rem;
+    color: rgba(255,255,255,0.5);
+    font-family: monospace;
+  }
+  .instructions {
+    max-width: 920px;
+    margin: 16px auto;
+    padding: 0 24px;
+    font-size: 0.85rem;
+    color: rgba(255,255,255,0.4);
+  }
+</style>
+</head>
+<body>
+
+<div class="hero" id="hero">
+  <div class="nav-arrow left" onclick="prev()">&larr;</div>
+  <div class="nav-arrow right" onclick="next()">&rarr;</div>
+  <div class="hero-overlay"></div>
+  <div class="hero-content">
+    <div class="hero-badge">&#9968; Live Conditions</div>
+    <h1>Always have <span>fun</span> outdoors.</h1>
+    <p class="hero-sub">Real-time weather, air quality, and trail scores for hikers, campers, and overlanders. Updated every 20 minutes.</p>
+    <div class="hero-stats">
+      <div class="hero-stat-pill"><strong>40</strong> trails tracked</div>
+      <div class="hero-stat-pill"><strong>6</strong> states</div>
+      <div class="hero-stat-pill"><strong>12</strong> great today</div>
+    </div>
+  </div>
+</div>
+
+<div class="info-bar">
+  <div class="image-label"><span class="index" id="counter">1 / ?</span> &mdash; <span id="name">Loading...</span></div>
+  <div class="image-path" id="path"></div>
+</div>
+<div class="instructions">Use left/right arrow keys or click the arrows to browse. Pick your favorite and let me know the number or name.</div>
+
+<script>
+const images = [
+  { name: "Cathedral Rock, Sedona (current)", path: "photos/LANDINGcathedral-rock-sedona-az.webp" },
+  { name: "Angels Landing, Zion", path: "photos/angels-landing-zion-ut/angels-landing-zion-ut.webp" },
+  { name: "Angels Landing Rain, Zion", path: "photos/angels-landing-zion-ut/angles-landing-zion-ut-rain.webp" },
+  { name: "Black Canyon Water Trail", path: "photos/black-canyon-water-trail-nv/black-canyon-water-trail-nv.webp" },
+  { name: "Bright Angel Trail, Grand Canyon", path: "photos/bright-angel-trail-gc-az/bright-angel-trail-gc-az.webp" },
+  { name: "Bryce Rim Trail", path: "photos/bryce-rim-trail-ut/bryce-rim-trail-ut.webp" },
+  { name: "Calico Hills, Red Rock", path: "photos/calico-hills-red-rock-nv/calico-hills-red-rock-nv.webp" },
+  { name: "Cathedral Gorge", path: "photos/cathedral-gorge-nv/cathedral-gorge-nv.webp" },
+  { name: "Charleston Peak", path: "photos/charleston-peak-nv/charleston-peak-nv.webp" },
+  { name: "Crystal Cove, El Moro", path: "photos/crystal-cove-el-moro-ca/crystal-cove-el-moro-ca.webp" },
+  { name: "Emerald Lake, RMNP", path: "photos/emerald-lake-rmnp-co/emerald-lake-rmnp-co.webp" },
+  { name: "Garden of the Gods", path: "photos/garden-of-the-gods-co/garden-of-the-gods-co.webp" },
+  { name: "Half Dome, Yosemite", path: "photos/half-dome-yosemite-ca/half-dome-yosemite-ca.webp" },
+  { name: "Hanging Lake", path: "photos/hanging-lake-co/hanging-lake-co.webp" },
+  { name: "Havasu Falls", path: "photos/havasu-falls-az/havasu-falls-az.webp" },
+  { name: "Hermit Trail, Grand Canyon", path: "photos/hermit-trail-gc-az/hermit-trail-gc-az.webp" },
+  { name: "Hoover Dam Trail", path: "photos/hoover-dam-trail-nv/hoover-dam-trail-nv.webp" },
+  { name: "Ice Lake Basin", path: "photos/ice-lake-basin-co/ice-lake-basin-co.webp" },
+  { name: "Kanab Creek Wilderness", path: "photos/kanab-creek-wilderness-az/kanab-creek-wilderness-az.webp" },
+  { name: "Kanarra Creek", path: "photos/kanarra-creek-ut/kanarra-creek-ut.webp" },
+  { name: "Marlette Lake", path: "photos/marlette-lake-ca/marlette-lake-ca.webp" },
+  { name: "Maroon Bells, Crater Lake", path: "photos/maroon-bells-crater-lake-co/maroon-bells-crater-lake-co.webp" },
+  { name: "Mary Jane Falls", path: "photos/mary-jane-falls-nv/mary-jane-falls-nv.webp" },
+  { name: "Mist Trail, Vernal Fall", path: "photos/mist-trail-vernal-fall-ca/mist-trail-vernal-fall-ca.webp" },
+  { name: "Mount Moriah", path: "photos/mount-moriah-nv/mount-moriah-nv.webp" },
+  { name: "Mount Whitney", path: "photos/mount-whitney-ca/mount-whitney-ca.webp" },
+  { name: "The Narrows, Zion (Top-Down)", path: "photos/narrows-top-down-zion-ut/narrows-top-down-zion-ut.webp" },
+  { name: "Nelson Ghost Town", path: "photos/nelson-ghost-town-nv/nelson-ghost-town-nv.webp" },
+  { name: "Paria Canyon", path: "photos/paria-canyon-az/paria-canyon-az.webp" },
+  { name: "Peek-a-Boo Loop, Bryce", path: "photos/peek-a-boo-loop-bryce-ut/peek-a-boo-loop-bryce-ut.webp" },
+  { name: "Petroglyph Canyon, Gold Butte", path: "photos/petroglyph-canyon-gold-butte-nv/petroglyph-canyon-gold-butte-nv.webp" },
+  { name: "Pine Valley Mountain", path: "photos/pine-valley-mountain-ut/pine-valley-mountain-ut.webp" },
+  { name: "Rhyolite Ghost Town", path: "photos/rhyolite-ghost-town-nv/rhyolite-ghost-town-nv.webp" },
+  { name: "River Mountains Loop", path: "photos/river-mountains-loop-nv/river-mountains-loop-nv.webp" },
+  { name: "Snow Canyon Rim", path: "photos/snow-canyon-rim-ut/snow-canyon-rim-ut.webp" },
+  { name: "South Kaibab, Grand Canyon", path: "photos/south-kaibab-gc-az/south-kaibab-gc-az.webp" },
+  { name: "The Narrows, Zion", path: "photos/the-narrows-zion-ut/the-narrows-zion-ut.webp" },
+  { name: "Toroweap Overlook", path: "photos/toroweap-overlook-az/toroweap-overlook-az.webp" },
+  { name: "Wave Rock, Valley of Fire", path: "photos/wave-rock-valley-of-fire-nv/wave-rock-valley-of-fire-nv.webp" },
+  { name: "West Fork Oak Creek", path: "photos/west-fork-oak-creek-az/west-fork-oak-creek-az.webp" },
+  { name: "Wheeler Peak, Great Basin", path: "photos/wheeler-peak-great-basin-nv/wheeler-peak-great-basin-nv.webp" },
+  { name: "Wire Pass / Buckskin Gulch", path: "photos/wire-pass-buckskin-az/wire-pass-buckskin-az.webp" },
+];
+
+let current = 0;
+const hero = document.getElementById('hero');
+const counter = document.getElementById('counter');
+const nameEl = document.getElementById('name');
+const pathEl = document.getElementById('path');
+
+function show(i) {
+  current = ((i % images.length) + images.length) % images.length;
+  const img = images[current];
+  hero.style.backgroundImage = `url('${img.path}')`;
+  counter.textContent = `${current + 1} / ${images.length}`;
+  nameEl.textContent = img.name;
+  pathEl.textContent = img.path;
+}
+
+function next() { show(current + 1); }
+function prev() { show(current - 1); }
+
+document.addEventListener('keydown', (e) => {
+  if (e.key === 'ArrowRight') next();
+  if (e.key === 'ArrowLeft') prev();
+});
+
+show(0);
+</script>
+</body>
+</html>
