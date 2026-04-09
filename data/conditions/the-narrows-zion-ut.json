@@ -20,15 +20,16 @@
   "score": 64,
   "score_label": "Use caution",
   "gear_flags": [
+    "wind layer recommended",
     "mask for sensitive groups",
     "N95 mask recommended for wildfire smoke"
   ],
   "current": {
     "temp_f": 75,
     "feels_like_f": 64,
-    "wind_mph": 16,
-    "gusts_mph": 20,
-    "rain_pct": 1
+    "wind_mph": 17,
+    "gusts_mph": 22,
+    "rain_pct": 0
   },
   "aqi": {
     "aqi": 64,
@@ -60,8 +61,8 @@
     {
       "date": "2026-04-10",
       "high_f": 73,
-      "low_f": 51,
-      "rain_pct": 8,
+      "low_f": 52,
+      "rain_pct": 9,
       "uv": 7,
       "sunrise": "2026-04-10T07:03",
       "sunset": "2026-04-10T20:02",
@@ -102,5 +103,5 @@
       "score_label": "Conditions poor"
     }
   ],
-  "updated_at": "2026-04-09T22:41:29.410693+00:00"
+  "updated_at": "2026-04-09T23:01:29.734834+00:00"
 }

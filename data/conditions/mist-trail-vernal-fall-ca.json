@@ -17,8 +17,8 @@
   "notes": "Extremely slippery when wet \u2014 wet season trail",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 80,
-  "score_label": "Good conditions",
+  "score": 52,
+  "score_label": "Use caution",
   "gear_flags": [],
   "current": {
     "temp_f": 62,
@@ -39,62 +39,6 @@
     "fire_count_50km": 0
   },
   "river": null,
-  "forecast": [
-    {
-      "date": "2026-04-09",
-      "high_f": 63,
-      "low_f": 48,
-      "rain_pct": 25,
-      "uv": 6,
-      "sunrise": "2026-04-09T06:31",
-      "sunset": "2026-04-09T19:28",
-      "predicted_score": 80,
-      "score_label": "Good conditions"
-    },
-    {
-      "date": "2026-04-10",
-      "high_f": 61,
-      "low_f": 44,
-      "rain_pct": 60,
-      "uv": 7,
-      "sunrise": "2026-04-10T06:29",
-      "sunset": "2026-04-10T19:29",
-      "predicted_score": 62,
-      "score_label": "Use caution"
-    },
-    {
-      "date": "2026-04-11",
-      "high_f": 53,
-      "low_f": 40,
-      "rain_pct": 77,
-      "uv": 7,
-      "sunrise": "2026-04-11T06:28",
-      "sunset": "2026-04-11T19:30",
-      "predicted_score": 52,
-      "score_label": "Use caution"
-    },
-    {
-      "date": "2026-04-12",
-      "high_f": 39,
-      "low_f": 28,
-      "rain_pct": 94,
-      "uv": 4,
-      "sunrise": "2026-04-12T06:26",
-      "sunset": "2026-04-12T19:31",
-      "predicted_score": 52,
-      "score_label": "Use caution"
-    },
-    {
-      "date": "2026-04-13",
-      "high_f": 41,
-      "low_f": 26,
-      "rain_pct": 37,
-      "uv": 6,
-      "sunrise": "2026-04-13T06:25",
-      "sunset": "2026-04-13T19:32",
-      "predicted_score": 62,
-      "score_label": "Use caution"
-    }
-  ],
-  "updated_at": "2026-04-09T22:48:29.582547+00:00"
+  "forecast": [],
+  "updated_at": "2026-04-09T23:11:08.697199+00:00"
 }
