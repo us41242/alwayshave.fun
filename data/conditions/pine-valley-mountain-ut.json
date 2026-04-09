@@ -17,17 +17,16 @@
   "notes": "Multi-day backpack; no established campsites \u2014 LNT",
   "dog_friendly": "Yes",
   "vehicle_req": "AWD",
-  "score": 70,
+  "score": 82,
   "score_label": "Good conditions",
   "gear_flags": [
-    "wind layer recommended",
     "mask for sensitive groups"
   ],
   "current": {
-    "temp_f": 66,
+    "temp_f": 65,
     "feels_like_f": 54,
-    "wind_mph": 15,
-    "gusts_mph": 23,
+    "wind_mph": 13,
+    "gusts_mph": 19,
     "rain_pct": 0
   },
   "aqi": {
@@ -47,7 +46,7 @@
       "date": "2026-04-09",
       "high_f": 67,
       "low_f": 46,
-      "rain_pct": 1,
+      "rain_pct": 0,
       "uv": 7,
       "sunrise": "2026-04-09T07:07",
       "sunset": "2026-04-09T20:03",
@@ -58,8 +57,8 @@
       "date": "2026-04-10",
       "high_f": 63,
       "low_f": 44,
-      "rain_pct": 5,
-      "uv": 8,
+      "rain_pct": 7,
+      "uv": 7,
       "sunrise": "2026-04-10T07:05",
       "sunset": "2026-04-10T20:04",
       "predicted_score": 82,
@@ -67,7 +66,7 @@
     },
     {
       "date": "2026-04-11",
-      "high_f": 55,
+      "high_f": 56,
       "low_f": 42,
       "rain_pct": 16,
       "uv": 8,
@@ -78,8 +77,8 @@
     },
     {
       "date": "2026-04-12",
-      "high_f": 49,
-      "low_f": 38,
+      "high_f": 50,
+      "low_f": 36,
       "rain_pct": 74,
       "uv": 7,
       "sunrise": "2026-04-12T07:02",
@@ -90,14 +89,14 @@
     {
       "date": "2026-04-13",
       "high_f": 46,
-      "low_f": 34,
+      "low_f": 33,
       "rain_pct": 74,
-      "uv": 6,
+      "uv": 7,
       "sunrise": "2026-04-13T07:01",
       "sunset": "2026-04-13T20:07",
       "predicted_score": 42,
       "score_label": "Conditions poor"
     }
   ],
-  "updated_at": "2026-04-09T23:25:51.856035+00:00"
+  "updated_at": "2026-04-09T23:48:00.686650+00:00"
 }

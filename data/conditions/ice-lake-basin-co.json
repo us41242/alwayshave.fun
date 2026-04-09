@@ -17,17 +17,17 @@
   "notes": "High-alpine \u2014 thunderstorm risk after noon; start before 7am",
   "dog_friendly": "Yes",
   "vehicle_req": "High-Clearance",
-  "score": 70,
-  "score_label": "Good conditions",
+  "score": 60,
+  "score_label": "Use caution",
   "gear_flags": [
     "insulation layer required"
   ],
   "current": {
-    "temp_f": 36,
-    "feels_like_f": 26,
-    "wind_mph": 10,
-    "gusts_mph": 18,
-    "rain_pct": 1
+    "temp_f": 35,
+    "feels_like_f": 25,
+    "wind_mph": 9,
+    "gusts_mph": 17,
+    "rain_pct": 2
   },
   "aqi": {
     "aqi": 16,
@@ -67,9 +67,9 @@
     {
       "date": "2026-04-11",
       "high_f": 34,
-      "low_f": 22,
+      "low_f": 23,
       "rain_pct": 92,
-      "uv": 7,
+      "uv": 6,
       "sunrise": "2026-04-11T06:40",
       "sunset": "2026-04-11T19:43",
       "predicted_score": 60,
@@ -77,8 +77,8 @@
     },
     {
       "date": "2026-04-12",
-      "high_f": 36,
-      "low_f": 19,
+      "high_f": 35,
+      "low_f": 18,
       "rain_pct": 39,
       "uv": 8,
       "sunrise": "2026-04-12T06:39",
@@ -88,15 +88,15 @@
     },
     {
       "date": "2026-04-13",
-      "high_f": 30,
-      "low_f": 19,
+      "high_f": 29,
+      "low_f": 17,
       "rain_pct": 81,
-      "uv": 7,
+      "uv": 6,
       "sunrise": "2026-04-13T06:38",
       "sunset": "2026-04-13T19:44",
       "predicted_score": 60,
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-04-09T23:28:01.755697+00:00"
+  "updated_at": "2026-04-09T23:48:06.328982+00:00"
 }
