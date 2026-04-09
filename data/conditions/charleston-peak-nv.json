@@ -17,20 +17,20 @@
   "notes": "Snow above 9000ft until June \u2014 check SNOTEL",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 70,
-  "score_label": "Good conditions",
+  "score": 60,
+  "score_label": "Use caution",
   "gear_flags": [
     "insulation layer required"
   ],
   "current": {
-    "temp_f": 35,
-    "feels_like_f": 24,
-    "wind_mph": 11,
-    "gusts_mph": 17,
+    "temp_f": 33,
+    "feels_like_f": 21,
+    "wind_mph": 14,
+    "gusts_mph": 19,
     "rain_pct": 0
   },
   "aqi": {
-    "aqi": 30,
+    "aqi": 28,
     "category": "Good",
     "pollutant": "PM10",
     "source": "airnow"
@@ -68,7 +68,7 @@
       "date": "2026-04-10",
       "high_f": 35,
       "low_f": 23,
-      "rain_pct": 33,
+      "rain_pct": 36,
       "uv": 8,
       "sunrise": "2026-04-10T06:15",
       "sunset": "2026-04-10T19:12",
@@ -79,7 +79,7 @@
       "date": "2026-04-11",
       "high_f": 30,
       "low_f": 18,
-      "rain_pct": 32,
+      "rain_pct": 23,
       "uv": 8,
       "sunrise": "2026-04-11T06:14",
       "sunset": "2026-04-11T19:13",
@@ -90,7 +90,7 @@
       "date": "2026-04-12",
       "high_f": 20,
       "low_f": 11,
-      "rain_pct": 53,
+      "rain_pct": 64,
       "uv": 4,
       "sunrise": "2026-04-12T06:12",
       "sunset": "2026-04-12T19:14",
@@ -98,5 +98,5 @@
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-04-09T02:46:11.467420+00:00"
+  "updated_at": "2026-04-09T05:14:52.316932+00:00"
 }
