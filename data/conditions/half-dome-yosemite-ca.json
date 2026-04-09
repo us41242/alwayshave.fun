@@ -17,11 +17,9 @@
   "notes": "Cable permit required May\u2013Oct; lottery in spring \u2014 book early",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 80,
-  "score_label": "Good conditions",
-  "gear_flags": [
-    "insulation layer required"
-  ],
+  "score": 22,
+  "score_label": "Stay home",
+  "gear_flags": [],
   "current": {
     "temp_f": 44,
     "feels_like_f": 38,
@@ -30,10 +28,10 @@
     "rain_pct": 12
   },
   "aqi": {
-    "aqi": 34,
-    "category": "Good",
-    "pollutant": "O3",
-    "source": "airnow"
+    "aqi": null,
+    "category": "Unknown",
+    "pollutant": "",
+    "source": "none"
   },
   "fire": {
     "risk_level": "moderate",
@@ -41,62 +39,6 @@
     "fire_count_50km": 0
   },
   "river": null,
-  "forecast": [
-    {
-      "date": "2026-04-09",
-      "high_f": 46,
-      "low_f": 34,
-      "rain_pct": 24,
-      "uv": 6,
-      "sunrise": "2026-04-09T06:30",
-      "sunset": "2026-04-09T19:28",
-      "predicted_score": 80,
-      "score_label": "Good conditions"
-    },
-    {
-      "date": "2026-04-10",
-      "high_f": 43,
-      "low_f": 31,
-      "rain_pct": 60,
-      "uv": 8,
-      "sunrise": "2026-04-10T06:29",
-      "sunset": "2026-04-10T19:28",
-      "predicted_score": 62,
-      "score_label": "Use caution"
-    },
-    {
-      "date": "2026-04-11",
-      "high_f": 40,
-      "low_f": 28,
-      "rain_pct": 78,
-      "uv": 7,
-      "sunrise": "2026-04-11T06:27",
-      "sunset": "2026-04-11T19:29",
-      "predicted_score": 52,
-      "score_label": "Use caution"
-    },
-    {
-      "date": "2026-04-12",
-      "high_f": 27,
-      "low_f": 13,
-      "rain_pct": 94,
-      "uv": 5,
-      "sunrise": "2026-04-12T06:26",
-      "sunset": "2026-04-12T19:30",
-      "predicted_score": 52,
-      "score_label": "Use caution"
-    },
-    {
-      "date": "2026-04-13",
-      "high_f": 31,
-      "low_f": 11,
-      "rain_pct": 36,
-      "uv": 8,
-      "sunrise": "2026-04-13T06:25",
-      "sunset": "2026-04-13T19:31",
-      "predicted_score": 52,
-      "score_label": "Use caution"
-    }
-  ],
-  "updated_at": "2026-04-09T22:08:04.966769+00:00"
+  "forecast": [],
+  "updated_at": "2026-04-09T22:30:58.580883+00:00"
 }
