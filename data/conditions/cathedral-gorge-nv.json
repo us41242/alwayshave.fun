@@ -17,25 +17,25 @@
   "notes": "Slot canyon walls narrow \u2014 avoid during rain/flash flood risk",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 70,
-  "score_label": "Good conditions",
+  "score": 100,
+  "score_label": "Great day to go",
   "gear_flags": [],
   "current": {
-    "temp_f": 57,
-    "feels_like_f": 48,
-    "wind_mph": 5,
-    "gusts_mph": 5,
+    "temp_f": 54,
+    "feels_like_f": 46,
+    "wind_mph": 6,
+    "gusts_mph": 6,
     "rain_pct": 0
   },
   "aqi": {
-    "aqi": null,
-    "category": "Unknown",
-    "pollutant": "",
-    "source": "none"
+    "aqi": 49,
+    "category": "Good",
+    "pollutant": "PM2.5",
+    "source": "open-meteo"
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": null,
+    "nearest_fire_km": 167.7,
     "fire_count_50km": 0
   },
   "river": null,
@@ -48,8 +48,8 @@
       "uv": 6,
       "sunrise": "2026-04-09T06:10",
       "sunset": "2026-04-09T19:07",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
+      "predicted_score": 100,
+      "score_label": "Great day to go"
     },
     {
       "date": "2026-04-10",
@@ -59,42 +59,42 @@
       "uv": 8,
       "sunrise": "2026-04-10T06:08",
       "sunset": "2026-04-10T19:08",
-      "predicted_score": 58,
-      "score_label": "Use caution"
+      "predicted_score": 88,
+      "score_label": "Great day to go"
     },
     {
       "date": "2026-04-11",
       "high_f": 62,
       "low_f": 49,
-      "rain_pct": 23,
+      "rain_pct": 16,
       "uv": 8,
       "sunrise": "2026-04-11T06:07",
       "sunset": "2026-04-11T19:09",
-      "predicted_score": 58,
-      "score_label": "Use caution"
+      "predicted_score": 88,
+      "score_label": "Great day to go"
     },
     {
       "date": "2026-04-12",
       "high_f": 57,
       "low_f": 42,
-      "rain_pct": 52,
+      "rain_pct": 55,
       "uv": 6,
       "sunrise": "2026-04-12T06:06",
       "sunset": "2026-04-12T19:10",
-      "predicted_score": 40,
-      "score_label": "Conditions poor"
+      "predicted_score": 70,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-04-13",
       "high_f": 43,
       "low_f": 35,
-      "rain_pct": 34,
+      "rain_pct": 35,
       "uv": 6,
       "sunrise": "2026-04-13T06:04",
       "sunset": "2026-04-13T19:11",
-      "predicted_score": 40,
-      "score_label": "Conditions poor"
+      "predicted_score": 70,
+      "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-04-09T08:25:44.473199+00:00"
+  "updated_at": "2026-04-09T09:53:17.676313+00:00"
 }
