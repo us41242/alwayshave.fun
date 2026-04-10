@@ -20,7 +20,6 @@
   "score": 50,
   "score_label": "Use caution",
   "gear_flags": [
-    "wind layer recommended",
     "insulation layer required",
     "mask for sensitive groups"
   ],
@@ -28,7 +27,7 @@
     "temp_f": 24,
     "feels_like_f": 13,
     "wind_mph": 11,
-    "gusts_mph": 20,
+    "gusts_mph": 19,
     "rain_pct": 0
   },
   "aqi": {
@@ -44,17 +43,6 @@
   },
   "river": null,
   "forecast": [
-    {
-      "date": "2026-04-09",
-      "high_f": 39,
-      "low_f": 22,
-      "rain_pct": 2,
-      "uv": 7,
-      "sunrise": "2026-04-09T06:08",
-      "sunset": "2026-04-09T19:08",
-      "predicted_score": 60,
-      "score_label": "Use caution"
-    },
     {
       "date": "2026-04-10",
       "high_f": 34,
@@ -98,7 +86,18 @@
       "sunset": "2026-04-13T19:12",
       "predicted_score": 50,
       "score_label": "Use caution"
+    },
+    {
+      "date": "2026-04-14",
+      "high_f": 30,
+      "low_f": 13,
+      "rain_pct": 28,
+      "uv": 8,
+      "sunrise": "2026-04-14T06:01",
+      "sunset": "2026-04-14T19:13",
+      "predicted_score": 50,
+      "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-04-10T06:40:36.025354+00:00"
+  "updated_at": "2026-04-10T07:01:01.811293+00:00"
 }
