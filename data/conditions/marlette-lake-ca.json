@@ -17,15 +17,17 @@
   "notes": "No cars beyond Spooner Summit; bike-legal trail",
   "dog_friendly": "Yes",
   "vehicle_req": "AWD",
-  "score": 60,
-  "score_label": "Use caution",
-  "gear_flags": [],
+  "score": 88,
+  "score_label": "Great day to go",
+  "gear_flags": [
+    "insulation layer required"
+  ],
   "current": {
-    "temp_f": 46,
-    "feels_like_f": 40,
-    "wind_mph": 10,
-    "gusts_mph": 19,
-    "rain_pct": 9
+    "temp_f": 43,
+    "feels_like_f": 37,
+    "wind_mph": 6,
+    "gusts_mph": 16,
+    "rain_pct": 10
   },
   "aqi": {
     "aqi": 32,
@@ -39,6 +41,62 @@
     "fire_count_50km": 0
   },
   "river": null,
-  "forecast": [],
-  "updated_at": "2026-04-10T02:31:10.230298+00:00"
+  "forecast": [
+    {
+      "date": "2026-04-09",
+      "high_f": 54,
+      "low_f": 36,
+      "rain_pct": 24,
+      "uv": 6,
+      "sunrise": "2026-04-09T06:31",
+      "sunset": "2026-04-09T19:31",
+      "predicted_score": 88,
+      "score_label": "Great day to go"
+    },
+    {
+      "date": "2026-04-10",
+      "high_f": 46,
+      "low_f": 33,
+      "rain_pct": 27,
+      "uv": 7,
+      "sunrise": "2026-04-10T06:29",
+      "sunset": "2026-04-10T19:32",
+      "predicted_score": 88,
+      "score_label": "Great day to go"
+    },
+    {
+      "date": "2026-04-11",
+      "high_f": 41,
+      "low_f": 31,
+      "rain_pct": 76,
+      "uv": 7,
+      "sunrise": "2026-04-11T06:28",
+      "sunset": "2026-04-11T19:33",
+      "predicted_score": 60,
+      "score_label": "Use caution"
+    },
+    {
+      "date": "2026-04-12",
+      "high_f": 36,
+      "low_f": 26,
+      "rain_pct": 91,
+      "uv": 7,
+      "sunrise": "2026-04-12T06:26",
+      "sunset": "2026-04-12T19:34",
+      "predicted_score": 60,
+      "score_label": "Use caution"
+    },
+    {
+      "date": "2026-04-13",
+      "high_f": 41,
+      "low_f": 26,
+      "rain_pct": 27,
+      "uv": 7,
+      "sunrise": "2026-04-13T06:25",
+      "sunset": "2026-04-13T19:35",
+      "predicted_score": 88,
+      "score_label": "Great day to go"
+    }
+  ],
+  "updated_at": "2026-04-10T02:48:12.717489+00:00"
 }
