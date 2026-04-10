@@ -21,11 +21,11 @@
   "score_label": "Use caution",
   "gear_flags": [],
   "current": {
-    "temp_f": 56,
-    "feels_like_f": 52,
-    "wind_mph": 11,
-    "gusts_mph": 18,
-    "rain_pct": 37
+    "temp_f": 57,
+    "feels_like_f": 58,
+    "wind_mph": 3,
+    "gusts_mph": 15,
+    "rain_pct": 38
   },
   "aqi": {
     "aqi": 30,
@@ -54,8 +54,8 @@
     {
       "date": "2026-04-11",
       "high_f": 52,
-      "low_f": 38,
-      "rain_pct": 75,
+      "low_f": 40,
+      "rain_pct": 79,
       "uv": 8,
       "sunrise": "2026-04-11T06:28",
       "sunset": "2026-04-11T19:30",
@@ -65,7 +65,7 @@
     {
       "date": "2026-04-12",
       "high_f": 39,
-      "low_f": 27,
+      "low_f": 32,
       "rain_pct": 96,
       "uv": 3,
       "sunrise": "2026-04-12T06:26",
@@ -96,5 +96,5 @@
       "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-04-10T19:48:10.741923+00:00"
+  "updated_at": "2026-04-10T20:07:40.963748+00:00"
 }

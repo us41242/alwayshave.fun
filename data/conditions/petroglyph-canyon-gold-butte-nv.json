@@ -24,20 +24,20 @@
   ],
   "current": {
     "temp_f": 56,
-    "feels_like_f": 46,
-    "wind_mph": 21,
+    "feels_like_f": 47,
+    "wind_mph": 20,
     "gusts_mph": 28,
     "rain_pct": 1
   },
   "aqi": {
-    "aqi": 35,
+    "aqi": 37,
     "category": "Good",
     "pollutant": "PM2.5",
     "source": "open-meteo"
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": 350.8,
+    "nearest_fire_km": 329.4,
     "fire_count_50km": 0
   },
   "river": null,
@@ -98,5 +98,5 @@
       "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-04-10T19:43:27.274607+00:00"
+  "updated_at": "2026-04-10T20:03:22.436263+00:00"
 }
