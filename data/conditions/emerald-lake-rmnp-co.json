@@ -17,17 +17,19 @@
   "notes": "Timed entry permit required Jun\u2013Oct; Bear Lake Rd closes seasonally",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 50,
-  "score_label": "Use caution",
+  "score": 78,
+  "score_label": "Good conditions",
   "gear_flags": [
+    "wind layer recommended",
+    "insulation layer required",
     "mask for sensitive groups"
   ],
   "current": {
-    "temp_f": 44,
-    "feels_like_f": 38,
-    "wind_mph": 6,
-    "gusts_mph": 17,
-    "rain_pct": 9
+    "temp_f": 43,
+    "feels_like_f": 32,
+    "wind_mph": 14,
+    "gusts_mph": 23,
+    "rain_pct": 11
   },
   "aqi": {
     "aqi": 68,
@@ -41,6 +43,62 @@
     "fire_count_50km": 0
   },
   "river": null,
-  "forecast": [],
-  "updated_at": "2026-04-10T22:47:15.355251+00:00"
+  "forecast": [
+    {
+      "date": "2026-04-10",
+      "high_f": 46,
+      "low_f": 28,
+      "rain_pct": 14,
+      "uv": 7,
+      "sunrise": "2026-04-10T06:31",
+      "sunset": "2026-04-10T19:36",
+      "predicted_score": 78,
+      "score_label": "Good conditions"
+    },
+    {
+      "date": "2026-04-11",
+      "high_f": 45,
+      "low_f": 30,
+      "rain_pct": 34,
+      "uv": 7,
+      "sunrise": "2026-04-11T06:29",
+      "sunset": "2026-04-11T19:37",
+      "predicted_score": 60,
+      "score_label": "Use caution"
+    },
+    {
+      "date": "2026-04-12",
+      "high_f": 45,
+      "low_f": 27,
+      "rain_pct": 24,
+      "uv": 8,
+      "sunrise": "2026-04-12T06:28",
+      "sunset": "2026-04-12T19:38",
+      "predicted_score": 78,
+      "score_label": "Good conditions"
+    },
+    {
+      "date": "2026-04-13",
+      "high_f": 42,
+      "low_f": 26,
+      "rain_pct": 49,
+      "uv": 8,
+      "sunrise": "2026-04-13T06:26",
+      "sunset": "2026-04-13T19:39",
+      "predicted_score": 60,
+      "score_label": "Use caution"
+    },
+    {
+      "date": "2026-04-14",
+      "high_f": 36,
+      "low_f": 22,
+      "rain_pct": 84,
+      "uv": 8,
+      "sunrise": "2026-04-14T06:25",
+      "sunset": "2026-04-14T19:40",
+      "predicted_score": 50,
+      "score_label": "Use caution"
+    }
+  ],
+  "updated_at": "2026-04-10T23:08:34.470308+00:00"
 }

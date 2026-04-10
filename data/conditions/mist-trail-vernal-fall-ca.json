@@ -19,15 +19,13 @@
   "vehicle_req": "Any",
   "score": 62,
   "score_label": "Use caution",
-  "gear_flags": [
-    "wind layer recommended"
-  ],
+  "gear_flags": [],
   "current": {
-    "temp_f": 57,
-    "feels_like_f": 54,
-    "wind_mph": 7,
-    "gusts_mph": 23,
-    "rain_pct": 40
+    "temp_f": 56,
+    "feels_like_f": 51,
+    "wind_mph": 8,
+    "gusts_mph": 19,
+    "rain_pct": 38
   },
   "aqi": {
     "aqi": 31,
@@ -98,5 +96,5 @@
       "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-04-10T22:47:37.881505+00:00"
+  "updated_at": "2026-04-10T23:08:36.387033+00:00"
 }
