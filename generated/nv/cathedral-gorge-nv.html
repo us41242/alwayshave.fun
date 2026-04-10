@@ -11,11 +11,11 @@
 </script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title id="page-title">Cathedral Gorge Slot Canyons Trail Conditions — Use caution | alwayshave.fun</title>
-  <meta name="description" id="page-desc" content="Cathedral Gorge Slot Canyons conditions: Use caution (58/100). 68°F wind 20 mph Dogs welcome. Live data updated every 30 min.">
+  <title id="page-title">Cathedral Gorge Slot Canyons Trail Conditions — Great day to go | alwayshave.fun</title>
+  <meta name="description" id="page-desc" content="Cathedral Gorge Slot Canyons conditions: Great day to go (88/100). 69°F wind 20 mph AQI 46 Dogs welcome. Live data updated every 30 min.">
   <link rel="canonical" id="canonical" href="https://alwayshave.fun/nv/cathedral-gorge-nv">
-  <meta property="og:title" id="og-title" content="Cathedral Gorge Slot Canyons Trail Conditions — Use caution | alwayshave.fun">
-  <meta property="og:description" id="og-desc" content="Cathedral Gorge Slot Canyons conditions: Use caution (58/100). 68°F wind 20 mph Dogs welcome. Live data updated every 30 min.">
+  <meta property="og:title" id="og-title" content="Cathedral Gorge Slot Canyons Trail Conditions — Great day to go | alwayshave.fun">
+  <meta property="og:description" id="og-desc" content="Cathedral Gorge Slot Canyons conditions: Great day to go (88/100). 69°F wind 20 mph AQI 46 Dogs welcome. Live data updated every 30 min.">
   <meta property="og:image" id="og-image" content="https://alwayshave.fun/photos/cathedral-gorge-nv/cathedral-gorge-nv.jpg">
   <meta property="og:type" content="website">
   <meta property="og:url" id="og-url" content="https://alwayshave.fun/nv/cathedral-gorge-nv">
@@ -530,7 +530,7 @@
         {
           "@type": "PropertyValue",
           "name": "Current Score",
-          "value": "58/100 \u2014 Use caution"
+          "value": "88/100 \u2014 Great day to go"
         },
         {
           "@type": "PropertyValue",
@@ -539,8 +539,13 @@
         },
         {
           "@type": "PropertyValue",
+          "name": "Air Quality (AQI)",
+          "value": "46"
+        },
+        {
+          "@type": "PropertyValue",
           "name": "Current Temperature",
-          "value": "68\u00b0F"
+          "value": "69\u00b0F"
         },
         {
           "@type": "PropertyValue",
@@ -587,7 +592,7 @@
           "name": "What are the current conditions at Cathedral Gorge Slot Canyons?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "As of the latest update, Cathedral Gorge Slot Canyons is scoring 58/100 (Use caution). Temperature: 68\u00b0F, wind: 20 mph, rain chance: 1%. Data is refreshed every 30 minutes."
+            "text": "As of the latest update, Cathedral Gorge Slot Canyons is scoring 88/100 (Great day to go). Temperature: 69\u00b0F, wind: 20 mph, rain chance: 1%. Data is refreshed every 30 minutes."
           }
         },
         {
@@ -604,6 +609,14 @@
           "acceptedAnswer": {
             "@type": "Answer",
             "text": "Cathedral Gorge Slot Canyons is rated Easy. The trail is 2.5 miles with 100 ft of elevation gain."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the air quality (AQI) at Cathedral Gorge Slot Canyons today?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Current AQI at Cathedral Gorge Slot Canyons is 46 \u2014 Good. AQI under 50 is Good; 51-100 is Moderate; above 100 may require a mask."
           }
         },
         {
@@ -1056,6 +1069,74 @@
 
       // Try to load the trail photo (after showing hero with gradient fallback)
       tryLoadPhoto(d.slug, stateCode);
+
+      // ── Schema.org JSON-LD ───────────────────────
+      const existingSchema = document.getElementById('trail-schema');
+      if (existingSchema) existingSchema.remove();
+
+      const trailUrl   = `https://alwayshave.fun/${stateSlug}/${d.slug}`;
+      const trailImage = `https://alwayshave.fun/photos/${d.slug}/${d.slug}.jpg`;
+
+      const schema = {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "SportsActivityLocation",
+            "@id": trailUrl + "#trail",
+            "name": d.name,
+            "description": `${d.name} in ${d.park_name || stateName} — live trail conditions score ${d.score}/100 (${d.score_label}). Difficulty: ${d.difficulty || 'Unknown'}, Length: ${d.length_mi ? d.length_mi + ' mi' : 'Unknown'}, Elevation gain: ${d.gain_ft ? Number(d.gain_ft).toLocaleString() + ' ft' : 'Unknown'}.`,
+            "url": trailUrl,
+            "image": trailImage,
+            "publicAccess": true,
+            "isAccessibleForFree": true,
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": d.lat,
+              "longitude": d.lng
+            },
+            "address": {
+              "@type": "PostalAddress",
+              "addressRegion": stateCode,
+              "addressCountry": "US"
+            },
+            ...(d.park_name ? {
+              "containedInPlace": {
+                "@type": "Park",
+                "name": d.park_name
+              }
+            } : {})
+          },
+          {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://alwayshave.fun/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": stateName + " Trails",
+                "item": `https://alwayshave.fun/${stateSlug}`
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "name": d.name,
+                "item": trailUrl
+              }
+            ]
+          }
+        ]
+      };
+
+      const schemaScript = document.createElement('script');
+      schemaScript.type = 'application/ld+json';
+      schemaScript.id   = 'trail-schema';
+      schemaScript.textContent = JSON.stringify(schema);
+      document.head.appendChild(schemaScript);
     }
 
     // ─── EMAIL ────────────────────────────────────────────────────────────────
