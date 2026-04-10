@@ -22,8 +22,8 @@
   "gear_flags": [],
   "current": {
     "temp_f": 51,
-    "feels_like_f": 44,
-    "wind_mph": 3,
+    "feels_like_f": 45,
+    "wind_mph": 2,
     "gusts_mph": 3,
     "rain_pct": 0
   },
@@ -38,7 +38,10 @@
     "nearest_fire_km": 408.3,
     "fire_count_50km": 0
   },
-  "river": null,
+  "river": {
+    "cfs": 7840,
+    "stage": "flood"
+  },
   "forecast": [
     {
       "date": "2026-04-10",
@@ -96,5 +99,5 @@
       "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-04-10T13:01:17.409619+00:00"
+  "updated_at": "2026-04-10T13:21:13.251344+00:00"
 }

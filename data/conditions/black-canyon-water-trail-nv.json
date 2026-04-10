@@ -28,14 +28,14 @@
     "rain_pct": 1
   },
   "aqi": {
-    "aqi": 37,
+    "aqi": 35,
     "category": "Good",
     "pollutant": "O3",
     "source": "airnow"
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": 541.0,
+    "nearest_fire_km": 262.3,
     "fire_count_50km": 0
   },
   "river": null,
@@ -96,5 +96,5 @@
       "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-04-10T13:04:32.736612+00:00"
+  "updated_at": "2026-04-10T13:25:40.375385+00:00"
 }
