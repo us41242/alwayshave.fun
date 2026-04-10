@@ -26,7 +26,7 @@
     "temp_f": 48,
     "feels_like_f": 39,
     "wind_mph": 9,
-    "gusts_mph": 18,
+    "gusts_mph": 17,
     "rain_pct": 0
   },
   "aqi": {
@@ -37,7 +37,7 @@
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": 710.4,
+    "nearest_fire_km": 560.6,
     "fire_count_50km": 0
   },
   "river": {
@@ -101,5 +101,5 @@
       "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-04-10T10:02:35.136765+00:00"
+  "updated_at": "2026-04-10T10:22:48.955129+00:00"
 }
