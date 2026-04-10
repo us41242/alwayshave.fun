@@ -20,17 +20,18 @@
   "score": 62,
   "score_label": "Use caution",
   "gear_flags": [
+    "wind layer recommended",
     "rain gear recommended"
   ],
   "current": {
-    "temp_f": 56,
-    "feels_like_f": 51,
+    "temp_f": 57,
+    "feels_like_f": 54,
     "wind_mph": 8,
-    "gusts_mph": 19,
+    "gusts_mph": 24,
     "rain_pct": 46
   },
   "aqi": {
-    "aqi": 30,
+    "aqi": 31,
     "category": "Good",
     "pollutant": "O3",
     "source": "airnow"
@@ -98,5 +99,5 @@
       "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-04-10T22:08:58.898256+00:00"
+  "updated_at": "2026-04-10T22:27:38.849397+00:00"
 }
