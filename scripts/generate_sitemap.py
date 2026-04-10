@@ -19,17 +19,22 @@ def load_last_updated(slug):
     try:
         with open(path) as f:
             data = json.load(f)
-            return data.get("updated_at", "")[:10]
-    except:
-        return datetime.now(timezone.utc).strftime("%Y-%m-%d")
+            raw = data.get("updated_at", "")
+            if raw:
+                # Parse the ISO timestamp and re-format to YYYY-MM-DDTHH:MM:SSZ
+                dt = datetime.fromisoformat(raw)
+                return dt.strftime("%Y-%m-%dT%H:%M:%SZ")
+    except Exception:
+        pass
+    return datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
 
 def generate_sitemap(trails):
-    today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+    today = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
 
     urls = []
 
     # Homepage
-    urls.append({"loc": BASE_URL, "lastmod": today, "priority": "1.0", "changefreq": "hourly"})
+    urls.append({"loc": BASE_URL, "lastmod": today})
 
     states = sorted(set(t.get("state", "") for t in trails if t.get("state")))
 
@@ -43,12 +48,10 @@ def generate_sitemap(trails):
         urls.append({
             "loc": f"{BASE_URL}/{state}/{slug}",
             "lastmod": lastmod,
-            "priority": "0.9",
-            "changefreq": "hourly"
         })
 
     # Article index
-    urls.append({"loc": f"{BASE_URL}/articles", "lastmod": today, "priority": "0.8", "changefreq": "daily"})
+    urls.append({"loc": f"{BASE_URL}/articles", "lastmod": today})
 
     # Individual articles
     articles_dir = "articles"
@@ -60,13 +63,11 @@ def generate_sitemap(trails):
                 article_date = today
                 for pub_file in os.listdir("content/published") if os.path.isdir("content/published") else []:
                     if f"-{slug}.md" in pub_file:
-                        article_date = pub_file[:10]
+                        article_date = pub_file[:10] + "T00:00:00Z"
                         break
                 urls.append({
                     "loc": f"{BASE_URL}/articles/{slug}",
                     "lastmod": article_date,
-                    "priority": "0.7",
-                    "changefreq": "weekly"
                 })
 
     # State landing pages (pre-rendered)
@@ -74,18 +75,13 @@ def generate_sitemap(trails):
         urls.append({
             "loc": f"{BASE_URL}/{state.lower()}",
             "lastmod": today,
-            "priority": "0.8",
-            "changefreq": "hourly"
         })
 
     # States hub page
-    urls.append({"loc": f"{BASE_URL}/states", "lastmod": today, "priority": "0.8", "changefreq": "daily"})
+    urls.append({"loc": f"{BASE_URL}/states", "lastmod": today})
 
     # Great today page
-    urls.append({"loc": f"{BASE_URL}/great-today", "lastmod": today, "priority": "0.8", "changefreq": "hourly"})
-
-    # Fire and smoke map
-    urls.append({"loc": f"{BASE_URL}/wildfire-smoke-map", "lastmod": today, "priority": "0.8", "changefreq": "hourly"})
+    urls.append({"loc": f"{BASE_URL}/great-today", "lastmod": today})
 
     # Build XML
     lines = ['<?xml version="1.0" encoding="UTF-8"?>']
@@ -94,8 +90,6 @@ def generate_sitemap(trails):
         lines.append("  <url>")
         lines.append(f"    <loc>{u['loc']}</loc>")
         lines.append(f"    <lastmod>{u['lastmod']}</lastmod>")
-        lines.append(f"    <changefreq>{u['changefreq']}</changefreq>")
-        lines.append(f"    <priority>{u['priority']}</priority>")
         lines.append("  </url>")
     lines.append("</urlset>")
 

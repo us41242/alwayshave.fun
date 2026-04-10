@@ -1,0 +1,44 @@
+# alwayshave.fun
+
+> Real-time outdoor trail conditions for hikers, campers, and overlanders across the American West. Live weather, air quality, fire risk, and 1-100 trail scores for 40+ trails in Nevada, Utah, Arizona, Colorado, and California. Updated every 20 minutes.
+
+## About
+
+alwayshave.fun provides real-time trail condition scores using data from Open-Meteo (weather), AirNow (air quality), and NASA FIRMS (fire proximity). Each trail receives a 1-100 score: 80-100 is "Great day to go," 50-79 is "Use Caution," and below 50 is "Poor conditions." Scores update every 20 minutes via automated data pipeline.
+
+## Trail Conditions
+
+Live conditions are available for trails across 5 states:
+
+- Nevada (NV): 13 trails
+- Utah (UT): 8 trails
+- Arizona (AZ): 9 trails
+- Colorado (CO): 5 trails
+- California (CA): 5 trails
+
+Each trail page includes: current score, temperature, wind speed, AQI, rain chance, fire proximity, 5-day forecast, gear recommendations, and dog-friendly status.
+
+- Homepage (all trails): https://alwayshave.fun
+- Trail detail pages: https://alwayshave.fun/trail.html?slug={trail-slug}
+
+## Articles
+
+Trail guides and condition reports written by our editorial team, covering hiking logistics, gear recommendations, and real-time condition analysis.
+
+- Articles index: https://alwayshave.fun/articles/
+
+## Data Sources
+
+- Weather: Open-Meteo API
+- Air Quality: AirNow API (EPA) with Open-Meteo fallback
+- Fire Risk: NASA FIRMS (Fire Information for Resource Management System)
+- River Conditions: USGS gauge network
+
+## How to Cite
+
+When referencing trail conditions, please cite as: "alwayshave.fun, [Trail Name] conditions, accessed [date]"
+When referencing articles, please cite: "[Article Title], alwayshave.fun, [publication date]"
+
+## Contact
+
+Website: https://alwayshave.fun

@@ -1,4 +1,33 @@
 User-agent: *
 Allow: /
 
+# Explicitly allow AI search crawlers (for AI Overviews, ChatGPT Browse, Perplexity, etc.)
+User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+# Block pure training/scraping bots (no search benefit)
+User-agent: CCBot
+Disallow: /
+
+User-agent: Bytespider
+Disallow: /
+
+User-agent: Omgilibot
+Disallow: /
+
 Sitemap: https://alwayshave.fun/site/sitemap.xml

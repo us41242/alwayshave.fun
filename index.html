@@ -24,6 +24,7 @@
   <meta name="twitter:title" content="alwayshave.fun — Real-Time Trail Conditions">
   <meta name="twitter:description" content="Live trail conditions, weather, AQI, and fire risk for 40 trails. Score 1–100. Updated every 20 minutes.">
   <meta name="twitter:image" content="https://alwayshave.fun/photos/LANDINGcathedral-rock-sedona-az.webp">
+  <meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1">
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -40,12 +41,12 @@
         "@type": "Organization",
         "@id": "https://alwayshave.fun/#organization",
         "name": "alwayshave.fun",
-        "url": "https://alwayshave.fun",
-        "logo": {"@type": "ImageObject", "url": "https://alwayshave.fun/photos/LANDINGcathedral-rock-sedona-az.webp"}
+        "url": "https://alwayshave.fun"
       }
     ]
   }
   </script>
+  <link rel="preload" as="image" href="/photos/LANDINGcathedral-rock-sedona-az.webp">
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⛰️</text></svg>">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -71,6 +72,33 @@
       color: var(--text);
       line-height: 1.5;
       min-height: 100vh;
+    }
+
+    /* ── PARALLAX BG CROSSFADE LAYERS ────────────── */
+    .hero-bg-layer {
+      position: fixed;
+      inset: 0;
+      z-index: -1;
+      background-size: cover;
+      background-position: center 40%;
+      background-repeat: no-repeat;
+      will-change: opacity, transform;
+    }
+    .hero-bg-a {
+      opacity: 1;
+      transition: opacity 1.8s ease-in-out, transform 2.4s ease-out;
+    }
+    .hero-bg-b {
+      opacity: 0;
+      transition: opacity 1.8s ease-in-out, transform 2.4s ease-out;
+    }
+    .hero-bg-layer.fade-out {
+      opacity: 0;
+      transform: scale(1.08);
+    }
+    .hero-bg-layer.fade-in {
+      opacity: 1;
+      transform: scale(1.0);
     }
 
     /* ── NAV ─────────────────────────────────────── */
@@ -104,36 +132,23 @@
     @media (max-width: 500px) { .nav-tagline { display: none; } }
 
     /* ── HERO ────────────────────────────────────── */
-    .site-hero {
-      position: relative;
-      height: 72vh;
-      min-height: 500px;
-      max-height: 760px;
-      background: linear-gradient(160deg, #1a2a1a, #0c1117);
-      background-size: cover;
-      background-position: center 40%;
-      background-attachment: fixed;
-      display: flex;
-      align-items: flex-end;
-    }
-    @supports (-webkit-touch-callout: none) {
-      .site-hero { background-attachment: scroll; }
-    }
     .site-hero-overlay {
       position: absolute;
       inset: 0;
-      background: linear-gradient(
-        to top,
-        rgba(12,17,23,0.85)  0%,
-        rgba(12,17,23,0.5)   20%,
-        rgba(12,17,23,0.25)  45%,
-        rgba(12,17,23,0.15)  70%,
-        rgba(12,17,23,0.1)   100%
-      );
+      background: none;
+      pointer-events: none;
     }
+
+    /* ── HERO TEXT ────────────────────────────────── */
     .site-hero-content {
       position: relative;
-      z-index: 1;
+      display: flex;
+      align-items: flex-end;
+      height: 100vh;
+      height: 100dvh;
+      padding-top: 80px;
+    }
+    .site-hero-inner {
       width: 100%;
       max-width: 920px;
       margin: 0 auto;
@@ -154,7 +169,7 @@
       letter-spacing: 0.08em;
       margin-bottom: 18px;
     }
-    .site-hero h1 {
+    .site-hero-content h1 {
       font-size: clamp(2.2rem, 6vw, 3.8rem);
       font-weight: 900;
       letter-spacing: -0.04em;
@@ -163,10 +178,15 @@
       text-shadow: 0 2px 20px rgba(0,0,0,0.3);
       margin-bottom: 14px;
     }
-    .site-hero h1 span { color: var(--brand); }
+    .site-hero-content h1 span { color: var(--brand); }
+    .hero-animated-logo {
+      max-width: min(720px, 90vw);
+      height: auto;
+      filter: drop-shadow(0 2px 20px rgba(0,0,0,0.3));
+    }
     .site-hero-sub {
       font-size: clamp(0.9rem, 2vw, 1.05rem);
-      color: rgba(255,255,255,0.7);
+      color: #ffffff;
       max-width: 480px;
       line-height: 1.6;
       margin-bottom: 32px;
@@ -193,6 +213,40 @@
     a.hero-stat-pill:hover { background: rgba(255,255,255,0.18); border-color: rgba(255,255,255,0.3); }
 
     /* ── MAIN ────────────────────────────────────── */
+    .content-wrap {
+      position: relative;
+    }
+    .content-wrap::before {
+      content: '';
+      position: absolute;
+      top: -200px; left: 0; right: 0;
+      height: 500px;
+      background: linear-gradient(
+        to bottom,
+        rgba(12,17,23,0)     0%,
+        rgba(12,17,23,0.02)  15%,
+        rgba(12,17,23,0.08)  30%,
+        rgba(12,17,23,0.18)  45%,
+        rgba(12,17,23,0.3)   60%,
+        rgba(12,17,23,0.38)  75%,
+        rgba(12,17,23,0.43)  88%,
+        rgba(12,17,23,0.45)  100%
+      );
+      pointer-events: none;
+      z-index: 0;
+    }
+    .content-wrap::after {
+      content: '';
+      position: absolute;
+      top: 300px; left: 0; right: 0; bottom: 0;
+      background: rgba(12,17,23,0.45);
+      pointer-events: none;
+      z-index: 0;
+    }
+    .content-wrap > * {
+      position: relative;
+      z-index: 1;
+    }
     .page-content {
       max-width: 960px;
       margin: 0 auto;
@@ -206,6 +260,10 @@
       gap: 8px;
       margin-bottom: 24px;
       flex-wrap: wrap;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 12px 16px;
     }
     .filter-btn {
       padding: 7px 16px;
@@ -243,18 +301,21 @@
       font-size: 0.7rem;
       text-transform: uppercase;
       letter-spacing: 0.1em;
-      color: var(--text-subtle);
+      color: var(--text-muted);
       font-weight: 600;
       margin: 28px 0 12px;
-      padding-bottom: 8px;
-      border-bottom: 1px solid var(--border);
+      padding: 8px 14px;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 8px;
     }
 
     /* ── TRAIL CARDS ─────────────────────────────── */
     .trail-grid {
       display: grid;
       grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-      gap: 14px;
+      gap: 18px;
+      contain: layout style;
     }
 
     .trail-card {
@@ -268,6 +329,8 @@
       overflow: hidden;
       transition: border-color 0.15s, transform 0.12s;
       position: relative;
+      min-height: 290px;
+      contain: content;
     }
     .trail-card:hover { border-color: var(--text-subtle); transform: translateY(-2px); }
 
@@ -373,7 +436,7 @@
 
     /* ── EMAIL ───────────────────────────────────── */
     .email-section {
-      background: linear-gradient(135deg, #0d1f15, #0a1525);
+      background: var(--surface);
       border: 1px solid var(--border);
       border-radius: 12px;
       padding: 32px 24px;
@@ -390,7 +453,7 @@
     .email-btn { padding: 10px 20px; border-radius: 8px; background: var(--brand); color: #000; border: none; font-weight: 700; font-size: 0.875rem; cursor: pointer; font-family: inherit; white-space: nowrap; }
 
     /* ── FOOTER ──────────────────────────────────── */
-    footer { border-top: 1px solid var(--border); padding: 24px 0 0; text-align: center; color: var(--text-subtle); font-size: 0.78rem; line-height: 1.7; }
+    footer { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 24px 16px; margin-top: 24px; text-align: center; color: var(--text-subtle); font-size: 0.78rem; line-height: 1.7; }
     footer a { color: var(--text-muted); text-decoration: none; }
     footer a:hover { color: var(--brand); }
     .sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0,0,0,0); white-space: nowrap; border: 0; }
@@ -404,12 +467,19 @@
     <span class="nav-tagline">Outdoor conditions, updated every 20 min</span>
   </nav>
 
+  <!-- PARALLAX BG LAYERS (crossfade behind content) -->
+  <div class="hero-bg-layer hero-bg-a" id="hero-bg-a"></div>
+  <div class="hero-bg-layer hero-bg-b" id="hero-bg-b"></div>
+
   <!-- HERO -->
-  <div class="site-hero" id="site-hero">
+  <div class="site-hero-content">
     <div class="site-hero-overlay"></div>
-    <div class="site-hero-content">
+    <div class="site-hero-inner">
       <div class="hero-badge">⛰ Live Conditions</div>
-      <h1>Always have <span>fun</span> outdoors.</h1>
+      <h1>
+        <img src="/photos/animated-logo.webp" alt="Always have fun outdoors" class="hero-animated-logo" fetchpriority="high">
+        <span style="position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0">alwayshave.fun — Real-Time Trail Conditions for Hikers, Campers &amp; Overlanders</span>
+      </h1>
       <p class="site-hero-sub">Real-time weather, air quality, and trail scores for hikers, campers, and overlanders. Updated every 20 minutes.</p>
       <div class="hero-stats">
         <a href="#trail-listing" class="hero-stat-pill"><strong id="stat-trails">30</strong> trails tracked</a>
@@ -420,6 +490,7 @@
   </div>
 
   <!-- MAIN -->
+  <div class="content-wrap">
   <div class="page-content">
 
     <!-- FILTERS -->
@@ -464,16 +535,23 @@
         Weather via <a href="https://open-meteo.com" target="_blank" rel="noopener">Open-Meteo</a> &nbsp;·&nbsp;
         AQI via <a href="https://www.airnow.gov" target="_blank" rel="noopener">AirNow</a>
       </p>
+      <p style="margin-top:6px">
+        <a href="/about">About</a> &nbsp;·&nbsp;
+        <a href="/scoring">How We Score</a> &nbsp;·&nbsp;
+        <a href="/privacy">Privacy</a> &nbsp;·&nbsp;
+        <a href="/articles">Articles</a>
+      </p>
       <p style="margin-top:6px">Affiliate disclosure: we may earn commissions from REI and Backcountry links at no extra cost to you.</p>
     </footer>
   </div>
+  </div><!-- /content-wrap -->
 
   <script>
     const DATA_BASE  = '/data/conditions';
     const INDEX_URL  = '/data/trails-index.json';
     const STATE_NAMES = { NV:'Nevada', UT:'Utah', AZ:'Arizona', CA:'California', CO:'Colorado' };
 
-    // ── Hero image (random on each load) ─────────
+    // ── Hero background: scroll-driven image swap ──
     const heroImages = [
       '/photos/LANDINGcathedral-rock-sedona-az.webp',
       '/photos/angels-landing-zion-ut/angels-landing-zion-ut.webp',
@@ -497,17 +575,83 @@
       '/photos/wheeler-peak-great-basin-nv/wheeler-peak-great-basin-nv.webp',
       '/photos/wire-pass-buckskin-az/wire-pass-buckskin-az.webp',
     ];
-    const heroSrc = heroImages[Math.floor(Math.random() * heroImages.length)];
-    const heroImg = new Image();
-    heroImg.onload = () => {
-      document.getElementById('site-hero').style.backgroundImage = `url('${heroSrc}')`;
-    };
-    heroImg.src = heroSrc;
 
-    // ── Nav scroll ───────────────────────────────
+    // Shuffle so each visit gets a unique order
+    for (let i = heroImages.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [heroImages[i], heroImages[j]] = [heroImages[j], heroImages[i]];
+    }
+
+    // ── Parallax crossfade setup ──────────────────
+    const layerA = document.getElementById('hero-bg-a');
+    const layerB = document.getElementById('hero-bg-b');
+    let currentIdx = 0;
+    let activeLayer = 'a'; // which layer is currently showing
+    const CYCLE_PX = 2000;
+    let lastCycle  = -1;
+    let swapping   = false;
+
+    // Load first image into layer A
+    const preImg = new Image();
+    preImg.onload = () => {
+      layerA.style.backgroundImage = `url('${heroImages[0]}')`;
+    };
+    preImg.src = heroImages[0];
+    // Preload next image
+    if (heroImages.length > 1) { const p = new Image(); p.src = heroImages[1]; }
+
+    function crossfadeTo(imgUrl) {
+      if (swapping) return;
+      swapping = true;
+
+      const incoming = activeLayer === 'a' ? layerB : layerA;
+      const outgoing = activeLayer === 'a' ? layerA : layerB;
+
+      // Reset incoming: set image, start slightly zoomed in
+      incoming.style.backgroundImage = `url('${imgUrl}')`;
+      incoming.style.transform = 'scale(1.06)';
+      incoming.classList.remove('fade-out');
+      // Force reflow so the scale(1.06) takes effect before transition
+      incoming.offsetHeight;
+
+      // Fade in the incoming, zoom it to normal
+      incoming.classList.add('fade-in');
+      incoming.style.transform = '';
+
+      // Fade out + zoom the outgoing
+      outgoing.classList.remove('fade-in');
+      outgoing.classList.add('fade-out');
+
+      activeLayer = activeLayer === 'a' ? 'b' : 'a';
+
+      // Clean up after transition completes
+      setTimeout(() => {
+        outgoing.classList.remove('fade-out');
+        outgoing.style.transform = '';
+        swapping = false;
+      }, 2400);
+    }
+
+    // ── Scroll handler: nav + image crossfade ────
     window.addEventListener('scroll', () => {
-      document.getElementById('nav').classList.toggle('scrolled', window.scrollY > 60);
-    });
+      const sy = window.scrollY;
+      document.getElementById('nav').classList.toggle('scrolled', sy > 60);
+
+      const cycle = Math.floor(sy / CYCLE_PX);
+      if (cycle !== lastCycle) {
+        lastCycle = cycle;
+        const newIdx = cycle % heroImages.length;
+        if (newIdx !== currentIdx || cycle === 0) {
+          currentIdx = newIdx;
+          if (cycle > 0) {
+            crossfadeTo(heroImages[currentIdx]);
+          }
+        }
+        // Preload next
+        const nextIdx = (currentIdx + 1) % heroImages.length;
+        const pre = new Image(); pre.src = heroImages[nextIdx];
+      }
+    }, { passive: true });
 
     // ── Helpers ──────────────────────────────────
     function scoreColor(s) {
@@ -627,17 +771,30 @@
       'bright-angel-trail-gc-az':         '50% 40%',
     };
 
+    // Lazy-load card photos via IntersectionObserver
+    const cardPhotoObserver = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (!entry.isIntersecting) return;
+        const el = entry.target;
+        const slug = el.dataset.slug;
+        if (!slug) return;
+        cardPhotoObserver.unobserve(el);
+        const url      = `/photos/${slug}/${slug}-card.webp`;
+        const position = CARD_FOCUS[slug] || '50% 50%';
+        const img = new Image();
+        img.onload = () => {
+          el.style.backgroundImage    = `url('${url}')`;
+          el.style.backgroundPosition = position;
+        };
+        img.src = url;
+      });
+    }, { rootMargin: '200px' });
+
     function tryLoadCardPhoto(slug, state) {
-      const el  = document.getElementById(`photo-${slug}`);
+      const el = document.getElementById(`photo-${slug}`);
       if (!el) return;
-      const url      = `/photos/${slug}/${slug}-card.webp`;
-      const position = CARD_FOCUS[slug] || '50% 50%';
-      const img = new Image();
-      img.onload = () => {
-        el.style.backgroundImage    = `url('${url}')`;
-        el.style.backgroundPosition = position;
-      };
-      img.src = url;
+      el.dataset.slug = slug;
+      cardPhotoObserver.observe(el);
     }
 
     function resetFilters() {

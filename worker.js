@@ -37,6 +37,11 @@ export default {
       return env.ASSETS.fetch(new URL('/great-today.html', url.origin));
     }
 
+    // /about, /privacy, /scoring  →  serve trust/E-E-A-T pages
+    if (parts.length === 1 && ['about', 'privacy', 'scoring'].includes(first)) {
+      return env.ASSETS.fetch(new URL(`/${first}.html`, url.origin));
+    }
+
     // /articles  →  serve articles index
     if (parts.length === 1 && first === 'articles') {
       const idxUrl = new URL('/articles/index.html', url.origin);

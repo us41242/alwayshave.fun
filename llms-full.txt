@@ -1,0 +1,131 @@
+# alwayshave.fun
+
+> Real-time outdoor trail conditions for hikers, campers, and overlanders across the American West. Live weather, air quality, fire risk, and 1-100 trail scores for 40+ trails in Nevada, Utah, Arizona, Colorado, and California. Updated every 20 minutes.
+
+## About
+
+alwayshave.fun provides real-time trail condition scores using data from Open-Meteo (weather), AirNow (air quality), and NASA FIRMS (fire proximity). Each trail receives a 1-100 score: 80-100 is "Great day to go," 50-79 is "Use Caution," and below 50 is "Poor conditions." Scores update every 20 minutes via automated data pipeline.
+
+## Trail Conditions
+
+Live conditions are available for trails across 5 states. Each trail page includes: current score, temperature, wind speed, AQI, rain chance, fire proximity, 5-day forecast, gear recommendations, and dog-friendly status.
+
+- Homepage (all trails): https://alwayshave.fun
+
+### Nevada (13 trails)
+
+- Red Rock Canyon Calico Hills: https://alwayshave.fun/trail.html?slug=calico-hills-red-rock-nv
+- Charleston Peak (USFS): https://alwayshave.fun/trail.html?slug=charleston-peak-nv
+- Valley of Fire Wave Rock: https://alwayshave.fun/trail.html?slug=wave-rock-valley-of-fire-nv
+- Wheeler Peak (NPS): https://alwayshave.fun/trail.html?slug=wheeler-peak-great-basin-nv
+- Cathedral Gorge Slot Canyons: https://alwayshave.fun/trail.html?slug=cathedral-gorge-nv
+- Petroglyph Canyon (Gold Butte): https://alwayshave.fun/trail.html?slug=petroglyph-canyon-gold-butte-nv
+- Mt Charleston Trail (Mary Jane Falls): https://alwayshave.fun/trail.html?slug=mary-jane-falls-nv
+- Nelson Ghost Town Trails: https://alwayshave.fun/trail.html?slug=nelson-ghost-town-nv
+- Hoover Dam Trail: https://alwayshave.fun/trail.html?slug=hoover-dam-trail-nv
+- River Mountains Loop: https://alwayshave.fun/trail.html?slug=river-mountains-loop-nv
+- Black Canyon Water Trail: https://alwayshave.fun/trail.html?slug=black-canyon-water-trail-nv
+- Rhyolite Ghost Town Loop: https://alwayshave.fun/trail.html?slug=rhyolite-ghost-town-nv
+- Mount Moriah Wilderness: https://alwayshave.fun/trail.html?slug=mount-moriah-nv
+
+### Utah (8 trails)
+
+- Angels Landing: https://alwayshave.fun/trail.html?slug=angels-landing-zion-ut
+- The Narrows (Bottom-Up): https://alwayshave.fun/trail.html?slug=the-narrows-zion-ut
+- Bryce Canyon Rim Trail: https://alwayshave.fun/trail.html?slug=bryce-rim-trail-ut
+- Zion Narrows (Top-Down): https://alwayshave.fun/trail.html?slug=narrows-top-down-zion-ut
+- Peek-A-Boo Loop Bryce: https://alwayshave.fun/trail.html?slug=peek-a-boo-loop-bryce-ut
+- Snow Canyon State Park Rim: https://alwayshave.fun/trail.html?slug=snow-canyon-rim-ut
+- Pine Valley Mountain Loop: https://alwayshave.fun/trail.html?slug=pine-valley-mountain-ut
+- Kanarra Creek Slot Canyon: https://alwayshave.fun/trail.html?slug=kanarra-creek-ut
+
+### Arizona (9 trails)
+
+- Kanab Creek Wilderness: https://alwayshave.fun/trail.html?slug=kanab-creek-wilderness-az
+- Bright Angel Trail: https://alwayshave.fun/trail.html?slug=bright-angel-trail-gc-az
+- South Kaibab Trail: https://alwayshave.fun/trail.html?slug=south-kaibab-gc-az
+- Havasu Falls: https://alwayshave.fun/trail.html?slug=havasu-falls-az
+- West Fork Oak Creek: https://alwayshave.fun/trail.html?slug=west-fork-oak-creek-az
+- Havasupai Garden (Hermit): https://alwayshave.fun/trail.html?slug=hermit-trail-gc-az
+- Wire Pass to Buckskin Gulch: https://alwayshave.fun/trail.html?slug=wire-pass-buckskin-az
+- Paria Canyon: https://alwayshave.fun/trail.html?slug=paria-canyon-az
+- Toroweap Overlook: https://alwayshave.fun/trail.html?slug=toroweap-overlook-az
+
+### Colorado (5 trails)
+
+- Hanging Lake: https://alwayshave.fun/trail.html?slug=hanging-lake-co
+- Maroon Bells Crater Lake: https://alwayshave.fun/trail.html?slug=maroon-bells-crater-lake-co
+- Garden of the Gods Main Loop: https://alwayshave.fun/trail.html?slug=garden-of-the-gods-co
+- Emerald Lake via Bear Lake: https://alwayshave.fun/trail.html?slug=emerald-lake-rmnp-co
+- Ice Lake Basin: https://alwayshave.fun/trail.html?slug=ice-lake-basin-co
+
+### California (5 trails)
+
+- Half Dome: https://alwayshave.fun/trail.html?slug=half-dome-yosemite-ca
+- Mist Trail to Vernal Fall: https://alwayshave.fun/trail.html?slug=mist-trail-vernal-fall-ca
+- Mount Whitney Summit: https://alwayshave.fun/trail.html?slug=mount-whitney-ca
+- Crystal Cove Beach to El Moro: https://alwayshave.fun/trail.html?slug=crystal-cove-el-moro-ca
+- Marlette Lake Trail: https://alwayshave.fun/trail.html?slug=marlette-lake-ca
+
+## Articles
+
+Trail guides and condition reports written by our editorial team, covering hiking logistics, gear recommendations, and real-time condition analysis.
+
+- Articles index: https://alwayshave.fun/articles/
+- Angels Landing Right Now: Is It Worth the Chains?: https://alwayshave.fun/articles/angels-landing-zion-ut
+- Best Southwest Hikes This Weekend: https://alwayshave.fun/articles/best-southwest-hikes-this-weekend
+- Black Canyon: Paddle Perfection, 100/100: https://alwayshave.fun/articles/black-canyon-water-trail-nv
+- Bright Angel Trail: 90/100, But Watch the Rain: https://alwayshave.fun/articles/bright-angel-trail-gc-az
+- Bryce Canyon Rim Trail Conditions: https://alwayshave.fun/articles/bryce-rim-trail-ut
+- Calico Hills Red Rock NV: https://alwayshave.fun/articles/calico-hills-red-rock-nv
+- Cathedral Gorge Slots: How to Nail a 50/100 Day: https://alwayshave.fun/articles/cathedral-gorge-nv
+- Charleston Peak: Early Spring Grind: https://alwayshave.fun/articles/charleston-peak-nv
+- Crystal Cove: Your 60/100 Plan: https://alwayshave.fun/articles/crystal-cove-el-moro-ca
+- Emerald Lake: 60/100. Winter's Not Done Yet.: https://alwayshave.fun/articles/emerald-lake-rmnp-co
+- Garden of the Gods Is Open Year-Round: https://alwayshave.fun/articles/garden-of-the-gods-co
+- Half Dome in April: https://alwayshave.fun/articles/half-dome-yosemite-ca
+- Hanging Lake: Good Score, Beat the Rain: https://alwayshave.fun/articles/hanging-lake-co
+- Havasu Falls Conditions April 2026: https://alwayshave.fun/articles/havasu-falls-az
+- Hermit Trail: 90/100 Grand Canyon Day: https://alwayshave.fun/articles/hermit-trail-gc-az
+- Hoover Dam Trail Hits 100/100: https://alwayshave.fun/articles/hoover-dam-trail-nv
+- Ice Lake Basin: April's Icy Grip. Plan Ahead.: https://alwayshave.fun/articles/ice-lake-basin-co
+- Kanab Creek: 88/100, Hit This Slot Canyon: https://alwayshave.fun/articles/kanab-creek-wilderness-az
+- Kanarra Creek Is Perfect: https://alwayshave.fun/articles/kanarra-creek-ut
+- Marlette Lake Trail: 88/100, Hit It This Weekend: https://alwayshave.fun/articles/marlette-lake-ca
+- Maroon Bells Crater Lake: 60/100. Plan Ahead.: https://alwayshave.fun/articles/maroon-bells-crater-lake-co
+- Mary Jane Falls: 88/100. Mt Charleston is calling.: https://alwayshave.fun/articles/mary-jane-falls-nv
+- Mist Trail Vernal Fall Right Now: https://alwayshave.fun/articles/mist-trail-vernal-fall-ca
+- Mount Moriah Wilderness: Cold. Plan Required.: https://alwayshave.fun/articles/mount-moriah-nv
+- Mount Whitney Summit: Pack for Cold, Climb Smart: https://alwayshave.fun/articles/mount-whitney-ca
+- Zion Narrows Top-Down: https://alwayshave.fun/articles/narrows-top-down-zion-ut
+- Nelson Ghost Town Trails: 100 Score: https://alwayshave.fun/articles/nelson-ghost-town-nv
+- Paria Canyon at 100/100: https://alwayshave.fun/articles/paria-canyon-az
+- Peek-A-Boo Loop Bryce: 60/100, Here's the Play: https://alwayshave.fun/articles/peek-a-boo-loop-bryce-ut
+- Petroglyph Canyon: 90/100, Your 4WD Awaits: https://alwayshave.fun/articles/petroglyph-canyon-gold-butte-nv
+- Pine Valley Mountain Loop: Cold Start, Clear Skies: https://alwayshave.fun/articles/pine-valley-mountain-ut
+- Rhyolite Ghost Town Loop: A Perfect 100/100 Day: https://alwayshave.fun/articles/rhyolite-ghost-town-nv
+- River Mountains Loop: Perfect Conditions All Week: https://alwayshave.fun/articles/river-mountains-loop-nv
+- Snow Canyon Rim: 100/100 in Utah: https://alwayshave.fun/articles/snow-canyon-rim-ut
+- South Kaibab Trail: 78/100 Today, Better Tomorrow: https://alwayshave.fun/articles/south-kaibab-gc-az
+- The Narrows Is Running Perfect Right Now: https://alwayshave.fun/articles/the-narrows-zion-ut
+- Toroweap Overlook: 90/100, Go Before It Bakes: https://alwayshave.fun/articles/toroweap-overlook-az
+- Valley of Fire Wave Rock: https://alwayshave.fun/articles/wave-rock-valley-of-fire-nv
+- West Fork Oak Creek Is Running at 100: https://alwayshave.fun/articles/west-fork-oak-creek-az
+- Wheeler Peak: 24F, Plan for a Cold Summit: https://alwayshave.fun/articles/wheeler-peak-great-basin-nv
+- Wire Pass to Buckskin Gulch Is Hitting 100/100 Right Now: https://alwayshave.fun/articles/wire-pass-buckskin-az
+
+## Data Sources
+
+- Weather: Open-Meteo API
+- Air Quality: AirNow API (EPA) with Open-Meteo fallback
+- Fire Risk: NASA FIRMS (Fire Information for Resource Management System)
+- River Conditions: USGS gauge network
+
+## How to Cite
+
+When referencing trail conditions, please cite as: "alwayshave.fun, [Trail Name] conditions, accessed [date]"
+When referencing articles, please cite: "[Article Title], alwayshave.fun, [publication date]"
+
+## Contact
+
+Website: https://alwayshave.fun
