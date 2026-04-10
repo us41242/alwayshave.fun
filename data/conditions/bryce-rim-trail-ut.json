@@ -17,23 +17,21 @@
   "notes": "Snow possible May; check road status",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 90,
+  "score": 100,
   "score_label": "Great day to go",
-  "gear_flags": [
-    "mask for sensitive groups"
-  ],
+  "gear_flags": [],
   "current": {
     "temp_f": 50,
     "feels_like_f": 41,
     "wind_mph": 9,
-    "gusts_mph": 13,
+    "gusts_mph": 12,
     "rain_pct": 0
   },
   "aqi": {
-    "aqi": 95,
-    "category": "Moderate",
-    "pollutant": "PM2.5",
-    "source": "open-meteo"
+    "aqi": 46,
+    "category": "Good",
+    "pollutant": "O3",
+    "source": "airnow"
   },
   "fire": {
     "risk_level": "low",
@@ -50,7 +48,7 @@
       "uv": 7,
       "sunrise": "2026-04-09T07:01",
       "sunset": "2026-04-09T19:58",
-      "predicted_score": 90,
+      "predicted_score": 100,
       "score_label": "Great day to go"
     },
     {
@@ -61,7 +59,7 @@
       "uv": 8,
       "sunrise": "2026-04-10T07:00",
       "sunset": "2026-04-10T19:59",
-      "predicted_score": 90,
+      "predicted_score": 100,
       "score_label": "Great day to go"
     },
     {
@@ -72,8 +70,8 @@
       "uv": 8,
       "sunrise": "2026-04-11T06:58",
       "sunset": "2026-04-11T20:00",
-      "predicted_score": 60,
-      "score_label": "Use caution"
+      "predicted_score": 70,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-04-12",
@@ -83,8 +81,8 @@
       "uv": 8,
       "sunrise": "2026-04-12T06:57",
       "sunset": "2026-04-12T20:01",
-      "predicted_score": 60,
-      "score_label": "Use caution"
+      "predicted_score": 70,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-04-13",
@@ -94,9 +92,9 @@
       "uv": 8,
       "sunrise": "2026-04-13T06:55",
       "sunset": "2026-04-13T20:02",
-      "predicted_score": 50,
+      "predicted_score": 60,
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-04-10T03:25:20.057242+00:00"
+  "updated_at": "2026-04-10T03:41:24.905835+00:00"
 }

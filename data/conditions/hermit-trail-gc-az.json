@@ -31,10 +31,10 @@
     "rain_pct": 0
   },
   "aqi": {
-    "aqi": 98,
+    "aqi": 87,
     "category": "Moderate",
-    "pollutant": "PM2.5",
-    "source": "open-meteo"
+    "pollutant": "O3",
+    "source": "airnow"
   },
   "fire": {
     "risk_level": "low",
@@ -99,5 +99,5 @@
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-04-10T03:33:20.165983+00:00"
+  "updated_at": "2026-04-10T03:43:31.607591+00:00"
 }
