@@ -17,21 +17,21 @@
   "notes": "Sandstone scrambling \u2014 watch for rattlesnakes spring",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 70,
-  "score_label": "Good conditions",
+  "score": 100,
+  "score_label": "Great day to go",
   "gear_flags": [],
   "current": {
     "temp_f": 70,
-    "feels_like_f": 61,
-    "wind_mph": 5,
-    "gusts_mph": 6,
+    "feels_like_f": 62,
+    "wind_mph": 6,
+    "gusts_mph": 9,
     "rain_pct": 0
   },
   "aqi": {
-    "aqi": null,
-    "category": "Unknown",
-    "pollutant": "",
-    "source": "none"
+    "aqi": 49,
+    "category": "Good",
+    "pollutant": "O3",
+    "source": "airnow"
   },
   "fire": {
     "risk_level": "low",
@@ -48,53 +48,53 @@
       "uv": 7,
       "sunrise": "2026-04-09T07:07",
       "sunset": "2026-04-09T20:04",
-      "predicted_score": 58,
-      "score_label": "Use caution"
+      "predicted_score": 88,
+      "score_label": "Great day to go"
     },
     {
       "date": "2026-04-10",
       "high_f": 79,
-      "low_f": 59,
+      "low_f": 60,
       "rain_pct": 6,
       "uv": 7,
       "sunrise": "2026-04-10T07:06",
       "sunset": "2026-04-10T20:05",
-      "predicted_score": 58,
-      "score_label": "Use caution"
+      "predicted_score": 88,
+      "score_label": "Great day to go"
     },
     {
       "date": "2026-04-11",
       "high_f": 71,
       "low_f": 53,
-      "rain_pct": 7,
+      "rain_pct": 8,
       "uv": 7,
       "sunrise": "2026-04-11T07:05",
       "sunset": "2026-04-11T20:05",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
+      "predicted_score": 100,
+      "score_label": "Great day to go"
     },
     {
       "date": "2026-04-12",
       "high_f": 67,
       "low_f": 52,
-      "rain_pct": 61,
+      "rain_pct": 56,
       "uv": 7,
       "sunrise": "2026-04-12T07:03",
       "sunset": "2026-04-12T20:06",
-      "predicted_score": 30,
-      "score_label": "Conditions poor"
+      "predicted_score": 70,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-04-13",
       "high_f": 62,
       "low_f": 46,
-      "rain_pct": 61,
+      "rain_pct": 56,
       "uv": 7,
       "sunrise": "2026-04-13T07:02",
       "sunset": "2026-04-13T20:07",
-      "predicted_score": 30,
-      "score_label": "Conditions poor"
+      "predicted_score": 70,
+      "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-04-10T03:16:14.255802+00:00"
+  "updated_at": "2026-04-10T03:36:01.738109+00:00"
 }

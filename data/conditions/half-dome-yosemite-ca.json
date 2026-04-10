@@ -17,17 +17,17 @@
   "notes": "Cable permit required May\u2013Oct; lottery in spring \u2014 book early",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 70,
-  "score_label": "Good conditions",
+  "score": 88,
+  "score_label": "Great day to go",
   "gear_flags": [
     "insulation layer required"
   ],
   "current": {
     "temp_f": 40,
-    "feels_like_f": 35,
+    "feels_like_f": 36,
     "wind_mph": 4,
-    "gusts_mph": 5,
-    "rain_pct": 10
+    "gusts_mph": 8,
+    "rain_pct": 9
   },
   "aqi": {
     "aqi": 30,
@@ -46,7 +46,7 @@
       "date": "2026-04-09",
       "high_f": 46,
       "low_f": 34,
-      "rain_pct": 20,
+      "rain_pct": 19,
       "uv": 6,
       "sunrise": "2026-04-09T06:30",
       "sunset": "2026-04-09T19:28",
@@ -55,7 +55,7 @@
     },
     {
       "date": "2026-04-10",
-      "high_f": 39,
+      "high_f": 40,
       "low_f": 30,
       "rain_pct": 50,
       "uv": 8,
@@ -68,7 +68,7 @@
       "date": "2026-04-11",
       "high_f": 35,
       "low_f": 28,
-      "rain_pct": 78,
+      "rain_pct": 76,
       "uv": 7,
       "sunrise": "2026-04-11T06:27",
       "sunset": "2026-04-11T19:29",
@@ -90,7 +90,7 @@
       "date": "2026-04-13",
       "high_f": 30,
       "low_f": 12,
-      "rain_pct": 36,
+      "rain_pct": 38,
       "uv": 6,
       "sunrise": "2026-04-13T06:25",
       "sunset": "2026-04-13T19:31",
@@ -98,5 +98,5 @@
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-04-10T03:21:09.399437+00:00"
+  "updated_at": "2026-04-10T03:38:24.572374+00:00"
 }
