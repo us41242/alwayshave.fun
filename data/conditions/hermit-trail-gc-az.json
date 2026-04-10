@@ -17,16 +17,16 @@
   "notes": "Unmaintained \u2014 route-finding required",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 78,
-  "score_label": "Good conditions",
+  "score": 90,
+  "score_label": "Great day to go",
   "gear_flags": [
     "mask for sensitive groups"
   ],
   "current": {
-    "temp_f": 49,
-    "feels_like_f": 38,
+    "temp_f": 51,
+    "feels_like_f": 41,
     "wind_mph": 13,
-    "gusts_mph": 19,
+    "gusts_mph": 20,
     "rain_pct": 0
   },
   "aqi": {
@@ -37,7 +37,7 @@
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": 471.1,
+    "nearest_fire_km": null,
     "fire_count_50km": 0
   },
   "river": null,
@@ -98,5 +98,5 @@
       "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-04-10T13:44:36.112408+00:00"
+  "updated_at": "2026-04-10T14:04:30.989615+00:00"
 }
