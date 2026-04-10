@@ -17,20 +17,20 @@
   "notes": "Creek crossings \u2014 check water levels after rain",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 100,
+  "score": 88,
   "score_label": "Great day to go",
   "gear_flags": [
     "wind layer recommended"
   ],
   "current": {
     "temp_f": 68,
-    "feels_like_f": 63,
-    "wind_mph": 13,
-    "gusts_mph": 20,
+    "feels_like_f": 59,
+    "wind_mph": 21,
+    "gusts_mph": 26,
     "rain_pct": 1
   },
   "aqi": {
-    "aqi": 44,
+    "aqi": 45,
     "category": "Good",
     "pollutant": "O3",
     "source": "airnow"
@@ -58,7 +58,7 @@
     },
     {
       "date": "2026-04-11",
-      "high_f": 66,
+      "high_f": 65,
       "low_f": 48,
       "rain_pct": 10,
       "uv": 8,
@@ -70,7 +70,7 @@
     {
       "date": "2026-04-12",
       "high_f": 61,
-      "low_f": 42,
+      "low_f": 43,
       "rain_pct": 5,
       "uv": 7,
       "sunrise": "2026-04-12T05:58",
@@ -101,5 +101,5 @@
       "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-04-10T20:03:25.498379+00:00"
+  "updated_at": "2026-04-10T20:24:03.271686+00:00"
 }

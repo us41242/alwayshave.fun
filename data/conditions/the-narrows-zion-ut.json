@@ -23,14 +23,14 @@
     "wind layer recommended"
   ],
   "current": {
-    "temp_f": 72,
-    "feels_like_f": 59,
+    "temp_f": 73,
+    "feels_like_f": 63,
     "wind_mph": 21,
-    "gusts_mph": 28,
+    "gusts_mph": 27,
     "rain_pct": 1
   },
   "aqi": {
-    "aqi": 46,
+    "aqi": 50,
     "category": "Good",
     "pollutant": "O3",
     "source": "airnow"
@@ -41,7 +41,7 @@
     "fire_count_50km": 0
   },
   "river": {
-    "cfs": 8140,
+    "cfs": 8210,
     "stage": "flood"
   },
   "forecast": [
@@ -59,7 +59,7 @@
     {
       "date": "2026-04-11",
       "high_f": 67,
-      "low_f": 53,
+      "low_f": 52,
       "rain_pct": 22,
       "uv": 8,
       "sunrise": "2026-04-11T07:02",
@@ -70,7 +70,7 @@
     {
       "date": "2026-04-12",
       "high_f": 62,
-      "low_f": 48,
+      "low_f": 47,
       "rain_pct": 31,
       "uv": 8,
       "sunrise": "2026-04-12T07:00",
@@ -101,5 +101,5 @@
       "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-04-10T20:01:15.038662+00:00"
+  "updated_at": "2026-04-10T20:21:18.480754+00:00"
 }

@@ -31,7 +31,7 @@
     "rain_pct": 1
   },
   "aqi": {
-    "aqi": 61,
+    "aqi": 58,
     "category": "Moderate",
     "pollutant": "O3",
     "source": "airnow"
@@ -68,7 +68,7 @@
     {
       "date": "2026-04-12",
       "high_f": 61,
-      "low_f": 42,
+      "low_f": 43,
       "rain_pct": 10,
       "uv": 8,
       "sunrise": "2026-04-12T05:59",
@@ -99,5 +99,5 @@
       "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-04-10T20:03:26.084545+00:00"
+  "updated_at": "2026-04-10T20:24:04.261775+00:00"
 }
