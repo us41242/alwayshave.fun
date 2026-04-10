@@ -17,17 +17,17 @@
   "notes": "Permit required ($12); ladder required in upper section",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 88,
-  "score_label": "Great day to go",
+  "score": 70,
+  "score_label": "Good conditions",
   "gear_flags": [
     "wind layer recommended"
   ],
   "current": {
     "temp_f": 66,
-    "feels_like_f": 55,
-    "wind_mph": 23,
-    "gusts_mph": 30,
-    "rain_pct": 1
+    "feels_like_f": 53,
+    "wind_mph": 25,
+    "gusts_mph": 31,
+    "rain_pct": 2
   },
   "aqi": {
     "aqi": 50,
@@ -68,7 +68,7 @@
       "date": "2026-04-12",
       "high_f": 54,
       "low_f": 41,
-      "rain_pct": 44,
+      "rain_pct": 51,
       "uv": 8,
       "sunrise": "2026-04-12T07:01",
       "sunset": "2026-04-12T20:05",
@@ -79,18 +79,18 @@
       "date": "2026-04-13",
       "high_f": 51,
       "low_f": 35,
-      "rain_pct": 66,
+      "rain_pct": 59,
       "uv": 8,
       "sunrise": "2026-04-13T07:00",
       "sunset": "2026-04-13T20:06",
-      "predicted_score": 60,
-      "score_label": "Use caution"
+      "predicted_score": 70,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-04-14",
       "high_f": 58,
       "low_f": 33,
-      "rain_pct": 48,
+      "rain_pct": 51,
       "uv": 8,
       "sunrise": "2026-04-14T06:58",
       "sunset": "2026-04-14T20:07",
@@ -98,5 +98,5 @@
       "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-04-10T21:25:30.377813+00:00"
+  "updated_at": "2026-04-10T21:48:24.866628+00:00"
 }
