@@ -17,11 +17,9 @@
   "notes": "No cars beyond Spooner Summit; bike-legal trail",
   "dog_friendly": "Yes",
   "vehicle_req": "AWD",
-  "score": 70,
-  "score_label": "Good conditions",
-  "gear_flags": [
-    "insulation layer required"
-  ],
+  "score": 60,
+  "score_label": "Use caution",
+  "gear_flags": [],
   "current": {
     "temp_f": 36,
     "feels_like_f": 30,
@@ -41,62 +39,6 @@
     "fire_count_50km": 0
   },
   "river": null,
-  "forecast": [
-    {
-      "date": "2026-04-10",
-      "high_f": 49,
-      "low_f": 32,
-      "rain_pct": 30,
-      "uv": 7,
-      "sunrise": "2026-04-10T06:29",
-      "sunset": "2026-04-10T19:32",
-      "predicted_score": 88,
-      "score_label": "Great day to go"
-    },
-    {
-      "date": "2026-04-11",
-      "high_f": 38,
-      "low_f": 31,
-      "rain_pct": 66,
-      "uv": 7,
-      "sunrise": "2026-04-11T06:28",
-      "sunset": "2026-04-11T19:33",
-      "predicted_score": 60,
-      "score_label": "Use caution"
-    },
-    {
-      "date": "2026-04-12",
-      "high_f": 36,
-      "low_f": 25,
-      "rain_pct": 91,
-      "uv": 7,
-      "sunrise": "2026-04-12T06:26",
-      "sunset": "2026-04-12T19:34",
-      "predicted_score": 60,
-      "score_label": "Use caution"
-    },
-    {
-      "date": "2026-04-13",
-      "high_f": 39,
-      "low_f": 24,
-      "rain_pct": 27,
-      "uv": 7,
-      "sunrise": "2026-04-13T06:25",
-      "sunset": "2026-04-13T19:35",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
-    },
-    {
-      "date": "2026-04-14",
-      "high_f": 43,
-      "low_f": 29,
-      "rain_pct": 4,
-      "uv": 8,
-      "sunrise": "2026-04-14T06:23",
-      "sunset": "2026-04-14T19:36",
-      "predicted_score": 88,
-      "score_label": "Great day to go"
-    }
-  ],
-  "updated_at": "2026-04-10T09:28:28.357450+00:00"
+  "forecast": [],
+  "updated_at": "2026-04-10T09:50:51.710710+00:00"
 }
