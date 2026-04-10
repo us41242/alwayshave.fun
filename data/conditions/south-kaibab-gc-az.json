@@ -17,18 +17,18 @@
   "notes": "No water on trail \u2014 carry all water",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 90,
-  "score_label": "Great day to go",
+  "score": 78,
+  "score_label": "Good conditions",
   "gear_flags": [
     "wind layer recommended",
     "mask for sensitive groups"
   ],
   "current": {
-    "temp_f": 55,
-    "feels_like_f": 44,
-    "wind_mph": 15,
-    "gusts_mph": 25,
-    "rain_pct": 1
+    "temp_f": 57,
+    "feels_like_f": 47,
+    "wind_mph": 16,
+    "gusts_mph": 26,
+    "rain_pct": 0
   },
   "aqi": {
     "aqi": 71,
@@ -58,12 +58,12 @@
       "date": "2026-04-11",
       "high_f": 60,
       "low_f": 42,
-      "rain_pct": 9,
+      "rain_pct": 24,
       "uv": 8,
       "sunrise": "2026-04-11T06:00",
       "sunset": "2026-04-11T18:58",
-      "predicted_score": 90,
-      "score_label": "Great day to go"
+      "predicted_score": 78,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-04-12",
@@ -99,5 +99,5 @@
       "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-04-10T16:43:11.695309+00:00"
+  "updated_at": "2026-04-10T17:03:59.941551+00:00"
 }
