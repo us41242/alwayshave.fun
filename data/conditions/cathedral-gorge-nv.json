@@ -17,11 +17,9 @@
   "notes": "Slot canyon walls narrow \u2014 avoid during rain/flash flood risk",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 90,
-  "score_label": "Great day to go",
-  "gear_flags": [
-    "mask for sensitive groups"
-  ],
+  "score": 70,
+  "score_label": "Good conditions",
+  "gear_flags": [],
   "current": {
     "temp_f": 54,
     "feels_like_f": 47,
@@ -30,10 +28,10 @@
     "rain_pct": 0
   },
   "aqi": {
-    "aqi": 86,
-    "category": "Moderate",
-    "pollutant": "PM2.5",
-    "source": "open-meteo"
+    "aqi": null,
+    "category": "Unknown",
+    "pollutant": "",
+    "source": "none"
   },
   "fire": {
     "risk_level": "low",
@@ -50,8 +48,8 @@
       "uv": 8,
       "sunrise": "2026-04-10T06:08",
       "sunset": "2026-04-10T19:08",
-      "predicted_score": 90,
-      "score_label": "Great day to go"
+      "predicted_score": 70,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-04-11",
@@ -61,8 +59,8 @@
       "uv": 8,
       "sunrise": "2026-04-11T06:07",
       "sunset": "2026-04-11T19:09",
-      "predicted_score": 90,
-      "score_label": "Great day to go"
+      "predicted_score": 70,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-04-12",
@@ -72,8 +70,8 @@
       "uv": 7,
       "sunrise": "2026-04-12T06:06",
       "sunset": "2026-04-12T19:10",
-      "predicted_score": 60,
-      "score_label": "Use caution"
+      "predicted_score": 40,
+      "score_label": "Conditions poor"
     },
     {
       "date": "2026-04-13",
@@ -83,8 +81,8 @@
       "uv": 7,
       "sunrise": "2026-04-13T06:04",
       "sunset": "2026-04-13T19:11",
-      "predicted_score": 60,
-      "score_label": "Use caution"
+      "predicted_score": 40,
+      "score_label": "Conditions poor"
     },
     {
       "date": "2026-04-14",
@@ -94,9 +92,9 @@
       "uv": 8,
       "sunrise": "2026-04-14T06:03",
       "sunset": "2026-04-14T19:12",
-      "predicted_score": 90,
-      "score_label": "Great day to go"
+      "predicted_score": 70,
+      "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-04-10T08:01:43.395088+00:00"
+  "updated_at": "2026-04-10T08:22:10.125883+00:00"
 }
