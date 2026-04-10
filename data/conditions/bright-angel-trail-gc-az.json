@@ -17,8 +17,8 @@
   "notes": "Summer heat extreme \u2014 start before sunrise",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 78,
-  "score_label": "Good conditions",
+  "score": 50,
+  "score_label": "Use caution",
   "gear_flags": [
     "mask for sensitive groups"
   ],
@@ -41,65 +41,9 @@
     "fire_count_50km": 0
   },
   "river": {
-    "cfs": 8130,
+    "cfs": 8200,
     "stage": "flood"
   },
-  "forecast": [
-    {
-      "date": "2026-04-10",
-      "high_f": 66,
-      "low_f": 47,
-      "rain_pct": 7,
-      "uv": 7,
-      "sunrise": "2026-04-10T06:01",
-      "sunset": "2026-04-10T18:57",
-      "predicted_score": 90,
-      "score_label": "Great day to go"
-    },
-    {
-      "date": "2026-04-11",
-      "high_f": 61,
-      "low_f": 42,
-      "rain_pct": 11,
-      "uv": 8,
-      "sunrise": "2026-04-11T06:00",
-      "sunset": "2026-04-11T18:58",
-      "predicted_score": 78,
-      "score_label": "Good conditions"
-    },
-    {
-      "date": "2026-04-12",
-      "high_f": 58,
-      "low_f": 40,
-      "rain_pct": 15,
-      "uv": 8,
-      "sunrise": "2026-04-12T05:58",
-      "sunset": "2026-04-12T18:59",
-      "predicted_score": 78,
-      "score_label": "Good conditions"
-    },
-    {
-      "date": "2026-04-13",
-      "high_f": 54,
-      "low_f": 36,
-      "rain_pct": 36,
-      "uv": 7,
-      "sunrise": "2026-04-13T05:57",
-      "sunset": "2026-04-13T19:00",
-      "predicted_score": 60,
-      "score_label": "Use caution"
-    },
-    {
-      "date": "2026-04-14",
-      "high_f": 55,
-      "low_f": 31,
-      "rain_pct": 24,
-      "uv": 8,
-      "sunrise": "2026-04-14T05:56",
-      "sunset": "2026-04-14T19:01",
-      "predicted_score": 78,
-      "score_label": "Good conditions"
-    }
-  ],
-  "updated_at": "2026-04-10T11:22:49.957087+00:00"
+  "forecast": [],
+  "updated_at": "2026-04-10T11:42:49.363309+00:00"
 }
