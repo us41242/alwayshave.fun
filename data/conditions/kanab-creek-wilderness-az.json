@@ -17,16 +17,17 @@
   "notes": "High-clearance vehicle required for access road",
   "dog_friendly": "Yes",
   "vehicle_req": "High-Clearance",
-  "score": 70,
+  "score": 78,
   "score_label": "Good conditions",
   "gear_flags": [
+    "wind layer recommended",
     "mask for sensitive groups"
   ],
   "current": {
     "temp_f": 78,
-    "feels_like_f": 68,
-    "wind_mph": 12,
-    "gusts_mph": 18,
+    "feels_like_f": 64,
+    "wind_mph": 19,
+    "gusts_mph": 24,
     "rain_pct": 0
   },
   "aqi": {
@@ -36,8 +37,8 @@
     "source": "airnow"
   },
   "fire": {
-    "risk_level": "moderate",
-    "nearest_fire_km": 68.1,
+    "risk_level": "low",
+    "nearest_fire_km": null,
     "fire_count_50km": 0
   },
   "river": {
@@ -53,7 +54,7 @@
       "uv": 7,
       "sunrise": "2026-04-09T06:03",
       "sunset": "2026-04-09T18:59",
-      "predicted_score": 70,
+      "predicted_score": 78,
       "score_label": "Good conditions"
     },
     {
@@ -64,7 +65,7 @@
       "uv": 7,
       "sunrise": "2026-04-10T06:02",
       "sunset": "2026-04-10T19:00",
-      "predicted_score": 70,
+      "predicted_score": 78,
       "score_label": "Good conditions"
     },
     {
@@ -75,7 +76,7 @@
       "uv": 8,
       "sunrise": "2026-04-11T06:00",
       "sunset": "2026-04-11T19:01",
-      "predicted_score": 70,
+      "predicted_score": 78,
       "score_label": "Good conditions"
     },
     {
@@ -86,7 +87,7 @@
       "uv": 8,
       "sunrise": "2026-04-12T05:59",
       "sunset": "2026-04-12T19:02",
-      "predicted_score": 52,
+      "predicted_score": 60,
       "score_label": "Use caution"
     },
     {
@@ -97,9 +98,9 @@
       "uv": 7,
       "sunrise": "2026-04-13T05:58",
       "sunset": "2026-04-13T19:02",
-      "predicted_score": 52,
+      "predicted_score": 60,
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-04-09T23:41:34.388808+00:00"
+  "updated_at": "2026-04-10T00:01:28.313321+00:00"
 }

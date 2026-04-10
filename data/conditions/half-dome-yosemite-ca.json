@@ -17,17 +17,17 @@
   "notes": "Cable permit required May\u2013Oct; lottery in spring \u2014 book early",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 80,
-  "score_label": "Good conditions",
+  "score": 88,
+  "score_label": "Great day to go",
   "gear_flags": [
     "insulation layer required"
   ],
   "current": {
-    "temp_f": 43,
+    "temp_f": 42,
     "feels_like_f": 36,
     "wind_mph": 11,
     "gusts_mph": 14,
-    "rain_pct": 14
+    "rain_pct": 13
   },
   "aqi": {
     "aqi": 31,
@@ -36,8 +36,8 @@
     "source": "airnow"
   },
   "fire": {
-    "risk_level": "moderate",
-    "nearest_fire_km": 69.8,
+    "risk_level": "low",
+    "nearest_fire_km": null,
     "fire_count_50km": 0
   },
   "river": null,
@@ -50,8 +50,8 @@
       "uv": 6,
       "sunrise": "2026-04-09T06:30",
       "sunset": "2026-04-09T19:28",
-      "predicted_score": 80,
-      "score_label": "Good conditions"
+      "predicted_score": 88,
+      "score_label": "Great day to go"
     },
     {
       "date": "2026-04-10",
@@ -61,8 +61,8 @@
       "uv": 8,
       "sunrise": "2026-04-10T06:29",
       "sunset": "2026-04-10T19:28",
-      "predicted_score": 62,
-      "score_label": "Use caution"
+      "predicted_score": 70,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-04-11",
@@ -72,7 +72,7 @@
       "uv": 7,
       "sunrise": "2026-04-11T06:27",
       "sunset": "2026-04-11T19:29",
-      "predicted_score": 52,
+      "predicted_score": 60,
       "score_label": "Use caution"
     },
     {
@@ -83,7 +83,7 @@
       "uv": 4,
       "sunrise": "2026-04-12T06:26",
       "sunset": "2026-04-12T19:30",
-      "predicted_score": 52,
+      "predicted_score": 60,
       "score_label": "Use caution"
     },
     {
@@ -94,9 +94,9 @@
       "uv": 6,
       "sunrise": "2026-04-13T06:25",
       "sunset": "2026-04-13T19:31",
-      "predicted_score": 52,
+      "predicted_score": 60,
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-04-09T23:48:27.331067+00:00"
+  "updated_at": "2026-04-10T00:08:33.070005+00:00"
 }

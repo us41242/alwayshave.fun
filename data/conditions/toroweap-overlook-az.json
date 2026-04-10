@@ -23,7 +23,7 @@
     "mask for sensitive groups"
   ],
   "current": {
-    "temp_f": 82,
+    "temp_f": 81,
     "feels_like_f": 70,
     "wind_mph": 14,
     "gusts_mph": 19,
@@ -37,7 +37,7 @@
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": 148.2,
+    "nearest_fire_km": null,
     "fire_count_50km": 0
   },
   "river": null,
@@ -98,5 +98,5 @@
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-04-09T23:46:12.838194+00:00"
+  "updated_at": "2026-04-10T00:06:26.018237+00:00"
 }

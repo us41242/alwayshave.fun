@@ -17,10 +17,9 @@
   "notes": "Permit required ($12); ladder required in upper section",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 70,
-  "score_label": "Good conditions",
+  "score": 50,
+  "score_label": "Use caution",
   "gear_flags": [
-    "wind layer recommended",
     "mask for sensitive groups"
   ],
   "current": {
@@ -37,67 +36,11 @@
     "source": "airnow"
   },
   "fire": {
-    "risk_level": "moderate",
-    "nearest_fire_km": 53.3,
+    "risk_level": "low",
+    "nearest_fire_km": null,
     "fire_count_50km": 0
   },
   "river": null,
-  "forecast": [
-    {
-      "date": "2026-04-09",
-      "high_f": 71,
-      "low_f": 50,
-      "rain_pct": 1,
-      "uv": 7,
-      "sunrise": "2026-04-09T07:05",
-      "sunset": "2026-04-09T20:02",
-      "predicted_score": 82,
-      "score_label": "Good conditions"
-    },
-    {
-      "date": "2026-04-10",
-      "high_f": 66,
-      "low_f": 52,
-      "rain_pct": 5,
-      "uv": 8,
-      "sunrise": "2026-04-10T07:04",
-      "sunset": "2026-04-10T20:03",
-      "predicted_score": 82,
-      "score_label": "Good conditions"
-    },
-    {
-      "date": "2026-04-11",
-      "high_f": 59,
-      "low_f": 47,
-      "rain_pct": 33,
-      "uv": 8,
-      "sunrise": "2026-04-11T07:02",
-      "sunset": "2026-04-11T20:04",
-      "predicted_score": 52,
-      "score_label": "Use caution"
-    },
-    {
-      "date": "2026-04-12",
-      "high_f": 54,
-      "low_f": 39,
-      "rain_pct": 72,
-      "uv": 8,
-      "sunrise": "2026-04-12T07:01",
-      "sunset": "2026-04-12T20:05",
-      "predicted_score": 42,
-      "score_label": "Conditions poor"
-    },
-    {
-      "date": "2026-04-13",
-      "high_f": 51,
-      "low_f": 37,
-      "rain_pct": 72,
-      "uv": 7,
-      "sunrise": "2026-04-13T07:00",
-      "sunset": "2026-04-13T20:06",
-      "predicted_score": 42,
-      "score_label": "Conditions poor"
-    }
-  ],
-  "updated_at": "2026-04-09T23:48:01.504297+00:00"
+  "forecast": [],
+  "updated_at": "2026-04-10T00:07:28.477713+00:00"
 }
