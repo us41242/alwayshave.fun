@@ -17,10 +17,9 @@
   "notes": "Summer heat extreme \u2014 start before sunrise",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 90,
-  "score_label": "Great day to go",
+  "score": 50,
+  "score_label": "Use caution",
   "gear_flags": [
-    "wind layer recommended",
     "mask for sensitive groups"
   ],
   "current": {
@@ -31,7 +30,7 @@
     "rain_pct": 0
   },
   "aqi": {
-    "aqi": 87,
+    "aqi": 84,
     "category": "Moderate",
     "pollutant": "O3",
     "source": "airnow"
@@ -45,62 +44,6 @@
     "cfs": 8550,
     "stage": "flood"
   },
-  "forecast": [
-    {
-      "date": "2026-04-09",
-      "high_f": 70,
-      "low_f": 43,
-      "rain_pct": 0,
-      "uv": 7,
-      "sunrise": "2026-04-09T06:02",
-      "sunset": "2026-04-09T18:57",
-      "predicted_score": 90,
-      "score_label": "Great day to go"
-    },
-    {
-      "date": "2026-04-10",
-      "high_f": 65,
-      "low_f": 47,
-      "rain_pct": 4,
-      "uv": 7,
-      "sunrise": "2026-04-10T06:01",
-      "sunset": "2026-04-10T18:57",
-      "predicted_score": 90,
-      "score_label": "Great day to go"
-    },
-    {
-      "date": "2026-04-11",
-      "high_f": 61,
-      "low_f": 42,
-      "rain_pct": 14,
-      "uv": 8,
-      "sunrise": "2026-04-11T06:00",
-      "sunset": "2026-04-11T18:58",
-      "predicted_score": 78,
-      "score_label": "Good conditions"
-    },
-    {
-      "date": "2026-04-12",
-      "high_f": 58,
-      "low_f": 40,
-      "rain_pct": 24,
-      "uv": 8,
-      "sunrise": "2026-04-12T05:58",
-      "sunset": "2026-04-12T18:59",
-      "predicted_score": 78,
-      "score_label": "Good conditions"
-    },
-    {
-      "date": "2026-04-13",
-      "high_f": 52,
-      "low_f": 34,
-      "rain_pct": 42,
-      "uv": 5,
-      "sunrise": "2026-04-13T05:57",
-      "sunset": "2026-04-13T19:00",
-      "predicted_score": 60,
-      "score_label": "Use caution"
-    }
-  ],
-  "updated_at": "2026-04-10T02:03:46.140485+00:00"
+  "forecast": [],
+  "updated_at": "2026-04-10T02:23:37.735477+00:00"
 }
