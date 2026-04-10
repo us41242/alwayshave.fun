@@ -20,14 +20,15 @@
   "score": 90,
   "score_label": "Great day to go",
   "gear_flags": [
+    "wind layer recommended",
     "mask for sensitive groups"
   ],
   "current": {
-    "temp_f": 73,
-    "feels_like_f": 65,
-    "wind_mph": 13,
-    "gusts_mph": 19,
-    "rain_pct": 0
+    "temp_f": 74,
+    "feels_like_f": 66,
+    "wind_mph": 12,
+    "gusts_mph": 21,
+    "rain_pct": 1
   },
   "aqi": {
     "aqi": 67,
@@ -46,7 +47,7 @@
       "date": "2026-04-10",
       "high_f": 80,
       "low_f": 54,
-      "rain_pct": 2,
+      "rain_pct": 3,
       "uv": 7,
       "sunrise": "2026-04-10T06:03",
       "sunset": "2026-04-10T19:00",
@@ -98,5 +99,5 @@
       "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-04-10T17:25:43.402332+00:00"
+  "updated_at": "2026-04-10T17:46:37.058201+00:00"
 }
