@@ -17,11 +17,9 @@
   "notes": "No water on trail \u2014 carry all water",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 70,
-  "score_label": "Good conditions",
-  "gear_flags": [
-    "wind layer recommended"
-  ],
+  "score": 30,
+  "score_label": "Conditions poor",
+  "gear_flags": [],
   "current": {
     "temp_f": 59,
     "feels_like_f": 44,
@@ -30,10 +28,10 @@
     "rain_pct": 0
   },
   "aqi": {
-    "aqi": 40,
-    "category": "Good",
-    "pollutant": "PM2.5",
-    "source": "open-meteo"
+    "aqi": null,
+    "category": "Unknown",
+    "pollutant": "",
+    "source": "none"
   },
   "fire": {
     "risk_level": "low",
@@ -41,62 +39,6 @@
     "fire_count_50km": 0
   },
   "river": null,
-  "forecast": [
-    {
-      "date": "2026-04-11",
-      "high_f": 59,
-      "low_f": 40,
-      "rain_pct": 18,
-      "uv": 8,
-      "sunrise": "2026-04-11T06:00",
-      "sunset": "2026-04-11T18:58",
-      "predicted_score": 88,
-      "score_label": "Great day to go"
-    },
-    {
-      "date": "2026-04-12",
-      "high_f": 56,
-      "low_f": 37,
-      "rain_pct": 3,
-      "uv": 8,
-      "sunrise": "2026-04-12T05:58",
-      "sunset": "2026-04-12T18:59",
-      "predicted_score": 100,
-      "score_label": "Great day to go"
-    },
-    {
-      "date": "2026-04-13",
-      "high_f": 53,
-      "low_f": 32,
-      "rain_pct": 50,
-      "uv": 7,
-      "sunrise": "2026-04-13T05:57",
-      "sunset": "2026-04-13T19:00",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
-    },
-    {
-      "date": "2026-04-14",
-      "high_f": 50,
-      "low_f": 30,
-      "rain_pct": 23,
-      "uv": 8,
-      "sunrise": "2026-04-14T05:56",
-      "sunset": "2026-04-14T19:01",
-      "predicted_score": 88,
-      "score_label": "Great day to go"
-    },
-    {
-      "date": "2026-04-15",
-      "high_f": 59,
-      "low_f": 35,
-      "rain_pct": 1,
-      "uv": 8,
-      "sunrise": "2026-04-15T05:54",
-      "sunset": "2026-04-15T19:01",
-      "predicted_score": 100,
-      "score_label": "Great day to go"
-    }
-  ],
-  "updated_at": "2026-04-11T21:43:14.954122+00:00"
+  "forecast": [],
+  "updated_at": "2026-04-11T22:04:40.413466+00:00"
 }
