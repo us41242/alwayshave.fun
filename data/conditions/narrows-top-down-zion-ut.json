@@ -38,7 +38,10 @@
     "nearest_fire_km": null,
     "fire_count_50km": 0
   },
-  "river": null,
+  "river": {
+    "cfs": 8280,
+    "stage": "flood"
+  },
   "forecast": [],
-  "updated_at": "2026-04-11T04:24:31.529753+00:00"
+  "updated_at": "2026-04-11T04:45:29.215898+00:00"
 }
