@@ -17,18 +17,18 @@
   "notes": "Flash flood zone \u2014 avoid any chance of rain",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 60,
-  "score_label": "Use caution",
+  "score": 100,
+  "score_label": "Great day to go",
   "gear_flags": [],
   "current": {
-    "temp_f": 53,
+    "temp_f": 52,
     "feels_like_f": 46,
-    "wind_mph": 5,
-    "gusts_mph": 5,
+    "wind_mph": 4,
+    "gusts_mph": 3,
     "rain_pct": 1
   },
   "aqi": {
-    "aqi": 48,
+    "aqi": 46,
     "category": "Good",
     "pollutant": "PM2.5",
     "source": "open-meteo"
@@ -39,6 +39,62 @@
     "fire_count_50km": 0
   },
   "river": null,
-  "forecast": [],
-  "updated_at": "2026-04-11T08:45:33.810504+00:00"
+  "forecast": [
+    {
+      "date": "2026-04-11",
+      "high_f": 70,
+      "low_f": 50,
+      "rain_pct": 11,
+      "uv": 8,
+      "sunrise": "2026-04-11T06:58",
+      "sunset": "2026-04-11T19:59",
+      "predicted_score": 88,
+      "score_label": "Great day to go"
+    },
+    {
+      "date": "2026-04-12",
+      "high_f": 65,
+      "low_f": 44,
+      "rain_pct": 8,
+      "uv": 8,
+      "sunrise": "2026-04-12T06:57",
+      "sunset": "2026-04-12T19:59",
+      "predicted_score": 100,
+      "score_label": "Great day to go"
+    },
+    {
+      "date": "2026-04-13",
+      "high_f": 59,
+      "low_f": 41,
+      "rain_pct": 30,
+      "uv": 7,
+      "sunrise": "2026-04-13T06:55",
+      "sunset": "2026-04-13T20:00",
+      "predicted_score": 88,
+      "score_label": "Great day to go"
+    },
+    {
+      "date": "2026-04-14",
+      "high_f": 60,
+      "low_f": 40,
+      "rain_pct": 23,
+      "uv": 8,
+      "sunrise": "2026-04-14T06:54",
+      "sunset": "2026-04-14T20:01",
+      "predicted_score": 88,
+      "score_label": "Great day to go"
+    },
+    {
+      "date": "2026-04-15",
+      "high_f": 66,
+      "low_f": 43,
+      "rain_pct": 4,
+      "uv": 8,
+      "sunrise": "2026-04-15T06:53",
+      "sunset": "2026-04-15T20:02",
+      "predicted_score": 100,
+      "score_label": "Great day to go"
+    }
+  ],
+  "updated_at": "2026-04-11T09:05:36.221007+00:00"
 }
