@@ -17,10 +17,9 @@
   "notes": "Free entry; busy weekends \u2014 arrive before 9am",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 78,
-  "score_label": "Good conditions",
+  "score": 50,
+  "score_label": "Use caution",
   "gear_flags": [
-    "insulation layer required",
     "mask for sensitive groups"
   ],
   "current": {
@@ -42,62 +41,6 @@
     "fire_count_50km": 0
   },
   "river": null,
-  "forecast": [
-    {
-      "date": "2026-04-11",
-      "high_f": 71,
-      "low_f": 41,
-      "rain_pct": 11,
-      "uv": 7,
-      "sunrise": "2026-04-11T06:28",
-      "sunset": "2026-04-11T19:32",
-      "predicted_score": 78,
-      "score_label": "Good conditions"
-    },
-    {
-      "date": "2026-04-12",
-      "high_f": 71,
-      "low_f": 43,
-      "rain_pct": 6,
-      "uv": 8,
-      "sunrise": "2026-04-12T06:26",
-      "sunset": "2026-04-12T19:33",
-      "predicted_score": 90,
-      "score_label": "Great day to go"
-    },
-    {
-      "date": "2026-04-13",
-      "high_f": 66,
-      "low_f": 48,
-      "rain_pct": 6,
-      "uv": 8,
-      "sunrise": "2026-04-13T06:25",
-      "sunset": "2026-04-13T19:34",
-      "predicted_score": 90,
-      "score_label": "Great day to go"
-    },
-    {
-      "date": "2026-04-14",
-      "high_f": 56,
-      "low_f": 44,
-      "rain_pct": 29,
-      "uv": 5,
-      "sunrise": "2026-04-14T06:23",
-      "sunset": "2026-04-14T19:35",
-      "predicted_score": 78,
-      "score_label": "Good conditions"
-    },
-    {
-      "date": "2026-04-15",
-      "high_f": 65,
-      "low_f": 41,
-      "rain_pct": 23,
-      "uv": 8,
-      "sunrise": "2026-04-15T06:22",
-      "sunset": "2026-04-15T19:36",
-      "predicted_score": 78,
-      "score_label": "Good conditions"
-    }
-  ],
-  "updated_at": "2026-04-11T06:29:29.333149+00:00"
+  "forecast": [],
+  "updated_at": "2026-04-11T06:49:23.717422+00:00"
 }
