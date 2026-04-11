@@ -17,26 +17,28 @@
   "notes": "Coastal trail with beach access; busy weekends \u2014 reserve parking",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 100,
+  "score": 86,
   "score_label": "Great day to go",
-  "gear_flags": [],
+  "gear_flags": [
+    "N95 mask recommended for wildfire smoke"
+  ],
   "current": {
-    "temp_f": 62,
-    "feels_like_f": 64,
+    "temp_f": 63,
+    "feels_like_f": 65,
     "wind_mph": 2,
     "gusts_mph": 5,
-    "rain_pct": 6
+    "rain_pct": 7
   },
   "aqi": {
-    "aqi": 24,
+    "aqi": 23,
     "category": "Good",
     "pollutant": "PM2.5",
     "source": "open-meteo"
   },
   "fire": {
-    "risk_level": "low",
-    "nearest_fire_km": null,
-    "fire_count_50km": 0
+    "risk_level": "elevated",
+    "nearest_fire_km": 22.4,
+    "fire_count_50km": 3
   },
   "river": null,
   "forecast": [
@@ -48,8 +50,8 @@
       "uv": 8,
       "sunrise": "2026-04-11T06:25",
       "sunset": "2026-04-11T19:19",
-      "predicted_score": 88,
-      "score_label": "Great day to go"
+      "predicted_score": 74,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-04-12",
@@ -59,8 +61,8 @@
       "uv": 7,
       "sunrise": "2026-04-12T06:24",
       "sunset": "2026-04-12T19:19",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
+      "predicted_score": 56,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-04-13",
@@ -70,8 +72,8 @@
       "uv": 7,
       "sunrise": "2026-04-13T06:22",
       "sunset": "2026-04-13T19:20",
-      "predicted_score": 88,
-      "score_label": "Great day to go"
+      "predicted_score": 74,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-04-14",
@@ -81,7 +83,7 @@
       "uv": 8,
       "sunrise": "2026-04-14T06:21",
       "sunset": "2026-04-14T19:21",
-      "predicted_score": 100,
+      "predicted_score": 86,
       "score_label": "Great day to go"
     },
     {
@@ -92,9 +94,9 @@
       "uv": 8,
       "sunrise": "2026-04-15T06:20",
       "sunset": "2026-04-15T19:22",
-      "predicted_score": 100,
+      "predicted_score": 86,
       "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-04-11T14:50:50.063781+00:00"
+  "updated_at": "2026-04-11T15:08:36.050150+00:00"
 }
