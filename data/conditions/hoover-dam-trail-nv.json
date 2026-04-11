@@ -17,16 +17,17 @@
   "notes": "Paved trail \u2014 no permit required",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 46,
-  "score_label": "Conditions poor",
+  "score": 74,
+  "score_label": "Good conditions",
   "gear_flags": [
+    "wind layer recommended",
     "N95 mask recommended for wildfire smoke"
   ],
   "current": {
-    "temp_f": 86,
-    "feels_like_f": 74,
-    "wind_mph": 22,
-    "gusts_mph": 25,
+    "temp_f": 85,
+    "feels_like_f": 72,
+    "wind_mph": 21,
+    "gusts_mph": 26,
     "rain_pct": 0
   },
   "aqi": {
@@ -41,6 +42,62 @@
     "fire_count_50km": 2
   },
   "river": null,
-  "forecast": [],
-  "updated_at": "2026-04-11T22:46:48.593376+00:00"
+  "forecast": [
+    {
+      "date": "2026-04-11",
+      "high_f": 85,
+      "low_f": 66,
+      "rain_pct": 1,
+      "uv": 7,
+      "sunrise": "2026-04-11T06:10",
+      "sunset": "2026-04-11T19:09",
+      "predicted_score": 74,
+      "score_label": "Good conditions"
+    },
+    {
+      "date": "2026-04-12",
+      "high_f": 77,
+      "low_f": 60,
+      "rain_pct": 6,
+      "uv": 7,
+      "sunrise": "2026-04-12T06:09",
+      "sunset": "2026-04-12T19:09",
+      "predicted_score": 74,
+      "score_label": "Good conditions"
+    },
+    {
+      "date": "2026-04-13",
+      "high_f": 74,
+      "low_f": 54,
+      "rain_pct": 20,
+      "uv": 7,
+      "sunrise": "2026-04-13T06:07",
+      "sunset": "2026-04-13T19:10",
+      "predicted_score": 74,
+      "score_label": "Good conditions"
+    },
+    {
+      "date": "2026-04-14",
+      "high_f": 79,
+      "low_f": 54,
+      "rain_pct": 3,
+      "uv": 7,
+      "sunrise": "2026-04-14T06:06",
+      "sunset": "2026-04-14T19:11",
+      "predicted_score": 74,
+      "score_label": "Good conditions"
+    },
+    {
+      "date": "2026-04-15",
+      "high_f": 85,
+      "low_f": 59,
+      "rain_pct": 0,
+      "uv": 7,
+      "sunrise": "2026-04-15T06:05",
+      "sunset": "2026-04-15T19:12",
+      "predicted_score": 74,
+      "score_label": "Good conditions"
+    }
+  ],
+  "updated_at": "2026-04-11T23:07:33.789352+00:00"
 }

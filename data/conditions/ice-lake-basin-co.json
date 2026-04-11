@@ -17,25 +17,24 @@
   "notes": "High-alpine \u2014 thunderstorm risk after noon; start before 7am",
   "dog_friendly": "Yes",
   "vehicle_req": "High-Clearance",
-  "score": 50,
+  "score": 60,
   "score_label": "Use caution",
   "gear_flags": [
     "wind layer recommended",
-    "insulation layer required",
-    "mask for sensitive groups"
+    "insulation layer required"
   ],
   "current": {
     "temp_f": 33,
-    "feels_like_f": 19,
-    "wind_mph": 21,
-    "gusts_mph": 32,
-    "rain_pct": 7
+    "feels_like_f": 20,
+    "wind_mph": 19,
+    "gusts_mph": 28,
+    "rain_pct": 6
   },
   "aqi": {
-    "aqi": 72,
-    "category": "Moderate",
-    "pollutant": "PM2.5",
-    "source": "open-meteo"
+    "aqi": 5,
+    "category": "Good",
+    "pollutant": "PM10",
+    "source": "airnow"
   },
   "fire": {
     "risk_level": "low",
@@ -52,7 +51,7 @@
       "uv": 4,
       "sunrise": "2026-04-11T06:40",
       "sunset": "2026-04-11T19:43",
-      "predicted_score": 50,
+      "predicted_score": 60,
       "score_label": "Use caution"
     },
     {
@@ -63,8 +62,8 @@
       "uv": 8,
       "sunrise": "2026-04-12T06:39",
       "sunset": "2026-04-12T19:43",
-      "predicted_score": 60,
-      "score_label": "Use caution"
+      "predicted_score": 70,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-04-13",
@@ -74,7 +73,7 @@
       "uv": 8,
       "sunrise": "2026-04-13T06:38",
       "sunset": "2026-04-13T19:44",
-      "predicted_score": 50,
+      "predicted_score": 60,
       "score_label": "Use caution"
     },
     {
@@ -85,7 +84,7 @@
       "uv": 8,
       "sunrise": "2026-04-14T06:36",
       "sunset": "2026-04-14T19:45",
-      "predicted_score": 50,
+      "predicted_score": 60,
       "score_label": "Use caution"
     },
     {
@@ -96,9 +95,9 @@
       "uv": 9,
       "sunrise": "2026-04-15T06:35",
       "sunset": "2026-04-15T19:46",
-      "predicted_score": 50,
+      "predicted_score": 60,
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-04-11T22:53:30.316620+00:00"
+  "updated_at": "2026-04-11T23:10:30.756778+00:00"
 }
