@@ -17,23 +17,24 @@
   "notes": "Timed entry permit required May\u2013Oct \u2014 book Recreation.gov",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 88,
-  "score_label": "Great day to go",
+  "score": 78,
+  "score_label": "Good conditions",
   "gear_flags": [
-    "wind layer recommended"
+    "wind layer recommended",
+    "mask for sensitive groups"
   ],
   "current": {
     "temp_f": 49,
     "feels_like_f": 40,
-    "wind_mph": 16,
-    "gusts_mph": 31,
-    "rain_pct": 15
+    "wind_mph": 12,
+    "gusts_mph": 25,
+    "rain_pct": 11
   },
   "aqi": {
-    "aqi": 46,
-    "category": "Good",
-    "pollutant": "O3",
-    "source": "airnow"
+    "aqi": 57,
+    "category": "Moderate",
+    "pollutant": "PM2.5",
+    "source": "open-meteo"
   },
   "fire": {
     "risk_level": "low",
@@ -50,8 +51,8 @@
       "uv": 7,
       "sunrise": "2026-04-11T06:36",
       "sunset": "2026-04-11T19:42",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
+      "predicted_score": 60,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-04-12",
@@ -61,8 +62,8 @@
       "uv": 8,
       "sunrise": "2026-04-12T06:35",
       "sunset": "2026-04-12T19:43",
-      "predicted_score": 88,
-      "score_label": "Great day to go"
+      "predicted_score": 78,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-04-13",
@@ -72,8 +73,8 @@
       "uv": 7,
       "sunrise": "2026-04-13T06:33",
       "sunset": "2026-04-13T19:44",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
+      "predicted_score": 60,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-04-14",
@@ -83,7 +84,7 @@
       "uv": 6,
       "sunrise": "2026-04-14T06:32",
       "sunset": "2026-04-14T19:45",
-      "predicted_score": 60,
+      "predicted_score": 50,
       "score_label": "Use caution"
     },
     {
@@ -94,9 +95,9 @@
       "uv": 8,
       "sunrise": "2026-04-15T06:30",
       "sunset": "2026-04-15T19:46",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
+      "predicted_score": 60,
+      "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-04-11T22:29:36.942563+00:00"
+  "updated_at": "2026-04-11T22:51:00.411699+00:00"
 }
