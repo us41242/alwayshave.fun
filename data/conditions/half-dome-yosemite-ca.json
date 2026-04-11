@@ -17,14 +17,16 @@
   "notes": "Cable permit required May\u2013Oct; lottery in spring \u2014 book early",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 60,
-  "score_label": "Use caution",
-  "gear_flags": [],
+  "score": 70,
+  "score_label": "Good conditions",
+  "gear_flags": [
+    "insulation layer required"
+  ],
   "current": {
-    "temp_f": 33,
-    "feels_like_f": 26,
-    "wind_mph": 10,
-    "gusts_mph": 14,
+    "temp_f": 35,
+    "feels_like_f": 27,
+    "wind_mph": 12,
+    "gusts_mph": 18,
     "rain_pct": 1
   },
   "aqi": {
@@ -39,6 +41,62 @@
     "fire_count_50km": 0
   },
   "river": null,
-  "forecast": [],
-  "updated_at": "2026-04-11T17:50:55.237832+00:00"
+  "forecast": [
+    {
+      "date": "2026-04-11",
+      "high_f": 35,
+      "low_f": 26,
+      "rain_pct": 85,
+      "uv": 7,
+      "sunrise": "2026-04-11T06:27",
+      "sunset": "2026-04-11T19:29",
+      "predicted_score": 60,
+      "score_label": "Use caution"
+    },
+    {
+      "date": "2026-04-12",
+      "high_f": 26,
+      "low_f": 18,
+      "rain_pct": 96,
+      "uv": 6,
+      "sunrise": "2026-04-12T06:26",
+      "sunset": "2026-04-12T19:30",
+      "predicted_score": 60,
+      "score_label": "Use caution"
+    },
+    {
+      "date": "2026-04-13",
+      "high_f": 29,
+      "low_f": 14,
+      "rain_pct": 29,
+      "uv": 7,
+      "sunrise": "2026-04-13T06:25",
+      "sunset": "2026-04-13T19:31",
+      "predicted_score": 60,
+      "score_label": "Use caution"
+    },
+    {
+      "date": "2026-04-14",
+      "high_f": 33,
+      "low_f": 15,
+      "rain_pct": 1,
+      "uv": 8,
+      "sunrise": "2026-04-14T06:23",
+      "sunset": "2026-04-14T19:32",
+      "predicted_score": 60,
+      "score_label": "Use caution"
+    },
+    {
+      "date": "2026-04-15",
+      "high_f": 35,
+      "low_f": 18,
+      "rain_pct": 4,
+      "uv": 7,
+      "sunrise": "2026-04-15T06:22",
+      "sunset": "2026-04-15T19:33",
+      "predicted_score": 70,
+      "score_label": "Good conditions"
+    }
+  ],
+  "updated_at": "2026-04-11T18:10:52.331241+00:00"
 }
