@@ -23,8 +23,8 @@
   "current": {
     "temp_f": 58,
     "feels_like_f": 50,
-    "wind_mph": 8,
-    "gusts_mph": 12,
+    "wind_mph": 12,
+    "gusts_mph": 17,
     "rain_pct": 1
   },
   "aqi": {
@@ -43,7 +43,7 @@
     {
       "date": "2026-04-11",
       "high_f": 74,
-      "low_f": 57,
+      "low_f": 58,
       "rain_pct": 3,
       "uv": 7,
       "sunrise": "2026-04-11T07:05",
@@ -96,5 +96,5 @@
       "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-04-11T12:27:45.339048+00:00"
+  "updated_at": "2026-04-11T12:47:32.137804+00:00"
 }
