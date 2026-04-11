@@ -17,14 +17,16 @@
   "notes": "Hoodoos narrow \u2014 ice possible May/Oct",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 60,
-  "score_label": "Use caution",
-  "gear_flags": [],
+  "score": 88,
+  "score_label": "Great day to go",
+  "gear_flags": [
+    "wind layer recommended"
+  ],
   "current": {
-    "temp_f": 57,
-    "feels_like_f": 44,
-    "wind_mph": 20,
-    "gusts_mph": 26,
+    "temp_f": 55,
+    "feels_like_f": 43,
+    "wind_mph": 18,
+    "gusts_mph": 23,
     "rain_pct": 3
   },
   "aqi": {
@@ -39,6 +41,62 @@
     "fire_count_50km": 0
   },
   "river": null,
-  "forecast": [],
-  "updated_at": "2026-04-11T00:25:51.914596+00:00"
+  "forecast": [
+    {
+      "date": "2026-04-10",
+      "high_f": 59,
+      "low_f": 40,
+      "rain_pct": 3,
+      "uv": 8,
+      "sunrise": "2026-04-10T07:00",
+      "sunset": "2026-04-10T19:59",
+      "predicted_score": 100,
+      "score_label": "Great day to go"
+    },
+    {
+      "date": "2026-04-11",
+      "high_f": 54,
+      "low_f": 37,
+      "rain_pct": 28,
+      "uv": 8,
+      "sunrise": "2026-04-11T06:58",
+      "sunset": "2026-04-11T20:00",
+      "predicted_score": 88,
+      "score_label": "Great day to go"
+    },
+    {
+      "date": "2026-04-12",
+      "high_f": 50,
+      "low_f": 33,
+      "rain_pct": 21,
+      "uv": 8,
+      "sunrise": "2026-04-12T06:57",
+      "sunset": "2026-04-12T20:01",
+      "predicted_score": 88,
+      "score_label": "Great day to go"
+    },
+    {
+      "date": "2026-04-13",
+      "high_f": 44,
+      "low_f": 32,
+      "rain_pct": 64,
+      "uv": 8,
+      "sunrise": "2026-04-13T06:55",
+      "sunset": "2026-04-13T20:02",
+      "predicted_score": 60,
+      "score_label": "Use caution"
+    },
+    {
+      "date": "2026-04-14",
+      "high_f": 52,
+      "low_f": 26,
+      "rain_pct": 36,
+      "uv": 8,
+      "sunrise": "2026-04-14T06:54",
+      "sunset": "2026-04-14T20:03",
+      "predicted_score": 70,
+      "score_label": "Good conditions"
+    }
+  ],
+  "updated_at": "2026-04-11T00:44:50.151430+00:00"
 }
