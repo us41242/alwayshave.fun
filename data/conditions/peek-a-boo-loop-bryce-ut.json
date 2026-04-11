@@ -24,11 +24,11 @@
     "insulation layer required"
   ],
   "current": {
-    "temp_f": 42,
+    "temp_f": 45,
     "feels_like_f": 32,
-    "wind_mph": 16,
-    "gusts_mph": 27,
-    "rain_pct": 6
+    "wind_mph": 20,
+    "gusts_mph": 32,
+    "rain_pct": 5
   },
   "aqi": {
     "aqi": 37,
@@ -99,5 +99,5 @@
       "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-04-11T16:25:27.753941+00:00"
+  "updated_at": "2026-04-11T16:45:35.898989+00:00"
 }
