@@ -17,27 +17,27 @@
   "notes": "Free entry; busy weekends \u2014 arrive before 9am",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 70,
-  "score_label": "Good conditions",
+  "score": 88,
+  "score_label": "Great day to go",
   "gear_flags": [
     "wind layer recommended"
   ],
   "current": {
-    "temp_f": 61,
-    "feels_like_f": 46,
-    "wind_mph": 26,
-    "gusts_mph": 35,
-    "rain_pct": 5
+    "temp_f": 63,
+    "feels_like_f": 52,
+    "wind_mph": 19,
+    "gusts_mph": 26,
+    "rain_pct": 9
   },
   "aqi": {
-    "aqi": 47,
+    "aqi": 48,
     "category": "Good",
     "pollutant": "O3",
     "source": "airnow"
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": null,
+    "nearest_fire_km": 355.4,
     "fire_count_50km": 0
   },
   "river": null,
@@ -46,7 +46,7 @@
       "date": "2026-04-11",
       "high_f": 73,
       "low_f": 40,
-      "rain_pct": 7,
+      "rain_pct": 9,
       "uv": 7,
       "sunrise": "2026-04-11T06:28",
       "sunset": "2026-04-11T19:32",
@@ -68,7 +68,7 @@
       "date": "2026-04-13",
       "high_f": 66,
       "low_f": 50,
-      "rain_pct": 7,
+      "rain_pct": 5,
       "uv": 8,
       "sunrise": "2026-04-13T06:25",
       "sunset": "2026-04-13T19:34",
@@ -79,7 +79,7 @@
       "date": "2026-04-14",
       "high_f": 62,
       "low_f": 44,
-      "rain_pct": 38,
+      "rain_pct": 35,
       "uv": 7,
       "sunrise": "2026-04-14T06:23",
       "sunset": "2026-04-14T19:35",
@@ -90,7 +90,7 @@
       "date": "2026-04-15",
       "high_f": 64,
       "low_f": 44,
-      "rain_pct": 24,
+      "rain_pct": 25,
       "uv": 8,
       "sunrise": "2026-04-15T06:22",
       "sunset": "2026-04-15T19:36",
@@ -98,5 +98,5 @@
       "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-04-11T21:08:38.158983+00:00"
+  "updated_at": "2026-04-11T21:27:39.598406+00:00"
 }
