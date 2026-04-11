@@ -17,24 +17,25 @@
   "notes": "High-alpine \u2014 thunderstorm risk after noon; start before 7am",
   "dog_friendly": "Yes",
   "vehicle_req": "High-Clearance",
-  "score": 60,
+  "score": 50,
   "score_label": "Use caution",
   "gear_flags": [
     "wind layer recommended",
-    "insulation layer required"
+    "insulation layer required",
+    "mask for sensitive groups"
   ],
   "current": {
-    "temp_f": 29,
-    "feels_like_f": 18,
-    "wind_mph": 16,
-    "gusts_mph": 28,
-    "rain_pct": 6
+    "temp_f": 28,
+    "feels_like_f": 16,
+    "wind_mph": 17,
+    "gusts_mph": 29,
+    "rain_pct": 5
   },
   "aqi": {
-    "aqi": 15,
-    "category": "Good",
+    "aqi": 76,
+    "category": "Moderate",
     "pollutant": "PM2.5",
-    "source": "airnow"
+    "source": "open-meteo"
   },
   "fire": {
     "risk_level": "low",
@@ -51,7 +52,7 @@
       "uv": 6,
       "sunrise": "2026-04-11T06:40",
       "sunset": "2026-04-11T19:43",
-      "predicted_score": 60,
+      "predicted_score": 50,
       "score_label": "Use caution"
     },
     {
@@ -62,7 +63,7 @@
       "uv": 8,
       "sunrise": "2026-04-12T06:39",
       "sunset": "2026-04-12T19:43",
-      "predicted_score": 60,
+      "predicted_score": 50,
       "score_label": "Use caution"
     },
     {
@@ -73,7 +74,7 @@
       "uv": 8,
       "sunrise": "2026-04-13T06:38",
       "sunset": "2026-04-13T19:44",
-      "predicted_score": 60,
+      "predicted_score": 50,
       "score_label": "Use caution"
     },
     {
@@ -84,7 +85,7 @@
       "uv": 8,
       "sunrise": "2026-04-14T06:36",
       "sunset": "2026-04-14T19:45",
-      "predicted_score": 60,
+      "predicted_score": 50,
       "score_label": "Use caution"
     },
     {
@@ -95,9 +96,9 @@
       "uv": 8,
       "sunrise": "2026-04-15T06:35",
       "sunset": "2026-04-15T19:46",
-      "predicted_score": 60,
+      "predicted_score": 50,
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-04-11T06:08:39.912975+00:00"
+  "updated_at": "2026-04-11T06:30:37.370398+00:00"
 }
