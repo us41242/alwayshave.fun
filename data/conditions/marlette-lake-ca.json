@@ -20,16 +20,15 @@
   "score": 60,
   "score_label": "Use caution",
   "gear_flags": [
-    "wind layer recommended",
     "insulation layer required",
     "rain gear recommended"
   ],
   "current": {
-    "temp_f": 34,
+    "temp_f": 33,
     "feels_like_f": 26,
-    "wind_mph": 10,
-    "gusts_mph": 21,
-    "rain_pct": 57
+    "wind_mph": 7,
+    "gusts_mph": 16,
+    "rain_pct": 45
   },
   "aqi": {
     "aqi": 34,
@@ -47,8 +46,8 @@
     {
       "date": "2026-04-10",
       "high_f": 43,
-      "low_f": 31,
-      "rain_pct": 57,
+      "low_f": 32,
+      "rain_pct": 46,
       "uv": 6,
       "sunrise": "2026-04-10T06:29",
       "sunset": "2026-04-10T19:32",
@@ -70,7 +69,7 @@
       "date": "2026-04-12",
       "high_f": 30,
       "low_f": 22,
-      "rain_pct": 87,
+      "rain_pct": 88,
       "uv": 7,
       "sunrise": "2026-04-12T06:26",
       "sunset": "2026-04-12T19:34",
@@ -81,7 +80,7 @@
       "date": "2026-04-13",
       "high_f": 38,
       "low_f": 25,
-      "rain_pct": 26,
+      "rain_pct": 23,
       "uv": 7,
       "sunrise": "2026-04-13T06:25",
       "sunset": "2026-04-13T19:35",
@@ -92,7 +91,7 @@
       "date": "2026-04-14",
       "high_f": 41,
       "low_f": 28,
-      "rain_pct": 4,
+      "rain_pct": 3,
       "uv": 8,
       "sunrise": "2026-04-14T06:23",
       "sunset": "2026-04-14T19:36",
@@ -100,5 +99,5 @@
       "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-04-11T03:21:09.135415+00:00"
+  "updated_at": "2026-04-11T03:38:01.096850+00:00"
 }
