@@ -17,8 +17,8 @@
   "notes": "Timed entry permit required May\u2013Oct \u2014 book Recreation.gov",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 88,
-  "score_label": "Great day to go",
+  "score": 60,
+  "score_label": "Use caution",
   "gear_flags": [],
   "current": {
     "temp_f": 46,
@@ -35,66 +35,10 @@
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": 874.3,
+    "nearest_fire_km": null,
     "fire_count_50km": 0
   },
   "river": null,
-  "forecast": [
-    {
-      "date": "2026-04-11",
-      "high_f": 56,
-      "low_f": 39,
-      "rain_pct": 45,
-      "uv": 5,
-      "sunrise": "2026-04-11T06:36",
-      "sunset": "2026-04-11T19:42",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
-    },
-    {
-      "date": "2026-04-12",
-      "high_f": 57,
-      "low_f": 35,
-      "rain_pct": 11,
-      "uv": 8,
-      "sunrise": "2026-04-12T06:35",
-      "sunset": "2026-04-12T19:43",
-      "predicted_score": 88,
-      "score_label": "Great day to go"
-    },
-    {
-      "date": "2026-04-13",
-      "high_f": 47,
-      "low_f": 35,
-      "rain_pct": 39,
-      "uv": 6,
-      "sunrise": "2026-04-13T06:33",
-      "sunset": "2026-04-13T19:44",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
-    },
-    {
-      "date": "2026-04-14",
-      "high_f": 44,
-      "low_f": 31,
-      "rain_pct": 64,
-      "uv": 8,
-      "sunrise": "2026-04-14T06:32",
-      "sunset": "2026-04-14T19:45",
-      "predicted_score": 60,
-      "score_label": "Use caution"
-    },
-    {
-      "date": "2026-04-15",
-      "high_f": 51,
-      "low_f": 28,
-      "rain_pct": 25,
-      "uv": 8,
-      "sunrise": "2026-04-15T06:30",
-      "sunset": "2026-04-15T19:46",
-      "predicted_score": 88,
-      "score_label": "Great day to go"
-    }
-  ],
-  "updated_at": "2026-04-11T09:47:38.400513+00:00"
+  "forecast": [],
+  "updated_at": "2026-04-11T10:08:10.885376+00:00"
 }
