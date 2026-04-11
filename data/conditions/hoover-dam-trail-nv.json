@@ -24,18 +24,18 @@
     "temp_f": 73,
     "feels_like_f": 66,
     "wind_mph": 10,
-    "gusts_mph": 19,
-    "rain_pct": 1
+    "gusts_mph": 17,
+    "rain_pct": 0
   },
   "aqi": {
-    "aqi": 40,
+    "aqi": 35,
     "category": "Good",
     "pollutant": "O3",
     "source": "airnow"
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": null,
+    "nearest_fire_km": 1096.1,
     "fire_count_50km": 0
   },
   "river": null,
@@ -96,5 +96,5 @@
       "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-04-11T08:06:22.063683+00:00"
+  "updated_at": "2026-04-11T08:25:35.507895+00:00"
 }
