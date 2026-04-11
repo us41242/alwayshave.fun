@@ -20,13 +20,14 @@
   "score": 86,
   "score_label": "Great day to go",
   "gear_flags": [
+    "wind layer recommended",
     "N95 mask recommended for wildfire smoke"
   ],
   "current": {
-    "temp_f": 64,
-    "feels_like_f": 59,
+    "temp_f": 65,
+    "feels_like_f": 60,
     "wind_mph": 6,
-    "gusts_mph": 19,
+    "gusts_mph": 21,
     "rain_pct": 0
   },
   "aqi": {
@@ -98,5 +99,5 @@
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-04-11T13:27:27.896547+00:00"
+  "updated_at": "2026-04-11T13:45:29.888788+00:00"
 }

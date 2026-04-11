@@ -19,12 +19,10 @@
   "vehicle_req": "Any",
   "score": 88,
   "score_label": "Great day to go",
-  "gear_flags": [
-    "insulation layer required"
-  ],
+  "gear_flags": [],
   "current": {
-    "temp_f": 44,
-    "feels_like_f": 35,
+    "temp_f": 46,
+    "feels_like_f": 38,
     "wind_mph": 10,
     "gusts_mph": 15,
     "rain_pct": 1
@@ -98,5 +96,5 @@
       "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-04-11T13:29:36.094100+00:00"
+  "updated_at": "2026-04-11T13:47:28.629762+00:00"
 }
