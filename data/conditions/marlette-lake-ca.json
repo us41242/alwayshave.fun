@@ -25,17 +25,17 @@
     "rain gear recommended"
   ],
   "current": {
-    "temp_f": 33,
-    "feels_like_f": 25,
+    "temp_f": 34,
+    "feels_like_f": 26,
     "wind_mph": 10,
-    "gusts_mph": 22,
-    "rain_pct": 54
+    "gusts_mph": 21,
+    "rain_pct": 57
   },
   "aqi": {
-    "aqi": 38,
+    "aqi": 34,
     "category": "Good",
-    "pollutant": "O3",
-    "source": "airnow"
+    "pollutant": "PM2.5",
+    "source": "open-meteo"
   },
   "fire": {
     "risk_level": "low",
@@ -100,5 +100,5 @@
       "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-04-11T02:48:51.544729+00:00"
+  "updated_at": "2026-04-11T03:21:09.135415+00:00"
 }
