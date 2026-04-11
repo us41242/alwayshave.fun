@@ -32,7 +32,7 @@
     "rain_pct": 0
   },
   "aqi": {
-    "aqi": 64,
+    "aqi": 57,
     "category": "Moderate",
     "pollutant": "PM2.5",
     "source": "open-meteo"
@@ -44,17 +44,6 @@
   },
   "river": null,
   "forecast": [
-    {
-      "date": "2026-04-10",
-      "high_f": 43,
-      "low_f": 25,
-      "rain_pct": 2,
-      "uv": 8,
-      "sunrise": "2026-04-10T06:06",
-      "sunset": "2026-04-10T19:09",
-      "predicted_score": 78,
-      "score_label": "Good conditions"
-    },
     {
       "date": "2026-04-11",
       "high_f": 36,
@@ -98,7 +87,18 @@
       "sunset": "2026-04-14T19:13",
       "predicted_score": 50,
       "score_label": "Use caution"
+    },
+    {
+      "date": "2026-04-15",
+      "high_f": 42,
+      "low_f": 25,
+      "rain_pct": 4,
+      "uv": 7,
+      "sunrise": "2026-04-15T05:59",
+      "sunset": "2026-04-15T19:14",
+      "predicted_score": 78,
+      "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-04-11T06:47:58.818010+00:00"
+  "updated_at": "2026-04-11T07:08:16.039065+00:00"
 }
