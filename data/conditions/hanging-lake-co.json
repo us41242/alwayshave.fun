@@ -23,11 +23,11 @@
     "wind layer recommended"
   ],
   "current": {
-    "temp_f": 50,
-    "feels_like_f": 41,
+    "temp_f": 51,
+    "feels_like_f": 42,
     "wind_mph": 13,
     "gusts_mph": 28,
-    "rain_pct": 6
+    "rain_pct": 7
   },
   "aqi": {
     "aqi": 47,
@@ -37,7 +37,7 @@
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": 391.7,
+    "nearest_fire_km": null,
     "fire_count_50km": 0
   },
   "river": null,
@@ -98,5 +98,5 @@
       "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-04-11T23:48:46.592108+00:00"
+  "updated_at": "2026-04-12T00:07:51.736672+00:00"
 }
