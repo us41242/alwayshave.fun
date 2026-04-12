@@ -26,13 +26,13 @@
   ],
   "current": {
     "temp_f": 31,
-    "feels_like_f": 23,
-    "wind_mph": 10,
-    "gusts_mph": 32,
-    "rain_pct": 52
+    "feels_like_f": 21,
+    "wind_mph": 12,
+    "gusts_mph": 33,
+    "rain_pct": 53
   },
   "aqi": {
-    "aqi": 37,
+    "aqi": 39,
     "category": "Good",
     "pollutant": "O3",
     "source": "airnow"
@@ -100,5 +100,5 @@
       "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-04-12T03:51:05.367016+00:00"
+  "updated_at": "2026-04-12T04:11:43.621852+00:00"
 }
