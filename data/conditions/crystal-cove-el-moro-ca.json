@@ -17,8 +17,8 @@
   "notes": "Coastal trail with beach access; busy weekends \u2014 reserve parking",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 46,
-  "score_label": "Conditions poor",
+  "score": 16,
+  "score_label": "Stay home",
   "gear_flags": [
     "N95 mask recommended for wildfire smoke"
   ],
@@ -30,10 +30,10 @@
     "rain_pct": 18
   },
   "aqi": {
-    "aqi": 28,
-    "category": "Good",
-    "pollutant": "PM2.5",
-    "source": "open-meteo"
+    "aqi": null,
+    "category": "Unknown",
+    "pollutant": "",
+    "source": "none"
   },
   "fire": {
     "risk_level": "elevated",
@@ -42,5 +42,5 @@
   },
   "river": null,
   "forecast": [],
-  "updated_at": "2026-04-12T14:10:35.761359+00:00"
+  "updated_at": "2026-04-12T14:30:29.658014+00:00"
 }

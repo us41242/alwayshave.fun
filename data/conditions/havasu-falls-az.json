@@ -19,14 +19,12 @@
   "vehicle_req": "Any",
   "score": 92,
   "score_label": "Great day to go",
-  "gear_flags": [
-    "wind layer recommended"
-  ],
+  "gear_flags": [],
   "current": {
-    "temp_f": 55,
-    "feels_like_f": 48,
-    "wind_mph": 6,
-    "gusts_mph": 20,
+    "temp_f": 57,
+    "feels_like_f": 51,
+    "wind_mph": 5,
+    "gusts_mph": 19,
     "rain_pct": 1
   },
   "aqi": {
@@ -98,5 +96,5 @@
       "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-04-12T14:03:28.398435+00:00"
+  "updated_at": "2026-04-12T14:23:27.194962+00:00"
 }
