@@ -17,21 +17,22 @@
   "notes": "Timed entry permit required Jun\u2013Oct; Bear Lake Rd closes seasonally",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 88,
-  "score_label": "Great day to go",
+  "score": 78,
+  "score_label": "Good conditions",
   "gear_flags": [
-    "wind layer recommended"
+    "wind layer recommended",
+    "mask for sensitive groups"
   ],
   "current": {
-    "temp_f": 46,
+    "temp_f": 47,
     "feels_like_f": 34,
-    "wind_mph": 23,
+    "wind_mph": 22,
     "gusts_mph": 37,
     "rain_pct": 0
   },
   "aqi": {
-    "aqi": 49,
-    "category": "Good",
+    "aqi": 51,
+    "category": "Moderate",
     "pollutant": "PM2.5",
     "source": "open-meteo"
   },
@@ -50,19 +51,19 @@
       "uv": 8,
       "sunrise": "2026-04-12T06:28",
       "sunset": "2026-04-12T19:38",
-      "predicted_score": 88,
-      "score_label": "Great day to go"
+      "predicted_score": 78,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-04-13",
-      "high_f": 44,
-      "low_f": 28,
+      "high_f": 42,
+      "low_f": 29,
       "rain_pct": 6,
       "uv": 8,
       "sunrise": "2026-04-13T06:26",
       "sunset": "2026-04-13T19:39",
-      "predicted_score": 88,
-      "score_label": "Great day to go"
+      "predicted_score": 78,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-04-14",
@@ -72,7 +73,7 @@
       "uv": 6,
       "sunrise": "2026-04-14T06:25",
       "sunset": "2026-04-14T19:40",
-      "predicted_score": 60,
+      "predicted_score": 50,
       "score_label": "Use caution"
     },
     {
@@ -83,7 +84,7 @@
       "uv": 7,
       "sunrise": "2026-04-15T06:23",
       "sunset": "2026-04-15T19:41",
-      "predicted_score": 60,
+      "predicted_score": 50,
       "score_label": "Use caution"
     },
     {
@@ -94,9 +95,9 @@
       "uv": 8,
       "sunrise": "2026-04-16T06:22",
       "sunset": "2026-04-16T19:42",
-      "predicted_score": 88,
-      "score_label": "Great day to go"
+      "predicted_score": 78,
+      "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-04-12T19:50:17.966440+00:00"
+  "updated_at": "2026-04-12T20:08:50.616594+00:00"
 }
