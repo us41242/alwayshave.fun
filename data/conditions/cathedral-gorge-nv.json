@@ -25,8 +25,8 @@
   "current": {
     "temp_f": 48,
     "feels_like_f": 40,
-    "wind_mph": 5,
-    "gusts_mph": 9,
+    "wind_mph": 6,
+    "gusts_mph": 8,
     "rain_pct": 0
   },
   "aqi": {
@@ -44,7 +44,7 @@
   "forecast": [
     {
       "date": "2026-04-12",
-      "high_f": 59,
+      "high_f": 58,
       "low_f": 40,
       "rain_pct": 19,
       "uv": 7,
@@ -98,5 +98,5 @@
       "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-04-12T07:03:47.578145+00:00"
+  "updated_at": "2026-04-12T07:23:36.476357+00:00"
 }
