@@ -20,14 +20,15 @@
   "score": 74,
   "score_label": "Good conditions",
   "gear_flags": [
+    "wind layer recommended",
     "N95 mask recommended for wildfire smoke"
   ],
   "current": {
     "temp_f": 77,
-    "feels_like_f": 67,
-    "wind_mph": 14,
-    "gusts_mph": 20,
-    "rain_pct": 1
+    "feels_like_f": 66,
+    "wind_mph": 19,
+    "gusts_mph": 24,
+    "rain_pct": 2
   },
   "aqi": {
     "aqi": 47,
@@ -44,8 +45,8 @@
   "forecast": [
     {
       "date": "2026-04-12",
-      "high_f": 80,
-      "low_f": 63,
+      "high_f": 81,
+      "low_f": 64,
       "rain_pct": 2,
       "uv": 7,
       "sunrise": "2026-04-12T06:09",
@@ -77,8 +78,8 @@
     },
     {
       "date": "2026-04-15",
-      "high_f": 84,
-      "low_f": 58,
+      "high_f": 85,
+      "low_f": 60,
       "rain_pct": 0,
       "uv": 7,
       "sunrise": "2026-04-15T06:05",
@@ -88,8 +89,8 @@
     },
     {
       "date": "2026-04-16",
-      "high_f": 82,
-      "low_f": 60,
+      "high_f": 81,
+      "low_f": 57,
       "rain_pct": 1,
       "uv": 7,
       "sunrise": "2026-04-16T06:04",
@@ -98,5 +99,5 @@
       "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-04-12T23:25:32.494018+00:00"
+  "updated_at": "2026-04-12T23:45:30.642789+00:00"
 }
