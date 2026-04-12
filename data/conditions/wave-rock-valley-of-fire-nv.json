@@ -17,8 +17,8 @@
   "notes": "Heat advisory Jun\u2013Sep; carry extra water",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 86,
-  "score_label": "Great day to go",
+  "score": 16,
+  "score_label": "Stay home",
   "gear_flags": [
     "N95 mask recommended for wildfire smoke"
   ],
@@ -30,10 +30,10 @@
     "rain_pct": 0
   },
   "aqi": {
-    "aqi": 44,
-    "category": "Good",
-    "pollutant": "PM2.5",
-    "source": "open-meteo"
+    "aqi": null,
+    "category": "Unknown",
+    "pollutant": "",
+    "source": "none"
   },
   "fire": {
     "risk_level": "elevated",
@@ -41,62 +41,6 @@
     "fire_count_50km": 2
   },
   "river": null,
-  "forecast": [
-    {
-      "date": "2026-04-12",
-      "high_f": 75,
-      "low_f": 57,
-      "rain_pct": 4,
-      "uv": 7,
-      "sunrise": "2026-04-12T06:08",
-      "sunset": "2026-04-12T19:09",
-      "predicted_score": 86,
-      "score_label": "Great day to go"
-    },
-    {
-      "date": "2026-04-13",
-      "high_f": 66,
-      "low_f": 48,
-      "rain_pct": 16,
-      "uv": 6,
-      "sunrise": "2026-04-13T06:06",
-      "sunset": "2026-04-13T19:10",
-      "predicted_score": 74,
-      "score_label": "Good conditions"
-    },
-    {
-      "date": "2026-04-14",
-      "high_f": 72,
-      "low_f": 50,
-      "rain_pct": 11,
-      "uv": 7,
-      "sunrise": "2026-04-14T06:05",
-      "sunset": "2026-04-14T19:11",
-      "predicted_score": 74,
-      "score_label": "Good conditions"
-    },
-    {
-      "date": "2026-04-15",
-      "high_f": 79,
-      "low_f": 55,
-      "rain_pct": 1,
-      "uv": 8,
-      "sunrise": "2026-04-15T06:03",
-      "sunset": "2026-04-15T19:12",
-      "predicted_score": 74,
-      "score_label": "Good conditions"
-    },
-    {
-      "date": "2026-04-16",
-      "high_f": 77,
-      "low_f": 54,
-      "rain_pct": 5,
-      "uv": 6,
-      "sunrise": "2026-04-16T06:02",
-      "sunset": "2026-04-16T19:13",
-      "predicted_score": 74,
-      "score_label": "Good conditions"
-    }
-  ],
-  "updated_at": "2026-04-12T10:01:20.933303+00:00"
+  "forecast": [],
+  "updated_at": "2026-04-12T10:22:33.931765+00:00"
 }
