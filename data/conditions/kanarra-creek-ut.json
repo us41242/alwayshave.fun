@@ -23,8 +23,8 @@
     "wind layer recommended"
   ],
   "current": {
-    "temp_f": 55,
-    "feels_like_f": 41,
+    "temp_f": 56,
+    "feels_like_f": 42,
     "wind_mph": 27,
     "gusts_mph": 41,
     "rain_pct": 0
@@ -45,8 +45,8 @@
     {
       "date": "2026-04-12",
       "high_f": 57,
-      "low_f": 46,
-      "rain_pct": 25,
+      "low_f": 45,
+      "rain_pct": 24,
       "uv": 8,
       "sunrise": "2026-04-12T07:01",
       "sunset": "2026-04-12T20:05",
@@ -57,12 +57,12 @@
       "date": "2026-04-13",
       "high_f": 45,
       "low_f": 33,
-      "rain_pct": 72,
+      "rain_pct": 36,
       "uv": 7,
       "sunrise": "2026-04-13T07:00",
       "sunset": "2026-04-13T20:06",
-      "predicted_score": 60,
-      "score_label": "Use caution"
+      "predicted_score": 70,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-04-14",
@@ -98,5 +98,5 @@
       "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-04-12T18:27:50.550091+00:00"
+  "updated_at": "2026-04-12T18:48:22.359636+00:00"
 }
