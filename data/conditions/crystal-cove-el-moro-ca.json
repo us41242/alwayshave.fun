@@ -17,17 +17,17 @@
   "notes": "Coastal trail with beach access; busy weekends \u2014 reserve parking",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 44,
-  "score_label": "Conditions poor",
+  "score": 56,
+  "score_label": "Use caution",
   "gear_flags": [
     "N95 mask recommended for wildfire smoke"
   ],
   "current": {
     "temp_f": 64,
     "feels_like_f": 64,
-    "wind_mph": 7,
+    "wind_mph": 9,
     "gusts_mph": 12,
-    "rain_pct": 10
+    "rain_pct": 7
   },
   "aqi": {
     "aqi": null,
@@ -45,7 +45,7 @@
     {
       "date": "2026-04-12",
       "high_f": 64,
-      "low_f": 58,
+      "low_f": 57,
       "rain_pct": 38,
       "uv": 6,
       "sunrise": "2026-04-12T06:24",
@@ -98,5 +98,5 @@
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-04-12T21:32:28.028469+00:00"
+  "updated_at": "2026-04-12T21:50:58.259212+00:00"
 }
