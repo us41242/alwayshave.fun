@@ -17,23 +17,23 @@
   "notes": "Check Virgin River flow \u2014 USGS gauge 09380000",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 70,
-  "score_label": "Good conditions",
+  "score": 100,
+  "score_label": "Great day to go",
   "gear_flags": [
     "wind layer recommended"
   ],
   "current": {
-    "temp_f": 56,
+    "temp_f": 57,
     "feels_like_f": 48,
-    "wind_mph": 8,
-    "gusts_mph": 20,
+    "wind_mph": 10,
+    "gusts_mph": 22,
     "rain_pct": 0
   },
   "aqi": {
-    "aqi": null,
-    "category": "Unknown",
-    "pollutant": "",
-    "source": "none"
+    "aqi": 48,
+    "category": "Good",
+    "pollutant": "PM2.5",
+    "source": "open-meteo"
   },
   "fire": {
     "risk_level": "low",
@@ -53,8 +53,8 @@
       "uv": 8,
       "sunrise": "2026-04-11T07:02",
       "sunset": "2026-04-11T20:03",
-      "predicted_score": 58,
-      "score_label": "Use caution"
+      "predicted_score": 88,
+      "score_label": "Great day to go"
     },
     {
       "date": "2026-04-12",
@@ -64,8 +64,8 @@
       "uv": 7,
       "sunrise": "2026-04-12T07:00",
       "sunset": "2026-04-12T20:04",
-      "predicted_score": 58,
-      "score_label": "Use caution"
+      "predicted_score": 88,
+      "score_label": "Great day to go"
     },
     {
       "date": "2026-04-13",
@@ -75,8 +75,8 @@
       "uv": 7,
       "sunrise": "2026-04-13T06:59",
       "sunset": "2026-04-13T20:04",
-      "predicted_score": 40,
-      "score_label": "Conditions poor"
+      "predicted_score": 70,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-04-14",
@@ -86,8 +86,8 @@
       "uv": 7,
       "sunrise": "2026-04-14T06:58",
       "sunset": "2026-04-14T20:05",
-      "predicted_score": 40,
-      "score_label": "Conditions poor"
+      "predicted_score": 70,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-04-15",
@@ -97,9 +97,9 @@
       "uv": 8,
       "sunrise": "2026-04-15T06:56",
       "sunset": "2026-04-15T20:06",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
+      "predicted_score": 100,
+      "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-04-12T03:24:51.909400+00:00"
+  "updated_at": "2026-04-12T03:40:58.001146+00:00"
 }
