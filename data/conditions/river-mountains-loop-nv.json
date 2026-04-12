@@ -23,14 +23,14 @@
     "N95 mask recommended for wildfire smoke"
   ],
   "current": {
-    "temp_f": 57,
+    "temp_f": 56,
     "feels_like_f": 50,
-    "wind_mph": 5,
-    "gusts_mph": 12,
+    "wind_mph": 6,
+    "gusts_mph": 15,
     "rain_pct": 0
   },
   "aqi": {
-    "aqi": 44,
+    "aqi": 43,
     "category": "Good",
     "pollutant": "O3",
     "source": "airnow"
@@ -98,5 +98,5 @@
       "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-04-12T11:05:52.893806+00:00"
+  "updated_at": "2026-04-12T11:25:42.201170+00:00"
 }
