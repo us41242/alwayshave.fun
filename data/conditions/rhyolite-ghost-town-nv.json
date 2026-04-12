@@ -17,20 +17,20 @@
   "notes": "Near Death Valley \u2014 extreme summer heat",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 88,
-  "score_label": "Great day to go",
+  "score": 70,
+  "score_label": "Good conditions",
   "gear_flags": [
     "wind layer recommended"
   ],
   "current": {
-    "temp_f": 60,
+    "temp_f": 61,
     "feels_like_f": 48,
-    "wind_mph": 24,
-    "gusts_mph": 33,
+    "wind_mph": 26,
+    "gusts_mph": 34,
     "rain_pct": 3
   },
   "aqi": {
-    "aqi": 33,
+    "aqi": 34,
     "category": "Good",
     "pollutant": "PM2.5",
     "source": "open-meteo"
@@ -98,5 +98,5 @@
       "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-04-12T20:50:00.387862+00:00"
+  "updated_at": "2026-04-12T21:06:24.985670+00:00"
 }
