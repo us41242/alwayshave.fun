@@ -20,17 +20,18 @@
   "score": 70,
   "score_label": "Good conditions",
   "gear_flags": [
-    "insulation layer required"
+    "insulation layer required",
+    "rain gear recommended"
   ],
   "current": {
-    "temp_f": 38,
-    "feels_like_f": 32,
-    "wind_mph": 4,
-    "gusts_mph": 16,
-    "rain_pct": 40
+    "temp_f": 39,
+    "feels_like_f": 33,
+    "wind_mph": 5,
+    "gusts_mph": 15,
+    "rain_pct": 44
   },
   "aqi": {
-    "aqi": 36,
+    "aqi": 38,
     "category": "Good",
     "pollutant": "PM2.5",
     "source": "open-meteo"
@@ -98,5 +99,5 @@
       "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-04-12T17:51:00.907265+00:00"
+  "updated_at": "2026-04-12T18:08:09.814204+00:00"
 }

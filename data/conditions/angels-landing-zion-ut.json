@@ -23,14 +23,14 @@
     "wind layer recommended"
   ],
   "current": {
-    "temp_f": 60,
-    "feels_like_f": 47,
-    "wind_mph": 23,
-    "gusts_mph": 37,
+    "temp_f": 62,
+    "feels_like_f": 48,
+    "wind_mph": 24,
+    "gusts_mph": 34,
     "rain_pct": 1
   },
   "aqi": {
-    "aqi": 43,
+    "aqi": 44,
     "category": "Good",
     "pollutant": "PM2.5",
     "source": "open-meteo"
@@ -98,5 +98,5 @@
       "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-04-12T17:41:09.673403+00:00"
+  "updated_at": "2026-04-12T18:01:14.106337+00:00"
 }
