@@ -17,28 +17,28 @@
   "notes": "Snow possible May; check road status",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 60,
-  "score_label": "Use caution",
+  "score": 70,
+  "score_label": "Good conditions",
   "gear_flags": [
     "wind layer recommended",
     "insulation layer required"
   ],
   "current": {
-    "temp_f": 34,
-    "feels_like_f": 23,
-    "wind_mph": 11,
-    "gusts_mph": 21,
+    "temp_f": 36,
+    "feels_like_f": 22,
+    "wind_mph": 20,
+    "gusts_mph": 28,
     "rain_pct": 0
   },
   "aqi": {
-    "aqi": 39,
+    "aqi": 41,
     "category": "Good",
     "pollutant": "O3",
     "source": "airnow"
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": null,
+    "nearest_fire_km": 155.3,
     "fire_count_50km": 0
   },
   "river": null,
@@ -47,7 +47,7 @@
       "date": "2026-04-12",
       "high_f": 52,
       "low_f": 34,
-      "rain_pct": 6,
+      "rain_pct": 9,
       "uv": 8,
       "sunrise": "2026-04-12T06:57",
       "sunset": "2026-04-12T20:01",
@@ -99,5 +99,5 @@
       "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-04-12T09:21:19.956857+00:00"
+  "updated_at": "2026-04-12T09:41:22.617606+00:00"
 }
