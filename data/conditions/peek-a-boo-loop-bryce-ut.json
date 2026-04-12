@@ -24,14 +24,14 @@
     "insulation layer required"
   ],
   "current": {
-    "temp_f": 39,
+    "temp_f": 40,
     "feels_like_f": 28,
     "wind_mph": 16,
-    "gusts_mph": 31,
+    "gusts_mph": 32,
     "rain_pct": 1
   },
   "aqi": {
-    "aqi": 42,
+    "aqi": 44,
     "category": "Good",
     "pollutant": "O3",
     "source": "airnow"
@@ -58,7 +58,7 @@
       "date": "2026-04-13",
       "high_f": 41,
       "low_f": 26,
-      "rain_pct": 50,
+      "rain_pct": 51,
       "uv": 8,
       "sunrise": "2026-04-13T06:55",
       "sunset": "2026-04-13T20:02",
@@ -69,7 +69,7 @@
       "date": "2026-04-14",
       "high_f": 44,
       "low_f": 22,
-      "rain_pct": 50,
+      "rain_pct": 55,
       "uv": 8,
       "sunrise": "2026-04-14T06:54",
       "sunset": "2026-04-14T20:03",
@@ -80,7 +80,7 @@
       "date": "2026-04-15",
       "high_f": 52,
       "low_f": 30,
-      "rain_pct": 5,
+      "rain_pct": 3,
       "uv": 8,
       "sunrise": "2026-04-15T06:53",
       "sunset": "2026-04-15T20:04",
@@ -91,7 +91,7 @@
       "date": "2026-04-16",
       "high_f": 50,
       "low_f": 33,
-      "rain_pct": 18,
+      "rain_pct": 20,
       "uv": 6,
       "sunrise": "2026-04-16T06:51",
       "sunset": "2026-04-16T20:05",
@@ -99,5 +99,5 @@
       "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-04-12T15:05:42.231385+00:00"
+  "updated_at": "2026-04-12T15:25:45.973534+00:00"
 }
