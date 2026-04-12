@@ -17,17 +17,17 @@
   "notes": "High-alpine \u2014 thunderstorm risk after noon; start before 7am",
   "dog_friendly": "Yes",
   "vehicle_req": "High-Clearance",
-  "score": 60,
-  "score_label": "Use caution",
+  "score": 70,
+  "score_label": "Good conditions",
   "gear_flags": [
     "wind layer recommended",
     "insulation layer required"
   ],
   "current": {
-    "temp_f": 34,
-    "feels_like_f": 22,
+    "temp_f": 35,
+    "feels_like_f": 23,
     "wind_mph": 24,
-    "gusts_mph": 35,
+    "gusts_mph": 36,
     "rain_pct": 8
   },
   "aqi": {
@@ -99,5 +99,5 @@
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-04-12T18:48:25.846606+00:00"
+  "updated_at": "2026-04-12T19:08:13.930339+00:00"
 }

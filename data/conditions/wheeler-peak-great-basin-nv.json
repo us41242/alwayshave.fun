@@ -17,11 +17,9 @@
   "notes": "Road open late Jun \u2014 check NPS seasonal closure",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 50,
-  "score_label": "Use caution",
-  "gear_flags": [
-    "mask for sensitive groups"
-  ],
+  "score": 30,
+  "score_label": "Conditions poor",
+  "gear_flags": [],
   "current": {
     "temp_f": 14,
     "feels_like_f": -5,
@@ -30,10 +28,10 @@
     "rain_pct": 1
   },
   "aqi": {
-    "aqi": 51,
-    "category": "Moderate",
-    "pollutant": "PM2.5",
-    "source": "open-meteo"
+    "aqi": null,
+    "category": "Unknown",
+    "pollutant": "",
+    "source": "none"
   },
   "fire": {
     "risk_level": "low",
@@ -42,5 +40,5 @@
   },
   "river": null,
   "forecast": [],
-  "updated_at": "2026-04-12T18:43:27.792829+00:00"
+  "updated_at": "2026-04-12T19:02:35.753442+00:00"
 }
