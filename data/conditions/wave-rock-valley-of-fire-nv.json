@@ -17,8 +17,8 @@
   "notes": "Heat advisory Jun\u2013Sep; carry extra water",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 70,
-  "score_label": "Good conditions",
+  "score": 100,
+  "score_label": "Great day to go",
   "gear_flags": [],
   "current": {
     "temp_f": 67,
@@ -28,10 +28,10 @@
     "rain_pct": 0
   },
   "aqi": {
-    "aqi": null,
-    "category": "Unknown",
-    "pollutant": "",
-    "source": "none"
+    "aqi": 49,
+    "category": "Good",
+    "pollutant": "PM2.5",
+    "source": "open-meteo"
   },
   "fire": {
     "risk_level": "low",
@@ -48,8 +48,8 @@
       "uv": 7,
       "sunrise": "2026-04-11T06:09",
       "sunset": "2026-04-11T19:08",
-      "predicted_score": 58,
-      "score_label": "Use caution"
+      "predicted_score": 88,
+      "score_label": "Great day to go"
     },
     {
       "date": "2026-04-12",
@@ -59,8 +59,8 @@
       "uv": 7,
       "sunrise": "2026-04-12T06:08",
       "sunset": "2026-04-12T19:09",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
+      "predicted_score": 100,
+      "score_label": "Great day to go"
     },
     {
       "date": "2026-04-13",
@@ -70,8 +70,8 @@
       "uv": 6,
       "sunrise": "2026-04-13T06:06",
       "sunset": "2026-04-13T19:10",
-      "predicted_score": 58,
-      "score_label": "Use caution"
+      "predicted_score": 88,
+      "score_label": "Great day to go"
     },
     {
       "date": "2026-04-14",
@@ -81,8 +81,8 @@
       "uv": 7,
       "sunrise": "2026-04-14T06:05",
       "sunset": "2026-04-14T19:11",
-      "predicted_score": 58,
-      "score_label": "Use caution"
+      "predicted_score": 88,
+      "score_label": "Great day to go"
     },
     {
       "date": "2026-04-15",
@@ -92,9 +92,9 @@
       "uv": 8,
       "sunrise": "2026-04-15T06:03",
       "sunset": "2026-04-15T19:12",
-      "predicted_score": 58,
-      "score_label": "Use caution"
+      "predicted_score": 88,
+      "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-04-12T06:02:28.136539+00:00"
+  "updated_at": "2026-04-12T06:21:23.160935+00:00"
 }
