@@ -17,16 +17,14 @@
   "notes": "Free entry; busy weekends \u2014 arrive before 9am",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 88,
+  "score": 100,
   "score_label": "Great day to go",
-  "gear_flags": [
-    "wind layer recommended"
-  ],
+  "gear_flags": [],
   "current": {
-    "temp_f": 62,
-    "feels_like_f": 51,
-    "wind_mph": 16,
-    "gusts_mph": 21,
+    "temp_f": 60,
+    "feels_like_f": 50,
+    "wind_mph": 13,
+    "gusts_mph": 17,
     "rain_pct": 3
   },
   "aqi": {
@@ -98,5 +96,5 @@
       "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-04-12T01:10:14.392210+00:00"
+  "updated_at": "2026-04-12T01:28:45.614680+00:00"
 }
