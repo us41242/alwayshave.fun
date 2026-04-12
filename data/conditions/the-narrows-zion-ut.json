@@ -22,7 +22,7 @@
   "gear_flags": [],
   "current": {
     "temp_f": 47,
-    "feels_like_f": 39,
+    "feels_like_f": 38,
     "wind_mph": 9,
     "gusts_mph": 13,
     "rain_pct": 1
@@ -35,11 +35,11 @@
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": 183.6,
+    "nearest_fire_km": null,
     "fire_count_50km": 0
   },
   "river": {
-    "cfs": 7840,
+    "cfs": 7800,
     "stage": "flood"
   },
   "forecast": [
@@ -99,5 +99,5 @@
       "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-04-12T12:01:09.270032+00:00"
+  "updated_at": "2026-04-12T12:21:35.166162+00:00"
 }
