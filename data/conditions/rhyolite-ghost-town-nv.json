@@ -17,23 +17,23 @@
   "notes": "Near Death Valley \u2014 extreme summer heat",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 58,
-  "score_label": "Use caution",
+  "score": 88,
+  "score_label": "Great day to go",
   "gear_flags": [
     "wind layer recommended"
   ],
   "current": {
-    "temp_f": 63,
-    "feels_like_f": 52,
-    "wind_mph": 17,
-    "gusts_mph": 25,
+    "temp_f": 62,
+    "feels_like_f": 51,
+    "wind_mph": 16,
+    "gusts_mph": 26,
     "rain_pct": 1
   },
   "aqi": {
-    "aqi": null,
-    "category": "Unknown",
-    "pollutant": "",
-    "source": "none"
+    "aqi": 43,
+    "category": "Good",
+    "pollutant": "PM2.5",
+    "source": "open-meteo"
   },
   "fire": {
     "risk_level": "low",
@@ -50,30 +50,30 @@
       "uv": 7,
       "sunrise": "2026-04-11T06:18",
       "sunset": "2026-04-11T19:18",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
+      "predicted_score": 100,
+      "score_label": "Great day to go"
     },
     {
       "date": "2026-04-12",
-      "high_f": 59,
-      "low_f": 44,
+      "high_f": 58,
+      "low_f": 42,
       "rain_pct": 4,
       "uv": 8,
       "sunrise": "2026-04-12T06:16",
       "sunset": "2026-04-12T19:19",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
+      "predicted_score": 100,
+      "score_label": "Great day to go"
     },
     {
       "date": "2026-04-13",
-      "high_f": 58,
+      "high_f": 57,
       "low_f": 38,
       "rain_pct": 34,
       "uv": 7,
       "sunrise": "2026-04-13T06:15",
       "sunset": "2026-04-13T19:20",
-      "predicted_score": 40,
-      "score_label": "Conditions poor"
+      "predicted_score": 70,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-04-14",
@@ -83,8 +83,8 @@
       "uv": 8,
       "sunrise": "2026-04-14T06:14",
       "sunset": "2026-04-14T19:21",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
+      "predicted_score": 100,
+      "score_label": "Great day to go"
     },
     {
       "date": "2026-04-15",
@@ -94,9 +94,9 @@
       "uv": 8,
       "sunrise": "2026-04-15T06:12",
       "sunset": "2026-04-15T19:21",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
+      "predicted_score": 100,
+      "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-04-12T01:49:06.955564+00:00"
+  "updated_at": "2026-04-12T02:09:13.216927+00:00"
 }

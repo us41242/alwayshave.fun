@@ -25,11 +25,11 @@
     "rain gear recommended"
   ],
   "current": {
-    "temp_f": 34,
-    "feels_like_f": 25,
-    "wind_mph": 11,
-    "gusts_mph": 32,
-    "rain_pct": 49
+    "temp_f": 33,
+    "feels_like_f": 24,
+    "wind_mph": 13,
+    "gusts_mph": 35,
+    "rain_pct": 50
   },
   "aqi": {
     "aqi": 37,
@@ -48,7 +48,7 @@
       "date": "2026-04-11",
       "high_f": 37,
       "low_f": 26,
-      "rain_pct": 66,
+      "rain_pct": 63,
       "uv": 7,
       "sunrise": "2026-04-11T06:28",
       "sunset": "2026-04-11T19:33",
@@ -59,7 +59,7 @@
       "date": "2026-04-12",
       "high_f": 28,
       "low_f": 22,
-      "rain_pct": 77,
+      "rain_pct": 76,
       "uv": 7,
       "sunrise": "2026-04-12T06:26",
       "sunset": "2026-04-12T19:34",
@@ -68,8 +68,8 @@
     },
     {
       "date": "2026-04-13",
-      "high_f": 39,
-      "low_f": 23,
+      "high_f": 37,
+      "low_f": 24,
       "rain_pct": 26,
       "uv": 6,
       "sunrise": "2026-04-13T06:25",
@@ -100,5 +100,5 @@
       "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-04-12T01:52:30.245989+00:00"
+  "updated_at": "2026-04-12T02:12:09.601135+00:00"
 }
