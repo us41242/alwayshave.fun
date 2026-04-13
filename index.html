@@ -629,14 +629,23 @@
       [heroImages[i], heroImages[j]] = [heroImages[j], heroImages[i]];
     }
 
-    // ── Hero background: single random image ──────
+    // ── Hero background: single random image, responsive size ──
     const layerA = document.getElementById('hero-bg-a');
+    function heroSuffix() {
+      const w = window.innerWidth * (window.devicePixelRatio || 1);
+      if (w <= 800) return '-640';
+      if (w <= 1400) return '-1280';
+      if (w <= 2200) return '-1920';
+      return ''; // full-res original for 4K+
+    }
+    const baseUrl = heroImages[0];
+    const sizedUrl = baseUrl.replace('.jpg', heroSuffix() + '.jpg');
     const heroImg = new Image();
     heroImg.onload = () => {
-      layerA.style.backgroundImage = `url('${heroImages[0]}')`;
+      layerA.style.backgroundImage = `url('${sizedUrl}')`;
       layerA.style.opacity = '1';
     };
-    heroImg.src = heroImages[0];
+    heroImg.src = sizedUrl;
 
     // ── Scroll handler: nav transparency ─────────
     window.addEventListener('scroll', () => {

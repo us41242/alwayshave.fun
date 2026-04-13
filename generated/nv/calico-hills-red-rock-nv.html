@@ -879,15 +879,24 @@
 
     function tryLoadPhoto(slug, stateCode) {
       const bgFixed  = document.getElementById('hero-bg-fixed');
-      const url      = `/photos/${slug}/${slug}.jpg`;
       const position = PHOTO_FOCUS[slug] || 'center 40%';
-      const img      = new Image();
+      // Pick size based on screen
+      const w = window.innerWidth * (window.devicePixelRatio || 1);
+      let suffix = '';
+      if (w <= 800) suffix = '-640';
+      else if (w <= 1400) suffix = '-1280';
+      else if (w <= 2200) suffix = '-1920';
+      const url = `/photos/${slug}/${slug}${suffix}.jpg`;
+      const img = new Image();
       img.onload = () => {
         bgFixed.style.backgroundImage    = `url('${url}')`;
         bgFixed.style.backgroundPosition = position;
       };
       img.onerror = () => {
-        // Keep gradient fallback
+        // Fallback to full-res if sized version missing
+        const fallback = `/photos/${slug}/${slug}.jpg`;
+        bgFixed.style.backgroundImage    = `url('${fallback}')`;
+        bgFixed.style.backgroundPosition = position;
       };
       img.src = url;
     }
