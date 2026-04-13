@@ -30,7 +30,7 @@
     "rain_pct": 1
   },
   "aqi": {
-    "aqi": 9,
+    "aqi": 8,
     "category": "Good",
     "pollutant": "PM2.5",
     "source": "airnow"
@@ -41,7 +41,7 @@
     "fire_count_50km": 0
   },
   "river": {
-    "cfs": 122,
+    "cfs": 119,
     "stage": "normal"
   },
   "forecast": [
@@ -101,5 +101,5 @@
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-04-13T11:49:50.949708+00:00"
+  "updated_at": "2026-04-13T12:10:36.741367+00:00"
 }
