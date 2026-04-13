@@ -11,11 +11,11 @@
 </script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title id="page-title">Zion Narrows (Top-Down) Trail Conditions — Conditions poor | alwayshave.fun</title>
-  <meta name="description" id="page-desc" content="Zion Narrows (Top-Down) conditions: Conditions poor (40/100). 39°F wind 3 mph No dogs on trail. Live data updated every 30 min.">
+  <title id="page-title">Zion Narrows (Top-Down) Trail Conditions — Good conditions | alwayshave.fun</title>
+  <meta name="description" id="page-desc" content="Zion Narrows (Top-Down) conditions: Good conditions (70/100). 40°F wind 1 mph AQI 46 No dogs on trail. Live data updated every 30 min.">
   <link rel="canonical" id="canonical" href="https://alwayshave.fun/ut/narrows-top-down-zion-ut">
-  <meta property="og:title" id="og-title" content="Zion Narrows (Top-Down) Trail Conditions — Conditions poor | alwayshave.fun">
-  <meta property="og:description" id="og-desc" content="Zion Narrows (Top-Down) conditions: Conditions poor (40/100). 39°F wind 3 mph No dogs on trail. Live data updated every 30 min.">
+  <meta property="og:title" id="og-title" content="Zion Narrows (Top-Down) Trail Conditions — Good conditions | alwayshave.fun">
+  <meta property="og:description" id="og-desc" content="Zion Narrows (Top-Down) conditions: Good conditions (70/100). 40°F wind 1 mph AQI 46 No dogs on trail. Live data updated every 30 min.">
   <meta property="og:image" id="og-image" content="https://alwayshave.fun/photos/narrows-top-down-zion-ut/narrows-top-down-zion-ut.jpg">
   <meta property="og:type" content="website">
   <meta property="og:url" id="og-url" content="https://alwayshave.fun/ut/narrows-top-down-zion-ut">
@@ -375,8 +375,6 @@
       transition: opacity 0.15s;
     }
     .gear-link:hover { opacity: 0.8; }
-    .link-rei { background: #d1fae5; color: #064e3b; border-color: #6ee7b7; }
-    .link-bc  { background: #dbeafe; color: #1e3a5f; border-color: #93c5fd; }
 
     /* ── ACTION LINKS ────────────────────────────── */
     .action-links { display: flex; gap: 10px; flex-wrap: wrap; margin-bottom: 12px; }
@@ -530,7 +528,7 @@
         {
           "@type": "PropertyValue",
           "name": "Current Score",
-          "value": "40/100 \u2014 Conditions poor"
+          "value": "70/100 \u2014 Good conditions"
         },
         {
           "@type": "PropertyValue",
@@ -539,8 +537,13 @@
         },
         {
           "@type": "PropertyValue",
+          "name": "Air Quality (AQI)",
+          "value": "46"
+        },
+        {
+          "@type": "PropertyValue",
           "name": "Current Temperature",
-          "value": "39\u00b0F"
+          "value": "40\u00b0F"
         },
         {
           "@type": "PropertyValue",
@@ -587,7 +590,7 @@
           "name": "What are the current conditions at Zion Narrows (Top-Down)?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "As of the latest update, Zion Narrows (Top-Down) is scoring 40/100 (Conditions poor). Temperature: 39\u00b0F, wind: 3 mph, rain chance: 2%. Data is refreshed every 30 minutes."
+            "text": "As of the latest update, Zion Narrows (Top-Down) is scoring 70/100 (Good conditions). Temperature: 40\u00b0F, wind: 1 mph, rain chance: 3%. Data is refreshed every 30 minutes."
           }
         },
         {
@@ -604,6 +607,14 @@
           "acceptedAnswer": {
             "@type": "Answer",
             "text": "Zion Narrows (Top-Down) is rated Hard. The trail is 16 miles with 1680 ft of elevation gain."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the air quality (AQI) at Zion Narrows (Top-Down) today?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Current AQI at Zion Narrows (Top-Down) is 46 \u2014 Good. AQI under 50 is Good; 51-100 is Moderate; above 100 may require a mask."
           }
         },
         {
@@ -781,7 +792,6 @@
         Weather <a href="https://open-meteo.com" target="_blank" rel="noopener">Open-Meteo</a> &nbsp;·&nbsp;
         AQI <a href="https://www.airnow.gov" target="_blank" rel="noopener">AirNow</a>
       </p>
-      <p style="margin-top:6px">Affiliate disclosure: we may earn commissions from REI and Backcountry links at no extra cost to you.</p>
     </footer>
   </main>
 
@@ -795,11 +805,11 @@
     };
 
     const GEAR_CATALOG = {
-      'wind layer recommended':    { label: 'Wind Layer',              rei: 'https://www.rei.com/search?q=windbreaker+jacket', bc: 'https://www.backcountry.com/search?q=wind+jacket' },
-      'insulation layer required': { label: 'Insulation Layer',        rei: 'https://www.rei.com/search?q=insulated+jacket',   bc: 'https://www.backcountry.com/search?q=insulated+jacket' },
-      'rain gear recommended':     { label: 'Rain Jacket',             rei: 'https://www.rei.com/search?q=rain+jacket',        bc: 'https://www.backcountry.com/search?q=rain+jacket' },
-      'N95 mask recommended':      { label: 'N95 Mask (smoke/wildfire)',rei: 'https://www.rei.com/search?q=n95+mask',           bc: null },
-      'mask for sensitive groups': { label: 'Dust Mask',               rei: 'https://www.rei.com/search?q=outdoor+face+mask',  bc: null }
+      'wind layer recommended':    { label: 'Wind Layer' },
+      'insulation layer required': { label: 'Insulation Layer' },
+      'rain gear recommended':     { label: 'Rain Jacket' },
+      'N95 mask recommended':      { label: 'N95 Mask (smoke/wildfire)' },
+      'mask for sensitive groups': { label: 'Dust Mask' }
     };
 
     // ─── HELPERS ──────────────────────────────────────────────────────────────
@@ -1017,11 +1027,7 @@
         document.getElementById('gear-items').innerHTML = flags.map(flag => {
           const gear = GEAR_CATALOG[flag];
           if (!gear) return `<div class="gear-item"><span class="gear-name">${flag}</span></div>`;
-          const links = [
-            gear.rei ? `<a href="${gear.rei}" target="_blank" rel="noopener sponsored" class="gear-link link-rei">REI</a>` : '',
-            gear.bc  ? `<a href="${gear.bc}"  target="_blank" rel="noopener sponsored" class="gear-link link-bc">Backcountry</a>` : ''
-          ].filter(Boolean).join('');
-          return `<div class="gear-item"><span class="gear-name">🎽 ${gear.label}</span><div class="gear-links">${links}</div></div>`;
+          return `<div class="gear-item"><span class="gear-name">🎽 ${gear.label}</span></div>`;
         }).join('');
       }
 
