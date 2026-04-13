@@ -17,8 +17,8 @@
   "notes": "Timed entry permit required Jun\u2013Oct; Bear Lake Rd closes seasonally",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 70,
-  "score_label": "Good conditions",
+  "score": 30,
+  "score_label": "Conditions poor",
   "gear_flags": [
     "wind layer recommended",
     "insulation layer required"
@@ -31,10 +31,10 @@
     "rain_pct": 0
   },
   "aqi": {
-    "aqi": 50,
-    "category": "Good",
-    "pollutant": "PM2.5",
-    "source": "open-meteo"
+    "aqi": null,
+    "category": "Unknown",
+    "pollutant": "",
+    "source": "none"
   },
   "fire": {
     "risk_level": "low",
@@ -51,8 +51,8 @@
       "uv": 8,
       "sunrise": "2026-04-13T06:26",
       "sunset": "2026-04-13T19:39",
-      "predicted_score": 88,
-      "score_label": "Great day to go"
+      "predicted_score": 58,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-04-14",
@@ -62,8 +62,8 @@
       "uv": 6,
       "sunrise": "2026-04-14T06:25",
       "sunset": "2026-04-14T19:40",
-      "predicted_score": 60,
-      "score_label": "Use caution"
+      "predicted_score": 30,
+      "score_label": "Conditions poor"
     },
     {
       "date": "2026-04-15",
@@ -73,8 +73,8 @@
       "uv": 8,
       "sunrise": "2026-04-15T06:23",
       "sunset": "2026-04-15T19:41",
-      "predicted_score": 60,
-      "score_label": "Use caution"
+      "predicted_score": 30,
+      "score_label": "Conditions poor"
     },
     {
       "date": "2026-04-16",
@@ -84,8 +84,8 @@
       "uv": 8,
       "sunrise": "2026-04-16T06:22",
       "sunset": "2026-04-16T19:42",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
+      "predicted_score": 40,
+      "score_label": "Conditions poor"
     },
     {
       "date": "2026-04-17",
@@ -95,9 +95,9 @@
       "uv": 6,
       "sunrise": "2026-04-17T06:20",
       "sunset": "2026-04-17T19:43",
-      "predicted_score": 60,
-      "score_label": "Use caution"
+      "predicted_score": 30,
+      "score_label": "Conditions poor"
     }
   ],
-  "updated_at": "2026-04-13T06:28:52.493717+00:00"
+  "updated_at": "2026-04-13T06:48:12.626993+00:00"
 }
