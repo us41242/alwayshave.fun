@@ -19,16 +19,18 @@
   "vehicle_req": "AWD",
   "score": 60,
   "score_label": "Use caution",
-  "gear_flags": [],
+  "gear_flags": [
+    "insulation layer required"
+  ],
   "current": {
-    "temp_f": 26,
+    "temp_f": 27,
     "feels_like_f": 16,
-    "wind_mph": 12,
-    "gusts_mph": 22,
-    "rain_pct": 36
+    "wind_mph": 13,
+    "gusts_mph": 18,
+    "rain_pct": 32
   },
   "aqi": {
-    "aqi": 38,
+    "aqi": 35,
     "category": "Good",
     "pollutant": "O3",
     "source": "airnow"
@@ -39,6 +41,62 @@
     "fire_count_50km": 0
   },
   "river": null,
-  "forecast": [],
-  "updated_at": "2026-04-13T06:10:00.718465+00:00"
+  "forecast": [
+    {
+      "date": "2026-04-12",
+      "high_f": 29,
+      "low_f": 23,
+      "rain_pct": 93,
+      "uv": 6,
+      "sunrise": "2026-04-12T06:26",
+      "sunset": "2026-04-12T19:34",
+      "predicted_score": 60,
+      "score_label": "Use caution"
+    },
+    {
+      "date": "2026-04-13",
+      "high_f": 36,
+      "low_f": 18,
+      "rain_pct": 24,
+      "uv": 7,
+      "sunrise": "2026-04-13T06:25",
+      "sunset": "2026-04-13T19:35",
+      "predicted_score": 70,
+      "score_label": "Good conditions"
+    },
+    {
+      "date": "2026-04-14",
+      "high_f": 42,
+      "low_f": 21,
+      "rain_pct": 1,
+      "uv": 8,
+      "sunrise": "2026-04-14T06:23",
+      "sunset": "2026-04-14T19:36",
+      "predicted_score": 88,
+      "score_label": "Great day to go"
+    },
+    {
+      "date": "2026-04-15",
+      "high_f": 44,
+      "low_f": 34,
+      "rain_pct": 21,
+      "uv": 7,
+      "sunrise": "2026-04-15T06:22",
+      "sunset": "2026-04-15T19:36",
+      "predicted_score": 88,
+      "score_label": "Great day to go"
+    },
+    {
+      "date": "2026-04-16",
+      "high_f": 37,
+      "low_f": 24,
+      "rain_pct": 45,
+      "uv": 7,
+      "sunrise": "2026-04-16T06:20",
+      "sunset": "2026-04-16T19:37",
+      "predicted_score": 70,
+      "score_label": "Good conditions"
+    }
+  ],
+  "updated_at": "2026-04-13T06:28:57.263200+00:00"
 }
