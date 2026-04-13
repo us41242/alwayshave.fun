@@ -22,24 +22,25 @@
   "gear_flags": [
     "wind layer recommended",
     "insulation layer required",
+    "rain gear recommended",
     "mask for sensitive groups"
   ],
   "current": {
-    "temp_f": 25,
-    "feels_like_f": 10,
-    "wind_mph": 22,
-    "gusts_mph": 28,
-    "rain_pct": 34
+    "temp_f": 22,
+    "feels_like_f": 7,
+    "wind_mph": 23,
+    "gusts_mph": 33,
+    "rain_pct": 44
   },
   "aqi": {
-    "aqi": 63,
+    "aqi": 66,
     "category": "Moderate",
     "pollutant": "PM2.5",
     "source": "open-meteo"
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": 123.9,
+    "nearest_fire_km": null,
     "fire_count_50km": 0
   },
   "river": null,
@@ -48,7 +49,7 @@
       "date": "2026-04-12",
       "high_f": 30,
       "low_f": 14,
-      "rain_pct": 34,
+      "rain_pct": 44,
       "uv": 7,
       "sunrise": "2026-04-12T06:03",
       "sunset": "2026-04-12T19:11",
@@ -100,5 +101,5 @@
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-04-12T23:47:30.830352+00:00"
+  "updated_at": "2026-04-13T00:07:09.692876+00:00"
 }
