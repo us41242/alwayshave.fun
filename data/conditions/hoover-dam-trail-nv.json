@@ -17,15 +17,15 @@
   "notes": "Paved trail \u2014 no permit required",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 88,
+  "score": 100,
   "score_label": "Great day to go",
   "gear_flags": [],
   "current": {
     "temp_f": 71,
-    "feels_like_f": 66,
-    "wind_mph": 6,
-    "gusts_mph": 11,
-    "rain_pct": 10
+    "feels_like_f": 63,
+    "wind_mph": 12,
+    "gusts_mph": 15,
+    "rain_pct": 8
   },
   "aqi": {
     "aqi": 50,
@@ -44,7 +44,7 @@
       "date": "2026-04-13",
       "high_f": 76,
       "low_f": 59,
-      "rain_pct": 12,
+      "rain_pct": 9,
       "uv": 7,
       "sunrise": "2026-04-13T06:07",
       "sunset": "2026-04-13T19:10",
@@ -54,7 +54,7 @@
     {
       "date": "2026-04-14",
       "high_f": 79,
-      "low_f": 54,
+      "low_f": 55,
       "rain_pct": 3,
       "uv": 7,
       "sunrise": "2026-04-14T06:06",
@@ -76,7 +76,7 @@
     {
       "date": "2026-04-16",
       "high_f": 84,
-      "low_f": 58,
+      "low_f": 57,
       "rain_pct": 1,
       "uv": 7,
       "sunrise": "2026-04-16T06:03",
@@ -86,7 +86,7 @@
     },
     {
       "date": "2026-04-17",
-      "high_f": 71,
+      "high_f": 72,
       "low_f": 50,
       "rain_pct": 1,
       "uv": 7,
@@ -96,5 +96,5 @@
       "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-04-13T23:25:20.318146+00:00"
+  "updated_at": "2026-04-13T23:45:30.059050+00:00"
 }
