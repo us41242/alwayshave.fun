@@ -153,6 +153,20 @@
       max-width: 920px;
       margin: 0 auto;
       padding: 0 24px 48px;
+      position: relative;
+    }
+    .site-hero-inner::before {
+      content: '';
+      position: absolute;
+      top: -20px;
+      left: -32px;
+      right: -32px;
+      bottom: -100vh;
+      background: rgba(0, 0, 0, 0.45);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+      border-radius: 16px 16px 0 0;
+      z-index: -1;
     }
     .hero-badge {
       display: inline-flex;
@@ -541,7 +555,6 @@
         <a href="/privacy">Privacy</a> &nbsp;·&nbsp;
         <a href="/articles">Articles</a>
       </p>
-      <p style="margin-top:6px">Affiliate disclosure: we may earn commissions from REI and Backcountry links at no extra cost to you.</p>
     </footer>
   </div>
   </div><!-- /content-wrap -->
