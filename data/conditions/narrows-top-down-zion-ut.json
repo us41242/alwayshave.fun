@@ -17,18 +17,18 @@
   "notes": "Flash flood danger \u2014 check weather 24hr upstream",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 78,
-  "score_label": "Good conditions",
+  "score": 60,
+  "score_label": "Use caution",
   "gear_flags": [
     "wind layer recommended",
     "mask for sensitive groups"
   ],
   "current": {
     "temp_f": 46,
-    "feels_like_f": 35,
-    "wind_mph": 16,
+    "feels_like_f": 36,
+    "wind_mph": 14,
     "gusts_mph": 26,
-    "rain_pct": 30
+    "rain_pct": 36
   },
   "aqi": {
     "aqi": 62,
@@ -42,7 +42,7 @@
     "fire_count_50km": 0
   },
   "river": {
-    "cfs": 8280,
+    "cfs": 8240,
     "stage": "flood"
   },
   "forecast": [
@@ -102,5 +102,5 @@
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-04-13T04:05:29.199176+00:00"
+  "updated_at": "2026-04-13T04:26:18.560402+00:00"
 }
