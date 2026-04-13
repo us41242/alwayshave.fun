@@ -29,9 +29,9 @@
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
     :root {
-      --bg: #0c1117;
-      --surface: #161b22;
-      --surface2: #1f2937;
+      --bg: transparent;
+      --surface: rgba(22,27,34,0.85);
+      --surface2: rgba(31,41,55,0.85);
       --border: #30363d;
       --text: #e6edf3;
       --text-muted: #8b949e;
@@ -41,7 +41,7 @@
 
     body {
       font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
-      background: var(--bg);
+      background: transparent;
       color: var(--text);
       line-height: 1.5;
       min-height: 100vh;
@@ -61,9 +61,9 @@
       border-bottom: 1px solid transparent;
     }
     nav.scrolled {
-      background: rgba(12,17,23,0.95);
+      background: rgba(12,17,23,0.25);
       backdrop-filter: blur(12px);
-      border-bottom-color: var(--border);
+      border-bottom-color: rgba(48,54,61,0.3);
     }
     .nav-logo {
       font-weight: 900;
@@ -89,32 +89,34 @@
     .nav-back:hover { color: #fff; }
     nav.scrolled .nav-back:hover { color: var(--text); }
 
-    /* ── HERO IMAGE ──────────────────────────────── */
+    /* ── HERO BG (fixed full-screen like homepage) ── */
+    .hero-bg-fixed {
+      position: fixed;
+      inset: 0;
+      z-index: -1;
+      background: linear-gradient(135deg, #1a2a1a 0%, #0c1117 100%);
+      background-size: cover;
+      background-position: center 40%;
+      background-repeat: no-repeat;
+    }
+
+    /* ── HERO IMAGE (now just the overlay + content zone) ── */
     .hero-image {
       position: relative;
       height: 70vh;
       min-height: 460px;
       max-height: 700px;
-      background: linear-gradient(135deg, #1a2a1a 0%, #0c1117 100%);
-      background-size: cover;
-      background-position: center;
-      transition: background-image 0.4s ease;
     }
-
-    /* State-based gradient fallbacks (shown when no photo exists) */
-    .hero-image.state-NV { background: linear-gradient(160deg, #2d1a0e 0%, #1a0e0e 40%, #0c1117 100%); }
-    .hero-image.state-UT { background: linear-gradient(160deg, #2d1508 0%, #1f1208 40%, #0c1117 100%); }
-    .hero-image.state-AZ { background: linear-gradient(160deg, #1a0e2d 0%, #140a2d 40%, #0c1117 100%); }
 
     .hero-overlay {
       position: absolute;
       inset: 0;
       background: linear-gradient(
-        to top,
-        rgba(12,17,23,1)    0%,
-        rgba(12,17,23,0.75) 35%,
-        rgba(12,17,23,0.25) 65%,
-        rgba(12,17,23,0.1)  100%
+        to bottom,
+        rgba(12,17,23,0)     0%,
+        rgba(12,17,23,0)     55%,
+        rgba(12,17,23,0.35)  75%,
+        rgba(12,17,23,0.7)   100%
       );
     }
 
@@ -219,6 +221,15 @@
       max-width: 860px;
       margin: 0 auto;
       padding: 28px 20px 60px;
+      position: relative;
+    }
+    main::before {
+      content: '';
+      position: absolute;
+      top: 0; left: -9999px; right: -9999px; bottom: 0;
+      background: rgba(12,17,23,0.7);
+      pointer-events: none;
+      z-index: -1;
     }
 
     /* ── METRIC CARDS ────────────────────────────── */
@@ -378,9 +389,9 @@
 
     /* ── ACTION LINKS ────────────────────────────── */
     .action-links { display: flex; gap: 10px; flex-wrap: wrap; margin-bottom: 12px; }
-    .jakes-take-link { display: block; margin: 12px 0 20px; padding: 12px 18px; background: #161b22; border: 1px solid #30363d; border-radius: 8px; color: #58a6ff; font-size: .9rem; font-weight: 600; text-decoration: none; transition: border-color .15s; }
+    .jakes-take-link { display: block; margin: 12px 0 20px; padding: 12px 18px; background: rgba(22,27,34,0.85); border: 1px solid #30363d; border-radius: 8px; color: #58a6ff; font-size: .9rem; font-weight: 600; text-decoration: none; transition: border-color .15s; }
     .jakes-take-link:hover { border-color: #58a6ff; }
-    .alert-box { margin: 12px 0 20px; padding: 14px 18px; background: #161b22; border: 1px solid #30363d; border-radius: 8px; }
+    .alert-box { margin: 12px 0 20px; padding: 14px 18px; background: rgba(22,27,34,0.85); border: 1px solid #30363d; border-radius: 8px; }
     .alert-trigger { background: none; border: none; color: var(--text-muted); font-size: .84rem; cursor: pointer; font-family: inherit; padding: 0; display: flex; align-items: center; gap: 6px; }
     .alert-trigger:hover { color: var(--text); }
     .alert-inline { display: none; margin-top: 10px; }
@@ -651,6 +662,9 @@
     <a href="/" style="color:var(--brand);font-weight:600">Browse all trails →</a>
   </div>
 
+  <!-- FIXED BG (full-screen behind everything) -->
+  <div class="hero-bg-fixed" id="hero-bg-fixed"></div>
+
   <!-- HERO IMAGE -->
   <div class="hero-image hidden" id="hero-image">
     <div class="hero-overlay"></div>
@@ -864,19 +878,18 @@
     };
 
     function tryLoadPhoto(slug, stateCode) {
-      const hero     = document.getElementById('hero-image');
+      const bgFixed  = document.getElementById('hero-bg-fixed');
       const url      = `/photos/${slug}/${slug}.webp`;
-      const position = PHOTO_FOCUS[slug] || 'center center';
+      const position = PHOTO_FOCUS[slug] || 'center 40%';
       const img      = new Image();
       img.onload = () => {
-        hero.style.backgroundImage    = `url('${url}')`;
-        hero.style.backgroundPosition = position;
+        bgFixed.style.backgroundImage    = `url('${url}')`;
+        bgFixed.style.backgroundPosition = position;
       };
       img.onerror = () => {
-        // Keep gradient fallback, already set by state class
+        // Keep gradient fallback
       };
       img.src = url;
-      hero.classList.add(`state-${stateCode}`);
     }
 
     // ─── NAV SCROLL BEHAVIOR ──────────────────────────────────────────────────

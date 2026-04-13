@@ -114,9 +114,9 @@
       border-bottom: 1px solid transparent;
     }
     nav.scrolled {
-      background: rgba(12,17,23,0.95);
+      background: rgba(12,17,23,0.25);
       backdrop-filter: blur(12px);
-      border-bottom-color: var(--border);
+      border-bottom-color: rgba(48,54,61,0.3);
     }
     .nav-logo {
       font-weight: 900;
@@ -135,7 +135,13 @@
     .site-hero-overlay {
       position: absolute;
       inset: 0;
-      background: none;
+      background: linear-gradient(
+        to bottom,
+        rgba(12,17,23,0)     0%,
+        rgba(12,17,23,0)     55%,
+        rgba(12,17,23,0.35)  75%,
+        rgba(12,17,23,0.7)   100%
+      );
       pointer-events: none;
     }
 
@@ -154,16 +160,6 @@
       margin: 0 auto;
       padding: 0 24px 48px;
       position: relative;
-    }
-    .site-hero-inner::before {
-      content: '';
-      position: absolute;
-      inset: -20px -32px -20px -32px;
-      background: rgba(0, 0, 0, 0.45);
-      backdrop-filter: blur(12px);
-      -webkit-backdrop-filter: blur(12px);
-      border-radius: 16px;
-      z-index: -1;
     }
     .hero-badge {
       display: inline-flex;
@@ -186,7 +182,7 @@
       letter-spacing: -0.04em;
       line-height: 1.05;
       color: #fff;
-      text-shadow: 0 2px 20px rgba(0,0,0,0.3);
+      text-shadow: 0 2px 24px rgba(0,0,0,0.6), 0 1px 4px rgba(0,0,0,0.4);
       margin-bottom: 14px;
     }
     .site-hero-content h1 span { color: var(--brand); }
@@ -230,26 +226,8 @@
     .content-wrap::before {
       content: '';
       position: absolute;
-      top: -200px; left: 0; right: 0;
-      height: 500px;
-      background: linear-gradient(
-        to bottom,
-        rgba(12,17,23,0)     0%,
-        rgba(12,17,23,0.02)  15%,
-        rgba(12,17,23,0.08)  30%,
-        rgba(12,17,23,0.18)  45%,
-        rgba(12,17,23,0.3)   60%,
-        rgba(12,17,23,0.38)  75%,
-        rgba(12,17,23,0.45)  100%
-      );
-      pointer-events: none;
-      z-index: 0;
-    }
-    .content-wrap::after {
-      content: '';
-      position: absolute;
-      top: 300px; left: 0; right: 0; bottom: 0;
-      background: rgba(12,17,23,0.45);
+      top: 0; left: 0; right: 0; bottom: 0;
+      background: rgba(12,17,23,0.7);
       pointer-events: none;
       z-index: 0;
     }
@@ -591,75 +569,18 @@
       [heroImages[i], heroImages[j]] = [heroImages[j], heroImages[i]];
     }
 
-    // ── Parallax crossfade setup ──────────────────
+    // ── Hero background: single random image ──────
     const layerA = document.getElementById('hero-bg-a');
-    const layerB = document.getElementById('hero-bg-b');
-    let currentIdx = 0;
-    let activeLayer = 'a'; // which layer is currently showing
-    const CYCLE_PX = 2000;
-    let lastCycle  = -1;
-    let swapping   = false;
-
-    // Load first image into layer A
-    const preImg = new Image();
-    preImg.onload = () => {
+    const heroImg = new Image();
+    heroImg.onload = () => {
       layerA.style.backgroundImage = `url('${heroImages[0]}')`;
+      layerA.style.opacity = '1';
     };
-    preImg.src = heroImages[0];
-    // Preload next image
-    if (heroImages.length > 1) { const p = new Image(); p.src = heroImages[1]; }
+    heroImg.src = heroImages[0];
 
-    function crossfadeTo(imgUrl) {
-      if (swapping) return;
-      swapping = true;
-
-      const incoming = activeLayer === 'a' ? layerB : layerA;
-      const outgoing = activeLayer === 'a' ? layerA : layerB;
-
-      // Reset incoming: set image, start slightly zoomed in
-      incoming.style.backgroundImage = `url('${imgUrl}')`;
-      incoming.style.transform = 'scale(1.06)';
-      incoming.classList.remove('fade-out');
-      // Force reflow so the scale(1.06) takes effect before transition
-      incoming.offsetHeight;
-
-      // Fade in the incoming, zoom it to normal
-      incoming.classList.add('fade-in');
-      incoming.style.transform = '';
-
-      // Fade out + zoom the outgoing
-      outgoing.classList.remove('fade-in');
-      outgoing.classList.add('fade-out');
-
-      activeLayer = activeLayer === 'a' ? 'b' : 'a';
-
-      // Clean up after transition completes
-      setTimeout(() => {
-        outgoing.classList.remove('fade-out');
-        outgoing.style.transform = '';
-        swapping = false;
-      }, 2400);
-    }
-
-    // ── Scroll handler: nav + image crossfade ────
+    // ── Scroll handler: nav transparency ─────────
     window.addEventListener('scroll', () => {
-      const sy = window.scrollY;
-      document.getElementById('nav').classList.toggle('scrolled', sy > 60);
-
-      const cycle = Math.floor(sy / CYCLE_PX);
-      if (cycle !== lastCycle) {
-        lastCycle = cycle;
-        const newIdx = cycle % heroImages.length;
-        if (newIdx !== currentIdx || cycle === 0) {
-          currentIdx = newIdx;
-          if (cycle > 0) {
-            crossfadeTo(heroImages[currentIdx]);
-          }
-        }
-        // Preload next
-        const nextIdx = (currentIdx + 1) % heroImages.length;
-        const pre = new Image(); pre.src = heroImages[nextIdx];
-      }
+      document.getElementById('nav').classList.toggle('scrolled', window.scrollY > 60);
     }, { passive: true });
 
     // ── Helpers ──────────────────────────────────
