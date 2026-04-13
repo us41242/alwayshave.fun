@@ -24,13 +24,13 @@
   ],
   "current": {
     "temp_f": 56,
-    "feels_like_f": 47,
-    "wind_mph": 18,
-    "gusts_mph": 27,
+    "feels_like_f": 46,
+    "wind_mph": 17,
+    "gusts_mph": 24,
     "rain_pct": 9
   },
   "aqi": {
-    "aqi": 42,
+    "aqi": 41,
     "category": "Good",
     "pollutant": "O3",
     "source": "airnow"
@@ -41,14 +41,14 @@
     "fire_count_50km": 0
   },
   "river": {
-    "cfs": 37,
+    "cfs": 36,
     "stage": "low"
   },
   "forecast": [
     {
       "date": "2026-04-13",
       "high_f": 59,
-      "low_f": 43,
+      "low_f": 41,
       "rain_pct": 62,
       "uv": 8,
       "sunrise": "2026-04-13T05:57",
@@ -101,5 +101,5 @@
       "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-04-13T19:03:11.892006+00:00"
+  "updated_at": "2026-04-13T19:23:16.832872+00:00"
 }
