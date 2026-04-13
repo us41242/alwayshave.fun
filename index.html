@@ -72,6 +72,7 @@
       color: var(--text);
       line-height: 1.5;
       min-height: 100vh;
+      overflow-x: hidden;
     }
 
     /* ── PARALLAX BG CROSSFADE LAYERS ────────────── */
@@ -178,6 +179,7 @@
       margin: 0 auto;
       padding: 0 24px 48px;
       position: relative;
+      overflow: hidden;
     }
     .hero-badge {
       display: inline-flex;
@@ -195,13 +197,15 @@
       margin-bottom: 18px;
     }
     .site-hero-content h1 {
-      font-size: clamp(2.2rem, 6vw, 3.8rem);
+      font-size: clamp(1.5rem, 6vw, 3.8rem);
       font-weight: 900;
       letter-spacing: -0.04em;
-      line-height: 1.05;
+      line-height: 1.1;
       color: #fff;
       text-shadow: 0 2px 24px rgba(0,0,0,0.6), 0 1px 4px rgba(0,0,0,0.4);
       margin-bottom: 14px;
+      word-wrap: break-word;
+      overflow-wrap: break-word;
     }
     .site-hero-content h1 span { color: var(--brand); }
     .hero-animated-logo {
@@ -225,8 +229,9 @@
       transition: none;
     }
     .site-hero-sub {
-      font-size: clamp(0.9rem, 2vw, 1.05rem);
+      font-size: clamp(0.8rem, 2vw, 1.05rem);
       color: #ffffff;
+      word-wrap: break-word;
       max-width: 480px;
       line-height: 1.6;
       margin-bottom: 32px;
