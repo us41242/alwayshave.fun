@@ -17,17 +17,17 @@
   "notes": "Heat advisory Jun\u2013Sep; carry extra water",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 70,
-  "score_label": "Good conditions",
+  "score": 58,
+  "score_label": "Use caution",
   "gear_flags": [
     "wind layer recommended"
   ],
   "current": {
-    "temp_f": 64,
-    "feels_like_f": 54,
-    "wind_mph": 14,
+    "temp_f": 63,
+    "feels_like_f": 53,
+    "wind_mph": 16,
     "gusts_mph": 29,
-    "rain_pct": 4
+    "rain_pct": 1
   },
   "aqi": {
     "aqi": null,
@@ -98,5 +98,5 @@
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-04-13T03:42:41.261918+00:00"
+  "updated_at": "2026-04-13T04:02:47.088452+00:00"
 }
