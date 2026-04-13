@@ -24,11 +24,11 @@
     "rain gear recommended"
   ],
   "current": {
-    "temp_f": 23,
-    "feels_like_f": 17,
-    "wind_mph": 2,
-    "gusts_mph": 14,
-    "rain_pct": 54
+    "temp_f": 22,
+    "feels_like_f": 16,
+    "wind_mph": 3,
+    "gusts_mph": 16,
+    "rain_pct": 53
   },
   "aqi": {
     "aqi": 45,
@@ -46,7 +46,7 @@
     {
       "date": "2026-04-12",
       "high_f": 27,
-      "low_f": 20,
+      "low_f": 18,
       "rain_pct": 100,
       "uv": 4,
       "sunrise": "2026-04-12T06:26",
@@ -80,7 +80,7 @@
       "date": "2026-04-15",
       "high_f": 36,
       "low_f": 20,
-      "rain_pct": 3,
+      "rain_pct": 5,
       "uv": 8,
       "sunrise": "2026-04-15T06:22",
       "sunset": "2026-04-15T19:33",
@@ -91,7 +91,7 @@
       "date": "2026-04-16",
       "high_f": 33,
       "low_f": 17,
-      "rain_pct": 16,
+      "rain_pct": 14,
       "uv": 8,
       "sunrise": "2026-04-16T06:20",
       "sunset": "2026-04-16T19:34",
@@ -99,5 +99,5 @@
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-04-13T03:16:16.739851+00:00"
+  "updated_at": "2026-04-13T03:33:27.824708+00:00"
 }
