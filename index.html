@@ -129,7 +129,25 @@
     nav.scrolled .nav-logo { color: var(--brand); text-shadow: none; }
     .nav-tagline { font-size: 0.78rem; color: rgba(255,255,255,0.6); text-shadow: 0 1px 4px rgba(0,0,0,0.5); }
     nav.scrolled .nav-tagline { color: var(--text-muted); text-shadow: none; }
-    @media (max-width: 500px) { .nav-tagline { display: none; } }
+    @media (max-width: 600px) {
+      .nav-tagline { display: none; }
+      nav { padding: 10px 16px; font-size: 0.9rem; }
+      nav.scrolled { background: rgba(12,17,23,0.85); }
+      /* Fix: position:fixed bg doesn't work on iOS — use absolute + full height instead */
+      .hero-bg-layer {
+        position: absolute;
+        height: 200vh;
+      }
+      .site-hero-content { padding-top: 56px; }
+      .site-hero-inner { margin-top: auto; }
+      .site-hero-inner { padding: 0 16px 28px; }
+      .site-hero-content h1 { font-size: 1.5rem; line-height: 1.15; }
+      .morph-wrap { margin-top: 4px; }
+      .morph-text { font-size: 1.3rem; }
+      .site-hero-sub { font-size: 0.82rem; margin-bottom: 16px; }
+      .hero-stats { gap: 8px; }
+      .hero-stat-pill { padding: 6px 10px; font-size: 0.72rem; }
+    }
 
     /* ── HERO ────────────────────────────────────── */
     .site-hero-overlay {
@@ -196,14 +214,14 @@
     /* ── MORPHING TEXT ───────────────────────────── */
     .morph-wrap {
       position: relative;
-      display: inline-block;
+      display: block;
       filter: url(#morph-threshold);
+      width: 100%;
     }
     .morph-text {
       position: absolute;
-      top: 0; left: 0;
-      display: inline-block;
-      white-space: nowrap;
+      top: 0; left: 0; right: 0;
+      display: block;
       transition: none;
     }
     .site-hero-sub {
@@ -637,15 +655,25 @@
     let morphIdx = 0;
     let paused = false;
 
-    // Size the container to the widest phrase
+    // Size the container height to the tallest phrase (accounts for wrapping on mobile)
     const measure = document.createElement('span');
-    measure.style.cssText = 'visibility:hidden;position:absolute;white-space:nowrap;font:inherit';
+    measure.style.cssText = 'visibility:hidden;position:absolute;left:0;right:0;font:inherit;display:block;width:' + morphWrap.offsetWidth + 'px';
     morphWrap.parentElement.appendChild(measure);
-    let maxW = 0;
-    morphPhrases.forEach(p => { measure.textContent = p; maxW = Math.max(maxW, measure.offsetWidth); });
-    morphWrap.style.minWidth = maxW + 'px';
-    morphWrap.style.height = morph1.offsetHeight + 'px';
+    let maxH = 0;
+    morphPhrases.forEach(p => { measure.textContent = p; maxH = Math.max(maxH, measure.offsetHeight); });
+    morphWrap.style.height = maxH + 'px';
     measure.remove();
+
+    // Re-measure on resize (orientation change etc)
+    window.addEventListener('resize', () => {
+      const m = document.createElement('span');
+      m.style.cssText = 'visibility:hidden;position:absolute;left:0;right:0;font:inherit;display:block;width:' + morphWrap.offsetWidth + 'px';
+      morphWrap.parentElement.appendChild(m);
+      let h = 0;
+      morphPhrases.forEach(p => { m.textContent = p; h = Math.max(h, m.offsetHeight); });
+      morphWrap.style.height = h + 'px';
+      m.remove();
+    });
 
     // Init
     morph1.textContent = morphPhrases[0];
