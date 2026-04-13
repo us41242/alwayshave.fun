@@ -25,13 +25,13 @@
   ],
   "current": {
     "temp_f": 20,
-    "feels_like_f": 4,
-    "wind_mph": 24,
-    "gusts_mph": 44,
+    "feels_like_f": 5,
+    "wind_mph": 23,
+    "gusts_mph": 42,
     "rain_pct": 10
   },
   "aqi": {
-    "aqi": 40,
+    "aqi": 41,
     "category": "Good",
     "pollutant": "O3",
     "source": "airnow"
@@ -46,7 +46,7 @@
     {
       "date": "2026-04-13",
       "high_f": 27,
-      "low_f": 15,
+      "low_f": 16,
       "rain_pct": 38,
       "uv": 8,
       "sunrise": "2026-04-13T06:33",
@@ -99,5 +99,5 @@
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-04-13T08:08:58.253809+00:00"
+  "updated_at": "2026-04-13T08:30:09.868570+00:00"
 }
