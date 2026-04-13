@@ -25,10 +25,10 @@
   ],
   "current": {
     "temp_f": 18,
-    "feels_like_f": 4,
-    "wind_mph": 21,
-    "gusts_mph": 35,
-    "rain_pct": 8
+    "feels_like_f": 2,
+    "wind_mph": 22,
+    "gusts_mph": 38,
+    "rain_pct": 7
   },
   "aqi": {
     "aqi": 23,
@@ -46,7 +46,7 @@
     {
       "date": "2026-04-12",
       "high_f": 20,
-      "low_f": 13,
+      "low_f": 14,
       "rain_pct": 27,
       "uv": 3,
       "sunrise": "2026-04-12T06:12",
@@ -57,7 +57,7 @@
     {
       "date": "2026-04-13",
       "high_f": 24,
-      "low_f": 12,
+      "low_f": 13,
       "rain_pct": 21,
       "uv": 8,
       "sunrise": "2026-04-13T06:11",
@@ -99,5 +99,5 @@
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-04-13T02:22:27.704204+00:00"
+  "updated_at": "2026-04-13T02:42:32.202529+00:00"
 }
