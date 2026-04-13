@@ -19,14 +19,12 @@
   "vehicle_req": "Any",
   "score": 58,
   "score_label": "Use caution",
-  "gear_flags": [
-    "insulation layer required"
-  ],
+  "gear_flags": [],
   "current": {
     "temp_f": 45,
     "feels_like_f": 39,
-    "wind_mph": 5,
-    "gusts_mph": 17,
+    "wind_mph": 6,
+    "gusts_mph": 18,
     "rain_pct": 2
   },
   "aqi": {
@@ -98,5 +96,5 @@
       "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-04-13T14:45:41.299465+00:00"
+  "updated_at": "2026-04-13T15:05:19.570078+00:00"
 }
