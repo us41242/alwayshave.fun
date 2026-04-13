@@ -31,7 +31,7 @@
     "rain_pct": 5
   },
   "aqi": {
-    "aqi": 40,
+    "aqi": 44,
     "category": "Good",
     "pollutant": "O3",
     "source": "airnow"
@@ -47,7 +47,7 @@
       "date": "2026-04-13",
       "high_f": 27,
       "low_f": 19,
-      "rain_pct": 33,
+      "rain_pct": 41,
       "uv": 8,
       "sunrise": "2026-04-13T06:33",
       "sunset": "2026-04-13T19:43",
@@ -80,7 +80,7 @@
       "date": "2026-04-16",
       "high_f": 33,
       "low_f": 19,
-      "rain_pct": 28,
+      "rain_pct": 23,
       "uv": 8,
       "sunrise": "2026-04-16T06:29",
       "sunset": "2026-04-16T19:45",
@@ -91,7 +91,7 @@
       "date": "2026-04-17",
       "high_f": 22,
       "low_f": -2,
-      "rain_pct": 71,
+      "rain_pct": 72,
       "uv": 7,
       "sunrise": "2026-04-17T06:27",
       "sunset": "2026-04-17T19:46",
@@ -99,5 +99,5 @@
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-04-13T15:08:55.842561+00:00"
+  "updated_at": "2026-04-13T15:28:55.288562+00:00"
 }

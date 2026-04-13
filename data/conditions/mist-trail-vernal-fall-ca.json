@@ -17,16 +17,16 @@
   "notes": "Extremely slippery when wet \u2014 wet season trail",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 40,
-  "score_label": "Conditions poor",
+  "score": 58,
+  "score_label": "Use caution",
   "gear_flags": [
     "insulation layer required"
   ],
   "current": {
-    "temp_f": 39,
-    "feels_like_f": 33,
-    "wind_mph": 2,
-    "gusts_mph": 2,
+    "temp_f": 40,
+    "feels_like_f": 35,
+    "wind_mph": 1,
+    "gusts_mph": 3,
     "rain_pct": 1
   },
   "aqi": {
@@ -44,14 +44,14 @@
   "forecast": [
     {
       "date": "2026-04-13",
-      "high_f": 47,
+      "high_f": 46,
       "low_f": 35,
-      "rain_pct": 31,
+      "rain_pct": 30,
       "uv": 6,
       "sunrise": "2026-04-13T06:25",
       "sunset": "2026-04-13T19:32",
-      "predicted_score": 40,
-      "score_label": "Conditions poor"
+      "predicted_score": 58,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-04-14",
@@ -68,7 +68,7 @@
       "date": "2026-04-15",
       "high_f": 57,
       "low_f": 37,
-      "rain_pct": 4,
+      "rain_pct": 3,
       "uv": 7,
       "sunrise": "2026-04-15T06:22",
       "sunset": "2026-04-15T19:33",
@@ -79,7 +79,7 @@
       "date": "2026-04-16",
       "high_f": 52,
       "low_f": 36,
-      "rain_pct": 14,
+      "rain_pct": 12,
       "uv": 7,
       "sunrise": "2026-04-16T06:21",
       "sunset": "2026-04-16T19:34",
@@ -90,7 +90,7 @@
       "date": "2026-04-17",
       "high_f": 58,
       "low_f": 35,
-      "rain_pct": 1,
+      "rain_pct": 0,
       "uv": 8,
       "sunrise": "2026-04-17T06:19",
       "sunset": "2026-04-17T19:35",
@@ -98,5 +98,5 @@
       "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-04-13T15:09:40.598335+00:00"
+  "updated_at": "2026-04-13T15:31:32.858156+00:00"
 }
