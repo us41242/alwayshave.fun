@@ -17,17 +17,17 @@
   "notes": "Flash flood zone \u2014 avoid any chance of rain",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 78,
-  "score_label": "Good conditions",
+  "score": 90,
+  "score_label": "Great day to go",
   "gear_flags": [
     "wind layer recommended",
     "mask for sensitive groups"
   ],
   "current": {
-    "temp_f": 58,
+    "temp_f": 56,
     "feels_like_f": 44,
-    "wind_mph": 18,
-    "gusts_mph": 36,
+    "wind_mph": 14,
+    "gusts_mph": 35,
     "rain_pct": 0
   },
   "aqi": {
@@ -99,5 +99,5 @@
       "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-04-13T02:05:41.712562+00:00"
+  "updated_at": "2026-04-13T02:25:46.895560+00:00"
 }
