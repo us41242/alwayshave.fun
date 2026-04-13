@@ -134,21 +134,23 @@
       .nav-tagline { display: none; }
       nav { padding: 10px 16px; font-size: 0.9rem; }
       nav.scrolled { background: rgba(12,17,23,0.85); }
-      /* Fix: position:fixed bg doesn't work on iOS — use absolute + full height instead */
       .hero-bg-layer {
         position: absolute;
         height: 200vh;
       }
-      .site-hero-content { padding-top: 56px; }
-      .site-hero-inner { margin-top: auto; }
-      .site-hero-inner { padding: 0 16px 28px; }
-      .site-hero-content h1 { font-size: 1.5rem; line-height: 1.15; }
-      .morph-wrap { margin-top: 4px; }
-      .morph-text { font-size: 1.3rem; }
-      .site-hero-sub { font-size: 0.82rem; margin-bottom: 16px; }
-      .hero-stats { gap: 8px; }
-      .hero-stat-pill { padding: 6px 10px; font-size: 0.72rem; }
-      .site-hero-content { height: 60vh; height: 60dvh; }
+      .site-hero-content { padding-top: 56px; height: 70vh; height: 70dvh; }
+      .site-hero-inner { padding: 0 16px 24px; overflow: hidden; }
+      .site-hero-content h1 { font-size: 1.2rem; line-height: 1.2; }
+      .morph-wrap { margin-top: 2px; }
+      .morph-text { font-size: 1.1rem; }
+      .site-hero-sub { font-size: 0.78rem; margin-bottom: 12px; max-width: 100%; }
+      .hero-stats { gap: 6px; flex-wrap: wrap; }
+      .hero-stat-pill { padding: 5px 10px; font-size: 0.7rem; }
+      .hero-badge { font-size: 0.65rem; padding: 3px 10px; margin-bottom: 12px; }
+      .page-content { padding: 20px 16px 40px; }
+      .filters { padding: 0 0 12px; gap: 6px; flex-wrap: wrap; }
+      .filter-btn { font-size: 0.75rem; padding: 6px 12px; }
+      .trail-grid { grid-template-columns: 1fr !important; }
     }
     @media (min-width: 601px) and (max-width: 900px) {
       .site-hero-content { height: 75vh; height: 75dvh; }
