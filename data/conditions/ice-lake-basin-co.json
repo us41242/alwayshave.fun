@@ -17,25 +17,24 @@
   "notes": "High-alpine \u2014 thunderstorm risk after noon; start before 7am",
   "dog_friendly": "Yes",
   "vehicle_req": "High-Clearance",
-  "score": 50,
+  "score": 60,
   "score_label": "Use caution",
   "gear_flags": [
     "wind layer recommended",
-    "insulation layer required",
-    "mask for sensitive groups"
+    "insulation layer required"
   ],
   "current": {
-    "temp_f": 32,
-    "feels_like_f": 16,
-    "wind_mph": 22,
-    "gusts_mph": 37,
+    "temp_f": 31,
+    "feels_like_f": 17,
+    "wind_mph": 21,
+    "gusts_mph": 36,
     "rain_pct": 5
   },
   "aqi": {
-    "aqi": 64,
-    "category": "Moderate",
-    "pollutant": "PM2.5",
-    "source": "open-meteo"
+    "aqi": 6,
+    "category": "Good",
+    "pollutant": "PM10",
+    "source": "airnow"
   },
   "fire": {
     "risk_level": "low",
@@ -52,18 +51,18 @@
       "uv": 9,
       "sunrise": "2026-04-12T06:39",
       "sunset": "2026-04-12T19:43",
-      "predicted_score": 60,
-      "score_label": "Use caution"
+      "predicted_score": 70,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-04-13",
       "high_f": 33,
-      "low_f": 18,
+      "low_f": 17,
       "rain_pct": 58,
       "uv": 8,
       "sunrise": "2026-04-13T06:38",
       "sunset": "2026-04-13T19:44",
-      "predicted_score": 50,
+      "predicted_score": 60,
       "score_label": "Use caution"
     },
     {
@@ -74,7 +73,7 @@
       "uv": 8,
       "sunrise": "2026-04-14T06:36",
       "sunset": "2026-04-14T19:45",
-      "predicted_score": 50,
+      "predicted_score": 60,
       "score_label": "Use caution"
     },
     {
@@ -85,7 +84,7 @@
       "uv": 8,
       "sunrise": "2026-04-15T06:35",
       "sunset": "2026-04-15T19:46",
-      "predicted_score": 50,
+      "predicted_score": 60,
       "score_label": "Use caution"
     },
     {
@@ -96,9 +95,9 @@
       "uv": 8,
       "sunrise": "2026-04-16T06:34",
       "sunset": "2026-04-16T19:47",
-      "predicted_score": 50,
+      "predicted_score": 60,
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-04-13T00:31:44.826424+00:00"
+  "updated_at": "2026-04-13T00:50:29.828086+00:00"
 }
