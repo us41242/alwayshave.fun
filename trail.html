@@ -741,8 +741,29 @@
     function tryLoadPhoto(slug, stateCode) {
       const bgFixed  = document.getElementById('hero-bg-fixed');
       const position = PHOTO_FOCUS[slug] || 'center 40%';
-      // Pick size based on screen
+      const isMobile = window.innerWidth <= 600;
       const w = window.innerWidth * (window.devicePixelRatio || 1);
+
+      // On mobile, try the art-directed portrait crop first
+      if (isMobile) {
+        const mobileUrl = `/photos/${slug}/${slug}-mobile.jpg`;
+        const mImg = new Image();
+        mImg.onload = () => {
+          bgFixed.style.backgroundImage    = `url('${mobileUrl}')`;
+          bgFixed.style.backgroundPosition = 'center center';
+        };
+        mImg.onerror = () => {
+          // No mobile crop — fall back to responsive landscape
+          loadLandscape(slug, w, bgFixed, position);
+        };
+        mImg.src = mobileUrl;
+        return;
+      }
+
+      loadLandscape(slug, w, bgFixed, position);
+    }
+
+    function loadLandscape(slug, w, bgFixed, position) {
       let suffix = '';
       if (w <= 800) suffix = '-640';
       else if (w <= 1400) suffix = '-1280';
@@ -754,7 +775,6 @@
         bgFixed.style.backgroundPosition = position;
       };
       img.onerror = () => {
-        // Fallback to full-res if sized version missing
         const fallback = `/photos/${slug}/${slug}.jpg`;
         bgFixed.style.backgroundImage    = `url('${fallback}')`;
         bgFixed.style.backgroundPosition = position;
