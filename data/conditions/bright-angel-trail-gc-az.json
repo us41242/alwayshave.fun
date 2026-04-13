@@ -17,21 +17,21 @@
   "notes": "Summer heat extreme \u2014 start before sunrise",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 60,
-  "score_label": "Use caution",
+  "score": 78,
+  "score_label": "Good conditions",
   "gear_flags": [
     "wind layer recommended",
     "mask for sensitive groups"
   ],
   "current": {
-    "temp_f": 51,
-    "feels_like_f": 34,
-    "wind_mph": 27,
+    "temp_f": 49,
+    "feels_like_f": 32,
+    "wind_mph": 25,
     "gusts_mph": 44,
     "rain_pct": 0
   },
   "aqi": {
-    "aqi": 57,
+    "aqi": 59,
     "category": "Moderate",
     "pollutant": "PM2.5",
     "source": "open-meteo"
@@ -59,9 +59,9 @@
     },
     {
       "date": "2026-04-13",
-      "high_f": 51,
-      "low_f": 29,
-      "rain_pct": 44,
+      "high_f": 54,
+      "low_f": 33,
+      "rain_pct": 45,
       "uv": 8,
       "sunrise": "2026-04-13T05:57",
       "sunset": "2026-04-13T19:00",
@@ -71,13 +71,13 @@
     {
       "date": "2026-04-14",
       "high_f": 49,
-      "low_f": 29,
-      "rain_pct": 45,
+      "low_f": 30,
+      "rain_pct": 27,
       "uv": 7,
       "sunrise": "2026-04-14T05:56",
       "sunset": "2026-04-14T19:01",
-      "predicted_score": 60,
-      "score_label": "Use caution"
+      "predicted_score": 78,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-04-15",
@@ -102,5 +102,5 @@
       "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-04-13T01:43:09.503864+00:00"
+  "updated_at": "2026-04-13T02:03:25.052501+00:00"
 }
