@@ -190,6 +190,21 @@
       max-width: min(720px, 90vw);
       height: auto;
       filter: drop-shadow(0 2px 20px rgba(0,0,0,0.3));
+      display: none; /* replaced by live morph text */
+    }
+
+    /* ── MORPHING TEXT ───────────────────────────── */
+    .morph-wrap {
+      position: relative;
+      display: inline-block;
+      filter: url(#morph-threshold);
+    }
+    .morph-text {
+      position: absolute;
+      top: 0; left: 0;
+      display: inline-block;
+      white-space: nowrap;
+      transition: none;
     }
     .site-hero-sub {
       font-size: clamp(0.9rem, 2vw, 1.05rem);
@@ -464,9 +479,25 @@
     <div class="site-hero-overlay"></div>
     <div class="site-hero-inner">
       <div class="hero-badge">⛰ Live Conditions</div>
+      <!-- SVG filter for morph threshold effect -->
+      <svg style="position:absolute;width:0;height:0">
+        <defs>
+          <filter id="morph-threshold">
+            <feColorMatrix in="SourceGraphic" type="matrix"
+              values="1 0 0 0 0
+                      0 1 0 0 0
+                      0 0 1 0 0
+                      0 0 0 25 -10" />
+          </filter>
+        </defs>
+      </svg>
       <h1>
-        <img src="/photos/animated-logo.webp" alt="Always have fun outdoors" class="hero-animated-logo" fetchpriority="high">
-        <span style="position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0">alwayshave.fun — Real-Time Trail Conditions for Hikers, Campers &amp; Overlanders</span>
+        always have <span>fun</span>
+        <br>
+        <span class="morph-wrap" id="morph-wrap">
+          <span class="morph-text morph-text-1 morph-trail" id="morph-1">exploring Red Rock</span>
+          <span class="morph-text morph-text-2 morph-trail" id="morph-2">trekking Bright Angel</span>
+        </span>
       </h1>
       <p class="site-hero-sub">Real-time weather, air quality, and trail scores for hikers, campers, and overlanders. Updated every 20 minutes.</p>
       <div class="hero-stats">
@@ -582,6 +613,92 @@
     window.addEventListener('scroll', () => {
       document.getElementById('nav').classList.toggle('scrolled', window.scrollY > 60);
     }, { passive: true });
+
+    // ── Morphing text cycle (rAF-driven) ──────────
+    const morphPhrases = [
+      'exploring Red Rock',
+      'trekking Bright Angel',
+      'camping Bryce Canyon',
+      'hiking Half Dome',
+      'chasing Havasu Falls',
+      'summiting Wheeler Peak',
+      'crossing The Narrows',
+      'discovering Paria Canyon',
+      'conquering Angels Landing',
+      'roaming Valley of Fire',
+      'scrambling South Kaibab',
+      'photographing Maroon Bells',
+      'wherever adventure takes you',
+    ];
+
+    const morph1 = document.getElementById('morph-1');
+    const morph2 = document.getElementById('morph-2');
+    const morphWrap = document.getElementById('morph-wrap');
+    let morphIdx = 0;
+    let paused = false;
+
+    // Size the container to the widest phrase
+    const measure = document.createElement('span');
+    measure.style.cssText = 'visibility:hidden;position:absolute;white-space:nowrap;font:inherit';
+    morphWrap.parentElement.appendChild(measure);
+    let maxW = 0;
+    morphPhrases.forEach(p => { measure.textContent = p; maxW = Math.max(maxW, measure.offsetWidth); });
+    morphWrap.style.minWidth = maxW + 'px';
+    morphWrap.style.height = morph1.offsetHeight + 'px';
+    measure.remove();
+
+    // Init
+    morph1.textContent = morphPhrases[0];
+    morph2.textContent = morphPhrases[1];
+    morph1.style.opacity = 1; morph1.style.filter = 'blur(0px)';
+    morph2.style.opacity = 0; morph2.style.filter = 'blur(12px)';
+
+    const HOLD    = 2000;
+    const MORPH   = 1200;
+    const TOTAL   = HOLD + MORPH;
+    const PAUSE   = 30000; // 30s pause on final phrase
+    let morphStart = performance.now();
+
+    function morphTick(now) {
+      if (paused) return;
+      const elapsed = now - morphStart;
+
+      if (elapsed < HOLD) {
+        morph1.style.opacity = 1; morph1.style.filter = 'blur(0px)';
+        morph2.style.opacity = 0; morph2.style.filter = 'blur(12px)';
+      } else if (elapsed < TOTAL) {
+        const t = (elapsed - HOLD) / MORPH;
+        const ease = t < 0.5 ? 2 * t * t : 1 - Math.pow(-2 * t + 2, 2) / 2;
+        morph1.style.opacity = 1 - ease;
+        morph1.style.filter = `blur(${ease * 12}px)`;
+        morph2.style.opacity = ease;
+        morph2.style.filter = `blur(${(1 - ease) * 12}px)`;
+      } else {
+        // Advance
+        morphIdx = (morphIdx + 1) % morphPhrases.length;
+        const nextIdx = (morphIdx + 1) % morphPhrases.length;
+        morph1.textContent = morphPhrases[morphIdx];
+        morph2.textContent = morphPhrases[nextIdx];
+        morph1.style.opacity = 1; morph1.style.filter = 'blur(0px)';
+        morph2.style.opacity = 0; morph2.style.filter = 'blur(12px)';
+        morphStart = now;
+
+        // If we just landed on the final phrase, pause 30s then restart
+        if (morphIdx === morphPhrases.length - 1) {
+          paused = true;
+          setTimeout(() => {
+            morphIdx = -1; // will advance to 0 on next cycle
+            paused = false;
+            morphStart = performance.now();
+            requestAnimationFrame(morphTick);
+          }, PAUSE);
+          return;
+        }
+      }
+
+      requestAnimationFrame(morphTick);
+    }
+    requestAnimationFrame(morphTick);
 
     // ── Helpers ──────────────────────────────────
     function scoreColor(s) {
