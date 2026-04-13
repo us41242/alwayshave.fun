@@ -17,22 +17,19 @@
   "notes": "Check Virgin River flow \u2014 USGS gauge 09380000",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 78,
-  "score_label": "Good conditions",
-  "gear_flags": [
-    "wind layer recommended",
-    "mask for sensitive groups"
-  ],
+  "score": 88,
+  "score_label": "Great day to go",
+  "gear_flags": [],
   "current": {
-    "temp_f": 51,
-    "feels_like_f": 43,
-    "wind_mph": 11,
-    "gusts_mph": 20,
+    "temp_f": 49,
+    "feels_like_f": 42,
+    "wind_mph": 9,
+    "gusts_mph": 19,
     "rain_pct": 16
   },
   "aqi": {
-    "aqi": 53,
-    "category": "Moderate",
+    "aqi": 49,
+    "category": "Good",
     "pollutant": "PM2.5",
     "source": "open-meteo"
   },
@@ -54,8 +51,8 @@
       "uv": 7,
       "sunrise": "2026-04-13T06:59",
       "sunset": "2026-04-13T20:04",
-      "predicted_score": 60,
-      "score_label": "Use caution"
+      "predicted_score": 70,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-04-14",
@@ -65,8 +62,8 @@
       "uv": 8,
       "sunrise": "2026-04-14T06:58",
       "sunset": "2026-04-14T20:05",
-      "predicted_score": 60,
-      "score_label": "Use caution"
+      "predicted_score": 70,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-04-15",
@@ -76,7 +73,7 @@
       "uv": 8,
       "sunrise": "2026-04-15T06:56",
       "sunset": "2026-04-15T20:06",
-      "predicted_score": 90,
+      "predicted_score": 100,
       "score_label": "Great day to go"
     },
     {
@@ -87,8 +84,8 @@
       "uv": 7,
       "sunrise": "2026-04-16T06:55",
       "sunset": "2026-04-16T20:07",
-      "predicted_score": 78,
-      "score_label": "Good conditions"
+      "predicted_score": 88,
+      "score_label": "Great day to go"
     },
     {
       "date": "2026-04-17",
@@ -98,9 +95,9 @@
       "uv": 8,
       "sunrise": "2026-04-17T06:53",
       "sunset": "2026-04-17T20:08",
-      "predicted_score": 78,
-      "score_label": "Good conditions"
+      "predicted_score": 88,
+      "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-04-13T06:40:56.289073+00:00"
+  "updated_at": "2026-04-13T07:00:58.681132+00:00"
 }
