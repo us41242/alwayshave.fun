@@ -12,10 +12,10 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title id="page-title">Mount Moriah Wilderness Trail Conditions — Use caution | alwayshave.fun</title>
-  <meta name="description" id="page-desc" content="Mount Moriah Wilderness conditions: Use caution (60/100). 24°F wind 3 mph AQI 46 Dogs welcome. Live data updated every 30 min.">
+  <meta name="description" id="page-desc" content="Mount Moriah Wilderness conditions: Use caution (60/100). 24°F wind 3 mph AQI 45 Dogs welcome. Live data updated every 30 min.">
   <link rel="canonical" id="canonical" href="https://alwayshave.fun/nv/mount-moriah-nv">
   <meta property="og:title" id="og-title" content="Mount Moriah Wilderness Trail Conditions — Use caution | alwayshave.fun">
-  <meta property="og:description" id="og-desc" content="Mount Moriah Wilderness conditions: Use caution (60/100). 24°F wind 3 mph AQI 46 Dogs welcome. Live data updated every 30 min.">
+  <meta property="og:description" id="og-desc" content="Mount Moriah Wilderness conditions: Use caution (60/100). 24°F wind 3 mph AQI 45 Dogs welcome. Live data updated every 30 min.">
   <meta property="og:image" id="og-image" content="https://alwayshave.fun/photos/mount-moriah-nv/mount-moriah-nv.jpg">
   <meta property="og:type" content="website">
   <meta property="og:url" id="og-url" content="https://alwayshave.fun/nv/mount-moriah-nv">
@@ -549,7 +549,7 @@
         {
           "@type": "PropertyValue",
           "name": "Air Quality (AQI)",
-          "value": "46"
+          "value": "45"
         },
         {
           "@type": "PropertyValue",
@@ -625,7 +625,7 @@
           "name": "What is the air quality (AQI) at Mount Moriah Wilderness today?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Current AQI at Mount Moriah Wilderness is 46 \u2014 Good. AQI under 50 is Good; 51-100 is Moderate; above 100 may require a mask."
+            "text": "Current AQI at Mount Moriah Wilderness is 45 \u2014 Good. AQI under 50 is Good; 51-100 is Moderate; above 100 may require a mask."
           }
         },
         {
@@ -880,8 +880,29 @@
     function tryLoadPhoto(slug, stateCode) {
       const bgFixed  = document.getElementById('hero-bg-fixed');
       const position = PHOTO_FOCUS[slug] || 'center 40%';
-      // Pick size based on screen
+      const isMobile = window.innerWidth <= 600;
       const w = window.innerWidth * (window.devicePixelRatio || 1);
+
+      // On mobile, try the art-directed portrait crop first
+      if (isMobile) {
+        const mobileUrl = `/photos/${slug}/${slug}-mobile.jpg`;
+        const mImg = new Image();
+        mImg.onload = () => {
+          bgFixed.style.backgroundImage    = `url('${mobileUrl}')`;
+          bgFixed.style.backgroundPosition = 'center center';
+        };
+        mImg.onerror = () => {
+          // No mobile crop — fall back to responsive landscape
+          loadLandscape(slug, w, bgFixed, position);
+        };
+        mImg.src = mobileUrl;
+        return;
+      }
+
+      loadLandscape(slug, w, bgFixed, position);
+    }
+
+    function loadLandscape(slug, w, bgFixed, position) {
       let suffix = '';
       if (w <= 800) suffix = '-640';
       else if (w <= 1400) suffix = '-1280';
@@ -893,7 +914,6 @@
         bgFixed.style.backgroundPosition = position;
       };
       img.onerror = () => {
-        // Fallback to full-res if sized version missing
         const fallback = `/photos/${slug}/${slug}.jpg`;
         bgFixed.style.backgroundImage    = `url('${fallback}')`;
         bgFixed.style.backgroundPosition = position;
