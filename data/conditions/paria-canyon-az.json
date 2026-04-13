@@ -17,9 +17,11 @@
   "notes": "Multi-day \u2014 permit required; flash flood danger",
   "dog_friendly": "Yes",
   "vehicle_req": "High-Clearance",
-  "score": 30,
-  "score_label": "Conditions poor",
-  "gear_flags": [],
+  "score": 50,
+  "score_label": "Use caution",
+  "gear_flags": [
+    "mask for sensitive groups"
+  ],
   "current": {
     "temp_f": 54,
     "feels_like_f": 45,
@@ -28,10 +30,10 @@
     "rain_pct": 0
   },
   "aqi": {
-    "aqi": null,
-    "category": "Unknown",
-    "pollutant": "",
-    "source": "none"
+    "aqi": 57,
+    "category": "Moderate",
+    "pollutant": "PM2.5",
+    "source": "open-meteo"
   },
   "fire": {
     "risk_level": "low",
@@ -40,5 +42,5 @@
   },
   "river": null,
   "forecast": [],
-  "updated_at": "2026-04-13T05:46:53.201368+00:00"
+  "updated_at": "2026-04-13T06:06:47.411895+00:00"
 }
