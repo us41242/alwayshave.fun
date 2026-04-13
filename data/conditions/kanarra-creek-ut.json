@@ -20,14 +20,15 @@
   "score": 88,
   "score_label": "Great day to go",
   "gear_flags": [
-    "wind layer recommended"
+    "wind layer recommended",
+    "insulation layer required"
   ],
   "current": {
-    "temp_f": 47,
-    "feels_like_f": 37,
-    "wind_mph": 16,
-    "gusts_mph": 27,
-    "rain_pct": 19
+    "temp_f": 45,
+    "feels_like_f": 33,
+    "wind_mph": 19,
+    "gusts_mph": 30,
+    "rain_pct": 21
   },
   "aqi": {
     "aqi": 48,
@@ -98,5 +99,5 @@
       "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-04-13T04:49:36.602736+00:00"
+  "updated_at": "2026-04-13T05:09:45.033924+00:00"
 }

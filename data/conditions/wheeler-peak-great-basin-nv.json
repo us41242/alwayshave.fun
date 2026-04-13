@@ -26,13 +26,13 @@
   ],
   "current": {
     "temp_f": 11,
-    "feels_like_f": -2,
-    "wind_mph": 17,
-    "gusts_mph": 25,
-    "rain_pct": 32
+    "feels_like_f": -3,
+    "wind_mph": 16,
+    "gusts_mph": 22,
+    "rain_pct": 28
   },
   "aqi": {
-    "aqi": 61,
+    "aqi": 59,
     "category": "Moderate",
     "pollutant": "PM2.5",
     "source": "open-meteo"
@@ -100,5 +100,5 @@
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-04-13T04:43:28.158112+00:00"
+  "updated_at": "2026-04-13T05:03:36.205506+00:00"
 }

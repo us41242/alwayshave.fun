@@ -17,8 +17,8 @@
   "notes": "Extremely slippery when wet \u2014 wet season trail",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 70,
-  "score_label": "Good conditions",
+  "score": 60,
+  "score_label": "Use caution",
   "gear_flags": [
     "insulation layer required",
     "rain gear recommended"
@@ -26,12 +26,12 @@
   "current": {
     "temp_f": 35,
     "feels_like_f": 29,
-    "wind_mph": 4,
-    "gusts_mph": 5,
+    "wind_mph": 2,
+    "gusts_mph": 4,
     "rain_pct": 49
   },
   "aqi": {
-    "aqi": 45,
+    "aqi": 44,
     "category": "Good",
     "pollutant": "PM2.5",
     "source": "open-meteo"
@@ -99,5 +99,5 @@
       "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-04-13T04:51:16.138064+00:00"
+  "updated_at": "2026-04-13T05:10:47.174543+00:00"
 }
