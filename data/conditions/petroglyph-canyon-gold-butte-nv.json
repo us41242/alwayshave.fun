@@ -17,20 +17,20 @@
   "notes": "4WD required; no services for 50 miles",
   "dog_friendly": "Yes",
   "vehicle_req": "4WD",
-  "score": 60,
-  "score_label": "Use caution",
+  "score": 70,
+  "score_label": "Good conditions",
   "gear_flags": [
     "insulation layer required"
   ],
   "current": {
-    "temp_f": 34,
-    "feels_like_f": 26,
-    "wind_mph": 9,
-    "gusts_mph": 15,
-    "rain_pct": 3
+    "temp_f": 35,
+    "feels_like_f": 27,
+    "wind_mph": 11,
+    "gusts_mph": 14,
+    "rain_pct": 4
   },
   "aqi": {
-    "aqi": 38,
+    "aqi": 36,
     "category": "Good",
     "pollutant": "PM2.5",
     "source": "open-meteo"
@@ -98,5 +98,5 @@
       "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-04-13T15:43:24.458188+00:00"
+  "updated_at": "2026-04-13T16:03:23.822534+00:00"
 }
