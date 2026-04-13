@@ -19,12 +19,14 @@
   "vehicle_req": "Any",
   "score": 60,
   "score_label": "Use caution",
-  "gear_flags": [],
+  "gear_flags": [
+    "insulation layer required"
+  ],
   "current": {
-    "temp_f": -6,
-    "feels_like_f": -16,
-    "wind_mph": 6,
-    "gusts_mph": 10,
+    "temp_f": -7,
+    "feels_like_f": -17,
+    "wind_mph": 7,
+    "gusts_mph": 9,
     "rain_pct": 1
   },
   "aqi": {
@@ -35,13 +37,69 @@
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": 196.5,
+    "nearest_fire_km": null,
     "fire_count_50km": 0
   },
   "river": {
     "cfs": 122,
     "stage": "normal"
   },
-  "forecast": [],
-  "updated_at": "2026-04-13T10:54:19.088504+00:00"
+  "forecast": [
+    {
+      "date": "2026-04-13",
+      "high_f": 6,
+      "low_f": -10,
+      "rain_pct": 40,
+      "uv": 7,
+      "sunrise": "2026-04-13T06:21",
+      "sunset": "2026-04-13T19:25",
+      "predicted_score": 60,
+      "score_label": "Use caution"
+    },
+    {
+      "date": "2026-04-14",
+      "high_f": 15,
+      "low_f": -4,
+      "rain_pct": 2,
+      "uv": 9,
+      "sunrise": "2026-04-14T06:20",
+      "sunset": "2026-04-14T19:26",
+      "predicted_score": 60,
+      "score_label": "Use caution"
+    },
+    {
+      "date": "2026-04-15",
+      "high_f": 22,
+      "low_f": 10,
+      "rain_pct": 1,
+      "uv": 8,
+      "sunrise": "2026-04-15T06:18",
+      "sunset": "2026-04-15T19:27",
+      "predicted_score": 60,
+      "score_label": "Use caution"
+    },
+    {
+      "date": "2026-04-16",
+      "high_f": 15,
+      "low_f": 5,
+      "rain_pct": 5,
+      "uv": 9,
+      "sunrise": "2026-04-16T06:17",
+      "sunset": "2026-04-16T19:28",
+      "predicted_score": 60,
+      "score_label": "Use caution"
+    },
+    {
+      "date": "2026-04-17",
+      "high_f": 20,
+      "low_f": 1,
+      "rain_pct": 1,
+      "uv": 9,
+      "sunrise": "2026-04-17T06:16",
+      "sunset": "2026-04-17T19:29",
+      "predicted_score": 60,
+      "score_label": "Use caution"
+    }
+  ],
+  "updated_at": "2026-04-13T11:10:28.402271+00:00"
 }
