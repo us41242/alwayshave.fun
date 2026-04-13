@@ -879,7 +879,7 @@
 
     function tryLoadPhoto(slug, stateCode) {
       const bgFixed  = document.getElementById('hero-bg-fixed');
-      const url      = `/photos/${slug}/${slug}.webp`;
+      const url      = `/photos/${slug}/${slug}.jpg`;
       const position = PHOTO_FOCUS[slug] || 'center 40%';
       const img      = new Image();
       img.onload = () => {
