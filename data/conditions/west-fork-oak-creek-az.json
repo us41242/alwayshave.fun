@@ -22,8 +22,8 @@
   "gear_flags": [],
   "current": {
     "temp_f": 53,
-    "feels_like_f": 47,
-    "wind_mph": 11,
+    "feels_like_f": 48,
+    "wind_mph": 10,
     "gusts_mph": 13,
     "rain_pct": 2
   },
@@ -38,10 +38,7 @@
     "nearest_fire_km": 192.3,
     "fire_count_50km": 0
   },
-  "river": {
-    "cfs": 37,
-    "stage": "low"
-  },
+  "river": null,
   "forecast": [
     {
       "date": "2026-04-14",
@@ -99,5 +96,5 @@
       "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-04-14T20:23:36.463204+00:00"
+  "updated_at": "2026-04-14T20:43:45.777710+00:00"
 }
