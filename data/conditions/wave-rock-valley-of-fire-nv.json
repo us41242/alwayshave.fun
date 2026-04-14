@@ -17,18 +17,18 @@
   "notes": "Heat advisory Jun\u2013Sep; carry extra water",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 88,
+  "score": 100,
   "score_label": "Great day to go",
   "gear_flags": [],
   "current": {
-    "temp_f": 52,
-    "feels_like_f": 49,
+    "temp_f": 51,
+    "feels_like_f": 48,
     "wind_mph": 4,
     "gusts_mph": 5,
-    "rain_pct": 11
+    "rain_pct": 8
   },
   "aqi": {
-    "aqi": 48,
+    "aqi": 46,
     "category": "Good",
     "pollutant": "PM2.5",
     "source": "open-meteo"
@@ -96,5 +96,5 @@
       "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-04-14T09:42:42.390362+00:00"
+  "updated_at": "2026-04-14T10:03:06.129301+00:00"
 }
