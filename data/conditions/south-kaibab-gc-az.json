@@ -20,15 +20,14 @@
   "score": 50,
   "score_label": "Use caution",
   "gear_flags": [
-    "wind layer recommended",
     "insulation layer required",
     "mask for sensitive groups"
   ],
   "current": {
     "temp_f": 31,
     "feels_like_f": 22,
-    "wind_mph": 11,
-    "gusts_mph": 21,
+    "wind_mph": 10,
+    "gusts_mph": 20,
     "rain_pct": 2
   },
   "aqi": {
@@ -100,5 +99,5 @@
       "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-04-14T10:43:36.004484+00:00"
+  "updated_at": "2026-04-14T11:03:56.707510+00:00"
 }
