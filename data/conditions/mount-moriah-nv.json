@@ -17,24 +17,23 @@
   "notes": "Remote \u2014 no cell service; snow until July",
   "dog_friendly": "Yes",
   "vehicle_req": "High-Clearance",
-  "score": 50,
+  "score": 60,
   "score_label": "Use caution",
   "gear_flags": [
-    "insulation layer required",
-    "mask for sensitive groups"
+    "insulation layer required"
   ],
   "current": {
     "temp_f": 19,
-    "feels_like_f": 8,
-    "wind_mph": 11,
-    "gusts_mph": 17,
-    "rain_pct": 15
+    "feels_like_f": 10,
+    "wind_mph": 8,
+    "gusts_mph": 11,
+    "rain_pct": 13
   },
   "aqi": {
-    "aqi": 66,
-    "category": "Moderate",
-    "pollutant": "PM2.5",
-    "source": "open-meteo"
+    "aqi": 45,
+    "category": "Good",
+    "pollutant": "O3",
+    "source": "airnow"
   },
   "fire": {
     "risk_level": "low",
@@ -47,22 +46,22 @@
       "date": "2026-04-13",
       "high_f": 26,
       "low_f": 11,
-      "rain_pct": 22,
+      "rain_pct": 17,
       "uv": 8,
       "sunrise": "2026-04-13T06:02",
       "sunset": "2026-04-13T19:12",
-      "predicted_score": 50,
+      "predicted_score": 60,
       "score_label": "Use caution"
     },
     {
       "date": "2026-04-14",
       "high_f": 30,
-      "low_f": 12,
+      "low_f": 11,
       "rain_pct": 5,
       "uv": 8,
       "sunrise": "2026-04-14T06:00",
       "sunset": "2026-04-14T19:13",
-      "predicted_score": 50,
+      "predicted_score": 60,
       "score_label": "Use caution"
     },
     {
@@ -73,31 +72,31 @@
       "uv": 7,
       "sunrise": "2026-04-15T05:59",
       "sunset": "2026-04-15T19:14",
-      "predicted_score": 78,
-      "score_label": "Good conditions"
+      "predicted_score": 88,
+      "score_label": "Great day to go"
     },
     {
       "date": "2026-04-16",
       "high_f": 34,
       "low_f": 6,
-      "rain_pct": 74,
+      "rain_pct": 77,
       "uv": 6,
       "sunrise": "2026-04-16T05:57",
       "sunset": "2026-04-16T19:15",
-      "predicted_score": 50,
+      "predicted_score": 60,
       "score_label": "Use caution"
     },
     {
       "date": "2026-04-17",
       "high_f": 22,
       "low_f": -1,
-      "rain_pct": 17,
+      "rain_pct": 15,
       "uv": 8,
       "sunrise": "2026-04-17T05:56",
       "sunset": "2026-04-17T19:16",
-      "predicted_score": 50,
+      "predicted_score": 60,
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-04-14T03:16:02.232489+00:00"
+  "updated_at": "2026-04-14T03:36:24.865010+00:00"
 }
