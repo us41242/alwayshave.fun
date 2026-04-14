@@ -20,15 +20,14 @@
   "score": 60,
   "score_label": "Use caution",
   "gear_flags": [
-    "insulation layer required",
-    "rain gear recommended"
+    "insulation layer required"
   ],
   "current": {
-    "temp_f": 30,
-    "feels_like_f": 24,
-    "wind_mph": 5,
-    "gusts_mph": 5,
-    "rain_pct": 43
+    "temp_f": 32,
+    "feels_like_f": 25,
+    "wind_mph": 6,
+    "gusts_mph": 6,
+    "rain_pct": 34
   },
   "aqi": {
     "aqi": 46,
@@ -42,14 +41,14 @@
     "fire_count_50km": 0
   },
   "river": {
-    "cfs": 7870,
+    "cfs": 7840,
     "stage": "flood"
   },
   "forecast": [
     {
       "date": "2026-04-14",
       "high_f": 52,
-      "low_f": 30,
+      "low_f": 31,
       "rain_pct": 80,
       "uv": 8,
       "sunrise": "2026-04-14T06:57",
@@ -102,5 +101,5 @@
       "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-04-14T13:03:41.157393+00:00"
+  "updated_at": "2026-04-14T13:23:31.809235+00:00"
 }

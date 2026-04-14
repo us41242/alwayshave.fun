@@ -17,7 +17,7 @@
   "notes": "Heat advisory Jun\u2013Sep; carry extra water",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 88,
+  "score": 100,
   "score_label": "Great day to go",
   "gear_flags": [],
   "current": {
@@ -35,14 +35,14 @@
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": 327.9,
+    "nearest_fire_km": 310.7,
     "fire_count_50km": 0
   },
   "river": null,
   "forecast": [
     {
       "date": "2026-04-14",
-      "high_f": 73,
+      "high_f": 74,
       "low_f": 50,
       "rain_pct": 23,
       "uv": 7,
@@ -96,5 +96,5 @@
       "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-04-14T13:01:24.022751+00:00"
+  "updated_at": "2026-04-14T13:21:24.257178+00:00"
 }

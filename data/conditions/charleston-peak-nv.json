@@ -37,15 +37,15 @@
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": 237.3,
+    "nearest_fire_km": 223.3,
     "fire_count_50km": 0
   },
   "river": null,
   "forecast": [
     {
       "date": "2026-04-14",
-      "high_f": 31,
-      "low_f": 18,
+      "high_f": 32,
+      "low_f": 17,
       "rain_pct": 4,
       "uv": 8,
       "sunrise": "2026-04-14T06:10",
@@ -98,5 +98,5 @@
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-04-14T13:01:22.995602+00:00"
+  "updated_at": "2026-04-14T13:21:23.198314+00:00"
 }

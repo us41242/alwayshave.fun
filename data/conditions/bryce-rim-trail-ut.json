@@ -25,11 +25,11 @@
     "rain gear recommended"
   ],
   "current": {
-    "temp_f": 28,
-    "feels_like_f": 17,
-    "wind_mph": 16,
-    "gusts_mph": 27,
-    "rain_pct": 60
+    "temp_f": 26,
+    "feels_like_f": 14,
+    "wind_mph": 19,
+    "gusts_mph": 30,
+    "rain_pct": 58
   },
   "aqi": {
     "aqi": 30,
@@ -46,7 +46,7 @@
   "forecast": [
     {
       "date": "2026-04-14",
-      "high_f": 44,
+      "high_f": 43,
       "low_f": 27,
       "rain_pct": 73,
       "uv": 8,
@@ -100,5 +100,5 @@
       "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-04-14T13:01:20.829930+00:00"
+  "updated_at": "2026-04-14T13:21:20.606100+00:00"
 }
