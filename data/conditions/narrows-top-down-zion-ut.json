@@ -26,12 +26,12 @@
   "current": {
     "temp_f": 37,
     "feels_like_f": 30,
-    "wind_mph": 10,
-    "gusts_mph": 12,
-    "rain_pct": 47
+    "wind_mph": 9,
+    "gusts_mph": 11,
+    "rain_pct": 44
   },
   "aqi": {
-    "aqi": 44,
+    "aqi": 45,
     "category": "Good",
     "pollutant": "O3",
     "source": "airnow"
@@ -102,5 +102,5 @@
       "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-04-14T04:04:51.729595+00:00"
+  "updated_at": "2026-04-14T04:23:25.322292+00:00"
 }

@@ -25,13 +25,13 @@
   ],
   "current": {
     "temp_f": -1,
-    "feels_like_f": -15,
+    "feels_like_f": -16,
     "wind_mph": 18,
-    "gusts_mph": 27,
-    "rain_pct": 4
+    "gusts_mph": 28,
+    "rain_pct": 2
   },
   "aqi": {
-    "aqi": 18,
+    "aqi": 15,
     "category": "Good",
     "pollutant": "PM10",
     "source": "airnow"
@@ -102,5 +102,5 @@
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-04-14T04:09:18.464847+00:00"
+  "updated_at": "2026-04-14T04:28:27.327785+00:00"
 }
