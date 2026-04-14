@@ -17,22 +17,23 @@
   "notes": "Shuttle required from Aspen 5am\u20135pm; no private vehicles",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 60,
+  "score": 50,
   "score_label": "Use caution",
   "gear_flags": [
     "wind layer recommended",
-    "insulation layer required"
+    "insulation layer required",
+    "mask for sensitive groups"
   ],
   "current": {
     "temp_f": 18,
-    "feels_like_f": 7,
-    "wind_mph": 20,
-    "gusts_mph": 25,
-    "rain_pct": 33
+    "feels_like_f": 8,
+    "wind_mph": 18,
+    "gusts_mph": 24,
+    "rain_pct": 36
   },
   "aqi": {
-    "aqi": 45,
-    "category": "Good",
+    "aqi": 51,
+    "category": "Moderate",
     "pollutant": "O3",
     "source": "airnow"
   },
@@ -51,18 +52,18 @@
       "uv": 7,
       "sunrise": "2026-04-14T06:32",
       "sunset": "2026-04-14T19:44",
-      "predicted_score": 60,
+      "predicted_score": 50,
       "score_label": "Use caution"
     },
     {
       "date": "2026-04-15",
-      "high_f": 26,
-      "low_f": 7,
+      "high_f": 27,
+      "low_f": 8,
       "rain_pct": 7,
       "uv": 8,
       "sunrise": "2026-04-15T06:30",
       "sunset": "2026-04-15T19:45",
-      "predicted_score": 60,
+      "predicted_score": 50,
       "score_label": "Use caution"
     },
     {
@@ -73,7 +74,7 @@
       "uv": 8,
       "sunrise": "2026-04-16T06:29",
       "sunset": "2026-04-16T19:45",
-      "predicted_score": 60,
+      "predicted_score": 50,
       "score_label": "Use caution"
     },
     {
@@ -84,7 +85,7 @@
       "uv": 8,
       "sunrise": "2026-04-17T06:27",
       "sunset": "2026-04-17T19:46",
-      "predicted_score": 60,
+      "predicted_score": 50,
       "score_label": "Use caution"
     },
     {
@@ -95,9 +96,9 @@
       "uv": 9,
       "sunrise": "2026-04-18T06:26",
       "sunset": "2026-04-18T19:47",
-      "predicted_score": 60,
+      "predicted_score": 50,
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-04-14T20:07:58.788740+00:00"
+  "updated_at": "2026-04-14T20:27:53.113490+00:00"
 }
