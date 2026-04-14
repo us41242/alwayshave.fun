@@ -17,8 +17,8 @@
   "notes": "Coastal trail with beach access; busy weekends \u2014 reserve parking",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 70,
-  "score_label": "Good conditions",
+  "score": 100,
+  "score_label": "Great day to go",
   "gear_flags": [],
   "current": {
     "temp_f": 63,
@@ -28,10 +28,10 @@
     "rain_pct": 1
   },
   "aqi": {
-    "aqi": null,
-    "category": "Unknown",
-    "pollutant": "",
-    "source": "none"
+    "aqi": 44,
+    "category": "Good",
+    "pollutant": "PM2.5",
+    "source": "open-meteo"
   },
   "fire": {
     "risk_level": "low",
@@ -48,8 +48,8 @@
       "uv": 7,
       "sunrise": "2026-04-13T06:22",
       "sunset": "2026-04-13T19:20",
-      "predicted_score": 58,
-      "score_label": "Use caution"
+      "predicted_score": 88,
+      "score_label": "Great day to go"
     },
     {
       "date": "2026-04-14",
@@ -59,8 +59,8 @@
       "uv": 8,
       "sunrise": "2026-04-14T06:21",
       "sunset": "2026-04-14T19:21",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
+      "predicted_score": 100,
+      "score_label": "Great day to go"
     },
     {
       "date": "2026-04-15",
@@ -70,8 +70,8 @@
       "uv": 8,
       "sunrise": "2026-04-15T06:20",
       "sunset": "2026-04-15T19:22",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
+      "predicted_score": 100,
+      "score_label": "Great day to go"
     },
     {
       "date": "2026-04-16",
@@ -81,8 +81,8 @@
       "uv": 8,
       "sunrise": "2026-04-16T06:19",
       "sunset": "2026-04-16T19:22",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
+      "predicted_score": 100,
+      "score_label": "Great day to go"
     },
     {
       "date": "2026-04-17",
@@ -92,9 +92,9 @@
       "uv": 8,
       "sunrise": "2026-04-17T06:17",
       "sunset": "2026-04-17T19:23",
-      "predicted_score": 58,
-      "score_label": "Use caution"
+      "predicted_score": 88,
+      "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-04-14T00:04:21.887608+00:00"
+  "updated_at": "2026-04-14T00:28:16.827041+00:00"
 }
