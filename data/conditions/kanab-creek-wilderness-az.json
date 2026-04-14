@@ -17,21 +17,21 @@
   "notes": "High-clearance vehicle required for access road",
   "dog_friendly": "Yes",
   "vehicle_req": "High-Clearance",
-  "score": 58,
-  "score_label": "Use caution",
+  "score": 88,
+  "score_label": "Great day to go",
   "gear_flags": [],
   "current": {
     "temp_f": 45,
-    "feels_like_f": 38,
-    "wind_mph": 10,
-    "gusts_mph": 14,
-    "rain_pct": 26
+    "feels_like_f": 39,
+    "wind_mph": 9,
+    "gusts_mph": 13,
+    "rain_pct": 25
   },
   "aqi": {
-    "aqi": null,
-    "category": "Unknown",
-    "pollutant": "",
-    "source": "none"
+    "aqi": 44,
+    "category": "Good",
+    "pollutant": "O3",
+    "source": "airnow"
   },
   "fire": {
     "risk_level": "low",
@@ -46,24 +46,24 @@
     {
       "date": "2026-04-13",
       "high_f": 62,
-      "low_f": 43,
+      "low_f": 42,
       "rain_pct": 49,
       "uv": 6,
       "sunrise": "2026-04-13T05:58",
       "sunset": "2026-04-13T19:02",
-      "predicted_score": 40,
-      "score_label": "Conditions poor"
+      "predicted_score": 70,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-04-14",
       "high_f": 60,
-      "low_f": 38,
+      "low_f": 40,
       "rain_pct": 38,
       "uv": 8,
       "sunrise": "2026-04-14T05:56",
       "sunset": "2026-04-14T19:03",
-      "predicted_score": 40,
-      "score_label": "Conditions poor"
+      "predicted_score": 70,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-04-15",
@@ -73,8 +73,8 @@
       "uv": 8,
       "sunrise": "2026-04-15T05:55",
       "sunset": "2026-04-15T19:04",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
+      "predicted_score": 100,
+      "score_label": "Great day to go"
     },
     {
       "date": "2026-04-16",
@@ -84,8 +84,8 @@
       "uv": 7,
       "sunrise": "2026-04-16T05:54",
       "sunset": "2026-04-16T19:05",
-      "predicted_score": 58,
-      "score_label": "Use caution"
+      "predicted_score": 88,
+      "score_label": "Great day to go"
     },
     {
       "date": "2026-04-17",
@@ -95,9 +95,9 @@
       "uv": 8,
       "sunrise": "2026-04-17T05:52",
       "sunset": "2026-04-17T19:06",
-      "predicted_score": 58,
-      "score_label": "Use caution"
+      "predicted_score": 88,
+      "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-04-14T03:25:04.333330+00:00"
+  "updated_at": "2026-04-14T03:41:05.473910+00:00"
 }
