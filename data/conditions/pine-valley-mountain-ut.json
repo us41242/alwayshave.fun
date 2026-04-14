@@ -20,14 +20,15 @@
   "score": 70,
   "score_label": "Good conditions",
   "gear_flags": [
+    "wind layer recommended",
     "insulation layer required"
   ],
   "current": {
-    "temp_f": 45,
-    "feels_like_f": 36,
-    "wind_mph": 11,
-    "gusts_mph": 13,
-    "rain_pct": 37
+    "temp_f": 44,
+    "feels_like_f": 33,
+    "wind_mph": 16,
+    "gusts_mph": 20,
+    "rain_pct": 38
   },
   "aqi": {
     "aqi": 44,
@@ -37,7 +38,7 @@
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": 182.6,
+    "nearest_fire_km": null,
     "fire_count_50km": 0
   },
   "river": null,
@@ -98,5 +99,5 @@
       "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-04-13T23:47:38.579649+00:00"
+  "updated_at": "2026-04-14T00:02:43.912480+00:00"
 }

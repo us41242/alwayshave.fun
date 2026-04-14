@@ -17,11 +17,9 @@
   "notes": "Coastal trail with beach access; busy weekends \u2014 reserve parking",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 50,
-  "score_label": "Use caution",
-  "gear_flags": [
-    "N95 mask recommended for wildfire smoke"
-  ],
+  "score": 70,
+  "score_label": "Good conditions",
+  "gear_flags": [],
   "current": {
     "temp_f": 63,
     "feels_like_f": 58,
@@ -36,9 +34,9 @@
     "source": "none"
   },
   "fire": {
-    "risk_level": "high",
-    "nearest_fire_km": 5.0,
-    "fire_count_50km": 1
+    "risk_level": "low",
+    "nearest_fire_km": null,
+    "fire_count_50km": 0
   },
   "river": null,
   "forecast": [
@@ -50,8 +48,8 @@
       "uv": 7,
       "sunrise": "2026-04-13T06:22",
       "sunset": "2026-04-13T19:20",
-      "predicted_score": 38,
-      "score_label": "Conditions poor"
+      "predicted_score": 58,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-04-14",
@@ -61,8 +59,8 @@
       "uv": 8,
       "sunrise": "2026-04-14T06:21",
       "sunset": "2026-04-14T19:21",
-      "predicted_score": 50,
-      "score_label": "Use caution"
+      "predicted_score": 70,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-04-15",
@@ -72,8 +70,8 @@
       "uv": 8,
       "sunrise": "2026-04-15T06:20",
       "sunset": "2026-04-15T19:22",
-      "predicted_score": 50,
-      "score_label": "Use caution"
+      "predicted_score": 70,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-04-16",
@@ -83,8 +81,8 @@
       "uv": 8,
       "sunrise": "2026-04-16T06:19",
       "sunset": "2026-04-16T19:22",
-      "predicted_score": 50,
-      "score_label": "Use caution"
+      "predicted_score": 70,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-04-17",
@@ -94,9 +92,9 @@
       "uv": 8,
       "sunrise": "2026-04-17T06:17",
       "sunset": "2026-04-17T19:23",
-      "predicted_score": 38,
-      "score_label": "Conditions poor"
+      "predicted_score": 58,
+      "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-04-13T23:50:04.955056+00:00"
+  "updated_at": "2026-04-14T00:04:21.887608+00:00"
 }
