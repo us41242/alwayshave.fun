@@ -24,9 +24,9 @@
   ],
   "current": {
     "temp_f": 39,
-    "feels_like_f": 31,
-    "wind_mph": 4,
-    "gusts_mph": 5,
+    "feels_like_f": 32,
+    "wind_mph": 2,
+    "gusts_mph": 4,
     "rain_pct": 0
   },
   "aqi": {
@@ -57,7 +57,7 @@
       "date": "2026-04-15",
       "high_f": 56,
       "low_f": 43,
-      "rain_pct": 6,
+      "rain_pct": 7,
       "uv": 8,
       "sunrise": "2026-04-15T06:22",
       "sunset": "2026-04-15T19:33",
@@ -98,5 +98,5 @@
       "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-04-14T12:48:03.907675+00:00"
+  "updated_at": "2026-04-14T13:08:00.962160+00:00"
 }
