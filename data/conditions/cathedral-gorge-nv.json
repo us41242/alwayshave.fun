@@ -17,21 +17,24 @@
   "notes": "Slot canyon walls narrow \u2014 avoid during rain/flash flood risk",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 30,
-  "score_label": "Conditions poor",
-  "gear_flags": [],
+  "score": 60,
+  "score_label": "Use caution",
+  "gear_flags": [
+    "insulation layer required",
+    "mask for sensitive groups"
+  ],
   "current": {
-    "temp_f": 44,
-    "feels_like_f": 39,
-    "wind_mph": 4,
-    "gusts_mph": 6,
-    "rain_pct": 26
+    "temp_f": 45,
+    "feels_like_f": 37,
+    "wind_mph": 10,
+    "gusts_mph": 16,
+    "rain_pct": 33
   },
   "aqi": {
-    "aqi": null,
-    "category": "Unknown",
-    "pollutant": "",
-    "source": "none"
+    "aqi": 57,
+    "category": "Moderate",
+    "pollutant": "PM2.5",
+    "source": "open-meteo"
   },
   "fire": {
     "risk_level": "low",
@@ -39,6 +42,62 @@
     "fire_count_50km": 0
   },
   "river": null,
-  "forecast": [],
-  "updated_at": "2026-04-14T03:42:19.855334+00:00"
+  "forecast": [
+    {
+      "date": "2026-04-13",
+      "high_f": 56,
+      "low_f": 36,
+      "rain_pct": 41,
+      "uv": 7,
+      "sunrise": "2026-04-13T06:04",
+      "sunset": "2026-04-13T19:11",
+      "predicted_score": 60,
+      "score_label": "Use caution"
+    },
+    {
+      "date": "2026-04-14",
+      "high_f": 62,
+      "low_f": 37,
+      "rain_pct": 36,
+      "uv": 8,
+      "sunrise": "2026-04-14T06:03",
+      "sunset": "2026-04-14T19:12",
+      "predicted_score": 60,
+      "score_label": "Use caution"
+    },
+    {
+      "date": "2026-04-15",
+      "high_f": 66,
+      "low_f": 40,
+      "rain_pct": 1,
+      "uv": 8,
+      "sunrise": "2026-04-15T06:01",
+      "sunset": "2026-04-15T19:13",
+      "predicted_score": 90,
+      "score_label": "Great day to go"
+    },
+    {
+      "date": "2026-04-16",
+      "high_f": 63,
+      "low_f": 36,
+      "rain_pct": 39,
+      "uv": 8,
+      "sunrise": "2026-04-16T06:00",
+      "sunset": "2026-04-16T19:14",
+      "predicted_score": 60,
+      "score_label": "Use caution"
+    },
+    {
+      "date": "2026-04-17",
+      "high_f": 53,
+      "low_f": 31,
+      "rain_pct": 16,
+      "uv": 8,
+      "sunrise": "2026-04-17T05:59",
+      "sunset": "2026-04-17T19:15",
+      "predicted_score": 78,
+      "score_label": "Good conditions"
+    }
+  ],
+  "updated_at": "2026-04-14T04:02:58.780071+00:00"
 }
