@@ -17,20 +17,20 @@
   "notes": "Summer heat extreme \u2014 start before sunrise",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 70,
-  "score_label": "Good conditions",
+  "score": 88,
+  "score_label": "Great day to go",
   "gear_flags": [
     "insulation layer required"
   ],
   "current": {
-    "temp_f": 39,
-    "feels_like_f": 32,
-    "wind_mph": 9,
+    "temp_f": 40,
+    "feels_like_f": 33,
+    "wind_mph": 10,
     "gusts_mph": 14,
     "rain_pct": 1
   },
   "aqi": {
-    "aqi": 47,
+    "aqi": 48,
     "category": "Good",
     "pollutant": "O3",
     "source": "airnow"
@@ -101,5 +101,5 @@
       "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-04-14T18:02:56.085836+00:00"
+  "updated_at": "2026-04-14T18:24:06.681007+00:00"
 }
