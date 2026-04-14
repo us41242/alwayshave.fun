@@ -23,14 +23,14 @@
     "insulation layer required"
   ],
   "current": {
-    "temp_f": 20,
+    "temp_f": 21,
     "feels_like_f": 10,
-    "wind_mph": 10,
-    "gusts_mph": 18,
+    "wind_mph": 11,
+    "gusts_mph": 17,
     "rain_pct": 0
   },
   "aqi": {
-    "aqi": 21,
+    "aqi": 39,
     "category": "Good",
     "pollutant": "PM10",
     "source": "airnow"
@@ -98,5 +98,5 @@
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-04-14T15:02:48.454838+00:00"
+  "updated_at": "2026-04-14T15:21:23.896318+00:00"
 }
