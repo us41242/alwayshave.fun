@@ -17,21 +17,21 @@
   "notes": "Multi-day \u2014 permit required; flash flood danger",
   "dog_friendly": "Yes",
   "vehicle_req": "High-Clearance",
-  "score": 100,
-  "score_label": "Great day to go",
+  "score": 70,
+  "score_label": "Good conditions",
   "gear_flags": [],
   "current": {
-    "temp_f": 70,
-    "feels_like_f": 61,
-    "wind_mph": 12,
-    "gusts_mph": 14,
+    "temp_f": 69,
+    "feels_like_f": 59,
+    "wind_mph": 13,
+    "gusts_mph": 16,
     "rain_pct": 0
   },
   "aqi": {
-    "aqi": 46,
-    "category": "Good",
-    "pollutant": "PM2.5",
-    "source": "open-meteo"
+    "aqi": null,
+    "category": "Unknown",
+    "pollutant": "",
+    "source": "none"
   },
   "fire": {
     "risk_level": "low",
@@ -42,14 +42,14 @@
   "forecast": [
     {
       "date": "2026-04-15",
-      "high_f": 70,
+      "high_f": 69,
       "low_f": 37,
       "rain_pct": 0,
       "uv": 8,
       "sunrise": "2026-04-15T06:52",
       "sunset": "2026-04-15T20:02",
-      "predicted_score": 100,
-      "score_label": "Great day to go"
+      "predicted_score": 70,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-04-16",
@@ -59,8 +59,8 @@
       "uv": 7,
       "sunrise": "2026-04-16T06:51",
       "sunset": "2026-04-16T20:03",
-      "predicted_score": 100,
-      "score_label": "Great day to go"
+      "predicted_score": 70,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-04-17",
@@ -70,8 +70,8 @@
       "uv": 8,
       "sunrise": "2026-04-17T06:50",
       "sunset": "2026-04-17T20:04",
-      "predicted_score": 100,
-      "score_label": "Great day to go"
+      "predicted_score": 70,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-04-18",
@@ -81,8 +81,8 @@
       "uv": 8,
       "sunrise": "2026-04-18T06:48",
       "sunset": "2026-04-18T20:05",
-      "predicted_score": 100,
-      "score_label": "Great day to go"
+      "predicted_score": 70,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-04-19",
@@ -92,9 +92,9 @@
       "uv": 8,
       "sunrise": "2026-04-19T06:47",
       "sunset": "2026-04-19T20:06",
-      "predicted_score": 100,
-      "score_label": "Great day to go"
+      "predicted_score": 70,
+      "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-04-15T22:25:48.280119+00:00"
+  "updated_at": "2026-04-15T22:47:26.244950+00:00"
 }
