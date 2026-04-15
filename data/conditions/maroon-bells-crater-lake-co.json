@@ -20,18 +20,17 @@
   "score": 60,
   "score_label": "Use caution",
   "gear_flags": [
-    "wind layer recommended",
     "insulation layer required"
   ],
   "current": {
     "temp_f": 8,
-    "feels_like_f": -2,
+    "feels_like_f": -3,
     "wind_mph": 9,
-    "gusts_mph": 21,
-    "rain_pct": 4
+    "gusts_mph": 19,
+    "rain_pct": 5
   },
   "aqi": {
-    "aqi": 41,
+    "aqi": 40,
     "category": "Good",
     "pollutant": "O3",
     "source": "airnow"
@@ -58,7 +57,7 @@
       "date": "2026-04-16",
       "high_f": 33,
       "low_f": 16,
-      "rain_pct": 12,
+      "rain_pct": 8,
       "uv": 8,
       "sunrise": "2026-04-16T06:29",
       "sunset": "2026-04-16T19:45",
@@ -69,7 +68,7 @@
       "date": "2026-04-17",
       "high_f": 24,
       "low_f": 1,
-      "rain_pct": 75,
+      "rain_pct": 74,
       "uv": 7,
       "sunrise": "2026-04-17T06:27",
       "sunset": "2026-04-17T19:46",
@@ -91,7 +90,7 @@
       "date": "2026-04-19",
       "high_f": 34,
       "low_f": 14,
-      "rain_pct": 6,
+      "rain_pct": 5,
       "uv": 8,
       "sunrise": "2026-04-19T06:24",
       "sunset": "2026-04-19T19:48",
@@ -99,5 +98,5 @@
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-04-15T09:08:11.610690+00:00"
+  "updated_at": "2026-04-15T09:27:40.845892+00:00"
 }
