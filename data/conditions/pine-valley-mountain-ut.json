@@ -22,13 +22,13 @@
   "gear_flags": [],
   "current": {
     "temp_f": 56,
-    "feels_like_f": 47,
+    "feels_like_f": 46,
     "wind_mph": 12,
-    "gusts_mph": 17,
+    "gusts_mph": 16,
     "rain_pct": 0
   },
   "aqi": {
-    "aqi": 44,
+    "aqi": 46,
     "category": "Good",
     "pollutant": "O3",
     "source": "airnow"
@@ -96,5 +96,5 @@
       "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-04-15T23:07:28.427953+00:00"
+  "updated_at": "2026-04-15T23:27:06.337974+00:00"
 }

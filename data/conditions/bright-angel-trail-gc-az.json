@@ -17,23 +17,21 @@
   "notes": "Summer heat extreme \u2014 start before sunrise",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 90,
+  "score": 100,
   "score_label": "Great day to go",
-  "gear_flags": [
-    "mask for sensitive groups"
-  ],
+  "gear_flags": [],
   "current": {
     "temp_f": 59,
-    "feels_like_f": 49,
-    "wind_mph": 11,
-    "gusts_mph": 13,
+    "feels_like_f": 48,
+    "wind_mph": 12,
+    "gusts_mph": 14,
     "rain_pct": 0
   },
   "aqi": {
-    "aqi": 51,
-    "category": "Moderate",
-    "pollutant": "PM2.5",
-    "source": "open-meteo"
+    "aqi": 46,
+    "category": "Good",
+    "pollutant": "O3",
+    "source": "airnow"
   },
   "fire": {
     "risk_level": "low",
@@ -53,7 +51,7 @@
       "uv": 8,
       "sunrise": "2026-04-15T05:54",
       "sunset": "2026-04-15T19:02",
-      "predicted_score": 90,
+      "predicted_score": 100,
       "score_label": "Great day to go"
     },
     {
@@ -64,7 +62,7 @@
       "uv": 6,
       "sunrise": "2026-04-16T05:53",
       "sunset": "2026-04-16T19:02",
-      "predicted_score": 90,
+      "predicted_score": 100,
       "score_label": "Great day to go"
     },
     {
@@ -75,7 +73,7 @@
       "uv": 8,
       "sunrise": "2026-04-17T05:52",
       "sunset": "2026-04-17T19:03",
-      "predicted_score": 90,
+      "predicted_score": 100,
       "score_label": "Great day to go"
     },
     {
@@ -86,7 +84,7 @@
       "uv": 8,
       "sunrise": "2026-04-18T05:50",
       "sunset": "2026-04-18T19:04",
-      "predicted_score": 90,
+      "predicted_score": 100,
       "score_label": "Great day to go"
     },
     {
@@ -97,9 +95,9 @@
       "uv": 7,
       "sunrise": "2026-04-19T05:49",
       "sunset": "2026-04-19T19:05",
-      "predicted_score": 90,
+      "predicted_score": 100,
       "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-04-15T23:02:59.568003+00:00"
+  "updated_at": "2026-04-15T23:22:50.877713+00:00"
 }
