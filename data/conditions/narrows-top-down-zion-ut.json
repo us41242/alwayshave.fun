@@ -17,14 +17,16 @@
   "notes": "Flash flood danger \u2014 check weather 24hr upstream",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 60,
-  "score_label": "Use caution",
-  "gear_flags": [],
+  "score": 70,
+  "score_label": "Good conditions",
+  "gear_flags": [
+    "insulation layer required"
+  ],
   "current": {
-    "temp_f": 36,
+    "temp_f": 35,
     "feels_like_f": 29,
-    "wind_mph": 3,
-    "gusts_mph": 3,
+    "wind_mph": 4,
+    "gusts_mph": 4,
     "rain_pct": 0
   },
   "aqi": {
@@ -42,6 +44,62 @@
     "cfs": 7840,
     "stage": "flood"
   },
-  "forecast": [],
-  "updated_at": "2026-04-15T12:24:53.565725+00:00"
+  "forecast": [
+    {
+      "date": "2026-04-15",
+      "high_f": 58,
+      "low_f": 35,
+      "rain_pct": 1,
+      "uv": 8,
+      "sunrise": "2026-04-15T06:56",
+      "sunset": "2026-04-15T20:06",
+      "predicted_score": 100,
+      "score_label": "Great day to go"
+    },
+    {
+      "date": "2026-04-16",
+      "high_f": 60,
+      "low_f": 35,
+      "rain_pct": 38,
+      "uv": 7,
+      "sunrise": "2026-04-16T06:55",
+      "sunset": "2026-04-16T20:07",
+      "predicted_score": 70,
+      "score_label": "Good conditions"
+    },
+    {
+      "date": "2026-04-17",
+      "high_f": 48,
+      "low_f": 25,
+      "rain_pct": 44,
+      "uv": 8,
+      "sunrise": "2026-04-17T06:53",
+      "sunset": "2026-04-17T20:08",
+      "predicted_score": 70,
+      "score_label": "Good conditions"
+    },
+    {
+      "date": "2026-04-18",
+      "high_f": 56,
+      "low_f": 36,
+      "rain_pct": 2,
+      "uv": 8,
+      "sunrise": "2026-04-18T06:52",
+      "sunset": "2026-04-18T20:09",
+      "predicted_score": 100,
+      "score_label": "Great day to go"
+    },
+    {
+      "date": "2026-04-19",
+      "high_f": 63,
+      "low_f": 44,
+      "rain_pct": 2,
+      "uv": 7,
+      "sunrise": "2026-04-19T06:51",
+      "sunset": "2026-04-19T20:10",
+      "predicted_score": 100,
+      "score_label": "Great day to go"
+    }
+  ],
+  "updated_at": "2026-04-15T12:43:12.907257+00:00"
 }
