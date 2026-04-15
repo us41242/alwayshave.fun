@@ -17,8 +17,8 @@
   "notes": "Slot canyon walls narrow \u2014 avoid during rain/flash flood risk",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 88,
-  "score_label": "Great day to go",
+  "score": 30,
+  "score_label": "Conditions poor",
   "gear_flags": [],
   "current": {
     "temp_f": 63,
@@ -28,10 +28,10 @@
     "rain_pct": 0
   },
   "aqi": {
-    "aqi": 43,
-    "category": "Good",
-    "pollutant": "PM2.5",
-    "source": "open-meteo"
+    "aqi": null,
+    "category": "Unknown",
+    "pollutant": "",
+    "source": "none"
   },
   "fire": {
     "risk_level": "low",
@@ -39,62 +39,6 @@
     "fire_count_50km": 0
   },
   "river": null,
-  "forecast": [
-    {
-      "date": "2026-04-15",
-      "high_f": 68,
-      "low_f": 38,
-      "rain_pct": 1,
-      "uv": 8,
-      "sunrise": "2026-04-15T06:01",
-      "sunset": "2026-04-15T19:13",
-      "predicted_score": 100,
-      "score_label": "Great day to go"
-    },
-    {
-      "date": "2026-04-16",
-      "high_f": 69,
-      "low_f": 40,
-      "rain_pct": 27,
-      "uv": 8,
-      "sunrise": "2026-04-16T06:00",
-      "sunset": "2026-04-16T19:14",
-      "predicted_score": 88,
-      "score_label": "Great day to go"
-    },
-    {
-      "date": "2026-04-17",
-      "high_f": 53,
-      "low_f": 33,
-      "rain_pct": 13,
-      "uv": 8,
-      "sunrise": "2026-04-17T05:59",
-      "sunset": "2026-04-17T19:15",
-      "predicted_score": 88,
-      "score_label": "Great day to go"
-    },
-    {
-      "date": "2026-04-18",
-      "high_f": 65,
-      "low_f": 39,
-      "rain_pct": 0,
-      "uv": 8,
-      "sunrise": "2026-04-18T05:57",
-      "sunset": "2026-04-18T19:16",
-      "predicted_score": 100,
-      "score_label": "Great day to go"
-    },
-    {
-      "date": "2026-04-19",
-      "high_f": 70,
-      "low_f": 48,
-      "rain_pct": 0,
-      "uv": 7,
-      "sunrise": "2026-04-19T05:56",
-      "sunset": "2026-04-19T19:16",
-      "predicted_score": 100,
-      "score_label": "Great day to go"
-    }
-  ],
-  "updated_at": "2026-04-15T18:01:57.810890+00:00"
+  "forecast": [],
+  "updated_at": "2026-04-15T18:22:17.122291+00:00"
 }
