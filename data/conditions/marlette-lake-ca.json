@@ -24,14 +24,14 @@
     "N95 mask recommended for wildfire smoke"
   ],
   "current": {
-    "temp_f": 32,
-    "feels_like_f": 24,
-    "wind_mph": 7,
-    "gusts_mph": 8,
+    "temp_f": 33,
+    "feels_like_f": 26,
+    "wind_mph": 6,
+    "gusts_mph": 9,
     "rain_pct": 1
   },
   "aqi": {
-    "aqi": 25,
+    "aqi": 27,
     "category": "Good",
     "pollutant": "O3",
     "source": "airnow"
@@ -47,7 +47,7 @@
       "date": "2026-04-15",
       "high_f": 41,
       "low_f": 29,
-      "rain_pct": 5,
+      "rain_pct": 4,
       "uv": 7,
       "sunrise": "2026-04-15T06:22",
       "sunset": "2026-04-15T19:36",
@@ -69,7 +69,7 @@
       "date": "2026-04-17",
       "high_f": 49,
       "low_f": 20,
-      "rain_pct": 0,
+      "rain_pct": 1,
       "uv": 8,
       "sunrise": "2026-04-17T06:19",
       "sunset": "2026-04-17T19:38",
@@ -80,7 +80,7 @@
       "date": "2026-04-18",
       "high_f": 56,
       "low_f": 32,
-      "rain_pct": 1,
+      "rain_pct": 0,
       "uv": 8,
       "sunrise": "2026-04-18T06:17",
       "sunset": "2026-04-18T19:39",
@@ -91,7 +91,7 @@
       "date": "2026-04-19",
       "high_f": 58,
       "low_f": 40,
-      "rain_pct": 14,
+      "rain_pct": 15,
       "uv": 8,
       "sunrise": "2026-04-19T06:16",
       "sunset": "2026-04-19T19:40",
@@ -99,5 +99,5 @@
       "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-04-15T15:10:26.779456+00:00"
+  "updated_at": "2026-04-15T15:29:17.477843+00:00"
 }
