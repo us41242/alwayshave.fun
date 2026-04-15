@@ -17,8 +17,8 @@
   "notes": "Paved trail \u2014 no permit required",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 74,
-  "score_label": "Good conditions",
+  "score": 46,
+  "score_label": "Conditions poor",
   "gear_flags": [
     "N95 mask recommended for wildfire smoke"
   ],
@@ -41,62 +41,6 @@
     "fire_count_50km": 3
   },
   "river": null,
-  "forecast": [
-    {
-      "date": "2026-04-15",
-      "high_f": 87,
-      "low_f": 58,
-      "rain_pct": 0,
-      "uv": 7,
-      "sunrise": "2026-04-15T06:05",
-      "sunset": "2026-04-15T19:12",
-      "predicted_score": 56,
-      "score_label": "Use caution"
-    },
-    {
-      "date": "2026-04-16",
-      "high_f": 89,
-      "low_f": 62,
-      "rain_pct": 3,
-      "uv": 7,
-      "sunrise": "2026-04-16T06:03",
-      "sunset": "2026-04-16T19:13",
-      "predicted_score": 56,
-      "score_label": "Use caution"
-    },
-    {
-      "date": "2026-04-17",
-      "high_f": 74,
-      "low_f": 55,
-      "rain_pct": 0,
-      "uv": 7,
-      "sunrise": "2026-04-17T06:02",
-      "sunset": "2026-04-17T19:14",
-      "predicted_score": 86,
-      "score_label": "Great day to go"
-    },
-    {
-      "date": "2026-04-18",
-      "high_f": 82,
-      "low_f": 55,
-      "rain_pct": 0,
-      "uv": 7,
-      "sunrise": "2026-04-18T06:01",
-      "sunset": "2026-04-18T19:15",
-      "predicted_score": 74,
-      "score_label": "Good conditions"
-    },
-    {
-      "date": "2026-04-19",
-      "high_f": 91,
-      "low_f": 64,
-      "rain_pct": 0,
-      "uv": 7,
-      "sunrise": "2026-04-19T06:00",
-      "sunset": "2026-04-19T19:15",
-      "predicted_score": 56,
-      "score_label": "Use caution"
-    }
-  ],
-  "updated_at": "2026-04-15T17:44:59.597928+00:00"
+  "forecast": [],
+  "updated_at": "2026-04-15T18:05:16.957779+00:00"
 }
