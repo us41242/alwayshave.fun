@@ -19,9 +19,7 @@
   "vehicle_req": "Any",
   "score": 60,
   "score_label": "Use caution",
-  "gear_flags": [
-    "insulation layer required"
-  ],
+  "gear_flags": [],
   "current": {
     "temp_f": 11,
     "feels_like_f": 4,
@@ -30,7 +28,7 @@
     "rain_pct": 0
   },
   "aqi": {
-    "aqi": 40,
+    "aqi": 38,
     "category": "Good",
     "pollutant": "O3",
     "source": "airnow"
@@ -41,62 +39,6 @@
     "fire_count_50km": 0
   },
   "river": null,
-  "forecast": [
-    {
-      "date": "2026-04-15",
-      "high_f": 30,
-      "low_f": 11,
-      "rain_pct": 3,
-      "uv": 8,
-      "sunrise": "2026-04-15T06:00",
-      "sunset": "2026-04-15T19:14",
-      "predicted_score": 60,
-      "score_label": "Use caution"
-    },
-    {
-      "date": "2026-04-16",
-      "high_f": 23,
-      "low_f": 2,
-      "rain_pct": 53,
-      "uv": 8,
-      "sunrise": "2026-04-16T05:58",
-      "sunset": "2026-04-16T19:15",
-      "predicted_score": 60,
-      "score_label": "Use caution"
-    },
-    {
-      "date": "2026-04-17",
-      "high_f": 19,
-      "low_f": 0,
-      "rain_pct": 19,
-      "uv": 8,
-      "sunrise": "2026-04-17T05:57",
-      "sunset": "2026-04-17T19:16",
-      "predicted_score": 60,
-      "score_label": "Use caution"
-    },
-    {
-      "date": "2026-04-18",
-      "high_f": 29,
-      "low_f": 6,
-      "rain_pct": 1,
-      "uv": 8,
-      "sunrise": "2026-04-18T05:55",
-      "sunset": "2026-04-18T19:17",
-      "predicted_score": 60,
-      "score_label": "Use caution"
-    },
-    {
-      "date": "2026-04-19",
-      "high_f": 39,
-      "low_f": 20,
-      "rain_pct": 1,
-      "uv": 7,
-      "sunrise": "2026-04-19T05:54",
-      "sunset": "2026-04-19T19:18",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
-    }
-  ],
-  "updated_at": "2026-04-15T10:02:13.659192+00:00"
+  "forecast": [],
+  "updated_at": "2026-04-15T10:22:12.432478+00:00"
 }

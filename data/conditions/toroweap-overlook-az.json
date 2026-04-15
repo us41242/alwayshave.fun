@@ -20,17 +20,18 @@
   "score": 78,
   "score_label": "Good conditions",
   "gear_flags": [
+    "insulation layer required",
     "mask for sensitive groups"
   ],
   "current": {
     "temp_f": 45,
-    "feels_like_f": 37,
+    "feels_like_f": 36,
     "wind_mph": 8,
     "gusts_mph": 10,
     "rain_pct": 0
   },
   "aqi": {
-    "aqi": 58,
+    "aqi": 51,
     "category": "Moderate",
     "pollutant": "O3",
     "source": "airnow"
@@ -98,5 +99,5 @@
       "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-04-15T10:06:13.332163+00:00"
+  "updated_at": "2026-04-15T10:25:28.180588+00:00"
 }
