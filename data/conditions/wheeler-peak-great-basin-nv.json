@@ -44,7 +44,7 @@
   "forecast": [
     {
       "date": "2026-04-15",
-      "high_f": 31,
+      "high_f": 30,
       "low_f": 11,
       "rain_pct": 4,
       "uv": 8,
@@ -55,8 +55,8 @@
     },
     {
       "date": "2026-04-16",
-      "high_f": 21,
-      "low_f": 4,
+      "high_f": 23,
+      "low_f": 2,
       "rain_pct": 60,
       "uv": 8,
       "sunrise": "2026-04-16T05:58",
@@ -98,5 +98,5 @@
       "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-04-15T08:02:14.254327+00:00"
+  "updated_at": "2026-04-15T08:22:17.736297+00:00"
 }

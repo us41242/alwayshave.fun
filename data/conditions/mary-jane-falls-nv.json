@@ -26,11 +26,11 @@
     "temp_f": 34,
     "feels_like_f": 26,
     "wind_mph": 4,
-    "gusts_mph": 8,
+    "gusts_mph": 9,
     "rain_pct": 0
   },
   "aqi": {
-    "aqi": 16,
+    "aqi": 11,
     "category": "Good",
     "pollutant": "PM10",
     "source": "airnow"
@@ -56,7 +56,7 @@
     {
       "date": "2026-04-16",
       "high_f": 48,
-      "low_f": 30,
+      "low_f": 29,
       "rain_pct": 10,
       "uv": 7,
       "sunrise": "2026-04-16T06:07",
@@ -98,5 +98,5 @@
       "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-04-15T08:04:23.175192+00:00"
+  "updated_at": "2026-04-15T08:24:26.945310+00:00"
 }
