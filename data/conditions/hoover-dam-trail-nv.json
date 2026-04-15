@@ -17,21 +17,22 @@
   "notes": "Paved trail \u2014 no permit required",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 74,
-  "score_label": "Good conditions",
+  "score": 64,
+  "score_label": "Use caution",
   "gear_flags": [
+    "mask for sensitive groups",
     "N95 mask recommended for wildfire smoke"
   ],
   "current": {
     "temp_f": 84,
     "feels_like_f": 75,
-    "wind_mph": 17,
-    "gusts_mph": 19,
+    "wind_mph": 16,
+    "gusts_mph": 18,
     "rain_pct": 0
   },
   "aqi": {
-    "aqi": 50,
-    "category": "Good",
+    "aqi": 54,
+    "category": "Moderate",
     "pollutant": "O3",
     "source": "airnow"
   },
@@ -50,19 +51,19 @@
       "uv": 7,
       "sunrise": "2026-04-15T06:05",
       "sunset": "2026-04-15T19:12",
-      "predicted_score": 56,
-      "score_label": "Use caution"
+      "predicted_score": 46,
+      "score_label": "Conditions poor"
     },
     {
       "date": "2026-04-16",
-      "high_f": 89,
+      "high_f": 90,
       "low_f": 62,
       "rain_pct": 3,
       "uv": 7,
       "sunrise": "2026-04-16T06:03",
       "sunset": "2026-04-16T19:13",
-      "predicted_score": 56,
-      "score_label": "Use caution"
+      "predicted_score": 46,
+      "score_label": "Conditions poor"
     },
     {
       "date": "2026-04-17",
@@ -72,8 +73,8 @@
       "uv": 7,
       "sunrise": "2026-04-17T06:02",
       "sunset": "2026-04-17T19:14",
-      "predicted_score": 86,
-      "score_label": "Great day to go"
+      "predicted_score": 76,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-04-18",
@@ -83,8 +84,8 @@
       "uv": 7,
       "sunrise": "2026-04-18T06:01",
       "sunset": "2026-04-18T19:15",
-      "predicted_score": 74,
-      "score_label": "Good conditions"
+      "predicted_score": 64,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-04-19",
@@ -94,9 +95,9 @@
       "uv": 7,
       "sunrise": "2026-04-19T06:00",
       "sunset": "2026-04-19T19:15",
-      "predicted_score": 56,
-      "score_label": "Use caution"
+      "predicted_score": 46,
+      "score_label": "Conditions poor"
     }
   ],
-  "updated_at": "2026-04-15T20:04:05.790173+00:00"
+  "updated_at": "2026-04-15T20:25:33.100496+00:00"
 }
