@@ -17,15 +17,16 @@
   "notes": "Heat advisory Jun\u2013Sep; carry extra water",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 46,
-  "score_label": "Conditions poor",
+  "score": 74,
+  "score_label": "Good conditions",
   "gear_flags": [
+    "wind layer recommended",
     "N95 mask recommended for wildfire smoke"
   ],
   "current": {
-    "temp_f": 78,
+    "temp_f": 77,
     "feels_like_f": 68,
-    "wind_mph": 19,
+    "wind_mph": 18,
     "gusts_mph": 24,
     "rain_pct": 0
   },
@@ -41,6 +42,62 @@
     "fire_count_50km": 3
   },
   "river": null,
-  "forecast": [],
-  "updated_at": "2026-04-16T18:22:20.074603+00:00"
+  "forecast": [
+    {
+      "date": "2026-04-16",
+      "high_f": 84,
+      "low_f": 62,
+      "rain_pct": 2,
+      "uv": 6,
+      "sunrise": "2026-04-16T06:02",
+      "sunset": "2026-04-16T19:13",
+      "predicted_score": 74,
+      "score_label": "Good conditions"
+    },
+    {
+      "date": "2026-04-17",
+      "high_f": 70,
+      "low_f": 48,
+      "rain_pct": 1,
+      "uv": 7,
+      "sunrise": "2026-04-17T06:01",
+      "sunset": "2026-04-17T19:13",
+      "predicted_score": 86,
+      "score_label": "Great day to go"
+    },
+    {
+      "date": "2026-04-18",
+      "high_f": 79,
+      "low_f": 49,
+      "rain_pct": 0,
+      "uv": 7,
+      "sunrise": "2026-04-18T06:00",
+      "sunset": "2026-04-18T19:14",
+      "predicted_score": 74,
+      "score_label": "Good conditions"
+    },
+    {
+      "date": "2026-04-19",
+      "high_f": 85,
+      "low_f": 58,
+      "rain_pct": 0,
+      "uv": 7,
+      "sunrise": "2026-04-19T05:58",
+      "sunset": "2026-04-19T19:15",
+      "predicted_score": 74,
+      "score_label": "Good conditions"
+    },
+    {
+      "date": "2026-04-20",
+      "high_f": 88,
+      "low_f": 62,
+      "rain_pct": 0,
+      "uv": 8,
+      "sunrise": "2026-04-20T05:57",
+      "sunset": "2026-04-20T19:16",
+      "predicted_score": 56,
+      "score_label": "Use caution"
+    }
+  ],
+  "updated_at": "2026-04-16T18:41:06.952339+00:00"
 }
