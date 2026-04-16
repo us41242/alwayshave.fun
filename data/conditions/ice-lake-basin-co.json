@@ -32,7 +32,7 @@
   "aqi": {
     "aqi": 6,
     "category": "Good",
-    "pollutant": "PM2.5",
+    "pollutant": "PM10",
     "source": "airnow"
   },
   "fire": {
@@ -98,5 +98,5 @@
       "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-04-16T00:08:03.762522+00:00"
+  "updated_at": "2026-04-16T00:27:09.940722+00:00"
 }
