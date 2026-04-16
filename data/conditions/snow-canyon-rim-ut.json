@@ -17,11 +17,9 @@
   "notes": "Sandstone scrambling \u2014 watch for rattlesnakes spring",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 88,
-  "score_label": "Great day to go",
-  "gear_flags": [
-    "wind layer recommended"
-  ],
+  "score": 60,
+  "score_label": "Use caution",
+  "gear_flags": [],
   "current": {
     "temp_f": 73,
     "feels_like_f": 65,
@@ -30,7 +28,7 @@
     "rain_pct": 1
   },
   "aqi": {
-    "aqi": 40,
+    "aqi": 43,
     "category": "Good",
     "pollutant": "O3",
     "source": "airnow"
@@ -41,62 +39,6 @@
     "fire_count_50km": 0
   },
   "river": null,
-  "forecast": [
-    {
-      "date": "2026-04-16",
-      "high_f": 76,
-      "low_f": 52,
-      "rain_pct": 4,
-      "uv": 7,
-      "sunrise": "2026-04-16T06:58",
-      "sunset": "2026-04-16T20:10",
-      "predicted_score": 88,
-      "score_label": "Great day to go"
-    },
-    {
-      "date": "2026-04-17",
-      "high_f": 65,
-      "low_f": 40,
-      "rain_pct": 2,
-      "uv": 8,
-      "sunrise": "2026-04-17T06:56",
-      "sunset": "2026-04-17T20:11",
-      "predicted_score": 100,
-      "score_label": "Great day to go"
-    },
-    {
-      "date": "2026-04-18",
-      "high_f": 71,
-      "low_f": 44,
-      "rain_pct": 0,
-      "uv": 8,
-      "sunrise": "2026-04-18T06:55",
-      "sunset": "2026-04-18T20:12",
-      "predicted_score": 100,
-      "score_label": "Great day to go"
-    },
-    {
-      "date": "2026-04-19",
-      "high_f": 78,
-      "low_f": 53,
-      "rain_pct": 0,
-      "uv": 7,
-      "sunrise": "2026-04-19T06:54",
-      "sunset": "2026-04-19T20:13",
-      "predicted_score": 88,
-      "score_label": "Great day to go"
-    },
-    {
-      "date": "2026-04-20",
-      "high_f": 82,
-      "low_f": 60,
-      "rain_pct": 1,
-      "uv": 8,
-      "sunrise": "2026-04-20T06:52",
-      "sunset": "2026-04-20T20:13",
-      "predicted_score": 88,
-      "score_label": "Great day to go"
-    }
-  ],
-  "updated_at": "2026-04-16T19:05:24.887463+00:00"
+  "forecast": [],
+  "updated_at": "2026-04-16T19:27:10.587378+00:00"
 }
