@@ -17,10 +17,9 @@
   "notes": "Full loop 34mi \u2014 sections open to bikes/horses",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 78,
-  "score_label": "Good conditions",
+  "score": 50,
+  "score_label": "Use caution",
   "gear_flags": [
-    "wind layer recommended",
     "mask for sensitive groups"
   ],
   "current": {
@@ -42,62 +41,6 @@
     "fire_count_50km": 0
   },
   "river": null,
-  "forecast": [
-    {
-      "date": "2026-04-15",
-      "high_f": 78,
-      "low_f": 56,
-      "rain_pct": 0,
-      "uv": 7,
-      "sunrise": "2026-04-15T06:05",
-      "sunset": "2026-04-15T19:13",
-      "predicted_score": 78,
-      "score_label": "Good conditions"
-    },
-    {
-      "date": "2026-04-16",
-      "high_f": 79,
-      "low_f": 59,
-      "rain_pct": 2,
-      "uv": 7,
-      "sunrise": "2026-04-16T06:04",
-      "sunset": "2026-04-16T19:14",
-      "predicted_score": 78,
-      "score_label": "Good conditions"
-    },
-    {
-      "date": "2026-04-17",
-      "high_f": 65,
-      "low_f": 46,
-      "rain_pct": 1,
-      "uv": 7,
-      "sunrise": "2026-04-17T06:03",
-      "sunset": "2026-04-17T19:14",
-      "predicted_score": 90,
-      "score_label": "Great day to go"
-    },
-    {
-      "date": "2026-04-18",
-      "high_f": 76,
-      "low_f": 45,
-      "rain_pct": 0,
-      "uv": 7,
-      "sunrise": "2026-04-18T06:02",
-      "sunset": "2026-04-18T19:15",
-      "predicted_score": 78,
-      "score_label": "Good conditions"
-    },
-    {
-      "date": "2026-04-19",
-      "high_f": 84,
-      "low_f": 54,
-      "rain_pct": 0,
-      "uv": 7,
-      "sunrise": "2026-04-19T06:00",
-      "sunset": "2026-04-19T19:16",
-      "predicted_score": 78,
-      "score_label": "Good conditions"
-    }
-  ],
-  "updated_at": "2026-04-16T00:45:39.221797+00:00"
+  "forecast": [],
+  "updated_at": "2026-04-16T01:09:20.231842+00:00"
 }
