@@ -20,13 +20,14 @@
   "score": 60,
   "score_label": "Use caution",
   "gear_flags": [
+    "wind layer recommended",
     "insulation layer required"
   ],
   "current": {
-    "temp_f": 17,
-    "feels_like_f": 7,
-    "wind_mph": 9,
-    "gusts_mph": 18,
+    "temp_f": 19,
+    "feels_like_f": 9,
+    "wind_mph": 10,
+    "gusts_mph": 21,
     "rain_pct": 0
   },
   "aqi": {
@@ -98,5 +99,5 @@
       "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-04-16T13:30:00.566368+00:00"
+  "updated_at": "2026-04-16T13:47:10.503531+00:00"
 }
