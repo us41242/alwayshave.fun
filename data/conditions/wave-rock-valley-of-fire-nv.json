@@ -23,14 +23,14 @@
     "mask for sensitive groups"
   ],
   "current": {
-    "temp_f": 68,
+    "temp_f": 67,
     "feels_like_f": 57,
-    "wind_mph": 11,
-    "gusts_mph": 15,
+    "wind_mph": 10,
+    "gusts_mph": 13,
     "rain_pct": 0
   },
   "aqi": {
-    "aqi": 64,
+    "aqi": 58,
     "category": "Moderate",
     "pollutant": "PM2.5",
     "source": "open-meteo"
@@ -98,5 +98,5 @@
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-04-16T07:40:41.850226+00:00"
+  "updated_at": "2026-04-16T08:00:45.782205+00:00"
 }
