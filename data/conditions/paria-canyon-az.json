@@ -17,14 +17,14 @@
   "notes": "Multi-day \u2014 permit required; flash flood danger",
   "dog_friendly": "Yes",
   "vehicle_req": "High-Clearance",
-  "score": 60,
-  "score_label": "Use caution",
+  "score": 88,
+  "score_label": "Great day to go",
   "gear_flags": [],
   "current": {
-    "temp_f": 50,
-    "feels_like_f": 43,
-    "wind_mph": 2,
-    "gusts_mph": 2,
+    "temp_f": 48,
+    "feels_like_f": 40,
+    "wind_mph": 6,
+    "gusts_mph": 6,
     "rain_pct": 0
   },
   "aqi": {
@@ -39,6 +39,62 @@
     "fire_count_50km": 0
   },
   "river": null,
-  "forecast": [],
-  "updated_at": "2026-04-16T08:26:22.570721+00:00"
+  "forecast": [
+    {
+      "date": "2026-04-16",
+      "high_f": 73,
+      "low_f": 45,
+      "rain_pct": 2,
+      "uv": 7,
+      "sunrise": "2026-04-16T06:51",
+      "sunset": "2026-04-16T20:03",
+      "predicted_score": 100,
+      "score_label": "Great day to go"
+    },
+    {
+      "date": "2026-04-17",
+      "high_f": 58,
+      "low_f": 37,
+      "rain_pct": 4,
+      "uv": 8,
+      "sunrise": "2026-04-17T06:50",
+      "sunset": "2026-04-17T20:04",
+      "predicted_score": 100,
+      "score_label": "Great day to go"
+    },
+    {
+      "date": "2026-04-18",
+      "high_f": 62,
+      "low_f": 39,
+      "rain_pct": 0,
+      "uv": 8,
+      "sunrise": "2026-04-18T06:48",
+      "sunset": "2026-04-18T20:05",
+      "predicted_score": 100,
+      "score_label": "Great day to go"
+    },
+    {
+      "date": "2026-04-19",
+      "high_f": 72,
+      "low_f": 48,
+      "rain_pct": 2,
+      "uv": 8,
+      "sunrise": "2026-04-19T06:47",
+      "sunset": "2026-04-19T20:06",
+      "predicted_score": 100,
+      "score_label": "Great day to go"
+    },
+    {
+      "date": "2026-04-20",
+      "high_f": 78,
+      "low_f": 53,
+      "rain_pct": 3,
+      "uv": 8,
+      "sunrise": "2026-04-20T06:46",
+      "sunset": "2026-04-20T20:07",
+      "predicted_score": 88,
+      "score_label": "Great day to go"
+    }
+  ],
+  "updated_at": "2026-04-16T08:44:54.115412+00:00"
 }
