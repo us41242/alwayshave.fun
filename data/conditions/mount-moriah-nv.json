@@ -19,16 +19,19 @@
   "vehicle_req": "High-Clearance",
   "score": 60,
   "score_label": "Use caution",
-  "gear_flags": [],
+  "gear_flags": [
+    "wind layer recommended",
+    "insulation layer required"
+  ],
   "current": {
     "temp_f": 30,
-    "feels_like_f": 14,
-    "wind_mph": 25,
-    "gusts_mph": 39,
-    "rain_pct": 1
+    "feels_like_f": 12,
+    "wind_mph": 26,
+    "gusts_mph": 40,
+    "rain_pct": 2
   },
   "aqi": {
-    "aqi": 47,
+    "aqi": 46,
     "category": "Good",
     "pollutant": "O3",
     "source": "airnow"
@@ -39,6 +42,62 @@
     "fire_count_50km": 0
   },
   "river": null,
-  "forecast": [],
-  "updated_at": "2026-04-16T04:09:43.510600+00:00"
+  "forecast": [
+    {
+      "date": "2026-04-15",
+      "high_f": 39,
+      "low_f": 18,
+      "rain_pct": 2,
+      "uv": 8,
+      "sunrise": "2026-04-15T05:59",
+      "sunset": "2026-04-15T19:14",
+      "predicted_score": 70,
+      "score_label": "Good conditions"
+    },
+    {
+      "date": "2026-04-16",
+      "high_f": 33,
+      "low_f": 3,
+      "rain_pct": 10,
+      "uv": 7,
+      "sunrise": "2026-04-16T05:57",
+      "sunset": "2026-04-16T19:15",
+      "predicted_score": 60,
+      "score_label": "Use caution"
+    },
+    {
+      "date": "2026-04-17",
+      "high_f": 24,
+      "low_f": -2,
+      "rain_pct": 2,
+      "uv": 8,
+      "sunrise": "2026-04-17T05:56",
+      "sunset": "2026-04-17T19:16",
+      "predicted_score": 60,
+      "score_label": "Use caution"
+    },
+    {
+      "date": "2026-04-18",
+      "high_f": 35,
+      "low_f": 16,
+      "rain_pct": 0,
+      "uv": 8,
+      "sunrise": "2026-04-18T05:54",
+      "sunset": "2026-04-18T19:17",
+      "predicted_score": 70,
+      "score_label": "Good conditions"
+    },
+    {
+      "date": "2026-04-19",
+      "high_f": 45,
+      "low_f": 29,
+      "rain_pct": 0,
+      "uv": 7,
+      "sunrise": "2026-04-19T05:53",
+      "sunset": "2026-04-19T19:18",
+      "predicted_score": 88,
+      "score_label": "Great day to go"
+    }
+  ],
+  "updated_at": "2026-04-16T04:24:53.243647+00:00"
 }
