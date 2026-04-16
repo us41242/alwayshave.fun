@@ -17,22 +17,23 @@
   "notes": "Road open late Jun \u2014 check NPS seasonal closure",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 60,
+  "score": 50,
   "score_label": "Use caution",
   "gear_flags": [
     "wind layer recommended",
-    "insulation layer required"
+    "insulation layer required",
+    "mask for sensitive groups"
   ],
   "current": {
     "temp_f": 26,
-    "feels_like_f": 8,
+    "feels_like_f": 7,
     "wind_mph": 34,
-    "gusts_mph": 48,
+    "gusts_mph": 53,
     "rain_pct": 3
   },
   "aqi": {
-    "aqi": 50,
-    "category": "Good",
+    "aqi": 58,
+    "category": "Moderate",
     "pollutant": "O3",
     "source": "airnow"
   },
@@ -51,7 +52,7 @@
       "uv": 8,
       "sunrise": "2026-04-16T05:58",
       "sunset": "2026-04-16T19:15",
-      "predicted_score": 60,
+      "predicted_score": 50,
       "score_label": "Use caution"
     },
     {
@@ -62,7 +63,7 @@
       "uv": 8,
       "sunrise": "2026-04-17T05:57",
       "sunset": "2026-04-17T19:16",
-      "predicted_score": 60,
+      "predicted_score": 50,
       "score_label": "Use caution"
     },
     {
@@ -73,7 +74,7 @@
       "uv": 8,
       "sunrise": "2026-04-18T05:55",
       "sunset": "2026-04-18T19:17",
-      "predicted_score": 60,
+      "predicted_score": 50,
       "score_label": "Use caution"
     },
     {
@@ -84,8 +85,8 @@
       "uv": 6,
       "sunrise": "2026-04-19T05:54",
       "sunset": "2026-04-19T19:18",
-      "predicted_score": 88,
-      "score_label": "Great day to go"
+      "predicted_score": 78,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-04-20",
@@ -95,9 +96,9 @@
       "uv": 8,
       "sunrise": "2026-04-20T05:53",
       "sunset": "2026-04-20T19:19",
-      "predicted_score": 88,
-      "score_label": "Great day to go"
+      "predicted_score": 78,
+      "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-04-16T18:01:53.896888+00:00"
+  "updated_at": "2026-04-16T18:23:06.421945+00:00"
 }
