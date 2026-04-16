@@ -28,7 +28,7 @@
     "temp_f": 27,
     "feels_like_f": 8,
     "wind_mph": 30,
-    "gusts_mph": 43,
+    "gusts_mph": 42,
     "rain_pct": 2
   },
   "aqi": {
@@ -39,7 +39,7 @@
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": null,
+    "nearest_fire_km": 109.0,
     "fire_count_50km": 0
   },
   "river": null,
@@ -57,7 +57,7 @@
     },
     {
       "date": "2026-04-17",
-      "high_f": 28,
+      "high_f": 30,
       "low_f": 9,
       "rain_pct": 81,
       "uv": 6,
@@ -100,5 +100,5 @@
       "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-04-16T08:05:20.267138+00:00"
+  "updated_at": "2026-04-16T08:28:13.230936+00:00"
 }
