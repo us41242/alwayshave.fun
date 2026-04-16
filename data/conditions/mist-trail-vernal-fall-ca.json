@@ -17,21 +17,23 @@
   "notes": "Extremely slippery when wet \u2014 wet season trail",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 88,
-  "score_label": "Great day to go",
-  "gear_flags": [],
+  "score": 78,
+  "score_label": "Good conditions",
+  "gear_flags": [
+    "mask for sensitive groups"
+  ],
   "current": {
-    "temp_f": 50,
-    "feels_like_f": 49,
-    "wind_mph": 1,
-    "gusts_mph": 9,
+    "temp_f": 49,
+    "feels_like_f": 47,
+    "wind_mph": 4,
+    "gusts_mph": 7,
     "rain_pct": 1
   },
   "aqi": {
-    "aqi": 38,
-    "category": "Good",
-    "pollutant": "O3",
-    "source": "airnow"
+    "aqi": 63,
+    "category": "Moderate",
+    "pollutant": "PM2.5",
+    "source": "open-meteo"
   },
   "fire": {
     "risk_level": "low",
@@ -48,7 +50,7 @@
       "uv": 7,
       "sunrise": "2026-04-15T06:22",
       "sunset": "2026-04-15T19:33",
-      "predicted_score": 100,
+      "predicted_score": 90,
       "score_label": "Great day to go"
     },
     {
@@ -59,7 +61,7 @@
       "uv": 8,
       "sunrise": "2026-04-16T06:21",
       "sunset": "2026-04-16T19:34",
-      "predicted_score": 100,
+      "predicted_score": 90,
       "score_label": "Great day to go"
     },
     {
@@ -70,7 +72,7 @@
       "uv": 8,
       "sunrise": "2026-04-17T06:19",
       "sunset": "2026-04-17T19:35",
-      "predicted_score": 100,
+      "predicted_score": 90,
       "score_label": "Great day to go"
     },
     {
@@ -81,7 +83,7 @@
       "uv": 5,
       "sunrise": "2026-04-18T06:18",
       "sunset": "2026-04-18T19:36",
-      "predicted_score": 100,
+      "predicted_score": 90,
       "score_label": "Great day to go"
     },
     {
@@ -92,9 +94,9 @@
       "uv": 8,
       "sunrise": "2026-04-19T06:17",
       "sunset": "2026-04-19T19:37",
-      "predicted_score": 88,
-      "score_label": "Great day to go"
+      "predicted_score": 78,
+      "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-04-16T02:49:40.717222+00:00"
+  "updated_at": "2026-04-16T03:11:00.111975+00:00"
 }
