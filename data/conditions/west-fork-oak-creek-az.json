@@ -17,11 +17,10 @@
   "notes": "Creek crossings \u2014 check water levels after rain",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 76,
-  "score_label": "Good conditions",
+  "score": 90,
+  "score_label": "Great day to go",
   "gear_flags": [
-    "mask for sensitive groups",
-    "N95 mask recommended for wildfire smoke"
+    "mask for sensitive groups"
   ],
   "current": {
     "temp_f": 64,
@@ -37,9 +36,9 @@
     "source": "airnow"
   },
   "fire": {
-    "risk_level": "elevated",
-    "nearest_fire_km": 38.3,
-    "fire_count_50km": 1
+    "risk_level": "low",
+    "nearest_fire_km": null,
+    "fire_count_50km": 0
   },
   "river": {
     "cfs": 38,
@@ -54,8 +53,8 @@
       "uv": 8,
       "sunrise": "2026-04-15T05:54",
       "sunset": "2026-04-15T18:59",
-      "predicted_score": 76,
-      "score_label": "Good conditions"
+      "predicted_score": 90,
+      "score_label": "Great day to go"
     },
     {
       "date": "2026-04-16",
@@ -65,8 +64,8 @@
       "uv": 7,
       "sunrise": "2026-04-16T05:53",
       "sunset": "2026-04-16T19:00",
-      "predicted_score": 76,
-      "score_label": "Good conditions"
+      "predicted_score": 90,
+      "score_label": "Great day to go"
     },
     {
       "date": "2026-04-17",
@@ -76,8 +75,8 @@
       "uv": 8,
       "sunrise": "2026-04-17T05:52",
       "sunset": "2026-04-17T19:00",
-      "predicted_score": 76,
-      "score_label": "Good conditions"
+      "predicted_score": 90,
+      "score_label": "Great day to go"
     },
     {
       "date": "2026-04-18",
@@ -87,8 +86,8 @@
       "uv": 8,
       "sunrise": "2026-04-18T05:50",
       "sunset": "2026-04-18T19:01",
-      "predicted_score": 76,
-      "score_label": "Good conditions"
+      "predicted_score": 90,
+      "score_label": "Great day to go"
     },
     {
       "date": "2026-04-19",
@@ -98,9 +97,9 @@
       "uv": 7,
       "sunrise": "2026-04-19T05:49",
       "sunset": "2026-04-19T19:02",
-      "predicted_score": 76,
-      "score_label": "Good conditions"
+      "predicted_score": 90,
+      "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-04-15T23:42:58.443332+00:00"
+  "updated_at": "2026-04-16T00:03:42.900724+00:00"
 }
