@@ -17,17 +17,18 @@
   "notes": "Full loop 34mi \u2014 sections open to bikes/horses",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 76,
-  "score_label": "Good conditions",
+  "score": 64,
+  "score_label": "Use caution",
   "gear_flags": [
+    "wind layer recommended",
     "mask for sensitive groups",
     "N95 mask recommended for wildfire smoke"
   ],
   "current": {
-    "temp_f": 75,
+    "temp_f": 76,
     "feels_like_f": 66,
-    "wind_mph": 13,
-    "gusts_mph": 20,
+    "wind_mph": 18,
+    "gusts_mph": 23,
     "rain_pct": 0
   },
   "aqi": {
@@ -68,7 +69,7 @@
     {
       "date": "2026-04-18",
       "high_f": 76,
-      "low_f": 44,
+      "low_f": 45,
       "rain_pct": 0,
       "uv": 7,
       "sunrise": "2026-04-18T06:02",
@@ -78,8 +79,8 @@
     },
     {
       "date": "2026-04-19",
-      "high_f": 85,
-      "low_f": 56,
+      "high_f": 84,
+      "low_f": 54,
       "rain_pct": 0,
       "uv": 7,
       "sunrise": "2026-04-19T06:00",
@@ -89,15 +90,15 @@
     },
     {
       "date": "2026-04-20",
-      "high_f": 85,
-      "low_f": 59,
+      "high_f": 86,
+      "low_f": 60,
       "rain_pct": 0,
       "uv": 8,
       "sunrise": "2026-04-20T05:59",
       "sunset": "2026-04-20T19:17",
-      "predicted_score": 64,
-      "score_label": "Use caution"
+      "predicted_score": 46,
+      "score_label": "Conditions poor"
     }
   ],
-  "updated_at": "2026-04-16T17:25:58.632877+00:00"
+  "updated_at": "2026-04-16T17:45:40.078728+00:00"
 }
