@@ -17,10 +17,9 @@
   "notes": "Heat advisory Jun\u2013Sep; carry extra water",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 86,
-  "score_label": "Great day to go",
+  "score": 46,
+  "score_label": "Conditions poor",
   "gear_flags": [
-    "wind layer recommended",
     "N95 mask recommended for wildfire smoke"
   ],
   "current": {
@@ -31,7 +30,7 @@
     "rain_pct": 0
   },
   "aqi": {
-    "aqi": 42,
+    "aqi": 41,
     "category": "Good",
     "pollutant": "PM2.5",
     "source": "open-meteo"
@@ -42,62 +41,6 @@
     "fire_count_50km": 3
   },
   "river": null,
-  "forecast": [
-    {
-      "date": "2026-04-16",
-      "high_f": 84,
-      "low_f": 62,
-      "rain_pct": 3,
-      "uv": 7,
-      "sunrise": "2026-04-16T06:02",
-      "sunset": "2026-04-16T19:13",
-      "predicted_score": 74,
-      "score_label": "Good conditions"
-    },
-    {
-      "date": "2026-04-17",
-      "high_f": 70,
-      "low_f": 48,
-      "rain_pct": 2,
-      "uv": 8,
-      "sunrise": "2026-04-17T06:01",
-      "sunset": "2026-04-17T19:13",
-      "predicted_score": 86,
-      "score_label": "Great day to go"
-    },
-    {
-      "date": "2026-04-18",
-      "high_f": 79,
-      "low_f": 48,
-      "rain_pct": 0,
-      "uv": 8,
-      "sunrise": "2026-04-18T06:00",
-      "sunset": "2026-04-18T19:14",
-      "predicted_score": 74,
-      "score_label": "Good conditions"
-    },
-    {
-      "date": "2026-04-19",
-      "high_f": 86,
-      "low_f": 60,
-      "rain_pct": 0,
-      "uv": 7,
-      "sunrise": "2026-04-19T05:58",
-      "sunset": "2026-04-19T19:15",
-      "predicted_score": 56,
-      "score_label": "Use caution"
-    },
-    {
-      "date": "2026-04-20",
-      "high_f": 88,
-      "low_f": 62,
-      "rain_pct": 0,
-      "uv": 8,
-      "sunrise": "2026-04-20T05:57",
-      "sunset": "2026-04-20T19:16",
-      "predicted_score": 56,
-      "score_label": "Use caution"
-    }
-  ],
-  "updated_at": "2026-04-16T16:43:02.427835+00:00"
+  "forecast": [],
+  "updated_at": "2026-04-16T17:02:03.995079+00:00"
 }
