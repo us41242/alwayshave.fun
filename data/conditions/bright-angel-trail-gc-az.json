@@ -27,7 +27,7 @@
   "current": {
     "temp_f": 42,
     "feels_like_f": 30,
-    "wind_mph": 13,
+    "wind_mph": 14,
     "gusts_mph": 21,
     "rain_pct": 0
   },
@@ -39,7 +39,7 @@
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": 706.7,
+    "nearest_fire_km": 247.9,
     "fire_count_50km": 0
   },
   "river": {
@@ -103,5 +103,5 @@
       "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-04-16T09:43:14.552081+00:00"
+  "updated_at": "2026-04-16T10:01:41.480598+00:00"
 }

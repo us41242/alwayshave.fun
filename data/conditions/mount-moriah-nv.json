@@ -19,12 +19,15 @@
   "vehicle_req": "High-Clearance",
   "score": 60,
   "score_label": "Use caution",
-  "gear_flags": [],
+  "gear_flags": [
+    "wind layer recommended",
+    "insulation layer required"
+  ],
   "current": {
     "temp_f": 23,
-    "feels_like_f": 4,
-    "wind_mph": 32,
-    "gusts_mph": 45,
+    "feels_like_f": 5,
+    "wind_mph": 28,
+    "gusts_mph": 40,
     "rain_pct": 0
   },
   "aqi": {
@@ -35,10 +38,66 @@
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": 814.7,
+    "nearest_fire_km": 172.6,
     "fire_count_50km": 0
   },
   "river": null,
-  "forecast": [],
-  "updated_at": "2026-04-16T09:46:27.435326+00:00"
+  "forecast": [
+    {
+      "date": "2026-04-16",
+      "high_f": 34,
+      "low_f": 3,
+      "rain_pct": 10,
+      "uv": 7,
+      "sunrise": "2026-04-16T05:57",
+      "sunset": "2026-04-16T19:15",
+      "predicted_score": 60,
+      "score_label": "Use caution"
+    },
+    {
+      "date": "2026-04-17",
+      "high_f": 23,
+      "low_f": -2,
+      "rain_pct": 5,
+      "uv": 8,
+      "sunrise": "2026-04-17T05:56",
+      "sunset": "2026-04-17T19:16",
+      "predicted_score": 60,
+      "score_label": "Use caution"
+    },
+    {
+      "date": "2026-04-18",
+      "high_f": 35,
+      "low_f": 16,
+      "rain_pct": 0,
+      "uv": 8,
+      "sunrise": "2026-04-18T05:54",
+      "sunset": "2026-04-18T19:17",
+      "predicted_score": 70,
+      "score_label": "Good conditions"
+    },
+    {
+      "date": "2026-04-19",
+      "high_f": 45,
+      "low_f": 28,
+      "rain_pct": 1,
+      "uv": 7,
+      "sunrise": "2026-04-19T05:53",
+      "sunset": "2026-04-19T19:18",
+      "predicted_score": 88,
+      "score_label": "Great day to go"
+    },
+    {
+      "date": "2026-04-20",
+      "high_f": 49,
+      "low_f": 32,
+      "rain_pct": 4,
+      "uv": 8,
+      "sunrise": "2026-04-20T05:52",
+      "sunset": "2026-04-20T19:19",
+      "predicted_score": 88,
+      "score_label": "Great day to go"
+    }
+  ],
+  "updated_at": "2026-04-16T10:05:31.105738+00:00"
 }
