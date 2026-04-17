@@ -17,24 +17,25 @@
   "notes": "No cars beyond Spooner Summit; bike-legal trail",
   "dog_friendly": "Yes",
   "vehicle_req": "AWD",
-  "score": 60,
+  "score": 50,
   "score_label": "Use caution",
   "gear_flags": [
     "wind layer recommended",
-    "insulation layer required"
+    "insulation layer required",
+    "mask for sensitive groups"
   ],
   "current": {
-    "temp_f": 28,
-    "feels_like_f": 11,
-    "wind_mph": 24,
-    "gusts_mph": 30,
+    "temp_f": 31,
+    "feels_like_f": 14,
+    "wind_mph": 23,
+    "gusts_mph": 28,
     "rain_pct": 0
   },
   "aqi": {
-    "aqi": 27,
-    "category": "Good",
-    "pollutant": "O3",
-    "source": "airnow"
+    "aqi": 70,
+    "category": "Moderate",
+    "pollutant": "PM2.5",
+    "source": "open-meteo"
   },
   "fire": {
     "risk_level": "low",
@@ -51,8 +52,8 @@
       "uv": 8,
       "sunrise": "2026-04-17T06:19",
       "sunset": "2026-04-17T19:38",
-      "predicted_score": 88,
-      "score_label": "Great day to go"
+      "predicted_score": 78,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-04-18",
@@ -62,7 +63,7 @@
       "uv": 8,
       "sunrise": "2026-04-18T06:17",
       "sunset": "2026-04-18T19:39",
-      "predicted_score": 100,
+      "predicted_score": 90,
       "score_label": "Great day to go"
     },
     {
@@ -73,7 +74,7 @@
       "uv": 8,
       "sunrise": "2026-04-19T06:16",
       "sunset": "2026-04-19T19:40",
-      "predicted_score": 100,
+      "predicted_score": 90,
       "score_label": "Great day to go"
     },
     {
@@ -84,8 +85,8 @@
       "uv": 8,
       "sunrise": "2026-04-20T06:15",
       "sunset": "2026-04-20T19:41",
-      "predicted_score": 88,
-      "score_label": "Great day to go"
+      "predicted_score": 78,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-04-21",
@@ -95,9 +96,9 @@
       "uv": 6,
       "sunrise": "2026-04-21T06:13",
       "sunset": "2026-04-21T19:42",
-      "predicted_score": 60,
+      "predicted_score": 50,
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-04-17T16:10:08.928775+00:00"
+  "updated_at": "2026-04-17T16:30:20.561614+00:00"
 }
