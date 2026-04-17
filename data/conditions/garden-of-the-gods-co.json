@@ -17,17 +17,17 @@
   "notes": "Free entry; busy weekends \u2014 arrive before 9am",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 62,
+  "score": 52,
   "score_label": "Use caution",
   "gear_flags": [
     "wind layer recommended",
     "insulation layer required"
   ],
   "current": {
-    "temp_f": 36,
+    "temp_f": 34,
     "feels_like_f": 21,
-    "wind_mph": 25,
-    "gusts_mph": 39,
+    "wind_mph": 20,
+    "gusts_mph": 33,
     "rain_pct": 0
   },
   "aqi": {
@@ -47,8 +47,8 @@
       "date": "2026-04-17",
       "high_f": 56,
       "low_f": 30,
-      "rain_pct": 63,
-      "uv": 5,
+      "rain_pct": 62,
+      "uv": 6,
       "sunrise": "2026-04-17T06:19",
       "sunset": "2026-04-17T19:38",
       "predicted_score": 52,
@@ -68,7 +68,7 @@
     {
       "date": "2026-04-19",
       "high_f": 68,
-      "low_f": 38,
+      "low_f": 39,
       "rain_pct": 1,
       "uv": 8,
       "sunrise": "2026-04-19T06:16",
@@ -78,7 +78,7 @@
     },
     {
       "date": "2026-04-20",
-      "high_f": 70,
+      "high_f": 72,
       "low_f": 50,
       "rain_pct": 5,
       "uv": 7,
@@ -99,5 +99,5 @@
       "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-04-17T11:28:05.594719+00:00"
+  "updated_at": "2026-04-17T11:48:06.993096+00:00"
 }
