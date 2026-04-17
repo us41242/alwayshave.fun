@@ -17,15 +17,16 @@
   "notes": "60 miles of dirt road \u2014 high clearance required",
   "dog_friendly": "No",
   "vehicle_req": "High-Clearance",
-  "score": 50,
-  "score_label": "Use caution",
+  "score": 78,
+  "score_label": "Good conditions",
   "gear_flags": [
+    "insulation layer required",
     "mask for sensitive groups"
   ],
   "current": {
-    "temp_f": 42,
-    "feels_like_f": 32,
-    "wind_mph": 11,
+    "temp_f": 43,
+    "feels_like_f": 33,
+    "wind_mph": 10,
     "gusts_mph": 19,
     "rain_pct": 0
   },
@@ -41,6 +42,62 @@
     "fire_count_50km": 0
   },
   "river": null,
-  "forecast": [],
-  "updated_at": "2026-04-17T13:27:35.795313+00:00"
+  "forecast": [
+    {
+      "date": "2026-04-17",
+      "high_f": 66,
+      "low_f": 42,
+      "rain_pct": 1,
+      "uv": 8,
+      "sunrise": "2026-04-17T05:54",
+      "sunset": "2026-04-17T19:06",
+      "predicted_score": 90,
+      "score_label": "Great day to go"
+    },
+    {
+      "date": "2026-04-18",
+      "high_f": 73,
+      "low_f": 42,
+      "rain_pct": 0,
+      "uv": 8,
+      "sunrise": "2026-04-18T05:52",
+      "sunset": "2026-04-18T19:07",
+      "predicted_score": 90,
+      "score_label": "Great day to go"
+    },
+    {
+      "date": "2026-04-19",
+      "high_f": 81,
+      "low_f": 48,
+      "rain_pct": 3,
+      "uv": 7,
+      "sunrise": "2026-04-19T05:51",
+      "sunset": "2026-04-19T19:07",
+      "predicted_score": 78,
+      "score_label": "Good conditions"
+    },
+    {
+      "date": "2026-04-20",
+      "high_f": 82,
+      "low_f": 58,
+      "rain_pct": 4,
+      "uv": 8,
+      "sunrise": "2026-04-20T05:50",
+      "sunset": "2026-04-20T19:08",
+      "predicted_score": 78,
+      "score_label": "Good conditions"
+    },
+    {
+      "date": "2026-04-21",
+      "high_f": 82,
+      "low_f": 59,
+      "rain_pct": 3,
+      "uv": 8,
+      "sunrise": "2026-04-21T05:49",
+      "sunset": "2026-04-21T19:09",
+      "predicted_score": 78,
+      "score_label": "Good conditions"
+    }
+  ],
+  "updated_at": "2026-04-17T13:46:23.481277+00:00"
 }

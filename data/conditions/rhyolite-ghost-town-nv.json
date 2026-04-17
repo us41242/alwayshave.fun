@@ -17,22 +17,23 @@
   "notes": "Near Death Valley \u2014 extreme summer heat",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 70,
-  "score_label": "Good conditions",
+  "score": 60,
+  "score_label": "Use caution",
   "gear_flags": [
     "wind layer recommended",
-    "insulation layer required"
+    "insulation layer required",
+    "mask for sensitive groups"
   ],
   "current": {
     "temp_f": 35,
     "feels_like_f": 20,
-    "wind_mph": 19,
+    "wind_mph": 21,
     "gusts_mph": 32,
     "rain_pct": 0
   },
   "aqi": {
-    "aqi": 49,
-    "category": "Good",
+    "aqi": 54,
+    "category": "Moderate",
     "pollutant": "O3",
     "source": "airnow"
   },
@@ -51,7 +52,7 @@
       "uv": 8,
       "sunrise": "2026-04-17T06:09",
       "sunset": "2026-04-17T19:23",
-      "predicted_score": 100,
+      "predicted_score": 90,
       "score_label": "Great day to go"
     },
     {
@@ -62,7 +63,7 @@
       "uv": 8,
       "sunrise": "2026-04-18T06:08",
       "sunset": "2026-04-18T19:24",
-      "predicted_score": 100,
+      "predicted_score": 90,
       "score_label": "Great day to go"
     },
     {
@@ -73,8 +74,8 @@
       "uv": 8,
       "sunrise": "2026-04-19T06:07",
       "sunset": "2026-04-19T19:25",
-      "predicted_score": 88,
-      "score_label": "Great day to go"
+      "predicted_score": 78,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-04-20",
@@ -84,8 +85,8 @@
       "uv": 8,
       "sunrise": "2026-04-20T06:06",
       "sunset": "2026-04-20T19:26",
-      "predicted_score": 88,
-      "score_label": "Great day to go"
+      "predicted_score": 78,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-04-21",
@@ -95,9 +96,9 @@
       "uv": 8,
       "sunrise": "2026-04-21T06:04",
       "sunset": "2026-04-21T19:27",
-      "predicted_score": 88,
-      "score_label": "Great day to go"
+      "predicted_score": 78,
+      "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-04-17T13:27:36.645325+00:00"
+  "updated_at": "2026-04-17T13:46:24.089123+00:00"
 }
