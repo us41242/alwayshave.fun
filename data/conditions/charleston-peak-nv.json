@@ -20,19 +20,18 @@
   "score": 32,
   "score_label": "Conditions poor",
   "gear_flags": [
-    "wind layer recommended",
     "insulation layer required",
     "N95 mask recommended"
   ],
   "current": {
-    "temp_f": 15,
-    "feels_like_f": 3,
+    "temp_f": 16,
+    "feels_like_f": 4,
     "wind_mph": 12,
-    "gusts_mph": 23,
+    "gusts_mph": 20,
     "rain_pct": 1
   },
   "aqi": {
-    "aqi": 134,
+    "aqi": 114,
     "category": "Unhealthy for Sensitive Groups",
     "pollutant": "PM10",
     "source": "airnow"
@@ -100,5 +99,5 @@
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-04-17T10:01:36.814133+00:00"
+  "updated_at": "2026-04-17T10:21:36.983731+00:00"
 }
