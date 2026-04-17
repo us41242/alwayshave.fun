@@ -17,48 +17,36 @@
   "notes": "Permit required \u2014 sells out months in advance",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 78,
-  "score_label": "Good conditions",
+  "score": 90,
+  "score_label": "Great day to go",
   "gear_flags": [
-    "wind layer recommended",
     "mask for sensitive groups"
   ],
   "current": {
-    "temp_f": 79,
-    "feels_like_f": 69,
-    "wind_mph": 17,
-    "gusts_mph": 24,
+    "temp_f": 59,
+    "feels_like_f": 53,
+    "wind_mph": 2,
+    "gusts_mph": 11,
     "rain_pct": 1
   },
   "aqi": {
-    "aqi": 67,
+    "aqi": 71,
     "category": "Moderate",
     "pollutant": "O3",
     "source": "airnow"
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": 173.1,
+    "nearest_fire_km": 1033.9,
     "fire_count_50km": 0
   },
   "river": null,
   "forecast": [
     {
-      "date": "2026-04-16",
-      "high_f": 80,
-      "low_f": 51,
-      "rain_pct": 1,
-      "uv": 6,
-      "sunrise": "2026-04-16T05:55",
-      "sunset": "2026-04-16T19:05",
-      "predicted_score": 78,
-      "score_label": "Good conditions"
-    },
-    {
       "date": "2026-04-17",
-      "high_f": 69,
-      "low_f": 45,
-      "rain_pct": 2,
+      "high_f": 70,
+      "low_f": 46,
+      "rain_pct": 1,
       "uv": 8,
       "sunrise": "2026-04-17T05:54",
       "sunset": "2026-04-17T19:06",
@@ -67,21 +55,21 @@
     },
     {
       "date": "2026-04-18",
-      "high_f": 73,
-      "low_f": 44,
+      "high_f": 77,
+      "low_f": 47,
       "rain_pct": 0,
-      "uv": 8,
+      "uv": 7,
       "sunrise": "2026-04-18T05:53",
       "sunset": "2026-04-18T19:07",
-      "predicted_score": 90,
-      "score_label": "Great day to go"
+      "predicted_score": 78,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-04-19",
-      "high_f": 83,
-      "low_f": 54,
+      "high_f": 84,
+      "low_f": 53,
       "rain_pct": 2,
-      "uv": 7,
+      "uv": 8,
       "sunrise": "2026-04-19T05:51",
       "sunset": "2026-04-19T19:08",
       "predicted_score": 78,
@@ -90,14 +78,25 @@
     {
       "date": "2026-04-20",
       "high_f": 85,
-      "low_f": 61,
-      "rain_pct": 2,
+      "low_f": 62,
+      "rain_pct": 3,
       "uv": 8,
       "sunrise": "2026-04-20T05:50",
       "sunset": "2026-04-20T19:09",
       "predicted_score": 78,
       "score_label": "Good conditions"
+    },
+    {
+      "date": "2026-04-21",
+      "high_f": 84,
+      "low_f": 63,
+      "rain_pct": 2,
+      "uv": 8,
+      "sunrise": "2026-04-21T05:49",
+      "sunset": "2026-04-21T19:09",
+      "predicted_score": 78,
+      "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-04-16T20:43:08.392511+00:00"
+  "updated_at": "2026-04-17T08:44:18.217508+00:00"
 }

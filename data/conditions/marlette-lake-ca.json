@@ -17,46 +17,35 @@
   "notes": "No cars beyond Spooner Summit; bike-legal trail",
   "dog_friendly": "Yes",
   "vehicle_req": "AWD",
-  "score": 70,
-  "score_label": "Good conditions",
+  "score": 60,
+  "score_label": "Use caution",
   "gear_flags": [
     "wind layer recommended",
     "insulation layer required"
   ],
   "current": {
-    "temp_f": 39,
-    "feels_like_f": 32,
-    "wind_mph": 11,
-    "gusts_mph": 25,
+    "temp_f": 21,
+    "feels_like_f": 2,
+    "wind_mph": 30,
+    "gusts_mph": 39,
     "rain_pct": 0
   },
   "aqi": {
-    "aqi": 44,
+    "aqi": 48,
     "category": "Good",
     "pollutant": "O3",
     "source": "airnow"
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": 130.7,
+    "nearest_fire_km": 1743.9,
     "fire_count_50km": 0
   },
   "river": null,
   "forecast": [
     {
-      "date": "2026-04-16",
-      "high_f": 40,
-      "low_f": 26,
-      "rain_pct": 2,
-      "uv": 8,
-      "sunrise": "2026-04-16T06:20",
-      "sunset": "2026-04-16T19:37",
-      "predicted_score": 88,
-      "score_label": "Great day to go"
-    },
-    {
       "date": "2026-04-17",
-      "high_f": 47,
+      "high_f": 46,
       "low_f": 21,
       "rain_pct": 1,
       "uv": 8,
@@ -67,7 +56,7 @@
     },
     {
       "date": "2026-04-18",
-      "high_f": 56,
+      "high_f": 52,
       "low_f": 35,
       "rain_pct": 1,
       "uv": 8,
@@ -78,10 +67,10 @@
     },
     {
       "date": "2026-04-19",
-      "high_f": 58,
+      "high_f": 57,
       "low_f": 41,
-      "rain_pct": 5,
-      "uv": 8,
+      "rain_pct": 3,
+      "uv": 7,
       "sunrise": "2026-04-19T06:16",
       "sunset": "2026-04-19T19:40",
       "predicted_score": 100,
@@ -89,15 +78,26 @@
     },
     {
       "date": "2026-04-20",
-      "high_f": 60,
-      "low_f": 43,
-      "rain_pct": 40,
+      "high_f": 59,
+      "low_f": 42,
+      "rain_pct": 37,
       "uv": 8,
       "sunrise": "2026-04-20T06:15",
       "sunset": "2026-04-20T19:41",
       "predicted_score": 70,
       "score_label": "Good conditions"
+    },
+    {
+      "date": "2026-04-21",
+      "high_f": 48,
+      "low_f": 31,
+      "rain_pct": 58,
+      "uv": 6,
+      "sunrise": "2026-04-21T06:13",
+      "sunset": "2026-04-21T19:42",
+      "predicted_score": 70,
+      "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-04-16T20:48:08.591719+00:00"
+  "updated_at": "2026-04-17T08:50:17.296053+00:00"
 }
