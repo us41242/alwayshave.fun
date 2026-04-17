@@ -17,9 +17,11 @@
   "notes": "Flash flood zone \u2014 avoid any chance of rain",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 100,
-  "score_label": "Great day to go",
-  "gear_flags": [],
+  "score": 50,
+  "score_label": "Use caution",
+  "gear_flags": [
+    "mask for sensitive groups"
+  ],
   "current": {
     "temp_f": 51,
     "feels_like_f": 45,
@@ -28,8 +30,8 @@
     "rain_pct": 0
   },
   "aqi": {
-    "aqi": 50,
-    "category": "Good",
+    "aqi": 51,
+    "category": "Moderate",
     "pollutant": "O3",
     "source": "airnow"
   },
@@ -39,62 +41,6 @@
     "fire_count_50km": 0
   },
   "river": null,
-  "forecast": [
-    {
-      "date": "2026-04-17",
-      "high_f": 53,
-      "low_f": 34,
-      "rain_pct": 3,
-      "uv": 8,
-      "sunrise": "2026-04-17T06:50",
-      "sunset": "2026-04-17T20:04",
-      "predicted_score": 100,
-      "score_label": "Great day to go"
-    },
-    {
-      "date": "2026-04-18",
-      "high_f": 60,
-      "low_f": 30,
-      "rain_pct": 0,
-      "uv": 8,
-      "sunrise": "2026-04-18T06:48",
-      "sunset": "2026-04-18T20:05",
-      "predicted_score": 100,
-      "score_label": "Great day to go"
-    },
-    {
-      "date": "2026-04-19",
-      "high_f": 69,
-      "low_f": 42,
-      "rain_pct": 1,
-      "uv": 7,
-      "sunrise": "2026-04-19T06:47",
-      "sunset": "2026-04-19T20:06",
-      "predicted_score": 100,
-      "score_label": "Great day to go"
-    },
-    {
-      "date": "2026-04-20",
-      "high_f": 75,
-      "low_f": 53,
-      "rain_pct": 1,
-      "uv": 8,
-      "sunrise": "2026-04-20T06:46",
-      "sunset": "2026-04-20T20:07",
-      "predicted_score": 100,
-      "score_label": "Great day to go"
-    },
-    {
-      "date": "2026-04-21",
-      "high_f": 78,
-      "low_f": 55,
-      "rain_pct": 2,
-      "uv": 8,
-      "sunrise": "2026-04-21T06:45",
-      "sunset": "2026-04-21T20:07",
-      "predicted_score": 88,
-      "score_label": "Great day to go"
-    }
-  ],
-  "updated_at": "2026-04-17T21:04:36.846297+00:00"
+  "forecast": [],
+  "updated_at": "2026-04-17T21:25:32.581132+00:00"
 }
