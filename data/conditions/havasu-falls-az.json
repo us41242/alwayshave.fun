@@ -17,16 +17,17 @@
   "notes": "Permit required \u2014 sells out months in advance",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 90,
-  "score_label": "Great day to go",
+  "score": 78,
+  "score_label": "Good conditions",
   "gear_flags": [
+    "wind layer recommended",
     "mask for sensitive groups"
   ],
   "current": {
-    "temp_f": 59,
-    "feels_like_f": 53,
-    "wind_mph": 2,
-    "gusts_mph": 11,
+    "temp_f": 54,
+    "feels_like_f": 43,
+    "wind_mph": 15,
+    "gusts_mph": 24,
     "rain_pct": 1
   },
   "aqi": {
@@ -98,5 +99,5 @@
       "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-04-17T08:44:18.217508+00:00"
+  "updated_at": "2026-04-17T09:03:54.347351+00:00"
 }
