@@ -41,13 +41,13 @@
     "fire_count_50km": 0
   },
   "river": {
-    "cfs": 8570,
+    "cfs": 8550,
     "stage": "flood"
   },
   "forecast": [
     {
       "date": "2026-04-17",
-      "high_f": 50,
+      "high_f": 51,
       "low_f": 33,
       "rain_pct": 1,
       "uv": 8,
@@ -80,7 +80,7 @@
     },
     {
       "date": "2026-04-20",
-      "high_f": 71,
+      "high_f": 70,
       "low_f": 48,
       "rain_pct": 12,
       "uv": 8,
@@ -91,7 +91,7 @@
     },
     {
       "date": "2026-04-21",
-      "high_f": 70,
+      "high_f": 69,
       "low_f": 48,
       "rain_pct": 1,
       "uv": 8,
@@ -101,5 +101,5 @@
       "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-04-17T23:23:30.093451+00:00"
+  "updated_at": "2026-04-17T23:43:34.379907+00:00"
 }
