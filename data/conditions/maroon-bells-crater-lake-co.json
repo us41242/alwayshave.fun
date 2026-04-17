@@ -17,24 +17,24 @@
   "notes": "Shuttle required from Aspen 5am\u20135pm; no private vehicles",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 60,
-  "score_label": "Use caution",
+  "score": 30,
+  "score_label": "Conditions poor",
   "gear_flags": [
     "wind layer recommended",
     "insulation layer required"
   ],
   "current": {
     "temp_f": 6,
-    "feels_like_f": -6,
-    "wind_mph": 16,
-    "gusts_mph": 23,
-    "rain_pct": 12
+    "feels_like_f": -5,
+    "wind_mph": 14,
+    "gusts_mph": 21,
+    "rain_pct": 3
   },
   "aqi": {
-    "aqi": 6,
-    "category": "Good",
-    "pollutant": "PM2.5",
-    "source": "airnow"
+    "aqi": null,
+    "category": "Unknown",
+    "pollutant": "",
+    "source": "none"
   },
   "fire": {
     "risk_level": "low",
@@ -51,8 +51,8 @@
       "uv": 7,
       "sunrise": "2026-04-17T06:27",
       "sunset": "2026-04-17T19:46",
-      "predicted_score": 60,
-      "score_label": "Use caution"
+      "predicted_score": 30,
+      "score_label": "Conditions poor"
     },
     {
       "date": "2026-04-18",
@@ -62,8 +62,8 @@
       "uv": 9,
       "sunrise": "2026-04-18T06:26",
       "sunset": "2026-04-18T19:47",
-      "predicted_score": 60,
-      "score_label": "Use caution"
+      "predicted_score": 30,
+      "score_label": "Conditions poor"
     },
     {
       "date": "2026-04-19",
@@ -73,8 +73,8 @@
       "uv": 9,
       "sunrise": "2026-04-19T06:24",
       "sunset": "2026-04-19T19:48",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
+      "predicted_score": 40,
+      "score_label": "Conditions poor"
     },
     {
       "date": "2026-04-20",
@@ -84,8 +84,8 @@
       "uv": 8,
       "sunrise": "2026-04-20T06:23",
       "sunset": "2026-04-20T19:49",
-      "predicted_score": 88,
-      "score_label": "Great day to go"
+      "predicted_score": 58,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-04-21",
@@ -95,9 +95,9 @@
       "uv": 8,
       "sunrise": "2026-04-21T06:22",
       "sunset": "2026-04-21T19:50",
-      "predicted_score": 88,
-      "score_label": "Great day to go"
+      "predicted_score": 58,
+      "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-04-17T22:27:50.104010+00:00"
+  "updated_at": "2026-04-17T22:52:15.947105+00:00"
 }
