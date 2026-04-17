@@ -25,13 +25,13 @@
   ],
   "current": {
     "temp_f": 19,
-    "feels_like_f": 1,
+    "feels_like_f": 0,
     "wind_mph": 30,
     "gusts_mph": 40,
-    "rain_pct": 6
+    "rain_pct": 7
   },
   "aqi": {
-    "aqi": 40,
+    "aqi": 43,
     "category": "Good",
     "pollutant": "O3",
     "source": "airnow"
@@ -80,7 +80,7 @@
       "date": "2026-04-20",
       "high_f": 62,
       "low_f": 41,
-      "rain_pct": 6,
+      "rain_pct": 5,
       "uv": 8,
       "sunrise": "2026-04-20T06:46",
       "sunset": "2026-04-20T20:08",
@@ -99,5 +99,5 @@
       "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-04-17T09:03:57.882614+00:00"
+  "updated_at": "2026-04-17T09:23:56.058282+00:00"
 }
