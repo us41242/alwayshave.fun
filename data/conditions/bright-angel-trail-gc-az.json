@@ -17,16 +17,17 @@
   "notes": "Summer heat extreme \u2014 start before sunrise",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 50,
+  "score": 60,
   "score_label": "Use caution",
   "gear_flags": [
+    "wind layer recommended",
     "mask for sensitive groups"
   ],
   "current": {
-    "temp_f": 43,
-    "feels_like_f": 27,
-    "wind_mph": 27,
-    "gusts_mph": 38,
+    "temp_f": 46,
+    "feels_like_f": 31,
+    "wind_mph": 25,
+    "gusts_mph": 34,
     "rain_pct": 0
   },
   "aqi": {
@@ -44,6 +45,62 @@
     "cfs": 8310,
     "stage": "flood"
   },
-  "forecast": [],
-  "updated_at": "2026-04-18T17:43:34.321301+00:00"
+  "forecast": [
+    {
+      "date": "2026-04-18",
+      "high_f": 57,
+      "low_f": 33,
+      "rain_pct": 0,
+      "uv": 8,
+      "sunrise": "2026-04-18T05:50",
+      "sunset": "2026-04-18T19:04",
+      "predicted_score": 90,
+      "score_label": "Great day to go"
+    },
+    {
+      "date": "2026-04-19",
+      "high_f": 69,
+      "low_f": 45,
+      "rain_pct": 13,
+      "uv": 7,
+      "sunrise": "2026-04-19T05:49",
+      "sunset": "2026-04-19T19:05",
+      "predicted_score": 78,
+      "score_label": "Good conditions"
+    },
+    {
+      "date": "2026-04-20",
+      "high_f": 71,
+      "low_f": 48,
+      "rain_pct": 19,
+      "uv": 7,
+      "sunrise": "2026-04-20T05:48",
+      "sunset": "2026-04-20T19:06",
+      "predicted_score": 78,
+      "score_label": "Good conditions"
+    },
+    {
+      "date": "2026-04-21",
+      "high_f": 69,
+      "low_f": 47,
+      "rain_pct": 0,
+      "uv": 8,
+      "sunrise": "2026-04-21T05:47",
+      "sunset": "2026-04-21T19:07",
+      "predicted_score": 90,
+      "score_label": "Great day to go"
+    },
+    {
+      "date": "2026-04-22",
+      "high_f": 61,
+      "low_f": 40,
+      "rain_pct": 2,
+      "uv": 8,
+      "sunrise": "2026-04-22T05:45",
+      "sunset": "2026-04-22T19:08",
+      "predicted_score": 90,
+      "score_label": "Great day to go"
+    }
+  ],
+  "updated_at": "2026-04-18T18:03:23.189829+00:00"
 }
