@@ -17,8 +17,8 @@
   "notes": "Full loop 34mi \u2014 sections open to bikes/horses",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 90,
-  "score_label": "Great day to go",
+  "score": 50,
+  "score_label": "Use caution",
   "gear_flags": [
     "mask for sensitive groups"
   ],
@@ -30,7 +30,7 @@
     "rain_pct": 0
   },
   "aqi": {
-    "aqi": 61,
+    "aqi": 58,
     "category": "Moderate",
     "pollutant": "O3",
     "source": "airnow"
@@ -41,62 +41,6 @@
     "fire_count_50km": 0
   },
   "river": null,
-  "forecast": [
-    {
-      "date": "2026-04-17",
-      "high_f": 65,
-      "low_f": 47,
-      "rain_pct": 0,
-      "uv": 7,
-      "sunrise": "2026-04-17T06:03",
-      "sunset": "2026-04-17T19:14",
-      "predicted_score": 90,
-      "score_label": "Great day to go"
-    },
-    {
-      "date": "2026-04-18",
-      "high_f": 77,
-      "low_f": 48,
-      "rain_pct": 0,
-      "uv": 7,
-      "sunrise": "2026-04-18T06:02",
-      "sunset": "2026-04-18T19:15",
-      "predicted_score": 78,
-      "score_label": "Good conditions"
-    },
-    {
-      "date": "2026-04-19",
-      "high_f": 85,
-      "low_f": 56,
-      "rain_pct": 0,
-      "uv": 7,
-      "sunrise": "2026-04-19T06:00",
-      "sunset": "2026-04-19T19:16",
-      "predicted_score": 78,
-      "score_label": "Good conditions"
-    },
-    {
-      "date": "2026-04-20",
-      "high_f": 86,
-      "low_f": 59,
-      "rain_pct": 0,
-      "uv": 8,
-      "sunrise": "2026-04-20T05:59",
-      "sunset": "2026-04-20T19:17",
-      "predicted_score": 60,
-      "score_label": "Use caution"
-    },
-    {
-      "date": "2026-04-21",
-      "high_f": 84,
-      "low_f": 59,
-      "rain_pct": 3,
-      "uv": 8,
-      "sunrise": "2026-04-21T05:58",
-      "sunset": "2026-04-21T19:18",
-      "predicted_score": 78,
-      "score_label": "Good conditions"
-    }
-  ],
-  "updated_at": "2026-04-18T05:05:44.752716+00:00"
+  "forecast": [],
+  "updated_at": "2026-04-18T05:25:48.748953+00:00"
 }
