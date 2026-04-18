@@ -224,9 +224,10 @@
         to bottom,
         rgba(12,17,23,0.15)  0%,
         rgba(12,17,23,0)     30%,
-        rgba(12,17,23,0.25)  55%,
-        rgba(12,17,23,0.6)   75%,
-        rgba(12,17,23,0.85)  100%
+        rgba(12,17,23,0.2)   55%,
+        rgba(12,17,23,0.55)  72%,
+        rgba(12,17,23,0.85)  88%,
+        rgba(12,17,23,1)     100%
       );
       pointer-events: none;
     }
@@ -334,14 +335,7 @@
     /* ── MAIN ────────────────────────────────────── */
     .content-wrap {
       position: relative;
-    }
-    .content-wrap::before {
-      content: '';
-      position: absolute;
-      top: 0; left: 0; right: 0; bottom: 0;
-      background: rgba(12,17,23,0.7);
-      pointer-events: none;
-      z-index: 0;
+      background: var(--bg);
     }
     .content-wrap > * {
       position: relative;
