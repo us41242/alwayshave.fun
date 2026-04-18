@@ -19,7 +19,10 @@
   "vehicle_req": "Any",
   "score": 70,
   "score_label": "Good conditions",
-  "gear_flags": [],
+  "gear_flags": [
+    "mask for sensitive groups",
+    "N95 mask recommended for wildfire smoke"
+  ],
   "current": {
     "temp_f": 59,
     "feels_like_f": 57,
@@ -28,15 +31,15 @@
     "rain_pct": 0
   },
   "aqi": {
-    "aqi": null,
-    "category": "Unknown",
-    "pollutant": "",
-    "source": "none"
+    "aqi": 54,
+    "category": "Moderate",
+    "pollutant": "PM2.5",
+    "source": "open-meteo"
   },
   "fire": {
-    "risk_level": "low",
-    "nearest_fire_km": null,
-    "fire_count_50km": 0
+    "risk_level": "high",
+    "nearest_fire_km": 5.0,
+    "fire_count_50km": 6
   },
   "river": null,
   "forecast": [
@@ -77,7 +80,7 @@
       "date": "2026-04-21",
       "high_f": 72,
       "low_f": 61,
-      "rain_pct": 10,
+      "rain_pct": 12,
       "uv": 8,
       "sunrise": "2026-04-21T06:13",
       "sunset": "2026-04-21T19:26",
@@ -88,7 +91,7 @@
       "date": "2026-04-22",
       "high_f": 68,
       "low_f": 60,
-      "rain_pct": 4,
+      "rain_pct": 6,
       "uv": 8,
       "sunrise": "2026-04-22T06:12",
       "sunset": "2026-04-22T19:27",
@@ -96,5 +99,5 @@
       "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-04-18T09:09:54.456307+00:00"
+  "updated_at": "2026-04-18T09:28:04.203179+00:00"
 }
