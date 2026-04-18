@@ -17,7 +17,7 @@
   "notes": "60 miles of dirt road \u2014 high clearance required",
   "dog_friendly": "No",
   "vehicle_req": "High-Clearance",
-  "score": 70,
+  "score": 80,
   "score_label": "Good conditions",
   "gear_flags": [
     "N95 mask recommended"
@@ -26,14 +26,14 @@
     "temp_f": 52,
     "feels_like_f": 42,
     "wind_mph": 5,
-    "gusts_mph": 9,
+    "gusts_mph": 6,
     "rain_pct": 0
   },
   "aqi": {
-    "aqi": 153,
-    "category": "Unhealthy",
-    "pollutant": "PM2.5",
-    "source": "open-meteo"
+    "aqi": 105,
+    "category": "Unhealthy for Sensitive Groups",
+    "pollutant": "O3",
+    "source": "airnow"
   },
   "fire": {
     "risk_level": "low",
@@ -50,7 +50,7 @@
       "uv": 8,
       "sunrise": "2026-04-17T05:54",
       "sunset": "2026-04-17T19:06",
-      "predicted_score": 70,
+      "predicted_score": 80,
       "score_label": "Good conditions"
     },
     {
@@ -61,7 +61,7 @@
       "uv": 8,
       "sunrise": "2026-04-18T05:52",
       "sunset": "2026-04-18T19:07",
-      "predicted_score": 70,
+      "predicted_score": 80,
       "score_label": "Good conditions"
     },
     {
@@ -72,7 +72,7 @@
       "uv": 7,
       "sunrise": "2026-04-19T05:51",
       "sunset": "2026-04-19T19:07",
-      "predicted_score": 58,
+      "predicted_score": 68,
       "score_label": "Use caution"
     },
     {
@@ -83,7 +83,7 @@
       "uv": 8,
       "sunrise": "2026-04-20T05:50",
       "sunset": "2026-04-20T19:08",
-      "predicted_score": 58,
+      "predicted_score": 68,
       "score_label": "Use caution"
     },
     {
@@ -94,9 +94,9 @@
       "uv": 8,
       "sunrise": "2026-04-21T05:49",
       "sunset": "2026-04-21T19:09",
-      "predicted_score": 58,
+      "predicted_score": 68,
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-04-18T03:33:55.660401+00:00"
+  "updated_at": "2026-04-18T03:45:40.299217+00:00"
 }
