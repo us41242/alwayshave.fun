@@ -28,7 +28,7 @@
     "rain_pct": 0
   },
   "aqi": {
-    "aqi": 47,
+    "aqi": 50,
     "category": "Good",
     "pollutant": "O3",
     "source": "airnow"
@@ -39,7 +39,7 @@
     "fire_count_50km": 0
   },
   "river": {
-    "cfs": 8240,
+    "cfs": 8280,
     "stage": "flood"
   },
   "forecast": [
@@ -58,7 +58,7 @@
       "date": "2026-04-19",
       "high_f": 69,
       "low_f": 42,
-      "rain_pct": 3,
+      "rain_pct": 0,
       "uv": 8,
       "sunrise": "2026-04-19T06:51",
       "sunset": "2026-04-19T20:10",
@@ -69,18 +69,18 @@
       "date": "2026-04-20",
       "high_f": 68,
       "low_f": 52,
-      "rain_pct": 13,
+      "rain_pct": 0,
       "uv": 8,
       "sunrise": "2026-04-20T06:49",
       "sunset": "2026-04-20T20:11",
-      "predicted_score": 88,
+      "predicted_score": 100,
       "score_label": "Great day to go"
     },
     {
       "date": "2026-04-21",
       "high_f": 67,
       "low_f": 50,
-      "rain_pct": 7,
+      "rain_pct": 0,
       "uv": 8,
       "sunrise": "2026-04-21T06:48",
       "sunset": "2026-04-21T20:12",
@@ -91,7 +91,7 @@
       "date": "2026-04-22",
       "high_f": 50,
       "low_f": 37,
-      "rain_pct": 19,
+      "rain_pct": 23,
       "uv": 8,
       "sunrise": "2026-04-22T06:47",
       "sunset": "2026-04-22T20:13",
@@ -99,5 +99,5 @@
       "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-04-18T21:05:52.322496+00:00"
+  "updated_at": "2026-04-18T21:23:23.862928+00:00"
 }

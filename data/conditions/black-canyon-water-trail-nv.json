@@ -17,17 +17,17 @@
   "notes": "Kayak/canoe only \u2014 check river release schedule",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 36,
-  "score_label": "Conditions poor",
+  "score": 64,
+  "score_label": "Use caution",
   "gear_flags": [
     "mask for sensitive groups",
     "N95 mask recommended for wildfire smoke"
   ],
   "current": {
-    "temp_f": 80,
-    "feels_like_f": 73,
-    "wind_mph": 11,
-    "gusts_mph": 11,
+    "temp_f": 82,
+    "feels_like_f": 74,
+    "wind_mph": 9,
+    "gusts_mph": 10,
     "rain_pct": 0
   },
   "aqi": {
@@ -42,6 +42,62 @@
     "fire_count_50km": 2
   },
   "river": null,
-  "forecast": [],
-  "updated_at": "2026-04-18T21:07:00.049509+00:00"
+  "forecast": [
+    {
+      "date": "2026-04-18",
+      "high_f": 83,
+      "low_f": 53,
+      "rain_pct": 0,
+      "uv": 8,
+      "sunrise": "2026-04-18T06:01",
+      "sunset": "2026-04-18T19:14",
+      "predicted_score": 64,
+      "score_label": "Use caution"
+    },
+    {
+      "date": "2026-04-19",
+      "high_f": 94,
+      "low_f": 57,
+      "rain_pct": 0,
+      "uv": 7,
+      "sunrise": "2026-04-19T06:00",
+      "sunset": "2026-04-19T19:15",
+      "predicted_score": 46,
+      "score_label": "Conditions poor"
+    },
+    {
+      "date": "2026-04-20",
+      "high_f": 92,
+      "low_f": 66,
+      "rain_pct": 0,
+      "uv": 8,
+      "sunrise": "2026-04-20T05:58",
+      "sunset": "2026-04-20T19:16",
+      "predicted_score": 46,
+      "score_label": "Conditions poor"
+    },
+    {
+      "date": "2026-04-21",
+      "high_f": 89,
+      "low_f": 66,
+      "rain_pct": 2,
+      "uv": 8,
+      "sunrise": "2026-04-21T05:57",
+      "sunset": "2026-04-21T19:17",
+      "predicted_score": 46,
+      "score_label": "Conditions poor"
+    },
+    {
+      "date": "2026-04-22",
+      "high_f": 76,
+      "low_f": 55,
+      "rain_pct": 1,
+      "uv": 8,
+      "sunrise": "2026-04-22T05:56",
+      "sunset": "2026-04-22T19:18",
+      "predicted_score": 64,
+      "score_label": "Use caution"
+    }
+  ],
+  "updated_at": "2026-04-18T21:25:29.028279+00:00"
 }
