@@ -151,9 +151,8 @@
       }
       .site-hero-content { padding-top: 56px; height: 70vh; height: 70dvh; }
       .site-hero-inner { padding: 0 16px 24px; overflow: hidden; }
-      .site-hero-content h1 { font-size: 1.2rem; line-height: 1.2; }
-      .morph-wrap { margin-top: 2px; }
-      .morph-text { font-size: 1.1rem; }
+      .site-hero-content h1 { font-size: 1.4rem; line-height: 1.2; }
+      .morph-wrap { margin-top: 4px; font-size: 0.6em; }
       .site-hero-sub { font-size: 0.78rem; margin-bottom: 12px; max-width: 100%; }
       .hero-stats { gap: 6px; flex-wrap: wrap; }
       .hero-stat-pill { padding: 5px 10px; font-size: 0.7rem; }
@@ -239,9 +238,12 @@
     .morph-wrap {
       position: relative;
       display: block;
-      filter: url(#morph-threshold);
       width: 100%;
-      background: transparent;
+      font-size: 0.55em;
+      font-weight: 700;
+      letter-spacing: -0.02em;
+      color: rgba(255,255,255,0.85);
+      margin-top: 6px;
     }
     .morph-text {
       position: absolute;
@@ -530,24 +532,11 @@
     <div class="site-hero-overlay"></div>
     <div class="site-hero-inner">
       <div class="hero-badge">⛰ Live Conditions</div>
-      <!-- SVG filter for morph threshold effect -->
-      <svg style="position:absolute;width:0;height:0">
-        <defs>
-          <filter id="morph-threshold">
-            <feColorMatrix in="SourceGraphic" type="matrix"
-              values="1 0 0 0 0
-                      0 1 0 0 0
-                      0 0 1 0 0
-                      0 0 0 60 -30" />
-          </filter>
-        </defs>
-      </svg>
       <h1>
         always have <span>fun</span>
-        <br>
         <span class="morph-wrap" id="morph-wrap">
-          <span class="morph-text morph-text-1 morph-trail" id="morph-1">exploring Red Rock</span>
-          <span class="morph-text morph-text-2 morph-trail" id="morph-2">trekking Bright Angel</span>
+          <span class="morph-text morph-text-1" id="morph-1">exploring Red Rock</span>
+          <span class="morph-text morph-text-2" id="morph-2">trekking Bright Angel</span>
         </span>
       </h1>
       <p class="site-hero-sub">Real-time weather, air quality, and trail scores for hikers, campers, and overlanders. Updated every 20 minutes.</p>
@@ -689,13 +678,7 @@
       'camping Bryce Canyon',
       'hiking Half Dome',
       'chasing Havasu Falls',
-      'summiting Wheeler Peak',
       'crossing The Narrows',
-      'discovering Paria Canyon',
-      'conquering Angels Landing',
-      'roaming Valley of Fire',
-      'scrambling South Kaibab',
-      'photographing Maroon Bells',
       'wherever adventure takes you',
     ];
 
@@ -705,17 +688,8 @@
     let morphIdx = 0;
     let paused = false;
 
-    // Size the container height to the tallest phrase (accounts for wrapping on mobile)
-    const measure = document.createElement('span');
-    measure.style.cssText = 'visibility:hidden;position:absolute;left:0;right:0;font:inherit;display:block;width:' + morphWrap.offsetWidth + 'px';
-    morphWrap.parentElement.appendChild(measure);
-    let maxH = 0;
-    morphPhrases.forEach(p => { measure.textContent = p; maxH = Math.max(maxH, measure.offsetHeight); });
-    morphWrap.style.height = maxH + 'px';
-    measure.remove();
-
-    // Re-measure on resize (orientation change etc)
-    window.addEventListener('resize', () => {
+    // Size the container height to the tallest phrase
+    function measureHeight() {
       const m = document.createElement('span');
       m.style.cssText = 'visibility:hidden;position:absolute;left:0;right:0;font:inherit;display:block;width:' + morphWrap.offsetWidth + 'px';
       morphWrap.parentElement.appendChild(m);
@@ -723,55 +697,84 @@
       morphPhrases.forEach(p => { m.textContent = p; h = Math.max(h, m.offsetHeight); });
       morphWrap.style.height = h + 'px';
       m.remove();
-    });
+    }
+    measureHeight();
+    window.addEventListener('resize', measureHeight);
 
     // Init
     morph1.textContent = morphPhrases[0];
     morph2.textContent = morphPhrases[1];
-    morph1.style.opacity = 1; morph1.style.filter = 'blur(0px)';
-    morph2.style.opacity = 0; morph2.style.filter = 'blur(12px)';
+    morph1.style.opacity = 1;
+    morph2.style.opacity = 0;
 
-    const HOLD    = 2000;
-    const MORPH   = 1200;
+    const HOLD    = 3000;   // show each phrase
+    const MORPH   = 1800;   // crossfade duration
     const TOTAL   = HOLD + MORPH;
-    const PAUSE   = 30000; // 30s pause on final phrase
+    const PAUSE_ALONE = 6000; // pause showing just "always have fun"
     let morphStart = performance.now();
+
+    function ease(t) {
+      return t < 0.5 ? 2 * t * t : 1 - Math.pow(-2 * t + 2, 2) / 2;
+    }
 
     function morphTick(now) {
       if (paused) return;
       const elapsed = now - morphStart;
 
       if (elapsed < HOLD) {
-        morph1.style.opacity = 1; morph1.style.filter = 'blur(0px)';
-        morph2.style.opacity = 0; morph2.style.filter = 'blur(12px)';
+        morph1.style.opacity = 1;
+        morph2.style.opacity = 0;
       } else if (elapsed < TOTAL) {
-        const t = (elapsed - HOLD) / MORPH;
-        const ease = t < 0.5 ? 2 * t * t : 1 - Math.pow(-2 * t + 2, 2) / 2;
-        morph1.style.opacity = 1 - ease;
-        morph1.style.filter = `blur(${ease * 12}px)`;
-        morph2.style.opacity = ease;
-        morph2.style.filter = `blur(${(1 - ease) * 12}px)`;
+        const t = ease((elapsed - HOLD) / MORPH);
+        morph1.style.opacity = 1 - t;
+        morph2.style.opacity = t;
       } else {
         // Advance
         morphIdx = (morphIdx + 1) % morphPhrases.length;
         const nextIdx = (morphIdx + 1) % morphPhrases.length;
-        morph1.textContent = morphPhrases[morphIdx];
-        morph2.textContent = morphPhrases[nextIdx];
-        morph1.style.opacity = 1; morph1.style.filter = 'blur(0px)';
-        morph2.style.opacity = 0; morph2.style.filter = 'blur(12px)';
-        morphStart = now;
 
-        // If we just landed on the final phrase, pause 30s then restart
+        // If we just landed on last phrase, show it then fade out → pause → restart
         if (morphIdx === morphPhrases.length - 1) {
+          morph1.textContent = morphPhrases[morphIdx];
+          morph1.style.opacity = 1;
+          morph2.style.opacity = 0;
           paused = true;
+          // Hold last phrase, then fade it out, then pause with just "always have fun"
           setTimeout(() => {
-            morphIdx = -1; // will advance to 0 on next cycle
-            paused = false;
-            morphStart = performance.now();
-            requestAnimationFrame(morphTick);
-          }, PAUSE);
+            // Fade out the last phrase
+            morph1.style.transition = 'opacity 1.2s ease';
+            morph1.style.opacity = 0;
+            setTimeout(() => {
+              morph1.style.transition = 'none';
+              // Pause with nothing — just "always have fun" visible
+              setTimeout(() => {
+                morphIdx = -1;
+                morph1.textContent = morphPhrases[0];
+                morph2.textContent = morphPhrases[1];
+                morph1.style.opacity = 0;
+                // Fade first phrase back in
+                requestAnimationFrame(() => {
+                  morph1.style.transition = 'opacity 1.2s ease';
+                  morph1.style.opacity = 1;
+                  setTimeout(() => {
+                    morph1.style.transition = 'none';
+                    morphIdx = 0;
+                    paused = false;
+                    morphStart = performance.now();
+                    requestAnimationFrame(morphTick);
+                  }, 1200);
+                });
+              }, PAUSE_ALONE);
+            }, 1200);
+          }, HOLD);
           return;
         }
+
+        morph1.textContent = morphPhrases[morphIdx];
+        morph2.textContent = morphPhrases[nextIdx];
+        morph1.style.opacity = 1;
+        morph2.style.opacity = 0;
+        morphStart = now;
       }
 
       requestAnimationFrame(morphTick);
