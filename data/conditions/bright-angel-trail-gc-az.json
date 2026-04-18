@@ -20,21 +20,22 @@
   "score": 68,
   "score_label": "Use caution",
   "gear_flags": [
+    "wind layer recommended",
     "insulation layer required",
     "N95 mask recommended"
   ],
   "current": {
-    "temp_f": 41,
-    "feels_like_f": 28,
-    "wind_mph": 13,
-    "gusts_mph": 20,
+    "temp_f": 40,
+    "feels_like_f": 26,
+    "wind_mph": 16,
+    "gusts_mph": 25,
     "rain_pct": 0
   },
   "aqi": {
-    "aqi": 101,
+    "aqi": 112,
     "category": "Unhealthy for Sensitive Groups",
-    "pollutant": "O3",
-    "source": "airnow"
+    "pollutant": "PM2.5",
+    "source": "open-meteo"
   },
   "fire": {
     "risk_level": "low",
@@ -102,5 +103,5 @@
       "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-04-18T02:43:26.413878+00:00"
+  "updated_at": "2026-04-18T03:06:30.384036+00:00"
 }
