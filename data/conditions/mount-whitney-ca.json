@@ -26,7 +26,7 @@
     "temp_f": 23,
     "feels_like_f": 13,
     "wind_mph": 16,
-    "gusts_mph": 19,
+    "gusts_mph": 20,
     "rain_pct": 0
   },
   "aqi": {
@@ -41,8 +41,8 @@
     "fire_count_50km": 0
   },
   "river": {
-    "cfs": 100,
-    "stage": "low"
+    "cfs": 102,
+    "stage": "normal"
   },
   "forecast": [
     {
@@ -101,5 +101,5 @@
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-04-18T21:49:38.537457+00:00"
+  "updated_at": "2026-04-18T22:07:53.931695+00:00"
 }
