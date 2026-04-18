@@ -12,10 +12,10 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title id="page-title">Mt Charleston Trail (Mary Jane Falls) Trail Conditions — Good conditions | alwayshave.fun</title>
-  <meta name="description" id="page-desc" content="Mt Charleston Trail (Mary Jane Falls) conditions: Good conditions (70/100). 36°F wind 12 mph AQI 26 Dogs welcome. Live data updated every 30 min.">
+  <meta name="description" id="page-desc" content="Mt Charleston Trail (Mary Jane Falls) conditions: Good conditions (70/100). 36°F wind 13 mph AQI 26 Dogs welcome. Live data updated every 30 min.">
   <link rel="canonical" id="canonical" href="https://alwayshave.fun/nv/mary-jane-falls-nv">
   <meta property="og:title" id="og-title" content="Mt Charleston Trail (Mary Jane Falls) Trail Conditions — Good conditions | alwayshave.fun">
-  <meta property="og:description" id="og-desc" content="Mt Charleston Trail (Mary Jane Falls) conditions: Good conditions (70/100). 36°F wind 12 mph AQI 26 Dogs welcome. Live data updated every 30 min.">
+  <meta property="og:description" id="og-desc" content="Mt Charleston Trail (Mary Jane Falls) conditions: Good conditions (70/100). 36°F wind 13 mph AQI 26 Dogs welcome. Live data updated every 30 min.">
   <meta property="og:image" id="og-image" content="https://alwayshave.fun/photos/mary-jane-falls-nv/mary-jane-falls-nv.jpg">
   <meta property="og:type" content="website">
   <meta property="og:url" id="og-url" content="https://alwayshave.fun/nv/mary-jane-falls-nv">
@@ -601,7 +601,7 @@
           "name": "What are the current conditions at Mt Charleston Trail (Mary Jane Falls)?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "As of the latest update, Mt Charleston Trail (Mary Jane Falls) is scoring 70/100 (Good conditions). Temperature: 36\u00b0F, wind: 12 mph, rain chance: 0%. Data is refreshed every 30 minutes."
+            "text": "As of the latest update, Mt Charleston Trail (Mary Jane Falls) is scoring 70/100 (Good conditions). Temperature: 36\u00b0F, wind: 13 mph, rain chance: 0%. Data is refreshed every 30 minutes."
           }
         },
         {
@@ -907,18 +907,29 @@
       if (w <= 800) suffix = '-640';
       else if (w <= 1400) suffix = '-1280';
       else if (w <= 2200) suffix = '-1920';
-      const url = `/photos/${slug}/${slug}${suffix}.jpg`;
+      // Prefer WebP; fall back to JPG
+      const webpUrl = `/photos/${slug}/${slug}${suffix}.webp`;
+      const jpgUrl  = `/photos/${slug}/${slug}${suffix}.jpg`;
       const img = new Image();
       img.onload = () => {
-        bgFixed.style.backgroundImage    = `url('${url}')`;
+        bgFixed.style.backgroundImage    = `url('${img.src}')`;
         bgFixed.style.backgroundPosition = position;
       };
       img.onerror = () => {
-        const fallback = `/photos/${slug}/${slug}.jpg`;
-        bgFixed.style.backgroundImage    = `url('${fallback}')`;
-        bgFixed.style.backgroundPosition = position;
+        // WebP missing — try JPG
+        const fallback = new Image();
+        fallback.onload = () => {
+          bgFixed.style.backgroundImage    = `url('${jpgUrl}')`;
+          bgFixed.style.backgroundPosition = position;
+        };
+        fallback.onerror = () => {
+          // Sized JPG also missing — try original
+          bgFixed.style.backgroundImage    = `url('/photos/${slug}/${slug}.jpg')`;
+          bgFixed.style.backgroundPosition = position;
+        };
+        fallback.src = jpgUrl;
       };
-      img.src = url;
+      img.src = webpUrl;
     }
 
     // ─── NAV SCROLL BEHAVIOR ──────────────────────────────────────────────────

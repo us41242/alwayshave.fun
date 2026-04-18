@@ -12,10 +12,10 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title id="page-title">River Mountains Loop Trail Conditions — Great day to go | alwayshave.fun</title>
-  <meta name="description" id="page-desc" content="River Mountains Loop conditions: Great day to go (90/100). 56°F wind 8 mph AQI 61 Dogs welcome. Live data updated every 30 min.">
+  <meta name="description" id="page-desc" content="River Mountains Loop conditions: Great day to go (90/100). 56°F wind 9 mph AQI 61 Dogs welcome. Live data updated every 30 min.">
   <link rel="canonical" id="canonical" href="https://alwayshave.fun/nv/river-mountains-loop-nv">
   <meta property="og:title" id="og-title" content="River Mountains Loop Trail Conditions — Great day to go | alwayshave.fun">
-  <meta property="og:description" id="og-desc" content="River Mountains Loop conditions: Great day to go (90/100). 56°F wind 8 mph AQI 61 Dogs welcome. Live data updated every 30 min.">
+  <meta property="og:description" id="og-desc" content="River Mountains Loop conditions: Great day to go (90/100). 56°F wind 9 mph AQI 61 Dogs welcome. Live data updated every 30 min.">
   <meta property="og:image" id="og-image" content="https://alwayshave.fun/photos/river-mountains-loop-nv/river-mountains-loop-nv.jpg">
   <meta property="og:type" content="website">
   <meta property="og:url" id="og-url" content="https://alwayshave.fun/nv/river-mountains-loop-nv">
@@ -601,7 +601,7 @@
           "name": "What are the current conditions at River Mountains Loop?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "As of the latest update, River Mountains Loop is scoring 90/100 (Great day to go). Temperature: 56\u00b0F, wind: 8 mph, rain chance: 0%. Data is refreshed every 30 minutes."
+            "text": "As of the latest update, River Mountains Loop is scoring 90/100 (Great day to go). Temperature: 56\u00b0F, wind: 9 mph, rain chance: 0%. Data is refreshed every 30 minutes."
           }
         },
         {
@@ -907,18 +907,29 @@
       if (w <= 800) suffix = '-640';
       else if (w <= 1400) suffix = '-1280';
       else if (w <= 2200) suffix = '-1920';
-      const url = `/photos/${slug}/${slug}${suffix}.jpg`;
+      // Prefer WebP; fall back to JPG
+      const webpUrl = `/photos/${slug}/${slug}${suffix}.webp`;
+      const jpgUrl  = `/photos/${slug}/${slug}${suffix}.jpg`;
       const img = new Image();
       img.onload = () => {
-        bgFixed.style.backgroundImage    = `url('${url}')`;
+        bgFixed.style.backgroundImage    = `url('${img.src}')`;
         bgFixed.style.backgroundPosition = position;
       };
       img.onerror = () => {
-        const fallback = `/photos/${slug}/${slug}.jpg`;
-        bgFixed.style.backgroundImage    = `url('${fallback}')`;
-        bgFixed.style.backgroundPosition = position;
+        // WebP missing — try JPG
+        const fallback = new Image();
+        fallback.onload = () => {
+          bgFixed.style.backgroundImage    = `url('${jpgUrl}')`;
+          bgFixed.style.backgroundPosition = position;
+        };
+        fallback.onerror = () => {
+          // Sized JPG also missing — try original
+          bgFixed.style.backgroundImage    = `url('/photos/${slug}/${slug}.jpg')`;
+          bgFixed.style.backgroundPosition = position;
+        };
+        fallback.src = jpgUrl;
       };
-      img.src = url;
+      img.src = webpUrl;
     }
 
     // ─── NAV SCROLL BEHAVIOR ──────────────────────────────────────────────────
