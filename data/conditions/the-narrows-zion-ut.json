@@ -37,7 +37,7 @@
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": 199.2,
+    "nearest_fire_km": 161.8,
     "fire_count_50km": 0
   },
   "river": {
@@ -47,7 +47,7 @@
   "forecast": [
     {
       "date": "2026-04-18",
-      "high_f": 65,
+      "high_f": 64,
       "low_f": 36,
       "rain_pct": 0,
       "uv": 8,
@@ -101,5 +101,5 @@
       "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-04-18T20:21:12.685010+00:00"
+  "updated_at": "2026-04-18T20:41:12.411529+00:00"
 }
