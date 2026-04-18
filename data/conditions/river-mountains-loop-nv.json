@@ -23,10 +23,10 @@
     "N95 mask recommended for wildfire smoke"
   ],
   "current": {
-    "temp_f": 50,
-    "feels_like_f": 39,
-    "wind_mph": 10,
-    "gusts_mph": 16,
+    "temp_f": 49,
+    "feels_like_f": 38,
+    "wind_mph": 9,
+    "gusts_mph": 12,
     "rain_pct": 0
   },
   "aqi": {
@@ -47,7 +47,7 @@
       "high_f": 76,
       "low_f": 49,
       "rain_pct": 0,
-      "uv": 7,
+      "uv": 8,
       "sunrise": "2026-04-18T06:02",
       "sunset": "2026-04-18T19:15",
       "predicted_score": 74,
@@ -67,7 +67,7 @@
     {
       "date": "2026-04-20",
       "high_f": 86,
-      "low_f": 59,
+      "low_f": 60,
       "rain_pct": 0,
       "uv": 8,
       "sunrise": "2026-04-20T05:59",
@@ -77,10 +77,10 @@
     },
     {
       "date": "2026-04-21",
-      "high_f": 83,
+      "high_f": 84,
       "low_f": 59,
       "rain_pct": 2,
-      "uv": 7,
+      "uv": 8,
       "sunrise": "2026-04-21T05:58",
       "sunset": "2026-04-21T19:18",
       "predicted_score": 74,
@@ -88,8 +88,8 @@
     },
     {
       "date": "2026-04-22",
-      "high_f": 71,
-      "low_f": 53,
+      "high_f": 68,
+      "low_f": 51,
       "rain_pct": 1,
       "uv": 8,
       "sunrise": "2026-04-22T05:56",
@@ -98,5 +98,5 @@
       "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-04-18T11:25:27.879529+00:00"
+  "updated_at": "2026-04-18T11:45:47.552202+00:00"
 }
