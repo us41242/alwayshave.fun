@@ -23,10 +23,10 @@
     "mask for sensitive groups"
   ],
   "current": {
-    "temp_f": 60,
+    "temp_f": 59,
     "feels_like_f": 59,
-    "wind_mph": 4,
-    "gusts_mph": 6,
+    "wind_mph": 2,
+    "gusts_mph": 3,
     "rain_pct": 0
   },
   "aqi": {
@@ -55,7 +55,7 @@
     },
     {
       "date": "2026-04-18",
-      "high_f": 69,
+      "high_f": 70,
       "low_f": 55,
       "rain_pct": 1,
       "uv": 8,
@@ -66,7 +66,7 @@
     },
     {
       "date": "2026-04-19",
-      "high_f": 71,
+      "high_f": 72,
       "low_f": 54,
       "rain_pct": 1,
       "uv": 8,
@@ -88,7 +88,7 @@
     },
     {
       "date": "2026-04-21",
-      "high_f": 71,
+      "high_f": 72,
       "low_f": 61,
       "rain_pct": 10,
       "uv": 8,
@@ -98,5 +98,5 @@
       "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-04-18T05:29:26.870607+00:00"
+  "updated_at": "2026-04-18T05:47:52.805865+00:00"
 }
