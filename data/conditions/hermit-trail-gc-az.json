@@ -17,16 +17,17 @@
   "notes": "Unmaintained \u2014 route-finding required",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 50,
-  "score_label": "Use caution",
+  "score": 78,
+  "score_label": "Good conditions",
   "gear_flags": [
+    "wind layer recommended",
     "mask for sensitive groups"
   ],
   "current": {
-    "temp_f": 50,
-    "feels_like_f": 38,
+    "temp_f": 52,
+    "feels_like_f": 40,
     "wind_mph": 18,
-    "gusts_mph": 28,
+    "gusts_mph": 26,
     "rain_pct": 0
   },
   "aqi": {
@@ -41,6 +42,62 @@
     "fire_count_50km": 0
   },
   "river": null,
-  "forecast": [],
-  "updated_at": "2026-04-18T17:24:32.654391+00:00"
+  "forecast": [
+    {
+      "date": "2026-04-18",
+      "high_f": 62,
+      "low_f": 37,
+      "rain_pct": 0,
+      "uv": 8,
+      "sunrise": "2026-04-18T05:51",
+      "sunset": "2026-04-18T19:05",
+      "predicted_score": 90,
+      "score_label": "Great day to go"
+    },
+    {
+      "date": "2026-04-19",
+      "high_f": 73,
+      "low_f": 47,
+      "rain_pct": 12,
+      "uv": 7,
+      "sunrise": "2026-04-19T05:50",
+      "sunset": "2026-04-19T19:05",
+      "predicted_score": 78,
+      "score_label": "Good conditions"
+    },
+    {
+      "date": "2026-04-20",
+      "high_f": 74,
+      "low_f": 51,
+      "rain_pct": 19,
+      "uv": 8,
+      "sunrise": "2026-04-20T05:48",
+      "sunset": "2026-04-20T19:06",
+      "predicted_score": 78,
+      "score_label": "Good conditions"
+    },
+    {
+      "date": "2026-04-21",
+      "high_f": 71,
+      "low_f": 51,
+      "rain_pct": 0,
+      "uv": 8,
+      "sunrise": "2026-04-21T05:47",
+      "sunset": "2026-04-21T19:07",
+      "predicted_score": 90,
+      "score_label": "Great day to go"
+    },
+    {
+      "date": "2026-04-22",
+      "high_f": 64,
+      "low_f": 43,
+      "rain_pct": 3,
+      "uv": 8,
+      "sunrise": "2026-04-22T05:46",
+      "sunset": "2026-04-22T19:08",
+      "predicted_score": 90,
+      "score_label": "Great day to go"
+    }
+  ],
+  "updated_at": "2026-04-18T17:43:37.556179+00:00"
 }
