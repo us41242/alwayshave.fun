@@ -1,9 +1,12 @@
 #!/usr/bin/env node
 /**
  * optimize-photos.js
- * Generates two WebP variants from each source JPEG:
- *   {slug}.webp      — 2000px wide, hero/full-page use
- *   {slug}-card.webp — 800×320px, center-cropped, card thumbnails
+ * Generates responsive WebP variants from each source JPEG:
+ *   {slug}.webp        — 2000px wide, hero/full-page use
+ *   {slug}-1920.webp   — 1920px wide (large screens)
+ *   {slug}-1280.webp   — 1280px wide (desktop)
+ *   {slug}-640.webp    — 640px wide (mobile)
+ *   {slug}-card.webp   — 800×320px, center-cropped, card thumbnails
  *
  * Originals (.jpg) are left untouched.
  * Usage: node scripts/optimize-photos.js
@@ -15,6 +18,7 @@ const fs    = require('fs');
 
 const PHOTOS_DIR   = path.join(__dirname, '..', 'photos');
 const HERO_WIDTH   = 2000;
+const RESPONSIVE_WIDTHS = [1920, 1280, 640];
 const CARD_WIDTH   = 800;
 const CARD_HEIGHT  = 320;
 const WEBP_QUALITY = 82;
@@ -42,17 +46,10 @@ async function optimise(src) {
   const cardDest = base + '-card.webp';
   const rel      = path.relative(PHOTOS_DIR, src);
 
-  const heroSkip = isUpToDate(src, heroDest);
-  const cardSkip = isUpToDate(src, cardDest);
-
-  if (heroSkip && cardSkip) {
-    console.log(`  skip  ${rel} (both up to date)`);
-    return;
-  }
-
   const srcKB = Math.round(fs.statSync(src).size / 1024);
 
-  if (!heroSkip) {
+  // Hero (2000px)
+  if (!isUpToDate(src, heroDest)) {
     await sharp(src)
       .resize({ width: HERO_WIDTH, withoutEnlargement: true })
       .webp({ quality: WEBP_QUALITY })
@@ -61,7 +58,21 @@ async function optimise(src) {
     console.log(`  ✓ hero  ${rel}  ${srcKB}KB → ${heroKB}KB`);
   }
 
-  if (!cardSkip) {
+  // Responsive sizes (1920, 1280, 640)
+  for (const w of RESPONSIVE_WIDTHS) {
+    const dest = base + `-${w}.webp`;
+    if (!isUpToDate(src, dest)) {
+      await sharp(src)
+        .resize({ width: w, withoutEnlargement: true })
+        .webp({ quality: WEBP_QUALITY })
+        .toFile(dest);
+      const kb = Math.round(fs.statSync(dest).size / 1024);
+      console.log(`  ✓ ${w}w  ${rel}  ${srcKB}KB → ${kb}KB`);
+    }
+  }
+
+  // Card thumbnail (800x320 cropped)
+  if (!isUpToDate(src, cardDest)) {
     await sharp(src)
       .resize({ width: CARD_WIDTH, height: CARD_HEIGHT, fit: 'cover', position: 'center' })
       .webp({ quality: WEBP_QUALITY })

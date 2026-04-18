@@ -11,6 +11,13 @@
   <meta property="og:type" content="website">
   <meta property="og:url" id="og-url" content="https://alwayshave.fun">
   <meta property="og:site_name" content="alwayshave.fun">
+  <meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+  <meta property="og:image" id="og-image" content="https://alwayshave.fun/images/og-default.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" id="tw-title" content="Trail Conditions | alwayshave.fun">
+  <meta name="twitter:description" id="tw-desc" content="Live trail conditions, weather, AQI, and gear recommendations.">
+  <script type="application/ld+json" id="schema-breadcrumb">{}</script>
+  <script type="application/ld+json" id="schema-place">{}</script>
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⛰️</text></svg>">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -59,6 +66,19 @@
       text-decoration: none;
       letter-spacing: -0.02em;
     }
+    .nav-links {
+      display: flex;
+      align-items: center;
+      gap: 18px;
+    }
+    .nav-link {
+      color: var(--text-muted);
+      text-decoration: none;
+      font-size: 0.82rem;
+      font-weight: 500;
+      transition: color 0.15s;
+    }
+    .nav-link:hover { color: var(--brand); }
     .nav-back {
       color: var(--text-muted);
       text-decoration: none;
@@ -67,8 +87,15 @@
       align-items: center;
       gap: 5px;
       transition: color 0.15s;
+      margin-left: 6px;
+      padding-left: 14px;
+      border-left: 1px solid var(--border);
     }
     .nav-back:hover { color: var(--text); }
+    @media (max-width: 580px) {
+      .nav-links .nav-link { display: none; }
+      .nav-back { margin-left: 0; padding-left: 0; border-left: none; }
+    }
 
     /* ── LAYOUT ──────────────────────────────────── */
     main {
@@ -431,7 +458,13 @@
   <!-- NAV -->
   <nav>
     <a href="/" class="nav-logo">alwayshave.fun</a>
-    <a href="/" id="nav-back" class="nav-back">← All Trails</a>
+    <div class="nav-links">
+      <a href="/states" class="nav-link">States</a>
+      <a href="/great-today" class="nav-link">Great Today</a>
+      <a href="/articles" class="nav-link">Articles</a>
+      <a href="/about" class="nav-link">About</a>
+      <a href="/" id="nav-back" class="nav-back">← All Trails</a>
+    </div>
   </nav>
 
   <!-- LOADING -->
@@ -529,33 +562,33 @@
 
     <!-- STATUS CHECKLIST -->
     <div class="card">
-      <div class="card-title">Current Status</div>
+      <h2 class="card-title">Current Status</h2>
       <ul class="status-list" id="status-list"></ul>
     </div>
 
     <!-- RIVER (conditional) -->
     <div class="card hidden" id="river-card">
-      <div class="card-title">River / Stream Level</div>
+      <h2 class="card-title">River / Stream Level</h2>
       <div id="river-content"></div>
     </div>
 
     <!-- 5-DAY FORECAST -->
     <div class="card">
-      <div class="card-title">5-Day Forecast</div>
+      <h2 class="card-title">5-Day Forecast</h2>
       <div class="forecast-grid" id="forecast-grid"></div>
     </div>
 
     <!-- GEAR RECOMMENDATIONS (conditional) -->
     <div class="gear-card hidden" id="gear-card">
-      <div class="gear-title">
+      <h2 class="gear-title">
         <span>⚠️</span> Gear Recommended for Today's Conditions
-      </div>
+      </h2>
       <div id="gear-items"></div>
     </div>
 
     <!-- TRAIL NOTES -->
     <div class="card" id="notes-card">
-      <div class="card-title">Trail Notes</div>
+      <h2 class="card-title">Trail Notes</h2>
       <p id="trail-notes" style="font-size:0.9rem;line-height:1.65;color:var(--text)">—</p>
     </div>
 
@@ -706,6 +739,64 @@
         `${d.name} — ${d.score_label} (${d.score}/100) | alwayshave.fun`;
       document.getElementById('og-url').content =
         `https://alwayshave.fun/${stateSlug}/${d.slug}`;
+      document.getElementById('og-desc').content =
+        `${d.name}: Score ${d.score}/100 — ${d.score_label}. Live weather, AQI, and gear recommendations.`;
+      document.getElementById('tw-title').content =
+        `${d.name} — ${d.score_label} (${d.score}/100) | alwayshave.fun`;
+      document.getElementById('tw-desc').content =
+        `Live conditions for ${d.name}: ${cur.temp_f != null ? cur.temp_f + '°F, ' : ''}AQI ${aqiVal || 'N/A'}. Updated every 30 min.`;
+
+      // ── Structured Data (Schema.org) ────────────
+      const trailUrl = `https://alwayshave.fun/${stateSlug}/${d.slug}`;
+
+      const breadcrumbSchema = {
+        '@context': 'https://schema.org',
+        '@type': 'BreadcrumbList',
+        'itemListElement': [
+          { '@type': 'ListItem', 'position': 1, 'name': 'Home', 'item': 'https://alwayshave.fun/' },
+          { '@type': 'ListItem', 'position': 2, 'name': stateName + ' Trails', 'item': `https://alwayshave.fun/${stateSlug}` },
+          { '@type': 'ListItem', 'position': 3, 'name': d.name, 'item': trailUrl }
+        ]
+      };
+
+      const placeSchema = {
+        '@context': 'https://schema.org',
+        '@type': 'TouristAttraction',
+        'name': d.name,
+        'description': `${d.name} is a ${(d.difficulty || '').toLowerCase()} ${d.length_mi}-mile ${(d.trail_type || 'trail').toLowerCase()} in ${d.park_name || stateName}. Best months: ${d.best_months || 'year-round'}.`,
+        'url': trailUrl,
+        'touristType': 'Hiking',
+        'isAccessibleForFree': true,
+        'publicAccess': true,
+        'geo': d.lat && d.lng ? {
+          '@type': 'GeoCoordinates',
+          'latitude': parseFloat(d.lat),
+          'longitude': parseFloat(d.lng)
+        } : undefined,
+        'address': {
+          '@type': 'PostalAddress',
+          'addressRegion': stateCode,
+          'addressCountry': 'US'
+        },
+        'containedInPlace': d.park_name ? {
+          '@type': 'Park',
+          'name': d.park_name
+        } : undefined,
+        'additionalProperty': [
+          { '@type': 'PropertyValue', 'name': 'Difficulty', 'value': d.difficulty },
+          { '@type': 'PropertyValue', 'name': 'Distance', 'value': d.length_mi + ' miles' },
+          { '@type': 'PropertyValue', 'name': 'Elevation Gain', 'value': d.gain_ft + ' ft' },
+          { '@type': 'PropertyValue', 'name': 'Route Type', 'value': d.trail_type },
+          { '@type': 'PropertyValue', 'name': 'Dog Friendly', 'value': d.dog_friendly },
+          { '@type': 'PropertyValue', 'name': 'Trail Score', 'value': d.score + '/100 — ' + d.score_label }
+        ]
+      };
+
+      // Remove undefined fields
+      Object.keys(placeSchema).forEach(k => placeSchema[k] === undefined && delete placeSchema[k]);
+
+      document.getElementById('schema-breadcrumb').textContent = JSON.stringify(breadcrumbSchema);
+      document.getElementById('schema-place').textContent = JSON.stringify(placeSchema);
 
       // ── Nav / Breadcrumb ─────────────────────────
       const navBack = document.getElementById('nav-back');

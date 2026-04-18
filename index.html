@@ -128,10 +128,21 @@
       text-shadow: 0 1px 6px rgba(0,0,0,0.6);
     }
     nav.scrolled .nav-logo { color: var(--brand); text-shadow: none; }
-    .nav-tagline { font-size: 0.78rem; color: rgba(255,255,255,0.6); text-shadow: 0 1px 4px rgba(0,0,0,0.5); }
-    nav.scrolled .nav-tagline { color: var(--text-muted); text-shadow: none; }
+    .nav-links { display: flex; align-items: center; gap: 20px; }
+    .nav-link {
+      font-size: 0.82rem;
+      font-weight: 500;
+      color: rgba(255,255,255,0.65);
+      text-decoration: none;
+      text-shadow: 0 1px 4px rgba(0,0,0,0.5);
+      transition: color 0.15s;
+    }
+    .nav-link:hover { color: #fff; }
+    nav.scrolled .nav-link { color: var(--text-muted); text-shadow: none; }
+    nav.scrolled .nav-link:hover { color: var(--brand); }
     @media (max-width: 600px) {
-      .nav-tagline { display: none; }
+      .nav-links { gap: 14px; }
+      .nav-link { font-size: 0.75rem; }
       nav { padding: 10px 16px; font-size: 0.9rem; }
       nav.scrolled { background: rgba(12,17,23,0.85); }
       .hero-bg-layer {
@@ -162,10 +173,11 @@
       inset: 0;
       background: linear-gradient(
         to bottom,
-        rgba(12,17,23,0)     0%,
-        rgba(12,17,23,0)     55%,
-        rgba(12,17,23,0.35)  75%,
-        rgba(12,17,23,0.7)   100%
+        rgba(12,17,23,0.15)  0%,
+        rgba(12,17,23,0)     30%,
+        rgba(12,17,23,0.25)  55%,
+        rgba(12,17,23,0.6)   75%,
+        rgba(12,17,23,0.85)  100%
       );
       pointer-events: none;
     }
@@ -191,9 +203,9 @@
       display: inline-flex;
       align-items: center;
       gap: 6px;
-      background: rgba(34,197,94,0.15);
+      background: rgba(34,197,94,0.2);
       color: var(--brand);
-      border: 1px solid rgba(34,197,94,0.3);
+      border: 1px solid rgba(34,197,94,0.4);
       border-radius: 20px;
       padding: 4px 14px;
       font-size: 0.72rem;
@@ -201,6 +213,8 @@
       text-transform: uppercase;
       letter-spacing: 0.08em;
       margin-bottom: 18px;
+      backdrop-filter: blur(6px);
+      box-shadow: 0 2px 12px rgba(0,0,0,0.3);
     }
     .site-hero-content h1 {
       font-size: clamp(1.5rem, 6vw, 3.8rem);
@@ -208,7 +222,7 @@
       letter-spacing: -0.04em;
       line-height: 1.1;
       color: #fff;
-      text-shadow: 0 2px 24px rgba(0,0,0,0.6), 0 1px 4px rgba(0,0,0,0.4);
+      text-shadow: 0 2px 24px rgba(0,0,0,0.8), 0 1px 6px rgba(0,0,0,0.6), 0 0 40px rgba(0,0,0,0.4);
       margin-bottom: 14px;
       word-wrap: break-word;
       overflow-wrap: break-word;
@@ -236,11 +250,12 @@
     }
     .site-hero-sub {
       font-size: clamp(0.8rem, 2vw, 1.05rem);
-      color: #ffffff;
+      color: rgba(255,255,255,0.92);
       word-wrap: break-word;
       max-width: 480px;
       line-height: 1.6;
       margin-bottom: 32px;
+      text-shadow: 0 1px 8px rgba(0,0,0,0.7), 0 0 20px rgba(0,0,0,0.3);
     }
 
     /* ── STATS ROW IN HERO ───────────────────────── */
@@ -378,9 +393,9 @@
     .card-photo-overlay {
       position: absolute;
       inset: 0;
-      background: linear-gradient(to top, rgba(12,17,23,0.65) 0%, transparent 55%);
+      background: linear-gradient(to top, rgba(12,17,23,0.8) 0%, rgba(12,17,23,0.2) 45%, transparent 65%);
     }
-    /* Trail name pinned to bottom of photo — no bg, gradient does the work */
+    /* Trail name pinned to bottom of photo */
     .card-photo-label {
       position: absolute;
       bottom: 0; left: 0; right: 0;
@@ -393,6 +408,7 @@
       line-height: 1.2;
       color: #fff;
       margin: 0;
+      text-shadow: 0 1px 6px rgba(0,0,0,0.6);
     }
     .card-photo-label .card-park {
       font-size: 0.68rem;
@@ -496,7 +512,12 @@
   <!-- NAV -->
   <nav id="nav">
     <a href="/" class="nav-logo">alwayshave.fun</a>
-    <span class="nav-tagline">Outdoor conditions, updated every 20 min</span>
+    <div class="nav-links">
+      <a href="/states" class="nav-link">States</a>
+      <a href="/great-today" class="nav-link">Great Today</a>
+      <a href="/articles" class="nav-link">Articles</a>
+      <a href="/about" class="nav-link">About</a>
+    </div>
   </nav>
 
   <!-- PARALLAX BG LAYERS (crossfade behind content) -->
@@ -636,16 +657,24 @@
       if (w <= 800) return '-640';
       if (w <= 1400) return '-1280';
       if (w <= 2200) return '-1920';
-      return ''; // full-res original for 4K+
+      return ''; // full-res for 4K+ (loads {slug}.webp at 2000px)
     }
     const baseUrl = heroImages[0];
-    const sizedUrl = baseUrl.replace('.jpg', heroSuffix() + '.jpg');
+    const suffix = heroSuffix();
+    // Prefer WebP; fall back to JPG if WebP variant doesn't exist
+    const webpUrl = baseUrl.replace('.jpg', suffix + '.webp');
+    const jpgUrl  = baseUrl.replace('.jpg', suffix + '.jpg');
     const heroImg = new Image();
     heroImg.onload = () => {
-      layerA.style.backgroundImage = `url('${sizedUrl}')`;
+      layerA.style.backgroundImage = `url('${heroImg.src}')`;
       layerA.style.opacity = '1';
     };
-    heroImg.src = sizedUrl;
+    heroImg.onerror = () => {
+      // WebP missing — fall back to JPG
+      heroImg.onerror = null;
+      heroImg.src = jpgUrl;
+    };
+    heroImg.src = webpUrl;
 
     // ── Scroll handler: nav transparency ─────────
     window.addEventListener('scroll', () => {

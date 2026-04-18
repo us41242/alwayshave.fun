@@ -81,7 +81,20 @@
     </div>
   </nav>
 
-  <img class="hero" src="https://alwayshave.fun/photos/articles/maroon-bells-crater-lake-co.png" alt="Maroon Bells in April: A Love Letter to Not Going Yet" loading="eager">
+  <picture>
+    <source
+      type="image/webp"
+      srcset="https://alwayshave.fun/photos/articles/maroon-bells-crater-lake-co-640.webp 640w, https://alwayshave.fun/photos/articles/maroon-bells-crater-lake-co-1280.webp 1280w, https://alwayshave.fun/photos/articles/maroon-bells-crater-lake-co-1920.webp 1920w"
+      sizes="(max-width: 640px) 640px, (max-width: 1280px) 1280px, 1920px">
+    <img
+      class="hero"
+      src="https://alwayshave.fun/photos/articles/maroon-bells-crater-lake-co-1280.png"
+      srcset="https://alwayshave.fun/photos/articles/maroon-bells-crater-lake-co-640.png 640w, https://alwayshave.fun/photos/articles/maroon-bells-crater-lake-co-1280.png 1280w, https://alwayshave.fun/photos/articles/maroon-bells-crater-lake-co-1920.png 1920w"
+      sizes="(max-width: 640px) 640px, (max-width: 1280px) 1280px, 1920px"
+      alt="Maroon Bells in April: A Love Letter to Not Going Yet"
+      loading="eager"
+      decoding="async">
+  </picture>
 
   <div class="wrap">
     <header class="article-header">
