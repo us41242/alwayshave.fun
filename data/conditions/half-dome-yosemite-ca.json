@@ -17,23 +17,23 @@
   "notes": "Cable permit required May\u2013Oct; lottery in spring \u2014 book early",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 60,
-  "score_label": "Use caution",
+  "score": 30,
+  "score_label": "Conditions poor",
   "gear_flags": [
     "insulation layer required"
   ],
   "current": {
     "temp_f": 34,
-    "feels_like_f": 30,
-    "wind_mph": 2,
-    "gusts_mph": 4,
+    "feels_like_f": 28,
+    "wind_mph": 5,
+    "gusts_mph": 5,
     "rain_pct": 1
   },
   "aqi": {
-    "aqi": 44,
-    "category": "Good",
-    "pollutant": "O3",
-    "source": "airnow"
+    "aqi": null,
+    "category": "Unknown",
+    "pollutant": "",
+    "source": "none"
   },
   "fire": {
     "risk_level": "low",
@@ -50,19 +50,19 @@
       "uv": 8,
       "sunrise": "2026-04-17T06:19",
       "sunset": "2026-04-17T19:35",
-      "predicted_score": 88,
-      "score_label": "Great day to go"
+      "predicted_score": 58,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-04-18",
       "high_f": 45,
-      "low_f": 34,
+      "low_f": 33,
       "rain_pct": 4,
       "uv": 8,
       "sunrise": "2026-04-18T06:18",
       "sunset": "2026-04-18T19:36",
-      "predicted_score": 88,
-      "score_label": "Great day to go"
+      "predicted_score": 58,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-04-19",
@@ -72,8 +72,8 @@
       "uv": 8,
       "sunrise": "2026-04-19T06:16",
       "sunset": "2026-04-19T19:37",
-      "predicted_score": 88,
-      "score_label": "Great day to go"
+      "predicted_score": 58,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-04-20",
@@ -83,8 +83,8 @@
       "uv": 8,
       "sunrise": "2026-04-20T06:15",
       "sunset": "2026-04-20T19:38",
-      "predicted_score": 88,
-      "score_label": "Great day to go"
+      "predicted_score": 58,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-04-21",
@@ -94,9 +94,9 @@
       "uv": 2,
       "sunrise": "2026-04-21T06:14",
       "sunset": "2026-04-21T19:39",
-      "predicted_score": 60,
-      "score_label": "Use caution"
+      "predicted_score": 30,
+      "score_label": "Conditions poor"
     }
   ],
-  "updated_at": "2026-04-18T02:10:47.257824+00:00"
+  "updated_at": "2026-04-18T02:30:41.097372+00:00"
 }
