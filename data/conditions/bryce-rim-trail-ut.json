@@ -21,14 +21,14 @@
   "score_label": "Great day to go",
   "gear_flags": [],
   "current": {
-    "temp_f": 49,
+    "temp_f": 48,
     "feels_like_f": 36,
     "wind_mph": 17,
     "gusts_mph": 19,
     "rain_pct": 0
   },
   "aqi": {
-    "aqi": 46,
+    "aqi": 47,
     "category": "Good",
     "pollutant": "O3",
     "source": "airnow"
@@ -42,7 +42,7 @@
   "forecast": [
     {
       "date": "2026-04-18",
-      "high_f": 49,
+      "high_f": 48,
       "low_f": 21,
       "rain_pct": 0,
       "uv": 8,
@@ -96,5 +96,5 @@
       "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-04-18T22:21:13.267890+00:00"
+  "updated_at": "2026-04-18T22:41:18.520958+00:00"
 }
