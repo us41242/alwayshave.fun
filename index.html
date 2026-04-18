@@ -76,30 +76,36 @@
     }
 
     /* ── PARALLAX BG CROSSFADE LAYERS ────────────── */
+    @keyframes hero-zoom {
+      from { transform: scale(1); }
+      to   { transform: scale(1.15); }
+    }
     .hero-bg-layer {
       position: fixed;
       inset: 0;
       z-index: -1;
       background-size: cover;
-      background-position: center 40%;
+      background-position: center center;
       background-repeat: no-repeat;
       will-change: opacity, transform;
+      transform-origin: center center;
     }
     .hero-bg-a {
       opacity: 1;
-      transition: opacity 1.8s ease-in-out, transform 2.4s ease-out;
+      transition: opacity 1.8s ease-in-out;
+      animation: hero-zoom 20s ease-in-out forwards;
     }
     .hero-bg-b {
       opacity: 0;
-      transition: opacity 1.8s ease-in-out, transform 2.4s ease-out;
+      transition: opacity 1.8s ease-in-out;
+      animation: hero-zoom 20s ease-in-out forwards;
     }
     .hero-bg-layer.fade-out {
       opacity: 0;
-      transform: scale(1.08);
     }
     .hero-bg-layer.fade-in {
       opacity: 1;
-      transform: scale(1.0);
+      animation: hero-zoom 20s ease-in-out forwards;
     }
 
     /* ── NAV ─────────────────────────────────────── */
@@ -188,10 +194,12 @@
       nav { padding: 10px 16px; font-size: 0.9rem; }
       nav.scrolled { background: rgba(12,17,23,0.85); }
       .hero-bg-layer {
-        position: absolute;
-        height: 200vh;
+        position: fixed;
+        inset: 0;
+        height: 100vh;
+        height: 100dvh;
       }
-      .site-hero-content { padding-top: 56px; height: 70vh; height: 70dvh; }
+      .site-hero-content { padding-top: 56px; height: 100vh; height: 100dvh; }
       .site-hero-inner { padding: 0 16px 24px; overflow: hidden; }
       .site-hero-content h1 { font-size: 1.4rem; line-height: 1.2; }
       .morph-wrap { margin-top: 4px; font-size: 0.6em; }
