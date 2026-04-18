@@ -17,24 +17,23 @@
   "notes": "Chain section requires permit \u2014 book Recreation.gov",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 78,
-  "score_label": "Good conditions",
+  "score": 88,
+  "score_label": "Great day to go",
   "gear_flags": [
-    "insulation layer required",
-    "mask for sensitive groups"
+    "insulation layer required"
   ],
   "current": {
     "temp_f": 43,
     "feels_like_f": 32,
-    "wind_mph": 11,
-    "gusts_mph": 13,
+    "wind_mph": 10,
+    "gusts_mph": 11,
     "rain_pct": 0
   },
   "aqi": {
-    "aqi": 96,
-    "category": "Moderate",
-    "pollutant": "PM2.5",
-    "source": "open-meteo"
+    "aqi": 43,
+    "category": "Good",
+    "pollutant": "O3",
+    "source": "airnow"
   },
   "fire": {
     "risk_level": "low",
@@ -51,7 +50,7 @@
       "uv": 8,
       "sunrise": "2026-04-18T06:52",
       "sunset": "2026-04-18T20:09",
-      "predicted_score": 90,
+      "predicted_score": 100,
       "score_label": "Great day to go"
     },
     {
@@ -62,7 +61,7 @@
       "uv": 7,
       "sunrise": "2026-04-19T06:51",
       "sunset": "2026-04-19T20:10",
-      "predicted_score": 90,
+      "predicted_score": 100,
       "score_label": "Great day to go"
     },
     {
@@ -73,7 +72,7 @@
       "uv": 8,
       "sunrise": "2026-04-20T06:50",
       "sunset": "2026-04-20T20:11",
-      "predicted_score": 90,
+      "predicted_score": 100,
       "score_label": "Great day to go"
     },
     {
@@ -84,7 +83,7 @@
       "uv": 8,
       "sunrise": "2026-04-21T06:48",
       "sunset": "2026-04-21T20:12",
-      "predicted_score": 90,
+      "predicted_score": 100,
       "score_label": "Great day to go"
     },
     {
@@ -95,9 +94,9 @@
       "uv": 6,
       "sunrise": "2026-04-22T06:47",
       "sunset": "2026-04-22T20:13",
-      "predicted_score": 78,
-      "score_label": "Good conditions"
+      "predicted_score": 88,
+      "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-04-18T06:41:18.791993+00:00"
+  "updated_at": "2026-04-18T07:01:07.446517+00:00"
 }
