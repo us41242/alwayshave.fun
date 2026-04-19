@@ -17,14 +17,14 @@
   "notes": "Sandstone scrambling \u2014 watch for rattlesnakes spring",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 60,
-  "score_label": "Use caution",
+  "score": 88,
+  "score_label": "Great day to go",
   "gear_flags": [],
   "current": {
-    "temp_f": 75,
-    "feels_like_f": 66,
-    "wind_mph": 15,
-    "gusts_mph": 18,
+    "temp_f": 77,
+    "feels_like_f": 69,
+    "wind_mph": 13,
+    "gusts_mph": 17,
     "rain_pct": 0
   },
   "aqi": {
@@ -39,6 +39,62 @@
     "fire_count_50km": 0
   },
   "river": null,
-  "forecast": [],
-  "updated_at": "2026-04-19T18:25:28.251398+00:00"
+  "forecast": [
+    {
+      "date": "2026-04-19",
+      "high_f": 84,
+      "low_f": 50,
+      "rain_pct": 0,
+      "uv": 7,
+      "sunrise": "2026-04-19T06:54",
+      "sunset": "2026-04-19T20:13",
+      "predicted_score": 88,
+      "score_label": "Great day to go"
+    },
+    {
+      "date": "2026-04-20",
+      "high_f": 85,
+      "low_f": 62,
+      "rain_pct": 1,
+      "uv": 8,
+      "sunrise": "2026-04-20T06:52",
+      "sunset": "2026-04-20T20:13",
+      "predicted_score": 88,
+      "score_label": "Great day to go"
+    },
+    {
+      "date": "2026-04-21",
+      "high_f": 80,
+      "low_f": 60,
+      "rain_pct": 2,
+      "uv": 8,
+      "sunrise": "2026-04-21T06:51",
+      "sunset": "2026-04-21T20:14",
+      "predicted_score": 88,
+      "score_label": "Great day to go"
+    },
+    {
+      "date": "2026-04-22",
+      "high_f": 67,
+      "low_f": 51,
+      "rain_pct": 6,
+      "uv": 8,
+      "sunrise": "2026-04-22T06:50",
+      "sunset": "2026-04-22T20:15",
+      "predicted_score": 100,
+      "score_label": "Great day to go"
+    },
+    {
+      "date": "2026-04-23",
+      "high_f": 70,
+      "low_f": 50,
+      "rain_pct": 2,
+      "uv": 8,
+      "sunrise": "2026-04-23T06:48",
+      "sunset": "2026-04-23T20:16",
+      "predicted_score": 100,
+      "score_label": "Great day to go"
+    }
+  ],
+  "updated_at": "2026-04-19T18:45:37.630137+00:00"
 }
