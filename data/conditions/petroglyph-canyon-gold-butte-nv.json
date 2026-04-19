@@ -17,11 +17,10 @@
   "notes": "4WD required; no services for 50 miles",
   "dog_friendly": "Yes",
   "vehicle_req": "4WD",
-  "score": 78,
+  "score": 80,
   "score_label": "Good conditions",
   "gear_flags": [
-    "insulation layer required",
-    "mask for sensitive groups"
+    "insulation layer required"
   ],
   "current": {
     "temp_f": 42,
@@ -31,14 +30,14 @@
     "rain_pct": 0
   },
   "aqi": {
-    "aqi": 65,
-    "category": "Moderate",
+    "aqi": 50,
+    "category": "Good",
     "pollutant": "PM2.5",
     "source": "open-meteo"
   },
   "fire": {
-    "risk_level": "low",
-    "nearest_fire_km": null,
+    "risk_level": "moderate",
+    "nearest_fire_km": 78.6,
     "fire_count_50km": 0
   },
   "river": null,
@@ -51,7 +50,7 @@
       "uv": 6,
       "sunrise": "2026-04-19T05:56",
       "sunset": "2026-04-19T19:14",
-      "predicted_score": 90,
+      "predicted_score": 92,
       "score_label": "Great day to go"
     },
     {
@@ -62,7 +61,7 @@
       "uv": 8,
       "sunrise": "2026-04-20T05:55",
       "sunset": "2026-04-20T19:14",
-      "predicted_score": 90,
+      "predicted_score": 92,
       "score_label": "Great day to go"
     },
     {
@@ -73,7 +72,7 @@
       "uv": 8,
       "sunrise": "2026-04-21T05:54",
       "sunset": "2026-04-21T19:15",
-      "predicted_score": 90,
+      "predicted_score": 92,
       "score_label": "Great day to go"
     },
     {
@@ -84,7 +83,7 @@
       "uv": 8,
       "sunrise": "2026-04-22T05:52",
       "sunset": "2026-04-22T19:16",
-      "predicted_score": 78,
+      "predicted_score": 80,
       "score_label": "Good conditions"
     },
     {
@@ -95,9 +94,9 @@
       "uv": 8,
       "sunrise": "2026-04-23T05:51",
       "sunset": "2026-04-23T19:17",
-      "predicted_score": 90,
+      "predicted_score": 92,
       "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-04-19T08:43:42.377006+00:00"
+  "updated_at": "2026-04-19T09:03:36.134276+00:00"
 }
