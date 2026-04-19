@@ -17,21 +17,23 @@
   "notes": "No cars beyond Spooner Summit; bike-legal trail",
   "dog_friendly": "Yes",
   "vehicle_req": "AWD",
-  "score": 88,
-  "score_label": "Great day to go",
-  "gear_flags": [],
+  "score": 68,
+  "score_label": "Use caution",
+  "gear_flags": [
+    "N95 mask recommended"
+  ],
   "current": {
-    "temp_f": 48,
+    "temp_f": 47,
     "feels_like_f": 42,
-    "wind_mph": 9,
-    "gusts_mph": 10,
-    "rain_pct": 3
+    "wind_mph": 6,
+    "gusts_mph": 7,
+    "rain_pct": 2
   },
   "aqi": {
-    "aqi": 43,
-    "category": "Good",
-    "pollutant": "O3",
-    "source": "airnow"
+    "aqi": 105,
+    "category": "Unhealthy for Sensitive Groups",
+    "pollutant": "PM2.5",
+    "source": "open-meteo"
   },
   "fire": {
     "risk_level": "low",
@@ -44,23 +46,23 @@
       "date": "2026-04-18",
       "high_f": 56,
       "low_f": 33,
-      "rain_pct": 3,
+      "rain_pct": 2,
       "uv": 8,
       "sunrise": "2026-04-18T06:17",
       "sunset": "2026-04-18T19:39",
-      "predicted_score": 100,
-      "score_label": "Great day to go"
+      "predicted_score": 80,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-04-19",
       "high_f": 54,
-      "low_f": 37,
+      "low_f": 38,
       "rain_pct": 3,
       "uv": 7,
       "sunrise": "2026-04-19T06:16",
       "sunset": "2026-04-19T19:40",
-      "predicted_score": 100,
-      "score_label": "Great day to go"
+      "predicted_score": 80,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-04-20",
@@ -70,8 +72,8 @@
       "uv": 8,
       "sunrise": "2026-04-20T06:15",
       "sunset": "2026-04-20T19:41",
-      "predicted_score": 100,
-      "score_label": "Great day to go"
+      "predicted_score": 80,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-04-21",
@@ -81,8 +83,8 @@
       "uv": 5,
       "sunrise": "2026-04-21T06:13",
       "sunset": "2026-04-21T19:42",
-      "predicted_score": 60,
-      "score_label": "Use caution"
+      "predicted_score": 40,
+      "score_label": "Conditions poor"
     },
     {
       "date": "2026-04-22",
@@ -92,9 +94,9 @@
       "uv": 6,
       "sunrise": "2026-04-22T06:12",
       "sunset": "2026-04-22T19:43",
-      "predicted_score": 60,
-      "score_label": "Use caution"
+      "predicted_score": 40,
+      "score_label": "Conditions poor"
     }
   ],
-  "updated_at": "2026-04-19T02:10:45.611190+00:00"
+  "updated_at": "2026-04-19T02:30:31.284353+00:00"
 }
