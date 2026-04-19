@@ -17,25 +17,25 @@
   "notes": "Avoid mid-summer heat \u2014 best Oct\u2013Apr",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 100,
+  "score": 92,
   "score_label": "Great day to go",
   "gear_flags": [],
   "current": {
-    "temp_f": 65,
-    "feels_like_f": 60,
+    "temp_f": 66,
+    "feels_like_f": 61,
     "wind_mph": 2,
-    "gusts_mph": 4,
+    "gusts_mph": 8,
     "rain_pct": 0
   },
   "aqi": {
-    "aqi": 45,
+    "aqi": 47,
     "category": "Good",
     "pollutant": "O3",
     "source": "airnow"
   },
   "fire": {
-    "risk_level": "low",
-    "nearest_fire_km": null,
+    "risk_level": "moderate",
+    "nearest_fire_km": 51.7,
     "fire_count_50km": 0
   },
   "river": null,
@@ -48,8 +48,8 @@
       "uv": 7,
       "sunrise": "2026-04-19T06:02",
       "sunset": "2026-04-19T19:18",
-      "predicted_score": 88,
-      "score_label": "Great day to go"
+      "predicted_score": 80,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-04-20",
@@ -59,8 +59,8 @@
       "uv": 8,
       "sunrise": "2026-04-20T06:01",
       "sunset": "2026-04-20T19:19",
-      "predicted_score": 88,
-      "score_label": "Great day to go"
+      "predicted_score": 80,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-04-21",
@@ -70,7 +70,7 @@
       "uv": 8,
       "sunrise": "2026-04-21T06:00",
       "sunset": "2026-04-21T19:20",
-      "predicted_score": 100,
+      "predicted_score": 92,
       "score_label": "Great day to go"
     },
     {
@@ -81,7 +81,7 @@
       "uv": 8,
       "sunrise": "2026-04-22T05:58",
       "sunset": "2026-04-22T19:21",
-      "predicted_score": 100,
+      "predicted_score": 92,
       "score_label": "Great day to go"
     },
     {
@@ -92,9 +92,9 @@
       "uv": 8,
       "sunrise": "2026-04-23T05:57",
       "sunset": "2026-04-23T19:22",
-      "predicted_score": 100,
+      "predicted_score": 92,
       "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-04-19T17:01:46.543079+00:00"
+  "updated_at": "2026-04-19T17:21:16.246712+00:00"
 }
