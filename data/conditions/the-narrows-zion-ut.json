@@ -17,16 +17,16 @@
   "notes": "Check Virgin River flow \u2014 USGS gauge 09380000",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 90,
-  "score_label": "Great day to go",
+  "score": 78,
+  "score_label": "Good conditions",
   "gear_flags": [
     "mask for sensitive groups"
   ],
   "current": {
     "temp_f": 50,
-    "feels_like_f": 43,
-    "wind_mph": 1,
-    "gusts_mph": 5,
+    "feels_like_f": 41,
+    "wind_mph": 4,
+    "gusts_mph": 4,
     "rain_pct": 0
   },
   "aqi": {
@@ -59,7 +59,7 @@
     {
       "date": "2026-04-19",
       "high_f": 76,
-      "low_f": 44,
+      "low_f": 43,
       "rain_pct": 3,
       "uv": 7,
       "sunrise": "2026-04-19T06:51",
@@ -101,5 +101,5 @@
       "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-04-19T04:21:20.480148+00:00"
+  "updated_at": "2026-04-19T04:41:22.674066+00:00"
 }
