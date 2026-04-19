@@ -17,8 +17,8 @@
   "notes": "High-alpine \u2014 thunderstorm risk after noon; start before 7am",
   "dog_friendly": "Yes",
   "vehicle_req": "High-Clearance",
-  "score": 60,
-  "score_label": "Use caution",
+  "score": 30,
+  "score_label": "Conditions poor",
   "gear_flags": [],
   "current": {
     "temp_f": 21,
@@ -28,10 +28,10 @@
     "rain_pct": 0
   },
   "aqi": {
-    "aqi": 18,
-    "category": "Good",
-    "pollutant": "PM2.5",
-    "source": "airnow"
+    "aqi": null,
+    "category": "Unknown",
+    "pollutant": "",
+    "source": "none"
   },
   "fire": {
     "risk_level": "low",
@@ -40,5 +40,5 @@
   },
   "river": null,
   "forecast": [],
-  "updated_at": "2026-04-19T10:29:06.852346+00:00"
+  "updated_at": "2026-04-19T10:49:20.604749+00:00"
 }
