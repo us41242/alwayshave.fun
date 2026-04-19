@@ -17,21 +17,19 @@
   "notes": "Desert wash trail \u2014 no shade",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 90,
+  "score": 100,
   "score_label": "Great day to go",
-  "gear_flags": [
-    "mask for sensitive groups"
-  ],
+  "gear_flags": [],
   "current": {
-    "temp_f": 61,
-    "feels_like_f": 53,
-    "wind_mph": 4,
-    "gusts_mph": 5,
+    "temp_f": 62,
+    "feels_like_f": 54,
+    "wind_mph": 2,
+    "gusts_mph": 4,
     "rain_pct": 0
   },
   "aqi": {
-    "aqi": 61,
-    "category": "Moderate",
+    "aqi": 49,
+    "category": "Good",
     "pollutant": "O3",
     "source": "airnow"
   },
@@ -50,8 +48,8 @@
       "uv": 7,
       "sunrise": "2026-04-19T06:00",
       "sunset": "2026-04-19T19:15",
-      "predicted_score": 78,
-      "score_label": "Good conditions"
+      "predicted_score": 88,
+      "score_label": "Great day to go"
     },
     {
       "date": "2026-04-20",
@@ -61,8 +59,8 @@
       "uv": 8,
       "sunrise": "2026-04-20T05:59",
       "sunset": "2026-04-20T19:16",
-      "predicted_score": 78,
-      "score_label": "Good conditions"
+      "predicted_score": 88,
+      "score_label": "Great day to go"
     },
     {
       "date": "2026-04-21",
@@ -72,8 +70,8 @@
       "uv": 8,
       "sunrise": "2026-04-21T05:58",
       "sunset": "2026-04-21T19:17",
-      "predicted_score": 78,
-      "score_label": "Good conditions"
+      "predicted_score": 88,
+      "score_label": "Great day to go"
     },
     {
       "date": "2026-04-22",
@@ -83,7 +81,7 @@
       "uv": 7,
       "sunrise": "2026-04-22T05:57",
       "sunset": "2026-04-22T19:18",
-      "predicted_score": 90,
+      "predicted_score": 100,
       "score_label": "Great day to go"
     },
     {
@@ -94,9 +92,9 @@
       "uv": 8,
       "sunrise": "2026-04-23T05:55",
       "sunset": "2026-04-23T19:19",
-      "predicted_score": 90,
+      "predicted_score": 100,
       "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-04-19T07:05:40.627594+00:00"
+  "updated_at": "2026-04-19T07:25:39.976607+00:00"
 }
