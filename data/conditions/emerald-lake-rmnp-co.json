@@ -28,11 +28,11 @@
     "temp_f": 28,
     "feels_like_f": 12,
     "wind_mph": 23,
-    "gusts_mph": 34,
+    "gusts_mph": 35,
     "rain_pct": 0
   },
   "aqi": {
-    "aqi": 105,
+    "aqi": 108,
     "category": "Unhealthy for Sensitive Groups",
     "pollutant": "PM2.5",
     "source": "open-meteo"
@@ -100,5 +100,5 @@
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-04-19T00:48:31.633667+00:00"
+  "updated_at": "2026-04-19T01:11:11.546133+00:00"
 }
