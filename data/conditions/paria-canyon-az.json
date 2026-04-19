@@ -17,11 +17,9 @@
   "notes": "Multi-day \u2014 permit required; flash flood danger",
   "dog_friendly": "Yes",
   "vehicle_req": "High-Clearance",
-  "score": 78,
-  "score_label": "Good conditions",
-  "gear_flags": [
-    "mask for sensitive groups"
-  ],
+  "score": 88,
+  "score_label": "Great day to go",
+  "gear_flags": [],
   "current": {
     "temp_f": 47,
     "feels_like_f": 37,
@@ -30,8 +28,8 @@
     "rain_pct": 0
   },
   "aqi": {
-    "aqi": 51,
-    "category": "Moderate",
+    "aqi": 48,
+    "category": "Good",
     "pollutant": "O3",
     "source": "airnow"
   },
@@ -50,8 +48,8 @@
       "uv": 7,
       "sunrise": "2026-04-19T06:47",
       "sunset": "2026-04-19T20:06",
-      "predicted_score": 78,
-      "score_label": "Good conditions"
+      "predicted_score": 88,
+      "score_label": "Great day to go"
     },
     {
       "date": "2026-04-20",
@@ -61,8 +59,8 @@
       "uv": 8,
       "sunrise": "2026-04-20T06:46",
       "sunset": "2026-04-20T20:07",
-      "predicted_score": 78,
-      "score_label": "Good conditions"
+      "predicted_score": 88,
+      "score_label": "Great day to go"
     },
     {
       "date": "2026-04-21",
@@ -72,8 +70,8 @@
       "uv": 8,
       "sunrise": "2026-04-21T06:44",
       "sunset": "2026-04-21T20:07",
-      "predicted_score": 78,
-      "score_label": "Good conditions"
+      "predicted_score": 88,
+      "score_label": "Great day to go"
     },
     {
       "date": "2026-04-22",
@@ -83,7 +81,7 @@
       "uv": 8,
       "sunrise": "2026-04-22T06:43",
       "sunset": "2026-04-22T20:08",
-      "predicted_score": 90,
+      "predicted_score": 100,
       "score_label": "Great day to go"
     },
     {
@@ -94,9 +92,9 @@
       "uv": 8,
       "sunrise": "2026-04-23T06:42",
       "sunset": "2026-04-23T20:09",
-      "predicted_score": 90,
+      "predicted_score": 100,
       "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-04-19T06:07:17.181925+00:00"
+  "updated_at": "2026-04-19T06:25:43.287145+00:00"
 }

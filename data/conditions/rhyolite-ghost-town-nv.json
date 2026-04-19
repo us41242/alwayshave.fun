@@ -17,8 +17,8 @@
   "notes": "Near Death Valley \u2014 extreme summer heat",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 90,
-  "score_label": "Great day to go",
+  "score": 50,
+  "score_label": "Use caution",
   "gear_flags": [
     "mask for sensitive groups"
   ],
@@ -30,7 +30,7 @@
     "rain_pct": 0
   },
   "aqi": {
-    "aqi": 58,
+    "aqi": 77,
     "category": "Moderate",
     "pollutant": "O3",
     "source": "airnow"
@@ -41,62 +41,6 @@
     "fire_count_50km": 0
   },
   "river": null,
-  "forecast": [
-    {
-      "date": "2026-04-18",
-      "high_f": 71,
-      "low_f": 46,
-      "rain_pct": 0,
-      "uv": 8,
-      "sunrise": "2026-04-18T06:08",
-      "sunset": "2026-04-18T19:24",
-      "predicted_score": 90,
-      "score_label": "Great day to go"
-    },
-    {
-      "date": "2026-04-19",
-      "high_f": 76,
-      "low_f": 54,
-      "rain_pct": 0,
-      "uv": 8,
-      "sunrise": "2026-04-19T06:07",
-      "sunset": "2026-04-19T19:25",
-      "predicted_score": 78,
-      "score_label": "Good conditions"
-    },
-    {
-      "date": "2026-04-20",
-      "high_f": 77,
-      "low_f": 55,
-      "rain_pct": 0,
-      "uv": 8,
-      "sunrise": "2026-04-20T06:06",
-      "sunset": "2026-04-20T19:26",
-      "predicted_score": 78,
-      "score_label": "Good conditions"
-    },
-    {
-      "date": "2026-04-21",
-      "high_f": 71,
-      "low_f": 50,
-      "rain_pct": 23,
-      "uv": 8,
-      "sunrise": "2026-04-21T06:04",
-      "sunset": "2026-04-21T19:27",
-      "predicted_score": 78,
-      "score_label": "Good conditions"
-    },
-    {
-      "date": "2026-04-22",
-      "high_f": 63,
-      "low_f": 42,
-      "rain_pct": 20,
-      "uv": 8,
-      "sunrise": "2026-04-22T06:03",
-      "sunset": "2026-04-22T19:28",
-      "predicted_score": 78,
-      "score_label": "Good conditions"
-    }
-  ],
-  "updated_at": "2026-04-19T06:07:20.136670+00:00"
+  "forecast": [],
+  "updated_at": "2026-04-19T06:26:45.709640+00:00"
 }
