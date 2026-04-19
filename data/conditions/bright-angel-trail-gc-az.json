@@ -17,13 +17,13 @@
   "notes": "Summer heat extreme \u2014 start before sunrise",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 78,
-  "score_label": "Good conditions",
+  "score": 90,
+  "score_label": "Great day to go",
   "gear_flags": [
     "mask for sensitive groups"
   ],
   "current": {
-    "temp_f": 56,
+    "temp_f": 55,
     "feels_like_f": 42,
     "wind_mph": 15,
     "gusts_mph": 19,
@@ -37,7 +37,7 @@
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": 142.2,
+    "nearest_fire_km": null,
     "fire_count_50km": 0
   },
   "river": {
@@ -101,5 +101,5 @@
       "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-04-18T23:43:29.284660+00:00"
+  "updated_at": "2026-04-19T00:02:48.418398+00:00"
 }
