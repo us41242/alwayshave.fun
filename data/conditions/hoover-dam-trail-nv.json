@@ -17,16 +17,16 @@
   "notes": "Paved trail \u2014 no permit required",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 74,
-  "score_label": "Good conditions",
+  "score": 56,
+  "score_label": "Use caution",
   "gear_flags": [
     "N95 mask recommended for wildfire smoke"
   ],
   "current": {
-    "temp_f": 85,
-    "feels_like_f": 82,
-    "wind_mph": 4,
-    "gusts_mph": 11,
+    "temp_f": 86,
+    "feels_like_f": 84,
+    "wind_mph": 3,
+    "gusts_mph": 14,
     "rain_pct": 0
   },
   "aqi": {
@@ -56,7 +56,7 @@
     {
       "date": "2026-04-20",
       "high_f": 95,
-      "low_f": 66,
+      "low_f": 65,
       "rain_pct": 0,
       "uv": 8,
       "sunrise": "2026-04-20T05:58",
@@ -98,5 +98,5 @@
       "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-04-19T19:45:35.016630+00:00"
+  "updated_at": "2026-04-19T20:05:28.182444+00:00"
 }
