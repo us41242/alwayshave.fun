@@ -17,17 +17,17 @@
   "notes": "Heat advisory Jun\u2013Sep; carry extra water",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 36,
-  "score_label": "Conditions poor",
+  "score": 76,
+  "score_label": "Good conditions",
   "gear_flags": [
     "mask for sensitive groups",
     "N95 mask recommended for wildfire smoke"
   ],
   "current": {
-    "temp_f": 58,
+    "temp_f": 57,
     "feels_like_f": 48,
     "wind_mph": 6,
-    "gusts_mph": 6,
+    "gusts_mph": 7,
     "rain_pct": 0
   },
   "aqi": {
@@ -42,6 +42,62 @@
     "fire_count_50km": 1
   },
   "river": null,
-  "forecast": [],
-  "updated_at": "2026-04-19T09:22:33.374334+00:00"
+  "forecast": [
+    {
+      "date": "2026-04-19",
+      "high_f": 87,
+      "low_f": 55,
+      "rain_pct": 0,
+      "uv": 6,
+      "sunrise": "2026-04-19T05:58",
+      "sunset": "2026-04-19T19:15",
+      "predicted_score": 46,
+      "score_label": "Conditions poor"
+    },
+    {
+      "date": "2026-04-20",
+      "high_f": 90,
+      "low_f": 67,
+      "rain_pct": 1,
+      "uv": 8,
+      "sunrise": "2026-04-20T05:57",
+      "sunset": "2026-04-20T19:16",
+      "predicted_score": 46,
+      "score_label": "Conditions poor"
+    },
+    {
+      "date": "2026-04-21",
+      "high_f": 86,
+      "low_f": 64,
+      "rain_pct": 2,
+      "uv": 8,
+      "sunrise": "2026-04-21T05:56",
+      "sunset": "2026-04-21T19:17",
+      "predicted_score": 46,
+      "score_label": "Conditions poor"
+    },
+    {
+      "date": "2026-04-22",
+      "high_f": 72,
+      "low_f": 55,
+      "rain_pct": 4,
+      "uv": 8,
+      "sunrise": "2026-04-22T05:54",
+      "sunset": "2026-04-22T19:18",
+      "predicted_score": 76,
+      "score_label": "Good conditions"
+    },
+    {
+      "date": "2026-04-23",
+      "high_f": 78,
+      "low_f": 54,
+      "rain_pct": 1,
+      "uv": 8,
+      "sunrise": "2026-04-23T05:53",
+      "sunset": "2026-04-23T19:19",
+      "predicted_score": 64,
+      "score_label": "Use caution"
+    }
+  ],
+  "updated_at": "2026-04-19T09:41:35.560906+00:00"
 }
