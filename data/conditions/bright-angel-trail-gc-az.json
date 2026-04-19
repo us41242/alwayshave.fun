@@ -25,10 +25,10 @@
     "mask for sensitive groups"
   ],
   "current": {
-    "temp_f": 44,
-    "feels_like_f": 30,
-    "wind_mph": 16,
-    "gusts_mph": 25,
+    "temp_f": 43,
+    "feels_like_f": 29,
+    "wind_mph": 17,
+    "gusts_mph": 24,
     "rain_pct": 0
   },
   "aqi": {
@@ -43,7 +43,7 @@
     "fire_count_50km": 0
   },
   "river": {
-    "cfs": 8420,
+    "cfs": 8330,
     "stage": "flood"
   },
   "forecast": [
@@ -103,5 +103,5 @@
       "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-04-19T07:23:32.578784+00:00"
+  "updated_at": "2026-04-19T07:43:32.581893+00:00"
 }
