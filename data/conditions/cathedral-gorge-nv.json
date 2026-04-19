@@ -17,8 +17,8 @@
   "notes": "Slot canyon walls narrow \u2014 avoid during rain/flash flood risk",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 90,
-  "score_label": "Great day to go",
+  "score": 50,
+  "score_label": "Use caution",
   "gear_flags": [
     "mask for sensitive groups"
   ],
@@ -41,62 +41,6 @@
     "fire_count_50km": 0
   },
   "river": null,
-  "forecast": [
-    {
-      "date": "2026-04-19",
-      "high_f": 73,
-      "low_f": 39,
-      "rain_pct": 0,
-      "uv": 7,
-      "sunrise": "2026-04-19T05:56",
-      "sunset": "2026-04-19T19:16",
-      "predicted_score": 90,
-      "score_label": "Great day to go"
-    },
-    {
-      "date": "2026-04-20",
-      "high_f": 77,
-      "low_f": 52,
-      "rain_pct": 0,
-      "uv": 8,
-      "sunrise": "2026-04-20T05:55",
-      "sunset": "2026-04-20T19:17",
-      "predicted_score": 78,
-      "score_label": "Good conditions"
-    },
-    {
-      "date": "2026-04-21",
-      "high_f": 70,
-      "low_f": 49,
-      "rain_pct": 5,
-      "uv": 8,
-      "sunrise": "2026-04-21T05:53",
-      "sunset": "2026-04-21T19:18",
-      "predicted_score": 90,
-      "score_label": "Great day to go"
-    },
-    {
-      "date": "2026-04-22",
-      "high_f": 59,
-      "low_f": 42,
-      "rain_pct": 12,
-      "uv": 8,
-      "sunrise": "2026-04-22T05:52",
-      "sunset": "2026-04-22T19:19",
-      "predicted_score": 78,
-      "score_label": "Good conditions"
-    },
-    {
-      "date": "2026-04-23",
-      "high_f": 63,
-      "low_f": 42,
-      "rain_pct": 3,
-      "uv": 8,
-      "sunrise": "2026-04-23T05:51",
-      "sunset": "2026-04-23T19:20",
-      "predicted_score": 90,
-      "score_label": "Great day to go"
-    }
-  ],
-  "updated_at": "2026-04-19T23:02:35.757002+00:00"
+  "forecast": [],
+  "updated_at": "2026-04-19T23:22:50.490061+00:00"
 }
