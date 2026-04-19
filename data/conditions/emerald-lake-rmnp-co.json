@@ -25,14 +25,14 @@
     "mask for sensitive groups"
   ],
   "current": {
-    "temp_f": 27,
-    "feels_like_f": 11,
+    "temp_f": 28,
+    "feels_like_f": 12,
     "wind_mph": 21,
-    "gusts_mph": 26,
+    "gusts_mph": 28,
     "rain_pct": 0
   },
   "aqi": {
-    "aqi": 69,
+    "aqi": 70,
     "category": "Moderate",
     "pollutant": "PM2.5",
     "source": "open-meteo"
@@ -57,8 +57,8 @@
     },
     {
       "date": "2026-04-20",
-      "high_f": 56,
-      "low_f": 32,
+      "high_f": 54,
+      "low_f": 31,
       "rain_pct": 7,
       "uv": 8,
       "sunrise": "2026-04-20T06:16",
@@ -69,7 +69,7 @@
     {
       "date": "2026-04-21",
       "high_f": 57,
-      "low_f": 32,
+      "low_f": 34,
       "rain_pct": 23,
       "uv": 8,
       "sunrise": "2026-04-21T06:14",
@@ -100,5 +100,5 @@
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-04-19T13:48:26.999675+00:00"
+  "updated_at": "2026-04-19T14:07:33.859232+00:00"
 }
