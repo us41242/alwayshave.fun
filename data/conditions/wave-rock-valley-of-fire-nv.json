@@ -17,10 +17,10 @@
   "notes": "Heat advisory Jun\u2013Sep; carry extra water",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 40,
-  "score_label": "Conditions poor",
+  "score": 50,
+  "score_label": "Use caution",
   "gear_flags": [
-    "N95 mask recommended"
+    "mask for sensitive groups"
   ],
   "current": {
     "temp_f": 67,
@@ -30,8 +30,8 @@
     "rain_pct": 0
   },
   "aqi": {
-    "aqi": 101,
-    "category": "Unhealthy for Sensitive Groups",
+    "aqi": 100,
+    "category": "Moderate",
     "pollutant": "PM2.5",
     "source": "open-meteo"
   },
@@ -42,5 +42,5 @@
   },
   "river": null,
   "forecast": [],
-  "updated_at": "2026-04-19T03:42:24.417609+00:00"
+  "updated_at": "2026-04-19T04:02:37.964523+00:00"
 }
