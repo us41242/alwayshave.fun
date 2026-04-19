@@ -17,11 +17,9 @@
   "notes": "Permit required May\u2013Nov; altitude sickness risk \u2014 acclimatize first",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 50,
+  "score": 60,
   "score_label": "Use caution",
-  "gear_flags": [
-    "mask for sensitive groups"
-  ],
+  "gear_flags": [],
   "current": {
     "temp_f": 20,
     "feels_like_f": 8,
@@ -30,10 +28,10 @@
     "rain_pct": 0
   },
   "aqi": {
-    "aqi": 90,
-    "category": "Moderate",
+    "aqi": 9,
+    "category": "Good",
     "pollutant": "PM2.5",
-    "source": "open-meteo"
+    "source": "airnow"
   },
   "fire": {
     "risk_level": "low",
@@ -45,5 +43,5 @@
     "stage": "normal"
   },
   "forecast": [],
-  "updated_at": "2026-04-19T00:30:52.662281+00:00"
+  "updated_at": "2026-04-19T00:49:35.595983+00:00"
 }

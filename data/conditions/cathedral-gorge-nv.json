@@ -17,9 +17,11 @@
   "notes": "Slot canyon walls narrow \u2014 avoid during rain/flash flood risk",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 70,
-  "score_label": "Good conditions",
-  "gear_flags": [],
+  "score": 50,
+  "score_label": "Use caution",
+  "gear_flags": [
+    "mask for sensitive groups"
+  ],
   "current": {
     "temp_f": 66,
     "feels_like_f": 55,
@@ -28,10 +30,10 @@
     "rain_pct": 0
   },
   "aqi": {
-    "aqi": null,
-    "category": "Unknown",
-    "pollutant": "",
-    "source": "none"
+    "aqi": 96,
+    "category": "Moderate",
+    "pollutant": "PM2.5",
+    "source": "open-meteo"
   },
   "fire": {
     "risk_level": "low",
@@ -39,62 +41,6 @@
     "fire_count_50km": 0
   },
   "river": null,
-  "forecast": [
-    {
-      "date": "2026-04-18",
-      "high_f": 67,
-      "low_f": 30,
-      "rain_pct": 0,
-      "uv": 8,
-      "sunrise": "2026-04-18T05:57",
-      "sunset": "2026-04-18T19:16",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
-    },
-    {
-      "date": "2026-04-19",
-      "high_f": 75,
-      "low_f": 44,
-      "rain_pct": 1,
-      "uv": 7,
-      "sunrise": "2026-04-19T05:56",
-      "sunset": "2026-04-19T19:16",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
-    },
-    {
-      "date": "2026-04-20",
-      "high_f": 74,
-      "low_f": 51,
-      "rain_pct": 1,
-      "uv": 8,
-      "sunrise": "2026-04-20T05:55",
-      "sunset": "2026-04-20T19:17",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
-    },
-    {
-      "date": "2026-04-21",
-      "high_f": 71,
-      "low_f": 50,
-      "rain_pct": 5,
-      "uv": 8,
-      "sunrise": "2026-04-21T05:53",
-      "sunset": "2026-04-21T19:18",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
-    },
-    {
-      "date": "2026-04-22",
-      "high_f": 58,
-      "low_f": 42,
-      "rain_pct": 16,
-      "uv": 7,
-      "sunrise": "2026-04-22T05:52",
-      "sunset": "2026-04-22T19:19",
-      "predicted_score": 58,
-      "score_label": "Use caution"
-    }
-  ],
-  "updated_at": "2026-04-19T00:23:32.629697+00:00"
+  "forecast": [],
+  "updated_at": "2026-04-19T00:43:26.759266+00:00"
 }
