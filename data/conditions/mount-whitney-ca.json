@@ -17,24 +17,24 @@
   "notes": "Permit required May\u2013Nov; altitude sickness risk \u2014 acclimatize first",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 52,
-  "score_label": "Use caution",
+  "score": 22,
+  "score_label": "Stay home",
   "gear_flags": [
     "wind layer recommended",
     "insulation layer required"
   ],
   "current": {
     "temp_f": 11,
-    "feels_like_f": -2,
-    "wind_mph": 15,
-    "gusts_mph": 30,
+    "feels_like_f": 0,
+    "wind_mph": 14,
+    "gusts_mph": 32,
     "rain_pct": 0
   },
   "aqi": {
-    "aqi": 37,
-    "category": "Good",
-    "pollutant": "PM2.5",
-    "source": "airnow"
+    "aqi": null,
+    "category": "Unknown",
+    "pollutant": "",
+    "source": "none"
   },
   "fire": {
     "risk_level": "moderate",
@@ -54,8 +54,8 @@
       "uv": 9,
       "sunrise": "2026-04-20T06:12",
       "sunset": "2026-04-20T19:31",
-      "predicted_score": 52,
-      "score_label": "Use caution"
+      "predicted_score": 22,
+      "score_label": "Stay home"
     },
     {
       "date": "2026-04-21",
@@ -65,8 +65,8 @@
       "uv": 9,
       "sunrise": "2026-04-21T06:11",
       "sunset": "2026-04-21T19:32",
-      "predicted_score": 52,
-      "score_label": "Use caution"
+      "predicted_score": 22,
+      "score_label": "Stay home"
     },
     {
       "date": "2026-04-22",
@@ -76,8 +76,8 @@
       "uv": 10,
       "sunrise": "2026-04-22T06:09",
       "sunset": "2026-04-22T19:33",
-      "predicted_score": 52,
-      "score_label": "Use caution"
+      "predicted_score": 22,
+      "score_label": "Stay home"
     },
     {
       "date": "2026-04-23",
@@ -87,8 +87,8 @@
       "uv": 9,
       "sunrise": "2026-04-23T06:08",
       "sunset": "2026-04-23T19:34",
-      "predicted_score": 52,
-      "score_label": "Use caution"
+      "predicted_score": 22,
+      "score_label": "Stay home"
     },
     {
       "date": "2026-04-24",
@@ -98,9 +98,9 @@
       "uv": 9,
       "sunrise": "2026-04-24T06:07",
       "sunset": "2026-04-24T19:35",
-      "predicted_score": 52,
-      "score_label": "Use caution"
+      "predicted_score": 22,
+      "score_label": "Stay home"
     }
   ],
-  "updated_at": "2026-04-20T16:10:56.559150+00:00"
+  "updated_at": "2026-04-20T16:31:18.725501+00:00"
 }
