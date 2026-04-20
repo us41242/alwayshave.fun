@@ -17,14 +17,17 @@
   "notes": "Paved trail \u2014 no permit required",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 70,
-  "score_label": "Good conditions",
-  "gear_flags": [],
+  "score": 56,
+  "score_label": "Use caution",
+  "gear_flags": [
+    "wind layer recommended",
+    "N95 mask recommended for wildfire smoke"
+  ],
   "current": {
-    "temp_f": 87,
-    "feels_like_f": 80,
-    "wind_mph": 10,
-    "gusts_mph": 16,
+    "temp_f": 88,
+    "feels_like_f": 78,
+    "wind_mph": 18,
+    "gusts_mph": 22,
     "rain_pct": 0
   },
   "aqi": {
@@ -34,9 +37,9 @@
     "source": "airnow"
   },
   "fire": {
-    "risk_level": "low",
-    "nearest_fire_km": null,
-    "fire_count_50km": 0
+    "risk_level": "elevated",
+    "nearest_fire_km": 40.9,
+    "fire_count_50km": 3
   },
   "river": null,
   "forecast": [
@@ -48,8 +51,8 @@
       "uv": 8,
       "sunrise": "2026-04-20T05:58",
       "sunset": "2026-04-20T19:16",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
+      "predicted_score": 56,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-04-21",
@@ -59,19 +62,19 @@
       "uv": 8,
       "sunrise": "2026-04-21T05:57",
       "sunset": "2026-04-21T19:17",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
+      "predicted_score": 56,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-04-22",
-      "high_f": 78,
-      "low_f": 58,
+      "high_f": 76,
+      "low_f": 57,
       "rain_pct": 1,
       "uv": 8,
       "sunrise": "2026-04-22T05:56",
       "sunset": "2026-04-22T19:18",
-      "predicted_score": 88,
-      "score_label": "Great day to go"
+      "predicted_score": 74,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-04-23",
@@ -81,20 +84,20 @@
       "uv": 8,
       "sunrise": "2026-04-23T05:55",
       "sunset": "2026-04-23T19:19",
-      "predicted_score": 88,
-      "score_label": "Great day to go"
+      "predicted_score": 74,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-04-24",
-      "high_f": 86,
+      "high_f": 84,
       "low_f": 66,
       "rain_pct": 0,
       "uv": 7,
       "sunrise": "2026-04-24T05:53",
       "sunset": "2026-04-24T19:20",
-      "predicted_score": 70,
+      "predicted_score": 74,
       "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-04-20T17:26:12.185699+00:00"
+  "updated_at": "2026-04-20T17:45:38.998596+00:00"
 }
