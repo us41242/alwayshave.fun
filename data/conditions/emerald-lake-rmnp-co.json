@@ -17,8 +17,8 @@
   "notes": "Timed entry permit required Jun\u2013Oct; Bear Lake Rd closes seasonally",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 50,
-  "score_label": "Use caution",
+  "score": 42,
+  "score_label": "Conditions poor",
   "gear_flags": [
     "wind layer recommended",
     "insulation layer required",
@@ -26,9 +26,9 @@
   ],
   "current": {
     "temp_f": 32,
-    "feels_like_f": 17,
-    "wind_mph": 20,
-    "gusts_mph": 24,
+    "feels_like_f": 15,
+    "wind_mph": 24,
+    "gusts_mph": 27,
     "rain_pct": 0
   },
   "aqi": {
@@ -38,8 +38,8 @@
     "source": "open-meteo"
   },
   "fire": {
-    "risk_level": "low",
-    "nearest_fire_km": null,
+    "risk_level": "moderate",
+    "nearest_fire_km": 81.4,
     "fire_count_50km": 0
   },
   "river": null,
@@ -52,8 +52,8 @@
       "uv": 7,
       "sunrise": "2026-04-20T06:16",
       "sunset": "2026-04-20T19:46",
-      "predicted_score": 90,
-      "score_label": "Great day to go"
+      "predicted_score": 82,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-04-21",
@@ -63,7 +63,7 @@
       "uv": 8,
       "sunrise": "2026-04-21T06:14",
       "sunset": "2026-04-21T19:47",
-      "predicted_score": 78,
+      "predicted_score": 70,
       "score_label": "Good conditions"
     },
     {
@@ -74,7 +74,7 @@
       "uv": 8,
       "sunrise": "2026-04-22T06:13",
       "sunset": "2026-04-22T19:48",
-      "predicted_score": 60,
+      "predicted_score": 52,
       "score_label": "Use caution"
     },
     {
@@ -85,7 +85,7 @@
       "uv": 8,
       "sunrise": "2026-04-23T06:12",
       "sunset": "2026-04-23T19:49",
-      "predicted_score": 60,
+      "predicted_score": 52,
       "score_label": "Use caution"
     },
     {
@@ -96,9 +96,9 @@
       "uv": 8,
       "sunrise": "2026-04-24T06:10",
       "sunset": "2026-04-24T19:50",
-      "predicted_score": 50,
-      "score_label": "Use caution"
+      "predicted_score": 42,
+      "score_label": "Conditions poor"
     }
   ],
-  "updated_at": "2026-04-20T08:28:20.133558+00:00"
+  "updated_at": "2026-04-20T08:50:09.628050+00:00"
 }
