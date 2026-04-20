@@ -17,21 +17,19 @@
   "notes": "Sandstone scrambling \u2014 watch for rattlesnakes spring",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 90,
+  "score": 100,
   "score_label": "Great day to go",
-  "gear_flags": [
-    "mask for sensitive groups"
-  ],
+  "gear_flags": [],
   "current": {
-    "temp_f": 73,
-    "feels_like_f": 65,
+    "temp_f": 71,
+    "feels_like_f": 63,
     "wind_mph": 6,
-    "gusts_mph": 13,
+    "gusts_mph": 12,
     "rain_pct": 0
   },
   "aqi": {
-    "aqi": 51,
-    "category": "Moderate",
+    "aqi": 48,
+    "category": "Good",
     "pollutant": "O3",
     "source": "airnow"
   },
@@ -50,8 +48,8 @@
       "uv": 7,
       "sunrise": "2026-04-19T06:54",
       "sunset": "2026-04-19T20:13",
-      "predicted_score": 78,
-      "score_label": "Good conditions"
+      "predicted_score": 88,
+      "score_label": "Great day to go"
     },
     {
       "date": "2026-04-20",
@@ -61,8 +59,8 @@
       "uv": 8,
       "sunrise": "2026-04-20T06:52",
       "sunset": "2026-04-20T20:13",
-      "predicted_score": 78,
-      "score_label": "Good conditions"
+      "predicted_score": 88,
+      "score_label": "Great day to go"
     },
     {
       "date": "2026-04-21",
@@ -72,8 +70,8 @@
       "uv": 8,
       "sunrise": "2026-04-21T06:51",
       "sunset": "2026-04-21T20:14",
-      "predicted_score": 78,
-      "score_label": "Good conditions"
+      "predicted_score": 88,
+      "score_label": "Great day to go"
     },
     {
       "date": "2026-04-22",
@@ -83,7 +81,7 @@
       "uv": 8,
       "sunrise": "2026-04-22T06:50",
       "sunset": "2026-04-22T20:15",
-      "predicted_score": 90,
+      "predicted_score": 100,
       "score_label": "Great day to go"
     },
     {
@@ -94,9 +92,9 @@
       "uv": 8,
       "sunrise": "2026-04-23T06:48",
       "sunset": "2026-04-23T20:16",
-      "predicted_score": 90,
+      "predicted_score": 100,
       "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-04-20T02:06:45.702186+00:00"
+  "updated_at": "2026-04-20T02:25:06.311446+00:00"
 }
