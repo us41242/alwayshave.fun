@@ -24,10 +24,10 @@
   ],
   "current": {
     "temp_f": 66,
-    "feels_like_f": 61,
+    "feels_like_f": 62,
     "wind_mph": 8,
-    "gusts_mph": 12,
-    "rain_pct": 0
+    "gusts_mph": 10,
+    "rain_pct": 1
   },
   "aqi": {
     "aqi": 67,
@@ -44,9 +44,9 @@
   "forecast": [
     {
       "date": "2026-04-20",
-      "high_f": 67,
+      "high_f": 68,
       "low_f": 43,
-      "rain_pct": 2,
+      "rain_pct": 3,
       "uv": 8,
       "sunrise": "2026-04-20T05:48",
       "sunset": "2026-04-20T19:06",
@@ -98,5 +98,5 @@
       "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-04-20T18:23:25.319803+00:00"
+  "updated_at": "2026-04-20T18:43:52.976555+00:00"
 }
