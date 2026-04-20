@@ -17,14 +17,14 @@
   "notes": "4WD required; no services for 50 miles",
   "dog_friendly": "Yes",
   "vehicle_req": "4WD",
-  "score": 52,
-  "score_label": "Use caution",
+  "score": 80,
+  "score_label": "Good conditions",
   "gear_flags": [],
   "current": {
-    "temp_f": 48,
-    "feels_like_f": 40,
-    "wind_mph": 5,
-    "gusts_mph": 5,
+    "temp_f": 49,
+    "feels_like_f": 42,
+    "wind_mph": 2,
+    "gusts_mph": 2,
     "rain_pct": 0
   },
   "aqi": {
@@ -39,6 +39,62 @@
     "fire_count_50km": 0
   },
   "river": null,
-  "forecast": [],
-  "updated_at": "2026-04-20T09:03:42.130467+00:00"
+  "forecast": [
+    {
+      "date": "2026-04-20",
+      "high_f": 63,
+      "low_f": 47,
+      "rain_pct": 1,
+      "uv": 8,
+      "sunrise": "2026-04-20T05:55",
+      "sunset": "2026-04-20T19:14",
+      "predicted_score": 92,
+      "score_label": "Great day to go"
+    },
+    {
+      "date": "2026-04-21",
+      "high_f": 61,
+      "low_f": 40,
+      "rain_pct": 0,
+      "uv": 8,
+      "sunrise": "2026-04-21T05:54",
+      "sunset": "2026-04-21T19:15",
+      "predicted_score": 92,
+      "score_label": "Great day to go"
+    },
+    {
+      "date": "2026-04-22",
+      "high_f": 49,
+      "low_f": 34,
+      "rain_pct": 1,
+      "uv": 8,
+      "sunrise": "2026-04-22T05:52",
+      "sunset": "2026-04-22T19:16",
+      "predicted_score": 80,
+      "score_label": "Good conditions"
+    },
+    {
+      "date": "2026-04-23",
+      "high_f": 54,
+      "low_f": 36,
+      "rain_pct": 0,
+      "uv": 8,
+      "sunrise": "2026-04-23T05:51",
+      "sunset": "2026-04-23T19:17",
+      "predicted_score": 92,
+      "score_label": "Great day to go"
+    },
+    {
+      "date": "2026-04-24",
+      "high_f": 57,
+      "low_f": 43,
+      "rain_pct": 1,
+      "uv": 7,
+      "sunrise": "2026-04-24T05:50",
+      "sunset": "2026-04-24T19:18",
+      "predicted_score": 92,
+      "score_label": "Great day to go"
+    }
+  ],
+  "updated_at": "2026-04-20T09:22:59.783815+00:00"
 }
