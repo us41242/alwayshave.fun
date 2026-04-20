@@ -17,8 +17,8 @@
   "notes": "4WD required; no services for 50 miles",
   "dog_friendly": "Yes",
   "vehicle_req": "4WD",
-  "score": 30,
-  "score_label": "Conditions poor",
+  "score": 22,
+  "score_label": "Stay home",
   "gear_flags": [],
   "current": {
     "temp_f": 60,
@@ -34,11 +34,11 @@
     "source": "none"
   },
   "fire": {
-    "risk_level": "low",
-    "nearest_fire_km": null,
+    "risk_level": "moderate",
+    "nearest_fire_km": 78.6,
     "fire_count_50km": 0
   },
   "river": null,
   "forecast": [],
-  "updated_at": "2026-04-20T18:03:00.875812+00:00"
+  "updated_at": "2026-04-20T18:22:23.812579+00:00"
 }
