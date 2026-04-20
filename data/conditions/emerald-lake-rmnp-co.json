@@ -23,10 +23,10 @@
     "N95 mask recommended"
   ],
   "current": {
-    "temp_f": 52,
-    "feels_like_f": 41,
-    "wind_mph": 13,
-    "gusts_mph": 20,
+    "temp_f": 51,
+    "feels_like_f": 40,
+    "wind_mph": 12,
+    "gusts_mph": 19,
     "rain_pct": 0
   },
   "aqi": {
@@ -66,8 +66,8 @@
     },
     {
       "date": "2026-04-22",
-      "high_f": 55,
-      "low_f": 26,
+      "high_f": 54,
+      "low_f": 23,
       "rain_pct": 32,
       "uv": 8,
       "sunrise": "2026-04-22T06:13",
@@ -77,26 +77,26 @@
     },
     {
       "date": "2026-04-23",
-      "high_f": 33,
-      "low_f": 22,
+      "high_f": 38,
+      "low_f": 20,
       "rain_pct": 49,
       "uv": 8,
       "sunrise": "2026-04-23T06:12",
       "sunset": "2026-04-23T19:49",
-      "predicted_score": 32,
+      "predicted_score": 42,
       "score_label": "Conditions poor"
     },
     {
       "date": "2026-04-24",
-      "high_f": 40,
+      "high_f": 42,
       "low_f": 21,
       "rain_pct": 63,
-      "uv": 8,
+      "uv": 7,
       "sunrise": "2026-04-24T06:10",
       "sunset": "2026-04-24T19:50",
       "predicted_score": 32,
       "score_label": "Conditions poor"
     }
   ],
-  "updated_at": "2026-04-20T23:08:31.751705+00:00"
+  "updated_at": "2026-04-20T23:29:41.338389+00:00"
 }

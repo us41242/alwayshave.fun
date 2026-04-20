@@ -23,8 +23,8 @@
   "current": {
     "temp_f": 76,
     "feels_like_f": 66,
-    "wind_mph": 14,
-    "gusts_mph": 17,
+    "wind_mph": 15,
+    "gusts_mph": 18,
     "rain_pct": 1
   },
   "aqi": {
@@ -39,7 +39,7 @@
     "fire_count_50km": 0
   },
   "river": {
-    "cfs": 8310,
+    "cfs": 8350,
     "stage": "flood"
   },
   "forecast": [
@@ -99,5 +99,5 @@
       "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-04-20T23:01:21.782354+00:00"
+  "updated_at": "2026-04-20T23:21:24.194088+00:00"
 }

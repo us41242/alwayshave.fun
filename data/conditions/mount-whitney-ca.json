@@ -17,25 +17,24 @@
   "notes": "Permit required May\u2013Nov; altitude sickness risk \u2014 acclimatize first",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 42,
-  "score_label": "Conditions poor",
+  "score": 22,
+  "score_label": "Stay home",
   "gear_flags": [
     "wind layer recommended",
-    "insulation layer required",
-    "mask for sensitive groups"
+    "insulation layer required"
   ],
   "current": {
-    "temp_f": 22,
-    "feels_like_f": 7,
+    "temp_f": 21,
+    "feels_like_f": 6,
     "wind_mph": 24,
-    "gusts_mph": 33,
+    "gusts_mph": 34,
     "rain_pct": 0
   },
   "aqi": {
-    "aqi": 61,
-    "category": "Moderate",
-    "pollutant": "PM10",
-    "source": "airnow"
+    "aqi": null,
+    "category": "Unknown",
+    "pollutant": "",
+    "source": "none"
   },
   "fire": {
     "risk_level": "moderate",
@@ -49,59 +48,59 @@
   "forecast": [
     {
       "date": "2026-04-20",
-      "high_f": 22,
+      "high_f": 23,
       "low_f": 8,
       "rain_pct": 0,
       "uv": 9,
       "sunrise": "2026-04-20T06:12",
       "sunset": "2026-04-20T19:31",
-      "predicted_score": 42,
-      "score_label": "Conditions poor"
+      "predicted_score": 22,
+      "score_label": "Stay home"
     },
     {
       "date": "2026-04-21",
       "high_f": 15,
       "low_f": 0,
       "rain_pct": 50,
-      "uv": 8,
+      "uv": 7,
       "sunrise": "2026-04-21T06:11",
       "sunset": "2026-04-21T19:32",
-      "predicted_score": 42,
-      "score_label": "Conditions poor"
+      "predicted_score": 22,
+      "score_label": "Stay home"
     },
     {
       "date": "2026-04-22",
-      "high_f": 14,
+      "high_f": 16,
       "low_f": -4,
       "rain_pct": 25,
       "uv": 10,
       "sunrise": "2026-04-22T06:09",
       "sunset": "2026-04-22T19:33",
-      "predicted_score": 42,
-      "score_label": "Conditions poor"
+      "predicted_score": 22,
+      "score_label": "Stay home"
     },
     {
       "date": "2026-04-23",
-      "high_f": 23,
-      "low_f": 7,
+      "high_f": 24,
+      "low_f": 5,
       "rain_pct": 2,
       "uv": 9,
       "sunrise": "2026-04-23T06:08",
       "sunset": "2026-04-23T19:34",
-      "predicted_score": 42,
-      "score_label": "Conditions poor"
+      "predicted_score": 22,
+      "score_label": "Stay home"
     },
     {
       "date": "2026-04-24",
-      "high_f": 19,
+      "high_f": 25,
       "low_f": 14,
       "rain_pct": 5,
-      "uv": 7,
+      "uv": 8,
       "sunrise": "2026-04-24T06:07",
       "sunset": "2026-04-24T19:35",
-      "predicted_score": 42,
-      "score_label": "Conditions poor"
+      "predicted_score": 22,
+      "score_label": "Stay home"
     }
   ],
-  "updated_at": "2026-04-20T23:09:41.285022+00:00"
+  "updated_at": "2026-04-20T23:31:49.437762+00:00"
 }

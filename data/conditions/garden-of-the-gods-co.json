@@ -23,14 +23,14 @@
     "N95 mask recommended"
   ],
   "current": {
-    "temp_f": 76,
+    "temp_f": 75,
     "feels_like_f": 64,
     "wind_mph": 11,
-    "gusts_mph": 17,
+    "gusts_mph": 15,
     "rain_pct": 0
   },
   "aqi": {
-    "aqi": 101,
+    "aqi": 108,
     "category": "Unhealthy for Sensitive Groups",
     "pollutant": "O3",
     "source": "airnow"
@@ -56,7 +56,7 @@
     {
       "date": "2026-04-21",
       "high_f": 78,
-      "low_f": 51,
+      "low_f": 53,
       "rain_pct": 1,
       "uv": 8,
       "sunrise": "2026-04-21T06:13",
@@ -77,8 +77,8 @@
     },
     {
       "date": "2026-04-23",
-      "high_f": 63,
-      "low_f": 43,
+      "high_f": 64,
+      "low_f": 42,
       "rain_pct": 13,
       "uv": 8,
       "sunrise": "2026-04-23T06:11",
@@ -88,15 +88,15 @@
     },
     {
       "date": "2026-04-24",
-      "high_f": 65,
-      "low_f": 41,
+      "high_f": 63,
+      "low_f": 42,
       "rain_pct": 23,
-      "uv": 8,
+      "uv": 7,
       "sunrise": "2026-04-24T06:09",
       "sunset": "2026-04-24T19:45",
       "predicted_score": 60,
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-04-20T23:08:30.198666+00:00"
+  "updated_at": "2026-04-20T23:28:54.233375+00:00"
 }
