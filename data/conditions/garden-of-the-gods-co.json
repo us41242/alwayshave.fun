@@ -24,7 +24,7 @@
   ],
   "current": {
     "temp_f": 76,
-    "feels_like_f": 67,
+    "feels_like_f": 68,
     "wind_mph": 12,
     "gusts_mph": 19,
     "rain_pct": 0
@@ -44,7 +44,7 @@
   "forecast": [
     {
       "date": "2026-04-20",
-      "high_f": 77,
+      "high_f": 76,
       "low_f": 38,
       "rain_pct": 0,
       "uv": 8,
@@ -56,7 +56,7 @@
     {
       "date": "2026-04-21",
       "high_f": 78,
-      "low_f": 50,
+      "low_f": 51,
       "rain_pct": 1,
       "uv": 8,
       "sunrise": "2026-04-21T06:13",
@@ -98,5 +98,5 @@
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-04-20T20:26:51.525655+00:00"
+  "updated_at": "2026-04-20T20:49:03.332189+00:00"
 }
