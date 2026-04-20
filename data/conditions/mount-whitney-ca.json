@@ -24,8 +24,8 @@
     "insulation layer required"
   ],
   "current": {
-    "temp_f": 9,
-    "feels_like_f": -5,
+    "temp_f": 10,
+    "feels_like_f": -4,
     "wind_mph": 15,
     "gusts_mph": 25,
     "rain_pct": 0
@@ -48,7 +48,7 @@
   "forecast": [
     {
       "date": "2026-04-20",
-      "high_f": 22,
+      "high_f": 21,
       "low_f": 9,
       "rain_pct": 0,
       "uv": 9,
@@ -102,5 +102,5 @@
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-04-20T09:27:44.597318+00:00"
+  "updated_at": "2026-04-20T09:49:22.880981+00:00"
 }
