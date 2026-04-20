@@ -17,14 +17,14 @@
   "notes": "High-clearance vehicle required for access road",
   "dog_friendly": "Yes",
   "vehicle_req": "High-Clearance",
-  "score": 88,
+  "score": 100,
   "score_label": "Great day to go",
   "gear_flags": [],
   "current": {
-    "temp_f": 49,
-    "feels_like_f": 42,
-    "wind_mph": 4,
-    "gusts_mph": 4,
+    "temp_f": 50,
+    "feels_like_f": 44,
+    "wind_mph": 3,
+    "gusts_mph": 3,
     "rain_pct": 0
   },
   "aqi": {
@@ -46,7 +46,7 @@
     {
       "date": "2026-04-20",
       "high_f": 80,
-      "low_f": 43,
+      "low_f": 42,
       "rain_pct": 1,
       "uv": 8,
       "sunrise": "2026-04-20T05:48",
@@ -99,5 +99,5 @@
       "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-04-20T14:21:17.133505+00:00"
+  "updated_at": "2026-04-20T14:41:15.984202+00:00"
 }
