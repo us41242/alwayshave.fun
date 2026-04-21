@@ -17,10 +17,10 @@
   "notes": "Free entry; busy weekends \u2014 arrive before 9am",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 44,
-  "score_label": "Conditions poor",
+  "score": 26,
+  "score_label": "Stay home",
   "gear_flags": [
-    "wind layer recommended",
+    "N95 mask recommended",
     "N95 mask recommended for wildfire smoke"
   ],
   "current": {
@@ -31,10 +31,10 @@
     "rain_pct": 0
   },
   "aqi": {
-    "aqi": null,
-    "category": "Unknown",
-    "pollutant": "",
-    "source": "none"
+    "aqi": 105,
+    "category": "Unhealthy for Sensitive Groups",
+    "pollutant": "O3",
+    "source": "airnow"
   },
   "fire": {
     "risk_level": "elevated",
@@ -42,62 +42,6 @@
     "fire_count_50km": 6
   },
   "river": null,
-  "forecast": [
-    {
-      "date": "2026-04-21",
-      "high_f": 79,
-      "low_f": 48,
-      "rain_pct": 0,
-      "uv": 8,
-      "sunrise": "2026-04-21T06:13",
-      "sunset": "2026-04-21T19:42",
-      "predicted_score": 44,
-      "score_label": "Conditions poor"
-    },
-    {
-      "date": "2026-04-22",
-      "high_f": 79,
-      "low_f": 48,
-      "rain_pct": 0,
-      "uv": 8,
-      "sunrise": "2026-04-22T06:12",
-      "sunset": "2026-04-22T19:43",
-      "predicted_score": 44,
-      "score_label": "Conditions poor"
-    },
-    {
-      "date": "2026-04-23",
-      "high_f": 60,
-      "low_f": 44,
-      "rain_pct": 12,
-      "uv": 8,
-      "sunrise": "2026-04-23T06:11",
-      "sunset": "2026-04-23T19:44",
-      "predicted_score": 44,
-      "score_label": "Conditions poor"
-    },
-    {
-      "date": "2026-04-24",
-      "high_f": 64,
-      "low_f": 45,
-      "rain_pct": 6,
-      "uv": 8,
-      "sunrise": "2026-04-24T06:09",
-      "sunset": "2026-04-24T19:45",
-      "predicted_score": 56,
-      "score_label": "Use caution"
-    },
-    {
-      "date": "2026-04-25",
-      "high_f": 63,
-      "low_f": 41,
-      "rain_pct": 25,
-      "uv": 7,
-      "sunrise": "2026-04-25T06:08",
-      "sunset": "2026-04-25T19:46",
-      "predicted_score": 44,
-      "score_label": "Conditions poor"
-    }
-  ],
-  "updated_at": "2026-04-21T22:31:05.123742+00:00"
+  "forecast": [],
+  "updated_at": "2026-04-21T22:48:50.332416+00:00"
 }
