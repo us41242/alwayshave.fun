@@ -20,6 +20,7 @@
   "score": 90,
   "score_label": "Great day to go",
   "gear_flags": [
+    "wind layer recommended",
     "mask for sensitive groups"
   ],
   "current": {
@@ -41,7 +42,7 @@
     "fire_count_50km": 0
   },
   "river": {
-    "cfs": 8350,
+    "cfs": 8310,
     "stage": "flood"
   },
   "forecast": [
@@ -101,5 +102,5 @@
       "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-04-21T07:23:31.391961+00:00"
+  "updated_at": "2026-04-21T07:43:54.449960+00:00"
 }
