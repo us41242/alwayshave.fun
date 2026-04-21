@@ -3,7 +3,7 @@ title: "🐕 DOG-FRIENDLY: Garden of the Gods CO — Score 62, Cold but Open, Ma
 meta_description: "Garden of the Gods trail conditions April 20 2026 — score 62/100 Use Caution. 38°F, AQI 44, 3.5mi easy loop. Dog-friendly. Caution for cold and moderate fire risk."
 trail_slug: garden-of-the-gods-co
 trail_name: Garden of the Gods Main Loop
-dog_friendly: Yes
+dog_friendly: true
 state: co
 date: 2026-04-20
 score: 62

@@ -3,7 +3,7 @@ title: "🐕 DOG-FRIENDLY: Hoover Dam Trail NV — Score 86, Riley Approved, Go 
 meta_description: "Hoover Dam Trail Nevada conditions April 20 2026 — score 86/100 Great day to go. 58°F, AQI 40, easy 3.4mi. Dogs welcome. One fire 40km out, monitored."
 trail_slug: hoover-dam-trail-nv
 trail_name: Hoover Dam Trail
-dog_friendly: Yes
+dog_friendly: true
 state: nv
 date: 2026-04-20
 score: 86

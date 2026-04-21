@@ -3,7 +3,7 @@ title: "NO DOGS: Marlette Lake Trail CA — Score 70, Good Conditions, But Dress
 meta_description: "Marlette Lake Trail Nevada/CA conditions April 20 2026 — score 70/100 Good conditions. 37°F at elevation, AQI 27, 10.5mi moderate. No dogs, bike-legal trail."
 trail_slug: marlette-lake-ca
 trail_name: Marlette Lake Trail
-dog_friendly: No
+dog_friendly: false
 state: ca
 date: 2026-04-20
 score: 70
