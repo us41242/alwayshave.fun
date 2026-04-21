@@ -30,9 +30,9 @@
     "rain_pct": 0
   },
   "aqi": {
-    "aqi": 44,
+    "aqi": 43,
     "category": "Good",
-    "pollutant": "PM10",
+    "pollutant": "O3",
     "source": "airnow"
   },
   "fire": {
@@ -98,5 +98,5 @@
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-04-21T16:07:56.364970+00:00"
+  "updated_at": "2026-04-21T16:27:34.728762+00:00"
 }
