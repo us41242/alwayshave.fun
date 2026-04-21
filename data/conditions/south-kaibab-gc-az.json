@@ -17,9 +17,11 @@
   "notes": "No water on trail \u2014 carry all water",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 70,
-  "score_label": "Good conditions",
-  "gear_flags": [],
+  "score": 50,
+  "score_label": "Use caution",
+  "gear_flags": [
+    "mask for sensitive groups"
+  ],
   "current": {
     "temp_f": 56,
     "feels_like_f": 48,
@@ -28,10 +30,10 @@
     "rain_pct": 0
   },
   "aqi": {
-    "aqi": null,
-    "category": "Unknown",
-    "pollutant": "",
-    "source": "none"
+    "aqi": 71,
+    "category": "Moderate",
+    "pollutant": "O3",
+    "source": "airnow"
   },
   "fire": {
     "risk_level": "low",
@@ -39,62 +41,6 @@
     "fire_count_50km": 0
   },
   "river": null,
-  "forecast": [
-    {
-      "date": "2026-04-20",
-      "high_f": 68,
-      "low_f": 43,
-      "rain_pct": 2,
-      "uv": 8,
-      "sunrise": "2026-04-20T05:48",
-      "sunset": "2026-04-20T19:06",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
-    },
-    {
-      "date": "2026-04-21",
-      "high_f": 67,
-      "low_f": 43,
-      "rain_pct": 0,
-      "uv": 8,
-      "sunrise": "2026-04-21T05:47",
-      "sunset": "2026-04-21T19:07",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
-    },
-    {
-      "date": "2026-04-22",
-      "high_f": 59,
-      "low_f": 40,
-      "rain_pct": 1,
-      "uv": 8,
-      "sunrise": "2026-04-22T05:45",
-      "sunset": "2026-04-22T19:07",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
-    },
-    {
-      "date": "2026-04-23",
-      "high_f": 58,
-      "low_f": 35,
-      "rain_pct": 0,
-      "uv": 8,
-      "sunrise": "2026-04-23T05:44",
-      "sunset": "2026-04-23T19:08",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
-    },
-    {
-      "date": "2026-04-24",
-      "high_f": 56,
-      "low_f": 39,
-      "rain_pct": 1,
-      "uv": 7,
-      "sunrise": "2026-04-24T05:43",
-      "sunset": "2026-04-24T19:09",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
-    }
-  ],
-  "updated_at": "2026-04-21T03:28:52.068113+00:00"
+  "forecast": [],
+  "updated_at": "2026-04-21T03:44:21.343621+00:00"
 }
