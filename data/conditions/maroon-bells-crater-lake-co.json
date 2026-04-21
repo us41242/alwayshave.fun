@@ -19,16 +19,18 @@
   "vehicle_req": "Any",
   "score": 60,
   "score_label": "Use caution",
-  "gear_flags": [],
+  "gear_flags": [
+    "insulation layer required"
+  ],
   "current": {
     "temp_f": 32,
     "feels_like_f": 24,
-    "wind_mph": 5,
-    "gusts_mph": 8,
+    "wind_mph": 4,
+    "gusts_mph": 6,
     "rain_pct": 0
   },
   "aqi": {
-    "aqi": 48,
+    "aqi": 47,
     "category": "Good",
     "pollutant": "O3",
     "source": "airnow"
@@ -39,6 +41,62 @@
     "fire_count_50km": 0
   },
   "river": null,
-  "forecast": [],
-  "updated_at": "2026-04-21T04:06:51.286373+00:00"
+  "forecast": [
+    {
+      "date": "2026-04-20",
+      "high_f": 40,
+      "low_f": 22,
+      "rain_pct": 0,
+      "uv": 9,
+      "sunrise": "2026-04-20T06:23",
+      "sunset": "2026-04-20T19:49",
+      "predicted_score": 88,
+      "score_label": "Great day to go"
+    },
+    {
+      "date": "2026-04-21",
+      "high_f": 43,
+      "low_f": 28,
+      "rain_pct": 11,
+      "uv": 9,
+      "sunrise": "2026-04-21T06:22",
+      "sunset": "2026-04-21T19:50",
+      "predicted_score": 88,
+      "score_label": "Great day to go"
+    },
+    {
+      "date": "2026-04-22",
+      "high_f": 38,
+      "low_f": 16,
+      "rain_pct": 17,
+      "uv": 9,
+      "sunrise": "2026-04-22T06:20",
+      "sunset": "2026-04-22T19:51",
+      "predicted_score": 70,
+      "score_label": "Good conditions"
+    },
+    {
+      "date": "2026-04-23",
+      "high_f": 28,
+      "low_f": 10,
+      "rain_pct": 35,
+      "uv": 9,
+      "sunrise": "2026-04-23T06:19",
+      "sunset": "2026-04-23T19:52",
+      "predicted_score": 60,
+      "score_label": "Use caution"
+    },
+    {
+      "date": "2026-04-24",
+      "high_f": 32,
+      "low_f": 18,
+      "rain_pct": 22,
+      "uv": 8,
+      "sunrise": "2026-04-24T06:18",
+      "sunset": "2026-04-24T19:53",
+      "predicted_score": 60,
+      "score_label": "Use caution"
+    }
+  ],
+  "updated_at": "2026-04-21T04:27:33.927568+00:00"
 }

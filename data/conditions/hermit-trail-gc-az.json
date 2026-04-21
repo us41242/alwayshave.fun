@@ -17,21 +17,21 @@
   "notes": "Unmaintained \u2014 route-finding required",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 90,
-  "score_label": "Great day to go",
+  "score": 78,
+  "score_label": "Good conditions",
   "gear_flags": [
     "wind layer recommended",
     "mask for sensitive groups"
   ],
   "current": {
     "temp_f": 62,
-    "feels_like_f": 52,
-    "wind_mph": 14,
-    "gusts_mph": 21,
+    "feels_like_f": 50,
+    "wind_mph": 16,
+    "gusts_mph": 24,
     "rain_pct": 0
   },
   "aqi": {
-    "aqi": 71,
+    "aqi": 74,
     "category": "Moderate",
     "pollutant": "O3",
     "source": "airnow"
@@ -99,5 +99,5 @@
       "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-04-21T04:03:40.115040+00:00"
+  "updated_at": "2026-04-21T04:23:36.987689+00:00"
 }
