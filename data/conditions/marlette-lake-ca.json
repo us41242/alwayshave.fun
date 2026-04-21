@@ -17,22 +17,21 @@
   "notes": "No cars beyond Spooner Summit; bike-legal trail",
   "dog_friendly": "Yes",
   "vehicle_req": "AWD",
-  "score": 62,
+  "score": 52,
   "score_label": "Use caution",
   "gear_flags": [
     "wind layer recommended",
-    "insulation layer required",
-    "rain gear recommended"
+    "insulation layer required"
   ],
   "current": {
-    "temp_f": 35,
-    "feels_like_f": 26,
-    "wind_mph": 16,
-    "gusts_mph": 28,
-    "rain_pct": 41
+    "temp_f": 34,
+    "feels_like_f": 23,
+    "wind_mph": 17,
+    "gusts_mph": 25,
+    "rain_pct": 35
   },
   "aqi": {
-    "aqi": 41,
+    "aqi": 44,
     "category": "Good",
     "pollutant": "O3",
     "source": "airnow"
@@ -47,7 +46,7 @@
     {
       "date": "2026-04-21",
       "high_f": 38,
-      "low_f": 24,
+      "low_f": 25,
       "rain_pct": 64,
       "uv": 6,
       "sunrise": "2026-04-21T06:13",
@@ -58,7 +57,7 @@
     {
       "date": "2026-04-22",
       "high_f": 35,
-      "low_f": 22,
+      "low_f": 23,
       "rain_pct": 18,
       "uv": 8,
       "sunrise": "2026-04-22T06:12",
@@ -100,5 +99,5 @@
       "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-04-21T20:09:48.012015+00:00"
+  "updated_at": "2026-04-21T20:33:04.982850+00:00"
 }
