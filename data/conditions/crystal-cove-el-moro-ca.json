@@ -42,13 +42,13 @@
   "forecast": [
     {
       "date": "2026-04-21",
-      "high_f": 68,
+      "high_f": 67,
       "low_f": 54,
-      "rain_pct": 10,
+      "rain_pct": 6,
       "uv": 8,
       "sunrise": "2026-04-21T06:13",
       "sunset": "2026-04-21T19:26",
-      "predicted_score": 88,
+      "predicted_score": 100,
       "score_label": "Great day to go"
     },
     {
@@ -96,5 +96,5 @@
       "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-04-21T11:27:32.343142+00:00"
+  "updated_at": "2026-04-21T11:47:40.897100+00:00"
 }
