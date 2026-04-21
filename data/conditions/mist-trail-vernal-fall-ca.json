@@ -24,14 +24,14 @@
     "rain gear recommended"
   ],
   "current": {
-    "temp_f": 49,
+    "temp_f": 48,
     "feels_like_f": 43,
     "wind_mph": 8,
-    "gusts_mph": 27,
+    "gusts_mph": 26,
     "rain_pct": 90
   },
   "aqi": {
-    "aqi": 40,
+    "aqi": 38,
     "category": "Good",
     "pollutant": "O3",
     "source": "airnow"
@@ -99,5 +99,5 @@
       "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-04-21T18:07:54.559318+00:00"
+  "updated_at": "2026-04-21T18:27:25.682162+00:00"
 }

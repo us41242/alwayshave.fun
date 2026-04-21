@@ -17,20 +17,21 @@
   "notes": "Desert wash trail \u2014 no shade",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 42,
-  "score_label": "Conditions poor",
+  "score": 70,
+  "score_label": "Good conditions",
   "gear_flags": [
+    "wind layer recommended",
     "mask for sensitive groups"
   ],
   "current": {
-    "temp_f": 74,
-    "feels_like_f": 63,
-    "wind_mph": 21,
+    "temp_f": 75,
+    "feels_like_f": 64,
+    "wind_mph": 22,
     "gusts_mph": 30,
     "rain_pct": 0
   },
   "aqi": {
-    "aqi": 64,
+    "aqi": 67,
     "category": "Moderate",
     "pollutant": "O3",
     "source": "airnow"
@@ -41,6 +42,62 @@
     "fire_count_50km": 0
   },
   "river": null,
-  "forecast": [],
-  "updated_at": "2026-04-21T18:04:40.236304+00:00"
+  "forecast": [
+    {
+      "date": "2026-04-21",
+      "high_f": 80,
+      "low_f": 57,
+      "rain_pct": 0,
+      "uv": 8,
+      "sunrise": "2026-04-21T05:58",
+      "sunset": "2026-04-21T19:17",
+      "predicted_score": 70,
+      "score_label": "Good conditions"
+    },
+    {
+      "date": "2026-04-22",
+      "high_f": 70,
+      "low_f": 48,
+      "rain_pct": 0,
+      "uv": 7,
+      "sunrise": "2026-04-22T05:57",
+      "sunset": "2026-04-22T19:18",
+      "predicted_score": 82,
+      "score_label": "Good conditions"
+    },
+    {
+      "date": "2026-04-23",
+      "high_f": 72,
+      "low_f": 50,
+      "rain_pct": 0,
+      "uv": 8,
+      "sunrise": "2026-04-23T05:55",
+      "sunset": "2026-04-23T19:19",
+      "predicted_score": 82,
+      "score_label": "Good conditions"
+    },
+    {
+      "date": "2026-04-24",
+      "high_f": 78,
+      "low_f": 53,
+      "rain_pct": 0,
+      "uv": 7,
+      "sunrise": "2026-04-24T05:54",
+      "sunset": "2026-04-24T19:20",
+      "predicted_score": 70,
+      "score_label": "Good conditions"
+    },
+    {
+      "date": "2026-04-25",
+      "high_f": 74,
+      "low_f": 51,
+      "rain_pct": 3,
+      "uv": 8,
+      "sunrise": "2026-04-25T05:53",
+      "sunset": "2026-04-25T19:20",
+      "predicted_score": 82,
+      "score_label": "Good conditions"
+    }
+  ],
+  "updated_at": "2026-04-21T18:23:32.869619+00:00"
 }
