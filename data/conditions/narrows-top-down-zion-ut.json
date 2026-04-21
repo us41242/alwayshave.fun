@@ -17,7 +17,7 @@
   "notes": "Flash flood danger \u2014 check weather 24hr upstream",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 100,
+  "score": 88,
   "score_label": "Great day to go",
   "gear_flags": [],
   "current": {
@@ -35,11 +35,11 @@
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": null,
+    "nearest_fire_km": 482.6,
     "fire_count_50km": 0
   },
   "river": {
-    "cfs": 8770,
+    "cfs": 8520,
     "stage": "flood"
   },
   "forecast": [
@@ -56,7 +56,7 @@
     },
     {
       "date": "2026-04-22",
-      "high_f": 53,
+      "high_f": 52,
       "low_f": 37,
       "rain_pct": 10,
       "uv": 8,
@@ -99,5 +99,5 @@
       "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-04-21T08:04:01.029054+00:00"
+  "updated_at": "2026-04-21T08:23:36.074568+00:00"
 }

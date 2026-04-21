@@ -17,8 +17,8 @@
   "notes": "Near Death Valley \u2014 extreme summer heat",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 90,
-  "score_label": "Great day to go",
+  "score": 50,
+  "score_label": "Use caution",
   "gear_flags": [
     "mask for sensitive groups"
   ],
@@ -30,73 +30,17 @@
     "rain_pct": 0
   },
   "aqi": {
-    "aqi": 100,
+    "aqi": 87,
     "category": "Moderate",
     "pollutant": "O3",
     "source": "airnow"
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": null,
+    "nearest_fire_km": 666.2,
     "fire_count_50km": 0
   },
   "river": null,
-  "forecast": [
-    {
-      "date": "2026-04-21",
-      "high_f": 70,
-      "low_f": 50,
-      "rain_pct": 5,
-      "uv": 8,
-      "sunrise": "2026-04-21T06:04",
-      "sunset": "2026-04-21T19:27",
-      "predicted_score": 90,
-      "score_label": "Great day to go"
-    },
-    {
-      "date": "2026-04-22",
-      "high_f": 65,
-      "low_f": 44,
-      "rain_pct": 2,
-      "uv": 8,
-      "sunrise": "2026-04-22T06:03",
-      "sunset": "2026-04-22T19:28",
-      "predicted_score": 90,
-      "score_label": "Great day to go"
-    },
-    {
-      "date": "2026-04-23",
-      "high_f": 68,
-      "low_f": 48,
-      "rain_pct": 1,
-      "uv": 8,
-      "sunrise": "2026-04-23T06:02",
-      "sunset": "2026-04-23T19:29",
-      "predicted_score": 90,
-      "score_label": "Great day to go"
-    },
-    {
-      "date": "2026-04-24",
-      "high_f": 70,
-      "low_f": 54,
-      "rain_pct": 0,
-      "uv": 8,
-      "sunrise": "2026-04-24T06:00",
-      "sunset": "2026-04-24T19:29",
-      "predicted_score": 90,
-      "score_label": "Great day to go"
-    },
-    {
-      "date": "2026-04-25",
-      "high_f": 65,
-      "low_f": 49,
-      "rain_pct": 17,
-      "uv": 8,
-      "sunrise": "2026-04-25T05:59",
-      "sunset": "2026-04-25T19:30",
-      "predicted_score": 78,
-      "score_label": "Good conditions"
-    }
-  ],
-  "updated_at": "2026-04-21T08:06:38.783052+00:00"
+  "forecast": [],
+  "updated_at": "2026-04-21T08:27:45.636461+00:00"
 }
