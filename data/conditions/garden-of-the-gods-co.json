@@ -17,22 +17,22 @@
   "notes": "Free entry; busy weekends \u2014 arrive before 9am",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 64,
+  "score": 54,
   "score_label": "Use caution",
   "gear_flags": [
-    "mask for sensitive groups",
+    "N95 mask recommended",
     "N95 mask recommended for wildfire smoke"
   ],
   "current": {
     "temp_f": 78,
     "feels_like_f": 71,
-    "wind_mph": 11,
-    "gusts_mph": 17,
+    "wind_mph": 10,
+    "gusts_mph": 16,
     "rain_pct": 0
   },
   "aqi": {
-    "aqi": 97,
-    "category": "Moderate",
+    "aqi": 101,
+    "category": "Unhealthy for Sensitive Groups",
     "pollutant": "O3",
     "source": "airnow"
   },
@@ -51,7 +51,7 @@
       "uv": 8,
       "sunrise": "2026-04-21T06:13",
       "sunset": "2026-04-21T19:42",
-      "predicted_score": 64,
+      "predicted_score": 54,
       "score_label": "Use caution"
     },
     {
@@ -62,7 +62,7 @@
       "uv": 8,
       "sunrise": "2026-04-22T06:12",
       "sunset": "2026-04-22T19:43",
-      "predicted_score": 64,
+      "predicted_score": 54,
       "score_label": "Use caution"
     },
     {
@@ -73,7 +73,7 @@
       "uv": 8,
       "sunrise": "2026-04-23T06:11",
       "sunset": "2026-04-23T19:44",
-      "predicted_score": 64,
+      "predicted_score": 54,
       "score_label": "Use caution"
     },
     {
@@ -84,7 +84,7 @@
       "uv": 8,
       "sunrise": "2026-04-24T06:09",
       "sunset": "2026-04-24T19:45",
-      "predicted_score": 64,
+      "predicted_score": 54,
       "score_label": "Use caution"
     },
     {
@@ -95,9 +95,9 @@
       "uv": 7,
       "sunrise": "2026-04-25T06:08",
       "sunset": "2026-04-25T19:46",
-      "predicted_score": 64,
+      "predicted_score": 54,
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-04-21T20:49:25.557939+00:00"
+  "updated_at": "2026-04-21T21:10:11.050072+00:00"
 }
