@@ -17,23 +17,21 @@
   "notes": "Paved trail \u2014 no permit required",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 78,
-  "score_label": "Good conditions",
-  "gear_flags": [
-    "mask for sensitive groups"
-  ],
+  "score": 58,
+  "score_label": "Use caution",
+  "gear_flags": [],
   "current": {
-    "temp_f": 82,
-    "feels_like_f": 73,
+    "temp_f": 81,
+    "feels_like_f": 72,
     "wind_mph": 9,
-    "gusts_mph": 13,
+    "gusts_mph": 14,
     "rain_pct": 0
   },
   "aqi": {
-    "aqi": 67,
-    "category": "Moderate",
-    "pollutant": "O3",
-    "source": "airnow"
+    "aqi": null,
+    "category": "Unknown",
+    "pollutant": "",
+    "source": "none"
   },
   "fire": {
     "risk_level": "low",
@@ -50,8 +48,8 @@
       "uv": 8,
       "sunrise": "2026-04-20T05:58",
       "sunset": "2026-04-20T19:16",
-      "predicted_score": 60,
-      "score_label": "Use caution"
+      "predicted_score": 40,
+      "score_label": "Conditions poor"
     },
     {
       "date": "2026-04-21",
@@ -61,8 +59,8 @@
       "uv": 8,
       "sunrise": "2026-04-21T05:57",
       "sunset": "2026-04-21T19:17",
-      "predicted_score": 60,
-      "score_label": "Use caution"
+      "predicted_score": 40,
+      "score_label": "Conditions poor"
     },
     {
       "date": "2026-04-22",
@@ -72,8 +70,8 @@
       "uv": 8,
       "sunrise": "2026-04-22T05:56",
       "sunset": "2026-04-22T19:18",
-      "predicted_score": 78,
-      "score_label": "Good conditions"
+      "predicted_score": 58,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-04-23",
@@ -83,8 +81,8 @@
       "uv": 8,
       "sunrise": "2026-04-23T05:55",
       "sunset": "2026-04-23T19:19",
-      "predicted_score": 78,
-      "score_label": "Good conditions"
+      "predicted_score": 58,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-04-24",
@@ -94,9 +92,9 @@
       "uv": 6,
       "sunrise": "2026-04-24T05:53",
       "sunset": "2026-04-24T19:20",
-      "predicted_score": 78,
-      "score_label": "Good conditions"
+      "predicted_score": 58,
+      "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-04-21T02:45:36.884691+00:00"
+  "updated_at": "2026-04-21T03:11:23.764097+00:00"
 }

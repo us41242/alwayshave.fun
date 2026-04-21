@@ -17,21 +17,23 @@
   "notes": "Sandstone scrambling \u2014 watch for rattlesnakes spring",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 100,
+  "score": 90,
   "score_label": "Great day to go",
-  "gear_flags": [],
+  "gear_flags": [
+    "mask for sensitive groups"
+  ],
   "current": {
-    "temp_f": 73,
-    "feels_like_f": 65,
-    "wind_mph": 7,
+    "temp_f": 72,
+    "feels_like_f": 64,
+    "wind_mph": 6,
     "gusts_mph": 17,
     "rain_pct": 0
   },
   "aqi": {
-    "aqi": 46,
-    "category": "Good",
-    "pollutant": "O3",
-    "source": "airnow"
+    "aqi": 83,
+    "category": "Moderate",
+    "pollutant": "PM2.5",
+    "source": "open-meteo"
   },
   "fire": {
     "risk_level": "low",
@@ -48,8 +50,8 @@
       "uv": 7,
       "sunrise": "2026-04-20T06:52",
       "sunset": "2026-04-20T20:13",
-      "predicted_score": 88,
-      "score_label": "Great day to go"
+      "predicted_score": 78,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-04-21",
@@ -59,8 +61,8 @@
       "uv": 8,
       "sunrise": "2026-04-21T06:51",
       "sunset": "2026-04-21T20:14",
-      "predicted_score": 88,
-      "score_label": "Great day to go"
+      "predicted_score": 78,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-04-22",
@@ -70,7 +72,7 @@
       "uv": 7,
       "sunrise": "2026-04-22T06:50",
       "sunset": "2026-04-22T20:15",
-      "predicted_score": 100,
+      "predicted_score": 90,
       "score_label": "Great day to go"
     },
     {
@@ -81,7 +83,7 @@
       "uv": 8,
       "sunrise": "2026-04-23T06:48",
       "sunset": "2026-04-23T20:16",
-      "predicted_score": 100,
+      "predicted_score": 90,
       "score_label": "Great day to go"
     },
     {
@@ -92,9 +94,9 @@
       "uv": 7,
       "sunrise": "2026-04-24T06:47",
       "sunset": "2026-04-24T20:17",
-      "predicted_score": 100,
+      "predicted_score": 90,
       "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-04-21T02:47:25.537599+00:00"
+  "updated_at": "2026-04-21T03:13:36.063807+00:00"
 }
