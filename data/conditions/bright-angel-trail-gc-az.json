@@ -42,14 +42,14 @@
     "fire_count_50km": 0
   },
   "river": {
-    "cfs": 8310,
+    "cfs": 8260,
     "stage": "flood"
   },
   "forecast": [
     {
       "date": "2026-04-21",
-      "high_f": 69,
-      "low_f": 46,
+      "high_f": 68,
+      "low_f": 47,
       "rain_pct": 0,
       "uv": 8,
       "sunrise": "2026-04-21T05:47",
@@ -102,5 +102,5 @@
       "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-04-21T08:23:31.749143+00:00"
+  "updated_at": "2026-04-21T08:43:28.378323+00:00"
 }
