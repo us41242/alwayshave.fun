@@ -17,24 +17,25 @@
   "notes": "Permit required May\u2013Nov; altitude sickness risk \u2014 acclimatize first",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 60,
+  "score": 50,
   "score_label": "Use caution",
   "gear_flags": [
     "wind layer recommended",
-    "insulation layer required"
+    "insulation layer required",
+    "mask for sensitive groups"
   ],
   "current": {
     "temp_f": 8,
-    "feels_like_f": -10,
-    "wind_mph": 28,
+    "feels_like_f": -11,
+    "wind_mph": 29,
     "gusts_mph": 40,
     "rain_pct": 0
   },
   "aqi": {
-    "aqi": 19,
-    "category": "Good",
+    "aqi": 58,
+    "category": "Moderate",
     "pollutant": "PM2.5",
-    "source": "airnow"
+    "source": "open-meteo"
   },
   "fire": {
     "risk_level": "low",
@@ -50,22 +51,22 @@
       "date": "2026-04-21",
       "high_f": 13,
       "low_f": 2,
-      "rain_pct": 52,
+      "rain_pct": 48,
       "uv": 7,
       "sunrise": "2026-04-21T06:11",
       "sunset": "2026-04-21T19:32",
-      "predicted_score": 60,
+      "predicted_score": 50,
       "score_label": "Use caution"
     },
     {
       "date": "2026-04-22",
       "high_f": 13,
       "low_f": -7,
-      "rain_pct": 16,
+      "rain_pct": 12,
       "uv": 9,
       "sunrise": "2026-04-22T06:09",
       "sunset": "2026-04-22T19:33",
-      "predicted_score": 60,
+      "predicted_score": 50,
       "score_label": "Use caution"
     },
     {
@@ -76,7 +77,7 @@
       "uv": 9,
       "sunrise": "2026-04-23T06:08",
       "sunset": "2026-04-23T19:34",
-      "predicted_score": 60,
+      "predicted_score": 50,
       "score_label": "Use caution"
     },
     {
@@ -87,7 +88,7 @@
       "uv": 6,
       "sunrise": "2026-04-24T06:07",
       "sunset": "2026-04-24T19:35",
-      "predicted_score": 60,
+      "predicted_score": 50,
       "score_label": "Use caution"
     },
     {
@@ -98,9 +99,9 @@
       "uv": 6,
       "sunrise": "2026-04-25T06:06",
       "sunset": "2026-04-25T19:36",
-      "predicted_score": 60,
+      "predicted_score": 50,
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-04-21T10:29:31.309670+00:00"
+  "updated_at": "2026-04-21T10:52:53.264376+00:00"
 }
