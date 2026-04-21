@@ -17,16 +17,17 @@
   "notes": "Full loop 34mi \u2014 sections open to bikes/horses",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 86,
-  "score_label": "Great day to go",
+  "score": 74,
+  "score_label": "Good conditions",
   "gear_flags": [
+    "wind layer recommended",
     "N95 mask recommended for wildfire smoke"
   ],
   "current": {
-    "temp_f": 71,
-    "feels_like_f": 62,
-    "wind_mph": 12,
-    "gusts_mph": 17,
+    "temp_f": 73,
+    "feels_like_f": 61,
+    "wind_mph": 16,
+    "gusts_mph": 21,
     "rain_pct": 0
   },
   "aqi": {
@@ -98,5 +99,5 @@
       "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-04-21T15:25:42.344050+00:00"
+  "updated_at": "2026-04-21T15:45:41.054263+00:00"
 }
