@@ -19,7 +19,9 @@
   "vehicle_req": "Any",
   "score": 88,
   "score_label": "Great day to go",
-  "gear_flags": [],
+  "gear_flags": [
+    "insulation layer required"
+  ],
   "current": {
     "temp_f": 45,
     "feels_like_f": 37,
@@ -35,7 +37,7 @@
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": 920.0,
+    "nearest_fire_km": 211.9,
     "fire_count_50km": 0
   },
   "river": null,
@@ -96,5 +98,5 @@
       "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-04-21T09:49:02.408405+00:00"
+  "updated_at": "2026-04-21T10:08:10.654298+00:00"
 }
