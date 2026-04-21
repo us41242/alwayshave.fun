@@ -17,11 +17,9 @@
   "notes": "Desert wash trail \u2014 no shade",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 82,
-  "score_label": "Good conditions",
-  "gear_flags": [
-    "mask for sensitive groups"
-  ],
+  "score": 52,
+  "score_label": "Use caution",
+  "gear_flags": [],
   "current": {
     "temp_f": 65,
     "feels_like_f": 57,
@@ -30,8 +28,8 @@
     "rain_pct": 0
   },
   "aqi": {
-    "aqi": 54,
-    "category": "Moderate",
+    "aqi": 50,
+    "category": "Good",
     "pollutant": "O3",
     "source": "airnow"
   },
@@ -41,62 +39,6 @@
     "fire_count_50km": 0
   },
   "river": null,
-  "forecast": [
-    {
-      "date": "2026-04-21",
-      "high_f": 80,
-      "low_f": 57,
-      "rain_pct": 0,
-      "uv": 8,
-      "sunrise": "2026-04-21T05:58",
-      "sunset": "2026-04-21T19:17",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
-    },
-    {
-      "date": "2026-04-22",
-      "high_f": 70,
-      "low_f": 48,
-      "rain_pct": 0,
-      "uv": 8,
-      "sunrise": "2026-04-22T05:57",
-      "sunset": "2026-04-22T19:18",
-      "predicted_score": 82,
-      "score_label": "Good conditions"
-    },
-    {
-      "date": "2026-04-23",
-      "high_f": 74,
-      "low_f": 50,
-      "rain_pct": 0,
-      "uv": 7,
-      "sunrise": "2026-04-23T05:55",
-      "sunset": "2026-04-23T19:19",
-      "predicted_score": 82,
-      "score_label": "Good conditions"
-    },
-    {
-      "date": "2026-04-24",
-      "high_f": 78,
-      "low_f": 55,
-      "rain_pct": 0,
-      "uv": 8,
-      "sunrise": "2026-04-24T05:54",
-      "sunset": "2026-04-24T19:20",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
-    },
-    {
-      "date": "2026-04-25",
-      "high_f": 74,
-      "low_f": 51,
-      "rain_pct": 4,
-      "uv": 8,
-      "sunrise": "2026-04-25T05:53",
-      "sunset": "2026-04-25T19:20",
-      "predicted_score": 82,
-      "score_label": "Good conditions"
-    }
-  ],
-  "updated_at": "2026-04-21T14:06:02.347798+00:00"
+  "forecast": [],
+  "updated_at": "2026-04-21T14:25:43.831317+00:00"
 }
