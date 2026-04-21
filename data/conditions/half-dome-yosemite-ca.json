@@ -25,11 +25,11 @@
     "rain gear recommended"
   ],
   "current": {
-    "temp_f": 30,
-    "feels_like_f": 20,
-    "wind_mph": 15,
-    "gusts_mph": 26,
-    "rain_pct": 93
+    "temp_f": 31,
+    "feels_like_f": 23,
+    "wind_mph": 8,
+    "gusts_mph": 22,
+    "rain_pct": 92
   },
   "aqi": {
     "aqi": 38,
@@ -39,7 +39,7 @@
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": 131.5,
+    "nearest_fire_km": null,
     "fire_count_50km": 0
   },
   "river": null,
@@ -47,7 +47,7 @@
     {
       "date": "2026-04-21",
       "high_f": 36,
-      "low_f": 23,
+      "low_f": 21,
       "rain_pct": 94,
       "uv": 2,
       "sunrise": "2026-04-21T06:14",
@@ -100,5 +100,5 @@
       "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-04-21T19:07:33.909548+00:00"
+  "updated_at": "2026-04-21T19:29:53.443184+00:00"
 }
