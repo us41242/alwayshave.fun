@@ -17,17 +17,17 @@
   "notes": "Kayak/canoe only \u2014 check river release schedule",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 60,
-  "score_label": "Use caution",
+  "score": 78,
+  "score_label": "Good conditions",
   "gear_flags": [
     "wind layer recommended",
     "mask for sensitive groups"
   ],
   "current": {
-    "temp_f": 88,
+    "temp_f": 85,
     "feels_like_f": 75,
-    "wind_mph": 17,
-    "gusts_mph": 26,
+    "wind_mph": 12,
+    "gusts_mph": 23,
     "rain_pct": 0
   },
   "aqi": {
@@ -56,7 +56,7 @@
     },
     {
       "date": "2026-04-21",
-      "high_f": 90,
+      "high_f": 91,
       "low_f": 66,
       "rain_pct": 0,
       "uv": 8,
@@ -67,9 +67,9 @@
     },
     {
       "date": "2026-04-22",
-      "high_f": 77,
-      "low_f": 59,
-      "rain_pct": 1,
+      "high_f": 80,
+      "low_f": 58,
+      "rain_pct": 0,
       "uv": 8,
       "sunrise": "2026-04-22T05:56",
       "sunset": "2026-04-22T19:18",
@@ -99,5 +99,5 @@
       "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-04-21T01:44:59.379544+00:00"
+  "updated_at": "2026-04-21T02:06:22.710004+00:00"
 }
