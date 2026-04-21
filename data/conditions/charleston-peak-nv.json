@@ -17,7 +17,7 @@
   "notes": "Snow above 9000ft until June \u2014 check SNOTEL",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 60,
+  "score": 52,
   "score_label": "Use caution",
   "gear_flags": [
     "wind layer recommended",
@@ -37,8 +37,8 @@
     "source": "airnow"
   },
   "fire": {
-    "risk_level": "low",
-    "nearest_fire_km": 390.3,
+    "risk_level": "moderate",
+    "nearest_fire_km": 70.9,
     "fire_count_50km": 0
   },
   "river": null,
@@ -51,8 +51,8 @@
       "uv": 8,
       "sunrise": "2026-04-21T06:00",
       "sunset": "2026-04-21T19:21",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
+      "predicted_score": 62,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-04-22",
@@ -62,7 +62,7 @@
       "uv": 8,
       "sunrise": "2026-04-22T05:59",
       "sunset": "2026-04-22T19:22",
-      "predicted_score": 60,
+      "predicted_score": 52,
       "score_label": "Use caution"
     },
     {
@@ -73,8 +73,8 @@
       "uv": 8,
       "sunrise": "2026-04-23T05:58",
       "sunset": "2026-04-23T19:23",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
+      "predicted_score": 62,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-04-24",
@@ -84,8 +84,8 @@
       "uv": 7,
       "sunrise": "2026-04-24T05:57",
       "sunset": "2026-04-24T19:24",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
+      "predicted_score": 62,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-04-25",
@@ -95,9 +95,9 @@
       "uv": 8,
       "sunrise": "2026-04-25T05:56",
       "sunset": "2026-04-25T19:25",
-      "predicted_score": 60,
+      "predicted_score": 52,
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-04-21T12:41:24.635481+00:00"
+  "updated_at": "2026-04-21T13:01:27.386688+00:00"
 }
