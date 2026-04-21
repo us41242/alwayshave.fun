@@ -17,8 +17,8 @@
   "notes": "Flash flood danger \u2014 check weather 24hr upstream",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 88,
-  "score_label": "Great day to go",
+  "score": 60,
+  "score_label": "Use caution",
   "gear_flags": [],
   "current": {
     "temp_f": 47,
@@ -28,7 +28,7 @@
     "rain_pct": 0
   },
   "aqi": {
-    "aqi": 40,
+    "aqi": 38,
     "category": "Good",
     "pollutant": "O3",
     "source": "airnow"
@@ -39,65 +39,9 @@
     "fire_count_50km": 0
   },
   "river": {
-    "cfs": 8350,
+    "cfs": 8240,
     "stage": "flood"
   },
-  "forecast": [
-    {
-      "date": "2026-04-21",
-      "high_f": 69,
-      "low_f": 47,
-      "rain_pct": 1,
-      "uv": 8,
-      "sunrise": "2026-04-21T06:48",
-      "sunset": "2026-04-21T20:12",
-      "predicted_score": 100,
-      "score_label": "Great day to go"
-    },
-    {
-      "date": "2026-04-22",
-      "high_f": 52,
-      "low_f": 37,
-      "rain_pct": 6,
-      "uv": 8,
-      "sunrise": "2026-04-22T06:47",
-      "sunset": "2026-04-22T20:13",
-      "predicted_score": 100,
-      "score_label": "Great day to go"
-    },
-    {
-      "date": "2026-04-23",
-      "high_f": 56,
-      "low_f": 37,
-      "rain_pct": 7,
-      "uv": 8,
-      "sunrise": "2026-04-23T06:45",
-      "sunset": "2026-04-23T20:14",
-      "predicted_score": 100,
-      "score_label": "Great day to go"
-    },
-    {
-      "date": "2026-04-24",
-      "high_f": 57,
-      "low_f": 40,
-      "rain_pct": 2,
-      "uv": 7,
-      "sunrise": "2026-04-24T06:44",
-      "sunset": "2026-04-24T20:15",
-      "predicted_score": 100,
-      "score_label": "Great day to go"
-    },
-    {
-      "date": "2026-04-25",
-      "high_f": 58,
-      "low_f": 41,
-      "rain_pct": 32,
-      "uv": 7,
-      "sunrise": "2026-04-25T06:43",
-      "sunset": "2026-04-25T20:15",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
-    }
-  ],
-  "updated_at": "2026-04-21T10:03:25.122173+00:00"
+  "forecast": [],
+  "updated_at": "2026-04-21T10:24:53.769019+00:00"
 }
