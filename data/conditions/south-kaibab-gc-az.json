@@ -24,10 +24,10 @@
     "mask for sensitive groups"
   ],
   "current": {
-    "temp_f": 52,
-    "feels_like_f": 42,
-    "wind_mph": 12,
-    "gusts_mph": 24,
+    "temp_f": 51,
+    "feels_like_f": 41,
+    "wind_mph": 11,
+    "gusts_mph": 23,
     "rain_pct": 0
   },
   "aqi": {
@@ -78,7 +78,7 @@
     },
     {
       "date": "2026-04-23",
-      "high_f": 58,
+      "high_f": 60,
       "low_f": 35,
       "rain_pct": 0,
       "uv": 8,
@@ -89,8 +89,8 @@
     },
     {
       "date": "2026-04-24",
-      "high_f": 56,
-      "low_f": 39,
+      "high_f": 60,
+      "low_f": 40,
       "rain_pct": 1,
       "uv": 7,
       "sunrise": "2026-04-24T05:43",
@@ -99,5 +99,5 @@
       "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-04-21T05:24:09.796259+00:00"
+  "updated_at": "2026-04-21T05:43:35.988941+00:00"
 }
