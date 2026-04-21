@@ -24,13 +24,13 @@
   ],
   "current": {
     "temp_f": 57,
-    "feels_like_f": 49,
-    "wind_mph": 11,
-    "gusts_mph": 18,
+    "feels_like_f": 50,
+    "wind_mph": 10,
+    "gusts_mph": 17,
     "rain_pct": 0
   },
   "aqi": {
-    "aqi": 102,
+    "aqi": 108,
     "category": "Unhealthy for Sensitive Groups",
     "pollutant": "PM2.5",
     "source": "open-meteo"
@@ -98,5 +98,5 @@
       "score_label": "Conditions poor"
     }
   ],
-  "updated_at": "2026-04-21T21:47:58.584700+00:00"
+  "updated_at": "2026-04-21T22:09:22.780160+00:00"
 }
