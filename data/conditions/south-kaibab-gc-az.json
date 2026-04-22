@@ -17,11 +17,9 @@
   "notes": "No water on trail \u2014 carry all water",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 78,
-  "score_label": "Good conditions",
+  "score": 50,
+  "score_label": "Use caution",
   "gear_flags": [
-    "wind layer recommended",
-    "insulation layer required",
     "mask for sensitive groups"
   ],
   "current": {
@@ -32,7 +30,7 @@
     "rain_pct": 0
   },
   "aqi": {
-    "aqi": 84,
+    "aqi": 74,
     "category": "Moderate",
     "pollutant": "O3",
     "source": "airnow"
@@ -43,62 +41,6 @@
     "fire_count_50km": 0
   },
   "river": null,
-  "forecast": [
-    {
-      "date": "2026-04-22",
-      "high_f": 62,
-      "low_f": 40,
-      "rain_pct": 0,
-      "uv": 8,
-      "sunrise": "2026-04-22T05:45",
-      "sunset": "2026-04-22T19:07",
-      "predicted_score": 90,
-      "score_label": "Great day to go"
-    },
-    {
-      "date": "2026-04-23",
-      "high_f": 57,
-      "low_f": 34,
-      "rain_pct": 1,
-      "uv": 8,
-      "sunrise": "2026-04-23T05:44",
-      "sunset": "2026-04-23T19:08",
-      "predicted_score": 90,
-      "score_label": "Great day to go"
-    },
-    {
-      "date": "2026-04-24",
-      "high_f": 63,
-      "low_f": 39,
-      "rain_pct": 0,
-      "uv": 7,
-      "sunrise": "2026-04-24T05:43",
-      "sunset": "2026-04-24T19:09",
-      "predicted_score": 90,
-      "score_label": "Great day to go"
-    },
-    {
-      "date": "2026-04-25",
-      "high_f": 59,
-      "low_f": 42,
-      "rain_pct": 31,
-      "uv": 7,
-      "sunrise": "2026-04-25T05:42",
-      "sunset": "2026-04-25T19:10",
-      "predicted_score": 60,
-      "score_label": "Use caution"
-    },
-    {
-      "date": "2026-04-26",
-      "high_f": 48,
-      "low_f": 34,
-      "rain_pct": 27,
-      "uv": 6,
-      "sunrise": "2026-04-26T05:40",
-      "sunset": "2026-04-26T19:11",
-      "predicted_score": 78,
-      "score_label": "Good conditions"
-    }
-  ],
-  "updated_at": "2026-04-22T10:03:41.723826+00:00"
+  "forecast": [],
+  "updated_at": "2026-04-22T10:24:45.796259+00:00"
 }

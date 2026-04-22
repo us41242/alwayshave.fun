@@ -17,22 +17,23 @@
   "notes": "Paved trail \u2014 no permit required",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 86,
-  "score_label": "Great day to go",
+  "score": 76,
+  "score_label": "Good conditions",
   "gear_flags": [
     "wind layer recommended",
+    "mask for sensitive groups",
     "N95 mask recommended for wildfire smoke"
   ],
   "current": {
     "temp_f": 64,
-    "feels_like_f": 57,
-    "wind_mph": 10,
+    "feels_like_f": 56,
+    "wind_mph": 11,
     "gusts_mph": 28,
     "rain_pct": 0
   },
   "aqi": {
-    "aqi": 50,
-    "category": "Good",
+    "aqi": 54,
+    "category": "Moderate",
     "pollutant": "O3",
     "source": "airnow"
   },
@@ -51,8 +52,8 @@
       "uv": 7,
       "sunrise": "2026-04-22T05:56",
       "sunset": "2026-04-22T19:18",
-      "predicted_score": 74,
-      "score_label": "Good conditions"
+      "predicted_score": 64,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-04-23",
@@ -62,8 +63,8 @@
       "uv": 7,
       "sunrise": "2026-04-23T05:55",
       "sunset": "2026-04-23T19:19",
-      "predicted_score": 74,
-      "score_label": "Good conditions"
+      "predicted_score": 64,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-04-24",
@@ -73,8 +74,8 @@
       "uv": 8,
       "sunrise": "2026-04-24T05:53",
       "sunset": "2026-04-24T19:20",
-      "predicted_score": 56,
-      "score_label": "Use caution"
+      "predicted_score": 46,
+      "score_label": "Conditions poor"
     },
     {
       "date": "2026-04-25",
@@ -84,8 +85,8 @@
       "uv": 7,
       "sunrise": "2026-04-25T05:52",
       "sunset": "2026-04-25T19:21",
-      "predicted_score": 74,
-      "score_label": "Good conditions"
+      "predicted_score": 64,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-04-26",
@@ -95,9 +96,9 @@
       "uv": 8,
       "sunrise": "2026-04-26T05:51",
       "sunset": "2026-04-26T19:21",
-      "predicted_score": 74,
-      "score_label": "Good conditions"
+      "predicted_score": 64,
+      "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-04-22T10:05:48.269580+00:00"
+  "updated_at": "2026-04-22T10:24:52.221864+00:00"
 }
