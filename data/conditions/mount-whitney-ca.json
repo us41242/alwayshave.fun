@@ -41,7 +41,7 @@
     "fire_count_50km": 0
   },
   "river": {
-    "cfs": 125,
+    "cfs": 122,
     "stage": "normal"
   },
   "forecast": [
@@ -59,7 +59,7 @@
     {
       "date": "2026-04-23",
       "high_f": 18,
-      "low_f": 0,
+      "low_f": -1,
       "rain_pct": 2,
       "uv": 9,
       "sunrise": "2026-04-23T06:08",
@@ -70,7 +70,7 @@
     {
       "date": "2026-04-24",
       "high_f": 25,
-      "low_f": 14,
+      "low_f": 4,
       "rain_pct": 5,
       "uv": 8,
       "sunrise": "2026-04-24T06:07",
@@ -101,5 +101,5 @@
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-04-22T13:48:54.776057+00:00"
+  "updated_at": "2026-04-22T14:08:53.559181+00:00"
 }
