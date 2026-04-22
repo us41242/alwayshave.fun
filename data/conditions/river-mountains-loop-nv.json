@@ -17,17 +17,17 @@
   "notes": "Full loop 34mi \u2014 sections open to bikes/horses",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 64,
-  "score_label": "Use caution",
+  "score": 76,
+  "score_label": "Good conditions",
   "gear_flags": [
     "mask for sensitive groups",
     "N95 mask recommended for wildfire smoke"
   ],
   "current": {
-    "temp_f": 74,
-    "feels_like_f": 62,
-    "wind_mph": 15,
-    "gusts_mph": 18,
+    "temp_f": 73,
+    "feels_like_f": 61,
+    "wind_mph": 14,
+    "gusts_mph": 16,
     "rain_pct": 0
   },
   "aqi": {
@@ -45,9 +45,9 @@
   "forecast": [
     {
       "date": "2026-04-22",
-      "high_f": 74,
+      "high_f": 73,
       "low_f": 54,
-      "rain_pct": 0,
+      "rain_pct": 1,
       "uv": 7,
       "sunrise": "2026-04-22T05:56",
       "sunset": "2026-04-22T19:19",
@@ -67,7 +67,7 @@
     },
     {
       "date": "2026-04-24",
-      "high_f": 82,
+      "high_f": 81,
       "low_f": 55,
       "rain_pct": 0,
       "uv": 7,
@@ -78,8 +78,8 @@
     },
     {
       "date": "2026-04-25",
-      "high_f": 76,
-      "low_f": 52,
+      "high_f": 75,
+      "low_f": 56,
       "rain_pct": 21,
       "uv": 7,
       "sunrise": "2026-04-25T05:53",
@@ -89,15 +89,15 @@
     },
     {
       "date": "2026-04-26",
-      "high_f": 68,
-      "low_f": 48,
+      "high_f": 66,
+      "low_f": 50,
       "rain_pct": 15,
-      "uv": 8,
+      "uv": 7,
       "sunrise": "2026-04-26T05:52",
       "sunset": "2026-04-26T19:22",
       "predicted_score": 64,
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-04-22T23:26:07.408355+00:00"
+  "updated_at": "2026-04-22T23:45:57.310869+00:00"
 }

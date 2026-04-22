@@ -22,9 +22,9 @@
   "gear_flags": [],
   "current": {
     "temp_f": 46,
-    "feels_like_f": 40,
-    "wind_mph": 4,
-    "gusts_mph": 16,
+    "feels_like_f": 37,
+    "wind_mph": 6,
+    "gusts_mph": 17,
     "rain_pct": 0
   },
   "aqi": {
@@ -75,10 +75,10 @@
     },
     {
       "date": "2026-04-25",
-      "high_f": 43,
-      "low_f": 28,
+      "high_f": 44,
+      "low_f": 29,
       "rain_pct": 45,
-      "uv": 7,
+      "uv": 8,
       "sunrise": "2026-04-25T05:55",
       "sunset": "2026-04-25T19:25",
       "predicted_score": 62,
@@ -86,15 +86,15 @@
     },
     {
       "date": "2026-04-26",
-      "high_f": 36,
-      "low_f": 24,
+      "high_f": 32,
+      "low_f": 26,
       "rain_pct": 42,
-      "uv": 4,
+      "uv": 2,
       "sunrise": "2026-04-26T05:54",
       "sunset": "2026-04-26T19:25",
-      "predicted_score": 62,
+      "predicted_score": 52,
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-04-22T23:26:03.987132+00:00"
+  "updated_at": "2026-04-22T23:45:55.012157+00:00"
 }
