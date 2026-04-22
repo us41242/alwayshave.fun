@@ -20,6 +20,7 @@
   "score": 64,
   "score_label": "Use caution",
   "gear_flags": [
+    "wind layer recommended",
     "mask for sensitive groups",
     "N95 mask recommended for wildfire smoke"
   ],
@@ -27,7 +28,7 @@
     "temp_f": 74,
     "feels_like_f": 65,
     "wind_mph": 16,
-    "gusts_mph": 19,
+    "gusts_mph": 21,
     "rain_pct": 0
   },
   "aqi": {
@@ -99,5 +100,5 @@
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-04-22T20:46:01.572712+00:00"
+  "updated_at": "2026-04-22T21:06:27.411652+00:00"
 }
