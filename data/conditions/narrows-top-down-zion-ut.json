@@ -17,10 +17,10 @@
   "notes": "Flash flood danger \u2014 check weather 24hr upstream",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 58,
+  "score": 50,
   "score_label": "Use caution",
   "gear_flags": [
-    "wind layer recommended"
+    "mask for sensitive groups"
   ],
   "current": {
     "temp_f": 56,
@@ -30,10 +30,10 @@
     "rain_pct": 0
   },
   "aqi": {
-    "aqi": null,
-    "category": "Unknown",
-    "pollutant": "",
-    "source": "none"
+    "aqi": 67,
+    "category": "Moderate",
+    "pollutant": "O3",
+    "source": "airnow"
   },
   "fire": {
     "risk_level": "low",
@@ -44,62 +44,6 @@
     "cfs": 8420,
     "stage": "flood"
   },
-  "forecast": [
-    {
-      "date": "2026-04-21",
-      "high_f": 70,
-      "low_f": 44,
-      "rain_pct": 0,
-      "uv": 8,
-      "sunrise": "2026-04-21T06:48",
-      "sunset": "2026-04-21T20:12",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
-    },
-    {
-      "date": "2026-04-22",
-      "high_f": 57,
-      "low_f": 37,
-      "rain_pct": 2,
-      "uv": 8,
-      "sunrise": "2026-04-22T06:47",
-      "sunset": "2026-04-22T20:13",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
-    },
-    {
-      "date": "2026-04-23",
-      "high_f": 59,
-      "low_f": 33,
-      "rain_pct": 5,
-      "uv": 8,
-      "sunrise": "2026-04-23T06:45",
-      "sunset": "2026-04-23T20:14",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
-    },
-    {
-      "date": "2026-04-24",
-      "high_f": 59,
-      "low_f": 41,
-      "rain_pct": 1,
-      "uv": 7,
-      "sunrise": "2026-04-24T06:44",
-      "sunset": "2026-04-24T20:15",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
-    },
-    {
-      "date": "2026-04-25",
-      "high_f": 56,
-      "low_f": 40,
-      "rain_pct": 48,
-      "uv": 6,
-      "sunrise": "2026-04-25T06:43",
-      "sunset": "2026-04-25T20:15",
-      "predicted_score": 40,
-      "score_label": "Conditions poor"
-    }
-  ],
-  "updated_at": "2026-04-22T03:29:40.753788+00:00"
+  "forecast": [],
+  "updated_at": "2026-04-22T03:44:50.822441+00:00"
 }
