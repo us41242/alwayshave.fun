@@ -17,26 +17,28 @@
   "notes": "Coastal trail with beach access; busy weekends \u2014 reserve parking",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 70,
+  "score": 80,
   "score_label": "Good conditions",
-  "gear_flags": [],
+  "gear_flags": [
+    "N95 mask recommended for wildfire smoke"
+  ],
   "current": {
     "temp_f": 66,
-    "feels_like_f": 64,
+    "feels_like_f": 63,
     "wind_mph": 13,
     "gusts_mph": 14,
     "rain_pct": 0
   },
   "aqi": {
-    "aqi": null,
-    "category": "Unknown",
-    "pollutant": "",
-    "source": "none"
+    "aqi": 40,
+    "category": "Good",
+    "pollutant": "PM2.5",
+    "source": "open-meteo"
   },
   "fire": {
-    "risk_level": "low",
-    "nearest_fire_km": null,
-    "fire_count_50km": 0
+    "risk_level": "high",
+    "nearest_fire_km": 5.0,
+    "fire_count_50km": 10
   },
   "river": null,
   "forecast": [
@@ -48,7 +50,7 @@
       "uv": 7,
       "sunrise": "2026-04-22T06:12",
       "sunset": "2026-04-22T19:27",
-      "predicted_score": 70,
+      "predicted_score": 80,
       "score_label": "Good conditions"
     },
     {
@@ -59,7 +61,7 @@
       "uv": 8,
       "sunrise": "2026-04-23T06:10",
       "sunset": "2026-04-23T19:28",
-      "predicted_score": 70,
+      "predicted_score": 80,
       "score_label": "Good conditions"
     },
     {
@@ -70,7 +72,7 @@
       "uv": 8,
       "sunrise": "2026-04-24T06:09",
       "sunset": "2026-04-24T19:29",
-      "predicted_score": 70,
+      "predicted_score": 80,
       "score_label": "Good conditions"
     },
     {
@@ -81,8 +83,8 @@
       "uv": 6,
       "sunrise": "2026-04-25T06:08",
       "sunset": "2026-04-25T19:29",
-      "predicted_score": 40,
-      "score_label": "Conditions poor"
+      "predicted_score": 50,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-04-26",
@@ -92,9 +94,9 @@
       "uv": 8,
       "sunrise": "2026-04-26T06:07",
       "sunset": "2026-04-26T19:30",
-      "predicted_score": 40,
-      "score_label": "Conditions poor"
+      "predicted_score": 50,
+      "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-04-22T21:49:18.287437+00:00"
+  "updated_at": "2026-04-22T22:08:09.460817+00:00"
 }
