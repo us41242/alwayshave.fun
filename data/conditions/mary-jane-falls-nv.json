@@ -17,14 +17,14 @@
   "notes": "Popular weekend trail \u2014 arrive before 8am",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 80,
-  "score_label": "Good conditions",
+  "score": 88,
+  "score_label": "Great day to go",
   "gear_flags": [],
   "current": {
-    "temp_f": 47,
-    "feels_like_f": 43,
-    "wind_mph": 6,
-    "gusts_mph": 19,
+    "temp_f": 48,
+    "feels_like_f": 44,
+    "wind_mph": 4,
+    "gusts_mph": 17,
     "rain_pct": 0
   },
   "aqi": {
@@ -34,8 +34,8 @@
     "source": "airnow"
   },
   "fire": {
-    "risk_level": "moderate",
-    "nearest_fire_km": 67.2,
+    "risk_level": "low",
+    "nearest_fire_km": null,
     "fire_count_50km": 0
   },
   "river": null,
@@ -48,8 +48,8 @@
       "uv": 8,
       "sunrise": "2026-04-22T05:59",
       "sunset": "2026-04-22T19:22",
-      "predicted_score": 80,
-      "score_label": "Good conditions"
+      "predicted_score": 88,
+      "score_label": "Great day to go"
     },
     {
       "date": "2026-04-23",
@@ -59,8 +59,8 @@
       "uv": 8,
       "sunrise": "2026-04-23T05:58",
       "sunset": "2026-04-23T19:23",
-      "predicted_score": 80,
-      "score_label": "Good conditions"
+      "predicted_score": 88,
+      "score_label": "Great day to go"
     },
     {
       "date": "2026-04-24",
@@ -70,7 +70,7 @@
       "uv": 8,
       "sunrise": "2026-04-24T05:57",
       "sunset": "2026-04-24T19:24",
-      "predicted_score": 92,
+      "predicted_score": 100,
       "score_label": "Great day to go"
     },
     {
@@ -81,8 +81,8 @@
       "uv": 7,
       "sunrise": "2026-04-25T05:55",
       "sunset": "2026-04-25T19:25",
-      "predicted_score": 62,
-      "score_label": "Use caution"
+      "predicted_score": 70,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-04-26",
@@ -92,9 +92,9 @@
       "uv": 4,
       "sunrise": "2026-04-26T05:54",
       "sunset": "2026-04-26T19:25",
-      "predicted_score": 62,
-      "score_label": "Use caution"
+      "predicted_score": 70,
+      "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-04-22T21:25:53.712912+00:00"
+  "updated_at": "2026-04-22T21:46:00.278463+00:00"
 }
