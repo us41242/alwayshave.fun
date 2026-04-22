@@ -25,9 +25,9 @@
   ],
   "current": {
     "temp_f": 25,
-    "feels_like_f": 13,
+    "feels_like_f": 12,
     "wind_mph": 17,
-    "gusts_mph": 26,
+    "gusts_mph": 24,
     "rain_pct": 6
   },
   "aqi": {
@@ -45,7 +45,7 @@
   "forecast": [
     {
       "date": "2026-04-22",
-      "high_f": 33,
+      "high_f": 34,
       "low_f": 25,
       "rain_pct": 23,
       "uv": 8,
@@ -67,7 +67,7 @@
     },
     {
       "date": "2026-04-24",
-      "high_f": 51,
+      "high_f": 49,
       "low_f": 35,
       "rain_pct": 11,
       "uv": 7,
@@ -78,7 +78,7 @@
     },
     {
       "date": "2026-04-25",
-      "high_f": 41,
+      "high_f": 44,
       "low_f": 31,
       "rain_pct": 40,
       "uv": 3,
@@ -89,8 +89,8 @@
     },
     {
       "date": "2026-04-26",
-      "high_f": 39,
-      "low_f": 30,
+      "high_f": 38,
+      "low_f": 31,
       "rain_pct": 24,
       "uv": 6,
       "sunrise": "2026-04-26T06:07",
@@ -99,5 +99,5 @@
       "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-04-22T11:30:24.633979+00:00"
+  "updated_at": "2026-04-22T11:51:22.075074+00:00"
 }
