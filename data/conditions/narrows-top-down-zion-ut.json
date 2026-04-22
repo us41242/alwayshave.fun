@@ -24,14 +24,14 @@
     "mask for sensitive groups"
   ],
   "current": {
-    "temp_f": 48,
+    "temp_f": 47,
     "feels_like_f": 38,
-    "wind_mph": 13,
+    "wind_mph": 11,
     "gusts_mph": 30,
     "rain_pct": 0
   },
   "aqi": {
-    "aqi": 61,
+    "aqi": 54,
     "category": "Moderate",
     "pollutant": "O3",
     "source": "airnow"
@@ -61,7 +61,7 @@
       "date": "2026-04-23",
       "high_f": 59,
       "low_f": 33,
-      "rain_pct": 5,
+      "rain_pct": 3,
       "uv": 8,
       "sunrise": "2026-04-23T06:45",
       "sunset": "2026-04-23T20:14",
@@ -102,5 +102,5 @@
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-04-22T07:25:03.287978+00:00"
+  "updated_at": "2026-04-22T07:43:44.090994+00:00"
 }
