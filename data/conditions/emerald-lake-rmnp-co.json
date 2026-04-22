@@ -20,13 +20,14 @@
   "score": 68,
   "score_label": "Use caution",
   "gear_flags": [
+    "wind layer recommended",
     "N95 mask recommended"
   ],
   "current": {
-    "temp_f": 46,
-    "feels_like_f": 35,
-    "wind_mph": 13,
-    "gusts_mph": 16,
+    "temp_f": 45,
+    "feels_like_f": 33,
+    "wind_mph": 17,
+    "gusts_mph": 22,
     "rain_pct": 2
   },
   "aqi": {
@@ -66,7 +67,7 @@
     },
     {
       "date": "2026-04-23",
-      "high_f": 36,
+      "high_f": 35,
       "low_f": 22,
       "rain_pct": 36,
       "uv": 8,
@@ -77,8 +78,8 @@
     },
     {
       "date": "2026-04-24",
-      "high_f": 39,
-      "low_f": 23,
+      "high_f": 41,
+      "low_f": 22,
       "rain_pct": 43,
       "uv": 8,
       "sunrise": "2026-04-24T06:10",
@@ -88,8 +89,8 @@
     },
     {
       "date": "2026-04-25",
-      "high_f": 43,
-      "low_f": 24,
+      "high_f": 45,
+      "low_f": 27,
       "rain_pct": 67,
       "uv": 7,
       "sunrise": "2026-04-25T06:09",
@@ -98,5 +99,5 @@
       "score_label": "Conditions poor"
     }
   ],
-  "updated_at": "2026-04-22T05:08:22.444081+00:00"
+  "updated_at": "2026-04-22T05:29:45.413983+00:00"
 }
