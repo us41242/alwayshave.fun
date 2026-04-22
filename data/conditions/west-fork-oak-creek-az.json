@@ -17,9 +17,10 @@
   "notes": "Creek crossings \u2014 check water levels after rain",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 36,
-  "score_label": "Conditions poor",
+  "score": 64,
+  "score_label": "Use caution",
   "gear_flags": [
+    "wind layer recommended",
     "mask for sensitive groups",
     "N95 mask recommended for wildfire smoke"
   ],
@@ -27,7 +28,7 @@
     "temp_f": 67,
     "feels_like_f": 56,
     "wind_mph": 23,
-    "gusts_mph": 29,
+    "gusts_mph": 30,
     "rain_pct": 0
   },
   "aqi": {
@@ -45,6 +46,62 @@
     "cfs": 37,
     "stage": "low"
   },
-  "forecast": [],
-  "updated_at": "2026-04-22T19:24:50.633951+00:00"
+  "forecast": [
+    {
+      "date": "2026-04-22",
+      "high_f": 69,
+      "low_f": 48,
+      "rain_pct": 1,
+      "uv": 8,
+      "sunrise": "2026-04-22T05:45",
+      "sunset": "2026-04-22T19:05",
+      "predicted_score": 76,
+      "score_label": "Good conditions"
+    },
+    {
+      "date": "2026-04-23",
+      "high_f": 68,
+      "low_f": 43,
+      "rain_pct": 2,
+      "uv": 8,
+      "sunrise": "2026-04-23T05:44",
+      "sunset": "2026-04-23T19:05",
+      "predicted_score": 76,
+      "score_label": "Good conditions"
+    },
+    {
+      "date": "2026-04-24",
+      "high_f": 70,
+      "low_f": 44,
+      "rain_pct": 0,
+      "uv": 8,
+      "sunrise": "2026-04-24T05:43",
+      "sunset": "2026-04-24T19:06",
+      "predicted_score": 76,
+      "score_label": "Good conditions"
+    },
+    {
+      "date": "2026-04-25",
+      "high_f": 60,
+      "low_f": 45,
+      "rain_pct": 31,
+      "uv": 6,
+      "sunrise": "2026-04-25T05:42",
+      "sunset": "2026-04-25T19:07",
+      "predicted_score": 46,
+      "score_label": "Conditions poor"
+    },
+    {
+      "date": "2026-04-26",
+      "high_f": 54,
+      "low_f": 40,
+      "rain_pct": 39,
+      "uv": 4,
+      "sunrise": "2026-04-26T05:41",
+      "sunset": "2026-04-26T19:08",
+      "predicted_score": 46,
+      "score_label": "Conditions poor"
+    }
+  ],
+  "updated_at": "2026-04-22T19:44:30.610287+00:00"
 }
