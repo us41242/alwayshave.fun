@@ -24,9 +24,9 @@
     "insulation layer required"
   ],
   "current": {
-    "temp_f": 8,
-    "feels_like_f": 0,
-    "wind_mph": 12,
+    "temp_f": 10,
+    "feels_like_f": 2,
+    "wind_mph": 11,
     "gusts_mph": 26,
     "rain_pct": 0
   },
@@ -42,7 +42,7 @@
     "fire_count_50km": 0
   },
   "river": {
-    "cfs": 122,
+    "cfs": 119,
     "stage": "normal"
   },
   "forecast": [
@@ -102,5 +102,5 @@
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-04-22T17:48:10.926193+00:00"
+  "updated_at": "2026-04-22T18:08:33.391750+00:00"
 }
