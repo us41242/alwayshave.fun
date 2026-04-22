@@ -17,16 +17,17 @@
   "notes": "Kayak/canoe only \u2014 check river release schedule",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 50,
+  "score": 60,
   "score_label": "Use caution",
   "gear_flags": [
+    "wind layer recommended",
     "mask for sensitive groups"
   ],
   "current": {
-    "temp_f": 70,
-    "feels_like_f": 57,
-    "wind_mph": 24,
-    "gusts_mph": 42,
+    "temp_f": 69,
+    "feels_like_f": 55,
+    "wind_mph": 25,
+    "gusts_mph": 45,
     "rain_pct": 0
   },
   "aqi": {
@@ -41,6 +42,62 @@
     "fire_count_50km": 0
   },
   "river": null,
-  "forecast": [],
-  "updated_at": "2026-04-22T06:04:31.582715+00:00"
+  "forecast": [
+    {
+      "date": "2026-04-21",
+      "high_f": 92,
+      "low_f": 69,
+      "rain_pct": 0,
+      "uv": 8,
+      "sunrise": "2026-04-21T05:57",
+      "sunset": "2026-04-21T19:17",
+      "predicted_score": 60,
+      "score_label": "Use caution"
+    },
+    {
+      "date": "2026-04-22",
+      "high_f": 83,
+      "low_f": 61,
+      "rain_pct": 1,
+      "uv": 7,
+      "sunrise": "2026-04-22T05:56",
+      "sunset": "2026-04-22T19:18",
+      "predicted_score": 78,
+      "score_label": "Good conditions"
+    },
+    {
+      "date": "2026-04-23",
+      "high_f": 80,
+      "low_f": 57,
+      "rain_pct": 1,
+      "uv": 7,
+      "sunrise": "2026-04-23T05:55",
+      "sunset": "2026-04-23T19:19",
+      "predicted_score": 78,
+      "score_label": "Good conditions"
+    },
+    {
+      "date": "2026-04-24",
+      "high_f": 88,
+      "low_f": 61,
+      "rain_pct": 0,
+      "uv": 8,
+      "sunrise": "2026-04-24T05:53",
+      "sunset": "2026-04-24T19:20",
+      "predicted_score": 60,
+      "score_label": "Use caution"
+    },
+    {
+      "date": "2026-04-25",
+      "high_f": 82,
+      "low_f": 58,
+      "rain_pct": 16,
+      "uv": 7,
+      "sunrise": "2026-04-25T05:52",
+      "sunset": "2026-04-25T19:20",
+      "predicted_score": 78,
+      "score_label": "Good conditions"
+    }
+  ],
+  "updated_at": "2026-04-22T06:25:45.145190+00:00"
 }
