@@ -17,8 +17,8 @@
   "notes": "Flash flood zone \u2014 avoid any chance of rain",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 60,
-  "score_label": "Use caution",
+  "score": 78,
+  "score_label": "Good conditions",
   "gear_flags": [
     "wind layer recommended",
     "mask for sensitive groups"
@@ -26,8 +26,8 @@
   "current": {
     "temp_f": 68,
     "feels_like_f": 54,
-    "wind_mph": 26,
-    "gusts_mph": 37,
+    "wind_mph": 25,
+    "gusts_mph": 36,
     "rain_pct": 0
   },
   "aqi": {
@@ -99,5 +99,5 @@
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-04-22T20:24:15.317346+00:00"
+  "updated_at": "2026-04-22T20:43:58.581336+00:00"
 }
