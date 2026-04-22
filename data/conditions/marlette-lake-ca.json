@@ -24,16 +24,16 @@
   ],
   "current": {
     "temp_f": 36,
-    "feels_like_f": 28,
+    "feels_like_f": 27,
     "wind_mph": 13,
-    "gusts_mph": 14,
-    "rain_pct": 21
+    "gusts_mph": 15,
+    "rain_pct": 20
   },
   "aqi": {
-    "aqi": 46,
+    "aqi": 40,
     "category": "Good",
-    "pollutant": "PM2.5",
-    "source": "open-meteo"
+    "pollutant": "O3",
+    "source": "airnow"
   },
   "fire": {
     "risk_level": "moderate",
@@ -98,5 +98,5 @@
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-04-22T22:31:30.851684+00:00"
+  "updated_at": "2026-04-22T22:47:53.515829+00:00"
 }
