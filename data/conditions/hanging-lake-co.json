@@ -23,10 +23,10 @@
     "wind layer recommended"
   ],
   "current": {
-    "temp_f": 56,
-    "feels_like_f": 42,
-    "wind_mph": 20,
-    "gusts_mph": 35,
+    "temp_f": 55,
+    "feels_like_f": 39,
+    "wind_mph": 22,
+    "gusts_mph": 40,
     "rain_pct": 1
   },
   "aqi": {
@@ -46,7 +46,7 @@
       "date": "2026-04-22",
       "high_f": 63,
       "low_f": 40,
-      "rain_pct": 2,
+      "rain_pct": 1,
       "uv": 8,
       "sunrise": "2026-04-22T06:20",
       "sunset": "2026-04-22T19:53",
@@ -98,5 +98,5 @@
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-04-22T22:46:40.729067+00:00"
+  "updated_at": "2026-04-22T23:07:10.897116+00:00"
 }
