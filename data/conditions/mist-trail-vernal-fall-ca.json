@@ -17,18 +17,18 @@
   "notes": "Extremely slippery when wet \u2014 wet season trail",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 60,
-  "score_label": "Use caution",
+  "score": 70,
+  "score_label": "Good conditions",
   "gear_flags": [
     "insulation layer required",
     "rain gear recommended"
   ],
   "current": {
-    "temp_f": 37,
+    "temp_f": 36,
     "feels_like_f": 31,
-    "wind_mph": 6,
-    "gusts_mph": 7,
-    "rain_pct": 68
+    "wind_mph": 2,
+    "gusts_mph": 5,
+    "rain_pct": 55
   },
   "aqi": {
     "aqi": 44,
@@ -46,7 +46,7 @@
     {
       "date": "2026-04-21",
       "high_f": 49,
-      "low_f": 36,
+      "low_f": 35,
       "rain_pct": 98,
       "uv": 2,
       "sunrise": "2026-04-21T06:14",
@@ -56,14 +56,14 @@
     },
     {
       "date": "2026-04-22",
-      "high_f": 45,
-      "low_f": 34,
-      "rain_pct": 61,
+      "high_f": 46,
+      "low_f": 35,
+      "rain_pct": 41,
       "uv": 6,
       "sunrise": "2026-04-22T06:13",
       "sunset": "2026-04-22T19:40",
-      "predicted_score": 60,
-      "score_label": "Use caution"
+      "predicted_score": 70,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-04-23",
@@ -99,5 +99,5 @@
       "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-04-22T04:28:11.121372+00:00"
+  "updated_at": "2026-04-22T04:50:30.098728+00:00"
 }
