@@ -26,7 +26,7 @@
     "temp_f": 48,
     "feels_like_f": 40,
     "wind_mph": 10,
-    "gusts_mph": 24,
+    "gusts_mph": 23,
     "rain_pct": 0
   },
   "aqi": {
@@ -41,7 +41,7 @@
     "fire_count_50km": 0
   },
   "river": {
-    "cfs": 8040,
+    "cfs": 8000,
     "stage": "flood"
   },
   "forecast": [
@@ -101,5 +101,5 @@
       "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-04-22T12:01:35.731243+00:00"
+  "updated_at": "2026-04-22T12:21:41.654544+00:00"
 }
