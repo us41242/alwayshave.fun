@@ -24,10 +24,10 @@
     "N95 mask recommended"
   ],
   "current": {
-    "temp_f": 66,
-    "feels_like_f": 51,
-    "wind_mph": 20,
-    "gusts_mph": 34,
+    "temp_f": 63,
+    "feels_like_f": 50,
+    "wind_mph": 15,
+    "gusts_mph": 35,
     "rain_pct": 0
   },
   "aqi": {
@@ -56,7 +56,7 @@
     },
     {
       "date": "2026-04-22",
-      "high_f": 65,
+      "high_f": 67,
       "low_f": 44,
       "rain_pct": 0,
       "uv": 8,
@@ -67,8 +67,8 @@
     },
     {
       "date": "2026-04-23",
-      "high_f": 61,
-      "low_f": 38,
+      "high_f": 63,
+      "low_f": 40,
       "rain_pct": 1,
       "uv": 8,
       "sunrise": "2026-04-23T05:45",
@@ -99,5 +99,5 @@
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-04-22T01:43:43.269420+00:00"
+  "updated_at": "2026-04-22T02:04:24.592892+00:00"
 }
