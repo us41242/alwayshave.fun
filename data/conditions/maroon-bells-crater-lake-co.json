@@ -17,17 +17,17 @@
   "notes": "Shuttle required from Aspen 5am\u20135pm; no private vehicles",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 60,
-  "score_label": "Use caution",
+  "score": 70,
+  "score_label": "Good conditions",
   "gear_flags": [
     "wind layer recommended",
     "insulation layer required"
   ],
   "current": {
-    "temp_f": 35,
-    "feels_like_f": 18,
-    "wind_mph": 32,
-    "gusts_mph": 47,
+    "temp_f": 36,
+    "feels_like_f": 19,
+    "wind_mph": 33,
+    "gusts_mph": 48,
     "rain_pct": 0
   },
   "aqi": {
@@ -46,7 +46,7 @@
     {
       "date": "2026-04-22",
       "high_f": 38,
-      "low_f": 21,
+      "low_f": 22,
       "rain_pct": 3,
       "uv": 9,
       "sunrise": "2026-04-22T06:20",
@@ -58,7 +58,7 @@
       "date": "2026-04-23",
       "high_f": 24,
       "low_f": 11,
-      "rain_pct": 11,
+      "rain_pct": 8,
       "uv": 7,
       "sunrise": "2026-04-23T06:19",
       "sunset": "2026-04-23T19:52",
@@ -99,5 +99,5 @@
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-04-22T18:27:44.381529+00:00"
+  "updated_at": "2026-04-22T18:47:51.264099+00:00"
 }
