@@ -20,14 +20,13 @@
   "score": 60,
   "score_label": "Use caution",
   "gear_flags": [
-    "wind layer recommended",
     "insulation layer required"
   ],
   "current": {
     "temp_f": -6,
     "feels_like_f": -20,
     "wind_mph": 15,
-    "gusts_mph": 21,
+    "gusts_mph": 20,
     "rain_pct": 0
   },
   "aqi": {
@@ -41,7 +40,10 @@
     "nearest_fire_km": 235.5,
     "fire_count_50km": 0
   },
-  "river": null,
+  "river": {
+    "cfs": 125,
+    "stage": "normal"
+  },
   "forecast": [
     {
       "date": "2026-04-22",
@@ -99,5 +101,5 @@
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-04-22T10:51:13.577682+00:00"
+  "updated_at": "2026-04-22T11:08:47.711797+00:00"
 }
