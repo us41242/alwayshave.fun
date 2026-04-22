@@ -21,14 +21,13 @@
   "score_label": "Good conditions",
   "gear_flags": [
     "wind layer recommended",
-    "insulation layer required",
     "mask for sensitive groups"
   ],
   "current": {
     "temp_f": 45,
-    "feels_like_f": 34,
-    "wind_mph": 13,
-    "gusts_mph": 32,
+    "feels_like_f": 32,
+    "wind_mph": 18,
+    "gusts_mph": 35,
     "rain_pct": 0
   },
   "aqi": {
@@ -84,7 +83,7 @@
       "date": "2026-04-25",
       "high_f": 60,
       "low_f": 42,
-      "rain_pct": 35,
+      "rain_pct": 32,
       "uv": 6,
       "sunrise": "2026-04-25T05:42",
       "sunset": "2026-04-25T19:10",
@@ -95,7 +94,7 @@
       "date": "2026-04-26",
       "high_f": 49,
       "low_f": 35,
-      "rain_pct": 25,
+      "rain_pct": 27,
       "uv": 6,
       "sunrise": "2026-04-26T05:41",
       "sunset": "2026-04-26T19:11",
@@ -103,5 +102,5 @@
       "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-04-22T09:03:34.535277+00:00"
+  "updated_at": "2026-04-22T09:23:40.841706+00:00"
 }
