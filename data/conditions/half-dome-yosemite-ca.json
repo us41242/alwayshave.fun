@@ -26,7 +26,7 @@
     "temp_f": 22,
     "feels_like_f": 13,
     "wind_mph": 9,
-    "gusts_mph": 15,
+    "gusts_mph": 16,
     "rain_pct": 35
   },
   "aqi": {
@@ -37,7 +37,7 @@
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": null,
+    "nearest_fire_km": 1475.5,
     "fire_count_50km": 0
   },
   "river": null,
@@ -98,5 +98,5 @@
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-04-22T07:48:08.705160+00:00"
+  "updated_at": "2026-04-22T08:08:41.660187+00:00"
 }
