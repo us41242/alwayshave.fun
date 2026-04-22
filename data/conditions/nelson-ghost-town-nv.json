@@ -17,22 +17,21 @@
   "notes": "Desert wash trail \u2014 no shade",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 82,
-  "score_label": "Good conditions",
+  "score": 92,
+  "score_label": "Great day to go",
   "gear_flags": [
-    "wind layer recommended",
-    "mask for sensitive groups"
+    "wind layer recommended"
   ],
   "current": {
-    "temp_f": 54,
+    "temp_f": 56,
     "feels_like_f": 46,
-    "wind_mph": 6,
+    "wind_mph": 10,
     "gusts_mph": 24,
     "rain_pct": 0
   },
   "aqi": {
-    "aqi": 51,
-    "category": "Moderate",
+    "aqi": 50,
+    "category": "Good",
     "pollutant": "O3",
     "source": "airnow"
   },
@@ -51,8 +50,8 @@
       "uv": 7,
       "sunrise": "2026-04-22T05:57",
       "sunset": "2026-04-22T19:18",
-      "predicted_score": 82,
-      "score_label": "Good conditions"
+      "predicted_score": 92,
+      "score_label": "Great day to go"
     },
     {
       "date": "2026-04-23",
@@ -62,8 +61,8 @@
       "uv": 8,
       "sunrise": "2026-04-23T05:55",
       "sunset": "2026-04-23T19:19",
-      "predicted_score": 82,
-      "score_label": "Good conditions"
+      "predicted_score": 92,
+      "score_label": "Great day to go"
     },
     {
       "date": "2026-04-24",
@@ -73,7 +72,7 @@
       "uv": 7,
       "sunrise": "2026-04-24T05:54",
       "sunset": "2026-04-24T19:20",
-      "predicted_score": 70,
+      "predicted_score": 80,
       "score_label": "Good conditions"
     },
     {
@@ -84,7 +83,7 @@
       "uv": 7,
       "sunrise": "2026-04-25T05:53",
       "sunset": "2026-04-25T19:20",
-      "predicted_score": 70,
+      "predicted_score": 80,
       "score_label": "Good conditions"
     },
     {
@@ -95,9 +94,9 @@
       "uv": 8,
       "sunrise": "2026-04-26T05:52",
       "sunset": "2026-04-26T19:21",
-      "predicted_score": 82,
-      "score_label": "Good conditions"
+      "predicted_score": 92,
+      "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-04-22T14:03:54.628698+00:00"
+  "updated_at": "2026-04-22T14:22:24.862168+00:00"
 }
