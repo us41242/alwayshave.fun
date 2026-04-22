@@ -17,7 +17,7 @@
   "notes": "4WD required; no services for 50 miles",
   "dog_friendly": "Yes",
   "vehicle_req": "4WD",
-  "score": 60,
+  "score": 52,
   "score_label": "Use caution",
   "gear_flags": [
     "wind layer recommended",
@@ -27,7 +27,7 @@
   "current": {
     "temp_f": 36,
     "feels_like_f": 22,
-    "wind_mph": 21,
+    "wind_mph": 22,
     "gusts_mph": 39,
     "rain_pct": 0
   },
@@ -38,8 +38,8 @@
     "source": "open-meteo"
   },
   "fire": {
-    "risk_level": "low",
-    "nearest_fire_km": 978.9,
+    "risk_level": "moderate",
+    "nearest_fire_km": 74.7,
     "fire_count_50km": 0
   },
   "river": null,
@@ -47,13 +47,13 @@
     {
       "date": "2026-04-22",
       "high_f": 52,
-      "low_f": 33,
-      "rain_pct": 2,
+      "low_f": 34,
+      "rain_pct": 1,
       "uv": 8,
       "sunrise": "2026-04-22T05:52",
       "sunset": "2026-04-22T19:16",
-      "predicted_score": 90,
-      "score_label": "Great day to go"
+      "predicted_score": 82,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-04-23",
@@ -63,8 +63,8 @@
       "uv": 8,
       "sunrise": "2026-04-23T05:51",
       "sunset": "2026-04-23T19:17",
-      "predicted_score": 90,
-      "score_label": "Great day to go"
+      "predicted_score": 82,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-04-24",
@@ -74,8 +74,8 @@
       "uv": 7,
       "sunrise": "2026-04-24T05:50",
       "sunset": "2026-04-24T19:18",
-      "predicted_score": 90,
-      "score_label": "Great day to go"
+      "predicted_score": 82,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-04-25",
@@ -85,7 +85,7 @@
       "uv": 7,
       "sunrise": "2026-04-25T05:49",
       "sunset": "2026-04-25T19:19",
-      "predicted_score": 78,
+      "predicted_score": 70,
       "score_label": "Good conditions"
     },
     {
@@ -96,9 +96,9 @@
       "uv": 7,
       "sunrise": "2026-04-26T05:47",
       "sunset": "2026-04-26T19:20",
-      "predicted_score": 60,
+      "predicted_score": 52,
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-04-22T09:23:39.584229+00:00"
+  "updated_at": "2026-04-22T09:44:11.401422+00:00"
 }
