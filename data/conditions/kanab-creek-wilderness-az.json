@@ -19,12 +19,14 @@
   "vehicle_req": "High-Clearance",
   "score": 88,
   "score_label": "Great day to go",
-  "gear_flags": [],
+  "gear_flags": [
+    "insulation layer required"
+  ],
   "current": {
     "temp_f": 45,
-    "feels_like_f": 38,
-    "wind_mph": 4,
-    "gusts_mph": 8,
+    "feels_like_f": 37,
+    "wind_mph": 3,
+    "gusts_mph": 6,
     "rain_pct": 0
   },
   "aqi": {
@@ -99,5 +101,5 @@
       "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-04-23T07:21:05.785908+00:00"
+  "updated_at": "2026-04-23T07:41:05.695957+00:00"
 }
