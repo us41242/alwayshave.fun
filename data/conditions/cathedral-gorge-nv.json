@@ -17,23 +17,23 @@
   "notes": "Slot canyon walls narrow \u2014 avoid during rain/flash flood risk",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 50,
+  "score": 58,
   "score_label": "Use caution",
   "gear_flags": [
-    "mask for sensitive groups"
+    "wind layer recommended"
   ],
   "current": {
-    "temp_f": 53,
-    "feels_like_f": 40,
-    "wind_mph": 17,
-    "gusts_mph": 28,
-    "rain_pct": 0
+    "temp_f": 51,
+    "feels_like_f": 38,
+    "wind_mph": 16,
+    "gusts_mph": 29,
+    "rain_pct": 1
   },
   "aqi": {
-    "aqi": 87,
-    "category": "Moderate",
-    "pollutant": "PM2.5",
-    "source": "open-meteo"
+    "aqi": null,
+    "category": "Unknown",
+    "pollutant": "",
+    "source": "none"
   },
   "fire": {
     "risk_level": "low",
@@ -41,6 +41,62 @@
     "fire_count_50km": 0
   },
   "river": null,
-  "forecast": [],
-  "updated_at": "2026-04-23T05:23:14.801050+00:00"
+  "forecast": [
+    {
+      "date": "2026-04-22",
+      "high_f": 63,
+      "low_f": 43,
+      "rain_pct": 1,
+      "uv": 8,
+      "sunrise": "2026-04-22T05:52",
+      "sunset": "2026-04-22T19:19",
+      "predicted_score": 70,
+      "score_label": "Good conditions"
+    },
+    {
+      "date": "2026-04-23",
+      "high_f": 65,
+      "low_f": 40,
+      "rain_pct": 1,
+      "uv": 8,
+      "sunrise": "2026-04-23T05:51",
+      "sunset": "2026-04-23T19:20",
+      "predicted_score": 70,
+      "score_label": "Good conditions"
+    },
+    {
+      "date": "2026-04-24",
+      "high_f": 69,
+      "low_f": 41,
+      "rain_pct": 0,
+      "uv": 7,
+      "sunrise": "2026-04-24T05:49",
+      "sunset": "2026-04-24T19:21",
+      "predicted_score": 70,
+      "score_label": "Good conditions"
+    },
+    {
+      "date": "2026-04-25",
+      "high_f": 65,
+      "low_f": 48,
+      "rain_pct": 40,
+      "uv": 8,
+      "sunrise": "2026-04-25T05:48",
+      "sunset": "2026-04-25T19:22",
+      "predicted_score": 40,
+      "score_label": "Conditions poor"
+    },
+    {
+      "date": "2026-04-26",
+      "high_f": 50,
+      "low_f": 42,
+      "rain_pct": 65,
+      "uv": 4,
+      "sunrise": "2026-04-26T05:47",
+      "sunset": "2026-04-26T19:23",
+      "predicted_score": 30,
+      "score_label": "Conditions poor"
+    }
+  ],
+  "updated_at": "2026-04-23T05:43:32.958100+00:00"
 }
