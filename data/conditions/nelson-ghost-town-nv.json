@@ -17,11 +17,9 @@
   "notes": "Desert wash trail \u2014 no shade",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 92,
-  "score_label": "Great day to go",
-  "gear_flags": [
-    "wind layer recommended"
-  ],
+  "score": 52,
+  "score_label": "Use caution",
+  "gear_flags": [],
   "current": {
     "temp_f": 55,
     "feels_like_f": 43,
@@ -41,62 +39,6 @@
     "fire_count_50km": 0
   },
   "river": null,
-  "forecast": [
-    {
-      "date": "2026-04-23",
-      "high_f": 72,
-      "low_f": 54,
-      "rain_pct": 0,
-      "uv": 8,
-      "sunrise": "2026-04-23T05:55",
-      "sunset": "2026-04-23T19:19",
-      "predicted_score": 92,
-      "score_label": "Great day to go"
-    },
-    {
-      "date": "2026-04-24",
-      "high_f": 79,
-      "low_f": 59,
-      "rain_pct": 2,
-      "uv": 7,
-      "sunrise": "2026-04-24T05:54",
-      "sunset": "2026-04-24T19:20",
-      "predicted_score": 80,
-      "score_label": "Good conditions"
-    },
-    {
-      "date": "2026-04-25",
-      "high_f": 73,
-      "low_f": 50,
-      "rain_pct": 23,
-      "uv": 7,
-      "sunrise": "2026-04-25T05:53",
-      "sunset": "2026-04-25T19:20",
-      "predicted_score": 80,
-      "score_label": "Good conditions"
-    },
-    {
-      "date": "2026-04-26",
-      "high_f": 66,
-      "low_f": 47,
-      "rain_pct": 14,
-      "uv": 7,
-      "sunrise": "2026-04-26T05:52",
-      "sunset": "2026-04-26T19:21",
-      "predicted_score": 80,
-      "score_label": "Good conditions"
-    },
-    {
-      "date": "2026-04-27",
-      "high_f": 74,
-      "low_f": 44,
-      "rain_pct": 0,
-      "uv": 8,
-      "sunrise": "2026-04-27T05:51",
-      "sunset": "2026-04-27T19:22",
-      "predicted_score": 92,
-      "score_label": "Great day to go"
-    }
-  ],
-  "updated_at": "2026-04-23T12:04:59.234867+00:00"
+  "forecast": [],
+  "updated_at": "2026-04-23T12:24:15.878726+00:00"
 }
