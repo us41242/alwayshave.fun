@@ -24,9 +24,9 @@
   ],
   "current": {
     "temp_f": 43,
-    "feels_like_f": 32,
-    "wind_mph": 13,
-    "gusts_mph": 14,
+    "feels_like_f": 34,
+    "wind_mph": 9,
+    "gusts_mph": 9,
     "rain_pct": 0
   },
   "aqi": {
@@ -46,7 +46,7 @@
       "date": "2026-04-23",
       "high_f": 64,
       "low_f": 43,
-      "rain_pct": 0,
+      "rain_pct": 1,
       "uv": 8,
       "sunrise": "2026-04-23T06:46",
       "sunset": "2026-04-23T20:14",
@@ -57,7 +57,7 @@
       "date": "2026-04-24",
       "high_f": 68,
       "low_f": 46,
-      "rain_pct": 0,
+      "rain_pct": 1,
       "uv": 8,
       "sunrise": "2026-04-24T06:44",
       "sunset": "2026-04-24T20:14",
@@ -98,5 +98,5 @@
       "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-04-23T11:40:56.210625+00:00"
+  "updated_at": "2026-04-23T12:00:55.285196+00:00"
 }
