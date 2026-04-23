@@ -17,16 +17,17 @@
   "notes": "Free entry; busy weekends \u2014 arrive before 9am",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 86,
-  "score_label": "Great day to go",
+  "score": 74,
+  "score_label": "Good conditions",
   "gear_flags": [
+    "wind layer recommended",
     "N95 mask recommended for wildfire smoke"
   ],
   "current": {
     "temp_f": 53,
-    "feels_like_f": 41,
-    "wind_mph": 14,
-    "gusts_mph": 17,
+    "feels_like_f": 38,
+    "wind_mph": 19,
+    "gusts_mph": 24,
     "rain_pct": 0
   },
   "aqi": {
@@ -46,7 +47,7 @@
       "date": "2026-04-23",
       "high_f": 62,
       "low_f": 46,
-      "rain_pct": 1,
+      "rain_pct": 2,
       "uv": 8,
       "sunrise": "2026-04-23T06:11",
       "sunset": "2026-04-23T19:44",
@@ -98,5 +99,5 @@
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-04-23T10:47:38.080848+00:00"
+  "updated_at": "2026-04-23T11:08:15.710639+00:00"
 }

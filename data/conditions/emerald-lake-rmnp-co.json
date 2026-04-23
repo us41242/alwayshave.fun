@@ -26,13 +26,13 @@
   ],
   "current": {
     "temp_f": 25,
-    "feels_like_f": 8,
+    "feels_like_f": 9,
     "wind_mph": 24,
-    "gusts_mph": 41,
-    "rain_pct": 4
+    "gusts_mph": 40,
+    "rain_pct": 3
   },
   "aqi": {
-    "aqi": 103,
+    "aqi": 101,
     "category": "Unhealthy for Sensitive Groups",
     "pollutant": "PM2.5",
     "source": "open-meteo"
@@ -48,7 +48,7 @@
       "date": "2026-04-23",
       "high_f": 36,
       "low_f": 23,
-      "rain_pct": 10,
+      "rain_pct": 9,
       "uv": 8,
       "sunrise": "2026-04-23T06:12",
       "sunset": "2026-04-23T19:49",
@@ -100,5 +100,5 @@
       "score_label": "Conditions poor"
     }
   ],
-  "updated_at": "2026-04-23T10:47:39.320275+00:00"
+  "updated_at": "2026-04-23T11:08:17.217414+00:00"
 }
