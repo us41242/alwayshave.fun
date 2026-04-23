@@ -17,17 +17,17 @@
   "notes": "Unmaintained \u2014 route-finding required",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 78,
-  "score_label": "Good conditions",
+  "score": 60,
+  "score_label": "Use caution",
   "gear_flags": [
     "insulation layer required",
     "mask for sensitive groups"
   ],
   "current": {
-    "temp_f": 41,
+    "temp_f": 40,
     "feels_like_f": 30,
-    "wind_mph": 10,
-    "gusts_mph": 11,
+    "wind_mph": 9,
+    "gusts_mph": 9,
     "rain_pct": 0
   },
   "aqi": {
@@ -46,7 +46,7 @@
     {
       "date": "2026-04-23",
       "high_f": 63,
-      "low_f": 41,
+      "low_f": 40,
       "rain_pct": 0,
       "uv": 8,
       "sunrise": "2026-04-23T05:45",
@@ -58,7 +58,7 @@
       "date": "2026-04-24",
       "high_f": 68,
       "low_f": 43,
-      "rain_pct": 1,
+      "rain_pct": 2,
       "uv": 7,
       "sunrise": "2026-04-24T05:43",
       "sunset": "2026-04-24T19:10",
@@ -99,5 +99,5 @@
       "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-04-23T12:23:12.613086+00:00"
+  "updated_at": "2026-04-23T12:43:08.160651+00:00"
 }
