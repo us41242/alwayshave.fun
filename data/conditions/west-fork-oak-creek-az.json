@@ -19,7 +19,9 @@
   "vehicle_req": "Any",
   "score": 100,
   "score_label": "Great day to go",
-  "gear_flags": [],
+  "gear_flags": [
+    "wind layer recommended"
+  ],
   "current": {
     "temp_f": 52,
     "feels_like_f": 43,
@@ -39,7 +41,7 @@
     "fire_count_50km": 0
   },
   "river": {
-    "cfs": 35,
+    "cfs": 36,
     "stage": "low"
   },
   "forecast": [
@@ -99,5 +101,5 @@
       "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-04-23T05:03:37.400972+00:00"
+  "updated_at": "2026-04-23T05:23:19.194109+00:00"
 }
