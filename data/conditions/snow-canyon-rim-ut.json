@@ -22,13 +22,13 @@
   "gear_flags": [],
   "current": {
     "temp_f": 60,
-    "feels_like_f": 53,
-    "wind_mph": 5,
-    "gusts_mph": 11,
+    "feels_like_f": 52,
+    "wind_mph": 6,
+    "gusts_mph": 10,
     "rain_pct": 0
   },
   "aqi": {
-    "aqi": 49,
+    "aqi": 46,
     "category": "Good",
     "pollutant": "O3",
     "source": "airnow"
@@ -96,5 +96,5 @@
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-04-23T04:05:42.868485+00:00"
+  "updated_at": "2026-04-23T04:26:01.626608+00:00"
 }

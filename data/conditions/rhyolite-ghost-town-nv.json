@@ -17,14 +17,16 @@
   "notes": "Near Death Valley \u2014 extreme summer heat",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 60,
-  "score_label": "Use caution",
-  "gear_flags": [],
+  "score": 70,
+  "score_label": "Good conditions",
+  "gear_flags": [
+    "wind layer recommended"
+  ],
   "current": {
-    "temp_f": 56,
-    "feels_like_f": 41,
-    "wind_mph": 22,
-    "gusts_mph": 35,
+    "temp_f": 54,
+    "feels_like_f": 36,
+    "wind_mph": 28,
+    "gusts_mph": 41,
     "rain_pct": 0
   },
   "aqi": {
@@ -39,6 +41,62 @@
     "fire_count_50km": 0
   },
   "river": null,
-  "forecast": [],
-  "updated_at": "2026-04-23T04:07:44.913228+00:00"
+  "forecast": [
+    {
+      "date": "2026-04-22",
+      "high_f": 66,
+      "low_f": 45,
+      "rain_pct": 1,
+      "uv": 8,
+      "sunrise": "2026-04-22T06:03",
+      "sunset": "2026-04-22T19:28",
+      "predicted_score": 100,
+      "score_label": "Great day to go"
+    },
+    {
+      "date": "2026-04-23",
+      "high_f": 68,
+      "low_f": 44,
+      "rain_pct": 0,
+      "uv": 8,
+      "sunrise": "2026-04-23T06:02",
+      "sunset": "2026-04-23T19:29",
+      "predicted_score": 100,
+      "score_label": "Great day to go"
+    },
+    {
+      "date": "2026-04-24",
+      "high_f": 72,
+      "low_f": 55,
+      "rain_pct": 0,
+      "uv": 7,
+      "sunrise": "2026-04-24T06:00",
+      "sunset": "2026-04-24T19:29",
+      "predicted_score": 100,
+      "score_label": "Great day to go"
+    },
+    {
+      "date": "2026-04-25",
+      "high_f": 66,
+      "low_f": 50,
+      "rain_pct": 46,
+      "uv": 7,
+      "sunrise": "2026-04-25T05:59",
+      "sunset": "2026-04-25T19:30",
+      "predicted_score": 70,
+      "score_label": "Good conditions"
+    },
+    {
+      "date": "2026-04-26",
+      "high_f": 58,
+      "low_f": 44,
+      "rain_pct": 55,
+      "uv": 6,
+      "sunrise": "2026-04-26T05:58",
+      "sunset": "2026-04-26T19:31",
+      "predicted_score": 70,
+      "score_label": "Good conditions"
+    }
+  ],
+  "updated_at": "2026-04-23T04:26:03.164827+00:00"
 }
