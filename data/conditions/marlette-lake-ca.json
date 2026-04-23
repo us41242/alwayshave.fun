@@ -17,11 +17,13 @@
   "notes": "No cars beyond Spooner Summit; bike-legal trail",
   "dog_friendly": "Yes",
   "vehicle_req": "AWD",
-  "score": 88,
-  "score_label": "Great day to go",
-  "gear_flags": [],
+  "score": 74,
+  "score_label": "Good conditions",
+  "gear_flags": [
+    "N95 mask recommended for wildfire smoke"
+  ],
   "current": {
-    "temp_f": 46,
+    "temp_f": 47,
     "feels_like_f": 44,
     "wind_mph": 6,
     "gusts_mph": 8,
@@ -34,9 +36,9 @@
     "source": "airnow"
   },
   "fire": {
-    "risk_level": "low",
-    "nearest_fire_km": 168.7,
-    "fire_count_50km": 0
+    "risk_level": "elevated",
+    "nearest_fire_km": 42.7,
+    "fire_count_50km": 1
   },
   "river": null,
   "forecast": [
@@ -48,8 +50,8 @@
       "uv": 8,
       "sunrise": "2026-04-23T06:11",
       "sunset": "2026-04-23T19:44",
-      "predicted_score": 88,
-      "score_label": "Great day to go"
+      "predicted_score": 74,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-04-24",
@@ -59,8 +61,8 @@
       "uv": 7,
       "sunrise": "2026-04-24T06:09",
       "sunset": "2026-04-24T19:45",
-      "predicted_score": 88,
-      "score_label": "Great day to go"
+      "predicted_score": 74,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-04-25",
@@ -70,8 +72,8 @@
       "uv": 7,
       "sunrise": "2026-04-25T06:08",
       "sunset": "2026-04-25T19:46",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
+      "predicted_score": 56,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-04-26",
@@ -81,8 +83,8 @@
       "uv": 7,
       "sunrise": "2026-04-26T06:07",
       "sunset": "2026-04-26T19:47",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
+      "predicted_score": 56,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-04-27",
@@ -92,9 +94,9 @@
       "uv": 8,
       "sunrise": "2026-04-27T06:05",
       "sunset": "2026-04-27T19:48",
-      "predicted_score": 88,
-      "score_label": "Great day to go"
+      "predicted_score": 74,
+      "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-04-23T20:49:48.003234+00:00"
+  "updated_at": "2026-04-23T21:08:04.278006+00:00"
 }
