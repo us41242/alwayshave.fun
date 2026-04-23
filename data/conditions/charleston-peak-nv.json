@@ -31,14 +31,14 @@
     "rain_pct": 0
   },
   "aqi": {
-    "aqi": 112,
+    "aqi": 108,
     "category": "Unhealthy for Sensitive Groups",
     "pollutant": "PM10",
     "source": "airnow"
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": null,
+    "nearest_fire_km": 390.2,
     "fire_count_50km": 0
   },
   "river": null,
@@ -99,5 +99,5 @@
       "score_label": "Conditions poor"
     }
   ],
-  "updated_at": "2026-04-23T09:01:34.052586+00:00"
+  "updated_at": "2026-04-23T09:20:58.664215+00:00"
 }
