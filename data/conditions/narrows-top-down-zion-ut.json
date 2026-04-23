@@ -20,11 +20,12 @@
   "score": 78,
   "score_label": "Good conditions",
   "gear_flags": [
+    "insulation layer required",
     "mask for sensitive groups"
   ],
   "current": {
-    "temp_f": 45,
-    "feels_like_f": 37,
+    "temp_f": 44,
+    "feels_like_f": 36,
     "wind_mph": 6,
     "gusts_mph": 15,
     "rain_pct": 1
@@ -101,5 +102,5 @@
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-04-23T03:46:04.040348+00:00"
+  "updated_at": "2026-04-23T04:03:48.359634+00:00"
 }
