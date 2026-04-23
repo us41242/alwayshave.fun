@@ -25,12 +25,12 @@
   "current": {
     "temp_f": 65,
     "feels_like_f": 56,
-    "wind_mph": 14,
-    "gusts_mph": 16,
+    "wind_mph": 13,
+    "gusts_mph": 15,
     "rain_pct": 0
   },
   "aqi": {
-    "aqi": 61,
+    "aqi": 58,
     "category": "Moderate",
     "pollutant": "O3",
     "source": "airnow"
@@ -41,7 +41,7 @@
     "fire_count_50km": 0
   },
   "river": {
-    "cfs": 7970,
+    "cfs": 8070,
     "stage": "flood"
   },
   "forecast": [
@@ -101,5 +101,5 @@
       "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-04-23T22:01:24.468250+00:00"
+  "updated_at": "2026-04-23T22:21:22.839927+00:00"
 }
