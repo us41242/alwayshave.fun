@@ -17,8 +17,8 @@
   "notes": "Hoodoos narrow \u2014 ice possible May/Oct",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 88,
-  "score_label": "Great day to go",
+  "score": 60,
+  "score_label": "Use caution",
   "gear_flags": [],
   "current": {
     "temp_f": 48,
@@ -39,62 +39,6 @@
     "fire_count_50km": 0
   },
   "river": null,
-  "forecast": [
-    {
-      "date": "2026-04-23",
-      "high_f": 52,
-      "low_f": 26,
-      "rain_pct": 14,
-      "uv": 8,
-      "sunrise": "2026-04-23T06:42",
-      "sunset": "2026-04-23T20:11",
-      "predicted_score": 88,
-      "score_label": "Great day to go"
-    },
-    {
-      "date": "2026-04-24",
-      "high_f": 55,
-      "low_f": 33,
-      "rain_pct": 2,
-      "uv": 7,
-      "sunrise": "2026-04-24T06:41",
-      "sunset": "2026-04-24T20:12",
-      "predicted_score": 100,
-      "score_label": "Great day to go"
-    },
-    {
-      "date": "2026-04-25",
-      "high_f": 54,
-      "low_f": 35,
-      "rain_pct": 16,
-      "uv": 7,
-      "sunrise": "2026-04-25T06:39",
-      "sunset": "2026-04-25T20:13",
-      "predicted_score": 88,
-      "score_label": "Great day to go"
-    },
-    {
-      "date": "2026-04-26",
-      "high_f": 43,
-      "low_f": 34,
-      "rain_pct": 74,
-      "uv": 6,
-      "sunrise": "2026-04-26T06:38",
-      "sunset": "2026-04-26T20:14",
-      "predicted_score": 60,
-      "score_label": "Use caution"
-    },
-    {
-      "date": "2026-04-27",
-      "high_f": 47,
-      "low_f": 31,
-      "rain_pct": 20,
-      "uv": 8,
-      "sunrise": "2026-04-27T06:37",
-      "sunset": "2026-04-27T20:15",
-      "predicted_score": 88,
-      "score_label": "Great day to go"
-    }
-  ],
-  "updated_at": "2026-04-23T19:43:18.189140+00:00"
+  "forecast": [],
+  "updated_at": "2026-04-23T20:04:05.595557+00:00"
 }
