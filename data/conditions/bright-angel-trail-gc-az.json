@@ -20,7 +20,6 @@
   "score": 78,
   "score_label": "Good conditions",
   "gear_flags": [
-    "wind layer recommended",
     "insulation layer required",
     "mask for sensitive groups"
   ],
@@ -28,7 +27,7 @@
     "temp_f": 41,
     "feels_like_f": 29,
     "wind_mph": 14,
-    "gusts_mph": 22,
+    "gusts_mph": 19,
     "rain_pct": 0
   },
   "aqi": {
@@ -43,14 +42,14 @@
     "fire_count_50km": 0
   },
   "river": {
-    "cfs": 8290,
+    "cfs": 8200,
     "stage": "flood"
   },
   "forecast": [
     {
       "date": "2026-04-23",
-      "high_f": 59,
-      "low_f": 37,
+      "high_f": 60,
+      "low_f": 36,
       "rain_pct": 0,
       "uv": 8,
       "sunrise": "2026-04-23T05:44",
@@ -103,5 +102,5 @@
       "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-04-23T08:23:15.190792+00:00"
+  "updated_at": "2026-04-23T08:43:04.243836+00:00"
 }
