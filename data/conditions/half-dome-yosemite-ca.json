@@ -17,16 +17,16 @@
   "notes": "Cable permit required May\u2013Oct; lottery in spring \u2014 book early",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 60,
+  "score": 52,
   "score_label": "Use caution",
   "gear_flags": [
     "insulation layer required"
   ],
   "current": {
-    "temp_f": 25,
-    "feels_like_f": 14,
-    "wind_mph": 8,
-    "gusts_mph": 10,
+    "temp_f": 23,
+    "feels_like_f": 11,
+    "wind_mph": 11,
+    "gusts_mph": 17,
     "rain_pct": 0
   },
   "aqi": {
@@ -36,8 +36,8 @@
     "source": "airnow"
   },
   "fire": {
-    "risk_level": "low",
-    "nearest_fire_km": 600.3,
+    "risk_level": "moderate",
+    "nearest_fire_km": 99.0,
     "fire_count_50km": 0
   },
   "river": null,
@@ -50,8 +50,8 @@
       "uv": 8,
       "sunrise": "2026-04-23T06:11",
       "sunset": "2026-04-23T19:40",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
+      "predicted_score": 62,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-04-24",
@@ -61,8 +61,8 @@
       "uv": 7,
       "sunrise": "2026-04-24T06:10",
       "sunset": "2026-04-24T19:41",
-      "predicted_score": 88,
-      "score_label": "Great day to go"
+      "predicted_score": 80,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-04-25",
@@ -72,7 +72,7 @@
       "uv": 5,
       "sunrise": "2026-04-25T06:08",
       "sunset": "2026-04-25T19:42",
-      "predicted_score": 60,
+      "predicted_score": 52,
       "score_label": "Use caution"
     },
     {
@@ -83,8 +83,8 @@
       "uv": 5,
       "sunrise": "2026-04-26T06:07",
       "sunset": "2026-04-26T19:43",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
+      "predicted_score": 62,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-04-27",
@@ -94,9 +94,9 @@
       "uv": 8,
       "sunrise": "2026-04-27T06:06",
       "sunset": "2026-04-27T19:44",
-      "predicted_score": 88,
-      "score_label": "Great day to go"
+      "predicted_score": 80,
+      "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-04-23T09:27:23.921461+00:00"
+  "updated_at": "2026-04-23T09:48:19.739570+00:00"
 }
