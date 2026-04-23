@@ -17,11 +17,9 @@
   "notes": "Timed entry required Apr 1\u2013Oct 31 \u2014 no dogs on trails",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 78,
-  "score_label": "Good conditions",
-  "gear_flags": [
-    "mask for sensitive groups"
-  ],
+  "score": 88,
+  "score_label": "Great day to go",
+  "gear_flags": [],
   "current": {
     "temp_f": 47,
     "feels_like_f": 38,
@@ -30,8 +28,8 @@
     "rain_pct": 1
   },
   "aqi": {
-    "aqi": 51,
-    "category": "Moderate",
+    "aqi": 49,
+    "category": "Good",
     "pollutant": "O3",
     "source": "airnow"
   },
@@ -50,7 +48,7 @@
       "uv": 8,
       "sunrise": "2026-04-23T06:30",
       "sunset": "2026-04-23T20:02",
-      "predicted_score": 90,
+      "predicted_score": 100,
       "score_label": "Great day to go"
     },
     {
@@ -61,7 +59,7 @@
       "uv": 8,
       "sunrise": "2026-04-24T06:28",
       "sunset": "2026-04-24T20:03",
-      "predicted_score": 90,
+      "predicted_score": 100,
       "score_label": "Great day to go"
     },
     {
@@ -72,8 +70,8 @@
       "uv": 8,
       "sunrise": "2026-04-25T06:27",
       "sunset": "2026-04-25T20:04",
-      "predicted_score": 78,
-      "score_label": "Good conditions"
+      "predicted_score": 88,
+      "score_label": "Great day to go"
     },
     {
       "date": "2026-04-26",
@@ -83,7 +81,7 @@
       "uv": 6,
       "sunrise": "2026-04-26T06:26",
       "sunset": "2026-04-26T20:05",
-      "predicted_score": 50,
+      "predicted_score": 60,
       "score_label": "Use caution"
     },
     {
@@ -94,9 +92,9 @@
       "uv": 8,
       "sunrise": "2026-04-27T06:24",
       "sunset": "2026-04-27T20:06",
-      "predicted_score": 78,
-      "score_label": "Good conditions"
+      "predicted_score": 88,
+      "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-04-23T08:11:04.340245+00:00"
+  "updated_at": "2026-04-23T08:28:04.046970+00:00"
 }
