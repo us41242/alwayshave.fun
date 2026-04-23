@@ -23,11 +23,11 @@
     "wind layer recommended"
   ],
   "current": {
-    "temp_f": 47,
-    "feels_like_f": 34,
-    "wind_mph": 17,
-    "gusts_mph": 25,
-    "rain_pct": 1
+    "temp_f": 46,
+    "feels_like_f": 33,
+    "wind_mph": 16,
+    "gusts_mph": 24,
+    "rain_pct": 0
   },
   "aqi": {
     "aqi": 43,
@@ -45,7 +45,7 @@
     {
       "date": "2026-04-23",
       "high_f": 58,
-      "low_f": 35,
+      "low_f": 37,
       "rain_pct": 1,
       "uv": 8,
       "sunrise": "2026-04-23T06:46",
@@ -98,5 +98,5 @@
       "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-04-23T06:27:54.595323+00:00"
+  "updated_at": "2026-04-23T06:47:34.389001+00:00"
 }
