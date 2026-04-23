@@ -17,8 +17,8 @@
   "notes": "60 miles of dirt road \u2014 high clearance required",
   "dog_friendly": "No",
   "vehicle_req": "High-Clearance",
-  "score": 82,
-  "score_label": "Good conditions",
+  "score": 42,
+  "score_label": "Conditions poor",
   "gear_flags": [
     "mask for sensitive groups"
   ],
@@ -41,62 +41,6 @@
     "fire_count_50km": 0
   },
   "river": null,
-  "forecast": [
-    {
-      "date": "2026-04-23",
-      "high_f": 73,
-      "low_f": 41,
-      "rain_pct": 0,
-      "uv": 8,
-      "sunrise": "2026-04-23T05:46",
-      "sunset": "2026-04-23T19:11",
-      "predicted_score": 82,
-      "score_label": "Good conditions"
-    },
-    {
-      "date": "2026-04-24",
-      "high_f": 77,
-      "low_f": 49,
-      "rain_pct": 2,
-      "uv": 8,
-      "sunrise": "2026-04-24T05:45",
-      "sunset": "2026-04-24T19:12",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
-    },
-    {
-      "date": "2026-04-25",
-      "high_f": 72,
-      "low_f": 52,
-      "rain_pct": 28,
-      "uv": 7,
-      "sunrise": "2026-04-25T05:44",
-      "sunset": "2026-04-25T19:13",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
-    },
-    {
-      "date": "2026-04-26",
-      "high_f": 60,
-      "low_f": 51,
-      "rain_pct": 37,
-      "uv": 8,
-      "sunrise": "2026-04-26T05:42",
-      "sunset": "2026-04-26T19:13",
-      "predicted_score": 52,
-      "score_label": "Use caution"
-    },
-    {
-      "date": "2026-04-27",
-      "high_f": 70,
-      "low_f": 47,
-      "rain_pct": 1,
-      "uv": 8,
-      "sunrise": "2026-04-27T05:41",
-      "sunset": "2026-04-27T19:14",
-      "predicted_score": 82,
-      "score_label": "Good conditions"
-    }
-  ],
-  "updated_at": "2026-04-23T15:05:52.853651+00:00"
+  "forecast": [],
+  "updated_at": "2026-04-23T15:27:41.972064+00:00"
 }
