@@ -23,14 +23,14 @@
     "mask for sensitive groups"
   ],
   "current": {
-    "temp_f": 55,
-    "feels_like_f": 52,
+    "temp_f": 56,
+    "feels_like_f": 54,
     "wind_mph": 1,
-    "gusts_mph": 11,
+    "gusts_mph": 10,
     "rain_pct": 0
   },
   "aqi": {
-    "aqi": 61,
+    "aqi": 58,
     "category": "Moderate",
     "pollutant": "O3",
     "source": "airnow"
@@ -98,5 +98,5 @@
       "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-04-23T17:03:04.547338+00:00"
+  "updated_at": "2026-04-23T17:23:26.858305+00:00"
 }
