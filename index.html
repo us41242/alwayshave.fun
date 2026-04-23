@@ -172,6 +172,12 @@
 
     @media (max-width: 600px) {
       .nav-hamburger { display: block; }
+      nav.menu-open {
+        bottom: 0;
+        backdrop-filter: none;
+        background: rgba(12,17,23,0.97);
+        border-bottom: none;
+      }
       .nav-links {
         display: none;
         position: fixed;
@@ -721,15 +727,18 @@
     // ── Hamburger menu toggle ───────────────────
     const hamburger = document.getElementById('nav-hamburger');
     const navLinks = document.getElementById('nav-links');
+    const navEl = hamburger.closest('nav');
     hamburger.addEventListener('click', () => {
       hamburger.classList.toggle('open');
       navLinks.classList.toggle('open');
+      navEl.classList.toggle('menu-open');
       document.body.style.overflow = navLinks.classList.contains('open') ? 'hidden' : '';
     });
     navLinks.querySelectorAll('.nav-link').forEach(link => {
       link.addEventListener('click', () => {
         hamburger.classList.remove('open');
         navLinks.classList.remove('open');
+        navEl.classList.remove('menu-open');
         document.body.style.overflow = '';
       });
     });
