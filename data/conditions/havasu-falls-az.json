@@ -23,14 +23,14 @@
     "mask for sensitive groups"
   ],
   "current": {
-    "temp_f": 67,
-    "feels_like_f": 61,
-    "wind_mph": 7,
-    "gusts_mph": 8,
+    "temp_f": 69,
+    "feels_like_f": 63,
+    "wind_mph": 6,
+    "gusts_mph": 7,
     "rain_pct": 0
   },
   "aqi": {
-    "aqi": 80,
+    "aqi": 77,
     "category": "Moderate",
     "pollutant": "O3",
     "source": "airnow"
@@ -98,5 +98,5 @@
       "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-04-24T17:03:32.672214+00:00"
+  "updated_at": "2026-04-24T17:23:30.090592+00:00"
 }
