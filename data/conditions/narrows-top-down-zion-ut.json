@@ -23,10 +23,10 @@
     "insulation layer required"
   ],
   "current": {
-    "temp_f": 39,
-    "feels_like_f": 30,
-    "wind_mph": 6,
-    "gusts_mph": 6,
+    "temp_f": 40,
+    "feels_like_f": 32,
+    "wind_mph": 3,
+    "gusts_mph": 4,
     "rain_pct": 0
   },
   "aqi": {
@@ -37,7 +37,7 @@
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": 780.0,
+    "nearest_fire_km": 167.9,
     "fire_count_50km": 0
   },
   "river": {
@@ -101,5 +101,5 @@
       "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-04-24T11:45:54.261483+00:00"
+  "updated_at": "2026-04-24T12:05:00.613663+00:00"
 }
