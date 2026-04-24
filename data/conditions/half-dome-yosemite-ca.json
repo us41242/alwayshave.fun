@@ -17,8 +17,8 @@
   "notes": "Cable permit required May\u2013Oct; lottery in spring \u2014 book early",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 62,
-  "score_label": "Use caution",
+  "score": 70,
+  "score_label": "Good conditions",
   "gear_flags": [
     "insulation layer required"
   ],
@@ -36,8 +36,8 @@
     "source": "airnow"
   },
   "fire": {
-    "risk_level": "moderate",
-    "nearest_fire_km": 98.8,
+    "risk_level": "low",
+    "nearest_fire_km": null,
     "fire_count_50km": 0
   },
   "river": null,
@@ -50,8 +50,8 @@
       "uv": 8,
       "sunrise": "2026-04-23T06:11",
       "sunset": "2026-04-23T19:40",
-      "predicted_score": 62,
-      "score_label": "Use caution"
+      "predicted_score": 70,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-04-24",
@@ -61,8 +61,8 @@
       "uv": 6,
       "sunrise": "2026-04-24T06:10",
       "sunset": "2026-04-24T19:41",
-      "predicted_score": 62,
-      "score_label": "Use caution"
+      "predicted_score": 70,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-04-25",
@@ -72,7 +72,7 @@
       "uv": 4,
       "sunrise": "2026-04-25T06:08",
       "sunset": "2026-04-25T19:42",
-      "predicted_score": 52,
+      "predicted_score": 60,
       "score_label": "Use caution"
     },
     {
@@ -83,7 +83,7 @@
       "uv": 4,
       "sunrise": "2026-04-26T06:07",
       "sunset": "2026-04-26T19:43",
-      "predicted_score": 52,
+      "predicted_score": 60,
       "score_label": "Use caution"
     },
     {
@@ -94,9 +94,9 @@
       "uv": 8,
       "sunrise": "2026-04-27T06:06",
       "sunset": "2026-04-27T19:44",
-      "predicted_score": 80,
-      "score_label": "Good conditions"
+      "predicted_score": 88,
+      "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-04-23T23:50:15.958321+00:00"
+  "updated_at": "2026-04-24T00:10:23.106272+00:00"
 }

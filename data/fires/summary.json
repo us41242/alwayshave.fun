@@ -1,25 +1,25 @@
 {
-  "updated_at": "2026-04-23T23:41:17.568721+00:00",
-  "total_hotspots": 129,
+  "updated_at": "2026-04-24T00:01:49.285269+00:00",
+  "total_hotspots": 0,
   "regions": {
     "Southwest": {
       "risk_level": "low",
-      "avg_score_pts": 18.3,
+      "avg_score_pts": 20.0,
       "trails_monitored": 18
     },
     "Nevada": {
-      "risk_level": "moderate",
-      "avg_score_pts": 12.6,
+      "risk_level": "low",
+      "avg_score_pts": 20.0,
       "trails_monitored": 13
     },
     "Colorado": {
-      "risk_level": "moderate",
-      "avg_score_pts": 15.6,
+      "risk_level": "low",
+      "avg_score_pts": 20.0,
       "trails_monitored": 5
     },
     "California": {
-      "risk_level": "elevated",
-      "avg_score_pts": 8.4,
+      "risk_level": "low",
+      "avg_score_pts": 20.0,
       "trails_monitored": 5
     }
   }
