@@ -17,17 +17,17 @@
   "notes": "No cars beyond Spooner Summit; bike-legal trail",
   "dog_friendly": "Yes",
   "vehicle_req": "AWD",
-  "score": 78,
-  "score_label": "Good conditions",
+  "score": 60,
+  "score_label": "Use caution",
   "gear_flags": [
     "insulation layer required",
     "mask for sensitive groups"
   ],
   "current": {
-    "temp_f": 41,
-    "feels_like_f": 34,
-    "wind_mph": 3,
-    "gusts_mph": 3,
+    "temp_f": 40,
+    "feels_like_f": 33,
+    "wind_mph": 4,
+    "gusts_mph": 4,
     "rain_pct": 0
   },
   "aqi": {
@@ -99,5 +99,5 @@
       "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-04-24T03:40:24.652455+00:00"
+  "updated_at": "2026-04-24T03:51:20.099675+00:00"
 }

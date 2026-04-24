@@ -17,12 +17,9 @@
   "notes": "Snow above 9000ft until June \u2014 check SNOTEL",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 50,
+  "score": 60,
   "score_label": "Use caution",
-  "gear_flags": [
-    "insulation layer required",
-    "mask for sensitive groups"
-  ],
+  "gear_flags": [],
   "current": {
     "temp_f": 25,
     "feels_like_f": 16,
@@ -31,10 +28,10 @@
     "rain_pct": 0
   },
   "aqi": {
-    "aqi": 91,
-    "category": "Moderate",
-    "pollutant": "PM2.5",
-    "source": "open-meteo"
+    "aqi": 24,
+    "category": "Good",
+    "pollutant": "PM10",
+    "source": "airnow"
   },
   "fire": {
     "risk_level": "low",
@@ -42,62 +39,6 @@
     "fire_count_50km": 0
   },
   "river": null,
-  "forecast": [
-    {
-      "date": "2026-04-23",
-      "high_f": 34,
-      "low_f": 19,
-      "rain_pct": 0,
-      "uv": 8,
-      "sunrise": "2026-04-23T05:58",
-      "sunset": "2026-04-23T19:23",
-      "predicted_score": 50,
-      "score_label": "Use caution"
-    },
-    {
-      "date": "2026-04-24",
-      "high_f": 36,
-      "low_f": 23,
-      "rain_pct": 3,
-      "uv": 8,
-      "sunrise": "2026-04-24T05:57",
-      "sunset": "2026-04-24T19:24",
-      "predicted_score": 60,
-      "score_label": "Use caution"
-    },
-    {
-      "date": "2026-04-25",
-      "high_f": 33,
-      "low_f": 21,
-      "rain_pct": 45,
-      "uv": 8,
-      "sunrise": "2026-04-25T05:56",
-      "sunset": "2026-04-25T19:25",
-      "predicted_score": 50,
-      "score_label": "Use caution"
-    },
-    {
-      "date": "2026-04-26",
-      "high_f": 27,
-      "low_f": 15,
-      "rain_pct": 59,
-      "uv": 5,
-      "sunrise": "2026-04-26T05:54",
-      "sunset": "2026-04-26T19:26",
-      "predicted_score": 50,
-      "score_label": "Use caution"
-    },
-    {
-      "date": "2026-04-27",
-      "high_f": 33,
-      "low_f": 18,
-      "rain_pct": 12,
-      "uv": 8,
-      "sunrise": "2026-04-27T05:53",
-      "sunset": "2026-04-27T19:26",
-      "predicted_score": 50,
-      "score_label": "Use caution"
-    }
-  ],
-  "updated_at": "2026-04-24T03:27:12.314218+00:00"
+  "forecast": [],
+  "updated_at": "2026-04-24T03:42:30.091157+00:00"
 }

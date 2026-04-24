@@ -17,25 +17,24 @@
   "notes": "Shuttle required from Aspen 5am\u20135pm; no private vehicles",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 50,
+  "score": 60,
   "score_label": "Use caution",
   "gear_flags": [
     "wind layer recommended",
-    "insulation layer required",
-    "mask for sensitive groups"
+    "insulation layer required"
   ],
   "current": {
-    "temp_f": 18,
-    "feels_like_f": 8,
-    "wind_mph": 9,
-    "gusts_mph": 24,
+    "temp_f": 17,
+    "feels_like_f": 7,
+    "wind_mph": 10,
+    "gusts_mph": 25,
     "rain_pct": 0
   },
   "aqi": {
-    "aqi": 78,
-    "category": "Moderate",
-    "pollutant": "PM2.5",
-    "source": "open-meteo"
+    "aqi": 37,
+    "category": "Good",
+    "pollutant": "O3",
+    "source": "airnow"
   },
   "fire": {
     "risk_level": "low",
@@ -52,7 +51,7 @@
       "uv": 7,
       "sunrise": "2026-04-23T06:19",
       "sunset": "2026-04-23T19:52",
-      "predicted_score": 50,
+      "predicted_score": 60,
       "score_label": "Use caution"
     },
     {
@@ -63,7 +62,7 @@
       "uv": 8,
       "sunrise": "2026-04-24T06:18",
       "sunset": "2026-04-24T19:53",
-      "predicted_score": 50,
+      "predicted_score": 60,
       "score_label": "Use caution"
     },
     {
@@ -74,7 +73,7 @@
       "uv": 8,
       "sunrise": "2026-04-25T06:16",
       "sunset": "2026-04-25T19:54",
-      "predicted_score": 50,
+      "predicted_score": 60,
       "score_label": "Use caution"
     },
     {
@@ -85,7 +84,7 @@
       "uv": 8,
       "sunrise": "2026-04-26T06:15",
       "sunset": "2026-04-26T19:55",
-      "predicted_score": 50,
+      "predicted_score": 60,
       "score_label": "Use caution"
     },
     {
@@ -96,9 +95,9 @@
       "uv": 9,
       "sunrise": "2026-04-27T06:14",
       "sunset": "2026-04-27T19:56",
-      "predicted_score": 50,
+      "predicted_score": 60,
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-04-24T03:37:13.736036+00:00"
+  "updated_at": "2026-04-24T03:50:06.858483+00:00"
 }
