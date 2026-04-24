@@ -17,20 +17,21 @@
   "notes": "Desert wash trail \u2014 no shade",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 42,
-  "score_label": "Conditions poor",
+  "score": 70,
+  "score_label": "Good conditions",
   "gear_flags": [
+    "wind layer recommended",
     "mask for sensitive groups"
   ],
   "current": {
     "temp_f": 72,
     "feels_like_f": 63,
-    "wind_mph": 15,
-    "gusts_mph": 19,
+    "wind_mph": 16,
+    "gusts_mph": 23,
     "rain_pct": 0
   },
   "aqi": {
-    "aqi": 61,
+    "aqi": 67,
     "category": "Moderate",
     "pollutant": "O3",
     "source": "airnow"
@@ -41,6 +42,62 @@
     "fire_count_50km": 0
   },
   "river": null,
-  "forecast": [],
-  "updated_at": "2026-04-24T19:05:43.250582+00:00"
+  "forecast": [
+    {
+      "date": "2026-04-24",
+      "high_f": 76,
+      "low_f": 58,
+      "rain_pct": 2,
+      "uv": 8,
+      "sunrise": "2026-04-24T05:54",
+      "sunset": "2026-04-24T19:20",
+      "predicted_score": 70,
+      "score_label": "Good conditions"
+    },
+    {
+      "date": "2026-04-25",
+      "high_f": 72,
+      "low_f": 52,
+      "rain_pct": 25,
+      "uv": 6,
+      "sunrise": "2026-04-25T05:53",
+      "sunset": "2026-04-25T19:20",
+      "predicted_score": 70,
+      "score_label": "Good conditions"
+    },
+    {
+      "date": "2026-04-26",
+      "high_f": 64,
+      "low_f": 47,
+      "rain_pct": 42,
+      "uv": 6,
+      "sunrise": "2026-04-26T05:52",
+      "sunset": "2026-04-26T19:21",
+      "predicted_score": 52,
+      "score_label": "Use caution"
+    },
+    {
+      "date": "2026-04-27",
+      "high_f": 70,
+      "low_f": 44,
+      "rain_pct": 0,
+      "uv": 8,
+      "sunrise": "2026-04-27T05:51",
+      "sunset": "2026-04-27T19:22",
+      "predicted_score": 82,
+      "score_label": "Good conditions"
+    },
+    {
+      "date": "2026-04-28",
+      "high_f": 77,
+      "low_f": 49,
+      "rain_pct": 1,
+      "uv": 8,
+      "sunrise": "2026-04-28T05:50",
+      "sunset": "2026-04-28T19:23",
+      "predicted_score": 70,
+      "score_label": "Good conditions"
+    }
+  ],
+  "updated_at": "2026-04-24T19:25:36.897524+00:00"
 }
