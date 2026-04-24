@@ -35,7 +35,7 @@
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": 185.7,
+    "nearest_fire_km": null,
     "fire_count_50km": 0
   },
   "river": null,
@@ -96,5 +96,5 @@
       "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-04-24T21:21:40.904865+00:00"
+  "updated_at": "2026-04-24T21:42:09.115958+00:00"
 }
