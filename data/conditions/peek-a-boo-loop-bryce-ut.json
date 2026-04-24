@@ -17,16 +17,16 @@
   "notes": "Hoodoos narrow \u2014 ice possible May/Oct",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 70,
-  "score_label": "Good conditions",
+  "score": 60,
+  "score_label": "Use caution",
   "gear_flags": [
     "insulation layer required"
   ],
   "current": {
     "temp_f": 35,
     "feels_like_f": 23,
-    "wind_mph": 12,
-    "gusts_mph": 16,
+    "wind_mph": 13,
+    "gusts_mph": 17,
     "rain_pct": 0
   },
   "aqi": {
@@ -37,7 +37,7 @@
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": null,
+    "nearest_fire_km": 714.6,
     "fire_count_50km": 0
   },
   "river": null,
@@ -98,5 +98,5 @@
       "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-04-24T09:23:27.041517+00:00"
+  "updated_at": "2026-04-24T09:44:36.962592+00:00"
 }

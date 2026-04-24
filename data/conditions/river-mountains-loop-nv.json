@@ -17,14 +17,14 @@
   "notes": "Full loop 34mi \u2014 sections open to bikes/horses",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 50,
-  "score_label": "Use caution",
+  "score": 90,
+  "score_label": "Great day to go",
   "gear_flags": [
     "mask for sensitive groups"
   ],
   "current": {
-    "temp_f": 61,
-    "feels_like_f": 52,
+    "temp_f": 60,
+    "feels_like_f": 50,
     "wind_mph": 7,
     "gusts_mph": 7,
     "rain_pct": 0
@@ -37,10 +37,66 @@
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": null,
+    "nearest_fire_km": 1013.0,
     "fire_count_50km": 0
   },
   "river": null,
-  "forecast": [],
-  "updated_at": "2026-04-24T09:25:30.738255+00:00"
+  "forecast": [
+    {
+      "date": "2026-04-24",
+      "high_f": 80,
+      "low_f": 59,
+      "rain_pct": 1,
+      "uv": 8,
+      "sunrise": "2026-04-24T05:54",
+      "sunset": "2026-04-24T19:20",
+      "predicted_score": 78,
+      "score_label": "Good conditions"
+    },
+    {
+      "date": "2026-04-25",
+      "high_f": 75,
+      "low_f": 59,
+      "rain_pct": 15,
+      "uv": 7,
+      "sunrise": "2026-04-25T05:53",
+      "sunset": "2026-04-25T19:21",
+      "predicted_score": 78,
+      "score_label": "Good conditions"
+    },
+    {
+      "date": "2026-04-26",
+      "high_f": 68,
+      "low_f": 49,
+      "rain_pct": 28,
+      "uv": 8,
+      "sunrise": "2026-04-26T05:52",
+      "sunset": "2026-04-26T19:22",
+      "predicted_score": 78,
+      "score_label": "Good conditions"
+    },
+    {
+      "date": "2026-04-27",
+      "high_f": 72,
+      "low_f": 47,
+      "rain_pct": 1,
+      "uv": 8,
+      "sunrise": "2026-04-27T05:50",
+      "sunset": "2026-04-27T19:23",
+      "predicted_score": 90,
+      "score_label": "Great day to go"
+    },
+    {
+      "date": "2026-04-28",
+      "high_f": 79,
+      "low_f": 51,
+      "rain_pct": 1,
+      "uv": 8,
+      "sunrise": "2026-04-28T05:49",
+      "sunset": "2026-04-28T19:24",
+      "predicted_score": 78,
+      "score_label": "Good conditions"
+    }
+  ],
+  "updated_at": "2026-04-24T09:44:40.727228+00:00"
 }
