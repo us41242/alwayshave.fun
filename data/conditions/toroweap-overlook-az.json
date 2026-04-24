@@ -17,17 +17,18 @@
   "notes": "60 miles of dirt road \u2014 high clearance required",
   "dog_friendly": "No",
   "vehicle_req": "High-Clearance",
-  "score": 80,
-  "score_label": "Good conditions",
+  "score": 68,
+  "score_label": "Use caution",
   "gear_flags": [
+    "wind layer recommended",
     "N95 mask recommended"
   ],
   "current": {
     "temp_f": 73,
-    "feels_like_f": 60,
-    "wind_mph": 14,
-    "gusts_mph": 19,
-    "rain_pct": 1
+    "feels_like_f": 59,
+    "wind_mph": 16,
+    "gusts_mph": 22,
+    "rain_pct": 2
   },
   "aqi": {
     "aqi": 105,
@@ -37,28 +38,28 @@
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": null,
+    "nearest_fire_km": 199.7,
     "fire_count_50km": 0
   },
   "river": null,
   "forecast": [
     {
       "date": "2026-04-24",
-      "high_f": 75,
+      "high_f": 76,
       "low_f": 41,
-      "rain_pct": 2,
+      "rain_pct": 4,
       "uv": 7,
       "sunrise": "2026-04-24T05:45",
       "sunset": "2026-04-24T19:12",
-      "predicted_score": 80,
-      "score_label": "Good conditions"
+      "predicted_score": 68,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-04-25",
       "high_f": 73,
       "low_f": 50,
       "rain_pct": 7,
-      "uv": 5,
+      "uv": 6,
       "sunrise": "2026-04-25T05:44",
       "sunset": "2026-04-25T19:13",
       "predicted_score": 80,
@@ -66,10 +67,10 @@
     },
     {
       "date": "2026-04-26",
-      "high_f": 58,
+      "high_f": 57,
       "low_f": 48,
       "rain_pct": 70,
-      "uv": 5,
+      "uv": 6,
       "sunrise": "2026-04-26T05:42",
       "sunset": "2026-04-26T19:13",
       "predicted_score": 40,
@@ -77,8 +78,8 @@
     },
     {
       "date": "2026-04-27",
-      "high_f": 68,
-      "low_f": 45,
+      "high_f": 67,
+      "low_f": 46,
       "rain_pct": 3,
       "uv": 8,
       "sunrise": "2026-04-27T05:41",
@@ -88,7 +89,7 @@
     },
     {
       "date": "2026-04-28",
-      "high_f": 73,
+      "high_f": 74,
       "low_f": 48,
       "rain_pct": 1,
       "uv": 8,
@@ -98,5 +99,5 @@
       "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-04-24T23:26:25.240884+00:00"
+  "updated_at": "2026-04-24T23:46:14.233412+00:00"
 }

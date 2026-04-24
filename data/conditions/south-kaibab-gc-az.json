@@ -24,11 +24,11 @@
     "N95 mask recommended"
   ],
   "current": {
-    "temp_f": 58,
+    "temp_f": 57,
     "feels_like_f": 43,
-    "wind_mph": 20,
-    "gusts_mph": 33,
-    "rain_pct": 1
+    "wind_mph": 18,
+    "gusts_mph": 32,
+    "rain_pct": 2
   },
   "aqi": {
     "aqi": 105,
@@ -38,16 +38,16 @@
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": null,
+    "nearest_fire_km": 255.7,
     "fire_count_50km": 0
   },
   "river": null,
   "forecast": [
     {
       "date": "2026-04-24",
-      "high_f": 61,
+      "high_f": 62,
       "low_f": 32,
-      "rain_pct": 2,
+      "rain_pct": 3,
       "uv": 7,
       "sunrise": "2026-04-24T05:43",
       "sunset": "2026-04-24T19:09",
@@ -57,9 +57,9 @@
     {
       "date": "2026-04-25",
       "high_f": 58,
-      "low_f": 37,
+      "low_f": 36,
       "rain_pct": 14,
-      "uv": 8,
+      "uv": 7,
       "sunrise": "2026-04-25T05:42",
       "sunset": "2026-04-25T19:10",
       "predicted_score": 68,
@@ -67,10 +67,10 @@
     },
     {
       "date": "2026-04-26",
-      "high_f": 47,
+      "high_f": 44,
       "low_f": 35,
       "rain_pct": 68,
-      "uv": 8,
+      "uv": 5,
       "sunrise": "2026-04-26T05:40",
       "sunset": "2026-04-26T19:11",
       "predicted_score": 40,
@@ -79,7 +79,7 @@
     {
       "date": "2026-04-27",
       "high_f": 58,
-      "low_f": 33,
+      "low_f": 32,
       "rain_pct": 3,
       "uv": 8,
       "sunrise": "2026-04-27T05:39",
@@ -89,7 +89,7 @@
     },
     {
       "date": "2026-04-28",
-      "high_f": 60,
+      "high_f": 61,
       "low_f": 36,
       "rain_pct": 1,
       "uv": 8,
@@ -99,5 +99,5 @@
       "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-04-24T23:24:14.959900+00:00"
+  "updated_at": "2026-04-24T23:44:02.026601+00:00"
 }
