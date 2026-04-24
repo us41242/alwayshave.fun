@@ -17,16 +17,16 @@
   "notes": "Kayak/canoe only \u2014 check river release schedule",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 46,
-  "score_label": "Conditions poor",
+  "score": 86,
+  "score_label": "Great day to go",
   "gear_flags": [
     "N95 mask recommended for wildfire smoke"
   ],
   "current": {
-    "temp_f": 63,
-    "feels_like_f": 57,
-    "wind_mph": 2,
-    "gusts_mph": 2,
+    "temp_f": 66,
+    "feels_like_f": 60,
+    "wind_mph": 5,
+    "gusts_mph": 5,
     "rain_pct": 0
   },
   "aqi": {
@@ -41,6 +41,62 @@
     "fire_count_50km": 3
   },
   "river": null,
-  "forecast": [],
-  "updated_at": "2026-04-24T14:46:48.005176+00:00"
+  "forecast": [
+    {
+      "date": "2026-04-24",
+      "high_f": 88,
+      "low_f": 59,
+      "rain_pct": 1,
+      "uv": 7,
+      "sunrise": "2026-04-24T05:53",
+      "sunset": "2026-04-24T19:20",
+      "predicted_score": 56,
+      "score_label": "Use caution"
+    },
+    {
+      "date": "2026-04-25",
+      "high_f": 84,
+      "low_f": 63,
+      "rain_pct": 18,
+      "uv": 7,
+      "sunrise": "2026-04-25T05:52",
+      "sunset": "2026-04-25T19:20",
+      "predicted_score": 74,
+      "score_label": "Good conditions"
+    },
+    {
+      "date": "2026-04-26",
+      "high_f": 74,
+      "low_f": 55,
+      "rain_pct": 37,
+      "uv": 8,
+      "sunrise": "2026-04-26T05:51",
+      "sunset": "2026-04-26T19:21",
+      "predicted_score": 56,
+      "score_label": "Use caution"
+    },
+    {
+      "date": "2026-04-27",
+      "high_f": 79,
+      "low_f": 52,
+      "rain_pct": 1,
+      "uv": 8,
+      "sunrise": "2026-04-27T05:50",
+      "sunset": "2026-04-27T19:22",
+      "predicted_score": 74,
+      "score_label": "Good conditions"
+    },
+    {
+      "date": "2026-04-28",
+      "high_f": 85,
+      "low_f": 57,
+      "rain_pct": 1,
+      "uv": 8,
+      "sunrise": "2026-04-28T05:49",
+      "sunset": "2026-04-28T19:23",
+      "predicted_score": 74,
+      "score_label": "Good conditions"
+    }
+  ],
+  "updated_at": "2026-04-24T15:06:00.923102+00:00"
 }
