@@ -17,12 +17,15 @@
   "notes": "Remote \u2014 no cell service; snow until July",
   "dog_friendly": "Yes",
   "vehicle_req": "High-Clearance",
-  "score": 60,
-  "score_label": "Use caution",
-  "gear_flags": [],
+  "score": 70,
+  "score_label": "Good conditions",
+  "gear_flags": [
+    "wind layer recommended",
+    "insulation layer required"
+  ],
   "current": {
-    "temp_f": 34,
-    "feels_like_f": 22,
+    "temp_f": 35,
+    "feels_like_f": 25,
     "wind_mph": 17,
     "gusts_mph": 21,
     "rain_pct": 0
@@ -39,6 +42,62 @@
     "fire_count_50km": 0
   },
   "river": null,
-  "forecast": [],
-  "updated_at": "2026-04-24T17:47:54.021701+00:00"
+  "forecast": [
+    {
+      "date": "2026-04-24",
+      "high_f": 40,
+      "low_f": 17,
+      "rain_pct": 8,
+      "uv": 7,
+      "sunrise": "2026-04-24T05:46",
+      "sunset": "2026-04-24T19:23",
+      "predicted_score": 88,
+      "score_label": "Great day to go"
+    },
+    {
+      "date": "2026-04-25",
+      "high_f": 37,
+      "low_f": 19,
+      "rain_pct": 62,
+      "uv": 7,
+      "sunrise": "2026-04-25T05:45",
+      "sunset": "2026-04-25T19:24",
+      "predicted_score": 60,
+      "score_label": "Use caution"
+    },
+    {
+      "date": "2026-04-26",
+      "high_f": 24,
+      "low_f": 19,
+      "rain_pct": 93,
+      "uv": 2,
+      "sunrise": "2026-04-26T05:43",
+      "sunset": "2026-04-26T19:25",
+      "predicted_score": 60,
+      "score_label": "Use caution"
+    },
+    {
+      "date": "2026-04-27",
+      "high_f": 27,
+      "low_f": 16,
+      "rain_pct": 84,
+      "uv": 8,
+      "sunrise": "2026-04-27T05:42",
+      "sunset": "2026-04-27T19:26",
+      "predicted_score": 60,
+      "score_label": "Use caution"
+    },
+    {
+      "date": "2026-04-28",
+      "high_f": 37,
+      "low_f": 19,
+      "rain_pct": 26,
+      "uv": 8,
+      "sunrise": "2026-04-28T05:41",
+      "sunset": "2026-04-28T19:27",
+      "predicted_score": 70,
+      "score_label": "Good conditions"
+    }
+  ],
+  "updated_at": "2026-04-24T18:06:45.111395+00:00"
 }
