@@ -17,8 +17,8 @@
   "notes": "Unmaintained \u2014 route-finding required",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 78,
-  "score_label": "Good conditions",
+  "score": 50,
+  "score_label": "Use caution",
   "gear_flags": [
     "mask for sensitive groups"
   ],
@@ -30,73 +30,17 @@
     "rain_pct": 0
   },
   "aqi": {
-    "aqi": 87,
+    "aqi": 77,
     "category": "Moderate",
     "pollutant": "O3",
     "source": "airnow"
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": 243.7,
+    "nearest_fire_km": null,
     "fire_count_50km": 0
   },
   "river": null,
-  "forecast": [
-    {
-      "date": "2026-04-24",
-      "high_f": 66,
-      "low_f": 37,
-      "rain_pct": 2,
-      "uv": 7,
-      "sunrise": "2026-04-24T05:43",
-      "sunset": "2026-04-24T19:10",
-      "predicted_score": 90,
-      "score_label": "Great day to go"
-    },
-    {
-      "date": "2026-04-25",
-      "high_f": 63,
-      "low_f": 46,
-      "rain_pct": 32,
-      "uv": 5,
-      "sunrise": "2026-04-25T05:42",
-      "sunset": "2026-04-25T19:11",
-      "predicted_score": 60,
-      "score_label": "Use caution"
-    },
-    {
-      "date": "2026-04-26",
-      "high_f": 49,
-      "low_f": 40,
-      "rain_pct": 60,
-      "uv": 6,
-      "sunrise": "2026-04-26T05:41",
-      "sunset": "2026-04-26T19:11",
-      "predicted_score": 60,
-      "score_label": "Use caution"
-    },
-    {
-      "date": "2026-04-27",
-      "high_f": 62,
-      "low_f": 38,
-      "rain_pct": 2,
-      "uv": 8,
-      "sunrise": "2026-04-27T05:40",
-      "sunset": "2026-04-27T19:12",
-      "predicted_score": 90,
-      "score_label": "Great day to go"
-    },
-    {
-      "date": "2026-04-28",
-      "high_f": 66,
-      "low_f": 41,
-      "rain_pct": 3,
-      "uv": 8,
-      "sunrise": "2026-04-28T05:39",
-      "sunset": "2026-04-28T19:13",
-      "predicted_score": 90,
-      "score_label": "Great day to go"
-    }
-  ],
-  "updated_at": "2026-04-24T15:04:07.549237+00:00"
+  "forecast": [],
+  "updated_at": "2026-04-24T15:25:59.966406+00:00"
 }
