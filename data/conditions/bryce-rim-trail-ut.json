@@ -23,10 +23,10 @@
     "wind layer recommended"
   ],
   "current": {
-    "temp_f": 56,
-    "feels_like_f": 44,
-    "wind_mph": 18,
-    "gusts_mph": 21,
+    "temp_f": 55,
+    "feels_like_f": 43,
+    "wind_mph": 19,
+    "gusts_mph": 22,
     "rain_pct": 0
   },
   "aqi": {
@@ -37,7 +37,7 @@
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": null,
+    "nearest_fire_km": 154.9,
     "fire_count_50km": 0
   },
   "river": null,
@@ -98,5 +98,5 @@
       "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-04-24T21:42:11.482199+00:00"
+  "updated_at": "2026-04-24T22:01:40.742120+00:00"
 }
