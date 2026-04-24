@@ -17,7 +17,7 @@
   "notes": "Slot canyon walls narrow \u2014 avoid during rain/flash flood risk",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 58,
+  "score": 60,
   "score_label": "Use caution",
   "gear_flags": [],
   "current": {
@@ -28,10 +28,10 @@
     "rain_pct": 0
   },
   "aqi": {
-    "aqi": null,
-    "category": "Unknown",
-    "pollutant": "",
-    "source": "none"
+    "aqi": 48,
+    "category": "Good",
+    "pollutant": "PM2.5",
+    "source": "open-meteo"
   },
   "fire": {
     "risk_level": "low",
@@ -39,62 +39,6 @@
     "fire_count_50km": 0
   },
   "river": null,
-  "forecast": [
-    {
-      "date": "2026-04-24",
-      "high_f": 70,
-      "low_f": 43,
-      "rain_pct": 3,
-      "uv": 7,
-      "sunrise": "2026-04-24T05:49",
-      "sunset": "2026-04-24T19:21",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
-    },
-    {
-      "date": "2026-04-25",
-      "high_f": 68,
-      "low_f": 44,
-      "rain_pct": 32,
-      "uv": 7,
-      "sunrise": "2026-04-25T05:48",
-      "sunset": "2026-04-25T19:22",
-      "predicted_score": 40,
-      "score_label": "Conditions poor"
-    },
-    {
-      "date": "2026-04-26",
-      "high_f": 50,
-      "low_f": 40,
-      "rain_pct": 72,
-      "uv": 3,
-      "sunrise": "2026-04-26T05:47",
-      "sunset": "2026-04-26T19:23",
-      "predicted_score": 30,
-      "score_label": "Conditions poor"
-    },
-    {
-      "date": "2026-04-27",
-      "high_f": 57,
-      "low_f": 43,
-      "rain_pct": 23,
-      "uv": 7,
-      "sunrise": "2026-04-27T05:45",
-      "sunset": "2026-04-27T19:24",
-      "predicted_score": 58,
-      "score_label": "Use caution"
-    },
-    {
-      "date": "2026-04-28",
-      "high_f": 64,
-      "low_f": 42,
-      "rain_pct": 4,
-      "uv": 8,
-      "sunrise": "2026-04-28T05:44",
-      "sunset": "2026-04-28T19:25",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
-    }
-  ],
-  "updated_at": "2026-04-24T08:23:34.260876+00:00"
+  "forecast": [],
+  "updated_at": "2026-04-24T08:43:26.164412+00:00"
 }
