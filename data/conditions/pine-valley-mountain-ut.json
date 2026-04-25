@@ -17,8 +17,8 @@
   "notes": "Multi-day backpack; no established campsites \u2014 LNT",
   "dog_friendly": "Yes",
   "vehicle_req": "AWD",
-  "score": 100,
-  "score_label": "Great day to go",
+  "score": 60,
+  "score_label": "Use caution",
   "gear_flags": [],
   "current": {
     "temp_f": 54,
@@ -39,62 +39,6 @@
     "fire_count_50km": 0
   },
   "river": null,
-  "forecast": [
-    {
-      "date": "2026-04-25",
-      "high_f": 59,
-      "low_f": 40,
-      "rain_pct": 12,
-      "uv": 5,
-      "sunrise": "2026-04-25T06:45",
-      "sunset": "2026-04-25T20:18",
-      "predicted_score": 88,
-      "score_label": "Great day to go"
-    },
-    {
-      "date": "2026-04-26",
-      "high_f": 42,
-      "low_f": 33,
-      "rain_pct": 68,
-      "uv": 4,
-      "sunrise": "2026-04-26T06:44",
-      "sunset": "2026-04-26T20:19",
-      "predicted_score": 60,
-      "score_label": "Use caution"
-    },
-    {
-      "date": "2026-04-27",
-      "high_f": 48,
-      "low_f": 33,
-      "rain_pct": 34,
-      "uv": 8,
-      "sunrise": "2026-04-27T06:43",
-      "sunset": "2026-04-27T20:20",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
-    },
-    {
-      "date": "2026-04-28",
-      "high_f": 57,
-      "low_f": 33,
-      "rain_pct": 28,
-      "uv": 8,
-      "sunrise": "2026-04-28T06:41",
-      "sunset": "2026-04-28T20:20",
-      "predicted_score": 88,
-      "score_label": "Great day to go"
-    },
-    {
-      "date": "2026-04-29",
-      "high_f": 62,
-      "low_f": 42,
-      "rain_pct": 6,
-      "uv": 7,
-      "sunrise": "2026-04-29T06:40",
-      "sunset": "2026-04-29T20:21",
-      "predicted_score": 100,
-      "score_label": "Great day to go"
-    }
-  ],
-  "updated_at": "2026-04-25T17:25:31.500181+00:00"
+  "forecast": [],
+  "updated_at": "2026-04-25T17:46:54.170843+00:00"
 }
