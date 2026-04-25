@@ -21,7 +21,7 @@
   "score_label": "Great day to go",
   "gear_flags": [],
   "current": {
-    "temp_f": 59,
+    "temp_f": 58,
     "feels_like_f": 51,
     "wind_mph": 3,
     "gusts_mph": 3,
@@ -35,7 +35,7 @@
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": 145.7,
+    "nearest_fire_km": null,
     "fire_count_50km": 0
   },
   "river": null,
@@ -96,5 +96,5 @@
       "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-04-25T09:46:00.958516+00:00"
+  "updated_at": "2026-04-25T10:06:15.226828+00:00"
 }
