@@ -17,8 +17,8 @@
   "notes": "No cars beyond Spooner Summit; bike-legal trail",
   "dog_friendly": "Yes",
   "vehicle_req": "AWD",
-  "score": 58,
-  "score_label": "Use caution",
+  "score": 88,
+  "score_label": "Great day to go",
   "gear_flags": [
     "insulation layer required"
   ],
@@ -26,14 +26,14 @@
     "temp_f": 42,
     "feels_like_f": 32,
     "wind_mph": 15,
-    "gusts_mph": 18,
+    "gusts_mph": 17,
     "rain_pct": 4
   },
   "aqi": {
-    "aqi": null,
-    "category": "Unknown",
-    "pollutant": "",
-    "source": "none"
+    "aqi": 46,
+    "category": "Good",
+    "pollutant": "O3",
+    "source": "airnow"
   },
   "fire": {
     "risk_level": "low",
@@ -50,8 +50,8 @@
       "uv": 7,
       "sunrise": "2026-04-25T06:08",
       "sunset": "2026-04-25T19:46",
-      "predicted_score": 58,
-      "score_label": "Use caution"
+      "predicted_score": 88,
+      "score_label": "Great day to go"
     },
     {
       "date": "2026-04-26",
@@ -61,8 +61,8 @@
       "uv": 6,
       "sunrise": "2026-04-26T06:07",
       "sunset": "2026-04-26T19:47",
-      "predicted_score": 30,
-      "score_label": "Conditions poor"
+      "predicted_score": 60,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-04-27",
@@ -72,8 +72,8 @@
       "uv": 7,
       "sunrise": "2026-04-27T06:05",
       "sunset": "2026-04-27T19:48",
-      "predicted_score": 40,
-      "score_label": "Conditions poor"
+      "predicted_score": 70,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-04-28",
@@ -83,8 +83,8 @@
       "uv": 8,
       "sunrise": "2026-04-28T06:04",
       "sunset": "2026-04-28T19:49",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
+      "predicted_score": 100,
+      "score_label": "Great day to go"
     },
     {
       "date": "2026-04-29",
@@ -94,9 +94,9 @@
       "uv": 8,
       "sunrise": "2026-04-29T06:03",
       "sunset": "2026-04-29T19:50",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
+      "predicted_score": 100,
+      "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-04-25T22:51:14.172958+00:00"
+  "updated_at": "2026-04-25T23:08:17.063564+00:00"
 }
