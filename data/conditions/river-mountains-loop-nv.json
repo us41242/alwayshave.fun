@@ -25,11 +25,11 @@
     "N95 mask recommended for wildfire smoke"
   ],
   "current": {
-    "temp_f": 70,
-    "feels_like_f": 57,
-    "wind_mph": 21,
-    "gusts_mph": 28,
-    "rain_pct": 4
+    "temp_f": 72,
+    "feels_like_f": 59,
+    "wind_mph": 20,
+    "gusts_mph": 25,
+    "rain_pct": 3
   },
   "aqi": {
     "aqi": 64,
@@ -47,7 +47,7 @@
     {
       "date": "2026-04-25",
       "high_f": 75,
-      "low_f": 56,
+      "low_f": 57,
       "rain_pct": 8,
       "uv": 7,
       "sunrise": "2026-04-25T05:53",
@@ -59,8 +59,8 @@
       "date": "2026-04-26",
       "high_f": 67,
       "low_f": 48,
-      "rain_pct": 11,
-      "uv": 7,
+      "rain_pct": 12,
+      "uv": 8,
       "sunrise": "2026-04-26T05:52",
       "sunset": "2026-04-26T19:22",
       "predicted_score": 64,
@@ -80,7 +80,7 @@
     {
       "date": "2026-04-28",
       "high_f": 76,
-      "low_f": 48,
+      "low_f": 49,
       "rain_pct": 0,
       "uv": 8,
       "sunrise": "2026-04-28T05:49",
@@ -90,15 +90,15 @@
     },
     {
       "date": "2026-04-29",
-      "high_f": 84,
-      "low_f": 57,
+      "high_f": 79,
+      "low_f": 55,
       "rain_pct": 3,
-      "uv": 8,
+      "uv": 6,
       "sunrise": "2026-04-29T05:48",
       "sunset": "2026-04-29T19:25",
       "predicted_score": 64,
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-04-25T23:25:19.894966+00:00"
+  "updated_at": "2026-04-25T23:44:22.611791+00:00"
 }
