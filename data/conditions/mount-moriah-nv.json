@@ -17,20 +17,20 @@
   "notes": "Remote \u2014 no cell service; snow until July",
   "dog_friendly": "Yes",
   "vehicle_req": "High-Clearance",
-  "score": 70,
-  "score_label": "Good conditions",
+  "score": 60,
+  "score_label": "Use caution",
   "gear_flags": [
     "insulation layer required"
   ],
   "current": {
-    "temp_f": 35,
-    "feels_like_f": 25,
-    "wind_mph": 10,
-    "gusts_mph": 18,
-    "rain_pct": 4
+    "temp_f": 34,
+    "feels_like_f": 23,
+    "wind_mph": 13,
+    "gusts_mph": 17,
+    "rain_pct": 5
   },
   "aqi": {
-    "aqi": 46,
+    "aqi": 47,
     "category": "Good",
     "pollutant": "O3",
     "source": "airnow"
@@ -98,5 +98,5 @@
       "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-04-25T23:07:18.909647+00:00"
+  "updated_at": "2026-04-25T23:25:24.190916+00:00"
 }
