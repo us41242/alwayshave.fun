@@ -17,11 +17,9 @@
   "notes": "Popular weekend trail \u2014 arrive before 8am",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 70,
-  "score_label": "Good conditions",
-  "gear_flags": [
-    "insulation layer required"
-  ],
+  "score": 60,
+  "score_label": "Use caution",
+  "gear_flags": [],
   "current": {
     "temp_f": 36,
     "feels_like_f": 25,
@@ -30,7 +28,7 @@
     "rain_pct": 0
   },
   "aqi": {
-    "aqi": 16,
+    "aqi": 15,
     "category": "Good",
     "pollutant": "PM10",
     "source": "airnow"
@@ -41,62 +39,6 @@
     "fire_count_50km": 0
   },
   "river": null,
-  "forecast": [
-    {
-      "date": "2026-04-25",
-      "high_f": 46,
-      "low_f": 28,
-      "rain_pct": 37,
-      "uv": 8,
-      "sunrise": "2026-04-25T05:55",
-      "sunset": "2026-04-25T19:25",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
-    },
-    {
-      "date": "2026-04-26",
-      "high_f": 36,
-      "low_f": 26,
-      "rain_pct": 41,
-      "uv": 5,
-      "sunrise": "2026-04-26T05:54",
-      "sunset": "2026-04-26T19:25",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
-    },
-    {
-      "date": "2026-04-27",
-      "high_f": 40,
-      "low_f": 27,
-      "rain_pct": 28,
-      "uv": 7,
-      "sunrise": "2026-04-27T05:53",
-      "sunset": "2026-04-27T19:26",
-      "predicted_score": 88,
-      "score_label": "Great day to go"
-    },
-    {
-      "date": "2026-04-28",
-      "high_f": 49,
-      "low_f": 32,
-      "rain_pct": 4,
-      "uv": 8,
-      "sunrise": "2026-04-28T05:52",
-      "sunset": "2026-04-28T19:27",
-      "predicted_score": 88,
-      "score_label": "Great day to go"
-    },
-    {
-      "date": "2026-04-29",
-      "high_f": 54,
-      "low_f": 38,
-      "rain_pct": 11,
-      "uv": 8,
-      "sunrise": "2026-04-29T05:51",
-      "sunset": "2026-04-29T19:28",
-      "predicted_score": 88,
-      "score_label": "Great day to go"
-    }
-  ],
-  "updated_at": "2026-04-25T08:05:40.940302+00:00"
+  "forecast": [],
+  "updated_at": "2026-04-25T08:26:03.642994+00:00"
 }
