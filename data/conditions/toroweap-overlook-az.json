@@ -17,21 +17,21 @@
   "notes": "60 miles of dirt road \u2014 high clearance required",
   "dog_friendly": "No",
   "vehicle_req": "High-Clearance",
-  "score": 90,
-  "score_label": "Great day to go",
+  "score": 80,
+  "score_label": "Good conditions",
   "gear_flags": [
-    "mask for sensitive groups"
+    "N95 mask recommended"
   ],
   "current": {
-    "temp_f": 64,
-    "feels_like_f": 54,
+    "temp_f": 66,
+    "feels_like_f": 56,
     "wind_mph": 11,
-    "gusts_mph": 17,
+    "gusts_mph": 16,
     "rain_pct": 1
   },
   "aqi": {
-    "aqi": 100,
-    "category": "Moderate",
+    "aqi": 108,
+    "category": "Unhealthy for Sensitive Groups",
     "pollutant": "O3",
     "source": "airnow"
   },
@@ -50,8 +50,8 @@
       "uv": 6,
       "sunrise": "2026-04-25T05:44",
       "sunset": "2026-04-25T19:13",
-      "predicted_score": 78,
-      "score_label": "Good conditions"
+      "predicted_score": 68,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-04-26",
@@ -61,7 +61,7 @@
       "uv": 7,
       "sunrise": "2026-04-26T05:42",
       "sunset": "2026-04-26T19:13",
-      "predicted_score": 60,
+      "predicted_score": 50,
       "score_label": "Use caution"
     },
     {
@@ -72,8 +72,8 @@
       "uv": 8,
       "sunrise": "2026-04-27T05:41",
       "sunset": "2026-04-27T19:14",
-      "predicted_score": 90,
-      "score_label": "Great day to go"
+      "predicted_score": 80,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-04-28",
@@ -83,8 +83,8 @@
       "uv": 8,
       "sunrise": "2026-04-28T05:40",
       "sunset": "2026-04-28T19:15",
-      "predicted_score": 90,
-      "score_label": "Great day to go"
+      "predicted_score": 80,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-04-29",
@@ -94,9 +94,9 @@
       "uv": 7,
       "sunrise": "2026-04-29T05:39",
       "sunset": "2026-04-29T19:16",
-      "predicted_score": 78,
-      "score_label": "Good conditions"
+      "predicted_score": 68,
+      "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-04-25T16:04:21.095129+00:00"
+  "updated_at": "2026-04-25T16:25:30.661225+00:00"
 }
