@@ -17,10 +17,9 @@
   "notes": "Flash flood danger \u2014 check weather 24hr upstream",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 78,
-  "score_label": "Good conditions",
+  "score": 50,
+  "score_label": "Use caution",
   "gear_flags": [
-    "wind layer recommended",
     "mask for sensitive groups"
   ],
   "current": {
@@ -31,7 +30,7 @@
     "rain_pct": 2
   },
   "aqi": {
-    "aqi": 58,
+    "aqi": 64,
     "category": "Moderate",
     "pollutant": "O3",
     "source": "airnow"
@@ -42,65 +41,9 @@
     "fire_count_50km": 0
   },
   "river": {
-    "cfs": 7800,
+    "cfs": 7970,
     "stage": "flood"
   },
-  "forecast": [
-    {
-      "date": "2026-04-25",
-      "high_f": 59,
-      "low_f": 38,
-      "rain_pct": 9,
-      "uv": 6,
-      "sunrise": "2026-04-25T06:43",
-      "sunset": "2026-04-25T20:15",
-      "predicted_score": 90,
-      "score_label": "Great day to go"
-    },
-    {
-      "date": "2026-04-26",
-      "high_f": 46,
-      "low_f": 35,
-      "rain_pct": 71,
-      "uv": 3,
-      "sunrise": "2026-04-26T06:41",
-      "sunset": "2026-04-26T20:16",
-      "predicted_score": 50,
-      "score_label": "Use caution"
-    },
-    {
-      "date": "2026-04-27",
-      "high_f": 48,
-      "low_f": 33,
-      "rain_pct": 42,
-      "uv": 8,
-      "sunrise": "2026-04-27T06:40",
-      "sunset": "2026-04-27T20:17",
-      "predicted_score": 60,
-      "score_label": "Use caution"
-    },
-    {
-      "date": "2026-04-28",
-      "high_f": 55,
-      "low_f": 35,
-      "rain_pct": 31,
-      "uv": 8,
-      "sunrise": "2026-04-28T06:39",
-      "sunset": "2026-04-28T20:18",
-      "predicted_score": 60,
-      "score_label": "Use caution"
-    },
-    {
-      "date": "2026-04-29",
-      "high_f": 61,
-      "low_f": 43,
-      "rain_pct": 9,
-      "uv": 8,
-      "sunrise": "2026-04-29T06:38",
-      "sunset": "2026-04-29T20:19",
-      "predicted_score": 90,
-      "score_label": "Great day to go"
-    }
-  ],
-  "updated_at": "2026-04-25T21:03:16.672326+00:00"
+  "forecast": [],
+  "updated_at": "2026-04-25T21:24:52.209870+00:00"
 }
