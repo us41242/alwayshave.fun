@@ -17,17 +17,18 @@
   "notes": "4WD required; no services for 50 miles",
   "dog_friendly": "Yes",
   "vehicle_req": "4WD",
-  "score": 42,
-  "score_label": "Conditions poor",
+  "score": 70,
+  "score_label": "Good conditions",
   "gear_flags": [
+    "wind layer recommended",
     "mask for sensitive groups"
   ],
   "current": {
     "temp_f": 50,
     "feels_like_f": 36,
-    "wind_mph": 22,
-    "gusts_mph": 28,
-    "rain_pct": 2
+    "wind_mph": 25,
+    "gusts_mph": 30,
+    "rain_pct": 4
   },
   "aqi": {
     "aqi": 52,
@@ -41,6 +42,62 @@
     "fire_count_50km": 0
   },
   "river": null,
-  "forecast": [],
-  "updated_at": "2026-04-25T22:23:20.429851+00:00"
+  "forecast": [
+    {
+      "date": "2026-04-25",
+      "high_f": 51,
+      "low_f": 38,
+      "rain_pct": 9,
+      "uv": 6,
+      "sunrise": "2026-04-25T05:49",
+      "sunset": "2026-04-25T19:19",
+      "predicted_score": 82,
+      "score_label": "Good conditions"
+    },
+    {
+      "date": "2026-04-26",
+      "high_f": 42,
+      "low_f": 28,
+      "rain_pct": 52,
+      "uv": 6,
+      "sunrise": "2026-04-26T05:47",
+      "sunset": "2026-04-26T19:20",
+      "predicted_score": 52,
+      "score_label": "Use caution"
+    },
+    {
+      "date": "2026-04-27",
+      "high_f": 51,
+      "low_f": 27,
+      "rain_pct": 23,
+      "uv": 8,
+      "sunrise": "2026-04-27T05:46",
+      "sunset": "2026-04-27T19:21",
+      "predicted_score": 70,
+      "score_label": "Good conditions"
+    },
+    {
+      "date": "2026-04-28",
+      "high_f": 55,
+      "low_f": 35,
+      "rain_pct": 2,
+      "uv": 8,
+      "sunrise": "2026-04-28T05:45",
+      "sunset": "2026-04-28T19:21",
+      "predicted_score": 82,
+      "score_label": "Good conditions"
+    },
+    {
+      "date": "2026-04-29",
+      "high_f": 62,
+      "low_f": 43,
+      "rain_pct": 5,
+      "uv": 8,
+      "sunrise": "2026-04-29T05:44",
+      "sunset": "2026-04-29T19:22",
+      "predicted_score": 82,
+      "score_label": "Good conditions"
+    }
+  ],
+  "updated_at": "2026-04-25T22:43:25.092944+00:00"
 }
