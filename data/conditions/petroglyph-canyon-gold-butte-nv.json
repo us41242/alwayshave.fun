@@ -20,13 +20,14 @@
   "score": 68,
   "score_label": "Use caution",
   "gear_flags": [
+    "insulation layer required",
     "N95 mask recommended"
   ],
   "current": {
     "temp_f": 45,
     "feels_like_f": 33,
     "wind_mph": 12,
-    "gusts_mph": 20,
+    "gusts_mph": 19,
     "rain_pct": 0
   },
   "aqi": {
@@ -98,5 +99,5 @@
       "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-04-25T04:04:19.492268+00:00"
+  "updated_at": "2026-04-25T04:23:46.421039+00:00"
 }

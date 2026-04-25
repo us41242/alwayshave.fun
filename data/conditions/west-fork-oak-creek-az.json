@@ -17,19 +17,21 @@
   "notes": "Creek crossings \u2014 check water levels after rain",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 100,
+  "score": 90,
   "score_label": "Great day to go",
-  "gear_flags": [],
+  "gear_flags": [
+    "mask for sensitive groups"
+  ],
   "current": {
-    "temp_f": 56,
+    "temp_f": 55,
     "feels_like_f": 46,
-    "wind_mph": 9,
-    "gusts_mph": 19,
+    "wind_mph": 8,
+    "gusts_mph": 17,
     "rain_pct": 1
   },
   "aqi": {
-    "aqi": 49,
-    "category": "Good",
+    "aqi": 51,
+    "category": "Moderate",
     "pollutant": "O3",
     "source": "airnow"
   },
@@ -51,7 +53,7 @@
       "uv": 8,
       "sunrise": "2026-04-24T05:43",
       "sunset": "2026-04-24T19:06",
-      "predicted_score": 100,
+      "predicted_score": 90,
       "score_label": "Great day to go"
     },
     {
@@ -62,8 +64,8 @@
       "uv": 6,
       "sunrise": "2026-04-25T05:42",
       "sunset": "2026-04-25T19:07",
-      "predicted_score": 88,
-      "score_label": "Great day to go"
+      "predicted_score": 78,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-04-26",
@@ -73,8 +75,8 @@
       "uv": 6,
       "sunrise": "2026-04-26T05:41",
       "sunset": "2026-04-26T19:08",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
+      "predicted_score": 60,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-04-27",
@@ -84,7 +86,7 @@
       "uv": 8,
       "sunrise": "2026-04-27T05:40",
       "sunset": "2026-04-27T19:09",
-      "predicted_score": 100,
+      "predicted_score": 90,
       "score_label": "Great day to go"
     },
     {
@@ -95,9 +97,9 @@
       "uv": 8,
       "sunrise": "2026-04-28T05:38",
       "sunset": "2026-04-28T19:09",
-      "predicted_score": 100,
+      "predicted_score": 90,
       "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-04-25T04:04:24.104609+00:00"
+  "updated_at": "2026-04-25T04:23:49.774496+00:00"
 }
