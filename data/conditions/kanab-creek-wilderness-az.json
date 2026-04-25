@@ -23,10 +23,10 @@
     "insulation layer required"
   ],
   "current": {
-    "temp_f": 44,
-    "feels_like_f": 36,
-    "wind_mph": 2,
-    "gusts_mph": 2,
+    "temp_f": 41,
+    "feels_like_f": 34,
+    "wind_mph": 3,
+    "gusts_mph": 3,
     "rain_pct": 0
   },
   "aqi": {
@@ -47,9 +47,9 @@
   "forecast": [
     {
       "date": "2026-04-25",
-      "high_f": 70,
-      "low_f": 41,
-      "rain_pct": 11,
+      "high_f": 71,
+      "low_f": 39,
+      "rain_pct": 10,
       "uv": 7,
       "sunrise": "2026-04-25T05:42",
       "sunset": "2026-04-25T19:13",
@@ -61,7 +61,7 @@
       "high_f": 59,
       "low_f": 47,
       "rain_pct": 39,
-      "uv": 5,
+      "uv": 7,
       "sunrise": "2026-04-26T05:41",
       "sunset": "2026-04-26T19:14",
       "predicted_score": 70,
@@ -81,7 +81,7 @@
     {
       "date": "2026-04-28",
       "high_f": 67,
-      "low_f": 44,
+      "low_f": 43,
       "rain_pct": 1,
       "uv": 8,
       "sunrise": "2026-04-28T05:38",
@@ -91,15 +91,15 @@
     },
     {
       "date": "2026-04-29",
-      "high_f": 74,
-      "low_f": 48,
+      "high_f": 72,
+      "low_f": 49,
       "rain_pct": 4,
-      "uv": 8,
+      "uv": 7,
       "sunrise": "2026-04-29T05:37",
       "sunset": "2026-04-29T19:17",
       "predicted_score": 100,
       "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-04-25T11:21:43.080127+00:00"
+  "updated_at": "2026-04-25T11:41:17.051131+00:00"
 }
