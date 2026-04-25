@@ -17,23 +17,21 @@
   "notes": "Slot canyon walls narrow \u2014 avoid during rain/flash flood risk",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 78,
-  "score_label": "Good conditions",
-  "gear_flags": [
-    "mask for sensitive groups"
-  ],
+  "score": 58,
+  "score_label": "Use caution",
+  "gear_flags": [],
   "current": {
-    "temp_f": 48,
-    "feels_like_f": 39,
-    "wind_mph": 4,
-    "gusts_mph": 4,
+    "temp_f": 47,
+    "feels_like_f": 38,
+    "wind_mph": 5,
+    "gusts_mph": 5,
     "rain_pct": 0
   },
   "aqi": {
-    "aqi": 76,
-    "category": "Moderate",
-    "pollutant": "PM2.5",
-    "source": "open-meteo"
+    "aqi": null,
+    "category": "Unknown",
+    "pollutant": "",
+    "source": "none"
   },
   "fire": {
     "risk_level": "low",
@@ -44,13 +42,13 @@
   "forecast": [
     {
       "date": "2026-04-25",
-      "high_f": 67,
+      "high_f": 68,
       "low_f": 44,
-      "rain_pct": 31,
+      "rain_pct": 29,
       "uv": 7,
       "sunrise": "2026-04-25T05:48",
       "sunset": "2026-04-25T19:22",
-      "predicted_score": 60,
+      "predicted_score": 58,
       "score_label": "Use caution"
     },
     {
@@ -61,8 +59,8 @@
       "uv": 4,
       "sunrise": "2026-04-26T05:47",
       "sunset": "2026-04-26T19:23",
-      "predicted_score": 50,
-      "score_label": "Use caution"
+      "predicted_score": 30,
+      "score_label": "Conditions poor"
     },
     {
       "date": "2026-04-27",
@@ -72,8 +70,8 @@
       "uv": 5,
       "sunrise": "2026-04-27T05:45",
       "sunset": "2026-04-27T19:24",
-      "predicted_score": 60,
-      "score_label": "Use caution"
+      "predicted_score": 40,
+      "score_label": "Conditions poor"
     },
     {
       "date": "2026-04-28",
@@ -83,8 +81,8 @@
       "uv": 8,
       "sunrise": "2026-04-28T05:44",
       "sunset": "2026-04-28T19:25",
-      "predicted_score": 90,
-      "score_label": "Great day to go"
+      "predicted_score": 70,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-04-29",
@@ -94,9 +92,9 @@
       "uv": 8,
       "sunrise": "2026-04-29T05:43",
       "sunset": "2026-04-29T19:26",
-      "predicted_score": 90,
-      "score_label": "Great day to go"
+      "predicted_score": 70,
+      "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-04-25T09:21:20.602388+00:00"
+  "updated_at": "2026-04-25T09:43:00.615898+00:00"
 }
