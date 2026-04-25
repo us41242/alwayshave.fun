@@ -23,10 +23,10 @@
     "insulation layer required"
   ],
   "current": {
-    "temp_f": 42,
-    "feels_like_f": 34,
+    "temp_f": 44,
+    "feels_like_f": 36,
     "wind_mph": 6,
-    "gusts_mph": 10,
+    "gusts_mph": 15,
     "rain_pct": 0
   },
   "aqi": {
@@ -57,12 +57,12 @@
       "date": "2026-04-26",
       "high_f": 43,
       "low_f": 28,
-      "rain_pct": 31,
+      "rain_pct": 29,
       "uv": 4,
       "sunrise": "2026-04-26T05:47",
       "sunset": "2026-04-26T19:20",
-      "predicted_score": 62,
-      "score_label": "Use caution"
+      "predicted_score": 80,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-04-27",
@@ -98,5 +98,5 @@
       "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-04-25T14:01:21.428552+00:00"
+  "updated_at": "2026-04-25T14:23:20.754652+00:00"
 }
