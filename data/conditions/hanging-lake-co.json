@@ -23,7 +23,7 @@
     "wind layer recommended"
   ],
   "current": {
-    "temp_f": 54,
+    "temp_f": 53,
     "feels_like_f": 39,
     "wind_mph": 19,
     "gusts_mph": 32,
@@ -37,7 +37,7 @@
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": 125.3,
+    "nearest_fire_km": null,
     "fire_count_50km": 0
   },
   "river": null,
@@ -98,5 +98,5 @@
       "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-04-24T23:48:03.384112+00:00"
+  "updated_at": "2026-04-25T00:06:08.787169+00:00"
 }
