@@ -17,17 +17,18 @@
   "notes": "Kayak/canoe only \u2014 check river release schedule",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 90,
-  "score_label": "Great day to go",
+  "score": 76,
+  "score_label": "Good conditions",
   "gear_flags": [
     "wind layer recommended",
-    "mask for sensitive groups"
+    "mask for sensitive groups",
+    "N95 mask recommended for wildfire smoke"
   ],
   "current": {
-    "temp_f": 71,
-    "feels_like_f": 61,
-    "wind_mph": 13,
-    "gusts_mph": 29,
+    "temp_f": 70,
+    "feels_like_f": 62,
+    "wind_mph": 9,
+    "gusts_mph": 27,
     "rain_pct": 0
   },
   "aqi": {
@@ -37,9 +38,9 @@
     "source": "airnow"
   },
   "fire": {
-    "risk_level": "low",
-    "nearest_fire_km": null,
-    "fire_count_50km": 0
+    "risk_level": "elevated",
+    "nearest_fire_km": 46.0,
+    "fire_count_50km": 1
   },
   "river": null,
   "forecast": [
@@ -51,8 +52,8 @@
       "uv": 8,
       "sunrise": "2026-04-25T05:52",
       "sunset": "2026-04-25T19:20",
-      "predicted_score": 78,
-      "score_label": "Good conditions"
+      "predicted_score": 64,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-04-26",
@@ -62,8 +63,8 @@
       "uv": 7,
       "sunrise": "2026-04-26T05:51",
       "sunset": "2026-04-26T19:21",
-      "predicted_score": 78,
-      "score_label": "Good conditions"
+      "predicted_score": 64,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-04-27",
@@ -73,8 +74,8 @@
       "uv": 8,
       "sunrise": "2026-04-27T05:50",
       "sunset": "2026-04-27T19:22",
-      "predicted_score": 78,
-      "score_label": "Good conditions"
+      "predicted_score": 64,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-04-28",
@@ -84,8 +85,8 @@
       "uv": 8,
       "sunrise": "2026-04-28T05:49",
       "sunset": "2026-04-28T19:23",
-      "predicted_score": 78,
-      "score_label": "Good conditions"
+      "predicted_score": 64,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-04-29",
@@ -95,9 +96,9 @@
       "uv": 8,
       "sunrise": "2026-04-29T05:48",
       "sunset": "2026-04-29T19:24",
-      "predicted_score": 60,
-      "score_label": "Use caution"
+      "predicted_score": 46,
+      "score_label": "Conditions poor"
     }
   ],
-  "updated_at": "2026-04-25T08:46:24.891324+00:00"
+  "updated_at": "2026-04-25T09:06:12.666557+00:00"
 }
