@@ -17,11 +17,9 @@
   "notes": "Remote \u2014 no cell service; snow until July",
   "dog_friendly": "Yes",
   "vehicle_req": "High-Clearance",
-  "score": 70,
-  "score_label": "Good conditions",
-  "gear_flags": [
-    "insulation layer required"
-  ],
+  "score": 60,
+  "score_label": "Use caution",
+  "gear_flags": [],
   "current": {
     "temp_f": 36,
     "feels_like_f": 28,
@@ -41,62 +39,6 @@
     "fire_count_50km": 0
   },
   "river": null,
-  "forecast": [
-    {
-      "date": "2026-04-25",
-      "high_f": 36,
-      "low_f": 17,
-      "rain_pct": 22,
-      "uv": 8,
-      "sunrise": "2026-04-25T05:45",
-      "sunset": "2026-04-25T19:24",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
-    },
-    {
-      "date": "2026-04-26",
-      "high_f": 26,
-      "low_f": 17,
-      "rain_pct": 58,
-      "uv": 5,
-      "sunrise": "2026-04-26T05:43",
-      "sunset": "2026-04-26T19:25",
-      "predicted_score": 60,
-      "score_label": "Use caution"
-    },
-    {
-      "date": "2026-04-27",
-      "high_f": 21,
-      "low_f": 13,
-      "rain_pct": 88,
-      "uv": 3,
-      "sunrise": "2026-04-27T05:42",
-      "sunset": "2026-04-27T19:26",
-      "predicted_score": 60,
-      "score_label": "Use caution"
-    },
-    {
-      "date": "2026-04-28",
-      "high_f": 34,
-      "low_f": 14,
-      "rain_pct": 17,
-      "uv": 9,
-      "sunrise": "2026-04-28T05:41",
-      "sunset": "2026-04-28T19:27",
-      "predicted_score": 60,
-      "score_label": "Use caution"
-    },
-    {
-      "date": "2026-04-29",
-      "high_f": 42,
-      "low_f": 26,
-      "rain_pct": 14,
-      "uv": 8,
-      "sunrise": "2026-04-29T05:40",
-      "sunset": "2026-04-29T19:27",
-      "predicted_score": 88,
-      "score_label": "Great day to go"
-    }
-  ],
-  "updated_at": "2026-04-25T20:25:42.683209+00:00"
+  "forecast": [],
+  "updated_at": "2026-04-25T20:46:33.985226+00:00"
 }
