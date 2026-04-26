@@ -17,17 +17,18 @@
   "notes": "60 miles of dirt road \u2014 high clearance required",
   "dog_friendly": "No",
   "vehicle_req": "High-Clearance",
-  "score": 50,
-  "score_label": "Use caution",
+  "score": 90,
+  "score_label": "Great day to go",
   "gear_flags": [
+    "wind layer recommended",
     "mask for sensitive groups"
   ],
   "current": {
-    "temp_f": 54,
+    "temp_f": 56,
     "feels_like_f": 47,
-    "wind_mph": 9,
-    "gusts_mph": 18,
-    "rain_pct": 3
+    "wind_mph": 12,
+    "gusts_mph": 21,
+    "rain_pct": 4
   },
   "aqi": {
     "aqi": 51,
@@ -41,6 +42,62 @@
     "fire_count_50km": 0
   },
   "river": null,
-  "forecast": [],
-  "updated_at": "2026-04-26T15:27:32.971630+00:00"
+  "forecast": [
+    {
+      "date": "2026-04-26",
+      "high_f": 62,
+      "low_f": 48,
+      "rain_pct": 40,
+      "uv": 6,
+      "sunrise": "2026-04-26T05:42",
+      "sunset": "2026-04-26T19:13",
+      "predicted_score": 60,
+      "score_label": "Use caution"
+    },
+    {
+      "date": "2026-04-27",
+      "high_f": 70,
+      "low_f": 43,
+      "rain_pct": 3,
+      "uv": 8,
+      "sunrise": "2026-04-27T05:41",
+      "sunset": "2026-04-27T19:14",
+      "predicted_score": 90,
+      "score_label": "Great day to go"
+    },
+    {
+      "date": "2026-04-28",
+      "high_f": 72,
+      "low_f": 46,
+      "rain_pct": 0,
+      "uv": 8,
+      "sunrise": "2026-04-28T05:40",
+      "sunset": "2026-04-28T19:15",
+      "predicted_score": 90,
+      "score_label": "Great day to go"
+    },
+    {
+      "date": "2026-04-29",
+      "high_f": 76,
+      "low_f": 51,
+      "rain_pct": 9,
+      "uv": 8,
+      "sunrise": "2026-04-29T05:39",
+      "sunset": "2026-04-29T19:16",
+      "predicted_score": 78,
+      "score_label": "Good conditions"
+    },
+    {
+      "date": "2026-04-30",
+      "high_f": 72,
+      "low_f": 54,
+      "rain_pct": 27,
+      "uv": 6,
+      "sunrise": "2026-04-30T05:38",
+      "sunset": "2026-04-30T19:17",
+      "predicted_score": 78,
+      "score_label": "Good conditions"
+    }
+  ],
+  "updated_at": "2026-04-26T15:47:57.017186+00:00"
 }

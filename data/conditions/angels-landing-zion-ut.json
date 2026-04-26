@@ -17,18 +17,18 @@
   "notes": "Chain section requires permit \u2014 book Recreation.gov",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 88,
-  "score_label": "Great day to go",
+  "score": 70,
+  "score_label": "Good conditions",
   "gear_flags": [
     "wind layer recommended",
     "insulation layer required"
   ],
   "current": {
     "temp_f": 45,
-    "feels_like_f": 34,
-    "wind_mph": 18,
-    "gusts_mph": 26,
-    "rain_pct": 27
+    "feels_like_f": 35,
+    "wind_mph": 16,
+    "gusts_mph": 23,
+    "rain_pct": 32
   },
   "aqi": {
     "aqi": 41,
@@ -46,7 +46,7 @@
     {
       "date": "2026-04-26",
       "high_f": 52,
-      "low_f": 42,
+      "low_f": 44,
       "rain_pct": 55,
       "uv": 4,
       "sunrise": "2026-04-26T06:42",
@@ -58,7 +58,7 @@
       "date": "2026-04-27",
       "high_f": 59,
       "low_f": 41,
-      "rain_pct": 16,
+      "rain_pct": 15,
       "uv": 8,
       "sunrise": "2026-04-27T06:41",
       "sunset": "2026-04-27T20:17",
@@ -69,7 +69,7 @@
       "date": "2026-04-28",
       "high_f": 61,
       "low_f": 41,
-      "rain_pct": 16,
+      "rain_pct": 15,
       "uv": 8,
       "sunrise": "2026-04-28T06:39",
       "sunset": "2026-04-28T20:18",
@@ -80,7 +80,7 @@
       "date": "2026-04-29",
       "high_f": 67,
       "low_f": 48,
-      "rain_pct": 7,
+      "rain_pct": 9,
       "uv": 8,
       "sunrise": "2026-04-29T06:38",
       "sunset": "2026-04-29T20:19",
@@ -99,5 +99,5 @@
       "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-04-26T15:21:03.290955+00:00"
+  "updated_at": "2026-04-26T15:41:03.017460+00:00"
 }
