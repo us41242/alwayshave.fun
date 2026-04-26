@@ -25,11 +25,11 @@
     "rain gear recommended"
   ],
   "current": {
-    "temp_f": 13,
-    "feels_like_f": 0,
+    "temp_f": 12,
+    "feels_like_f": -1,
     "wind_mph": 16,
-    "gusts_mph": 22,
-    "rain_pct": 67
+    "gusts_mph": 24,
+    "rain_pct": 65
   },
   "aqi": {
     "aqi": 42,
@@ -46,7 +46,7 @@
   "forecast": [
     {
       "date": "2026-04-26",
-      "high_f": 18,
+      "high_f": 17,
       "low_f": 12,
       "rain_pct": 71,
       "uv": 5,
@@ -100,5 +100,5 @@
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-04-26T13:02:58.305761+00:00"
+  "updated_at": "2026-04-26T13:21:02.959358+00:00"
 }
