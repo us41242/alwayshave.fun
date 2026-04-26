@@ -27,10 +27,10 @@
   ],
   "current": {
     "temp_f": 40,
-    "feels_like_f": 29,
-    "wind_mph": 19,
-    "gusts_mph": 36,
-    "rain_pct": 60
+    "feels_like_f": 30,
+    "wind_mph": 16,
+    "gusts_mph": 34,
+    "rain_pct": 58
   },
   "aqi": {
     "aqi": 61,
@@ -47,8 +47,8 @@
   "forecast": [
     {
       "date": "2026-04-26",
-      "high_f": 51,
-      "low_f": 40,
+      "high_f": 53,
+      "low_f": 39,
       "rain_pct": 59,
       "uv": 6,
       "sunrise": "2026-04-26T05:41",
@@ -101,5 +101,5 @@
       "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-04-26T10:23:17.677939+00:00"
+  "updated_at": "2026-04-26T10:43:23.166340+00:00"
 }
