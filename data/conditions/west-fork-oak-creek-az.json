@@ -17,8 +17,8 @@
   "notes": "Creek crossings \u2014 check water levels after rain",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 70,
-  "score_label": "Good conditions",
+  "score": 60,
+  "score_label": "Use caution",
   "gear_flags": [],
   "current": {
     "temp_f": 48,
@@ -42,62 +42,6 @@
     "cfs": 34,
     "stage": "low"
   },
-  "forecast": [
-    {
-      "date": "2026-04-26",
-      "high_f": 54,
-      "low_f": 43,
-      "rain_pct": 42,
-      "uv": 4,
-      "sunrise": "2026-04-26T05:41",
-      "sunset": "2026-04-26T19:08",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
-    },
-    {
-      "date": "2026-04-27",
-      "high_f": 58,
-      "low_f": 37,
-      "rain_pct": 2,
-      "uv": 8,
-      "sunrise": "2026-04-27T05:40",
-      "sunset": "2026-04-27T19:09",
-      "predicted_score": 100,
-      "score_label": "Great day to go"
-    },
-    {
-      "date": "2026-04-28",
-      "high_f": 66,
-      "low_f": 38,
-      "rain_pct": 0,
-      "uv": 8,
-      "sunrise": "2026-04-28T05:38",
-      "sunset": "2026-04-28T19:09",
-      "predicted_score": 100,
-      "score_label": "Great day to go"
-    },
-    {
-      "date": "2026-04-29",
-      "high_f": 71,
-      "low_f": 45,
-      "rain_pct": 17,
-      "uv": 8,
-      "sunrise": "2026-04-29T05:37",
-      "sunset": "2026-04-29T19:10",
-      "predicted_score": 88,
-      "score_label": "Great day to go"
-    },
-    {
-      "date": "2026-04-30",
-      "high_f": 66,
-      "low_f": 47,
-      "rain_pct": 38,
-      "uv": 6,
-      "sunrise": "2026-04-30T05:36",
-      "sunset": "2026-04-30T19:11",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
-    }
-  ],
-  "updated_at": "2026-04-26T12:43:36.412997+00:00"
+  "forecast": [],
+  "updated_at": "2026-04-26T13:05:04.717231+00:00"
 }

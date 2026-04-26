@@ -26,10 +26,10 @@
   ],
   "current": {
     "temp_f": 19,
-    "feels_like_f": 6,
+    "feels_like_f": 5,
     "wind_mph": 19,
-    "gusts_mph": 29,
-    "rain_pct": 64
+    "gusts_mph": 27,
+    "rain_pct": 61
   },
   "aqi": {
     "aqi": 42,
@@ -39,7 +39,7 @@
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": 822.8,
+    "nearest_fire_km": 437.3,
     "fire_count_50km": 0
   },
   "river": null,
@@ -100,5 +100,5 @@
       "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-04-26T12:45:48.401805+00:00"
+  "updated_at": "2026-04-26T13:07:14.776241+00:00"
 }
