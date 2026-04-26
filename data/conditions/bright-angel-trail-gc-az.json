@@ -22,15 +22,14 @@
   "gear_flags": [
     "wind layer recommended",
     "insulation layer required",
-    "rain gear recommended",
     "mask for sensitive groups"
   ],
   "current": {
     "temp_f": 39,
-    "feels_like_f": 28,
-    "wind_mph": 17,
-    "gusts_mph": 36,
-    "rain_pct": 41
+    "feels_like_f": 29,
+    "wind_mph": 14,
+    "gusts_mph": 32,
+    "rain_pct": 32
   },
   "aqi": {
     "aqi": 54,
@@ -52,11 +51,11 @@
       "date": "2026-04-26",
       "high_f": 49,
       "low_f": 35,
-      "rain_pct": 60,
+      "rain_pct": 61,
       "uv": 6,
       "sunrise": "2026-04-26T05:41",
       "sunset": "2026-04-26T19:11",
-      "predicted_score": 60,
+      "predicted_score": 50,
       "score_label": "Use caution"
     },
     {
@@ -74,7 +73,7 @@
       "date": "2026-04-28",
       "high_f": 61,
       "low_f": 36,
-      "rain_pct": 0,
+      "rain_pct": 1,
       "uv": 8,
       "sunrise": "2026-04-28T05:38",
       "sunset": "2026-04-28T19:13",
@@ -85,7 +84,7 @@
       "date": "2026-04-29",
       "high_f": 65,
       "low_f": 42,
-      "rain_pct": 12,
+      "rain_pct": 10,
       "uv": 7,
       "sunrise": "2026-04-29T05:37",
       "sunset": "2026-04-29T19:14",
@@ -96,7 +95,7 @@
       "date": "2026-04-30",
       "high_f": 64,
       "low_f": 44,
-      "rain_pct": 25,
+      "rain_pct": 28,
       "uv": 8,
       "sunrise": "2026-04-30T05:36",
       "sunset": "2026-04-30T19:14",
@@ -104,5 +103,5 @@
       "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-04-26T09:03:16.141634+00:00"
+  "updated_at": "2026-04-26T09:23:09.362101+00:00"
 }
