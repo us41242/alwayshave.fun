@@ -17,14 +17,16 @@
   "notes": "Desert wash trail \u2014 no shade",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 100,
+  "score": 88,
   "score_label": "Great day to go",
-  "gear_flags": [],
+  "gear_flags": [
+    "wind layer recommended"
+  ],
   "current": {
-    "temp_f": 51,
-    "feels_like_f": 45,
-    "wind_mph": 4,
-    "gusts_mph": 19,
+    "temp_f": 52,
+    "feels_like_f": 40,
+    "wind_mph": 19,
+    "gusts_mph": 32,
     "rain_pct": 1
   },
   "aqi": {
@@ -42,8 +44,8 @@
   "forecast": [
     {
       "date": "2026-04-26",
-      "high_f": 66,
-      "low_f": 49,
+      "high_f": 65,
+      "low_f": 50,
       "rain_pct": 23,
       "uv": 7,
       "sunrise": "2026-04-26T05:52",
@@ -96,5 +98,5 @@
       "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-04-26T14:25:53.496991+00:00"
+  "updated_at": "2026-04-26T14:45:39.291967+00:00"
 }
