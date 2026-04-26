@@ -17,20 +17,21 @@
   "notes": "Avoid mid-summer heat \u2014 best Oct\u2013Apr",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 50,
+  "score": 60,
   "score_label": "Use caution",
   "gear_flags": [
+    "wind layer recommended",
     "mask for sensitive groups"
   ],
   "current": {
-    "temp_f": 53,
-    "feels_like_f": 44,
-    "wind_mph": 15,
-    "gusts_mph": 34,
-    "rain_pct": 7
+    "temp_f": 49,
+    "feels_like_f": 36,
+    "wind_mph": 26,
+    "gusts_mph": 42,
+    "rain_pct": 12
   },
   "aqi": {
-    "aqi": 54,
+    "aqi": 51,
     "category": "Moderate",
     "pollutant": "O3",
     "source": "airnow"
@@ -41,6 +42,62 @@
     "fire_count_50km": 0
   },
   "river": null,
-  "forecast": [],
-  "updated_at": "2026-04-26T04:02:14.528269+00:00"
+  "forecast": [
+    {
+      "date": "2026-04-25",
+      "high_f": 66,
+      "low_f": 44,
+      "rain_pct": 42,
+      "uv": 8,
+      "sunrise": "2026-04-25T05:55",
+      "sunset": "2026-04-25T19:24",
+      "predicted_score": 60,
+      "score_label": "Use caution"
+    },
+    {
+      "date": "2026-04-26",
+      "high_f": 58,
+      "low_f": 40,
+      "rain_pct": 38,
+      "uv": 8,
+      "sunrise": "2026-04-26T05:54",
+      "sunset": "2026-04-26T19:24",
+      "predicted_score": 60,
+      "score_label": "Use caution"
+    },
+    {
+      "date": "2026-04-27",
+      "high_f": 61,
+      "low_f": 41,
+      "rain_pct": 25,
+      "uv": 8,
+      "sunrise": "2026-04-27T05:52",
+      "sunset": "2026-04-27T19:25",
+      "predicted_score": 78,
+      "score_label": "Good conditions"
+    },
+    {
+      "date": "2026-04-28",
+      "high_f": 68,
+      "low_f": 48,
+      "rain_pct": 1,
+      "uv": 8,
+      "sunrise": "2026-04-28T05:51",
+      "sunset": "2026-04-28T19:26",
+      "predicted_score": 90,
+      "score_label": "Great day to go"
+    },
+    {
+      "date": "2026-04-29",
+      "high_f": 70,
+      "low_f": 55,
+      "rain_pct": 8,
+      "uv": 7,
+      "sunrise": "2026-04-29T05:50",
+      "sunset": "2026-04-29T19:27",
+      "predicted_score": 90,
+      "score_label": "Great day to go"
+    }
+  ],
+  "updated_at": "2026-04-26T04:21:12.426414+00:00"
 }
