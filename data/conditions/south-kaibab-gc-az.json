@@ -22,15 +22,14 @@
   "gear_flags": [
     "wind layer recommended",
     "insulation layer required",
-    "rain gear recommended",
     "mask for sensitive groups"
   ],
   "current": {
-    "temp_f": 35,
+    "temp_f": 36,
     "feels_like_f": 22,
-    "wind_mph": 22,
+    "wind_mph": 23,
     "gusts_mph": 40,
-    "rain_pct": 49
+    "rain_pct": 34
   },
   "aqi": {
     "aqi": 51,
@@ -101,5 +100,5 @@
       "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-04-26T11:43:30.377487+00:00"
+  "updated_at": "2026-04-26T12:04:19.913078+00:00"
 }

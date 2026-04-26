@@ -21,14 +21,15 @@
   "score_label": "Good conditions",
   "gear_flags": [
     "wind layer recommended",
+    "insulation layer required",
     "rain gear recommended"
   ],
   "current": {
-    "temp_f": 48,
-    "feels_like_f": 40,
-    "wind_mph": 14,
-    "gusts_mph": 23,
-    "rain_pct": 60
+    "temp_f": 45,
+    "feels_like_f": 36,
+    "wind_mph": 16,
+    "gusts_mph": 25,
+    "rain_pct": 58
   },
   "aqi": {
     "aqi": 44,
@@ -102,5 +103,5 @@
       "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-04-26T11:41:11.546070+00:00"
+  "updated_at": "2026-04-26T12:01:10.765166+00:00"
 }
