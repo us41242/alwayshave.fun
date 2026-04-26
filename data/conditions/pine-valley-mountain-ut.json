@@ -37,7 +37,7 @@
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": 561.4,
+    "nearest_fire_km": 498.8,
     "fire_count_50km": 0
   },
   "river": null,
@@ -56,7 +56,7 @@
     {
       "date": "2026-04-27",
       "high_f": 50,
-      "low_f": 33,
+      "low_f": 34,
       "rain_pct": 11,
       "uv": 8,
       "sunrise": "2026-04-27T06:43",
@@ -67,7 +67,7 @@
     {
       "date": "2026-04-28",
       "high_f": 56,
-      "low_f": 34,
+      "low_f": 33,
       "rain_pct": 6,
       "uv": 8,
       "sunrise": "2026-04-28T06:41",
@@ -98,5 +98,5 @@
       "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-04-26T19:45:56.541050+00:00"
+  "updated_at": "2026-04-26T20:08:15.837770+00:00"
 }
