@@ -17,18 +17,18 @@
   "notes": "Avoid mid-summer heat \u2014 best Oct\u2013Apr",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 78,
-  "score_label": "Good conditions",
+  "score": 90,
+  "score_label": "Great day to go",
   "gear_flags": [
     "wind layer recommended",
     "mask for sensitive groups"
   ],
   "current": {
     "temp_f": 58,
-    "feels_like_f": 47,
-    "wind_mph": 16,
-    "gusts_mph": 26,
-    "rain_pct": 6
+    "feels_like_f": 48,
+    "wind_mph": 12,
+    "gusts_mph": 23,
+    "rain_pct": 5
   },
   "aqi": {
     "aqi": 54,
@@ -47,7 +47,7 @@
       "date": "2026-04-25",
       "high_f": 66,
       "low_f": 44,
-      "rain_pct": 43,
+      "rain_pct": 42,
       "uv": 8,
       "sunrise": "2026-04-25T05:55",
       "sunset": "2026-04-25T19:24",
@@ -58,7 +58,7 @@
       "date": "2026-04-26",
       "high_f": 58,
       "low_f": 40,
-      "rain_pct": 36,
+      "rain_pct": 41,
       "uv": 8,
       "sunrise": "2026-04-26T05:54",
       "sunset": "2026-04-26T19:24",
@@ -99,5 +99,5 @@
       "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-04-26T02:01:56.415527+00:00"
+  "updated_at": "2026-04-26T02:21:05.863119+00:00"
 }
