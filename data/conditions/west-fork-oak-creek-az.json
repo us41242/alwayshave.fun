@@ -23,14 +23,14 @@
     "wind layer recommended"
   ],
   "current": {
-    "temp_f": 51,
+    "temp_f": 50,
     "feels_like_f": 38,
-    "wind_mph": 19,
-    "gusts_mph": 28,
+    "wind_mph": 18,
+    "gusts_mph": 26,
     "rain_pct": 10
   },
   "aqi": {
-    "aqi": 43,
+    "aqi": 46,
     "category": "Good",
     "pollutant": "O3",
     "source": "airnow"
@@ -59,7 +59,7 @@
     {
       "date": "2026-04-27",
       "high_f": 59,
-      "low_f": 35,
+      "low_f": 36,
       "rain_pct": 1,
       "uv": 8,
       "sunrise": "2026-04-27T05:40",
@@ -82,7 +82,7 @@
       "date": "2026-04-29",
       "high_f": 70,
       "low_f": 46,
-      "rain_pct": 18,
+      "rain_pct": 11,
       "uv": 8,
       "sunrise": "2026-04-29T05:37",
       "sunset": "2026-04-29T19:10",
@@ -93,7 +93,7 @@
       "date": "2026-04-30",
       "high_f": 69,
       "low_f": 48,
-      "rain_pct": 47,
+      "rain_pct": 52,
       "uv": 7,
       "sunrise": "2026-04-30T05:36",
       "sunset": "2026-04-30T19:11",
@@ -101,5 +101,5 @@
       "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-04-26T21:23:15.227268+00:00"
+  "updated_at": "2026-04-26T21:43:54.209132+00:00"
 }
