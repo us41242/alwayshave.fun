@@ -24,11 +24,11 @@
     "mask for sensitive groups"
   ],
   "current": {
-    "temp_f": 64,
-    "feels_like_f": 52,
+    "temp_f": 63,
+    "feels_like_f": 51,
     "wind_mph": 18,
-    "gusts_mph": 24,
-    "rain_pct": 4
+    "gusts_mph": 25,
+    "rain_pct": 6
   },
   "aqi": {
     "aqi": 58,
@@ -38,7 +38,7 @@
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": 183.5,
+    "nearest_fire_km": null,
     "fire_count_50km": 0
   },
   "river": {
@@ -102,5 +102,5 @@
       "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-04-25T23:41:18.107990+00:00"
+  "updated_at": "2026-04-26T00:01:17.863205+00:00"
 }
