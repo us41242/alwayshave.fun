@@ -24,10 +24,10 @@
     "insulation layer required"
   ],
   "current": {
-    "temp_f": 42,
-    "feels_like_f": 30,
-    "wind_mph": 18,
-    "gusts_mph": 26,
+    "temp_f": 41,
+    "feels_like_f": 29,
+    "wind_mph": 17,
+    "gusts_mph": 27,
     "rain_pct": 10
   },
   "aqi": {
@@ -42,7 +42,7 @@
     "fire_count_50km": 0
   },
   "river": {
-    "cfs": 7680,
+    "cfs": 7850,
     "stage": "flood"
   },
   "forecast": [
@@ -61,7 +61,7 @@
       "date": "2026-04-27",
       "high_f": 56,
       "low_f": 34,
-      "rain_pct": 4,
+      "rain_pct": 2,
       "uv": 8,
       "sunrise": "2026-04-27T05:39",
       "sunset": "2026-04-27T19:12",
@@ -102,5 +102,5 @@
       "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-04-26T19:23:13.760270+00:00"
+  "updated_at": "2026-04-26T19:42:37.471225+00:00"
 }
