@@ -17,15 +17,17 @@
   "notes": "Desert wash trail \u2014 no shade",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 60,
-  "score_label": "Use caution",
-  "gear_flags": [],
+  "score": 88,
+  "score_label": "Great day to go",
+  "gear_flags": [
+    "wind layer recommended"
+  ],
   "current": {
-    "temp_f": 52,
-    "feels_like_f": 42,
-    "wind_mph": 16,
-    "gusts_mph": 28,
-    "rain_pct": 4
+    "temp_f": 50,
+    "feels_like_f": 36,
+    "wind_mph": 23,
+    "gusts_mph": 37,
+    "rain_pct": 2
   },
   "aqi": {
     "aqi": 49,
@@ -39,6 +41,62 @@
     "fire_count_50km": 0
   },
   "river": null,
-  "forecast": [],
-  "updated_at": "2026-04-26T09:24:15.727021+00:00"
+  "forecast": [
+    {
+      "date": "2026-04-26",
+      "high_f": 64,
+      "low_f": 49,
+      "rain_pct": 23,
+      "uv": 7,
+      "sunrise": "2026-04-26T05:52",
+      "sunset": "2026-04-26T19:21",
+      "predicted_score": 88,
+      "score_label": "Great day to go"
+    },
+    {
+      "date": "2026-04-27",
+      "high_f": 66,
+      "low_f": 45,
+      "rain_pct": 4,
+      "uv": 8,
+      "sunrise": "2026-04-27T05:51",
+      "sunset": "2026-04-27T19:22",
+      "predicted_score": 100,
+      "score_label": "Great day to go"
+    },
+    {
+      "date": "2026-04-28",
+      "high_f": 74,
+      "low_f": 47,
+      "rain_pct": 0,
+      "uv": 8,
+      "sunrise": "2026-04-28T05:50",
+      "sunset": "2026-04-28T19:23",
+      "predicted_score": 100,
+      "score_label": "Great day to go"
+    },
+    {
+      "date": "2026-04-29",
+      "high_f": 79,
+      "low_f": 55,
+      "rain_pct": 5,
+      "uv": 7,
+      "sunrise": "2026-04-29T05:48",
+      "sunset": "2026-04-29T19:24",
+      "predicted_score": 88,
+      "score_label": "Great day to go"
+    },
+    {
+      "date": "2026-04-30",
+      "high_f": 77,
+      "low_f": 56,
+      "rain_pct": 10,
+      "uv": 8,
+      "sunrise": "2026-04-30T05:47",
+      "sunset": "2026-04-30T19:25",
+      "predicted_score": 88,
+      "score_label": "Great day to go"
+    }
+  ],
+  "updated_at": "2026-04-26T09:45:34.147944+00:00"
 }

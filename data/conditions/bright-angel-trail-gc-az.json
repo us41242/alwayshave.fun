@@ -22,14 +22,15 @@
   "gear_flags": [
     "wind layer recommended",
     "insulation layer required",
+    "rain gear recommended",
     "mask for sensitive groups"
   ],
   "current": {
     "temp_f": 39,
-    "feels_like_f": 29,
-    "wind_mph": 14,
+    "feels_like_f": 28,
+    "wind_mph": 16,
     "gusts_mph": 32,
-    "rain_pct": 32
+    "rain_pct": 43
   },
   "aqi": {
     "aqi": 54,
@@ -43,14 +44,14 @@
     "fire_count_50km": 0
   },
   "river": {
-    "cfs": 6470,
+    "cfs": 6370,
     "stage": "flood"
   },
   "forecast": [
     {
       "date": "2026-04-26",
-      "high_f": 49,
-      "low_f": 35,
+      "high_f": 48,
+      "low_f": 37,
       "rain_pct": 61,
       "uv": 6,
       "sunrise": "2026-04-26T05:41",
@@ -103,5 +104,5 @@
       "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-04-26T09:23:09.362101+00:00"
+  "updated_at": "2026-04-26T09:43:27.103437+00:00"
 }
