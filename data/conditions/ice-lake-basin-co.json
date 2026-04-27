@@ -17,12 +17,11 @@
   "notes": "High-alpine \u2014 thunderstorm risk after noon; start before 7am",
   "dog_friendly": "Yes",
   "vehicle_req": "High-Clearance",
-  "score": 50,
+  "score": 60,
   "score_label": "Use caution",
   "gear_flags": [
     "wind layer recommended",
-    "insulation layer required",
-    "mask for sensitive groups"
+    "insulation layer required"
   ],
   "current": {
     "temp_f": 28,
@@ -32,14 +31,14 @@
     "rain_pct": 11
   },
   "aqi": {
-    "aqi": 55,
-    "category": "Moderate",
+    "aqi": 12,
+    "category": "Good",
     "pollutant": "PM2.5",
-    "source": "open-meteo"
+    "source": "airnow"
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": null,
+    "nearest_fire_km": 491.3,
     "fire_count_50km": 0
   },
   "river": null,
@@ -52,7 +51,7 @@
       "uv": 9,
       "sunrise": "2026-04-27T06:19",
       "sunset": "2026-04-27T19:57",
-      "predicted_score": 50,
+      "predicted_score": 60,
       "score_label": "Use caution"
     },
     {
@@ -63,7 +62,7 @@
       "uv": 9,
       "sunrise": "2026-04-28T06:18",
       "sunset": "2026-04-28T19:58",
-      "predicted_score": 50,
+      "predicted_score": 60,
       "score_label": "Use caution"
     },
     {
@@ -74,8 +73,8 @@
       "uv": 7,
       "sunrise": "2026-04-29T06:17",
       "sunset": "2026-04-29T19:59",
-      "predicted_score": 60,
-      "score_label": "Use caution"
+      "predicted_score": 70,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-04-30",
@@ -85,7 +84,7 @@
       "uv": 6,
       "sunrise": "2026-04-30T06:15",
       "sunset": "2026-04-30T20:00",
-      "predicted_score": 50,
+      "predicted_score": 60,
       "score_label": "Use caution"
     },
     {
@@ -96,9 +95,9 @@
       "uv": 5,
       "sunrise": "2026-05-01T06:14",
       "sunset": "2026-05-01T20:01",
-      "predicted_score": 50,
+      "predicted_score": 60,
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-04-27T22:54:54.651721+00:00"
+  "updated_at": "2026-04-27T23:07:23.610466+00:00"
 }

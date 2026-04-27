@@ -17,17 +17,18 @@
   "notes": "Kayak/canoe only \u2014 check river release schedule",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 50,
+  "score": 64,
   "score_label": "Use caution",
   "gear_flags": [
-    "mask for sensitive groups"
+    "mask for sensitive groups",
+    "N95 mask recommended for wildfire smoke"
   ],
   "current": {
     "temp_f": 77,
-    "feels_like_f": 66,
-    "wind_mph": 19,
-    "gusts_mph": 22,
-    "rain_pct": 0
+    "feels_like_f": 65,
+    "wind_mph": 17,
+    "gusts_mph": 20,
+    "rain_pct": 1
   },
   "aqi": {
     "aqi": 67,
@@ -36,11 +37,67 @@
     "source": "airnow"
   },
   "fire": {
-    "risk_level": "low",
-    "nearest_fire_km": null,
-    "fire_count_50km": 0
+    "risk_level": "elevated",
+    "nearest_fire_km": 46.1,
+    "fire_count_50km": 3
   },
   "river": null,
-  "forecast": [],
-  "updated_at": "2026-04-27T22:47:22.063228+00:00"
+  "forecast": [
+    {
+      "date": "2026-04-27",
+      "high_f": 77,
+      "low_f": 56,
+      "rain_pct": 2,
+      "uv": 8,
+      "sunrise": "2026-04-27T05:50",
+      "sunset": "2026-04-27T19:22",
+      "predicted_score": 64,
+      "score_label": "Use caution"
+    },
+    {
+      "date": "2026-04-28",
+      "high_f": 82,
+      "low_f": 55,
+      "rain_pct": 2,
+      "uv": 8,
+      "sunrise": "2026-04-28T05:49",
+      "sunset": "2026-04-28T19:23",
+      "predicted_score": 64,
+      "score_label": "Use caution"
+    },
+    {
+      "date": "2026-04-29",
+      "high_f": 86,
+      "low_f": 59,
+      "rain_pct": 1,
+      "uv": 8,
+      "sunrise": "2026-04-29T05:48",
+      "sunset": "2026-04-29T19:24",
+      "predicted_score": 46,
+      "score_label": "Conditions poor"
+    },
+    {
+      "date": "2026-04-30",
+      "high_f": 85,
+      "low_f": 61,
+      "rain_pct": 4,
+      "uv": 8,
+      "sunrise": "2026-04-30T05:46",
+      "sunset": "2026-04-30T19:25",
+      "predicted_score": 64,
+      "score_label": "Use caution"
+    },
+    {
+      "date": "2026-05-01",
+      "high_f": 90,
+      "low_f": 66,
+      "rain_pct": 1,
+      "uv": 8,
+      "sunrise": "2026-05-01T05:45",
+      "sunset": "2026-05-01T19:26",
+      "predicted_score": 46,
+      "score_label": "Conditions poor"
+    }
+  ],
+  "updated_at": "2026-04-27T23:05:15.337788+00:00"
 }
