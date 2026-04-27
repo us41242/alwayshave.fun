@@ -17,15 +17,15 @@
   "notes": "Slot canyon walls narrow \u2014 avoid during rain/flash flood risk",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 30,
-  "score_label": "Conditions poor",
+  "score": 58,
+  "score_label": "Use caution",
   "gear_flags": [],
   "current": {
-    "temp_f": 58,
-    "feels_like_f": 50,
-    "wind_mph": 14,
-    "gusts_mph": 17,
-    "rain_pct": 5
+    "temp_f": 59,
+    "feels_like_f": 49,
+    "wind_mph": 13,
+    "gusts_mph": 15,
+    "rain_pct": 11
   },
   "aqi": {
     "aqi": null,
@@ -35,10 +35,66 @@
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": 163.9,
+    "nearest_fire_km": null,
     "fire_count_50km": 0
   },
   "river": null,
-  "forecast": [],
-  "updated_at": "2026-04-27T22:22:11.283528+00:00"
+  "forecast": [
+    {
+      "date": "2026-04-27",
+      "high_f": 58,
+      "low_f": 40,
+      "rain_pct": 29,
+      "uv": 8,
+      "sunrise": "2026-04-27T05:45",
+      "sunset": "2026-04-27T19:24",
+      "predicted_score": 58,
+      "score_label": "Use caution"
+    },
+    {
+      "date": "2026-04-28",
+      "high_f": 64,
+      "low_f": 36,
+      "rain_pct": 3,
+      "uv": 8,
+      "sunrise": "2026-04-28T05:44",
+      "sunset": "2026-04-28T19:25",
+      "predicted_score": 70,
+      "score_label": "Good conditions"
+    },
+    {
+      "date": "2026-04-29",
+      "high_f": 68,
+      "low_f": 41,
+      "rain_pct": 2,
+      "uv": 8,
+      "sunrise": "2026-04-29T05:43",
+      "sunset": "2026-04-29T19:26",
+      "predicted_score": 70,
+      "score_label": "Good conditions"
+    },
+    {
+      "date": "2026-04-30",
+      "high_f": 66,
+      "low_f": 49,
+      "rain_pct": 7,
+      "uv": 8,
+      "sunrise": "2026-04-30T05:42",
+      "sunset": "2026-04-30T19:27",
+      "predicted_score": 70,
+      "score_label": "Good conditions"
+    },
+    {
+      "date": "2026-05-01",
+      "high_f": 70,
+      "low_f": 48,
+      "rain_pct": 2,
+      "uv": 8,
+      "sunrise": "2026-05-01T05:41",
+      "sunset": "2026-05-01T19:28",
+      "predicted_score": 70,
+      "score_label": "Good conditions"
+    }
+  ],
+  "updated_at": "2026-04-27T22:43:32.273699+00:00"
 }
