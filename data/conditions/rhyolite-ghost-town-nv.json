@@ -17,8 +17,8 @@
   "notes": "Near Death Valley \u2014 extreme summer heat",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 88,
-  "score_label": "Great day to go",
+  "score": 60,
+  "score_label": "Use caution",
   "gear_flags": [],
   "current": {
     "temp_f": 48,
@@ -35,66 +35,10 @@
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": null,
+    "nearest_fire_km": 842.0,
     "fire_count_50km": 0
   },
   "river": null,
-  "forecast": [
-    {
-      "date": "2026-04-27",
-      "high_f": 62,
-      "low_f": 40,
-      "rain_pct": 20,
-      "uv": 6,
-      "sunrise": "2026-04-27T05:57",
-      "sunset": "2026-04-27T19:32",
-      "predicted_score": 88,
-      "score_label": "Great day to go"
-    },
-    {
-      "date": "2026-04-28",
-      "high_f": 68,
-      "low_f": 45,
-      "rain_pct": 1,
-      "uv": 8,
-      "sunrise": "2026-04-28T05:56",
-      "sunset": "2026-04-28T19:33",
-      "predicted_score": 100,
-      "score_label": "Great day to go"
-    },
-    {
-      "date": "2026-04-29",
-      "high_f": 71,
-      "low_f": 53,
-      "rain_pct": 2,
-      "uv": 8,
-      "sunrise": "2026-04-29T05:54",
-      "sunset": "2026-04-29T19:34",
-      "predicted_score": 100,
-      "score_label": "Great day to go"
-    },
-    {
-      "date": "2026-04-30",
-      "high_f": 75,
-      "low_f": 59,
-      "rain_pct": 7,
-      "uv": 8,
-      "sunrise": "2026-04-30T05:53",
-      "sunset": "2026-04-30T19:35",
-      "predicted_score": 100,
-      "score_label": "Great day to go"
-    },
-    {
-      "date": "2026-05-01",
-      "high_f": 77,
-      "low_f": 59,
-      "rain_pct": 1,
-      "uv": 8,
-      "sunrise": "2026-05-01T05:52",
-      "sunset": "2026-05-01T19:36",
-      "predicted_score": 88,
-      "score_label": "Great day to go"
-    }
-  ],
-  "updated_at": "2026-04-27T08:05:49.029567+00:00"
+  "forecast": [],
+  "updated_at": "2026-04-27T08:27:21.011214+00:00"
 }
