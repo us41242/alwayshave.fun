@@ -24,14 +24,14 @@
     "insulation layer required"
   ],
   "current": {
-    "temp_f": 32,
-    "feels_like_f": 21,
+    "temp_f": 31,
+    "feels_like_f": 20,
     "wind_mph": 14,
-    "gusts_mph": 21,
+    "gusts_mph": 20,
     "rain_pct": 1
   },
   "aqi": {
-    "aqi": 39,
+    "aqi": 37,
     "category": "Good",
     "pollutant": "PM2.5",
     "source": "open-meteo"
@@ -99,5 +99,5 @@
       "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-04-27T12:43:14.531983+00:00"
+  "updated_at": "2026-04-27T13:03:22.807228+00:00"
 }
