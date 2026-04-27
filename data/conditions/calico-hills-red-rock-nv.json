@@ -17,23 +17,24 @@
   "notes": "Avoid mid-summer heat \u2014 best Oct\u2013Apr",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 100,
-  "score_label": "Great day to go",
+  "score": 78,
+  "score_label": "Good conditions",
   "gear_flags": [
-    "wind layer recommended"
+    "wind layer recommended",
+    "mask for sensitive groups"
   ],
   "current": {
-    "temp_f": 53,
-    "feels_like_f": 43,
-    "wind_mph": 13,
-    "gusts_mph": 25,
+    "temp_f": 52,
+    "feels_like_f": 41,
+    "wind_mph": 17,
+    "gusts_mph": 27,
     "rain_pct": 1
   },
   "aqi": {
-    "aqi": 45,
-    "category": "Good",
-    "pollutant": "O3",
-    "source": "airnow"
+    "aqi": 56,
+    "category": "Moderate",
+    "pollutant": "PM2.5",
+    "source": "open-meteo"
   },
   "fire": {
     "risk_level": "low",
@@ -50,8 +51,8 @@
       "uv": 7,
       "sunrise": "2026-04-26T05:54",
       "sunset": "2026-04-26T19:24",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
+      "predicted_score": 60,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-04-27",
@@ -61,7 +62,7 @@
       "uv": 8,
       "sunrise": "2026-04-27T05:52",
       "sunset": "2026-04-27T19:25",
-      "predicted_score": 100,
+      "predicted_score": 90,
       "score_label": "Great day to go"
     },
     {
@@ -72,7 +73,7 @@
       "uv": 8,
       "sunrise": "2026-04-28T05:51",
       "sunset": "2026-04-28T19:26",
-      "predicted_score": 100,
+      "predicted_score": 90,
       "score_label": "Great day to go"
     },
     {
@@ -83,7 +84,7 @@
       "uv": 8,
       "sunrise": "2026-04-29T05:50",
       "sunset": "2026-04-29T19:27",
-      "predicted_score": 100,
+      "predicted_score": 90,
       "score_label": "Great day to go"
     },
     {
@@ -94,9 +95,9 @@
       "uv": 8,
       "sunrise": "2026-04-30T05:49",
       "sunset": "2026-04-30T19:28",
-      "predicted_score": 88,
-      "score_label": "Great day to go"
+      "predicted_score": 78,
+      "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-04-27T02:41:11.106943+00:00"
+  "updated_at": "2026-04-27T03:02:18.519300+00:00"
 }
