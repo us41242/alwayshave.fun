@@ -17,18 +17,18 @@
   "notes": "Multi-day \u2014 permit required; flash flood danger",
   "dog_friendly": "Yes",
   "vehicle_req": "High-Clearance",
-  "score": 60,
-  "score_label": "Use caution",
+  "score": 100,
+  "score_label": "Great day to go",
   "gear_flags": [],
   "current": {
-    "temp_f": 58,
-    "feels_like_f": 50,
-    "wind_mph": 11,
-    "gusts_mph": 15,
+    "temp_f": 59,
+    "feels_like_f": 51,
+    "wind_mph": 12,
+    "gusts_mph": 17,
     "rain_pct": 0
   },
   "aqi": {
-    "aqi": 44,
+    "aqi": 45,
     "category": "Good",
     "pollutant": "O3",
     "source": "airnow"
@@ -39,6 +39,62 @@
     "fire_count_50km": 0
   },
   "river": null,
-  "forecast": [],
-  "updated_at": "2026-04-27T17:08:13.735408+00:00"
+  "forecast": [
+    {
+      "date": "2026-04-27",
+      "high_f": 68,
+      "low_f": 42,
+      "rain_pct": 2,
+      "uv": 8,
+      "sunrise": "2026-04-27T06:37",
+      "sunset": "2026-04-27T20:13",
+      "predicted_score": 100,
+      "score_label": "Great day to go"
+    },
+    {
+      "date": "2026-04-28",
+      "high_f": 70,
+      "low_f": 39,
+      "rain_pct": 1,
+      "uv": 8,
+      "sunrise": "2026-04-28T06:36",
+      "sunset": "2026-04-28T20:14",
+      "predicted_score": 100,
+      "score_label": "Great day to go"
+    },
+    {
+      "date": "2026-04-29",
+      "high_f": 72,
+      "low_f": 49,
+      "rain_pct": 3,
+      "uv": 8,
+      "sunrise": "2026-04-29T06:34",
+      "sunset": "2026-04-29T20:15",
+      "predicted_score": 100,
+      "score_label": "Great day to go"
+    },
+    {
+      "date": "2026-04-30",
+      "high_f": 71,
+      "low_f": 53,
+      "rain_pct": 12,
+      "uv": 8,
+      "sunrise": "2026-04-30T06:33",
+      "sunset": "2026-04-30T20:15",
+      "predicted_score": 88,
+      "score_label": "Great day to go"
+    },
+    {
+      "date": "2026-05-01",
+      "high_f": 77,
+      "low_f": 51,
+      "rain_pct": 8,
+      "uv": 8,
+      "sunrise": "2026-05-01T06:32",
+      "sunset": "2026-05-01T20:16",
+      "predicted_score": 88,
+      "score_label": "Great day to go"
+    }
+  ],
+  "updated_at": "2026-04-27T17:25:49.402211+00:00"
 }

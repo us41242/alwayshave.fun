@@ -17,15 +17,15 @@
   "notes": "Free entry; busy weekends \u2014 arrive before 9am",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 60,
-  "score_label": "Use caution",
+  "score": 100,
+  "score_label": "Great day to go",
   "gear_flags": [],
   "current": {
-    "temp_f": 53,
-    "feels_like_f": 45,
-    "wind_mph": 16,
-    "gusts_mph": 21,
-    "rain_pct": 1
+    "temp_f": 51,
+    "feels_like_f": 42,
+    "wind_mph": 13,
+    "gusts_mph": 17,
+    "rain_pct": 2
   },
   "aqi": {
     "aqi": 34,
@@ -39,6 +39,62 @@
     "fire_count_50km": 0
   },
   "river": null,
-  "forecast": [],
-  "updated_at": "2026-04-27T17:10:22.250054+00:00"
+  "forecast": [
+    {
+      "date": "2026-04-27",
+      "high_f": 56,
+      "low_f": 42,
+      "rain_pct": 45,
+      "uv": 6,
+      "sunrise": "2026-04-27T06:06",
+      "sunset": "2026-04-27T19:47",
+      "predicted_score": 70,
+      "score_label": "Good conditions"
+    },
+    {
+      "date": "2026-04-28",
+      "high_f": 58,
+      "low_f": 36,
+      "rain_pct": 20,
+      "uv": 7,
+      "sunrise": "2026-04-28T06:04",
+      "sunset": "2026-04-28T19:48",
+      "predicted_score": 88,
+      "score_label": "Great day to go"
+    },
+    {
+      "date": "2026-04-29",
+      "high_f": 57,
+      "low_f": 35,
+      "rain_pct": 73,
+      "uv": 6,
+      "sunrise": "2026-04-29T06:03",
+      "sunset": "2026-04-29T19:49",
+      "predicted_score": 60,
+      "score_label": "Use caution"
+    },
+    {
+      "date": "2026-04-30",
+      "high_f": 48,
+      "low_f": 38,
+      "rain_pct": 92,
+      "uv": 4,
+      "sunrise": "2026-04-30T06:02",
+      "sunset": "2026-04-30T19:50",
+      "predicted_score": 60,
+      "score_label": "Use caution"
+    },
+    {
+      "date": "2026-05-01",
+      "high_f": 38,
+      "low_f": 36,
+      "rain_pct": 84,
+      "uv": 3,
+      "sunrise": "2026-05-01T06:01",
+      "sunset": "2026-05-01T19:51",
+      "predicted_score": 60,
+      "score_label": "Use caution"
+    }
+  ],
+  "updated_at": "2026-04-27T17:27:36.918495+00:00"
 }

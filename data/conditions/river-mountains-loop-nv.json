@@ -17,21 +17,22 @@
   "notes": "Full loop 34mi \u2014 sections open to bikes/horses",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 86,
-  "score_label": "Great day to go",
+  "score": 76,
+  "score_label": "Good conditions",
   "gear_flags": [
+    "mask for sensitive groups",
     "N95 mask recommended for wildfire smoke"
   ],
   "current": {
-    "temp_f": 61,
-    "feels_like_f": 54,
-    "wind_mph": 12,
+    "temp_f": 62,
+    "feels_like_f": 55,
+    "wind_mph": 11,
     "gusts_mph": 14,
     "rain_pct": 0
   },
   "aqi": {
-    "aqi": 50,
-    "category": "Good",
+    "aqi": 51,
+    "category": "Moderate",
     "pollutant": "O3",
     "source": "airnow"
   },
@@ -50,8 +51,8 @@
       "uv": 8,
       "sunrise": "2026-04-27T05:50",
       "sunset": "2026-04-27T19:23",
-      "predicted_score": 86,
-      "score_label": "Great day to go"
+      "predicted_score": 76,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-04-28",
@@ -61,8 +62,8 @@
       "uv": 8,
       "sunrise": "2026-04-28T05:49",
       "sunset": "2026-04-28T19:24",
-      "predicted_score": 86,
-      "score_label": "Great day to go"
+      "predicted_score": 76,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-04-29",
@@ -72,8 +73,8 @@
       "uv": 8,
       "sunrise": "2026-04-29T05:48",
       "sunset": "2026-04-29T19:25",
-      "predicted_score": 74,
-      "score_label": "Good conditions"
+      "predicted_score": 64,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-04-30",
@@ -83,8 +84,8 @@
       "uv": 8,
       "sunrise": "2026-04-30T05:47",
       "sunset": "2026-04-30T19:26",
-      "predicted_score": 74,
-      "score_label": "Good conditions"
+      "predicted_score": 64,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-05-01",
@@ -94,9 +95,9 @@
       "uv": 8,
       "sunrise": "2026-05-01T05:46",
       "sunset": "2026-05-01T19:26",
-      "predicted_score": 74,
-      "score_label": "Good conditions"
+      "predicted_score": 64,
+      "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-04-27T17:07:11.489770+00:00"
+  "updated_at": "2026-04-27T17:25:47.747210+00:00"
 }
