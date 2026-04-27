@@ -19,9 +19,7 @@
   "vehicle_req": "Any",
   "score": 60,
   "score_label": "Use caution",
-  "gear_flags": [
-    "insulation layer required"
-  ],
+  "gear_flags": [],
   "current": {
     "temp_f": 10,
     "feels_like_f": 6,
@@ -30,76 +28,20 @@
     "rain_pct": 13
   },
   "aqi": {
-    "aqi": 21,
+    "aqi": 18,
     "category": "Good",
     "pollutant": "PM2.5",
     "source": "airnow"
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": null,
+    "nearest_fire_km": 235.5,
     "fire_count_50km": 0
   },
   "river": {
     "cfs": 105,
     "stage": "normal"
   },
-  "forecast": [
-    {
-      "date": "2026-04-27",
-      "high_f": 12,
-      "low_f": -6,
-      "rain_pct": 23,
-      "uv": 9,
-      "sunrise": "2026-04-27T06:03",
-      "sunset": "2026-04-27T19:37",
-      "predicted_score": 60,
-      "score_label": "Use caution"
-    },
-    {
-      "date": "2026-04-28",
-      "high_f": 18,
-      "low_f": -2,
-      "rain_pct": 6,
-      "uv": 9,
-      "sunrise": "2026-04-28T06:02",
-      "sunset": "2026-04-28T19:38",
-      "predicted_score": 60,
-      "score_label": "Use caution"
-    },
-    {
-      "date": "2026-04-29",
-      "high_f": 24,
-      "low_f": 3,
-      "rain_pct": 9,
-      "uv": 9,
-      "sunrise": "2026-04-29T06:01",
-      "sunset": "2026-04-29T19:39",
-      "predicted_score": 60,
-      "score_label": "Use caution"
-    },
-    {
-      "date": "2026-04-30",
-      "high_f": 26,
-      "low_f": 16,
-      "rain_pct": 7,
-      "uv": 9,
-      "sunrise": "2026-04-30T06:00",
-      "sunset": "2026-04-30T19:40",
-      "predicted_score": 60,
-      "score_label": "Use caution"
-    },
-    {
-      "date": "2026-05-01",
-      "high_f": 34,
-      "low_f": 16,
-      "rain_pct": 2,
-      "uv": 9,
-      "sunrise": "2026-05-01T05:59",
-      "sunset": "2026-05-01T19:41",
-      "predicted_score": 60,
-      "score_label": "Use caution"
-    }
-  ],
-  "updated_at": "2026-04-27T20:08:18.207222+00:00"
+  "forecast": [],
+  "updated_at": "2026-04-27T20:28:55.035693+00:00"
 }
