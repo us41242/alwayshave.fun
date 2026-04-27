@@ -25,10 +25,10 @@
   ],
   "current": {
     "temp_f": 27,
-    "feels_like_f": 12,
-    "wind_mph": 22,
+    "feels_like_f": 13,
+    "wind_mph": 21,
     "gusts_mph": 38,
-    "rain_pct": 15
+    "rain_pct": 18
   },
   "aqi": {
     "aqi": 43,
@@ -45,8 +45,8 @@
   "forecast": [
     {
       "date": "2026-04-27",
-      "high_f": 38,
-      "low_f": 25,
+      "high_f": 37,
+      "low_f": 27,
       "rain_pct": 42,
       "uv": 8,
       "sunrise": "2026-04-27T06:06",
@@ -99,5 +99,5 @@
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-04-27T10:27:40.720735+00:00"
+  "updated_at": "2026-04-27T10:48:22.426671+00:00"
 }
