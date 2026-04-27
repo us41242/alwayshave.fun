@@ -20,14 +20,13 @@
   "score": 60,
   "score_label": "Use caution",
   "gear_flags": [
-    "wind layer recommended",
     "insulation layer required"
   ],
   "current": {
-    "temp_f": 16,
-    "feels_like_f": 6,
+    "temp_f": 17,
+    "feels_like_f": 7,
     "wind_mph": 10,
-    "gusts_mph": 21,
+    "gusts_mph": 18,
     "rain_pct": 11
   },
   "aqi": {
@@ -38,7 +37,7 @@
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": 493.5,
+    "nearest_fire_km": 491.4,
     "fire_count_50km": 0
   },
   "river": null,
@@ -99,5 +98,5 @@
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-04-27T09:47:42.124619+00:00"
+  "updated_at": "2026-04-27T10:07:27.803055+00:00"
 }
