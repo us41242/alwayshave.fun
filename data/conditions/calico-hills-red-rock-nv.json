@@ -21,14 +21,14 @@
   "score_label": "Good conditions",
   "gear_flags": [],
   "current": {
-    "temp_f": 47,
-    "feels_like_f": 41,
-    "wind_mph": 4,
-    "gusts_mph": 11,
+    "temp_f": 49,
+    "feels_like_f": 44,
+    "wind_mph": 2,
+    "gusts_mph": 9,
     "rain_pct": 0
   },
   "aqi": {
-    "aqi": 49,
+    "aqi": 50,
     "category": "Good",
     "pollutant": "O3",
     "source": "airnow"
@@ -53,7 +53,7 @@
     },
     {
       "date": "2026-04-28",
-      "high_f": 68,
+      "high_f": 69,
       "low_f": 46,
       "rain_pct": 3,
       "uv": 8,
@@ -96,5 +96,5 @@
       "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-04-27T14:01:40.579806+00:00"
+  "updated_at": "2026-04-27T14:22:12.198441+00:00"
 }
