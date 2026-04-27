@@ -17,8 +17,8 @@
   "notes": "Full loop 34mi \u2014 sections open to bikes/horses",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 76,
-  "score_label": "Good conditions",
+  "score": 36,
+  "score_label": "Conditions poor",
   "gear_flags": [
     "mask for sensitive groups",
     "N95 mask recommended for wildfire smoke"
@@ -42,62 +42,6 @@
     "fire_count_50km": 3
   },
   "river": null,
-  "forecast": [
-    {
-      "date": "2026-04-27",
-      "high_f": 70,
-      "low_f": 50,
-      "rain_pct": 2,
-      "uv": 8,
-      "sunrise": "2026-04-27T05:50",
-      "sunset": "2026-04-27T19:23",
-      "predicted_score": 76,
-      "score_label": "Good conditions"
-    },
-    {
-      "date": "2026-04-28",
-      "high_f": 75,
-      "low_f": 49,
-      "rain_pct": 2,
-      "uv": 8,
-      "sunrise": "2026-04-28T05:49",
-      "sunset": "2026-04-28T19:24",
-      "predicted_score": 76,
-      "score_label": "Good conditions"
-    },
-    {
-      "date": "2026-04-29",
-      "high_f": 79,
-      "low_f": 53,
-      "rain_pct": 1,
-      "uv": 8,
-      "sunrise": "2026-04-29T05:48",
-      "sunset": "2026-04-29T19:25",
-      "predicted_score": 64,
-      "score_label": "Use caution"
-    },
-    {
-      "date": "2026-04-30",
-      "high_f": 80,
-      "low_f": 54,
-      "rain_pct": 5,
-      "uv": 8,
-      "sunrise": "2026-04-30T05:47",
-      "sunset": "2026-04-30T19:26",
-      "predicted_score": 64,
-      "score_label": "Use caution"
-    },
-    {
-      "date": "2026-05-01",
-      "high_f": 85,
-      "low_f": 60,
-      "rain_pct": 0,
-      "uv": 8,
-      "sunrise": "2026-05-01T05:46",
-      "sunset": "2026-05-01T19:26",
-      "predicted_score": 64,
-      "score_label": "Use caution"
-    }
-  ],
-  "updated_at": "2026-04-27T19:25:23.500999+00:00"
+  "forecast": [],
+  "updated_at": "2026-04-27T19:45:40.520310+00:00"
 }
