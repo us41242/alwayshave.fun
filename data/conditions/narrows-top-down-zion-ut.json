@@ -17,17 +17,18 @@
   "notes": "Flash flood danger \u2014 check weather 24hr upstream",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 50,
-  "score_label": "Use caution",
+  "score": 90,
+  "score_label": "Great day to go",
   "gear_flags": [
+    "wind layer recommended",
     "mask for sensitive groups"
   ],
   "current": {
-    "temp_f": 52,
+    "temp_f": 53,
     "feels_like_f": 45,
-    "wind_mph": 12,
-    "gusts_mph": 17,
-    "rain_pct": 2
+    "wind_mph": 14,
+    "gusts_mph": 21,
+    "rain_pct": 1
   },
   "aqi": {
     "aqi": 58,
@@ -44,6 +45,62 @@
     "cfs": 7940,
     "stage": "flood"
   },
-  "forecast": [],
-  "updated_at": "2026-04-27T21:24:56.891093+00:00"
+  "forecast": [
+    {
+      "date": "2026-04-27",
+      "high_f": 54,
+      "low_f": 36,
+      "rain_pct": 4,
+      "uv": 8,
+      "sunrise": "2026-04-27T06:40",
+      "sunset": "2026-04-27T20:17",
+      "predicted_score": 90,
+      "score_label": "Great day to go"
+    },
+    {
+      "date": "2026-04-28",
+      "high_f": 59,
+      "low_f": 34,
+      "rain_pct": 5,
+      "uv": 8,
+      "sunrise": "2026-04-28T06:39",
+      "sunset": "2026-04-28T20:18",
+      "predicted_score": 90,
+      "score_label": "Great day to go"
+    },
+    {
+      "date": "2026-04-29",
+      "high_f": 60,
+      "low_f": 40,
+      "rain_pct": 7,
+      "uv": 7,
+      "sunrise": "2026-04-29T06:38",
+      "sunset": "2026-04-29T20:19",
+      "predicted_score": 90,
+      "score_label": "Great day to go"
+    },
+    {
+      "date": "2026-04-30",
+      "high_f": 58,
+      "low_f": 44,
+      "rain_pct": 30,
+      "uv": 6,
+      "sunrise": "2026-04-30T06:37",
+      "sunset": "2026-04-30T20:20",
+      "predicted_score": 78,
+      "score_label": "Good conditions"
+    },
+    {
+      "date": "2026-05-01",
+      "high_f": 61,
+      "low_f": 41,
+      "rain_pct": 16,
+      "uv": 8,
+      "sunrise": "2026-05-01T06:36",
+      "sunset": "2026-05-01T20:21",
+      "predicted_score": 78,
+      "score_label": "Good conditions"
+    }
+  ],
+  "updated_at": "2026-04-27T21:43:05.079550+00:00"
 }
