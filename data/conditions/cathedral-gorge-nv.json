@@ -17,15 +17,15 @@
   "notes": "Slot canyon walls narrow \u2014 avoid during rain/flash flood risk",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 60,
-  "score_label": "Use caution",
+  "score": 88,
+  "score_label": "Great day to go",
   "gear_flags": [],
   "current": {
     "temp_f": 46,
-    "feels_like_f": 39,
-    "wind_mph": 12,
-    "gusts_mph": 20,
-    "rain_pct": 27
+    "feels_like_f": 42,
+    "wind_mph": 4,
+    "gusts_mph": 12,
+    "rain_pct": 25
   },
   "aqi": {
     "aqi": 46,
@@ -39,6 +39,62 @@
     "fire_count_50km": 0
   },
   "river": null,
-  "forecast": [],
-  "updated_at": "2026-04-27T01:43:13.676684+00:00"
+  "forecast": [
+    {
+      "date": "2026-04-26",
+      "high_f": 49,
+      "low_f": 42,
+      "rain_pct": 82,
+      "uv": 4,
+      "sunrise": "2026-04-26T05:47",
+      "sunset": "2026-04-26T19:23",
+      "predicted_score": 60,
+      "score_label": "Use caution"
+    },
+    {
+      "date": "2026-04-27",
+      "high_f": 60,
+      "low_f": 40,
+      "rain_pct": 32,
+      "uv": 6,
+      "sunrise": "2026-04-27T05:45",
+      "sunset": "2026-04-27T19:24",
+      "predicted_score": 70,
+      "score_label": "Good conditions"
+    },
+    {
+      "date": "2026-04-28",
+      "high_f": 63,
+      "low_f": 35,
+      "rain_pct": 4,
+      "uv": 8,
+      "sunrise": "2026-04-28T05:44",
+      "sunset": "2026-04-28T19:25",
+      "predicted_score": 100,
+      "score_label": "Great day to go"
+    },
+    {
+      "date": "2026-04-29",
+      "high_f": 69,
+      "low_f": 48,
+      "rain_pct": 2,
+      "uv": 8,
+      "sunrise": "2026-04-29T05:43",
+      "sunset": "2026-04-29T19:26",
+      "predicted_score": 100,
+      "score_label": "Great day to go"
+    },
+    {
+      "date": "2026-04-30",
+      "high_f": 70,
+      "low_f": 54,
+      "rain_pct": 6,
+      "uv": 7,
+      "sunrise": "2026-04-30T05:42",
+      "sunset": "2026-04-30T19:27",
+      "predicted_score": 100,
+      "score_label": "Great day to go"
+    }
+  ],
+  "updated_at": "2026-04-27T02:02:01.584213+00:00"
 }

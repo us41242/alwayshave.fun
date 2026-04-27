@@ -23,11 +23,11 @@
     "insulation layer required"
   ],
   "current": {
-    "temp_f": 40,
-    "feels_like_f": 36,
-    "wind_mph": 1,
+    "temp_f": 39,
+    "feels_like_f": 35,
+    "wind_mph": 0,
     "gusts_mph": 4,
-    "rain_pct": 31
+    "rain_pct": 32
   },
   "aqi": {
     "aqi": 42,
@@ -66,7 +66,7 @@
     },
     {
       "date": "2026-04-28",
-      "high_f": 60,
+      "high_f": 57,
       "low_f": 38,
       "rain_pct": 12,
       "uv": 8,
@@ -98,5 +98,5 @@
       "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-04-27T01:48:06.750958+00:00"
+  "updated_at": "2026-04-27T02:06:47.375623+00:00"
 }
