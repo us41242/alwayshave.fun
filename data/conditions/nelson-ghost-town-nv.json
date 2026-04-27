@@ -17,7 +17,7 @@
   "notes": "Desert wash trail \u2014 no shade",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 88,
+  "score": 100,
   "score_label": "Great day to go",
   "gear_flags": [
     "wind layer recommended"
@@ -25,12 +25,12 @@
   "current": {
     "temp_f": 51,
     "feels_like_f": 41,
-    "wind_mph": 15,
-    "gusts_mph": 21,
+    "wind_mph": 14,
+    "gusts_mph": 20,
     "rain_pct": 0
   },
   "aqi": {
-    "aqi": 44,
+    "aqi": 46,
     "category": "Good",
     "pollutant": "O3",
     "source": "airnow"
@@ -68,7 +68,7 @@
       "date": "2026-04-29",
       "high_f": 78,
       "low_f": 51,
-      "rain_pct": 4,
+      "rain_pct": 2,
       "uv": 8,
       "sunrise": "2026-04-29T05:48",
       "sunset": "2026-04-29T19:24",
@@ -79,7 +79,7 @@
       "date": "2026-04-30",
       "high_f": 80,
       "low_f": 53,
-      "rain_pct": 11,
+      "rain_pct": 10,
       "uv": 8,
       "sunrise": "2026-04-30T05:47",
       "sunset": "2026-04-30T19:25",
@@ -90,7 +90,7 @@
       "date": "2026-05-01",
       "high_f": 82,
       "low_f": 60,
-      "rain_pct": 3,
+      "rain_pct": 2,
       "uv": 8,
       "sunrise": "2026-05-01T05:46",
       "sunset": "2026-05-01T19:25",
@@ -98,5 +98,5 @@
       "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-04-27T09:05:33.117057+00:00"
+  "updated_at": "2026-04-27T09:25:27.061249+00:00"
 }
