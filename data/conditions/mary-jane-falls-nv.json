@@ -17,22 +17,21 @@
   "notes": "Popular weekend trail \u2014 arrive before 8am",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 52,
+  "score": 62,
   "score_label": "Use caution",
   "gear_flags": [
-    "insulation layer required",
-    "mask for sensitive groups"
+    "insulation layer required"
   ],
   "current": {
-    "temp_f": 40,
-    "feels_like_f": 38,
-    "wind_mph": 0,
+    "temp_f": 39,
+    "feels_like_f": 35,
+    "wind_mph": 1,
     "gusts_mph": 5,
     "rain_pct": 3
   },
   "aqi": {
-    "aqi": 73,
-    "category": "Moderate",
+    "aqi": 43,
+    "category": "Good",
     "pollutant": "PM10",
     "source": "airnow"
   },
@@ -51,7 +50,7 @@
       "uv": 8,
       "sunrise": "2026-04-27T05:53",
       "sunset": "2026-04-27T19:26",
-      "predicted_score": 70,
+      "predicted_score": 80,
       "score_label": "Good conditions"
     },
     {
@@ -62,7 +61,7 @@
       "uv": 8,
       "sunrise": "2026-04-28T05:52",
       "sunset": "2026-04-28T19:27",
-      "predicted_score": 70,
+      "predicted_score": 80,
       "score_label": "Good conditions"
     },
     {
@@ -73,7 +72,7 @@
       "uv": 8,
       "sunrise": "2026-04-29T05:51",
       "sunset": "2026-04-29T19:28",
-      "predicted_score": 70,
+      "predicted_score": 80,
       "score_label": "Good conditions"
     },
     {
@@ -84,7 +83,7 @@
       "uv": 7,
       "sunrise": "2026-04-30T05:50",
       "sunset": "2026-04-30T19:29",
-      "predicted_score": 70,
+      "predicted_score": 80,
       "score_label": "Good conditions"
     },
     {
@@ -95,9 +94,9 @@
       "uv": 9,
       "sunrise": "2026-05-01T05:49",
       "sunset": "2026-05-01T19:30",
-      "predicted_score": 82,
-      "score_label": "Good conditions"
+      "predicted_score": 92,
+      "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-04-27T22:05:16.088935+00:00"
+  "updated_at": "2026-04-27T22:23:19.107628+00:00"
 }
