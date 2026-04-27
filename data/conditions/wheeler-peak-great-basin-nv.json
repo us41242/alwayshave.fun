@@ -24,11 +24,11 @@
     "rain gear recommended"
   ],
   "current": {
-    "temp_f": 14,
+    "temp_f": 13,
     "feels_like_f": 4,
-    "wind_mph": 10,
-    "gusts_mph": 13,
-    "rain_pct": 49
+    "wind_mph": 9,
+    "gusts_mph": 11,
+    "rain_pct": 46
   },
   "aqi": {
     "aqi": 43,
@@ -45,10 +45,10 @@
   "forecast": [
     {
       "date": "2026-04-27",
-      "high_f": 16,
+      "high_f": 15,
       "low_f": 9,
-      "rain_pct": 65,
-      "uv": 4,
+      "rain_pct": 71,
+      "uv": 6,
       "sunrise": "2026-04-27T05:43",
       "sunset": "2026-04-27T19:26",
       "predicted_score": 60,
@@ -67,7 +67,7 @@
     },
     {
       "date": "2026-04-29",
-      "high_f": 31,
+      "high_f": 30,
       "low_f": 15,
       "rain_pct": 24,
       "uv": 7,
@@ -79,9 +79,9 @@
     {
       "date": "2026-04-30",
       "high_f": 30,
-      "low_f": 19,
+      "low_f": 20,
       "rain_pct": 17,
-      "uv": 8,
+      "uv": 7,
       "sunrise": "2026-04-30T05:39",
       "sunset": "2026-04-30T19:28",
       "predicted_score": 60,
@@ -89,8 +89,8 @@
     },
     {
       "date": "2026-05-01",
-      "high_f": 38,
-      "low_f": 21,
+      "high_f": 36,
+      "low_f": 19,
       "rain_pct": 5,
       "uv": 8,
       "sunrise": "2026-05-01T05:38",
@@ -99,5 +99,5 @@
       "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-04-27T17:21:25.120463+00:00"
+  "updated_at": "2026-04-27T17:41:22.485656+00:00"
 }
