@@ -17,24 +17,23 @@
   "notes": "Check Virgin River flow \u2014 USGS gauge 09380000",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 78,
-  "score_label": "Good conditions",
+  "score": 58,
+  "score_label": "Use caution",
   "gear_flags": [
-    "insulation layer required",
-    "mask for sensitive groups"
+    "insulation layer required"
   ],
   "current": {
     "temp_f": 43,
     "feels_like_f": 37,
-    "wind_mph": 7,
-    "gusts_mph": 7,
+    "wind_mph": 6,
+    "gusts_mph": 6,
     "rain_pct": 2
   },
   "aqi": {
-    "aqi": 58,
-    "category": "Moderate",
-    "pollutant": "PM2.5",
-    "source": "open-meteo"
+    "aqi": null,
+    "category": "Unknown",
+    "pollutant": "",
+    "source": "none"
   },
   "fire": {
     "risk_level": "low",
@@ -42,7 +41,7 @@
     "fire_count_50km": 0
   },
   "river": {
-    "cfs": 8110,
+    "cfs": 8140,
     "stage": "flood"
   },
   "forecast": [
@@ -54,8 +53,8 @@
       "uv": 3,
       "sunrise": "2026-04-26T06:42",
       "sunset": "2026-04-26T20:16",
-      "predicted_score": 50,
-      "score_label": "Use caution"
+      "predicted_score": 30,
+      "score_label": "Conditions poor"
     },
     {
       "date": "2026-04-27",
@@ -65,8 +64,8 @@
       "uv": 8,
       "sunrise": "2026-04-27T06:41",
       "sunset": "2026-04-27T20:17",
-      "predicted_score": 90,
-      "score_label": "Great day to go"
+      "predicted_score": 70,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-04-28",
@@ -76,31 +75,31 @@
       "uv": 8,
       "sunrise": "2026-04-28T06:39",
       "sunset": "2026-04-28T20:18",
-      "predicted_score": 90,
-      "score_label": "Great day to go"
+      "predicted_score": 70,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-04-29",
       "high_f": 68,
       "low_f": 50,
-      "rain_pct": 4,
+      "rain_pct": 5,
       "uv": 8,
       "sunrise": "2026-04-29T06:38",
       "sunset": "2026-04-29T20:19",
-      "predicted_score": 90,
-      "score_label": "Great day to go"
+      "predicted_score": 70,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-04-30",
       "high_f": 65,
       "low_f": 55,
-      "rain_pct": 22,
+      "rain_pct": 25,
       "uv": 6,
       "sunrise": "2026-04-30T06:37",
       "sunset": "2026-04-30T20:20",
-      "predicted_score": 78,
-      "score_label": "Good conditions"
+      "predicted_score": 58,
+      "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-04-27T03:01:15.804875+00:00"
+  "updated_at": "2026-04-27T03:22:01.298331+00:00"
 }
