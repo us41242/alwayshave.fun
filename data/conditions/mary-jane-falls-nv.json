@@ -17,11 +17,9 @@
   "notes": "Popular weekend trail \u2014 arrive before 8am",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 50,
+  "score": 60,
   "score_label": "Use caution",
-  "gear_flags": [
-    "mask for sensitive groups"
-  ],
+  "gear_flags": [],
   "current": {
     "temp_f": 46,
     "feels_like_f": 40,
@@ -32,10 +30,10 @@
   "sunrise": "",
   "sunset": "",
   "aqi": {
-    "aqi": 63,
-    "category": "Moderate",
-    "pollutant": "PM2.5",
-    "source": "open-meteo"
+    "aqi": 37,
+    "category": "Good",
+    "pollutant": "PM10",
+    "source": "airnow"
   },
   "fire": {
     "risk_level": "low",
@@ -44,5 +42,5 @@
   },
   "river": null,
   "forecast": [],
-  "updated_at": "2026-04-28T22:45:15.847746+00:00"
+  "updated_at": "2026-04-28T23:04:18.374615+00:00"
 }
