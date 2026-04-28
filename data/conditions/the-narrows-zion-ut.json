@@ -23,14 +23,14 @@
     "mask for sensitive groups"
   ],
   "current": {
-    "temp_f": 47,
-    "feels_like_f": 40,
-    "wind_mph": 4,
-    "gusts_mph": 10,
+    "temp_f": 46,
+    "feels_like_f": 39,
+    "wind_mph": 5,
+    "gusts_mph": 11,
     "rain_pct": 1
   },
   "aqi": {
-    "aqi": 58,
+    "aqi": 54,
     "category": "Moderate",
     "pollutant": "O3",
     "source": "airnow"
@@ -41,7 +41,7 @@
     "fire_count_50km": 0
   },
   "river": {
-    "cfs": 8040,
+    "cfs": 7640,
     "stage": "flood"
   },
   "forecast": [
@@ -101,5 +101,5 @@
       "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-04-28T05:01:01.809354+00:00"
+  "updated_at": "2026-04-28T05:20:57.931334+00:00"
 }
