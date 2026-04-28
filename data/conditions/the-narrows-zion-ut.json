@@ -25,9 +25,9 @@
   ],
   "current": {
     "temp_f": 44,
-    "feels_like_f": 38,
-    "wind_mph": 3,
-    "gusts_mph": 6,
+    "feels_like_f": 37,
+    "wind_mph": 5,
+    "gusts_mph": 5,
     "rain_pct": 1
   },
   "aqi": {
@@ -42,7 +42,7 @@
     "fire_count_50km": 0
   },
   "river": {
-    "cfs": 7640,
+    "cfs": 7090,
     "stage": "flood"
   },
   "forecast": [
@@ -81,10 +81,10 @@
     },
     {
       "date": "2026-05-01",
-      "high_f": 68,
-      "low_f": 49,
+      "high_f": 64,
+      "low_f": 50,
       "rain_pct": 14,
-      "uv": 7,
+      "uv": 6,
       "sunrise": "2026-05-01T06:36",
       "sunset": "2026-05-01T20:21",
       "predicted_score": 78,
@@ -92,15 +92,15 @@
     },
     {
       "date": "2026-05-02",
-      "high_f": 72,
-      "low_f": 52,
+      "high_f": 71,
+      "low_f": 53,
       "rain_pct": 4,
-      "uv": 7,
+      "uv": 8,
       "sunrise": "2026-05-02T06:35",
       "sunset": "2026-05-02T20:22",
       "predicted_score": 90,
       "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-04-28T06:01:05.953391+00:00"
+  "updated_at": "2026-04-28T06:20:59.983264+00:00"
 }
