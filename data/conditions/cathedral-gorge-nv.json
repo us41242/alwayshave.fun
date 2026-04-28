@@ -17,20 +17,20 @@
   "notes": "Slot canyon walls narrow \u2014 avoid during rain/flash flood risk",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 70,
-  "score_label": "Good conditions",
-  "gear_flags": [
-    "insulation layer required"
-  ],
+  "score": 100,
+  "score_label": "Great day to go",
+  "gear_flags": [],
   "current": {
-    "temp_f": 38,
-    "feels_like_f": 32,
-    "wind_mph": 3,
-    "gusts_mph": 5,
+    "temp_f": 57,
+    "feels_like_f": 57,
+    "wind_mph": 2,
+    "gusts_mph": 4,
     "rain_pct": 0
   },
+  "sunrise": "2026-04-28T05:44",
+  "sunset": "2026-04-28T19:25",
   "aqi": {
-    "aqi": 42,
+    "aqi": 38,
     "category": "Good",
     "pollutant": "PM2.5",
     "source": "open-meteo"
@@ -44,9 +44,9 @@
   "forecast": [
     {
       "date": "2026-04-28",
-      "high_f": 64,
+      "high_f": 65,
       "low_f": 35,
-      "rain_pct": 3,
+      "rain_pct": 2,
       "uv": 8,
       "sunrise": "2026-04-28T05:44",
       "sunset": "2026-04-28T19:25",
@@ -56,7 +56,7 @@
     {
       "date": "2026-04-29",
       "high_f": 69,
-      "low_f": 42,
+      "low_f": 41,
       "rain_pct": 3,
       "uv": 8,
       "sunrise": "2026-04-29T05:43",
@@ -67,7 +67,7 @@
     {
       "date": "2026-04-30",
       "high_f": 68,
-      "low_f": 49,
+      "low_f": 48,
       "rain_pct": 8,
       "uv": 7,
       "sunrise": "2026-04-30T05:42",
@@ -78,9 +78,9 @@
     {
       "date": "2026-05-01",
       "high_f": 68,
-      "low_f": 48,
+      "low_f": 51,
       "rain_pct": 1,
-      "uv": 8,
+      "uv": 7,
       "sunrise": "2026-05-01T05:41",
       "sunset": "2026-05-01T19:28",
       "predicted_score": 100,
@@ -89,14 +89,14 @@
     {
       "date": "2026-05-02",
       "high_f": 72,
-      "low_f": 49,
+      "low_f": 48,
       "rain_pct": 0,
-      "uv": 7,
+      "uv": 8,
       "sunrise": "2026-05-02T05:40",
       "sunset": "2026-05-02T19:28",
       "predicted_score": 100,
       "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-04-28T10:02:42.973059+00:00"
+  "updated_at": "2026-04-28T18:35:00.716712+00:00"
 }

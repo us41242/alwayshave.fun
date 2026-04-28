@@ -17,22 +17,22 @@
   "notes": "Hoodoos narrow \u2014 ice possible May/Oct",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 60,
-  "score_label": "Use caution",
-  "gear_flags": [
-    "insulation layer required"
-  ],
+  "score": 88,
+  "score_label": "Great day to go",
+  "gear_flags": [],
   "current": {
-    "temp_f": 27,
-    "feels_like_f": 16,
-    "wind_mph": 14,
-    "gusts_mph": 18,
+    "temp_f": 48,
+    "feels_like_f": 42,
+    "wind_mph": 10,
+    "gusts_mph": 16,
     "rain_pct": 0
   },
+  "sunrise": "2026-04-28T06:36",
+  "sunset": "2026-04-28T20:16",
   "aqi": {
-    "aqi": 31,
+    "aqi": 36,
     "category": "Good",
-    "pollutant": "PM2.5",
+    "pollutant": "O3",
     "source": "airnow"
   },
   "fire": {
@@ -46,7 +46,7 @@
       "date": "2026-04-28",
       "high_f": 54,
       "low_f": 27,
-      "rain_pct": 2,
+      "rain_pct": 1,
       "uv": 8,
       "sunrise": "2026-04-28T06:36",
       "sunset": "2026-04-28T20:16",
@@ -55,8 +55,8 @@
     },
     {
       "date": "2026-04-29",
-      "high_f": 55,
-      "low_f": 35,
+      "high_f": 54,
+      "low_f": 34,
       "rain_pct": 5,
       "uv": 8,
       "sunrise": "2026-04-29T06:35",
@@ -66,9 +66,9 @@
     },
     {
       "date": "2026-04-30",
-      "high_f": 54,
-      "low_f": 37,
-      "rain_pct": 34,
+      "high_f": 53,
+      "low_f": 38,
+      "rain_pct": 32,
       "uv": 7,
       "sunrise": "2026-04-30T06:33",
       "sunset": "2026-04-30T20:17",
@@ -77,9 +77,9 @@
     },
     {
       "date": "2026-05-01",
-      "high_f": 51,
-      "low_f": 34,
-      "rain_pct": 20,
+      "high_f": 53,
+      "low_f": 36,
+      "rain_pct": 17,
       "uv": 7,
       "sunrise": "2026-05-01T06:32",
       "sunset": "2026-05-01T20:18",
@@ -98,5 +98,5 @@
       "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-04-28T10:04:49.946302+00:00"
+  "updated_at": "2026-04-28T18:36:53.579000+00:00"
 }

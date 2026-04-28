@@ -21,14 +21,16 @@
   "score_label": "Great day to go",
   "gear_flags": [],
   "current": {
-    "temp_f": 55,
-    "feels_like_f": 48,
-    "wind_mph": 6,
-    "gusts_mph": 11,
+    "temp_f": 70,
+    "feels_like_f": 71,
+    "wind_mph": 2,
+    "gusts_mph": 3,
     "rain_pct": 0
   },
+  "sunrise": "2026-04-28T05:47",
+  "sunset": "2026-04-28T19:23",
   "aqi": {
-    "aqi": 43,
+    "aqi": 29,
     "category": "Good",
     "pollutant": "PM2.5",
     "source": "open-meteo"
@@ -42,9 +44,9 @@
   "forecast": [
     {
       "date": "2026-04-28",
-      "high_f": 77,
-      "low_f": 53,
-      "rain_pct": 1,
+      "high_f": 76,
+      "low_f": 54,
+      "rain_pct": 0,
       "uv": 8,
       "sunrise": "2026-04-28T05:47",
       "sunset": "2026-04-28T19:23",
@@ -54,7 +56,7 @@
     {
       "date": "2026-04-29",
       "high_f": 82,
-      "low_f": 57,
+      "low_f": 56,
       "rain_pct": 1,
       "uv": 8,
       "sunrise": "2026-04-29T05:46",
@@ -64,8 +66,8 @@
     },
     {
       "date": "2026-04-30",
-      "high_f": 84,
-      "low_f": 60,
+      "high_f": 85,
+      "low_f": 59,
       "rain_pct": 2,
       "uv": 8,
       "sunrise": "2026-04-30T05:45",
@@ -75,19 +77,19 @@
     },
     {
       "date": "2026-05-01",
-      "high_f": 86,
+      "high_f": 85,
       "low_f": 61,
       "rain_pct": 1,
       "uv": 8,
       "sunrise": "2026-05-01T05:44",
       "sunset": "2026-05-01T19:26",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
+      "predicted_score": 88,
+      "score_label": "Great day to go"
     },
     {
       "date": "2026-05-02",
       "high_f": 87,
-      "low_f": 60,
+      "low_f": 58,
       "rain_pct": 0,
       "uv": 8,
       "sunrise": "2026-05-02T05:43",
@@ -96,5 +98,5 @@
       "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-04-28T10:02:41.152662+00:00"
+  "updated_at": "2026-04-28T18:34:59.095821+00:00"
 }

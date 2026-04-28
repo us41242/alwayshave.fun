@@ -17,20 +17,23 @@
   "notes": "Timed entry permit required May\u2013Oct \u2014 book Recreation.gov",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 60,
-  "score_label": "Use caution",
+  "score": 70,
+  "score_label": "Good conditions",
   "gear_flags": [
+    "wind layer recommended",
     "insulation layer required"
   ],
   "current": {
-    "temp_f": 32,
-    "feels_like_f": 25,
-    "wind_mph": 8,
-    "gusts_mph": 16,
-    "rain_pct": 35
+    "temp_f": 39,
+    "feels_like_f": 29,
+    "wind_mph": 14,
+    "gusts_mph": 23,
+    "rain_pct": 7
   },
+  "sunrise": "2026-04-28T06:12",
+  "sunset": "2026-04-28T19:59",
   "aqi": {
-    "aqi": 27,
+    "aqi": 44,
     "category": "Good",
     "pollutant": "O3",
     "source": "airnow"
@@ -44,9 +47,9 @@
   "forecast": [
     {
       "date": "2026-04-28",
-      "high_f": 45,
-      "low_f": 31,
-      "rain_pct": 35,
+      "high_f": 43,
+      "low_f": 30,
+      "rain_pct": 55,
       "uv": 8,
       "sunrise": "2026-04-28T06:12",
       "sunset": "2026-04-28T19:59",
@@ -57,7 +60,7 @@
       "date": "2026-04-29",
       "high_f": 54,
       "low_f": 33,
-      "rain_pct": 21,
+      "rain_pct": 15,
       "uv": 8,
       "sunrise": "2026-04-29T06:11",
       "sunset": "2026-04-29T20:00",
@@ -68,7 +71,7 @@
       "date": "2026-04-30",
       "high_f": 53,
       "low_f": 32,
-      "rain_pct": 61,
+      "rain_pct": 62,
       "uv": 8,
       "sunrise": "2026-04-30T06:10",
       "sunset": "2026-04-30T20:01",
@@ -77,9 +80,9 @@
     },
     {
       "date": "2026-05-01",
-      "high_f": 57,
-      "low_f": 32,
-      "rain_pct": 36,
+      "high_f": 55,
+      "low_f": 34,
+      "rain_pct": 35,
       "uv": 8,
       "sunrise": "2026-05-01T06:09",
       "sunset": "2026-05-01T20:02",
@@ -90,7 +93,7 @@
       "date": "2026-05-02",
       "high_f": 59,
       "low_f": 32,
-      "rain_pct": 11,
+      "rain_pct": 14,
       "uv": 8,
       "sunrise": "2026-05-02T06:07",
       "sunset": "2026-05-02T20:03",
@@ -98,5 +101,5 @@
       "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-04-28T10:06:59.422638+00:00"
+  "updated_at": "2026-04-28T18:39:03.815178+00:00"
 }
