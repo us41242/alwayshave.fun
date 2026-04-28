@@ -27,6 +27,31 @@ export default {
     const parts = url.pathname.replace(/^\//, '').split('/').filter(p => p.length > 0);
     const first = (parts[0] || '').toLowerCase();
 
+    // Legacy /trail.html?slug=foo-bar-ut → 301 to /{state}/{slug}
+    // (slug embeds the state suffix, so we map the suffix back to the state path)
+    if (url.pathname === '/trail.html' || url.pathname === '/trail') {
+      const slug = url.searchParams.get('slug');
+      if (slug) {
+        const m = slug.match(/-(nv|ut|az|co|ca|nm|gc-az)$/i);
+        // Special: Grand Canyon trails end in "-gc-az" — state is az
+        let state = '';
+        if (m) {
+          state = m[1].toLowerCase();
+          if (state === 'gc-az') state = 'az';
+        }
+        if (state) {
+          return Response.redirect(`${url.origin}/${state}/${slug}`, 301);
+        }
+      }
+    }
+
+    // /dog-friendly  →  serve dog-friendly landing page
+    if (parts.length === 1 && first === 'dog-friendly') {
+      const dfUrl = new URL('/generated/dog-friendly/index.html', url.origin);
+      const dfRes = await env.ASSETS.fetch(dfUrl);
+      if (dfRes.status === 200) return dfRes;
+    }
+
     // /states  →  serve states hub page
     if (parts.length === 1 && first === 'states') {
       return env.ASSETS.fetch(new URL('/states.html', url.origin));

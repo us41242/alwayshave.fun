@@ -284,6 +284,8 @@ def process_trail(trail):
         "score_label": score_label(score),
         "gear_flags":  gear_flags(weather, aqi_data, fire_data),
         "current":     current,
+        "sunrise":     (sunrise[0] if sunrise else ""),
+        "sunset":      (sunset[0]  if sunset  else ""),
         "aqi":         aqi_data,
         "fire":        {"risk_level": fire_data.get("risk_level", "unknown"),
                         "nearest_fire_km": fire_data.get("nearest_fire_km"),

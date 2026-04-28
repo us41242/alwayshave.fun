@@ -64,6 +64,11 @@ def build_meta(d):
     lat         = d.get("lat", 0)
     lng         = d.get("lng", 0)
     updated     = (d.get("updated_at") or "")[:10]
+    # Top-level sunrise/sunset (ISO datetime); fall back to first forecast entry.
+    sunrise_iso = d.get("sunrise") or ((d.get("forecast") or [{}])[0].get("sunrise", ""))
+    sunset_iso  = d.get("sunset")  or ((d.get("forecast") or [{}])[0].get("sunset",  ""))
+    sunrise_hm  = sunrise_iso[11:16] if sunrise_iso and len(sunrise_iso) >= 16 else ""
+    sunset_hm   = sunset_iso[11:16]  if sunset_iso  and len(sunset_iso)  >= 16 else ""
 
     page_url  = f"{BASE_URL}/{state_lc}/{slug}"
     photo_url = f"{BASE_URL}/photos/{slug}/{slug}.jpg"
@@ -85,6 +90,8 @@ def build_meta(d):
         parts.append("Dogs welcome.")
     elif dog == "No":
         parts.append("No dogs on trail.")
+    if sunrise_hm and sunset_hm:
+        parts.append(f"Sunrise {sunrise_hm}, sunset {sunset_hm}.")
     meta_desc = f"{alert_str}{' '.join(parts)} Live data updated every 30 min."
 
     # Page title
@@ -112,6 +119,10 @@ def build_meta(d):
         additional.append({"@type": "PropertyValue", "name": "Fire Risk", "value": fire["risk_level"].capitalize()})
     if dog in ("Yes", "No"):
         additional.append({"@type": "PropertyValue", "name": "Dog Friendly", "value": dog})
+    if sunrise_hm:
+        additional.append({"@type": "PropertyValue", "name": "Sunrise (local)", "value": sunrise_hm})
+    if sunset_hm:
+        additional.append({"@type": "PropertyValue", "name": "Sunset (local)",  "value": sunset_hm})
 
     # FAQPage — answers high-intent "is X trail safe/open/dog-friendly?" queries
     faq_pairs = []
@@ -161,25 +172,39 @@ def build_meta(d):
         ]
     }
 
+    # amenityFeature surfaces "dogs allowed" as a Schema.org-recognized facility flag —
+    # better for AI overviews & rich results than a bare additionalProperty.
+    amenity_features = []
+    if dog in ("Yes", "No"):
+        amenity_features.append({
+            "@type": "LocationFeatureSpecification",
+            "name": "Dogs allowed",
+            "value": dog == "Yes",
+        })
+
+    sports_loc = {
+        "@type": "SportsActivityLocation",
+        "@id": page_url,
+        "name": name,
+        "description": description.strip(),
+        "url": page_url,
+        "image": photo_url,
+        "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": float(lat),
+            "longitude": float(lng)
+        },
+        "containedInPlace": {"@type": "Park", "name": park},
+        "additionalProperty": additional,
+        "dateModified": updated
+    }
+    if amenity_features:
+        sports_loc["amenityFeature"] = amenity_features
+
     schema = {
         "@context": "https://schema.org",
         "@graph": [
-            {
-                "@type": "SportsActivityLocation",
-                "@id": page_url,
-                "name": name,
-                "description": description.strip(),
-                "url": page_url,
-                "image": photo_url,
-                "geo": {
-                    "@type": "GeoCoordinates",
-                    "latitude": float(lat),
-                    "longitude": float(lng)
-                },
-                "containedInPlace": {"@type": "Park", "name": park},
-                "additionalProperty": additional,
-                "dateModified": updated
-            },
+            sports_loc,
             {
                 "@type": "BreadcrumbList",
                 "itemListElement": [
