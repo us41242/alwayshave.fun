@@ -17,15 +17,17 @@
   "notes": "Free entry; busy weekends \u2014 arrive before 9am",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 60,
-  "score_label": "Use caution",
-  "gear_flags": [],
+  "score": 88,
+  "score_label": "Great day to go",
+  "gear_flags": [
+    "insulation layer required"
+  ],
   "current": {
-    "temp_f": 45,
-    "feels_like_f": 42,
-    "wind_mph": 3,
-    "gusts_mph": 6,
-    "rain_pct": 13
+    "temp_f": 41,
+    "feels_like_f": 37,
+    "wind_mph": 1,
+    "gusts_mph": 2,
+    "rain_pct": 15
   },
   "aqi": {
     "aqi": 31,
@@ -39,6 +41,62 @@
     "fire_count_50km": 0
   },
   "river": null,
-  "forecast": [],
-  "updated_at": "2026-04-28T04:46:34.731855+00:00"
+  "forecast": [
+    {
+      "date": "2026-04-27",
+      "high_f": 56,
+      "low_f": 41,
+      "rain_pct": 35,
+      "uv": 6,
+      "sunrise": "2026-04-27T06:06",
+      "sunset": "2026-04-27T19:47",
+      "predicted_score": 70,
+      "score_label": "Good conditions"
+    },
+    {
+      "date": "2026-04-28",
+      "high_f": 61,
+      "low_f": 35,
+      "rain_pct": 12,
+      "uv": 8,
+      "sunrise": "2026-04-28T06:04",
+      "sunset": "2026-04-28T19:48",
+      "predicted_score": 88,
+      "score_label": "Great day to go"
+    },
+    {
+      "date": "2026-04-29",
+      "high_f": 56,
+      "low_f": 34,
+      "rain_pct": 81,
+      "uv": 7,
+      "sunrise": "2026-04-29T06:03",
+      "sunset": "2026-04-29T19:49",
+      "predicted_score": 60,
+      "score_label": "Use caution"
+    },
+    {
+      "date": "2026-04-30",
+      "high_f": 42,
+      "low_f": 36,
+      "rain_pct": 97,
+      "uv": 1,
+      "sunrise": "2026-04-30T06:02",
+      "sunset": "2026-04-30T19:50",
+      "predicted_score": 60,
+      "score_label": "Use caution"
+    },
+    {
+      "date": "2026-05-01",
+      "high_f": 40,
+      "low_f": 35,
+      "rain_pct": 91,
+      "uv": 3,
+      "sunrise": "2026-05-01T06:01",
+      "sunset": "2026-05-01T19:51",
+      "predicted_score": 60,
+      "score_label": "Use caution"
+    }
+  ],
+  "updated_at": "2026-04-28T05:04:20.482632+00:00"
 }
