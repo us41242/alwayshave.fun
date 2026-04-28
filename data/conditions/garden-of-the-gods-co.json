@@ -17,21 +17,21 @@
   "notes": "Free entry; busy weekends \u2014 arrive before 9am",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 88,
-  "score_label": "Great day to go",
+  "score": 58,
+  "score_label": "Use caution",
   "gear_flags": [],
   "current": {
     "temp_f": 45,
     "feels_like_f": 41,
     "wind_mph": 4,
-    "gusts_mph": 8,
-    "rain_pct": 26
+    "gusts_mph": 5,
+    "rain_pct": 24
   },
   "aqi": {
-    "aqi": 34,
-    "category": "Good",
-    "pollutant": "PM2.5",
-    "source": "airnow"
+    "aqi": null,
+    "category": "Unknown",
+    "pollutant": "",
+    "source": "none"
   },
   "fire": {
     "risk_level": "low",
@@ -48,8 +48,8 @@
       "uv": 6,
       "sunrise": "2026-04-27T06:06",
       "sunset": "2026-04-27T19:47",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
+      "predicted_score": 40,
+      "score_label": "Conditions poor"
     },
     {
       "date": "2026-04-28",
@@ -59,8 +59,8 @@
       "uv": 8,
       "sunrise": "2026-04-28T06:04",
       "sunset": "2026-04-28T19:48",
-      "predicted_score": 88,
-      "score_label": "Great day to go"
+      "predicted_score": 58,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-04-29",
@@ -70,8 +70,8 @@
       "uv": 7,
       "sunrise": "2026-04-29T06:03",
       "sunset": "2026-04-29T19:49",
-      "predicted_score": 60,
-      "score_label": "Use caution"
+      "predicted_score": 30,
+      "score_label": "Conditions poor"
     },
     {
       "date": "2026-04-30",
@@ -81,8 +81,8 @@
       "uv": 1,
       "sunrise": "2026-04-30T06:02",
       "sunset": "2026-04-30T19:50",
-      "predicted_score": 60,
-      "score_label": "Use caution"
+      "predicted_score": 30,
+      "score_label": "Conditions poor"
     },
     {
       "date": "2026-05-01",
@@ -92,9 +92,9 @@
       "uv": 3,
       "sunrise": "2026-05-01T06:01",
       "sunset": "2026-05-01T19:51",
-      "predicted_score": 60,
-      "score_label": "Use caution"
+      "predicted_score": 30,
+      "score_label": "Conditions poor"
     }
   ],
-  "updated_at": "2026-04-28T02:48:40.049608+00:00"
+  "updated_at": "2026-04-28T03:18:18.270986+00:00"
 }

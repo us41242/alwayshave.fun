@@ -17,24 +17,24 @@
   "notes": "Multi-day backpack; no established campsites \u2014 LNT",
   "dog_friendly": "Yes",
   "vehicle_req": "AWD",
-  "score": 78,
-  "score_label": "Good conditions",
+  "score": 60,
+  "score_label": "Use caution",
   "gear_flags": [
     "insulation layer required",
     "mask for sensitive groups"
   ],
   "current": {
-    "temp_f": 40,
+    "temp_f": 39,
     "feels_like_f": 32,
-    "wind_mph": 5,
-    "gusts_mph": 16,
-    "rain_pct": 4
+    "wind_mph": 4,
+    "gusts_mph": 18,
+    "rain_pct": 5
   },
   "aqi": {
-    "aqi": 58,
+    "aqi": 89,
     "category": "Moderate",
-    "pollutant": "O3",
-    "source": "airnow"
+    "pollutant": "PM2.5",
+    "source": "open-meteo"
   },
   "fire": {
     "risk_level": "low",
@@ -99,5 +99,5 @@
       "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-04-28T02:46:31.125910+00:00"
+  "updated_at": "2026-04-28T03:15:51.053559+00:00"
 }
