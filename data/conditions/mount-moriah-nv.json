@@ -43,19 +43,8 @@
   "river": null,
   "forecast": [
     {
-      "date": "2026-04-27",
-      "high_f": 25,
-      "low_f": 15,
-      "rain_pct": 53,
-      "uv": 3,
-      "sunrise": "2026-04-27T05:42",
-      "sunset": "2026-04-27T19:26",
-      "predicted_score": 60,
-      "score_label": "Use caution"
-    },
-    {
       "date": "2026-04-28",
-      "high_f": 29,
+      "high_f": 30,
       "low_f": 13,
       "rain_pct": 4,
       "uv": 8,
@@ -96,7 +85,18 @@
       "sunset": "2026-05-01T19:29",
       "predicted_score": 88,
       "score_label": "Great day to go"
+    },
+    {
+      "date": "2026-05-02",
+      "high_f": 47,
+      "low_f": 29,
+      "rain_pct": 3,
+      "uv": 8,
+      "sunrise": "2026-05-02T05:36",
+      "sunset": "2026-05-02T19:30",
+      "predicted_score": 88,
+      "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-04-28T06:45:27.722169+00:00"
+  "updated_at": "2026-04-28T07:06:38.029402+00:00"
 }
