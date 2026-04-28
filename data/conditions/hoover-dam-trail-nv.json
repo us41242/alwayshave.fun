@@ -23,10 +23,10 @@
     "mask for sensitive groups"
   ],
   "current": {
-    "temp_f": 77,
-    "feels_like_f": 74,
-    "wind_mph": 8,
-    "gusts_mph": 7,
+    "temp_f": 79,
+    "feels_like_f": 76,
+    "wind_mph": 7,
+    "gusts_mph": 6,
     "rain_pct": 0
   },
   "sunrise": "2026-04-28T05:49",
@@ -46,7 +46,7 @@
   "forecast": [
     {
       "date": "2026-04-28",
-      "high_f": 81,
+      "high_f": 80,
       "low_f": 56,
       "rain_pct": 0,
       "uv": 8,
@@ -100,5 +100,5 @@
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-04-28T20:25:28.157892+00:00"
+  "updated_at": "2026-04-28T20:45:28.252525+00:00"
 }
