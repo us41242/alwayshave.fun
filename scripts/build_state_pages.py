@@ -16,6 +16,50 @@ BASE_URL = "https://alwayshave.fun"
 DATA_DIR = "data/conditions"
 OUT_DIR  = "generated"
 
+STATE_FAQS = {
+    "NV": [
+        ("What's the best time of year to hike near Las Vegas?",
+         "October through April is the sweet spot — daytime temps are 60–80°F at Red Rock Canyon and Valley of Fire. Summer (June–September) sees regular 100°F+ days at low elevation; switch to Mt. Charleston or the Spring Mountains for cooler high-country hiking July–September."),
+        ("Are there dog-friendly trails near Las Vegas?",
+         "Yes. Red Rock Canyon, Lake Mead NRA, and most BLM land in southern Nevada permit leashed dogs. See the dog-friendly trails list filtered by Nevada."),
+        ("What is a 'great today' score?",
+         "It's a 1-100 score combining temperature, AQI, wind, fire risk, and forecast. 85+ is great, 50–70 is caution, below 30 is poor. Updated every 30 minutes."),
+    ],
+    "UT": [
+        ("Do I need a permit for Angels Landing?",
+         "Yes. Since 2022, Zion National Park requires a timed-entry permit for the chains section of Angels Landing. Apply via Recreation.gov — seasonal and day-before lotteries available."),
+        ("When is the best time to hike in Utah's canyon country?",
+         "April–June and September–October are ideal across Zion, Bryce, and Snow Canyon. Higher-elevation Bryce stays cool through summer; lower Zion gets dangerously hot June–August."),
+        ("Are dogs allowed on Zion trails?",
+         "No, dogs are banned on every Zion backcountry trail except the Pa'rus Trail. Most Utah national parks have similar restrictions — state parks like Snow Canyon are more dog-friendly."),
+    ],
+    "AZ": [
+        ("When should I avoid the Grand Canyon?",
+         "Avoid hiking inner-canyon trails (Bright Angel, South Kaibab) June–August between 10am and 4pm — temperatures at the river regularly exceed 110°F and rangers do dozens of heat rescues per summer."),
+        ("Is Havasupai open to day hikers?",
+         "No. Havasupai requires a multi-night reservation through the tribal office. Permits sell out within minutes of release each February."),
+        ("Are dogs allowed in the Grand Canyon?",
+         "Only on rim trails above the canyon edge. No dogs are permitted on inner-canyon trails. Service animals require special arrangement with rangers."),
+    ],
+    "CO": [
+        ("Do Colorado 14ers require permits?",
+         "Most don't, but Maroon Bells Scenic Loop has timed-entry shuttle requirements June–October, and Hanging Lake requires a paid timed-entry permit. Always check trailhead before driving up."),
+        ("When is afternoon thunderstorm season in Colorado?",
+         "Mid-June through mid-September. Plan to be off summit ridges by 11am-noon. Lightning strikes have killed hikers on every major Colorado peak — start at sunrise or earlier."),
+        ("How do I avoid altitude sickness?",
+         "Sleep at moderate elevation (Denver/Boulder) for 1–2 nights before attempting anything above 12,000 ft. Hydrate, descend if symptoms worsen, and consider a slow ramp up."),
+    ],
+    "CA": [
+        ("Do I need a permit for Half Dome?",
+         "Yes. The cables route requires a daily permit awarded by lottery — apply in March via Recreation.gov for the May–October season. Day-before lottery also exists."),
+        ("Is Mount Whitney a permit hike?",
+         "Yes. The day-hike and overnight permits are awarded by lottery in February for the May–November season. Walk-up permits are extremely limited."),
+        ("Can I bring my dog to Yosemite trails?",
+         "No. Dogs are banned from every Yosemite backcountry trail. Only paved roads and select bike paths permit leashed dogs."),
+    ],
+}
+
+
 STATE_META = {
     "NV": {
         "name":    "Nevada",
@@ -139,31 +183,55 @@ def build_state_page(state, trails, meta):
             "name": t.get("name", ""),
         })
 
-    schema = {
-        "@context": "https://schema.org",
-        "@graph": [
+    faq_pairs = STATE_FAQS.get(state, [])
+    faq_schema = {
+        "@type": "FAQPage",
+        "mainEntity": [
             {
-                "@type": "CollectionPage",
-                "@id": page_url,
-                "name": meta["title"],
-                "description": meta["desc"],
-                "url": page_url,
-            },
-            {
-                "@type": "BreadcrumbList",
-                "itemListElement": [
-                    {"@type": "ListItem", "position": 1, "name": "Home", "item": BASE_URL},
-                    {"@type": "ListItem", "position": 2, "name": meta["name"], "item": page_url},
-                ]
-            },
-            {
-                "@type": "ItemList",
-                "name": f"{meta['name']} Trails",
-                "numberOfItems": len(trails),
-                "itemListElement": schema_items,
+                "@type": "Question",
+                "name": q,
+                "acceptedAnswer": {"@type": "Answer", "text": a},
             }
-        ]
-    }
+            for q, a in faq_pairs
+        ],
+    } if faq_pairs else None
+
+    graph = [
+        {
+            "@type": "CollectionPage",
+            "@id": page_url,
+            "name": meta["title"],
+            "description": meta["desc"],
+            "url": page_url,
+        },
+        {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {"@type": "ListItem", "position": 1, "name": "Home", "item": BASE_URL},
+                {"@type": "ListItem", "position": 2, "name": meta["name"], "item": page_url},
+            ],
+        },
+        {
+            "@type": "ItemList",
+            "name": f"{meta['name']} Trails",
+            "numberOfItems": len(trails),
+            "itemListElement": schema_items,
+        },
+    ]
+    if faq_schema:
+        graph.append(faq_schema)
+
+    schema = {"@context": "https://schema.org", "@graph": graph}
+
+    faq_html = ""
+    if faq_pairs:
+        rows = "\n".join(
+            f'<details style="border-top:1px solid #30363d;padding:14px 0"><summary style="cursor:pointer;font-weight:600;color:#e6edf3;list-style:none">{q}</summary><p style="margin-top:8px;color:#8b949e;line-height:1.7">{a}</p></details>'
+            for q, a in faq_pairs
+        )
+        faq_html = f'''
+    <div class="section-title">Frequently Asked — {meta["name"]} Hiking</div>
+    <div style="padding-bottom:32px">{rows}</div>'''
 
     return f'''<!DOCTYPE html>
 <html lang="en">
@@ -244,14 +312,15 @@ def build_state_page(state, trails, meta):
     <div class="trail-list">
       {trail_rows}
     </div>
-
+{faq_html}
     <footer>
       <a href="/">← All Trails</a> &nbsp;·&nbsp;
       <a href="/nv">Nevada</a> &nbsp;·&nbsp;
       <a href="/ut">Utah</a> &nbsp;·&nbsp;
       <a href="/az">Arizona</a> &nbsp;·&nbsp;
       <a href="/co">Colorado</a> &nbsp;·&nbsp;
-      <a href="/ca">California</a><br>
+      <a href="/ca">California</a> &nbsp;·&nbsp;
+      <a href="/dog-friendly">🐕 Dog-Friendly</a><br>
       Weather via <a href="https://open-meteo.com" target="_blank" rel="noopener">Open-Meteo</a> &nbsp;·&nbsp;
       AQI via <a href="https://www.airnow.gov" target="_blank" rel="noopener">AirNow</a><br>
       Conditions updated every 30 minutes &nbsp;·&nbsp; <a href="/">alwayshave.fun</a>
