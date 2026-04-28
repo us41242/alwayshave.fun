@@ -230,6 +230,8 @@ def process_trail(trail):
 
     current  = existing.get("current", {})  # preserve last-known data on failure
     forecast = []  # always rebuild forecast fresh — never accumulate across runs
+    sunrise  = []
+    sunset   = []
 
     if weather:
         c = weather.get("current", {})
