@@ -520,6 +520,7 @@
     .card-conditions { display: contents; }
     .score-label-text { font-weight: 600; font-size: 0.72rem; }
     .card-sep { opacity: 0.35; }
+    .card-dog { color: #16a34a; font-weight: 600; font-size: 0.85em; }
     .card-conditions-loading { height: 12px; background: var(--surface2); border-radius: 4px; width: 60px; animation: pulse 1.5s ease-in-out infinite; }
 
     .diff-easy     { color: #22c55e; }
@@ -613,6 +614,7 @@
       <button class="filter-btn" data-filter="AZ">Arizona</button>
       <button class="filter-btn" data-filter="easy">Easy</button>
       <button class="filter-btn" data-filter="hard">Hard+</button>
+      <button class="filter-btn" data-filter="dog">🐕 Dog Friendly</button>
       <div class="search-wrap">
         <span class="search-icon">🔍</span>
         <input type="search" class="search-input" id="search-input" placeholder="Search trails…">
@@ -881,6 +883,8 @@
           trails = trails.filter(t => (t.difficulty||'').toLowerCase() === 'easy');
         } else if (activeFilter === 'hard') {
           trails = trails.filter(t => ['hard','expert'].includes((t.difficulty||'').toLowerCase()));
+        } else if (activeFilter === 'dog') {
+          trails = trails.filter(t => (t.dog_friendly || '').toLowerCase() === 'yes');
         }
       }
       if (searchQuery) {
@@ -948,6 +952,7 @@
             <span>${t.length_mi} mi</span>
             <span class="card-sep">·</span>
             <span>${t.state}</span>
+            ${(t.dog_friendly || '').toLowerCase() === 'yes' ? '<span class="card-sep">·</span><span class="card-dog" title="Dogs welcome on this trail">🐕 Dogs OK</span>' : ''}
             <span class="card-sep">·</span>
             <div class="card-conditions">${condLine}</div>
           </div>
