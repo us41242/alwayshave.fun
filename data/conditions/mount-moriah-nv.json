@@ -44,7 +44,7 @@
   "forecast": [
     {
       "date": "2026-04-28",
-      "high_f": 30,
+      "high_f": 31,
       "low_f": 13,
       "rain_pct": 3,
       "uv": 8,
@@ -55,14 +55,14 @@
     },
     {
       "date": "2026-04-29",
-      "high_f": 34,
+      "high_f": 35,
       "low_f": 18,
       "rain_pct": 26,
       "uv": 8,
       "sunrise": "2026-04-29T05:40",
       "sunset": "2026-04-29T19:27",
-      "predicted_score": 60,
-      "score_label": "Use caution"
+      "predicted_score": 70,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-04-30",
@@ -98,5 +98,5 @@
       "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-04-28T07:45:29.214652+00:00"
+  "updated_at": "2026-04-28T08:07:58.764198+00:00"
 }
