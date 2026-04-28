@@ -17,12 +17,9 @@
   "notes": "Coastal trail with beach access; busy weekends \u2014 reserve parking",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 76,
+  "score": 70,
   "score_label": "Good conditions",
-  "gear_flags": [
-    "mask for sensitive groups",
-    "N95 mask recommended for wildfire smoke"
-  ],
+  "gear_flags": [],
   "current": {
     "temp_f": 63,
     "feels_like_f": 58,
@@ -31,15 +28,15 @@
     "rain_pct": 0
   },
   "aqi": {
-    "aqi": 69,
-    "category": "Moderate",
-    "pollutant": "PM2.5",
-    "source": "open-meteo"
+    "aqi": null,
+    "category": "Unknown",
+    "pollutant": "",
+    "source": "none"
   },
   "fire": {
-    "risk_level": "elevated",
-    "nearest_fire_km": 22.2,
-    "fire_count_50km": 1
+    "risk_level": "low",
+    "nearest_fire_km": null,
+    "fire_count_50km": 0
   },
   "river": null,
   "forecast": [
@@ -51,7 +48,7 @@
       "uv": 8,
       "sunrise": "2026-04-27T06:06",
       "sunset": "2026-04-27T19:31",
-      "predicted_score": 76,
+      "predicted_score": 70,
       "score_label": "Good conditions"
     },
     {
@@ -62,7 +59,7 @@
       "uv": 8,
       "sunrise": "2026-04-28T06:05",
       "sunset": "2026-04-28T19:32",
-      "predicted_score": 76,
+      "predicted_score": 70,
       "score_label": "Good conditions"
     },
     {
@@ -73,7 +70,7 @@
       "uv": 8,
       "sunrise": "2026-04-29T06:04",
       "sunset": "2026-04-29T19:32",
-      "predicted_score": 76,
+      "predicted_score": 70,
       "score_label": "Good conditions"
     },
     {
@@ -84,7 +81,7 @@
       "uv": 8,
       "sunrise": "2026-04-30T06:03",
       "sunset": "2026-04-30T19:33",
-      "predicted_score": 76,
+      "predicted_score": 70,
       "score_label": "Good conditions"
     },
     {
@@ -95,9 +92,9 @@
       "uv": 8,
       "sunrise": "2026-05-01T06:02",
       "sunset": "2026-05-01T19:34",
-      "predicted_score": 76,
+      "predicted_score": 70,
       "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-04-27T23:50:11.587131+00:00"
+  "updated_at": "2026-04-28T00:10:53.538702+00:00"
 }
