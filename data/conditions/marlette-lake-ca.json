@@ -17,23 +17,23 @@
   "notes": "No cars beyond Spooner Summit; bike-legal trail",
   "dog_friendly": "Yes",
   "vehicle_req": "AWD",
-  "score": 88,
-  "score_label": "Great day to go",
+  "score": 58,
+  "score_label": "Use caution",
   "gear_flags": [],
   "current": {
     "temp_f": 46,
-    "feels_like_f": 39,
-    "wind_mph": 7,
-    "gusts_mph": 7,
-    "rain_pct": 12
+    "feels_like_f": 40,
+    "wind_mph": 4,
+    "gusts_mph": 4,
+    "rain_pct": 11
   },
   "sunrise": "2026-04-28T06:04",
   "sunset": "2026-04-28T19:49",
   "aqi": {
-    "aqi": 44,
-    "category": "Good",
-    "pollutant": "O3",
-    "source": "airnow"
+    "aqi": null,
+    "category": "Unknown",
+    "pollutant": "",
+    "source": "none"
   },
   "fire": {
     "risk_level": "low",
@@ -50,8 +50,8 @@
       "uv": 8,
       "sunrise": "2026-04-28T06:04",
       "sunset": "2026-04-28T19:49",
-      "predicted_score": 88,
-      "score_label": "Great day to go"
+      "predicted_score": 58,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-04-29",
@@ -61,8 +61,8 @@
       "uv": 8,
       "sunrise": "2026-04-29T06:03",
       "sunset": "2026-04-29T19:50",
-      "predicted_score": 100,
-      "score_label": "Great day to go"
+      "predicted_score": 70,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-04-30",
@@ -72,8 +72,8 @@
       "uv": 8,
       "sunrise": "2026-04-30T06:01",
       "sunset": "2026-04-30T19:51",
-      "predicted_score": 100,
-      "score_label": "Great day to go"
+      "predicted_score": 70,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-05-01",
@@ -83,8 +83,8 @@
       "uv": 8,
       "sunrise": "2026-05-01T06:00",
       "sunset": "2026-05-01T19:52",
-      "predicted_score": 100,
-      "score_label": "Great day to go"
+      "predicted_score": 70,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-05-02",
@@ -94,9 +94,9 @@
       "uv": 8,
       "sunrise": "2026-05-02T05:59",
       "sunset": "2026-05-02T19:53",
-      "predicted_score": 88,
-      "score_label": "Great day to go"
+      "predicted_score": 58,
+      "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-04-28T22:27:41.380569+00:00"
+  "updated_at": "2026-04-28T22:50:32.504265+00:00"
 }
