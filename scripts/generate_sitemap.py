@@ -83,6 +83,9 @@ def generate_sitemap(trails):
     # Great today page
     urls.append({"loc": f"{BASE_URL}/great-today", "lastmod": today})
 
+    # Dog-friendly landing page
+    urls.append({"loc": f"{BASE_URL}/dog-friendly", "lastmod": today})
+
     # Build XML
     lines = ['<?xml version="1.0" encoding="UTF-8"?>']
     lines.append('<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">')

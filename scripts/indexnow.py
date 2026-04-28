@@ -23,7 +23,7 @@ STATES = ["nv", "ut", "az", "co", "ca"]
 
 
 def collect_urls():
-    urls = [BASE_URL + "/"]
+    urls = [BASE_URL + "/", f"{BASE_URL}/dog-friendly"]
     for state in STATES:
         urls.append(f"{BASE_URL}/{state}")
 

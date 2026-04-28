@@ -44,6 +44,7 @@ jobs:
           python3 scripts/generate_sitemap.py
           python3 scripts/build_static.py
           python3 scripts/build_state_pages.py
+          python3 scripts/build_dog_friendly.py
           python3 scripts/build_articles_index.py
           python3 scripts/indexnow.py
         env:
