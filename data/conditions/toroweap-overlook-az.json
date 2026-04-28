@@ -17,16 +17,16 @@
   "notes": "60 miles of dirt road \u2014 high clearance required",
   "dog_friendly": "No",
   "vehicle_req": "High-Clearance",
-  "score": 50,
-  "score_label": "Use caution",
+  "score": 78,
+  "score_label": "Good conditions",
   "gear_flags": [
     "mask for sensitive groups"
   ],
   "current": {
-    "temp_f": 51,
+    "temp_f": 50,
     "feels_like_f": 43,
-    "wind_mph": 5,
-    "gusts_mph": 8,
+    "wind_mph": 1,
+    "gusts_mph": 5,
     "rain_pct": 0
   },
   "aqi": {
@@ -41,6 +41,62 @@
     "fire_count_50km": 0
   },
   "river": null,
-  "forecast": [],
-  "updated_at": "2026-04-28T06:26:52.740708+00:00"
+  "forecast": [
+    {
+      "date": "2026-04-27",
+      "high_f": 71,
+      "low_f": 44,
+      "rain_pct": 2,
+      "uv": 8,
+      "sunrise": "2026-04-27T05:41",
+      "sunset": "2026-04-27T19:14",
+      "predicted_score": 90,
+      "score_label": "Great day to go"
+    },
+    {
+      "date": "2026-04-28",
+      "high_f": 73,
+      "low_f": 44,
+      "rain_pct": 3,
+      "uv": 8,
+      "sunrise": "2026-04-28T05:40",
+      "sunset": "2026-04-28T19:15",
+      "predicted_score": 90,
+      "score_label": "Great day to go"
+    },
+    {
+      "date": "2026-04-29",
+      "high_f": 76,
+      "low_f": 49,
+      "rain_pct": 2,
+      "uv": 8,
+      "sunrise": "2026-04-29T05:39",
+      "sunset": "2026-04-29T19:16",
+      "predicted_score": 78,
+      "score_label": "Good conditions"
+    },
+    {
+      "date": "2026-04-30",
+      "high_f": 73,
+      "low_f": 55,
+      "rain_pct": 20,
+      "uv": 8,
+      "sunrise": "2026-04-30T05:38",
+      "sunset": "2026-04-30T19:17",
+      "predicted_score": 78,
+      "score_label": "Good conditions"
+    },
+    {
+      "date": "2026-05-01",
+      "high_f": 73,
+      "low_f": 53,
+      "rain_pct": 11,
+      "uv": 8,
+      "sunrise": "2026-05-01T05:37",
+      "sunset": "2026-05-01T19:18",
+      "predicted_score": 78,
+      "score_label": "Good conditions"
+    }
+  ],
+  "updated_at": "2026-04-28T06:45:26.013842+00:00"
 }
