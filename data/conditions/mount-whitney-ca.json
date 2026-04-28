@@ -41,8 +41,8 @@
     "fire_count_50km": 0
   },
   "river": {
-    "cfs": 102,
-    "stage": "normal"
+    "cfs": 100,
+    "stage": "low"
   },
   "forecast": [
     {
@@ -101,5 +101,5 @@
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-04-28T03:48:21.559293+00:00"
+  "updated_at": "2026-04-28T04:06:38.895530+00:00"
 }

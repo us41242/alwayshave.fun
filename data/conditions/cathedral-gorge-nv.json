@@ -17,20 +17,21 @@
   "notes": "Slot canyon walls narrow \u2014 avoid during rain/flash flood risk",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 50,
-  "score_label": "Use caution",
+  "score": 78,
+  "score_label": "Good conditions",
   "gear_flags": [
+    "insulation layer required",
     "mask for sensitive groups"
   ],
   "current": {
     "temp_f": 45,
     "feels_like_f": 40,
-    "wind_mph": 5,
+    "wind_mph": 4,
     "gusts_mph": 5,
-    "rain_pct": 8
+    "rain_pct": 2
   },
   "aqi": {
-    "aqi": 74,
+    "aqi": 69,
     "category": "Moderate",
     "pollutant": "PM2.5",
     "source": "open-meteo"
@@ -41,6 +42,62 @@
     "fire_count_50km": 0
   },
   "river": null,
-  "forecast": [],
-  "updated_at": "2026-04-28T03:43:33.510644+00:00"
+  "forecast": [
+    {
+      "date": "2026-04-27",
+      "high_f": 59,
+      "low_f": 42,
+      "rain_pct": 27,
+      "uv": 8,
+      "sunrise": "2026-04-27T05:45",
+      "sunset": "2026-04-27T19:24",
+      "predicted_score": 78,
+      "score_label": "Good conditions"
+    },
+    {
+      "date": "2026-04-28",
+      "high_f": 64,
+      "low_f": 35,
+      "rain_pct": 3,
+      "uv": 8,
+      "sunrise": "2026-04-28T05:44",
+      "sunset": "2026-04-28T19:25",
+      "predicted_score": 90,
+      "score_label": "Great day to go"
+    },
+    {
+      "date": "2026-04-29",
+      "high_f": 68,
+      "low_f": 42,
+      "rain_pct": 2,
+      "uv": 8,
+      "sunrise": "2026-04-29T05:43",
+      "sunset": "2026-04-29T19:26",
+      "predicted_score": 90,
+      "score_label": "Great day to go"
+    },
+    {
+      "date": "2026-04-30",
+      "high_f": 67,
+      "low_f": 49,
+      "rain_pct": 8,
+      "uv": 7,
+      "sunrise": "2026-04-30T05:42",
+      "sunset": "2026-04-30T19:27",
+      "predicted_score": 90,
+      "score_label": "Great day to go"
+    },
+    {
+      "date": "2026-05-01",
+      "high_f": 69,
+      "low_f": 50,
+      "rain_pct": 1,
+      "uv": 8,
+      "sunrise": "2026-05-01T05:41",
+      "sunset": "2026-05-01T19:28",
+      "predicted_score": 90,
+      "score_label": "Great day to go"
+    }
+  ],
+  "updated_at": "2026-04-28T04:02:09.188881+00:00"
 }
