@@ -17,8 +17,8 @@
   "notes": "Flash flood danger \u2014 check weather 24hr upstream",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 100,
-  "score_label": "Great day to go",
+  "score": 60,
+  "score_label": "Use caution",
   "gear_flags": [],
   "current": {
     "temp_f": 53,
@@ -27,8 +27,8 @@
     "gusts_mph": 7,
     "rain_pct": 0
   },
-  "sunrise": "2026-04-28T06:39",
-  "sunset": "2026-04-28T20:18",
+  "sunrise": "",
+  "sunset": "",
   "aqi": {
     "aqi": 43,
     "category": "Good",
@@ -44,62 +44,6 @@
     "cfs": 7150,
     "stage": "flood"
   },
-  "forecast": [
-    {
-      "date": "2026-04-28",
-      "high_f": 59,
-      "low_f": 33,
-      "rain_pct": 1,
-      "uv": 8,
-      "sunrise": "2026-04-28T06:39",
-      "sunset": "2026-04-28T20:18",
-      "predicted_score": 100,
-      "score_label": "Great day to go"
-    },
-    {
-      "date": "2026-04-29",
-      "high_f": 62,
-      "low_f": 38,
-      "rain_pct": 2,
-      "uv": 8,
-      "sunrise": "2026-04-29T06:38",
-      "sunset": "2026-04-29T20:19",
-      "predicted_score": 100,
-      "score_label": "Great day to go"
-    },
-    {
-      "date": "2026-04-30",
-      "high_f": 60,
-      "low_f": 43,
-      "rain_pct": 29,
-      "uv": 8,
-      "sunrise": "2026-04-30T06:37",
-      "sunset": "2026-04-30T20:20",
-      "predicted_score": 88,
-      "score_label": "Great day to go"
-    },
-    {
-      "date": "2026-05-01",
-      "high_f": 58,
-      "low_f": 43,
-      "rain_pct": 15,
-      "uv": 6,
-      "sunrise": "2026-05-01T06:36",
-      "sunset": "2026-05-01T20:21",
-      "predicted_score": 88,
-      "score_label": "Great day to go"
-    },
-    {
-      "date": "2026-05-02",
-      "high_f": 63,
-      "low_f": 44,
-      "rain_pct": 7,
-      "uv": 8,
-      "sunrise": "2026-05-02T06:34",
-      "sunset": "2026-05-02T20:22",
-      "predicted_score": 100,
-      "score_label": "Great day to go"
-    }
-  ],
-  "updated_at": "2026-04-28T18:44:41.634376+00:00"
+  "forecast": [],
+  "updated_at": "2026-04-28T19:05:07.812496+00:00"
 }
