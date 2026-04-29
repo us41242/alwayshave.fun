@@ -26,8 +26,8 @@
   "current": {
     "temp_f": 28,
     "feels_like_f": 20,
-    "wind_mph": 6,
-    "gusts_mph": 15,
+    "wind_mph": 4,
+    "gusts_mph": 12,
     "rain_pct": 0
   },
   "sunrise": "2026-04-28T06:18",
@@ -59,7 +59,7 @@
     {
       "date": "2026-04-29",
       "high_f": 36,
-      "low_f": 19,
+      "low_f": 20,
       "rain_pct": 14,
       "uv": 8,
       "sunrise": "2026-04-29T06:17",
@@ -101,5 +101,5 @@
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-04-29T00:28:32.049174+00:00"
+  "updated_at": "2026-04-29T00:47:10.791722+00:00"
 }
