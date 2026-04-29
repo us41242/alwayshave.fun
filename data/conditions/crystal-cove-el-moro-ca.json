@@ -17,18 +17,18 @@
   "notes": "Coastal trail with beach access; busy weekends \u2014 reserve parking",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 30,
-  "score_label": "Conditions poor",
+  "score": 70,
+  "score_label": "Good conditions",
   "gear_flags": [],
   "current": {
-    "temp_f": 65,
+    "temp_f": 64,
     "feels_like_f": 60,
-    "wind_mph": 11,
+    "wind_mph": 10,
     "gusts_mph": 12,
     "rain_pct": 0
   },
-  "sunrise": "",
-  "sunset": "",
+  "sunrise": "2026-04-28T06:05",
+  "sunset": "2026-04-28T19:32",
   "aqi": {
     "aqi": null,
     "category": "Unknown",
@@ -41,6 +41,62 @@
     "fire_count_50km": 0
   },
   "river": null,
-  "forecast": [],
-  "updated_at": "2026-04-29T00:49:09.275479+00:00"
+  "forecast": [
+    {
+      "date": "2026-04-28",
+      "high_f": 67,
+      "low_f": 52,
+      "rain_pct": 0,
+      "uv": 8,
+      "sunrise": "2026-04-28T06:05",
+      "sunset": "2026-04-28T19:32",
+      "predicted_score": 70,
+      "score_label": "Good conditions"
+    },
+    {
+      "date": "2026-04-29",
+      "high_f": 66,
+      "low_f": 52,
+      "rain_pct": 1,
+      "uv": 8,
+      "sunrise": "2026-04-29T06:04",
+      "sunset": "2026-04-29T19:32",
+      "predicted_score": 70,
+      "score_label": "Good conditions"
+    },
+    {
+      "date": "2026-04-30",
+      "high_f": 70,
+      "low_f": 56,
+      "rain_pct": 3,
+      "uv": 8,
+      "sunrise": "2026-04-30T06:03",
+      "sunset": "2026-04-30T19:33",
+      "predicted_score": 70,
+      "score_label": "Good conditions"
+    },
+    {
+      "date": "2026-05-01",
+      "high_f": 72,
+      "low_f": 62,
+      "rain_pct": 1,
+      "uv": 8,
+      "sunrise": "2026-05-01T06:02",
+      "sunset": "2026-05-01T19:34",
+      "predicted_score": 70,
+      "score_label": "Good conditions"
+    },
+    {
+      "date": "2026-05-02",
+      "high_f": 73,
+      "low_f": 62,
+      "rain_pct": 1,
+      "uv": 8,
+      "sunrise": "2026-05-02T06:01",
+      "sunset": "2026-05-02T19:35",
+      "predicted_score": 70,
+      "score_label": "Good conditions"
+    }
+  ],
+  "updated_at": "2026-04-29T01:12:57.299199+00:00"
 }
