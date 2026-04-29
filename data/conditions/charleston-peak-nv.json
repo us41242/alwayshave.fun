@@ -17,11 +17,10 @@
   "notes": "Snow above 9000ft until June \u2014 check SNOTEL",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 50,
+  "score": 60,
   "score_label": "Use caution",
   "gear_flags": [
-    "insulation layer required",
-    "mask for sensitive groups"
+    "insulation layer required"
   ],
   "current": {
     "temp_f": 24,
@@ -33,8 +32,8 @@
   "sunrise": "2026-04-28T05:52",
   "sunset": "2026-04-28T19:27",
   "aqi": {
-    "aqi": 56,
-    "category": "Moderate",
+    "aqi": 33,
+    "category": "Good",
     "pollutant": "PM10",
     "source": "airnow"
   },
@@ -53,7 +52,7 @@
       "uv": 8,
       "sunrise": "2026-04-28T05:52",
       "sunset": "2026-04-28T19:27",
-      "predicted_score": 50,
+      "predicted_score": 60,
       "score_label": "Use caution"
     },
     {
@@ -64,8 +63,8 @@
       "uv": 8,
       "sunrise": "2026-04-29T05:51",
       "sunset": "2026-04-29T19:28",
-      "predicted_score": 60,
-      "score_label": "Use caution"
+      "predicted_score": 70,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-04-30",
@@ -75,8 +74,8 @@
       "uv": 8,
       "sunrise": "2026-04-30T05:50",
       "sunset": "2026-04-30T19:29",
-      "predicted_score": 78,
-      "score_label": "Good conditions"
+      "predicted_score": 88,
+      "score_label": "Great day to go"
     },
     {
       "date": "2026-05-01",
@@ -86,8 +85,8 @@
       "uv": 8,
       "sunrise": "2026-05-01T05:49",
       "sunset": "2026-05-01T19:30",
-      "predicted_score": 78,
-      "score_label": "Good conditions"
+      "predicted_score": 88,
+      "score_label": "Great day to go"
     },
     {
       "date": "2026-05-02",
@@ -97,9 +96,9 @@
       "uv": 8,
       "sunrise": "2026-05-02T05:48",
       "sunset": "2026-05-02T19:31",
-      "predicted_score": 78,
-      "score_label": "Good conditions"
+      "predicted_score": 88,
+      "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-04-29T05:00:59.000196+00:00"
+  "updated_at": "2026-04-29T05:20:46.643349+00:00"
 }
