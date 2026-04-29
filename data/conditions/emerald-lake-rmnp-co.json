@@ -28,7 +28,7 @@
     "feels_like_f": 10,
     "wind_mph": 25,
     "gusts_mph": 40,
-    "rain_pct": 3
+    "rain_pct": 4
   },
   "sunrise": "2026-04-28T06:05",
   "sunset": "2026-04-28T19:54",
@@ -59,7 +59,7 @@
     {
       "date": "2026-04-29",
       "high_f": 41,
-      "low_f": 24,
+      "low_f": 25,
       "rain_pct": 33,
       "uv": 7,
       "sunrise": "2026-04-29T06:03",
@@ -71,7 +71,7 @@
       "date": "2026-04-30",
       "high_f": 28,
       "low_f": 23,
-      "rain_pct": 96,
+      "rain_pct": 97,
       "uv": 6,
       "sunrise": "2026-04-30T06:02",
       "sunset": "2026-04-30T19:56",
@@ -82,7 +82,7 @@
       "date": "2026-05-01",
       "high_f": 34,
       "low_f": 14,
-      "rain_pct": 86,
+      "rain_pct": 85,
       "uv": 8,
       "sunrise": "2026-05-01T06:01",
       "sunset": "2026-05-01T19:57",
@@ -101,5 +101,5 @@
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-04-29T03:18:54.060105+00:00"
+  "updated_at": "2026-04-29T03:36:09.046270+00:00"
 }
