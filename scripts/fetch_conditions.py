@@ -16,6 +16,14 @@ def load_trails(path="seeds/trails.csv"):
             trails.append(row)
     return trails
 
+# Open-Meteo throttles default Python UAs from cloud IPs (observed 2026-04-29
+# where every weather fetch from GH Actions runners hit "Read timed out" on
+# all 3 retries). A descriptive UA + longer timeout fixes it.
+OPEN_METEO_HEADERS = {
+    "User-Agent": "alwayshave.fun-pipeline/1.0 (contact: joshuaedrake@gmail.com)",
+    "Accept": "application/json",
+}
+
 def fetch_weather(lat, lng, retries=3, backoff=5):
     url = (
         f"https://api.open-meteo.com/v1/forecast"
@@ -27,7 +35,7 @@ def fetch_weather(lat, lng, retries=3, backoff=5):
     import time
     for attempt in range(retries):
         try:
-            r = requests.get(url, timeout=15)
+            r = requests.get(url, headers=OPEN_METEO_HEADERS, timeout=30)
             r.raise_for_status()
             data = r.json()
             if "current" in data:
@@ -77,7 +85,7 @@ def fetch_aqi(lat, lng):
             f"?latitude={lat}&longitude={lng}"
             f"&current=us_aqi,pm2_5"
         )
-        r = requests.get(url, timeout=10)
+        r = requests.get(url, headers=OPEN_METEO_HEADERS, timeout=20)
         r.raise_for_status()
         data = r.json()
         aqi_val = data.get("current", {}).get("us_aqi")
