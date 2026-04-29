@@ -24,13 +24,13 @@
     "temp_f": 46,
     "feels_like_f": 38,
     "wind_mph": 4,
-    "gusts_mph": 8,
+    "gusts_mph": 7,
     "rain_pct": 0
   },
   "sunrise": "2026-04-28T06:39",
   "sunset": "2026-04-28T20:18",
   "aqi": {
-    "aqi": 49,
+    "aqi": 47,
     "category": "Good",
     "pollutant": "O3",
     "source": "airnow"
@@ -41,7 +41,7 @@
     "fire_count_50km": 0
   },
   "river": {
-    "cfs": 8140,
+    "cfs": 8110,
     "stage": "flood"
   },
   "forecast": [
@@ -101,5 +101,5 @@
       "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-04-29T04:01:59.641230+00:00"
+  "updated_at": "2026-04-29T04:23:03.750180+00:00"
 }
