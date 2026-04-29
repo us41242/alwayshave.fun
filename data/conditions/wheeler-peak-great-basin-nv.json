@@ -19,16 +19,18 @@
   "vehicle_req": "Any",
   "score": 60,
   "score_label": "Use caution",
-  "gear_flags": [],
+  "gear_flags": [
+    "insulation layer required"
+  ],
   "current": {
-    "temp_f": 18,
-    "feels_like_f": 10,
-    "wind_mph": 2,
+    "temp_f": 16,
+    "feels_like_f": 8,
+    "wind_mph": 3,
     "gusts_mph": 8,
-    "rain_pct": 1
+    "rain_pct": 2
   },
-  "sunrise": "",
-  "sunset": "",
+  "sunrise": "2026-04-28T05:42",
+  "sunset": "2026-04-28T19:27",
   "aqi": {
     "aqi": 46,
     "category": "Good",
@@ -41,6 +43,62 @@
     "fire_count_50km": 0
   },
   "river": null,
-  "forecast": [],
-  "updated_at": "2026-04-29T02:21:51.222731+00:00"
+  "forecast": [
+    {
+      "date": "2026-04-28",
+      "high_f": 20,
+      "low_f": 6,
+      "rain_pct": 8,
+      "uv": 7,
+      "sunrise": "2026-04-28T05:42",
+      "sunset": "2026-04-28T19:27",
+      "predicted_score": 60,
+      "score_label": "Use caution"
+    },
+    {
+      "date": "2026-04-29",
+      "high_f": 24,
+      "low_f": 11,
+      "rain_pct": 9,
+      "uv": 7,
+      "sunrise": "2026-04-29T05:41",
+      "sunset": "2026-04-29T19:28",
+      "predicted_score": 60,
+      "score_label": "Use caution"
+    },
+    {
+      "date": "2026-04-30",
+      "high_f": 28,
+      "low_f": 14,
+      "rain_pct": 29,
+      "uv": 8,
+      "sunrise": "2026-04-30T05:39",
+      "sunset": "2026-04-30T19:28",
+      "predicted_score": 60,
+      "score_label": "Use caution"
+    },
+    {
+      "date": "2026-05-01",
+      "high_f": 32,
+      "low_f": 18,
+      "rain_pct": 7,
+      "uv": 8,
+      "sunrise": "2026-05-01T05:38",
+      "sunset": "2026-05-01T19:29",
+      "predicted_score": 60,
+      "score_label": "Use caution"
+    },
+    {
+      "date": "2026-05-02",
+      "high_f": 40,
+      "low_f": 21,
+      "rain_pct": 3,
+      "uv": 8,
+      "sunrise": "2026-05-02T05:37",
+      "sunset": "2026-05-02T19:30",
+      "predicted_score": 88,
+      "score_label": "Great day to go"
+    }
+  ],
+  "updated_at": "2026-04-29T02:40:46.303322+00:00"
 }
