@@ -17,22 +17,22 @@
   "notes": "60 miles of dirt road \u2014 high clearance required",
   "dog_friendly": "No",
   "vehicle_req": "High-Clearance",
-  "score": 50,
-  "score_label": "Use caution",
+  "score": 90,
+  "score_label": "Great day to go",
   "gear_flags": [
     "mask for sensitive groups"
   ],
   "current": {
-    "temp_f": 74,
-    "feels_like_f": 62,
-    "wind_mph": 15,
-    "gusts_mph": 19,
+    "temp_f": 73,
+    "feels_like_f": 63,
+    "wind_mph": 11,
+    "gusts_mph": 14,
     "rain_pct": 0
   },
-  "sunrise": "",
-  "sunset": "",
+  "sunrise": "2026-04-29T05:39",
+  "sunset": "2026-04-29T19:16",
   "aqi": {
-    "aqi": 84,
+    "aqi": 80,
     "category": "Moderate",
     "pollutant": "O3",
     "source": "airnow"
@@ -43,6 +43,62 @@
     "fire_count_50km": 0
   },
   "river": null,
-  "forecast": [],
-  "updated_at": "2026-04-30T00:47:51.744883+00:00"
+  "forecast": [
+    {
+      "date": "2026-04-29",
+      "high_f": 76,
+      "low_f": 43,
+      "rain_pct": 0,
+      "uv": 8,
+      "sunrise": "2026-04-29T05:39",
+      "sunset": "2026-04-29T19:16",
+      "predicted_score": 78,
+      "score_label": "Good conditions"
+    },
+    {
+      "date": "2026-04-30",
+      "high_f": 77,
+      "low_f": 53,
+      "rain_pct": 0,
+      "uv": 8,
+      "sunrise": "2026-04-30T05:38",
+      "sunset": "2026-04-30T19:17",
+      "predicted_score": 78,
+      "score_label": "Good conditions"
+    },
+    {
+      "date": "2026-05-01",
+      "high_f": 76,
+      "low_f": 54,
+      "rain_pct": 4,
+      "uv": 8,
+      "sunrise": "2026-05-01T05:37",
+      "sunset": "2026-05-01T19:18",
+      "predicted_score": 78,
+      "score_label": "Good conditions"
+    },
+    {
+      "date": "2026-05-02",
+      "high_f": 79,
+      "low_f": 51,
+      "rain_pct": 2,
+      "uv": 8,
+      "sunrise": "2026-05-02T05:36",
+      "sunset": "2026-05-02T19:19",
+      "predicted_score": 78,
+      "score_label": "Good conditions"
+    },
+    {
+      "date": "2026-05-03",
+      "high_f": 83,
+      "low_f": 60,
+      "rain_pct": 12,
+      "uv": 8,
+      "sunrise": "2026-05-03T05:35",
+      "sunset": "2026-05-03T19:19",
+      "predicted_score": 78,
+      "score_label": "Good conditions"
+    }
+  ],
+  "updated_at": "2026-04-30T01:11:12.881326+00:00"
 }
