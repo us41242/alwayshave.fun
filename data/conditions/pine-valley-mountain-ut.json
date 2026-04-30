@@ -24,7 +24,7 @@
     "temp_f": 55,
     "feels_like_f": 49,
     "wind_mph": 11,
-    "gusts_mph": 14,
+    "gusts_mph": 13,
     "rain_pct": 0
   },
   "sunrise": "2026-04-30T06:39",
@@ -77,10 +77,10 @@
     },
     {
       "date": "2026-05-03",
-      "high_f": 63,
-      "low_f": 48,
+      "high_f": 66,
+      "low_f": 49,
       "rain_pct": 29,
-      "uv": 6,
+      "uv": 7,
       "sunrise": "2026-05-03T06:36",
       "sunset": "2026-05-03T20:25",
       "predicted_score": 88,
@@ -89,7 +89,7 @@
     {
       "date": "2026-05-04",
       "high_f": 58,
-      "low_f": 43,
+      "low_f": 42,
       "rain_pct": 29,
       "uv": 8,
       "sunrise": "2026-05-04T06:35",
@@ -98,5 +98,5 @@
       "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-04-30T17:45:41.318695+00:00"
+  "updated_at": "2026-04-30T18:10:19.912714+00:00"
 }
