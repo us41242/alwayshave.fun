@@ -17,8 +17,8 @@
   "notes": "Unmaintained \u2014 route-finding required",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 90,
-  "score_label": "Great day to go",
+  "score": 50,
+  "score_label": "Use caution",
   "gear_flags": [
     "mask for sensitive groups"
   ],
@@ -29,8 +29,8 @@
     "gusts_mph": 14,
     "rain_pct": 0
   },
-  "sunrise": "2026-04-30T05:36",
-  "sunset": "2026-04-30T19:15",
+  "sunrise": "",
+  "sunset": "",
   "aqi": {
     "aqi": 67,
     "category": "Moderate",
@@ -43,62 +43,6 @@
     "fire_count_50km": 0
   },
   "river": null,
-  "forecast": [
-    {
-      "date": "2026-04-30",
-      "high_f": 67,
-      "low_f": 40,
-      "rain_pct": 0,
-      "uv": 8,
-      "sunrise": "2026-04-30T05:36",
-      "sunset": "2026-04-30T19:15",
-      "predicted_score": 90,
-      "score_label": "Great day to go"
-    },
-    {
-      "date": "2026-05-01",
-      "high_f": 66,
-      "low_f": 48,
-      "rain_pct": 4,
-      "uv": 7,
-      "sunrise": "2026-05-01T05:35",
-      "sunset": "2026-05-01T19:16",
-      "predicted_score": 90,
-      "score_label": "Great day to go"
-    },
-    {
-      "date": "2026-05-02",
-      "high_f": 70,
-      "low_f": 47,
-      "rain_pct": 2,
-      "uv": 8,
-      "sunrise": "2026-05-02T05:34",
-      "sunset": "2026-05-02T19:17",
-      "predicted_score": 90,
-      "score_label": "Great day to go"
-    },
-    {
-      "date": "2026-05-03",
-      "high_f": 72,
-      "low_f": 51,
-      "rain_pct": 24,
-      "uv": 8,
-      "sunrise": "2026-05-03T05:33",
-      "sunset": "2026-05-03T19:17",
-      "predicted_score": 78,
-      "score_label": "Good conditions"
-    },
-    {
-      "date": "2026-05-04",
-      "high_f": 64,
-      "low_f": 44,
-      "rain_pct": 4,
-      "uv": 8,
-      "sunrise": "2026-05-04T05:32",
-      "sunset": "2026-05-04T19:18",
-      "predicted_score": 90,
-      "score_label": "Great day to go"
-    }
-  ],
-  "updated_at": "2026-04-30T21:26:53.145333+00:00"
+  "forecast": [],
+  "updated_at": "2026-04-30T21:45:21.799470+00:00"
 }
