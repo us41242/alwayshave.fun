@@ -20,15 +20,14 @@
   "score": 70,
   "score_label": "Good conditions",
   "gear_flags": [
-    "insulation layer required",
-    "rain gear recommended"
+    "insulation layer required"
   ],
   "current": {
-    "temp_f": 35,
-    "feels_like_f": 32,
-    "wind_mph": 1,
-    "gusts_mph": 4,
-    "rain_pct": 41
+    "temp_f": 37,
+    "feels_like_f": 34,
+    "wind_mph": 0,
+    "gusts_mph": 9,
+    "rain_pct": 36
   },
   "sunrise": "2026-04-30T06:02",
   "sunset": "2026-04-30T19:50",
@@ -49,7 +48,7 @@
       "date": "2026-04-30",
       "high_f": 45,
       "low_f": 35,
-      "rain_pct": 74,
+      "rain_pct": 77,
       "uv": 4,
       "sunrise": "2026-04-30T06:02",
       "sunset": "2026-04-30T19:50",
@@ -101,5 +100,5 @@
       "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-04-30T12:28:31.072994+00:00"
+  "updated_at": "2026-04-30T12:50:29.799878+00:00"
 }
