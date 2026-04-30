@@ -17,26 +17,25 @@
   "notes": "Sandstone scrambling \u2014 watch for rattlesnakes spring",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 78,
-  "score_label": "Good conditions",
+  "score": 88,
+  "score_label": "Great day to go",
   "gear_flags": [
-    "wind layer recommended",
-    "mask for sensitive groups"
+    "wind layer recommended"
   ],
   "current": {
     "temp_f": 77,
-    "feels_like_f": 66,
+    "feels_like_f": 65,
     "wind_mph": 18,
-    "gusts_mph": 21,
+    "gusts_mph": 22,
     "rain_pct": 0
   },
   "sunrise": "2026-04-30T06:40",
   "sunset": "2026-04-30T20:22",
   "aqi": {
-    "aqi": 57,
-    "category": "Moderate",
-    "pollutant": "PM2.5",
-    "source": "open-meteo"
+    "aqi": 48,
+    "category": "Good",
+    "pollutant": "O3",
+    "source": "airnow"
   },
   "fire": {
     "risk_level": "low",
@@ -53,8 +52,8 @@
       "uv": 8,
       "sunrise": "2026-04-30T06:40",
       "sunset": "2026-04-30T20:22",
-      "predicted_score": 78,
-      "score_label": "Good conditions"
+      "predicted_score": 88,
+      "score_label": "Great day to go"
     },
     {
       "date": "2026-05-01",
@@ -64,8 +63,8 @@
       "uv": 8,
       "sunrise": "2026-05-01T06:39",
       "sunset": "2026-05-01T20:23",
-      "predicted_score": 78,
-      "score_label": "Good conditions"
+      "predicted_score": 88,
+      "score_label": "Great day to go"
     },
     {
       "date": "2026-05-02",
@@ -75,8 +74,8 @@
       "uv": 7,
       "sunrise": "2026-05-02T06:38",
       "sunset": "2026-05-02T20:24",
-      "predicted_score": 78,
-      "score_label": "Good conditions"
+      "predicted_score": 88,
+      "score_label": "Great day to go"
     },
     {
       "date": "2026-05-03",
@@ -86,8 +85,8 @@
       "uv": 6,
       "sunrise": "2026-05-03T06:37",
       "sunset": "2026-05-03T20:25",
-      "predicted_score": 78,
-      "score_label": "Good conditions"
+      "predicted_score": 88,
+      "score_label": "Great day to go"
     },
     {
       "date": "2026-05-04",
@@ -97,9 +96,9 @@
       "uv": 8,
       "sunrise": "2026-05-04T06:36",
       "sunset": "2026-05-04T20:26",
-      "predicted_score": 78,
-      "score_label": "Good conditions"
+      "predicted_score": 88,
+      "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-04-30T22:52:54.335266+00:00"
+  "updated_at": "2026-04-30T23:12:09.583277+00:00"
 }
