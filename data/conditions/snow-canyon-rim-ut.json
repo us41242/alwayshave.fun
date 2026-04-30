@@ -23,8 +23,8 @@
     "wind layer recommended"
   ],
   "current": {
-    "temp_f": 77,
-    "feels_like_f": 64,
+    "temp_f": 76,
+    "feels_like_f": 63,
     "wind_mph": 19,
     "gusts_mph": 22,
     "rain_pct": 0
@@ -79,10 +79,10 @@
     },
     {
       "date": "2026-05-03",
-      "high_f": 82,
-      "low_f": 63,
+      "high_f": 78,
+      "low_f": 56,
       "rain_pct": 18,
-      "uv": 6,
+      "uv": 7,
       "sunrise": "2026-05-03T06:37",
       "sunset": "2026-05-03T20:25",
       "predicted_score": 88,
@@ -91,7 +91,7 @@
     {
       "date": "2026-05-04",
       "high_f": 73,
-      "low_f": 55,
+      "low_f": 57,
       "rain_pct": 18,
       "uv": 8,
       "sunrise": "2026-05-04T06:36",
@@ -100,5 +100,5 @@
       "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-04-30T23:28:20.210906+00:00"
+  "updated_at": "2026-04-30T23:50:31.475566+00:00"
 }

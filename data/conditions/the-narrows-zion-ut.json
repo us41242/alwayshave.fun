@@ -17,15 +17,15 @@
   "notes": "Check Virgin River flow \u2014 USGS gauge 09380000",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 100,
+  "score": 88,
   "score_label": "Great day to go",
   "gear_flags": [],
   "current": {
-    "temp_f": 70,
-    "feels_like_f": 60,
-    "wind_mph": 13,
-    "gusts_mph": 14,
-    "rain_pct": 1
+    "temp_f": 69,
+    "feels_like_f": 57,
+    "wind_mph": 17,
+    "gusts_mph": 20,
+    "rain_pct": 0
   },
   "sunrise": "2026-04-30T06:37",
   "sunset": "2026-04-30T20:20",
@@ -49,7 +49,7 @@
       "date": "2026-04-30",
       "high_f": 70,
       "low_f": 44,
-      "rain_pct": 1,
+      "rain_pct": 0,
       "uv": 8,
       "sunrise": "2026-04-30T06:37",
       "sunset": "2026-04-30T20:20",
@@ -59,8 +59,8 @@
     {
       "date": "2026-05-01",
       "high_f": 70,
-      "low_f": 46,
-      "rain_pct": 6,
+      "low_f": 45,
+      "rain_pct": 8,
       "uv": 8,
       "sunrise": "2026-05-01T06:36",
       "sunset": "2026-05-01T20:21",
@@ -72,7 +72,7 @@
       "high_f": 71,
       "low_f": 46,
       "rain_pct": 1,
-      "uv": 7,
+      "uv": 8,
       "sunrise": "2026-05-02T06:35",
       "sunset": "2026-05-02T20:22",
       "predicted_score": 100,
@@ -80,8 +80,8 @@
     },
     {
       "date": "2026-05-03",
-      "high_f": 74,
-      "low_f": 55,
+      "high_f": 72,
+      "low_f": 54,
       "rain_pct": 34,
       "uv": 7,
       "sunrise": "2026-05-03T06:34",
@@ -91,8 +91,8 @@
     },
     {
       "date": "2026-05-04",
-      "high_f": 65,
-      "low_f": 50,
+      "high_f": 66,
+      "low_f": 51,
       "rain_pct": 34,
       "uv": 8,
       "sunrise": "2026-05-04T06:33",
@@ -101,5 +101,5 @@
       "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-04-30T23:21:16.143589+00:00"
+  "updated_at": "2026-04-30T23:41:17.370335+00:00"
 }

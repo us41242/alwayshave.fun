@@ -26,8 +26,8 @@
     "temp_f": 21,
     "feels_like_f": 13,
     "wind_mph": 9,
-    "gusts_mph": 13,
-    "rain_pct": 5
+    "gusts_mph": 12,
+    "rain_pct": 6
   },
   "sunrise": "2026-04-30T06:00",
   "sunset": "2026-04-30T19:40",
@@ -43,7 +43,7 @@
     "fire_count_50km": 0
   },
   "river": {
-    "cfs": 97,
+    "cfs": 100,
     "stage": "low"
   },
   "forecast": [
@@ -103,5 +103,5 @@
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-04-30T23:32:55.549269+00:00"
+  "updated_at": "2026-04-30T23:55:30.806671+00:00"
 }
