@@ -17,23 +17,23 @@
   "notes": "Permit required ($12); ladder required in upper section",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 100,
-  "score_label": "Great day to go",
+  "score": 70,
+  "score_label": "Good conditions",
   "gear_flags": [],
   "current": {
-    "temp_f": 52,
-    "feels_like_f": 44,
+    "temp_f": 51,
+    "feels_like_f": 43,
     "wind_mph": 7,
-    "gusts_mph": 13,
+    "gusts_mph": 9,
     "rain_pct": 1
   },
   "sunrise": "2026-04-29T06:39",
   "sunset": "2026-04-29T20:20",
   "aqi": {
-    "aqi": 49,
-    "category": "Good",
-    "pollutant": "O3",
-    "source": "airnow"
+    "aqi": null,
+    "category": "Unknown",
+    "pollutant": "",
+    "source": "none"
   },
   "fire": {
     "risk_level": "low",
@@ -50,8 +50,8 @@
       "uv": 8,
       "sunrise": "2026-04-29T06:39",
       "sunset": "2026-04-29T20:20",
-      "predicted_score": 100,
-      "score_label": "Great day to go"
+      "predicted_score": 70,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-04-30",
@@ -61,8 +61,8 @@
       "uv": 8,
       "sunrise": "2026-04-30T06:37",
       "sunset": "2026-04-30T20:21",
-      "predicted_score": 100,
-      "score_label": "Great day to go"
+      "predicted_score": 70,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-05-01",
@@ -72,8 +72,8 @@
       "uv": 8,
       "sunrise": "2026-05-01T06:36",
       "sunset": "2026-05-01T20:22",
-      "predicted_score": 88,
-      "score_label": "Great day to go"
+      "predicted_score": 58,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-05-02",
@@ -83,8 +83,8 @@
       "uv": 8,
       "sunrise": "2026-05-02T06:35",
       "sunset": "2026-05-02T20:23",
-      "predicted_score": 100,
-      "score_label": "Great day to go"
+      "predicted_score": 70,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-05-03",
@@ -94,9 +94,9 @@
       "uv": 7,
       "sunrise": "2026-05-03T06:34",
       "sunset": "2026-05-03T20:24",
-      "predicted_score": 88,
-      "score_label": "Great day to go"
+      "predicted_score": 58,
+      "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-04-30T02:50:27.496481+00:00"
+  "updated_at": "2026-04-30T03:17:41.105801+00:00"
 }
