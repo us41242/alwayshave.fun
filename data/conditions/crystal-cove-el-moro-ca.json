@@ -17,11 +17,13 @@
   "notes": "Coastal trail with beach access; busy weekends \u2014 reserve parking",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 100,
+  "score": 90,
   "score_label": "Great day to go",
-  "gear_flags": [],
+  "gear_flags": [
+    "mask for sensitive groups"
+  ],
   "current": {
-    "temp_f": 64,
+    "temp_f": 65,
     "feels_like_f": 67,
     "wind_mph": 9,
     "gusts_mph": 9,
@@ -30,8 +32,8 @@
   "sunrise": "2026-04-30T06:03",
   "sunset": "2026-04-30T19:33",
   "aqi": {
-    "aqi": 50,
-    "category": "Good",
+    "aqi": 53,
+    "category": "Moderate",
     "pollutant": "PM2.5",
     "source": "open-meteo"
   },
@@ -50,7 +52,7 @@
       "uv": 8,
       "sunrise": "2026-04-30T06:03",
       "sunset": "2026-04-30T19:33",
-      "predicted_score": 100,
+      "predicted_score": 90,
       "score_label": "Great day to go"
     },
     {
@@ -61,7 +63,7 @@
       "uv": 8,
       "sunrise": "2026-05-01T06:02",
       "sunset": "2026-05-01T19:34",
-      "predicted_score": 100,
+      "predicted_score": 90,
       "score_label": "Great day to go"
     },
     {
@@ -72,7 +74,7 @@
       "uv": 8,
       "sunrise": "2026-05-02T06:01",
       "sunset": "2026-05-02T19:35",
-      "predicted_score": 100,
+      "predicted_score": 90,
       "score_label": "Great day to go"
     },
     {
@@ -83,7 +85,7 @@
       "uv": 8,
       "sunrise": "2026-05-03T06:00",
       "sunset": "2026-05-03T19:35",
-      "predicted_score": 100,
+      "predicted_score": 90,
       "score_label": "Great day to go"
     },
     {
@@ -94,9 +96,9 @@
       "uv": 8,
       "sunrise": "2026-05-04T05:59",
       "sunset": "2026-05-04T19:36",
-      "predicted_score": 88,
-      "score_label": "Great day to go"
+      "predicted_score": 78,
+      "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-04-30T18:53:29.976970+00:00"
+  "updated_at": "2026-04-30T19:12:48.811223+00:00"
 }
