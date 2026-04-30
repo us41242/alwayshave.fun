@@ -24,10 +24,10 @@
     "mask for sensitive groups"
   ],
   "current": {
-    "temp_f": 9,
-    "feels_like_f": -2,
-    "wind_mph": 9,
-    "gusts_mph": 10,
+    "temp_f": 7,
+    "feels_like_f": -4,
+    "wind_mph": 8,
+    "gusts_mph": 11,
     "rain_pct": 0
   },
   "sunrise": "2026-04-30T06:00",
@@ -43,7 +43,10 @@
     "nearest_fire_km": null,
     "fire_count_50km": 0
   },
-  "river": null,
+  "river": {
+    "cfs": 105,
+    "stage": "normal"
+  },
   "forecast": [
     {
       "date": "2026-04-30",
@@ -101,5 +104,5 @@
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-04-30T07:11:11.252212+00:00"
+  "updated_at": "2026-04-30T07:37:06.533185+00:00"
 }

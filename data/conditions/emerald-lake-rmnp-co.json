@@ -24,11 +24,11 @@
     "mask for sensitive groups"
   ],
   "current": {
-    "temp_f": 24,
+    "temp_f": 23,
     "feels_like_f": 17,
-    "wind_mph": 4,
-    "gusts_mph": 6,
-    "rain_pct": 27
+    "wind_mph": 3,
+    "gusts_mph": 5,
+    "rain_pct": 21
   },
   "sunrise": "2026-04-30T06:02",
   "sunset": "2026-04-30T19:56",
@@ -47,8 +47,8 @@
   "forecast": [
     {
       "date": "2026-04-30",
-      "high_f": 27,
-      "low_f": 17,
+      "high_f": 26,
+      "low_f": 18,
       "rain_pct": 71,
       "uv": 5,
       "sunrise": "2026-04-30T06:02",
@@ -101,5 +101,5 @@
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-04-30T07:09:20.859826+00:00"
+  "updated_at": "2026-04-30T07:35:42.514541+00:00"
 }
