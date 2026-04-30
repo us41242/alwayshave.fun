@@ -23,14 +23,14 @@
     "insulation layer required"
   ],
   "current": {
-    "temp_f": 35,
-    "feels_like_f": 28,
-    "wind_mph": 7,
+    "temp_f": 34,
+    "feels_like_f": 27,
+    "wind_mph": 6,
     "gusts_mph": 10,
     "rain_pct": 1
   },
-  "sunrise": "2026-04-29T06:11",
-  "sunset": "2026-04-29T20:00",
+  "sunrise": "2026-04-30T06:10",
+  "sunset": "2026-04-30T20:01",
   "aqi": {
     "aqi": 24,
     "category": "Good",
@@ -44,17 +44,6 @@
   },
   "river": null,
   "forecast": [
-    {
-      "date": "2026-04-29",
-      "high_f": 48,
-      "low_f": 31,
-      "rain_pct": 10,
-      "uv": 8,
-      "sunrise": "2026-04-29T06:11",
-      "sunset": "2026-04-29T20:00",
-      "predicted_score": 88,
-      "score_label": "Great day to go"
-    },
     {
       "date": "2026-04-30",
       "high_f": 50,
@@ -98,7 +87,18 @@
       "sunset": "2026-05-03T20:04",
       "predicted_score": 88,
       "score_label": "Great day to go"
+    },
+    {
+      "date": "2026-05-04",
+      "high_f": 50,
+      "low_f": 40,
+      "rain_pct": 53,
+      "uv": 7,
+      "sunrise": "2026-05-04T06:05",
+      "sunset": "2026-05-04T20:05",
+      "predicted_score": 70,
+      "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-04-30T05:49:15.066646+00:00"
+  "updated_at": "2026-04-30T06:15:28.708634+00:00"
 }
