@@ -17,23 +17,23 @@
   "notes": "Near Death Valley \u2014 extreme summer heat",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 60,
-  "score_label": "Use caution",
+  "score": 70,
+  "score_label": "Good conditions",
   "gear_flags": [],
   "current": {
-    "temp_f": 73,
-    "feels_like_f": 68,
-    "wind_mph": 9,
-    "gusts_mph": 10,
+    "temp_f": 74,
+    "feels_like_f": 70,
+    "wind_mph": 8,
+    "gusts_mph": 12,
     "rain_pct": 0
   },
-  "sunrise": "",
-  "sunset": "",
+  "sunrise": "2026-04-30T05:53",
+  "sunset": "2026-04-30T19:35",
   "aqi": {
-    "aqi": 47,
-    "category": "Good",
-    "pollutant": "O3",
-    "source": "airnow"
+    "aqi": null,
+    "category": "Unknown",
+    "pollutant": "",
+    "source": "none"
   },
   "fire": {
     "risk_level": "low",
@@ -41,6 +41,62 @@
     "fire_count_50km": 0
   },
   "river": null,
-  "forecast": [],
-  "updated_at": "2026-04-30T19:10:07.082045+00:00"
+  "forecast": [
+    {
+      "date": "2026-04-30",
+      "high_f": 76,
+      "low_f": 56,
+      "rain_pct": 0,
+      "uv": 8,
+      "sunrise": "2026-04-30T05:53",
+      "sunset": "2026-04-30T19:35",
+      "predicted_score": 58,
+      "score_label": "Use caution"
+    },
+    {
+      "date": "2026-05-01",
+      "high_f": 78,
+      "low_f": 57,
+      "rain_pct": 1,
+      "uv": 8,
+      "sunrise": "2026-05-01T05:52",
+      "sunset": "2026-05-01T19:36",
+      "predicted_score": 58,
+      "score_label": "Use caution"
+    },
+    {
+      "date": "2026-05-02",
+      "high_f": 78,
+      "low_f": 60,
+      "rain_pct": 1,
+      "uv": 7,
+      "sunrise": "2026-05-02T05:51",
+      "sunset": "2026-05-02T19:36",
+      "predicted_score": 58,
+      "score_label": "Use caution"
+    },
+    {
+      "date": "2026-05-03",
+      "high_f": 75,
+      "low_f": 59,
+      "rain_pct": 8,
+      "uv": 8,
+      "sunrise": "2026-05-03T05:50",
+      "sunset": "2026-05-03T19:37",
+      "predicted_score": 70,
+      "score_label": "Good conditions"
+    },
+    {
+      "date": "2026-05-04",
+      "high_f": 67,
+      "low_f": 51,
+      "rain_pct": 14,
+      "uv": 8,
+      "sunrise": "2026-05-04T05:49",
+      "sunset": "2026-05-04T19:38",
+      "predicted_score": 58,
+      "score_label": "Use caution"
+    }
+  ],
+  "updated_at": "2026-04-30T19:31:25.570390+00:00"
 }
