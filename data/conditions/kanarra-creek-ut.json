@@ -17,14 +17,14 @@
   "notes": "Permit required ($12); ladder required in upper section",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 88,
-  "score_label": "Great day to go",
+  "score": 70,
+  "score_label": "Good conditions",
   "gear_flags": [
     "insulation layer required"
   ],
   "current": {
-    "temp_f": 40,
-    "feels_like_f": 32,
+    "temp_f": 39,
+    "feels_like_f": 31,
     "wind_mph": 6,
     "gusts_mph": 6,
     "rain_pct": 0
@@ -32,7 +32,7 @@
   "sunrise": "2026-04-30T06:37",
   "sunset": "2026-04-30T20:21",
   "aqi": {
-    "aqi": 39,
+    "aqi": 41,
     "category": "Good",
     "pollutant": "PM2.5",
     "source": "airnow"
@@ -100,5 +100,5 @@
       "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-04-30T11:09:16.617196+00:00"
+  "updated_at": "2026-04-30T11:31:05.749991+00:00"
 }
