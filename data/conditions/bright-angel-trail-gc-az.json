@@ -17,22 +17,22 @@
   "notes": "Summer heat extreme \u2014 start before sunrise",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 78,
-  "score_label": "Good conditions",
+  "score": 90,
+  "score_label": "Great day to go",
   "gear_flags": [
     "mask for sensitive groups"
   ],
   "current": {
-    "temp_f": 49,
+    "temp_f": 50,
     "feels_like_f": 41,
     "wind_mph": 7,
-    "gusts_mph": 10,
+    "gusts_mph": 11,
     "rain_pct": 0
   },
   "sunrise": "2026-04-30T05:36",
   "sunset": "2026-04-30T19:14",
   "aqi": {
-    "aqi": 84,
+    "aqi": 80,
     "category": "Moderate",
     "pollutant": "O3",
     "source": "airnow"
@@ -62,7 +62,7 @@
       "date": "2026-05-01",
       "high_f": 62,
       "low_f": 44,
-      "rain_pct": 2,
+      "rain_pct": 4,
       "uv": 8,
       "sunrise": "2026-05-01T05:35",
       "sunset": "2026-05-01T19:15",
@@ -84,7 +84,7 @@
       "date": "2026-05-03",
       "high_f": 70,
       "low_f": 49,
-      "rain_pct": 18,
+      "rain_pct": 23,
       "uv": 7,
       "sunrise": "2026-05-03T05:33",
       "sunset": "2026-05-03T19:17",
@@ -95,7 +95,7 @@
       "date": "2026-05-04",
       "high_f": 58,
       "low_f": 41,
-      "rain_pct": 5,
+      "rain_pct": 7,
       "uv": 6,
       "sunrise": "2026-05-04T05:32",
       "sunset": "2026-05-04T19:18",
@@ -103,5 +103,5 @@
       "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-04-30T15:03:23.077460+00:00"
+  "updated_at": "2026-04-30T15:23:07.519060+00:00"
 }
