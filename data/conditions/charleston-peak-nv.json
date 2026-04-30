@@ -25,7 +25,7 @@
   ],
   "current": {
     "temp_f": 36,
-    "feels_like_f": 28,
+    "feels_like_f": 27,
     "wind_mph": 7,
     "gusts_mph": 15,
     "rain_pct": 0
@@ -33,7 +33,7 @@
   "sunrise": "2026-04-30T05:50",
   "sunset": "2026-04-30T19:29",
   "aqi": {
-    "aqi": 67,
+    "aqi": 66,
     "category": "Moderate",
     "pollutant": "PM10",
     "source": "airnow"
@@ -93,7 +93,7 @@
       "date": "2026-05-04",
       "high_f": 33,
       "low_f": 23,
-      "rain_pct": 12,
+      "rain_pct": 11,
       "uv": 8,
       "sunrise": "2026-05-04T05:46",
       "sunset": "2026-05-04T19:32",
@@ -101,5 +101,5 @@
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-04-30T21:01:17.244826+00:00"
+  "updated_at": "2026-04-30T21:21:08.670573+00:00"
 }
