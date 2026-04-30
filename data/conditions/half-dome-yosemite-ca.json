@@ -17,16 +17,16 @@
   "notes": "Cable permit required May\u2013Oct; lottery in spring \u2014 book early",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 70,
-  "score_label": "Good conditions",
+  "score": 60,
+  "score_label": "Use caution",
   "gear_flags": [
     "insulation layer required"
   ],
   "current": {
-    "temp_f": 36,
-    "feels_like_f": 26,
-    "wind_mph": 9,
-    "gusts_mph": 10,
+    "temp_f": 35,
+    "feels_like_f": 25,
+    "wind_mph": 10,
+    "gusts_mph": 11,
     "rain_pct": 0
   },
   "sunrise": "2026-04-30T06:02",
@@ -46,7 +46,7 @@
   "forecast": [
     {
       "date": "2026-04-30",
-      "high_f": 48,
+      "high_f": 49,
       "low_f": 34,
       "rain_pct": 13,
       "uv": 8,
@@ -100,5 +100,5 @@
       "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-04-30T13:11:29.397558+00:00"
+  "updated_at": "2026-04-30T13:28:13.593867+00:00"
 }
