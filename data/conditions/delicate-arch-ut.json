@@ -17,14 +17,14 @@
   "notes": "Timed entry required Apr 1\u2013Oct 31 \u2014 no dogs on trails",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 88,
+  "score": 100,
   "score_label": "Great day to go",
   "gear_flags": [],
   "current": {
-    "temp_f": 48,
-    "feels_like_f": 42,
+    "temp_f": 50,
+    "feels_like_f": 44,
     "wind_mph": 2,
-    "gusts_mph": 2,
+    "gusts_mph": 6,
     "rain_pct": 1
   },
   "sunrise": "2026-04-30T06:21",
@@ -55,7 +55,7 @@
     },
     {
       "date": "2026-05-01",
-      "high_f": 70,
+      "high_f": 71,
       "low_f": 43,
       "rain_pct": 4,
       "uv": 8,
@@ -67,7 +67,7 @@
     {
       "date": "2026-05-02",
       "high_f": 74,
-      "low_f": 48,
+      "low_f": 47,
       "rain_pct": 5,
       "uv": 8,
       "sunrise": "2026-05-02T06:18",
@@ -98,5 +98,5 @@
       "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-04-30T13:50:23.586477+00:00"
+  "updated_at": "2026-04-30T14:08:26.150202+00:00"
 }

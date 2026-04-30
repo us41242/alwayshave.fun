@@ -17,17 +17,18 @@
   "notes": "Snow possible May; check road status",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 50,
+  "score": 60,
   "score_label": "Use caution",
   "gear_flags": [
+    "wind layer recommended",
     "insulation layer required",
     "mask for sensitive groups"
   ],
   "current": {
-    "temp_f": 32,
-    "feels_like_f": 22,
-    "wind_mph": 10,
-    "gusts_mph": 13,
+    "temp_f": 36,
+    "feels_like_f": 26,
+    "wind_mph": 11,
+    "gusts_mph": 20,
     "rain_pct": 0
   },
   "sunrise": "2026-04-30T06:33",
@@ -59,7 +60,7 @@
     {
       "date": "2026-05-01",
       "high_f": 55,
-      "low_f": 32,
+      "low_f": 29,
       "rain_pct": 18,
       "uv": 8,
       "sunrise": "2026-05-01T06:32",
@@ -101,5 +102,5 @@
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-04-30T13:41:03.952177+00:00"
+  "updated_at": "2026-04-30T14:00:58.672519+00:00"
 }
