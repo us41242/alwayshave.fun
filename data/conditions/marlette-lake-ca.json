@@ -17,20 +17,20 @@
   "notes": "No cars beyond Spooner Summit; bike-legal trail",
   "dog_friendly": "Yes",
   "vehicle_req": "AWD",
-  "score": 50,
-  "score_label": "Use caution",
+  "score": 90,
+  "score_label": "Great day to go",
   "gear_flags": [
     "mask for sensitive groups"
   ],
   "current": {
-    "temp_f": 53,
-    "feels_like_f": 45,
-    "wind_mph": 7,
-    "gusts_mph": 9,
+    "temp_f": 52,
+    "feels_like_f": 44,
+    "wind_mph": 8,
+    "gusts_mph": 10,
     "rain_pct": 1
   },
-  "sunrise": "",
-  "sunset": "",
+  "sunrise": "2026-04-29T06:03",
+  "sunset": "2026-04-29T19:50",
   "aqi": {
     "aqi": 51,
     "category": "Moderate",
@@ -43,6 +43,62 @@
     "fire_count_50km": 0
   },
   "river": null,
-  "forecast": [],
-  "updated_at": "2026-04-30T00:38:10.091884+00:00"
+  "forecast": [
+    {
+      "date": "2026-04-29",
+      "high_f": 55,
+      "low_f": 32,
+      "rain_pct": 3,
+      "uv": 8,
+      "sunrise": "2026-04-29T06:03",
+      "sunset": "2026-04-29T19:50",
+      "predicted_score": 90,
+      "score_label": "Great day to go"
+    },
+    {
+      "date": "2026-04-30",
+      "high_f": 58,
+      "low_f": 41,
+      "rain_pct": 3,
+      "uv": 8,
+      "sunrise": "2026-04-30T06:01",
+      "sunset": "2026-04-30T19:51",
+      "predicted_score": 90,
+      "score_label": "Great day to go"
+    },
+    {
+      "date": "2026-05-01",
+      "high_f": 61,
+      "low_f": 44,
+      "rain_pct": 7,
+      "uv": 8,
+      "sunrise": "2026-05-01T06:00",
+      "sunset": "2026-05-01T19:52",
+      "predicted_score": 90,
+      "score_label": "Great day to go"
+    },
+    {
+      "date": "2026-05-02",
+      "high_f": 61,
+      "low_f": 44,
+      "rain_pct": 30,
+      "uv": 7,
+      "sunrise": "2026-05-02T05:59",
+      "sunset": "2026-05-02T19:53",
+      "predicted_score": 78,
+      "score_label": "Good conditions"
+    },
+    {
+      "date": "2026-05-03",
+      "high_f": 53,
+      "low_f": 38,
+      "rain_pct": 56,
+      "uv": 8,
+      "sunrise": "2026-05-03T05:58",
+      "sunset": "2026-05-03T19:54",
+      "predicted_score": 60,
+      "score_label": "Use caution"
+    }
+  ],
+  "updated_at": "2026-04-30T00:51:33.201173+00:00"
 }
