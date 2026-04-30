@@ -23,11 +23,11 @@
     "mask for sensitive groups"
   ],
   "current": {
-    "temp_f": 64,
-    "feels_like_f": 55,
-    "wind_mph": 10,
-    "gusts_mph": 12,
-    "rain_pct": 1
+    "temp_f": 62,
+    "feels_like_f": 54,
+    "wind_mph": 6,
+    "gusts_mph": 11,
+    "rain_pct": 2
   },
   "sunrise": "2026-04-29T06:38",
   "sunset": "2026-04-29T20:19",
@@ -51,7 +51,7 @@
       "date": "2026-04-29",
       "high_f": 67,
       "low_f": 41,
-      "rain_pct": 1,
+      "rain_pct": 2,
       "uv": 8,
       "sunrise": "2026-04-29T06:38",
       "sunset": "2026-04-29T20:19",
@@ -71,8 +71,8 @@
     },
     {
       "date": "2026-05-01",
-      "high_f": 69,
-      "low_f": 48,
+      "high_f": 70,
+      "low_f": 44,
       "rain_pct": 12,
       "uv": 8,
       "sunrise": "2026-05-01T06:36",
@@ -103,5 +103,5 @@
       "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-04-30T01:41:04.190892+00:00"
+  "updated_at": "2026-04-30T02:01:13.780102+00:00"
 }
