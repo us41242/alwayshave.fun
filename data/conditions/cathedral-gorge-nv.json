@@ -17,23 +17,21 @@
   "notes": "Slot canyon walls narrow \u2014 avoid during rain/flash flood risk",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 78,
-  "score_label": "Good conditions",
-  "gear_flags": [
-    "mask for sensitive groups"
-  ],
+  "score": 88,
+  "score_label": "Great day to go",
+  "gear_flags": [],
   "current": {
     "temp_f": 47,
     "feels_like_f": 39,
     "wind_mph": 7,
-    "gusts_mph": 11,
+    "gusts_mph": 10,
     "rain_pct": 0
   },
   "sunrise": "2026-04-30T05:42",
   "sunset": "2026-04-30T19:27",
   "aqi": {
-    "aqi": 51,
-    "category": "Moderate",
+    "aqi": 46,
+    "category": "Good",
     "pollutant": "PM2.5",
     "source": "open-meteo"
   },
@@ -52,7 +50,7 @@
       "uv": 8,
       "sunrise": "2026-04-30T05:42",
       "sunset": "2026-04-30T19:27",
-      "predicted_score": 90,
+      "predicted_score": 100,
       "score_label": "Great day to go"
     },
     {
@@ -63,7 +61,7 @@
       "uv": 8,
       "sunrise": "2026-05-01T05:41",
       "sunset": "2026-05-01T19:28",
-      "predicted_score": 90,
+      "predicted_score": 100,
       "score_label": "Great day to go"
     },
     {
@@ -74,7 +72,7 @@
       "uv": 8,
       "sunrise": "2026-05-02T05:40",
       "sunset": "2026-05-02T19:28",
-      "predicted_score": 90,
+      "predicted_score": 100,
       "score_label": "Great day to go"
     },
     {
@@ -85,8 +83,8 @@
       "uv": 7,
       "sunrise": "2026-05-03T05:39",
       "sunset": "2026-05-03T19:29",
-      "predicted_score": 78,
-      "score_label": "Good conditions"
+      "predicted_score": 88,
+      "score_label": "Great day to go"
     },
     {
       "date": "2026-05-04",
@@ -96,9 +94,9 @@
       "uv": 8,
       "sunrise": "2026-05-04T05:37",
       "sunset": "2026-05-04T19:30",
-      "predicted_score": 78,
-      "score_label": "Good conditions"
+      "predicted_score": 88,
+      "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-04-30T09:41:19.984876+00:00"
+  "updated_at": "2026-04-30T10:03:36.453401+00:00"
 }
