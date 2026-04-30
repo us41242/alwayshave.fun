@@ -23,10 +23,10 @@
     "insulation layer required"
   ],
   "current": {
-    "temp_f": 30,
-    "feels_like_f": 21,
-    "wind_mph": 8,
-    "gusts_mph": 10,
+    "temp_f": 29,
+    "feels_like_f": 18,
+    "wind_mph": 12,
+    "gusts_mph": 14,
     "rain_pct": 2
   },
   "sunrise": "2026-04-30T06:15",
@@ -46,7 +46,7 @@
   "forecast": [
     {
       "date": "2026-04-30",
-      "high_f": 31,
+      "high_f": 30,
       "low_f": 18,
       "rain_pct": 9,
       "uv": 8,
@@ -59,7 +59,7 @@
       "date": "2026-05-01",
       "high_f": 32,
       "low_f": 16,
-      "rain_pct": 46,
+      "rain_pct": 48,
       "uv": 8,
       "sunrise": "2026-05-01T06:14",
       "sunset": "2026-05-01T20:01",
@@ -71,7 +71,7 @@
       "high_f": 40,
       "low_f": 12,
       "rain_pct": 42,
-      "uv": 9,
+      "uv": 8,
       "sunrise": "2026-05-02T06:13",
       "sunset": "2026-05-02T20:02",
       "predicted_score": 70,
@@ -79,10 +79,10 @@
     },
     {
       "date": "2026-05-03",
-      "high_f": 40,
-      "low_f": 19,
+      "high_f": 38,
+      "low_f": 23,
       "rain_pct": 38,
-      "uv": 7,
+      "uv": 6,
       "sunrise": "2026-05-03T06:12",
       "sunset": "2026-05-03T20:03",
       "predicted_score": 70,
@@ -90,15 +90,15 @@
     },
     {
       "date": "2026-05-04",
-      "high_f": 33,
-      "low_f": 20,
+      "high_f": 36,
+      "low_f": 22,
       "rain_pct": 49,
-      "uv": 9,
+      "uv": 8,
       "sunrise": "2026-05-04T06:11",
       "sunset": "2026-05-04T20:04",
-      "predicted_score": 60,
-      "score_label": "Use caution"
+      "predicted_score": 70,
+      "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-04-30T23:15:55.960350+00:00"
+  "updated_at": "2026-04-30T23:32:52.281821+00:00"
 }
