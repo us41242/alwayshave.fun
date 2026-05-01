@@ -19,20 +19,18 @@
   "vehicle_req": "4WD",
   "score": 80,
   "score_label": "Good conditions",
-  "gear_flags": [
-    "insulation layer required"
-  ],
+  "gear_flags": [],
   "current": {
-    "temp_f": 44,
-    "feels_like_f": 33,
+    "temp_f": 46,
+    "feels_like_f": 35,
     "wind_mph": 12,
-    "gusts_mph": 19,
+    "gusts_mph": 16,
     "rain_pct": 0
   },
   "sunrise": "2026-05-01T05:42",
   "sunset": "2026-05-01T19:24",
   "aqi": {
-    "aqi": 39,
+    "aqi": 37,
     "category": "Good",
     "pollutant": "PM2.5",
     "source": "open-meteo"
@@ -100,5 +98,5 @@
       "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-05-01T14:43:49.098561+00:00"
+  "updated_at": "2026-05-01T15:03:49.406000+00:00"
 }
