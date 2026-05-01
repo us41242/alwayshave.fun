@@ -32,10 +32,10 @@
   "sunrise": "2026-04-30T05:38",
   "sunset": "2026-04-30T19:17",
   "aqi": {
-    "aqi": 71,
+    "aqi": 99,
     "category": "Moderate",
-    "pollutant": "O3",
-    "source": "airnow"
+    "pollutant": "PM2.5",
+    "source": "open-meteo"
   },
   "fire": {
     "risk_level": "low",
@@ -100,5 +100,5 @@
       "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-04-30T23:45:27.289189+00:00"
+  "updated_at": "2026-05-01T00:09:07.046484+00:00"
 }

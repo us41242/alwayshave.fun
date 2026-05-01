@@ -17,11 +17,9 @@
   "notes": "Road open late Jun \u2014 check NPS seasonal closure",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 60,
-  "score_label": "Use caution",
-  "gear_flags": [
-    "insulation layer required"
-  ],
+  "score": 30,
+  "score_label": "Conditions poor",
+  "gear_flags": [],
   "current": {
     "temp_f": 23,
     "feels_like_f": 14,
@@ -29,13 +27,13 @@
     "gusts_mph": 16,
     "rain_pct": 2
   },
-  "sunrise": "2026-04-30T05:39",
-  "sunset": "2026-04-30T19:28",
+  "sunrise": "",
+  "sunset": "",
   "aqi": {
-    "aqi": 45,
-    "category": "Good",
-    "pollutant": "O3",
-    "source": "airnow"
+    "aqi": null,
+    "category": "Unknown",
+    "pollutant": "",
+    "source": "none"
   },
   "fire": {
     "risk_level": "low",
@@ -43,62 +41,6 @@
     "fire_count_50km": 0
   },
   "river": null,
-  "forecast": [
-    {
-      "date": "2026-04-30",
-      "high_f": 23,
-      "low_f": 12,
-      "rain_pct": 3,
-      "uv": 8,
-      "sunrise": "2026-04-30T05:39",
-      "sunset": "2026-04-30T19:28",
-      "predicted_score": 60,
-      "score_label": "Use caution"
-    },
-    {
-      "date": "2026-05-01",
-      "high_f": 30,
-      "low_f": 12,
-      "rain_pct": 1,
-      "uv": 8,
-      "sunrise": "2026-05-01T05:38",
-      "sunset": "2026-05-01T19:29",
-      "predicted_score": 60,
-      "score_label": "Use caution"
-    },
-    {
-      "date": "2026-05-02",
-      "high_f": 39,
-      "low_f": 19,
-      "rain_pct": 2,
-      "uv": 7,
-      "sunrise": "2026-05-02T05:37",
-      "sunset": "2026-05-02T19:30",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
-    },
-    {
-      "date": "2026-05-03",
-      "high_f": 39,
-      "low_f": 18,
-      "rain_pct": 37,
-      "uv": 5,
-      "sunrise": "2026-05-03T05:36",
-      "sunset": "2026-05-03T19:31",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
-    },
-    {
-      "date": "2026-05-04",
-      "high_f": 34,
-      "low_f": 20,
-      "rain_pct": 39,
-      "uv": 6,
-      "sunrise": "2026-05-04T05:35",
-      "sunset": "2026-05-04T19:32",
-      "predicted_score": 60,
-      "score_label": "Use caution"
-    }
-  ],
-  "updated_at": "2026-04-30T23:43:45.368150+00:00"
+  "forecast": [],
+  "updated_at": "2026-05-01T00:06:20.428247+00:00"
 }

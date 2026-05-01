@@ -17,23 +17,25 @@
   "notes": "Multi-day backpack; no established campsites \u2014 LNT",
   "dog_friendly": "Yes",
   "vehicle_req": "AWD",
-  "score": 100,
+  "score": 90,
   "score_label": "Great day to go",
-  "gear_flags": [],
+  "gear_flags": [
+    "mask for sensitive groups"
+  ],
   "current": {
-    "temp_f": 58,
+    "temp_f": 57,
     "feels_like_f": 46,
     "wind_mph": 15,
-    "gusts_mph": 19,
+    "gusts_mph": 20,
     "rain_pct": 0
   },
   "sunrise": "2026-04-30T06:39",
   "sunset": "2026-04-30T20:22",
   "aqi": {
-    "aqi": 48,
-    "category": "Good",
-    "pollutant": "O3",
-    "source": "airnow"
+    "aqi": 80,
+    "category": "Moderate",
+    "pollutant": "PM2.5",
+    "source": "open-meteo"
   },
   "fire": {
     "risk_level": "low",
@@ -50,7 +52,7 @@
       "uv": 8,
       "sunrise": "2026-04-30T06:39",
       "sunset": "2026-04-30T20:22",
-      "predicted_score": 100,
+      "predicted_score": 90,
       "score_label": "Great day to go"
     },
     {
@@ -61,7 +63,7 @@
       "uv": 8,
       "sunrise": "2026-05-01T06:38",
       "sunset": "2026-05-01T20:23",
-      "predicted_score": 100,
+      "predicted_score": 90,
       "score_label": "Great day to go"
     },
     {
@@ -72,7 +74,7 @@
       "uv": 8,
       "sunrise": "2026-05-02T06:37",
       "sunset": "2026-05-02T20:24",
-      "predicted_score": 100,
+      "predicted_score": 90,
       "score_label": "Great day to go"
     },
     {
@@ -83,8 +85,8 @@
       "uv": 7,
       "sunrise": "2026-05-03T06:36",
       "sunset": "2026-05-03T20:25",
-      "predicted_score": 88,
-      "score_label": "Great day to go"
+      "predicted_score": 78,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-05-04",
@@ -94,9 +96,9 @@
       "uv": 8,
       "sunrise": "2026-05-04T06:35",
       "sunset": "2026-05-04T20:26",
-      "predicted_score": 88,
-      "score_label": "Great day to go"
+      "predicted_score": 78,
+      "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-04-30T23:52:20.456854+00:00"
+  "updated_at": "2026-05-01T00:19:24.832441+00:00"
 }
