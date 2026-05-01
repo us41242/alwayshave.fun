@@ -27,7 +27,7 @@
     "feels_like_f": 30,
     "wind_mph": 5,
     "gusts_mph": 7,
-    "rain_pct": 2
+    "rain_pct": 3
   },
   "sunrise": "2026-05-01T06:01",
   "sunset": "2026-05-01T19:57",
@@ -58,7 +58,7 @@
     {
       "date": "2026-05-02",
       "high_f": 44,
-      "low_f": 20,
+      "low_f": 21,
       "rain_pct": 2,
       "uv": 9,
       "sunrise": "2026-05-02T06:00",
@@ -100,5 +100,5 @@
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-05-01T19:09:40.557235+00:00"
+  "updated_at": "2026-05-01T19:28:34.415004+00:00"
 }
