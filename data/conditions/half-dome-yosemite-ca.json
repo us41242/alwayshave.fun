@@ -20,14 +20,13 @@
   "score": 70,
   "score_label": "Good conditions",
   "gear_flags": [
-    "wind layer recommended",
     "insulation layer required"
   ],
   "current": {
-    "temp_f": 37,
+    "temp_f": 36,
     "feels_like_f": 25,
-    "wind_mph": 14,
-    "gusts_mph": 21,
+    "wind_mph": 13,
+    "gusts_mph": 18,
     "rain_pct": 0
   },
   "sunrise": "2026-05-01T06:01",
@@ -101,5 +100,5 @@
       "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-05-01T10:55:11.684562+00:00"
+  "updated_at": "2026-05-01T11:13:03.015914+00:00"
 }
