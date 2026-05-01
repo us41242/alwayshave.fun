@@ -23,10 +23,10 @@
     "insulation layer required"
   ],
   "current": {
-    "temp_f": 25,
-    "feels_like_f": 20,
+    "temp_f": 26,
+    "feels_like_f": 23,
     "wind_mph": 3,
-    "gusts_mph": 6,
+    "gusts_mph": 7,
     "rain_pct": 0
   },
   "sunrise": "2026-05-01T06:14",
@@ -48,7 +48,7 @@
       "date": "2026-05-01",
       "high_f": 34,
       "low_f": 15,
-      "rain_pct": 34,
+      "rain_pct": 37,
       "uv": 8,
       "sunrise": "2026-05-01T06:14",
       "sunset": "2026-05-01T20:01",
@@ -59,7 +59,7 @@
       "date": "2026-05-02",
       "high_f": 41,
       "low_f": 18,
-      "rain_pct": 19,
+      "rain_pct": 16,
       "uv": 8,
       "sunrise": "2026-05-02T06:13",
       "sunset": "2026-05-02T20:02",
@@ -100,5 +100,5 @@
       "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-05-01T16:29:15.044314+00:00"
+  "updated_at": "2026-05-01T16:49:30.036677+00:00"
 }
