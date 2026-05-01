@@ -24,10 +24,10 @@
   ],
   "current": {
     "temp_f": 41,
-    "feels_like_f": 36,
-    "wind_mph": 5,
-    "gusts_mph": 5,
-    "rain_pct": 1
+    "feels_like_f": 34,
+    "wind_mph": 8,
+    "gusts_mph": 12,
+    "rain_pct": 2
   },
   "sunrise": "2026-04-30T06:02",
   "sunset": "2026-04-30T19:47",
@@ -59,7 +59,7 @@
       "date": "2026-05-01",
       "high_f": 51,
       "low_f": 37,
-      "rain_pct": 17,
+      "rain_pct": 13,
       "uv": 8,
       "sunrise": "2026-05-01T06:01",
       "sunset": "2026-05-01T19:48",
@@ -100,5 +100,5 @@
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-05-01T04:28:55.365493+00:00"
+  "updated_at": "2026-05-01T04:48:49.944259+00:00"
 }
