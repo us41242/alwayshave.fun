@@ -23,16 +23,16 @@
     "N95 mask recommended"
   ],
   "current": {
-    "temp_f": 59,
-    "feels_like_f": 51,
+    "temp_f": 57,
+    "feels_like_f": 49,
     "wind_mph": 5,
-    "gusts_mph": 5,
+    "gusts_mph": 7,
     "rain_pct": 0
   },
   "sunrise": "2026-04-30T05:36",
   "sunset": "2026-04-30T19:14",
   "aqi": {
-    "aqi": 111,
+    "aqi": 113,
     "category": "Unhealthy for Sensitive Groups",
     "pollutant": "PM2.5",
     "source": "open-meteo"
@@ -71,7 +71,7 @@
     },
     {
       "date": "2026-05-02",
-      "high_f": 67,
+      "high_f": 66,
       "low_f": 45,
       "rain_pct": 3,
       "uv": 8,
@@ -103,5 +103,5 @@
       "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-05-01T01:46:23.514925+00:00"
+  "updated_at": "2026-05-01T02:03:31.247719+00:00"
 }
