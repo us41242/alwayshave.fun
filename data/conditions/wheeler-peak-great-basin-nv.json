@@ -32,14 +32,14 @@
   "sunrise": "2026-05-01T05:38",
   "sunset": "2026-05-01T19:29",
   "aqi": {
-    "aqi": 45,
+    "aqi": 46,
     "category": "Good",
     "pollutant": "O3",
     "source": "airnow"
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": 129.4,
+    "nearest_fire_km": null,
     "fire_count_50km": 0
   },
   "river": null,
@@ -100,5 +100,5 @@
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-05-01T12:03:05.183782+00:00"
+  "updated_at": "2026-05-01T12:24:10.490221+00:00"
 }
