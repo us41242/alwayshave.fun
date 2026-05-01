@@ -23,10 +23,10 @@
     "N95 mask recommended"
   ],
   "current": {
-    "temp_f": 62,
-    "feels_like_f": 54,
-    "wind_mph": 4,
-    "gusts_mph": 11,
+    "temp_f": 61,
+    "feels_like_f": 52,
+    "wind_mph": 7,
+    "gusts_mph": 10,
     "rain_pct": 0
   },
   "sunrise": "2026-04-30T05:36",
@@ -42,11 +42,14 @@
     "nearest_fire_km": null,
     "fire_count_50km": 0
   },
-  "river": null,
+  "river": {
+    "cfs": 8010,
+    "stage": "flood"
+  },
   "forecast": [
     {
       "date": "2026-04-30",
-      "high_f": 63,
+      "high_f": 64,
       "low_f": 39,
       "rain_pct": 0,
       "uv": 8,
@@ -100,5 +103,5 @@
       "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-05-01T00:27:59.085231+00:00"
+  "updated_at": "2026-05-01T00:46:01.689084+00:00"
 }
