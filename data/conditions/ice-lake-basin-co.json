@@ -23,14 +23,14 @@
     "insulation layer required"
   ],
   "current": {
-    "temp_f": 18,
-    "feels_like_f": 9,
+    "temp_f": 17,
+    "feels_like_f": 8,
     "wind_mph": 7,
-    "gusts_mph": 14,
+    "gusts_mph": 15,
     "rain_pct": 0
   },
-  "sunrise": "2026-04-30T06:15",
-  "sunset": "2026-04-30T20:00",
+  "sunrise": "2026-05-01T06:14",
+  "sunset": "2026-05-01T20:01",
   "aqi": {
     "aqi": 14,
     "category": "Good",
@@ -44,17 +44,6 @@
   },
   "river": null,
   "forecast": [
-    {
-      "date": "2026-04-30",
-      "high_f": 30,
-      "low_f": 18,
-      "rain_pct": 9,
-      "uv": 8,
-      "sunrise": "2026-04-30T06:15",
-      "sunset": "2026-04-30T20:00",
-      "predicted_score": 60,
-      "score_label": "Use caution"
-    },
     {
       "date": "2026-05-01",
       "high_f": 34,
@@ -98,7 +87,18 @@
       "sunset": "2026-05-04T20:04",
       "predicted_score": 70,
       "score_label": "Good conditions"
+    },
+    {
+      "date": "2026-05-05",
+      "high_f": 38,
+      "low_f": 18,
+      "rain_pct": 40,
+      "uv": 9,
+      "sunrise": "2026-05-05T06:10",
+      "sunset": "2026-05-05T20:05",
+      "predicted_score": 70,
+      "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-05-01T05:53:02.962166+00:00"
+  "updated_at": "2026-05-01T06:09:38.012197+00:00"
 }
