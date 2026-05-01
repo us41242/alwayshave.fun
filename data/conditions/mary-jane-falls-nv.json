@@ -26,13 +26,13 @@
     "temp_f": 40,
     "feels_like_f": 30,
     "wind_mph": 9,
-    "gusts_mph": 15,
+    "gusts_mph": 14,
     "rain_pct": 0
   },
   "sunrise": "2026-04-30T05:50",
   "sunset": "2026-04-30T19:29",
   "aqi": {
-    "aqi": 29,
+    "aqi": 22,
     "category": "Good",
     "pollutant": "PM10",
     "source": "airnow"
@@ -100,5 +100,5 @@
       "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-05-01T05:07:50.099230+00:00"
+  "updated_at": "2026-05-01T05:25:49.825232+00:00"
 }
