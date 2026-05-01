@@ -17,8 +17,8 @@
   "notes": "Flash flood danger \u2014 check weather 24hr upstream",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 88,
-  "score_label": "Great day to go",
+  "score": 60,
+  "score_label": "Use caution",
   "gear_flags": [],
   "current": {
     "temp_f": 46,
@@ -27,10 +27,10 @@
     "gusts_mph": 14,
     "rain_pct": 0
   },
-  "sunrise": "2026-05-01T06:36",
-  "sunset": "2026-05-01T20:21",
+  "sunrise": "",
+  "sunset": "",
   "aqi": {
-    "aqi": 44,
+    "aqi": 45,
     "category": "Good",
     "pollutant": "O3",
     "source": "airnow"
@@ -41,65 +41,9 @@
     "fire_count_50km": 0
   },
   "river": {
-    "cfs": 7700,
+    "cfs": 7150,
     "stage": "flood"
   },
-  "forecast": [
-    {
-      "date": "2026-05-01",
-      "high_f": 62,
-      "low_f": 40,
-      "rain_pct": 7,
-      "uv": 8,
-      "sunrise": "2026-05-01T06:36",
-      "sunset": "2026-05-01T20:21",
-      "predicted_score": 100,
-      "score_label": "Great day to go"
-    },
-    {
-      "date": "2026-05-02",
-      "high_f": 66,
-      "low_f": 42,
-      "rain_pct": 2,
-      "uv": 8,
-      "sunrise": "2026-05-02T06:34",
-      "sunset": "2026-05-02T20:22",
-      "predicted_score": 100,
-      "score_label": "Great day to go"
-    },
-    {
-      "date": "2026-05-03",
-      "high_f": 65,
-      "low_f": 49,
-      "rain_pct": 51,
-      "uv": 8,
-      "sunrise": "2026-05-03T06:33",
-      "sunset": "2026-05-03T20:23",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
-    },
-    {
-      "date": "2026-05-04",
-      "high_f": 59,
-      "low_f": 44,
-      "rain_pct": 51,
-      "uv": 8,
-      "sunrise": "2026-05-04T06:32",
-      "sunset": "2026-05-04T20:24",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
-    },
-    {
-      "date": "2026-05-05",
-      "high_f": 56,
-      "low_f": 38,
-      "rain_pct": 31,
-      "uv": 8,
-      "sunrise": "2026-05-05T06:31",
-      "sunset": "2026-05-05T20:24",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
-    }
-  ],
-  "updated_at": "2026-05-01T06:06:21.827269+00:00"
+  "forecast": [],
+  "updated_at": "2026-05-01T06:27:09.147676+00:00"
 }
