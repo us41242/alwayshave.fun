@@ -43,13 +43,13 @@
     "fire_count_50km": 0
   },
   "river": {
-    "cfs": 7450,
+    "cfs": 7660,
     "stage": "flood"
   },
   "forecast": [
     {
       "date": "2026-05-01",
-      "high_f": 63,
+      "high_f": 62,
       "low_f": 44,
       "rain_pct": 4,
       "uv": 8,
@@ -61,7 +61,7 @@
     {
       "date": "2026-05-02",
       "high_f": 66,
-      "low_f": 45,
+      "low_f": 44,
       "rain_pct": 1,
       "uv": 8,
       "sunrise": "2026-05-02T05:34",
@@ -103,5 +103,5 @@
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-05-01T18:23:53.645267+00:00"
+  "updated_at": "2026-05-01T18:43:55.653211+00:00"
 }
