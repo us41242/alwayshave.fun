@@ -32,8 +32,8 @@
   "aqi": {
     "aqi": 50,
     "category": "Good",
-    "pollutant": "PM2.5",
-    "source": "open-meteo"
+    "pollutant": "O3",
+    "source": "airnow"
   },
   "fire": {
     "risk_level": "low",
@@ -98,5 +98,5 @@
       "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-05-01T21:30:55.788866+00:00"
+  "updated_at": "2026-05-01T21:50:11.374049+00:00"
 }

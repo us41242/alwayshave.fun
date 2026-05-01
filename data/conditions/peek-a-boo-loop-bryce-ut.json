@@ -17,8 +17,8 @@
   "notes": "Hoodoos narrow \u2014 ice possible May/Oct",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 78,
-  "score_label": "Good conditions",
+  "score": 50,
+  "score_label": "Use caution",
   "gear_flags": [
     "mask for sensitive groups"
   ],
@@ -29,8 +29,8 @@
     "gusts_mph": 12,
     "rain_pct": 12
   },
-  "sunrise": "2026-05-01T06:32",
-  "sunset": "2026-05-01T20:18",
+  "sunrise": "",
+  "sunset": "",
   "aqi": {
     "aqi": 61,
     "category": "Moderate",
@@ -43,62 +43,6 @@
     "fire_count_50km": 0
   },
   "river": null,
-  "forecast": [
-    {
-      "date": "2026-05-01",
-      "high_f": 53,
-      "low_f": 27,
-      "rain_pct": 12,
-      "uv": 8,
-      "sunrise": "2026-05-01T06:32",
-      "sunset": "2026-05-01T20:18",
-      "predicted_score": 78,
-      "score_label": "Good conditions"
-    },
-    {
-      "date": "2026-05-02",
-      "high_f": 58,
-      "low_f": 35,
-      "rain_pct": 0,
-      "uv": 8,
-      "sunrise": "2026-05-02T06:31",
-      "sunset": "2026-05-02T20:19",
-      "predicted_score": 90,
-      "score_label": "Great day to go"
-    },
-    {
-      "date": "2026-05-03",
-      "high_f": 62,
-      "low_f": 44,
-      "rain_pct": 32,
-      "uv": 8,
-      "sunrise": "2026-05-03T06:30",
-      "sunset": "2026-05-03T20:20",
-      "predicted_score": 60,
-      "score_label": "Use caution"
-    },
-    {
-      "date": "2026-05-04",
-      "high_f": 52,
-      "low_f": 39,
-      "rain_pct": 32,
-      "uv": 7,
-      "sunrise": "2026-05-04T06:29",
-      "sunset": "2026-05-04T20:21",
-      "predicted_score": 60,
-      "score_label": "Use caution"
-    },
-    {
-      "date": "2026-05-05",
-      "high_f": 52,
-      "low_f": 31,
-      "rain_pct": 33,
-      "uv": 8,
-      "sunrise": "2026-05-05T06:28",
-      "sunset": "2026-05-05T20:22",
-      "predicted_score": 60,
-      "score_label": "Use caution"
-    }
-  ],
-  "updated_at": "2026-05-01T21:23:05.288258+00:00"
+  "forecast": [],
+  "updated_at": "2026-05-01T21:45:00.904724+00:00"
 }
