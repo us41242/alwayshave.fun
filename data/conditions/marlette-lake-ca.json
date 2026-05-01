@@ -19,22 +19,20 @@
   "vehicle_req": "AWD",
   "score": 80,
   "score_label": "Good conditions",
-  "gear_flags": [
-    "insulation layer required"
-  ],
+  "gear_flags": [],
   "current": {
-    "temp_f": 44,
-    "feels_like_f": 34,
+    "temp_f": 45,
+    "feels_like_f": 35,
     "wind_mph": 10,
-    "gusts_mph": 14,
+    "gusts_mph": 15,
     "rain_pct": 0
   },
   "sunrise": "2026-05-01T06:00",
   "sunset": "2026-05-01T19:52",
   "aqi": {
-    "aqi": 25,
+    "aqi": 18,
     "category": "Good",
-    "pollutant": "PM2.5",
+    "pollutant": "O3",
     "source": "airnow"
   },
   "fire": {
@@ -100,5 +98,5 @@
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-05-01T13:51:13.030394+00:00"
+  "updated_at": "2026-05-01T14:14:54.433816+00:00"
 }
