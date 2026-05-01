@@ -17,17 +17,17 @@
   "notes": "Multi-day \u2014 permit required; flash flood danger",
   "dog_friendly": "Yes",
   "vehicle_req": "High-Clearance",
-  "score": 90,
-  "score_label": "Great day to go",
+  "score": 78,
+  "score_label": "Good conditions",
   "gear_flags": [
     "mask for sensitive groups"
   ],
   "current": {
     "temp_f": 70,
-    "feels_like_f": 65,
-    "wind_mph": 4,
-    "gusts_mph": 14,
-    "rain_pct": 6
+    "feels_like_f": 61,
+    "wind_mph": 12,
+    "gusts_mph": 13,
+    "rain_pct": 10
   },
   "sunrise": "2026-05-01T06:32",
   "sunset": "2026-05-01T20:16",
@@ -48,12 +48,12 @@
       "date": "2026-05-01",
       "high_f": 70,
       "low_f": 46,
-      "rain_pct": 6,
+      "rain_pct": 14,
       "uv": 8,
       "sunrise": "2026-05-01T06:32",
       "sunset": "2026-05-01T20:16",
-      "predicted_score": 90,
-      "score_label": "Great day to go"
+      "predicted_score": 78,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-05-02",
@@ -100,5 +100,5 @@
       "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-05-01T22:25:41.542149+00:00"
+  "updated_at": "2026-05-01T22:49:04.058363+00:00"
 }
