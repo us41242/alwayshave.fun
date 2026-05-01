@@ -17,14 +17,16 @@
   "notes": "Paved trail \u2014 no permit required",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 88,
+  "score": 100,
   "score_label": "Great day to go",
-  "gear_flags": [],
+  "gear_flags": [
+    "wind layer recommended"
+  ],
   "current": {
     "temp_f": 75,
-    "feels_like_f": 68,
-    "wind_mph": 5,
-    "gusts_mph": 11,
+    "feels_like_f": 65,
+    "wind_mph": 11,
+    "gusts_mph": 20,
     "rain_pct": 0
   },
   "sunrise": "2026-04-30T05:46",
@@ -55,9 +57,9 @@
     },
     {
       "date": "2026-05-01",
-      "high_f": 89,
+      "high_f": 88,
       "low_f": 66,
-      "rain_pct": 1,
+      "rain_pct": 0,
       "uv": 8,
       "sunrise": "2026-05-01T05:45",
       "sunset": "2026-05-01T19:26",
@@ -98,5 +100,5 @@
       "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-05-01T06:27:49.356120+00:00"
+  "updated_at": "2026-05-01T06:47:53.461275+00:00"
 }
