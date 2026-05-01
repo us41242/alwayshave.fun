@@ -25,9 +25,9 @@
   "current": {
     "temp_f": 58,
     "feels_like_f": 52,
-    "wind_mph": 11,
+    "wind_mph": 10,
     "gusts_mph": 13,
-    "rain_pct": 0
+    "rain_pct": 1
   },
   "sunrise": "2026-05-01T06:38",
   "sunset": "2026-05-01T20:23",
@@ -58,7 +58,7 @@
     {
       "date": "2026-05-02",
       "high_f": 66,
-      "low_f": 42,
+      "low_f": 41,
       "rain_pct": 0,
       "uv": 8,
       "sunrise": "2026-05-02T06:37",
@@ -100,5 +100,5 @@
       "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-05-01T20:26:19.386515+00:00"
+  "updated_at": "2026-05-01T20:48:08.135351+00:00"
 }
