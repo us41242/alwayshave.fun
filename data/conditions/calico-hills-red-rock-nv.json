@@ -23,7 +23,7 @@
   "current": {
     "temp_f": 58,
     "feels_like_f": 50,
-    "wind_mph": 6,
+    "wind_mph": 4,
     "gusts_mph": 6,
     "rain_pct": 0
   },
@@ -44,7 +44,7 @@
   "forecast": [
     {
       "date": "2026-05-01",
-      "high_f": 74,
+      "high_f": 75,
       "low_f": 55,
       "rain_pct": 1,
       "uv": 8,
@@ -98,5 +98,5 @@
       "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-05-01T09:22:46.359575+00:00"
+  "updated_at": "2026-05-01T09:41:17.665488+00:00"
 }
