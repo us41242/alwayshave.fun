@@ -23,11 +23,11 @@
     "insulation layer required"
   ],
   "current": {
-    "temp_f": 23,
+    "temp_f": 24,
     "feels_like_f": 20,
     "wind_mph": 4,
-    "gusts_mph": 11,
-    "rain_pct": 5
+    "gusts_mph": 10,
+    "rain_pct": 6
   },
   "sunrise": "2026-05-01T05:59",
   "sunset": "2026-05-01T19:41",
@@ -49,7 +49,7 @@
   "forecast": [
     {
       "date": "2026-05-01",
-      "high_f": 23,
+      "high_f": 24,
       "low_f": 6,
       "rain_pct": 7,
       "uv": 9,
@@ -103,5 +103,5 @@
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-05-01T22:10:42.642022+00:00"
+  "updated_at": "2026-05-01T22:31:45.504616+00:00"
 }
