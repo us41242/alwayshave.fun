@@ -23,8 +23,8 @@
     "insulation layer required"
   ],
   "current": {
-    "temp_f": 33,
-    "feels_like_f": 24,
+    "temp_f": 32,
+    "feels_like_f": 23,
     "wind_mph": 12,
     "gusts_mph": 20,
     "rain_pct": 3
@@ -32,7 +32,7 @@
   "sunrise": "2026-04-30T06:10",
   "sunset": "2026-04-30T20:01",
   "aqi": {
-    "aqi": 31,
+    "aqi": 36,
     "category": "Good",
     "pollutant": "O3",
     "source": "airnow"
@@ -100,5 +100,5 @@
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-05-01T03:45:54.289239+00:00"
+  "updated_at": "2026-05-01T04:10:07.328714+00:00"
 }
