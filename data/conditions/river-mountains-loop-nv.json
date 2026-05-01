@@ -17,16 +17,16 @@
   "notes": "Full loop 34mi \u2014 sections open to bikes/horses",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 86,
-  "score_label": "Great day to go",
+  "score": 74,
+  "score_label": "Good conditions",
   "gear_flags": [
     "N95 mask recommended for wildfire smoke"
   ],
   "current": {
-    "temp_f": 75,
-    "feels_like_f": 68,
-    "wind_mph": 10,
-    "gusts_mph": 11,
+    "temp_f": 76,
+    "feels_like_f": 69,
+    "wind_mph": 12,
+    "gusts_mph": 13,
     "rain_pct": 0
   },
   "sunrise": "2026-05-01T05:46",
@@ -69,9 +69,9 @@
     {
       "date": "2026-05-03",
       "high_f": 87,
-      "low_f": 64,
+      "low_f": 63,
       "rain_pct": 4,
-      "uv": 8,
+      "uv": 7,
       "sunrise": "2026-05-03T05:44",
       "sunset": "2026-05-03T19:28",
       "predicted_score": 56,
@@ -79,8 +79,8 @@
     },
     {
       "date": "2026-05-04",
-      "high_f": 71,
-      "low_f": 52,
+      "high_f": 70,
+      "low_f": 53,
       "rain_pct": 2,
       "uv": 6,
       "sunrise": "2026-05-04T05:43",
@@ -90,8 +90,8 @@
     },
     {
       "date": "2026-05-05",
-      "high_f": 72,
-      "low_f": 50,
+      "high_f": 71,
+      "low_f": 46,
       "rain_pct": 6,
       "uv": 8,
       "sunrise": "2026-05-05T05:42",
@@ -100,5 +100,5 @@
       "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-05-01T17:26:38.281030+00:00"
+  "updated_at": "2026-05-01T17:46:18.758421+00:00"
 }
