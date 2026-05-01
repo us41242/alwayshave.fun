@@ -17,14 +17,14 @@
   "notes": "No cars beyond Spooner Summit; bike-legal trail",
   "dog_friendly": "Yes",
   "vehicle_req": "AWD",
-  "score": 80,
-  "score_label": "Good conditions",
+  "score": 92,
+  "score_label": "Great day to go",
   "gear_flags": [],
   "current": {
-    "temp_f": 49,
-    "feels_like_f": 41,
+    "temp_f": 50,
+    "feels_like_f": 42,
     "wind_mph": 8,
-    "gusts_mph": 14,
+    "gusts_mph": 15,
     "rain_pct": 0
   },
   "sunrise": "2026-05-01T06:00",
@@ -44,7 +44,7 @@
   "forecast": [
     {
       "date": "2026-05-01",
-      "high_f": 58,
+      "high_f": 59,
       "low_f": 42,
       "rain_pct": 1,
       "uv": 8,
@@ -68,7 +68,7 @@
       "date": "2026-05-03",
       "high_f": 54,
       "low_f": 35,
-      "rain_pct": 78,
+      "rain_pct": 74,
       "uv": 6,
       "sunrise": "2026-05-03T05:58",
       "sunset": "2026-05-03T19:54",
@@ -79,7 +79,7 @@
       "date": "2026-05-04",
       "high_f": 53,
       "low_f": 35,
-      "rain_pct": 67,
+      "rain_pct": 74,
       "uv": 8,
       "sunrise": "2026-05-04T05:57",
       "sunset": "2026-05-04T19:55",
@@ -90,7 +90,7 @@
       "date": "2026-05-05",
       "high_f": 59,
       "low_f": 40,
-      "rain_pct": 38,
+      "rain_pct": 45,
       "uv": 7,
       "sunrise": "2026-05-05T05:56",
       "sunset": "2026-05-05T19:56",
@@ -98,5 +98,5 @@
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-05-01T15:12:19.666867+00:00"
+  "updated_at": "2026-05-01T15:33:14.948456+00:00"
 }
