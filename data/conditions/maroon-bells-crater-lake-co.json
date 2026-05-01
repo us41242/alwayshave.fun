@@ -17,25 +17,26 @@
   "notes": "Shuttle required from Aspen 5am\u20135pm; no private vehicles",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 60,
-  "score_label": "Use caution",
+  "score": 40,
+  "score_label": "Conditions poor",
   "gear_flags": [
-    "insulation layer required"
+    "insulation layer required",
+    "N95 mask recommended"
   ],
   "current": {
-    "temp_f": 20,
-    "feels_like_f": 11,
+    "temp_f": 19,
+    "feels_like_f": 10,
     "wind_mph": 7,
-    "gusts_mph": 7,
-    "rain_pct": 30
+    "gusts_mph": 10,
+    "rain_pct": 27
   },
   "sunrise": "2026-04-30T06:10",
   "sunset": "2026-04-30T19:59",
   "aqi": {
-    "aqi": 18,
-    "category": "Good",
+    "aqi": 107,
+    "category": "Unhealthy for Sensitive Groups",
     "pollutant": "PM2.5",
-    "source": "airnow"
+    "source": "open-meteo"
   },
   "fire": {
     "risk_level": "low",
@@ -52,8 +53,8 @@
       "uv": 9,
       "sunrise": "2026-04-30T06:10",
       "sunset": "2026-04-30T19:59",
-      "predicted_score": 60,
-      "score_label": "Use caution"
+      "predicted_score": 40,
+      "score_label": "Conditions poor"
     },
     {
       "date": "2026-05-01",
@@ -63,8 +64,8 @@
       "uv": 9,
       "sunrise": "2026-05-01T06:09",
       "sunset": "2026-05-01T20:00",
-      "predicted_score": 60,
-      "score_label": "Use caution"
+      "predicted_score": 40,
+      "score_label": "Conditions poor"
     },
     {
       "date": "2026-05-02",
@@ -74,8 +75,8 @@
       "uv": 9,
       "sunrise": "2026-05-02T06:08",
       "sunset": "2026-05-02T20:01",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
+      "predicted_score": 50,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-05-03",
@@ -85,8 +86,8 @@
       "uv": 8,
       "sunrise": "2026-05-03T06:06",
       "sunset": "2026-05-03T20:02",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
+      "predicted_score": 50,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-05-04",
@@ -96,9 +97,9 @@
       "uv": 7,
       "sunrise": "2026-05-04T06:05",
       "sunset": "2026-05-04T20:03",
-      "predicted_score": 60,
-      "score_label": "Use caution"
+      "predicted_score": 40,
+      "score_label": "Conditions poor"
     }
   ],
-  "updated_at": "2026-05-01T00:53:38.890412+00:00"
+  "updated_at": "2026-05-01T01:16:22.953878+00:00"
 }
