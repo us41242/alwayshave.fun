@@ -23,7 +23,7 @@
     "insulation layer required"
   ],
   "current": {
-    "temp_f": 6,
+    "temp_f": 5,
     "feels_like_f": -4,
     "wind_mph": 4,
     "gusts_mph": 7,
@@ -39,7 +39,7 @@
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": 520.7,
+    "nearest_fire_km": 143.6,
     "fire_count_50km": 0
   },
   "river": {
@@ -103,5 +103,5 @@
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-05-01T12:50:49.622908+00:00"
+  "updated_at": "2026-05-01T13:12:08.982120+00:00"
 }
