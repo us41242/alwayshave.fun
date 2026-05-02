@@ -17,20 +17,20 @@
   "notes": "Near Death Valley \u2014 extreme summer heat",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 50,
-  "score_label": "Use caution",
+  "score": 78,
+  "score_label": "Good conditions",
   "gear_flags": [
     "mask for sensitive groups"
   ],
   "current": {
-    "temp_f": 78,
+    "temp_f": 79,
     "feels_like_f": 71,
     "wind_mph": 10,
     "gusts_mph": 10,
     "rain_pct": 0
   },
-  "sunrise": "",
-  "sunset": "",
+  "sunrise": "2026-05-02T05:51",
+  "sunset": "2026-05-02T19:36",
   "aqi": {
     "aqi": 74,
     "category": "Moderate",
@@ -43,6 +43,62 @@
     "fire_count_50km": 0
   },
   "river": null,
-  "forecast": [],
-  "updated_at": "2026-05-02T22:28:31.219733+00:00"
+  "forecast": [
+    {
+      "date": "2026-05-02",
+      "high_f": 78,
+      "low_f": 57,
+      "rain_pct": 0,
+      "uv": 8,
+      "sunrise": "2026-05-02T05:51",
+      "sunset": "2026-05-02T19:36",
+      "predicted_score": 78,
+      "score_label": "Good conditions"
+    },
+    {
+      "date": "2026-05-03",
+      "high_f": 80,
+      "low_f": 58,
+      "rain_pct": 2,
+      "uv": 8,
+      "sunrise": "2026-05-03T05:50",
+      "sunset": "2026-05-03T19:37",
+      "predicted_score": 78,
+      "score_label": "Good conditions"
+    },
+    {
+      "date": "2026-05-04",
+      "high_f": 67,
+      "low_f": 45,
+      "rain_pct": 16,
+      "uv": 8,
+      "sunrise": "2026-05-04T05:49",
+      "sunset": "2026-05-04T19:38",
+      "predicted_score": 78,
+      "score_label": "Good conditions"
+    },
+    {
+      "date": "2026-05-05",
+      "high_f": 58,
+      "low_f": 46,
+      "rain_pct": 29,
+      "uv": 3,
+      "sunrise": "2026-05-05T05:48",
+      "sunset": "2026-05-05T19:39",
+      "predicted_score": 78,
+      "score_label": "Good conditions"
+    },
+    {
+      "date": "2026-05-06",
+      "high_f": 79,
+      "low_f": 51,
+      "rain_pct": 4,
+      "uv": 8,
+      "sunrise": "2026-05-06T05:47",
+      "sunset": "2026-05-06T19:40",
+      "predicted_score": 78,
+      "score_label": "Good conditions"
+    }
+  ],
+  "updated_at": "2026-05-02T22:48:25.681011+00:00"
 }
