@@ -17,11 +17,10 @@
   "notes": "Timed entry permit required Jun\u2013Oct; Bear Lake Rd closes seasonally",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 36,
-  "score_label": "Conditions poor",
+  "score": 16,
+  "score_label": "Stay home",
   "gear_flags": [
     "insulation layer required",
-    "mask for sensitive groups",
     "N95 mask recommended for wildfire smoke"
   ],
   "current": {
@@ -34,10 +33,10 @@
   "sunrise": "2026-05-02T06:00",
   "sunset": "2026-05-02T19:58",
   "aqi": {
-    "aqi": 61,
-    "category": "Moderate",
-    "pollutant": "PM2.5",
-    "source": "open-meteo"
+    "aqi": null,
+    "category": "Unknown",
+    "pollutant": "",
+    "source": "none"
   },
   "fire": {
     "risk_level": "elevated",
@@ -54,8 +53,8 @@
       "uv": 9,
       "sunrise": "2026-05-02T06:00",
       "sunset": "2026-05-02T19:58",
-      "predicted_score": 64,
-      "score_label": "Use caution"
+      "predicted_score": 44,
+      "score_label": "Conditions poor"
     },
     {
       "date": "2026-05-03",
@@ -65,8 +64,8 @@
       "uv": 8,
       "sunrise": "2026-05-03T05:59",
       "sunset": "2026-05-03T19:59",
-      "predicted_score": 64,
-      "score_label": "Use caution"
+      "predicted_score": 44,
+      "score_label": "Conditions poor"
     },
     {
       "date": "2026-05-04",
@@ -76,8 +75,8 @@
       "uv": 7,
       "sunrise": "2026-05-04T05:57",
       "sunset": "2026-05-04T20:00",
-      "predicted_score": 36,
-      "score_label": "Conditions poor"
+      "predicted_score": 16,
+      "score_label": "Stay home"
     },
     {
       "date": "2026-05-05",
@@ -87,8 +86,8 @@
       "uv": 8,
       "sunrise": "2026-05-05T05:56",
       "sunset": "2026-05-05T20:01",
-      "predicted_score": 36,
-      "score_label": "Conditions poor"
+      "predicted_score": 16,
+      "score_label": "Stay home"
     },
     {
       "date": "2026-05-06",
@@ -98,9 +97,9 @@
       "uv": 8,
       "sunrise": "2026-05-06T05:55",
       "sunset": "2026-05-06T20:02",
-      "predicted_score": 36,
-      "score_label": "Conditions poor"
+      "predicted_score": 16,
+      "score_label": "Stay home"
     }
   ],
-  "updated_at": "2026-05-02T11:49:44.132462+00:00"
+  "updated_at": "2026-05-02T12:13:20.861084+00:00"
 }
