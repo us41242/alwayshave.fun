@@ -17,26 +17,27 @@
   "notes": "Timed entry permit required Jun\u2013Oct; Bear Lake Rd closes seasonally",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 44,
-  "score_label": "Conditions poor",
+  "score": 54,
+  "score_label": "Use caution",
   "gear_flags": [
     "insulation layer required",
+    "N95 mask recommended",
     "N95 mask recommended for wildfire smoke"
   ],
   "current": {
-    "temp_f": 42,
-    "feels_like_f": 34,
-    "wind_mph": 4,
-    "gusts_mph": 11,
-    "rain_pct": 2
+    "temp_f": 41,
+    "feels_like_f": 32,
+    "wind_mph": 6,
+    "gusts_mph": 12,
+    "rain_pct": 0
   },
   "sunrise": "2026-05-02T06:00",
   "sunset": "2026-05-02T19:58",
   "aqi": {
-    "aqi": null,
-    "category": "Unknown",
-    "pollutant": "",
-    "source": "none"
+    "aqi": 104,
+    "category": "Unhealthy for Sensitive Groups",
+    "pollutant": "PM2.5",
+    "source": "open-meteo"
   },
   "fire": {
     "risk_level": "elevated",
@@ -47,14 +48,14 @@
   "forecast": [
     {
       "date": "2026-05-02",
-      "high_f": 43,
+      "high_f": 42,
       "low_f": 21,
       "rain_pct": 2,
       "uv": 9,
       "sunrise": "2026-05-02T06:00",
       "sunset": "2026-05-02T19:58",
-      "predicted_score": 44,
-      "score_label": "Conditions poor"
+      "predicted_score": 54,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-05-03",
@@ -64,42 +65,42 @@
       "uv": 8,
       "sunrise": "2026-05-03T05:59",
       "sunset": "2026-05-03T19:59",
-      "predicted_score": 44,
-      "score_label": "Conditions poor"
+      "predicted_score": 54,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-05-04",
-      "high_f": 44,
-      "low_f": 34,
+      "high_f": 43,
+      "low_f": 33,
       "rain_pct": 91,
-      "uv": 8,
+      "uv": 6,
       "sunrise": "2026-05-04T05:57",
       "sunset": "2026-05-04T20:00",
-      "predicted_score": 16,
+      "predicted_score": 26,
       "score_label": "Stay home"
     },
     {
       "date": "2026-05-05",
-      "high_f": 41,
-      "low_f": 20,
+      "high_f": 42,
+      "low_f": 21,
       "rain_pct": 98,
       "uv": 8,
       "sunrise": "2026-05-05T05:56",
       "sunset": "2026-05-05T20:01",
-      "predicted_score": 16,
+      "predicted_score": 26,
       "score_label": "Stay home"
     },
     {
       "date": "2026-05-06",
-      "high_f": 28,
-      "low_f": 12,
+      "high_f": 30,
+      "low_f": 19,
       "rain_pct": 91,
       "uv": 6,
       "sunrise": "2026-05-06T05:55",
       "sunset": "2026-05-06T20:02",
-      "predicted_score": 16,
+      "predicted_score": 26,
       "score_label": "Stay home"
     }
   ],
-  "updated_at": "2026-05-02T23:31:18.609032+00:00"
+  "updated_at": "2026-05-02T23:49:28.107336+00:00"
 }
