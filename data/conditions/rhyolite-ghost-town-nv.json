@@ -17,9 +17,11 @@
   "notes": "Near Death Valley \u2014 extreme summer heat",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 88,
-  "score_label": "Great day to go",
-  "gear_flags": [],
+  "score": 78,
+  "score_label": "Good conditions",
+  "gear_flags": [
+    "mask for sensitive groups"
+  ],
   "current": {
     "temp_f": 78,
     "feels_like_f": 71,
@@ -30,10 +32,10 @@
   "sunrise": "2026-05-02T05:51",
   "sunset": "2026-05-02T19:36",
   "aqi": {
-    "aqi": 42,
-    "category": "Good",
-    "pollutant": "PM2.5",
-    "source": "open-meteo"
+    "aqi": 64,
+    "category": "Moderate",
+    "pollutant": "O3",
+    "source": "airnow"
   },
   "fire": {
     "risk_level": "low",
@@ -50,8 +52,8 @@
       "uv": 8,
       "sunrise": "2026-05-02T05:51",
       "sunset": "2026-05-02T19:36",
-      "predicted_score": 88,
-      "score_label": "Great day to go"
+      "predicted_score": 78,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-05-03",
@@ -61,8 +63,8 @@
       "uv": 8,
       "sunrise": "2026-05-03T05:50",
       "sunset": "2026-05-03T19:37",
-      "predicted_score": 88,
-      "score_label": "Great day to go"
+      "predicted_score": 78,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-05-04",
@@ -72,8 +74,8 @@
       "uv": 8,
       "sunrise": "2026-05-04T05:49",
       "sunset": "2026-05-04T19:38",
-      "predicted_score": 88,
-      "score_label": "Great day to go"
+      "predicted_score": 78,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-05-05",
@@ -83,8 +85,8 @@
       "uv": 3,
       "sunrise": "2026-05-05T05:48",
       "sunset": "2026-05-05T19:39",
-      "predicted_score": 88,
-      "score_label": "Great day to go"
+      "predicted_score": 78,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-05-06",
@@ -94,9 +96,9 @@
       "uv": 8,
       "sunrise": "2026-05-06T05:47",
       "sunset": "2026-05-06T19:40",
-      "predicted_score": 88,
-      "score_label": "Great day to go"
+      "predicted_score": 78,
+      "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-05-02T21:30:35.133504+00:00"
+  "updated_at": "2026-05-02T21:49:09.670091+00:00"
 }
