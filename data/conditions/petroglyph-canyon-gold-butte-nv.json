@@ -17,16 +17,16 @@
   "notes": "4WD required; no services for 50 miles",
   "dog_friendly": "Yes",
   "vehicle_req": "4WD",
-  "score": 32,
-  "score_label": "Conditions poor",
+  "score": 50,
+  "score_label": "Use caution",
   "gear_flags": [
     "insulation layer required"
   ],
   "current": {
-    "temp_f": 39,
-    "feels_like_f": 30,
+    "temp_f": 41,
+    "feels_like_f": 32,
     "wind_mph": 6,
-    "gusts_mph": 14,
+    "gusts_mph": 17,
     "rain_pct": 0
   },
   "sunrise": "2026-05-02T05:41",
@@ -57,7 +57,7 @@
     },
     {
       "date": "2026-05-03",
-      "high_f": 65,
+      "high_f": 64,
       "low_f": 49,
       "rain_pct": 16,
       "uv": 8,
@@ -100,5 +100,5 @@
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-05-02T13:44:13.451618+00:00"
+  "updated_at": "2026-05-02T14:02:36.258768+00:00"
 }
