@@ -23,9 +23,9 @@
     "mask for sensitive groups"
   ],
   "current": {
-    "temp_f": 57,
-    "feels_like_f": 49,
-    "wind_mph": 5,
+    "temp_f": 59,
+    "feels_like_f": 52,
+    "wind_mph": 4,
     "gusts_mph": 5,
     "rain_pct": 0
   },
@@ -46,8 +46,8 @@
   "forecast": [
     {
       "date": "2026-05-02",
-      "high_f": 85,
-      "low_f": 53,
+      "high_f": 84,
+      "low_f": 52,
       "rain_pct": 1,
       "uv": 8,
       "sunrise": "2026-05-02T05:36",
@@ -100,5 +100,5 @@
       "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-05-02T14:25:43.358716+00:00"
+  "updated_at": "2026-05-02T14:43:58.811192+00:00"
 }

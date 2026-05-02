@@ -17,14 +17,14 @@
   "notes": "Flash flood zone \u2014 avoid any chance of rain",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 88,
+  "score": 100,
   "score_label": "Great day to go",
   "gear_flags": [],
   "current": {
-    "temp_f": 48,
-    "feels_like_f": 41,
-    "wind_mph": 1,
-    "gusts_mph": 5,
+    "temp_f": 51,
+    "feels_like_f": 44,
+    "wind_mph": 2,
+    "gusts_mph": 7,
     "rain_pct": 0
   },
   "sunrise": "2026-05-02T06:31",
@@ -44,7 +44,7 @@
   "forecast": [
     {
       "date": "2026-05-02",
-      "high_f": 72,
+      "high_f": 71,
       "low_f": 42,
       "rain_pct": 0,
       "uv": 8,
@@ -98,5 +98,5 @@
       "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-05-02T14:28:09.472891+00:00"
+  "updated_at": "2026-05-02T14:46:22.575499+00:00"
 }
