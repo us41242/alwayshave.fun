@@ -17,14 +17,15 @@
   "notes": "Creek crossings \u2014 check water levels after rain",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 88,
-  "score_label": "Great day to go",
+  "score": 78,
+  "score_label": "Good conditions",
   "gear_flags": [
-    "wind layer recommended"
+    "wind layer recommended",
+    "mask for sensitive groups"
   ],
   "current": {
     "temp_f": 56,
-    "feels_like_f": 45,
+    "feels_like_f": 44,
     "wind_mph": 17,
     "gusts_mph": 30,
     "rain_pct": 1
@@ -32,8 +33,8 @@
   "sunrise": "2026-05-01T05:35",
   "sunset": "2026-05-01T19:12",
   "aqi": {
-    "aqi": 49,
-    "category": "Good",
+    "aqi": 51,
+    "category": "Moderate",
     "pollutant": "O3",
     "source": "airnow"
   },
@@ -55,7 +56,7 @@
       "uv": 8,
       "sunrise": "2026-05-01T05:35",
       "sunset": "2026-05-01T19:12",
-      "predicted_score": 100,
+      "predicted_score": 90,
       "score_label": "Great day to go"
     },
     {
@@ -66,7 +67,7 @@
       "uv": 8,
       "sunrise": "2026-05-02T05:34",
       "sunset": "2026-05-02T19:13",
-      "predicted_score": 100,
+      "predicted_score": 90,
       "score_label": "Great day to go"
     },
     {
@@ -77,8 +78,8 @@
       "uv": 7,
       "sunrise": "2026-05-03T05:33",
       "sunset": "2026-05-03T19:13",
-      "predicted_score": 88,
-      "score_label": "Great day to go"
+      "predicted_score": 78,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-05-04",
@@ -88,8 +89,8 @@
       "uv": 7,
       "sunrise": "2026-05-04T05:32",
       "sunset": "2026-05-04T19:14",
-      "predicted_score": 88,
-      "score_label": "Great day to go"
+      "predicted_score": 78,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-05-05",
@@ -99,9 +100,9 @@
       "uv": 6,
       "sunrise": "2026-05-05T05:31",
       "sunset": "2026-05-05T19:15",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
+      "predicted_score": 60,
+      "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-05-02T04:08:03.116624+00:00"
+  "updated_at": "2026-05-02T04:24:30.606447+00:00"
 }
