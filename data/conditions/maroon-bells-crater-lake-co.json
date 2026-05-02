@@ -30,10 +30,10 @@
     "gusts_mph": 10,
     "rain_pct": 1
   },
-  "sunrise": "2026-05-01T06:09",
-  "sunset": "2026-05-01T20:00",
+  "sunrise": "2026-05-02T06:08",
+  "sunset": "2026-05-02T20:01",
   "aqi": {
-    "aqi": 97,
+    "aqi": 91,
     "category": "Moderate",
     "pollutant": "PM2.5",
     "source": "open-meteo"
@@ -45,17 +45,6 @@
   },
   "river": null,
   "forecast": [
-    {
-      "date": "2026-05-01",
-      "high_f": 24,
-      "low_f": 11,
-      "rain_pct": 13,
-      "uv": 8,
-      "sunrise": "2026-05-01T06:09",
-      "sunset": "2026-05-01T20:00",
-      "predicted_score": 50,
-      "score_label": "Use caution"
-    },
     {
       "date": "2026-05-02",
       "high_f": 31,
@@ -99,7 +88,18 @@
       "sunset": "2026-05-05T20:04",
       "predicted_score": 50,
       "score_label": "Use caution"
+    },
+    {
+      "date": "2026-05-06",
+      "high_f": 26,
+      "low_f": 12,
+      "rain_pct": 70,
+      "uv": 8,
+      "sunrise": "2026-05-06T06:03",
+      "sunset": "2026-05-06T20:05",
+      "predicted_score": 50,
+      "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-05-02T05:48:19.969023+00:00"
+  "updated_at": "2026-05-02T06:10:17.345392+00:00"
 }
