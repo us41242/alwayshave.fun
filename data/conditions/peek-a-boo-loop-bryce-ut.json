@@ -17,22 +17,22 @@
   "notes": "Hoodoos narrow \u2014 ice possible May/Oct",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 70,
-  "score_label": "Good conditions",
+  "score": 88,
+  "score_label": "Great day to go",
   "gear_flags": [
     "insulation layer required"
   ],
   "current": {
-    "temp_f": 38,
-    "feels_like_f": 29,
-    "wind_mph": 7,
+    "temp_f": 40,
+    "feels_like_f": 32,
+    "wind_mph": 6,
     "gusts_mph": 8,
     "rain_pct": 0
   },
   "sunrise": "2026-05-02T06:31",
   "sunset": "2026-05-02T20:19",
   "aqi": {
-    "aqi": 31,
+    "aqi": 34,
     "category": "Good",
     "pollutant": "PM2.5",
     "source": "airnow"
@@ -100,5 +100,5 @@
       "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-05-02T14:02:41.912464+00:00"
+  "updated_at": "2026-05-02T14:28:08.438984+00:00"
 }

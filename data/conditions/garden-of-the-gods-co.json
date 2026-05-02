@@ -20,14 +20,13 @@
   "score": 78,
   "score_label": "Good conditions",
   "gear_flags": [
-    "insulation layer required",
     "mask for sensitive groups"
   ],
   "current": {
-    "temp_f": 43,
-    "feels_like_f": 38,
-    "wind_mph": 2,
-    "gusts_mph": 3,
+    "temp_f": 47,
+    "feels_like_f": 42,
+    "wind_mph": 0,
+    "gusts_mph": 5,
     "rain_pct": 0
   },
   "sunrise": "2026-05-02T05:59",
@@ -47,7 +46,7 @@
   "forecast": [
     {
       "date": "2026-05-02",
-      "high_f": 65,
+      "high_f": 64,
       "low_f": 36,
       "rain_pct": 0,
       "uv": 8,
@@ -101,5 +100,5 @@
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-05-02T14:06:29.378539+00:00"
+  "updated_at": "2026-05-02T14:35:23.581889+00:00"
 }
