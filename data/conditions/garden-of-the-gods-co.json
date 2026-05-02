@@ -17,25 +17,23 @@
   "notes": "Free entry; busy weekends \u2014 arrive before 9am",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 80,
+  "score": 70,
   "score_label": "Good conditions",
-  "gear_flags": [
-    "N95 mask recommended"
-  ],
+  "gear_flags": [],
   "current": {
     "temp_f": 64,
     "feels_like_f": 53,
-    "wind_mph": 12,
+    "wind_mph": 11,
     "gusts_mph": 14,
     "rain_pct": 0
   },
   "sunrise": "2026-05-02T05:59",
   "sunset": "2026-05-02T19:52",
   "aqi": {
-    "aqi": 114,
-    "category": "Unhealthy for Sensitive Groups",
-    "pollutant": "PM2.5",
-    "source": "open-meteo"
+    "aqi": null,
+    "category": "Unknown",
+    "pollutant": "",
+    "source": "none"
   },
   "fire": {
     "risk_level": "low",
@@ -52,7 +50,7 @@
       "uv": 8,
       "sunrise": "2026-05-02T05:59",
       "sunset": "2026-05-02T19:52",
-      "predicted_score": 80,
+      "predicted_score": 70,
       "score_label": "Good conditions"
     },
     {
@@ -63,7 +61,7 @@
       "uv": 7,
       "sunrise": "2026-05-03T05:58",
       "sunset": "2026-05-03T19:53",
-      "predicted_score": 80,
+      "predicted_score": 70,
       "score_label": "Good conditions"
     },
     {
@@ -74,8 +72,8 @@
       "uv": 7,
       "sunrise": "2026-05-04T05:57",
       "sunset": "2026-05-04T19:54",
-      "predicted_score": 50,
-      "score_label": "Use caution"
+      "predicted_score": 40,
+      "score_label": "Conditions poor"
     },
     {
       "date": "2026-05-05",
@@ -85,7 +83,7 @@
       "uv": 2,
       "sunrise": "2026-05-05T05:56",
       "sunset": "2026-05-05T19:55",
-      "predicted_score": 40,
+      "predicted_score": 30,
       "score_label": "Conditions poor"
     },
     {
@@ -96,9 +94,9 @@
       "uv": 5,
       "sunrise": "2026-05-06T05:55",
       "sunset": "2026-05-06T19:56",
-      "predicted_score": 40,
+      "predicted_score": 30,
       "score_label": "Conditions poor"
     }
   ],
-  "updated_at": "2026-05-02T23:10:22.680402+00:00"
+  "updated_at": "2026-05-02T23:30:12.781039+00:00"
 }
