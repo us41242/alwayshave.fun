@@ -17,8 +17,8 @@
   "notes": "No cars beyond Spooner Summit; bike-legal trail",
   "dog_friendly": "Yes",
   "vehicle_req": "AWD",
-  "score": 100,
-  "score_label": "Great day to go",
+  "score": 60,
+  "score_label": "Use caution",
   "gear_flags": [],
   "current": {
     "temp_f": 58,
@@ -27,8 +27,8 @@
     "gusts_mph": 6,
     "rain_pct": 0
   },
-  "sunrise": "2026-05-01T06:00",
-  "sunset": "2026-05-01T19:52",
+  "sunrise": "",
+  "sunset": "",
   "aqi": {
     "aqi": 48,
     "category": "Good",
@@ -41,62 +41,6 @@
     "fire_count_50km": 0
   },
   "river": null,
-  "forecast": [
-    {
-      "date": "2026-05-01",
-      "high_f": 60,
-      "low_f": 42,
-      "rain_pct": 0,
-      "uv": 8,
-      "sunrise": "2026-05-01T06:00",
-      "sunset": "2026-05-01T19:52",
-      "predicted_score": 100,
-      "score_label": "Great day to go"
-    },
-    {
-      "date": "2026-05-02",
-      "high_f": 59,
-      "low_f": 43,
-      "rain_pct": 12,
-      "uv": 6,
-      "sunrise": "2026-05-02T05:59",
-      "sunset": "2026-05-02T19:53",
-      "predicted_score": 88,
-      "score_label": "Great day to go"
-    },
-    {
-      "date": "2026-05-03",
-      "high_f": 58,
-      "low_f": 34,
-      "rain_pct": 76,
-      "uv": 6,
-      "sunrise": "2026-05-03T05:58",
-      "sunset": "2026-05-03T19:54",
-      "predicted_score": 60,
-      "score_label": "Use caution"
-    },
-    {
-      "date": "2026-05-04",
-      "high_f": 45,
-      "low_f": 34,
-      "rain_pct": 75,
-      "uv": 7,
-      "sunrise": "2026-05-04T05:57",
-      "sunset": "2026-05-04T19:55",
-      "predicted_score": 60,
-      "score_label": "Use caution"
-    },
-    {
-      "date": "2026-05-05",
-      "high_f": 58,
-      "low_f": 34,
-      "rain_pct": 51,
-      "uv": 7,
-      "sunrise": "2026-05-05T05:56",
-      "sunset": "2026-05-05T19:56",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
-    }
-  ],
-  "updated_at": "2026-05-02T00:29:27.201569+00:00"
+  "forecast": [],
+  "updated_at": "2026-05-02T00:53:43.308278+00:00"
 }
