@@ -22,7 +22,7 @@
   "gear_flags": [],
   "current": {
     "temp_f": 52,
-    "feels_like_f": 44,
+    "feels_like_f": 45,
     "wind_mph": 14,
     "gusts_mph": 14,
     "rain_pct": 0
@@ -55,18 +55,18 @@
     },
     {
       "date": "2026-05-03",
-      "high_f": 58,
+      "high_f": 56,
       "low_f": 39,
-      "rain_pct": 34,
+      "rain_pct": 6,
       "uv": 8,
       "sunrise": "2026-05-03T05:46",
       "sunset": "2026-05-03T19:31",
-      "predicted_score": 62,
-      "score_label": "Use caution"
+      "predicted_score": 92,
+      "score_label": "Great day to go"
     },
     {
       "date": "2026-05-04",
-      "high_f": 43,
+      "high_f": 44,
       "low_f": 30,
       "rain_pct": 7,
       "uv": 8,
@@ -98,5 +98,5 @@
       "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-05-02T19:46:28.900325+00:00"
+  "updated_at": "2026-05-02T20:06:35.634987+00:00"
 }
