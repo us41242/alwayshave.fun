@@ -33,10 +33,10 @@
   "sunrise": "2026-05-01T06:01",
   "sunset": "2026-05-01T19:51",
   "aqi": {
-    "aqi": 54,
+    "aqi": 81,
     "category": "Moderate",
-    "pollutant": "O3",
-    "source": "airnow"
+    "pollutant": "PM2.5",
+    "source": "open-meteo"
   },
   "fire": {
     "risk_level": "low",
@@ -101,5 +101,5 @@
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-05-02T03:52:40.455266+00:00"
+  "updated_at": "2026-05-02T04:13:33.331564+00:00"
 }
