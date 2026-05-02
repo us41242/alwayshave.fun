@@ -24,7 +24,7 @@
   ],
   "current": {
     "temp_f": 60,
-    "feels_like_f": 51,
+    "feels_like_f": 52,
     "wind_mph": 14,
     "gusts_mph": 17,
     "rain_pct": 0
@@ -32,14 +32,14 @@
   "sunrise": "2026-05-02T05:34",
   "sunset": "2026-05-02T19:16",
   "aqi": {
-    "aqi": 80,
+    "aqi": 77,
     "category": "Moderate",
     "pollutant": "O3",
     "source": "airnow"
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": 121.8,
+    "nearest_fire_km": null,
     "fire_count_50km": 0
   },
   "river": {
@@ -103,5 +103,5 @@
       "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-05-02T18:03:12.299680+00:00"
+  "updated_at": "2026-05-02T18:24:13.326089+00:00"
 }
