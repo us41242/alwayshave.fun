@@ -32,7 +32,7 @@
   "sunrise": "2026-05-02T06:35",
   "sunset": "2026-05-02T20:22",
   "aqi": {
-    "aqi": 43,
+    "aqi": 42,
     "category": "Good",
     "pollutant": "O3",
     "source": "airnow"
@@ -43,7 +43,7 @@
     "fire_count_50km": 0
   },
   "river": {
-    "cfs": 6560,
+    "cfs": 6350,
     "stage": "flood"
   },
   "forecast": [
@@ -103,5 +103,5 @@
       "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-05-02T12:01:32.299996+00:00"
+  "updated_at": "2026-05-02T12:21:33.220318+00:00"
 }
