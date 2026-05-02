@@ -20,14 +20,13 @@
   "score": 88,
   "score_label": "Great day to go",
   "gear_flags": [
-    "wind layer recommended",
     "insulation layer required"
   ],
   "current": {
-    "temp_f": 42,
+    "temp_f": 41,
     "feels_like_f": 30,
-    "wind_mph": 13,
-    "gusts_mph": 20,
+    "wind_mph": 12,
+    "gusts_mph": 19,
     "rain_pct": 0
   },
   "sunrise": "2026-05-01T06:09",
@@ -101,5 +100,5 @@
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-05-02T03:29:18.295187+00:00"
+  "updated_at": "2026-05-02T03:51:23.112880+00:00"
 }
