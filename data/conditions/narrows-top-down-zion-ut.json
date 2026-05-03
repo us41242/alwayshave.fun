@@ -22,9 +22,9 @@
   "gear_flags": [],
   "current": {
     "temp_f": 51,
-    "feels_like_f": 42,
-    "wind_mph": 6,
-    "gusts_mph": 6,
+    "feels_like_f": 43,
+    "wind_mph": 4,
+    "gusts_mph": 4,
     "rain_pct": 0
   },
   "sunrise": "2026-05-03T06:33",
@@ -41,13 +41,13 @@
     "fire_count_50km": 0
   },
   "river": {
-    "cfs": 8070,
+    "cfs": 7670,
     "stage": "flood"
   },
   "forecast": [
     {
       "date": "2026-05-03",
-      "high_f": 69,
+      "high_f": 68,
       "low_f": 48,
       "rain_pct": 19,
       "uv": 8,
@@ -101,5 +101,5 @@
       "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-05-03T06:23:03.852355+00:00"
+  "updated_at": "2026-05-03T06:43:09.336303+00:00"
 }
