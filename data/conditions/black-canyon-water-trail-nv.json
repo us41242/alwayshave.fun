@@ -23,10 +23,10 @@
     "mask for sensitive groups"
   ],
   "current": {
-    "temp_f": 79,
-    "feels_like_f": 72,
-    "wind_mph": 2,
-    "gusts_mph": 2,
+    "temp_f": 78,
+    "feels_like_f": 71,
+    "wind_mph": 1,
+    "gusts_mph": 1,
     "rain_pct": 0
   },
   "sunrise": "2026-05-02T05:44",
@@ -58,7 +58,7 @@
     {
       "date": "2026-05-03",
       "high_f": 95,
-      "low_f": 66,
+      "low_f": 68,
       "rain_pct": 2,
       "uv": 8,
       "sunrise": "2026-05-03T05:43",
@@ -100,5 +100,5 @@
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-05-03T05:26:15.884421+00:00"
+  "updated_at": "2026-05-03T05:46:32.465877+00:00"
 }
