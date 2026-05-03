@@ -25,9 +25,9 @@
   ],
   "current": {
     "temp_f": 46,
-    "feels_like_f": 39,
-    "wind_mph": 14,
-    "gusts_mph": 25,
+    "feels_like_f": 38,
+    "wind_mph": 12,
+    "gusts_mph": 20,
     "rain_pct": 1
   },
   "sunrise": "2026-05-03T05:59",
@@ -47,7 +47,7 @@
   "forecast": [
     {
       "date": "2026-05-03",
-      "high_f": 47,
+      "high_f": 46,
       "low_f": 29,
       "rain_pct": 5,
       "uv": 7,
@@ -58,7 +58,7 @@
     },
     {
       "date": "2026-05-04",
-      "high_f": 47,
+      "high_f": 44,
       "low_f": 32,
       "rain_pct": 61,
       "uv": 6,
@@ -69,8 +69,8 @@
     },
     {
       "date": "2026-05-05",
-      "high_f": 35,
-      "low_f": 24,
+      "high_f": 33,
+      "low_f": 20,
       "rain_pct": 97,
       "uv": 3,
       "sunrise": "2026-05-05T05:56",
@@ -101,5 +101,5 @@
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-05-03T20:05:28.424772+00:00"
+  "updated_at": "2026-05-03T20:28:25.478625+00:00"
 }
