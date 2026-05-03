@@ -17,17 +17,17 @@
   "notes": "Remote \u2014 no cell service; snow until July",
   "dog_friendly": "Yes",
   "vehicle_req": "High-Clearance",
-  "score": 50,
+  "score": 60,
   "score_label": "Use caution",
   "gear_flags": [
     "insulation layer required",
     "mask for sensitive groups"
   ],
   "current": {
-    "temp_f": 34,
-    "feels_like_f": 24,
-    "wind_mph": 8,
-    "gusts_mph": 16,
+    "temp_f": 36,
+    "feels_like_f": 25,
+    "wind_mph": 11,
+    "gusts_mph": 17,
     "rain_pct": 0
   },
   "sunrise": "2026-05-03T05:35",
@@ -47,7 +47,7 @@
   "forecast": [
     {
       "date": "2026-05-03",
-      "high_f": 46,
+      "high_f": 45,
       "low_f": 27,
       "rain_pct": 7,
       "uv": 8,
@@ -101,5 +101,5 @@
       "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-05-03T14:27:17.071541+00:00"
+  "updated_at": "2026-05-03T14:45:36.218151+00:00"
 }
