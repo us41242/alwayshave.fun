@@ -17,17 +17,18 @@
   "notes": "Permit required \u2014 sells out months in advance",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 70,
+  "score": 78,
   "score_label": "Good conditions",
   "gear_flags": [
+    "wind layer recommended",
     "mask for sensitive groups"
   ],
   "current": {
-    "temp_f": 80,
-    "feels_like_f": 77,
-    "wind_mph": 4,
-    "gusts_mph": 18,
-    "rain_pct": 12
+    "temp_f": 76,
+    "feels_like_f": 70,
+    "wind_mph": 8,
+    "gusts_mph": 22,
+    "rain_pct": 11
   },
   "sunrise": "2026-05-03T05:35",
   "sunset": "2026-05-03T19:20",
@@ -38,8 +39,8 @@
     "source": "airnow"
   },
   "fire": {
-    "risk_level": "moderate",
-    "nearest_fire_km": 98.9,
+    "risk_level": "low",
+    "nearest_fire_km": null,
     "fire_count_50km": 0
   },
   "river": null,
@@ -52,7 +53,7 @@
       "uv": 8,
       "sunrise": "2026-05-03T05:35",
       "sunset": "2026-05-03T19:20",
-      "predicted_score": 70,
+      "predicted_score": 78,
       "score_label": "Good conditions"
     },
     {
@@ -63,7 +64,7 @@
       "uv": 6,
       "sunrise": "2026-05-04T05:34",
       "sunset": "2026-05-04T19:21",
-      "predicted_score": 70,
+      "predicted_score": 78,
       "score_label": "Good conditions"
     },
     {
@@ -74,7 +75,7 @@
       "uv": 7,
       "sunrise": "2026-05-05T05:33",
       "sunset": "2026-05-05T19:21",
-      "predicted_score": 52,
+      "predicted_score": 60,
       "score_label": "Use caution"
     },
     {
@@ -85,7 +86,7 @@
       "uv": 8,
       "sunrise": "2026-05-06T05:32",
       "sunset": "2026-05-06T19:22",
-      "predicted_score": 70,
+      "predicted_score": 78,
       "score_label": "Good conditions"
     },
     {
@@ -96,9 +97,9 @@
       "uv": 8,
       "sunrise": "2026-05-07T05:31",
       "sunset": "2026-05-07T19:23",
-      "predicted_score": 52,
+      "predicted_score": 60,
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-05-03T23:03:59.989002+00:00"
+  "updated_at": "2026-05-03T23:24:10.107582+00:00"
 }
