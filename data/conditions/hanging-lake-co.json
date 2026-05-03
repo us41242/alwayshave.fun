@@ -17,14 +17,16 @@
   "notes": "Timed entry permit required May\u2013Oct \u2014 book Recreation.gov",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 100,
+  "score": 88,
   "score_label": "Great day to go",
-  "gear_flags": [],
+  "gear_flags": [
+    "wind layer recommended"
+  ],
   "current": {
-    "temp_f": 54,
+    "temp_f": 56,
     "feels_like_f": 47,
-    "wind_mph": 13,
-    "gusts_mph": 19,
+    "wind_mph": 16,
+    "gusts_mph": 22,
     "rain_pct": 0
   },
   "sunrise": "2026-05-03T06:06",
@@ -58,7 +60,7 @@
       "high_f": 60,
       "low_f": 40,
       "rain_pct": 53,
-      "uv": 8,
+      "uv": 7,
       "sunrise": "2026-05-04T06:05",
       "sunset": "2026-05-04T20:05",
       "predicted_score": 70,
@@ -88,7 +90,7 @@
     },
     {
       "date": "2026-05-07",
-      "high_f": 61,
+      "high_f": 60,
       "low_f": 30,
       "rain_pct": 7,
       "uv": 8,
@@ -98,5 +100,5 @@
       "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-05-03T17:25:35.782975+00:00"
+  "updated_at": "2026-05-03T17:49:00.889914+00:00"
 }

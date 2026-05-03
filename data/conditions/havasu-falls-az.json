@@ -23,10 +23,10 @@
     "N95 mask recommended"
   ],
   "current": {
-    "temp_f": 80,
-    "feels_like_f": 76,
-    "wind_mph": 7,
-    "gusts_mph": 13,
+    "temp_f": 82,
+    "feels_like_f": 77,
+    "wind_mph": 9,
+    "gusts_mph": 16,
     "rain_pct": 0
   },
   "sunrise": "2026-05-03T05:35",
@@ -46,21 +46,21 @@
   "forecast": [
     {
       "date": "2026-05-03",
-      "high_f": 85,
+      "high_f": 88,
       "low_f": 57,
-      "rain_pct": 22,
+      "rain_pct": 30,
       "uv": 8,
       "sunrise": "2026-05-03T05:35",
       "sunset": "2026-05-03T19:20",
-      "predicted_score": 60,
-      "score_label": "Use caution"
+      "predicted_score": 42,
+      "score_label": "Conditions poor"
     },
     {
       "date": "2026-05-04",
       "high_f": 82,
       "low_f": 61,
       "rain_pct": 2,
-      "uv": 7,
+      "uv": 6,
       "sunrise": "2026-05-04T05:34",
       "sunset": "2026-05-04T19:21",
       "predicted_score": 60,
@@ -68,8 +68,8 @@
     },
     {
       "date": "2026-05-05",
-      "high_f": 70,
-      "low_f": 52,
+      "high_f": 71,
+      "low_f": 50,
       "rain_pct": 36,
       "uv": 7,
       "sunrise": "2026-05-05T05:33",
@@ -80,7 +80,7 @@
     {
       "date": "2026-05-06",
       "high_f": 80,
-      "low_f": 50,
+      "low_f": 51,
       "rain_pct": 10,
       "uv": 8,
       "sunrise": "2026-05-06T05:32",
@@ -100,5 +100,5 @@
       "score_label": "Conditions poor"
     }
   ],
-  "updated_at": "2026-05-03T17:23:02.622510+00:00"
+  "updated_at": "2026-05-03T17:43:20.307528+00:00"
 }

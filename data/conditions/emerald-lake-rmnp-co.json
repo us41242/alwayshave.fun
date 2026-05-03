@@ -17,12 +17,9 @@
   "notes": "Timed entry permit required Jun\u2013Oct; Bear Lake Rd closes seasonally",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 58,
-  "score_label": "Use caution",
-  "gear_flags": [
-    "wind layer recommended",
-    "insulation layer required"
-  ],
+  "score": 30,
+  "score_label": "Conditions poor",
+  "gear_flags": [],
   "current": {
     "temp_f": 40,
     "feels_like_f": 29,
@@ -30,8 +27,8 @@
     "gusts_mph": 28,
     "rain_pct": 0
   },
-  "sunrise": "2026-05-03T05:59",
-  "sunset": "2026-05-03T19:59",
+  "sunrise": "",
+  "sunset": "",
   "aqi": {
     "aqi": null,
     "category": "Unknown",
@@ -44,62 +41,6 @@
     "fire_count_50km": 0
   },
   "river": null,
-  "forecast": [
-    {
-      "date": "2026-05-03",
-      "high_f": 48,
-      "low_f": 29,
-      "rain_pct": 5,
-      "uv": 8,
-      "sunrise": "2026-05-03T05:59",
-      "sunset": "2026-05-03T19:59",
-      "predicted_score": 58,
-      "score_label": "Use caution"
-    },
-    {
-      "date": "2026-05-04",
-      "high_f": 47,
-      "low_f": 32,
-      "rain_pct": 97,
-      "uv": 7,
-      "sunrise": "2026-05-04T05:57",
-      "sunset": "2026-05-04T20:00",
-      "predicted_score": 30,
-      "score_label": "Conditions poor"
-    },
-    {
-      "date": "2026-05-05",
-      "high_f": 42,
-      "low_f": 25,
-      "rain_pct": 97,
-      "uv": 6,
-      "sunrise": "2026-05-05T05:56",
-      "sunset": "2026-05-05T20:01",
-      "predicted_score": 30,
-      "score_label": "Conditions poor"
-    },
-    {
-      "date": "2026-05-06",
-      "high_f": 31,
-      "low_f": 17,
-      "rain_pct": 96,
-      "uv": 8,
-      "sunrise": "2026-05-06T05:55",
-      "sunset": "2026-05-06T20:02",
-      "predicted_score": 30,
-      "score_label": "Conditions poor"
-    },
-    {
-      "date": "2026-05-07",
-      "high_f": 47,
-      "low_f": 20,
-      "rain_pct": 34,
-      "uv": 9,
-      "sunrise": "2026-05-07T05:54",
-      "sunset": "2026-05-07T20:03",
-      "predicted_score": 40,
-      "score_label": "Conditions poor"
-    }
-  ],
-  "updated_at": "2026-05-03T17:27:43.657587+00:00"
+  "forecast": [],
+  "updated_at": "2026-05-03T17:52:27.114174+00:00"
 }
