@@ -46,19 +46,19 @@
       "date": "2026-05-03",
       "high_f": 64,
       "low_f": 47,
-      "rain_pct": 9,
+      "rain_pct": 10,
       "uv": 8,
       "sunrise": "2026-05-03T05:40",
       "sunset": "2026-05-03T19:26",
-      "predicted_score": 92,
-      "score_label": "Great day to go"
+      "predicted_score": 80,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-05-04",
       "high_f": 52,
-      "low_f": 38,
+      "low_f": 39,
       "rain_pct": 3,
-      "uv": 5,
+      "uv": 6,
       "sunrise": "2026-05-04T05:39",
       "sunset": "2026-05-04T19:27",
       "predicted_score": 92,
@@ -67,7 +67,7 @@
     {
       "date": "2026-05-05",
       "high_f": 49,
-      "low_f": 34,
+      "low_f": 35,
       "rain_pct": 15,
       "uv": 6,
       "sunrise": "2026-05-05T05:38",
@@ -77,8 +77,8 @@
     },
     {
       "date": "2026-05-06",
-      "high_f": 62,
-      "low_f": 34,
+      "high_f": 61,
+      "low_f": 35,
       "rain_pct": 9,
       "uv": 8,
       "sunrise": "2026-05-06T05:37",
@@ -89,7 +89,7 @@
     {
       "date": "2026-05-07",
       "high_f": 70,
-      "low_f": 44,
+      "low_f": 47,
       "rain_pct": 1,
       "uv": 8,
       "sunrise": "2026-05-07T05:36",
@@ -98,5 +98,5 @@
       "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-05-03T11:23:18.373379+00:00"
+  "updated_at": "2026-05-03T11:42:55.852543+00:00"
 }

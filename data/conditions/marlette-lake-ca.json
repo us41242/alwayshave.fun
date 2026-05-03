@@ -19,12 +19,14 @@
   "vehicle_req": "AWD",
   "score": 88,
   "score_label": "Great day to go",
-  "gear_flags": [],
+  "gear_flags": [
+    "wind layer recommended"
+  ],
   "current": {
     "temp_f": 46,
     "feels_like_f": 36,
     "wind_mph": 14,
-    "gusts_mph": 19,
+    "gusts_mph": 21,
     "rain_pct": 1
   },
   "sunrise": "2026-05-03T05:58",
@@ -98,5 +100,5 @@
       "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-05-03T11:32:05.526000+00:00"
+  "updated_at": "2026-05-03T11:50:31.029782+00:00"
 }
