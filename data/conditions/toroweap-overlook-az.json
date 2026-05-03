@@ -17,8 +17,8 @@
   "notes": "60 miles of dirt road \u2014 high clearance required",
   "dog_friendly": "No",
   "vehicle_req": "High-Clearance",
-  "score": 78,
-  "score_label": "Good conditions",
+  "score": 50,
+  "score_label": "Use caution",
   "gear_flags": [
     "mask for sensitive groups"
   ],
@@ -29,8 +29,8 @@
     "gusts_mph": 9,
     "rain_pct": 0
   },
-  "sunrise": "2026-05-02T05:36",
-  "sunset": "2026-05-02T19:19",
+  "sunrise": "",
+  "sunset": "",
   "aqi": {
     "aqi": 74,
     "category": "Moderate",
@@ -43,62 +43,6 @@
     "fire_count_50km": 0
   },
   "river": null,
-  "forecast": [
-    {
-      "date": "2026-05-02",
-      "high_f": 80,
-      "low_f": 48,
-      "rain_pct": 0,
-      "uv": 8,
-      "sunrise": "2026-05-02T05:36",
-      "sunset": "2026-05-02T19:19",
-      "predicted_score": 78,
-      "score_label": "Good conditions"
-    },
-    {
-      "date": "2026-05-03",
-      "high_f": 84,
-      "low_f": 56,
-      "rain_pct": 15,
-      "uv": 8,
-      "sunrise": "2026-05-03T05:35",
-      "sunset": "2026-05-03T19:19",
-      "predicted_score": 78,
-      "score_label": "Good conditions"
-    },
-    {
-      "date": "2026-05-04",
-      "high_f": 72,
-      "low_f": 54,
-      "rain_pct": 2,
-      "uv": 6,
-      "sunrise": "2026-05-04T05:34",
-      "sunset": "2026-05-04T19:20",
-      "predicted_score": 90,
-      "score_label": "Great day to go"
-    },
-    {
-      "date": "2026-05-05",
-      "high_f": 66,
-      "low_f": 48,
-      "rain_pct": 37,
-      "uv": 7,
-      "sunrise": "2026-05-05T05:33",
-      "sunset": "2026-05-05T19:21",
-      "predicted_score": 60,
-      "score_label": "Use caution"
-    },
-    {
-      "date": "2026-05-06",
-      "high_f": 76,
-      "low_f": 46,
-      "rain_pct": 9,
-      "uv": 8,
-      "sunrise": "2026-05-06T05:32",
-      "sunset": "2026-05-06T19:22",
-      "predicted_score": 78,
-      "score_label": "Good conditions"
-    }
-  ],
-  "updated_at": "2026-05-03T00:29:18.041510+00:00"
+  "forecast": [],
+  "updated_at": "2026-05-03T00:48:23.612628+00:00"
 }
