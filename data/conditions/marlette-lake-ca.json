@@ -27,8 +27,8 @@
     "gusts_mph": 15,
     "rain_pct": 4
   },
-  "sunrise": "2026-05-02T05:59",
-  "sunset": "2026-05-02T19:53",
+  "sunrise": "2026-05-03T05:58",
+  "sunset": "2026-05-03T19:54",
   "aqi": {
     "aqi": 41,
     "category": "Good",
@@ -42,17 +42,6 @@
   },
   "river": null,
   "forecast": [
-    {
-      "date": "2026-05-02",
-      "high_f": 60,
-      "low_f": 42,
-      "rain_pct": 18,
-      "uv": 6,
-      "sunrise": "2026-05-02T05:59",
-      "sunset": "2026-05-02T19:53",
-      "predicted_score": 88,
-      "score_label": "Great day to go"
-    },
     {
       "date": "2026-05-03",
       "high_f": 57,
@@ -96,7 +85,18 @@
       "sunset": "2026-05-06T19:57",
       "predicted_score": 100,
       "score_label": "Great day to go"
+    },
+    {
+      "date": "2026-05-07",
+      "high_f": 64,
+      "low_f": 46,
+      "rain_pct": 2,
+      "uv": 8,
+      "sunrise": "2026-05-07T05:54",
+      "sunset": "2026-05-07T19:58",
+      "predicted_score": 100,
+      "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-05-03T06:50:22.352954+00:00"
+  "updated_at": "2026-05-03T07:10:44.038826+00:00"
 }
