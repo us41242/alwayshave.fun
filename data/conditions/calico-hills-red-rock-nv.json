@@ -17,25 +17,25 @@
   "notes": "Avoid mid-summer heat \u2014 best Oct\u2013Apr",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 80,
-  "score_label": "Good conditions",
+  "score": 90,
+  "score_label": "Great day to go",
   "gear_flags": [
-    "N95 mask recommended"
+    "mask for sensitive groups"
   ],
   "current": {
     "temp_f": 66,
-    "feels_like_f": 58,
-    "wind_mph": 2,
-    "gusts_mph": 2,
+    "feels_like_f": 57,
+    "wind_mph": 3,
+    "gusts_mph": 5,
     "rain_pct": 0
   },
   "sunrise": "2026-05-02T05:47",
   "sunset": "2026-05-02T19:30",
   "aqi": {
-    "aqi": 126,
-    "category": "Unhealthy for Sensitive Groups",
-    "pollutant": "PM2.5",
-    "source": "open-meteo"
+    "aqi": 90,
+    "category": "Moderate",
+    "pollutant": "O3",
+    "source": "airnow"
   },
   "fire": {
     "risk_level": "low",
@@ -52,53 +52,53 @@
       "uv": 8,
       "sunrise": "2026-05-02T05:47",
       "sunset": "2026-05-02T19:30",
-      "predicted_score": 80,
-      "score_label": "Good conditions"
+      "predicted_score": 90,
+      "score_label": "Great day to go"
     },
     {
       "date": "2026-05-03",
       "high_f": 79,
-      "low_f": 60,
+      "low_f": 61,
       "rain_pct": 8,
       "uv": 8,
       "sunrise": "2026-05-03T05:46",
       "sunset": "2026-05-03T19:30",
-      "predicted_score": 68,
-      "score_label": "Use caution"
+      "predicted_score": 78,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-05-04",
       "high_f": 63,
       "low_f": 49,
-      "rain_pct": 2,
+      "rain_pct": 1,
       "uv": 7,
       "sunrise": "2026-05-04T05:45",
       "sunset": "2026-05-04T19:31",
-      "predicted_score": 80,
-      "score_label": "Good conditions"
+      "predicted_score": 90,
+      "score_label": "Great day to go"
     },
     {
       "date": "2026-05-05",
       "high_f": 57,
       "low_f": 44,
-      "rain_pct": 17,
+      "rain_pct": 18,
       "uv": 8,
       "sunrise": "2026-05-05T05:44",
       "sunset": "2026-05-05T19:32",
-      "predicted_score": 68,
-      "score_label": "Use caution"
+      "predicted_score": 78,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-05-06",
       "high_f": 73,
       "low_f": 50,
-      "rain_pct": 4,
+      "rain_pct": 3,
       "uv": 8,
       "sunrise": "2026-05-06T05:43",
       "sunset": "2026-05-06T19:33",
-      "predicted_score": 80,
-      "score_label": "Good conditions"
+      "predicted_score": 90,
+      "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-05-03T03:05:07.274998+00:00"
+  "updated_at": "2026-05-03T03:31:16.009508+00:00"
 }
