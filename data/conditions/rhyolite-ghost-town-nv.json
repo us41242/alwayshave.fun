@@ -25,10 +25,10 @@
   ],
   "current": {
     "temp_f": 77,
-    "feels_like_f": 64,
-    "wind_mph": 18,
-    "gusts_mph": 24,
-    "rain_pct": 5
+    "feels_like_f": 63,
+    "wind_mph": 21,
+    "gusts_mph": 26,
+    "rain_pct": 8
   },
   "sunrise": "2026-05-03T05:50",
   "sunset": "2026-05-03T19:37",
@@ -40,7 +40,7 @@
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": null,
+    "nearest_fire_km": 179.8,
     "fire_count_50km": 0
   },
   "river": null,
@@ -49,7 +49,7 @@
       "date": "2026-05-03",
       "high_f": 78,
       "low_f": 58,
-      "rain_pct": 10,
+      "rain_pct": 9,
       "uv": 8,
       "sunrise": "2026-05-03T05:50",
       "sunset": "2026-05-03T19:37",
@@ -59,7 +59,7 @@
     {
       "date": "2026-05-04",
       "high_f": 67,
-      "low_f": 46,
+      "low_f": 47,
       "rain_pct": 1,
       "uv": 8,
       "sunrise": "2026-05-04T05:49",
@@ -69,7 +69,7 @@
     },
     {
       "date": "2026-05-05",
-      "high_f": 68,
+      "high_f": 67,
       "low_f": 40,
       "rain_pct": 19,
       "uv": 8,
@@ -80,8 +80,8 @@
     },
     {
       "date": "2026-05-06",
-      "high_f": 80,
-      "low_f": 54,
+      "high_f": 81,
+      "low_f": 55,
       "rain_pct": 6,
       "uv": 8,
       "sunrise": "2026-05-06T05:47",
@@ -92,7 +92,7 @@
     {
       "date": "2026-05-07",
       "high_f": 86,
-      "low_f": 63,
+      "low_f": 62,
       "rain_pct": 1,
       "uv": 8,
       "sunrise": "2026-05-07T05:46",
@@ -101,5 +101,5 @@
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-05-03T23:26:41.176582+00:00"
+  "updated_at": "2026-05-03T23:49:18.402095+00:00"
 }

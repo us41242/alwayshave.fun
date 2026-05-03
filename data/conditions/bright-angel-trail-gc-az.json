@@ -24,11 +24,11 @@
     "mask for sensitive groups"
   ],
   "current": {
-    "temp_f": 67,
-    "feels_like_f": 56,
-    "wind_mph": 18,
-    "gusts_mph": 24,
-    "rain_pct": 20
+    "temp_f": 65,
+    "feels_like_f": 53,
+    "wind_mph": 16,
+    "gusts_mph": 26,
+    "rain_pct": 12
   },
   "sunrise": "2026-05-03T05:33",
   "sunset": "2026-05-03T19:17",
@@ -40,11 +40,11 @@
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": null,
+    "nearest_fire_km": 121.3,
     "fire_count_50km": 0
   },
   "river": {
-    "cfs": 8130,
+    "cfs": 8170,
     "stage": "flood"
   },
   "forecast": [
@@ -53,7 +53,7 @@
       "high_f": 68,
       "low_f": 45,
       "rain_pct": 24,
-      "uv": 7,
+      "uv": 8,
       "sunrise": "2026-05-03T05:33",
       "sunset": "2026-05-03T19:17",
       "predicted_score": 78,
@@ -63,7 +63,7 @@
       "date": "2026-05-04",
       "high_f": 64,
       "low_f": 44,
-      "rain_pct": 1,
+      "rain_pct": 2,
       "uv": 6,
       "sunrise": "2026-05-04T05:32",
       "sunset": "2026-05-04T19:18",
@@ -72,7 +72,7 @@
     },
     {
       "date": "2026-05-05",
-      "high_f": 56,
+      "high_f": 57,
       "low_f": 36,
       "rain_pct": 57,
       "uv": 7,
@@ -83,7 +83,7 @@
     },
     {
       "date": "2026-05-06",
-      "high_f": 66,
+      "high_f": 64,
       "low_f": 36,
       "rain_pct": 13,
       "uv": 8,
@@ -94,8 +94,8 @@
     },
     {
       "date": "2026-05-07",
-      "high_f": 71,
-      "low_f": 47,
+      "high_f": 72,
+      "low_f": 45,
       "rain_pct": 1,
       "uv": 8,
       "sunrise": "2026-05-07T05:29",
@@ -104,5 +104,5 @@
       "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-05-03T23:24:08.587987+00:00"
+  "updated_at": "2026-05-03T23:45:34.047087+00:00"
 }

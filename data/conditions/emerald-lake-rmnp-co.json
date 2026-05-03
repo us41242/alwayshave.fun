@@ -20,15 +20,14 @@
   "score": 68,
   "score_label": "Use caution",
   "gear_flags": [
-    "wind layer recommended",
     "insulation layer required",
     "N95 mask recommended"
   ],
   "current": {
-    "temp_f": 43,
-    "feels_like_f": 33,
-    "wind_mph": 11,
-    "gusts_mph": 25,
+    "temp_f": 45,
+    "feels_like_f": 36,
+    "wind_mph": 9,
+    "gusts_mph": 19,
     "rain_pct": 3
   },
   "sunrise": "2026-05-03T05:59",
@@ -41,7 +40,7 @@
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": null,
+    "nearest_fire_km": 247.3,
     "fire_count_50km": 0
   },
   "river": null,
@@ -51,7 +50,7 @@
       "high_f": 46,
       "low_f": 29,
       "rain_pct": 3,
-      "uv": 7,
+      "uv": 8,
       "sunrise": "2026-05-03T05:59",
       "sunset": "2026-05-03T19:59",
       "predicted_score": 68,
@@ -61,8 +60,8 @@
       "date": "2026-05-04",
       "high_f": 44,
       "low_f": 32,
-      "rain_pct": 52,
-      "uv": 6,
+      "rain_pct": 53,
+      "uv": 7,
       "sunrise": "2026-05-04T05:57",
       "sunset": "2026-05-04T20:00",
       "predicted_score": 50,
@@ -70,10 +69,10 @@
     },
     {
       "date": "2026-05-05",
-      "high_f": 33,
+      "high_f": 35,
       "low_f": 20,
       "rain_pct": 98,
-      "uv": 3,
+      "uv": 6,
       "sunrise": "2026-05-05T05:56",
       "sunset": "2026-05-05T20:01",
       "predicted_score": 40,
@@ -81,10 +80,10 @@
     },
     {
       "date": "2026-05-06",
-      "high_f": 29,
-      "low_f": 15,
+      "high_f": 26,
+      "low_f": 9,
       "rain_pct": 97,
-      "uv": 9,
+      "uv": 8,
       "sunrise": "2026-05-06T05:55",
       "sunset": "2026-05-06T20:02",
       "predicted_score": 40,
@@ -93,14 +92,14 @@
     {
       "date": "2026-05-07",
       "high_f": 39,
-      "low_f": 15,
+      "low_f": 12,
       "rain_pct": 35,
-      "uv": 8,
+      "uv": 9,
       "sunrise": "2026-05-07T05:54",
       "sunset": "2026-05-07T20:03",
       "predicted_score": 50,
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-05-03T23:29:07.899585+00:00"
+  "updated_at": "2026-05-03T23:51:46.619228+00:00"
 }
