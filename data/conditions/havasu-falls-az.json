@@ -24,7 +24,7 @@
   ],
   "current": {
     "temp_f": 64,
-    "feels_like_f": 54,
+    "feels_like_f": 53,
     "wind_mph": 12,
     "gusts_mph": 18,
     "rain_pct": 0
@@ -46,9 +46,9 @@
   "forecast": [
     {
       "date": "2026-05-03",
-      "high_f": 87,
+      "high_f": 88,
       "low_f": 62,
-      "rain_pct": 19,
+      "rain_pct": 20,
       "uv": 8,
       "sunrise": "2026-05-03T05:35",
       "sunset": "2026-05-03T19:20",
@@ -100,5 +100,5 @@
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-05-03T10:23:03.368642+00:00"
+  "updated_at": "2026-05-03T10:43:00.234979+00:00"
 }
