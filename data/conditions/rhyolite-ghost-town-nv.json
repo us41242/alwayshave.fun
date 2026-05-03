@@ -17,8 +17,8 @@
   "notes": "Near Death Valley \u2014 extreme summer heat",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 90,
-  "score_label": "Great day to go",
+  "score": 50,
+  "score_label": "Use caution",
   "gear_flags": [
     "mask for sensitive groups"
   ],
@@ -29,8 +29,8 @@
     "gusts_mph": 5,
     "rain_pct": 0
   },
-  "sunrise": "2026-05-03T05:50",
-  "sunset": "2026-05-03T19:37",
+  "sunrise": "",
+  "sunset": "",
   "aqi": {
     "aqi": 71,
     "category": "Moderate",
@@ -43,62 +43,6 @@
     "fire_count_50km": 0
   },
   "river": null,
-  "forecast": [
-    {
-      "date": "2026-05-03",
-      "high_f": 79,
-      "low_f": 59,
-      "rain_pct": 4,
-      "uv": 8,
-      "sunrise": "2026-05-03T05:50",
-      "sunset": "2026-05-03T19:37",
-      "predicted_score": 78,
-      "score_label": "Good conditions"
-    },
-    {
-      "date": "2026-05-04",
-      "high_f": 65,
-      "low_f": 45,
-      "rain_pct": 14,
-      "uv": 8,
-      "sunrise": "2026-05-04T05:49",
-      "sunset": "2026-05-04T19:38",
-      "predicted_score": 78,
-      "score_label": "Good conditions"
-    },
-    {
-      "date": "2026-05-05",
-      "high_f": 66,
-      "low_f": 46,
-      "rain_pct": 28,
-      "uv": 8,
-      "sunrise": "2026-05-05T05:48",
-      "sunset": "2026-05-05T19:39",
-      "predicted_score": 78,
-      "score_label": "Good conditions"
-    },
-    {
-      "date": "2026-05-06",
-      "high_f": 79,
-      "low_f": 56,
-      "rain_pct": 5,
-      "uv": 8,
-      "sunrise": "2026-05-06T05:47",
-      "sunset": "2026-05-06T19:40",
-      "predicted_score": 78,
-      "score_label": "Good conditions"
-    },
-    {
-      "date": "2026-05-07",
-      "high_f": 85,
-      "low_f": 63,
-      "rain_pct": 1,
-      "uv": 8,
-      "sunrise": "2026-05-07T05:46",
-      "sunset": "2026-05-07T19:41",
-      "predicted_score": 78,
-      "score_label": "Good conditions"
-    }
-  ],
-  "updated_at": "2026-05-03T08:25:29.226695+00:00"
+  "forecast": [],
+  "updated_at": "2026-05-03T08:47:31.369832+00:00"
 }
