@@ -20,20 +20,19 @@
   "score": 56,
   "score_label": "Use caution",
   "gear_flags": [
-    "wind layer recommended",
     "N95 mask recommended for wildfire smoke"
   ],
   "current": {
     "temp_f": 88,
-    "feels_like_f": 83,
-    "wind_mph": 10,
+    "feels_like_f": 84,
+    "wind_mph": 9,
     "gusts_mph": 20,
     "rain_pct": 0
   },
   "sunrise": "2026-05-03T05:42",
   "sunset": "2026-05-03T19:27",
   "aqi": {
-    "aqi": 41,
+    "aqi": 45,
     "category": "Good",
     "pollutant": "PM2.5",
     "source": "open-meteo"
@@ -101,5 +100,5 @@
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-05-03T19:40:46.941955+00:00"
+  "updated_at": "2026-05-03T20:00:58.910918+00:00"
 }
