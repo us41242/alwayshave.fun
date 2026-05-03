@@ -26,7 +26,7 @@
   "current": {
     "temp_f": 82,
     "feels_like_f": 72,
-    "wind_mph": 22,
+    "wind_mph": 20,
     "gusts_mph": 27,
     "rain_pct": 1
   },
@@ -47,7 +47,7 @@
   "forecast": [
     {
       "date": "2026-05-03",
-      "high_f": 83,
+      "high_f": 82,
       "low_f": 63,
       "rain_pct": 1,
       "uv": 8,
@@ -101,5 +101,5 @@
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-05-03T20:25:44.225562+00:00"
+  "updated_at": "2026-05-03T20:45:39.041461+00:00"
 }
