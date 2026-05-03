@@ -17,20 +17,20 @@
   "notes": "Timed entry required Apr 1\u2013Oct 31 \u2014 no dogs on trails",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 88,
+  "score": 100,
   "score_label": "Great day to go",
   "gear_flags": [],
   "current": {
-    "temp_f": 50,
-    "feels_like_f": 41,
-    "wind_mph": 5,
-    "gusts_mph": 5,
+    "temp_f": 51,
+    "feels_like_f": 43,
+    "wind_mph": 6,
+    "gusts_mph": 6,
     "rain_pct": 0
   },
   "sunrise": "2026-05-03T06:17",
   "sunset": "2026-05-03T20:12",
   "aqi": {
-    "aqi": 47,
+    "aqi": 44,
     "category": "Good",
     "pollutant": "O3",
     "source": "airnow"
@@ -44,7 +44,7 @@
   "forecast": [
     {
       "date": "2026-05-03",
-      "high_f": 79,
+      "high_f": 80,
       "low_f": 50,
       "rain_pct": 3,
       "uv": 8,
@@ -98,5 +98,5 @@
       "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-05-03T13:07:47.314189+00:00"
+  "updated_at": "2026-05-03T13:33:59.428274+00:00"
 }
