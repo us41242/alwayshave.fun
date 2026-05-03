@@ -17,8 +17,8 @@
   "notes": "Coastal trail with beach access; busy weekends \u2014 reserve parking",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 90,
-  "score_label": "Great day to go",
+  "score": 82,
+  "score_label": "Good conditions",
   "gear_flags": [
     "mask for sensitive groups"
   ],
@@ -38,8 +38,8 @@
     "source": "open-meteo"
   },
   "fire": {
-    "risk_level": "low",
-    "nearest_fire_km": 1261.4,
+    "risk_level": "moderate",
+    "nearest_fire_km": 74.3,
     "fire_count_50km": 0
   },
   "river": null,
@@ -52,8 +52,8 @@
       "uv": 8,
       "sunrise": "2026-05-03T06:00",
       "sunset": "2026-05-03T19:35",
-      "predicted_score": 90,
-      "score_label": "Great day to go"
+      "predicted_score": 82,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-05-04",
@@ -63,7 +63,7 @@
       "uv": 6,
       "sunrise": "2026-05-04T05:59",
       "sunset": "2026-05-04T19:36",
-      "predicted_score": 78,
+      "predicted_score": 70,
       "score_label": "Good conditions"
     },
     {
@@ -74,7 +74,7 @@
       "uv": 8,
       "sunrise": "2026-05-05T05:58",
       "sunset": "2026-05-05T19:37",
-      "predicted_score": 78,
+      "predicted_score": 70,
       "score_label": "Good conditions"
     },
     {
@@ -85,8 +85,8 @@
       "uv": 8,
       "sunrise": "2026-05-06T05:57",
       "sunset": "2026-05-06T19:38",
-      "predicted_score": 90,
-      "score_label": "Great day to go"
+      "predicted_score": 82,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-05-07",
@@ -96,9 +96,9 @@
       "uv": 8,
       "sunrise": "2026-05-07T05:56",
       "sunset": "2026-05-07T19:38",
-      "predicted_score": 78,
+      "predicted_score": 70,
       "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-05-03T09:36:21.122819+00:00"
+  "updated_at": "2026-05-03T09:54:58.337297+00:00"
 }

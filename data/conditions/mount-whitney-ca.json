@@ -24,7 +24,7 @@
   ],
   "current": {
     "temp_f": 12,
-    "feels_like_f": 1,
+    "feels_like_f": 0,
     "wind_mph": 10,
     "gusts_mph": 16,
     "rain_pct": 0
@@ -39,7 +39,7 @@
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": 1221.1,
+    "nearest_fire_km": 235.5,
     "fire_count_50km": 0
   },
   "river": {
@@ -103,5 +103,5 @@
       "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-05-03T09:35:04.221068+00:00"
+  "updated_at": "2026-05-03T09:54:56.708422+00:00"
 }
