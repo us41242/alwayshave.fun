@@ -23,11 +23,11 @@
     "mask for sensitive groups"
   ],
   "current": {
-    "temp_f": 75,
+    "temp_f": 76,
     "feels_like_f": 68,
-    "wind_mph": 7,
+    "wind_mph": 9,
     "gusts_mph": 14,
-    "rain_pct": 20
+    "rain_pct": 21
   },
   "sunrise": "2026-05-03T06:30",
   "sunset": "2026-05-03T20:18",
@@ -39,7 +39,7 @@
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": 215.5,
+    "nearest_fire_km": null,
     "fire_count_50km": 0
   },
   "river": null,
@@ -100,5 +100,5 @@
       "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-05-03T23:48:05.573978+00:00"
+  "updated_at": "2026-05-04T00:09:02.975163+00:00"
 }
