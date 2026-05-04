@@ -24,11 +24,11 @@
     "mask for sensitive groups"
   ],
   "current": {
-    "temp_f": 39,
-    "feels_like_f": 31,
-    "wind_mph": 11,
-    "gusts_mph": 12,
-    "rain_pct": 10
+    "temp_f": 40,
+    "feels_like_f": 30,
+    "wind_mph": 15,
+    "gusts_mph": 16,
+    "rain_pct": 11
   },
   "sunrise": "2026-05-04T05:34",
   "sunset": "2026-05-04T19:32",
@@ -47,9 +47,9 @@
   "forecast": [
     {
       "date": "2026-05-04",
-      "high_f": 40,
-      "low_f": 27,
-      "rain_pct": 24,
+      "high_f": 42,
+      "low_f": 25,
+      "rain_pct": 25,
       "uv": 7,
       "sunrise": "2026-05-04T05:34",
       "sunset": "2026-05-04T19:32",
@@ -101,5 +101,5 @@
       "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-05-04T18:26:22.200231+00:00"
+  "updated_at": "2026-05-04T18:49:37.736900+00:00"
 }
