@@ -24,13 +24,13 @@
   ],
   "current": {
     "temp_f": 62,
-    "feels_like_f": 57,
-    "wind_mph": 3,
-    "gusts_mph": 7,
+    "feels_like_f": 56,
+    "wind_mph": 4,
+    "gusts_mph": 4,
     "rain_pct": 1
   },
-  "sunrise": "2026-05-03T05:35",
-  "sunset": "2026-05-03T19:19",
+  "sunrise": "2026-05-04T05:34",
+  "sunset": "2026-05-04T19:20",
   "aqi": {
     "aqi": 77,
     "category": "Moderate",
@@ -44,17 +44,6 @@
   },
   "river": null,
   "forecast": [
-    {
-      "date": "2026-05-03",
-      "high_f": 81,
-      "low_f": 52,
-      "rain_pct": 30,
-      "uv": 8,
-      "sunrise": "2026-05-03T05:35",
-      "sunset": "2026-05-03T19:19",
-      "predicted_score": 78,
-      "score_label": "Good conditions"
-    },
     {
       "date": "2026-05-04",
       "high_f": 79,
@@ -98,7 +87,18 @@
       "sunset": "2026-05-07T19:23",
       "predicted_score": 78,
       "score_label": "Good conditions"
+    },
+    {
+      "date": "2026-05-08",
+      "high_f": 89,
+      "low_f": 61,
+      "rain_pct": 1,
+      "uv": 8,
+      "sunrise": "2026-05-08T05:30",
+      "sunset": "2026-05-08T19:24",
+      "predicted_score": 60,
+      "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-05-04T06:50:27.048424+00:00"
+  "updated_at": "2026-05-04T07:06:31.229542+00:00"
 }

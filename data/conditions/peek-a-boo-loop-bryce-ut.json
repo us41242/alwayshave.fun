@@ -20,15 +20,14 @@
   "score": 88,
   "score_label": "Great day to go",
   "gear_flags": [
-    "wind layer recommended",
     "insulation layer required"
   ],
   "current": {
-    "temp_f": 42,
-    "feels_like_f": 32,
-    "wind_mph": 15,
-    "gusts_mph": 24,
-    "rain_pct": 3
+    "temp_f": 41,
+    "feels_like_f": 33,
+    "wind_mph": 12,
+    "gusts_mph": 14,
+    "rain_pct": 2
   },
   "sunrise": "2026-05-04T06:29",
   "sunset": "2026-05-04T20:21",
@@ -47,7 +46,7 @@
   "forecast": [
     {
       "date": "2026-05-04",
-      "high_f": 57,
+      "high_f": 58,
       "low_f": 38,
       "rain_pct": 8,
       "uv": 6,
@@ -101,5 +100,5 @@
       "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-05-04T06:47:46.480795+00:00"
+  "updated_at": "2026-05-04T07:04:04.698331+00:00"
 }
