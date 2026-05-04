@@ -17,12 +17,9 @@
   "notes": "Timed entry permit required Jun\u2013Oct; Bear Lake Rd closes seasonally",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 42,
+  "score": 32,
   "score_label": "Conditions poor",
   "gear_flags": [
-    "wind layer recommended",
-    "insulation layer required",
-    "rain gear recommended",
     "N95 mask recommended"
   ],
   "current": {
@@ -32,8 +29,8 @@
     "gusts_mph": 30,
     "rain_pct": 42
   },
-  "sunrise": "2026-05-04T05:57",
-  "sunset": "2026-05-04T20:00",
+  "sunrise": "",
+  "sunset": "",
   "aqi": {
     "aqi": 107,
     "category": "Unhealthy for Sensitive Groups",
@@ -46,62 +43,6 @@
     "fire_count_50km": 0
   },
   "river": null,
-  "forecast": [
-    {
-      "date": "2026-05-04",
-      "high_f": 47,
-      "low_f": 30,
-      "rain_pct": 42,
-      "uv": 8,
-      "sunrise": "2026-05-04T05:57",
-      "sunset": "2026-05-04T20:00",
-      "predicted_score": 42,
-      "score_label": "Conditions poor"
-    },
-    {
-      "date": "2026-05-05",
-      "high_f": 36,
-      "low_f": 16,
-      "rain_pct": 82,
-      "uv": 3,
-      "sunrise": "2026-05-05T05:56",
-      "sunset": "2026-05-05T20:01",
-      "predicted_score": 32,
-      "score_label": "Conditions poor"
-    },
-    {
-      "date": "2026-05-06",
-      "high_f": 25,
-      "low_f": 6,
-      "rain_pct": 100,
-      "uv": 7,
-      "sunrise": "2026-05-06T05:55",
-      "sunset": "2026-05-06T20:02",
-      "predicted_score": 32,
-      "score_label": "Conditions poor"
-    },
-    {
-      "date": "2026-05-07",
-      "high_f": 37,
-      "low_f": 7,
-      "rain_pct": 53,
-      "uv": 9,
-      "sunrise": "2026-05-07T05:54",
-      "sunset": "2026-05-07T20:03",
-      "predicted_score": 42,
-      "score_label": "Conditions poor"
-    },
-    {
-      "date": "2026-05-08",
-      "high_f": 43,
-      "low_f": 23,
-      "rain_pct": 53,
-      "uv": 9,
-      "sunrise": "2026-05-08T05:53",
-      "sunset": "2026-05-08T20:04",
-      "predicted_score": 42,
-      "score_label": "Conditions poor"
-    }
-  ],
-  "updated_at": "2026-05-04T23:08:53.399677+00:00"
+  "forecast": [],
+  "updated_at": "2026-05-04T23:32:52.302682+00:00"
 }

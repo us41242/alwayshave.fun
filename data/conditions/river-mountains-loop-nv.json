@@ -17,10 +17,9 @@
   "notes": "Full loop 34mi \u2014 sections open to bikes/horses",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 78,
-  "score_label": "Good conditions",
+  "score": 50,
+  "score_label": "Use caution",
   "gear_flags": [
-    "wind layer recommended",
     "mask for sensitive groups"
   ],
   "current": {
@@ -30,10 +29,10 @@
     "gusts_mph": 24,
     "rain_pct": 0
   },
-  "sunrise": "2026-05-04T05:43",
-  "sunset": "2026-05-04T19:29",
+  "sunrise": "",
+  "sunset": "",
   "aqi": {
-    "aqi": 51,
+    "aqi": 54,
     "category": "Moderate",
     "pollutant": "O3",
     "source": "airnow"
@@ -44,62 +43,6 @@
     "fire_count_50km": 0
   },
   "river": null,
-  "forecast": [
-    {
-      "date": "2026-05-04",
-      "high_f": 75,
-      "low_f": 58,
-      "rain_pct": 1,
-      "uv": 6,
-      "sunrise": "2026-05-04T05:43",
-      "sunset": "2026-05-04T19:29",
-      "predicted_score": 90,
-      "score_label": "Great day to go"
-    },
-    {
-      "date": "2026-05-05",
-      "high_f": 72,
-      "low_f": 51,
-      "rain_pct": 2,
-      "uv": 8,
-      "sunrise": "2026-05-05T05:42",
-      "sunset": "2026-05-05T19:30",
-      "predicted_score": 90,
-      "score_label": "Great day to go"
-    },
-    {
-      "date": "2026-05-06",
-      "high_f": 80,
-      "low_f": 56,
-      "rain_pct": 3,
-      "uv": 8,
-      "sunrise": "2026-05-06T05:41",
-      "sunset": "2026-05-06T19:31",
-      "predicted_score": 78,
-      "score_label": "Good conditions"
-    },
-    {
-      "date": "2026-05-07",
-      "high_f": 90,
-      "low_f": 60,
-      "rain_pct": 0,
-      "uv": 8,
-      "sunrise": "2026-05-07T05:40",
-      "sunset": "2026-05-07T19:31",
-      "predicted_score": 60,
-      "score_label": "Use caution"
-    },
-    {
-      "date": "2026-05-08",
-      "high_f": 95,
-      "low_f": 66,
-      "rain_pct": 0,
-      "uv": 8,
-      "sunrise": "2026-05-08T05:39",
-      "sunset": "2026-05-08T19:32",
-      "predicted_score": 60,
-      "score_label": "Use caution"
-    }
-  ],
-  "updated_at": "2026-05-04T23:06:24.202287+00:00"
+  "forecast": [],
+  "updated_at": "2026-05-04T23:28:27.577696+00:00"
 }
