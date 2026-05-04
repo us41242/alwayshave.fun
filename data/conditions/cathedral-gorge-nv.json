@@ -20,13 +20,14 @@
   "score": 78,
   "score_label": "Good conditions",
   "gear_flags": [
+    "wind layer recommended",
     "mask for sensitive groups"
   ],
   "current": {
-    "temp_f": 67,
-    "feels_like_f": 57,
-    "wind_mph": 17,
-    "gusts_mph": 19,
+    "temp_f": 66,
+    "feels_like_f": 56,
+    "wind_mph": 18,
+    "gusts_mph": 21,
     "rain_pct": 1
   },
   "sunrise": "2026-05-04T05:37",
@@ -100,5 +101,5 @@
       "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-05-04T20:01:48.870708+00:00"
+  "updated_at": "2026-05-04T20:24:15.609844+00:00"
 }
