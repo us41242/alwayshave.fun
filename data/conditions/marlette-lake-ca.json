@@ -17,24 +17,23 @@
   "notes": "No cars beyond Spooner Summit; bike-legal trail",
   "dog_friendly": "Yes",
   "vehicle_req": "AWD",
-  "score": 78,
-  "score_label": "Good conditions",
+  "score": 88,
+  "score_label": "Great day to go",
   "gear_flags": [
-    "insulation layer required",
-    "mask for sensitive groups"
+    "insulation layer required"
   ],
   "current": {
     "temp_f": 41,
-    "feels_like_f": 36,
-    "wind_mph": 2,
+    "feels_like_f": 37,
+    "wind_mph": 1,
     "gusts_mph": 2,
-    "rain_pct": 8
+    "rain_pct": 5
   },
   "sunrise": "2026-05-03T05:58",
   "sunset": "2026-05-03T19:54",
   "aqi": {
-    "aqi": 51,
-    "category": "Moderate",
+    "aqi": 49,
+    "category": "Good",
     "pollutant": "O3",
     "source": "airnow"
   },
@@ -53,14 +52,14 @@
       "uv": 7,
       "sunrise": "2026-05-03T05:58",
       "sunset": "2026-05-03T19:54",
-      "predicted_score": 50,
+      "predicted_score": 60,
       "score_label": "Use caution"
     },
     {
       "date": "2026-05-04",
-      "high_f": 47,
+      "high_f": 46,
       "low_f": 32,
-      "rain_pct": 56,
+      "rain_pct": 61,
       "uv": 3,
       "sunrise": "2026-05-04T05:57",
       "sunset": "2026-05-04T19:55",
@@ -71,12 +70,12 @@
       "date": "2026-05-05",
       "high_f": 52,
       "low_f": 34,
-      "rain_pct": 52,
+      "rain_pct": 56,
       "uv": 7,
       "sunrise": "2026-05-05T05:56",
       "sunset": "2026-05-05T19:56",
-      "predicted_score": 60,
-      "score_label": "Use caution"
+      "predicted_score": 70,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-05-06",
@@ -86,7 +85,7 @@
       "uv": 8,
       "sunrise": "2026-05-06T05:55",
       "sunset": "2026-05-06T19:57",
-      "predicted_score": 90,
+      "predicted_score": 100,
       "score_label": "Great day to go"
     },
     {
@@ -97,9 +96,9 @@
       "uv": 8,
       "sunrise": "2026-05-07T05:54",
       "sunset": "2026-05-07T19:58",
-      "predicted_score": 90,
+      "predicted_score": 100,
       "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-05-04T04:09:28.772895+00:00"
+  "updated_at": "2026-05-04T04:36:56.146470+00:00"
 }
