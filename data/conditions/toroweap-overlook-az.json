@@ -17,13 +17,11 @@
   "notes": "60 miles of dirt road \u2014 high clearance required",
   "dog_friendly": "No",
   "vehicle_req": "High-Clearance",
-  "score": 90,
+  "score": 100,
   "score_label": "Great day to go",
-  "gear_flags": [
-    "mask for sensitive groups"
-  ],
+  "gear_flags": [],
   "current": {
-    "temp_f": 56,
+    "temp_f": 57,
     "feels_like_f": 50,
     "wind_mph": 7,
     "gusts_mph": 10,
@@ -32,8 +30,8 @@
   "sunrise": "2026-05-04T05:34",
   "sunset": "2026-05-04T19:20",
   "aqi": {
-    "aqi": 54,
-    "category": "Moderate",
+    "aqi": 50,
+    "category": "Good",
     "pollutant": "O3",
     "source": "airnow"
   },
@@ -52,8 +50,8 @@
       "uv": 6,
       "sunrise": "2026-05-04T05:34",
       "sunset": "2026-05-04T19:20",
-      "predicted_score": 78,
-      "score_label": "Good conditions"
+      "predicted_score": 88,
+      "score_label": "Great day to go"
     },
     {
       "date": "2026-05-05",
@@ -63,8 +61,8 @@
       "uv": 8,
       "sunrise": "2026-05-05T05:33",
       "sunset": "2026-05-05T19:21",
-      "predicted_score": 60,
-      "score_label": "Use caution"
+      "predicted_score": 70,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-05-06",
@@ -74,8 +72,8 @@
       "uv": 8,
       "sunrise": "2026-05-06T05:32",
       "sunset": "2026-05-06T19:22",
-      "predicted_score": 78,
-      "score_label": "Good conditions"
+      "predicted_score": 88,
+      "score_label": "Great day to go"
     },
     {
       "date": "2026-05-07",
@@ -85,8 +83,8 @@
       "uv": 8,
       "sunrise": "2026-05-07T05:31",
       "sunset": "2026-05-07T19:23",
-      "predicted_score": 78,
-      "score_label": "Good conditions"
+      "predicted_score": 88,
+      "score_label": "Great day to go"
     },
     {
       "date": "2026-05-08",
@@ -96,9 +94,9 @@
       "uv": 8,
       "sunrise": "2026-05-08T05:30",
       "sunset": "2026-05-08T19:24",
-      "predicted_score": 60,
-      "score_label": "Use caution"
+      "predicted_score": 70,
+      "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-05-04T13:06:36.473229+00:00"
+  "updated_at": "2026-05-04T13:26:21.553089+00:00"
 }
