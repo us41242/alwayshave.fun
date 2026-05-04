@@ -17,16 +17,16 @@
   "notes": "Heat advisory Jun\u2013Sep; carry extra water",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 100,
+  "score": 88,
   "score_label": "Great day to go",
   "gear_flags": [
     "wind layer recommended"
   ],
   "current": {
-    "temp_f": 70,
+    "temp_f": 71,
     "feels_like_f": 62,
-    "wind_mph": 11,
-    "gusts_mph": 22,
+    "wind_mph": 15,
+    "gusts_mph": 27,
     "rain_pct": 1
   },
   "sunrise": "2026-05-04T05:41",
@@ -59,7 +59,7 @@
       "date": "2026-05-05",
       "high_f": 74,
       "low_f": 55,
-      "rain_pct": 3,
+      "rain_pct": 2,
       "uv": 8,
       "sunrise": "2026-05-05T05:40",
       "sunset": "2026-05-05T19:29",
@@ -100,5 +100,5 @@
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-05-04T14:21:46.358269+00:00"
+  "updated_at": "2026-05-04T14:41:46.756607+00:00"
 }

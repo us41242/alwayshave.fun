@@ -17,14 +17,14 @@
   "notes": "Flash flood danger \u2014 check weather 24hr upstream",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 88,
+  "score": 100,
   "score_label": "Great day to go",
   "gear_flags": [],
   "current": {
-    "temp_f": 47,
-    "feels_like_f": 43,
-    "wind_mph": 1,
-    "gusts_mph": 7,
+    "temp_f": 51,
+    "feels_like_f": 48,
+    "wind_mph": 2,
+    "gusts_mph": 9,
     "rain_pct": 1
   },
   "sunrise": "2026-05-04T06:32",
@@ -60,7 +60,7 @@
       "date": "2026-05-05",
       "high_f": 56,
       "low_f": 35,
-      "rain_pct": 18,
+      "rain_pct": 15,
       "uv": 8,
       "sunrise": "2026-05-05T06:31",
       "sunset": "2026-05-05T20:24",
@@ -101,5 +101,5 @@
       "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-05-04T14:23:58.034445+00:00"
+  "updated_at": "2026-05-04T14:44:00.153360+00:00"
 }
