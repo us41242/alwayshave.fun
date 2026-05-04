@@ -17,7 +17,7 @@
   "notes": "Timed entry permit required Jun\u2013Oct; Bear Lake Rd closes seasonally",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 68,
+  "score": 50,
   "score_label": "Use caution",
   "gear_flags": [
     "wind layer recommended",
@@ -25,9 +25,9 @@
     "N95 mask recommended"
   ],
   "current": {
-    "temp_f": 41,
-    "feels_like_f": 33,
-    "wind_mph": 5,
+    "temp_f": 38,
+    "feels_like_f": 30,
+    "wind_mph": 6,
     "gusts_mph": 24,
     "rain_pct": 1
   },
@@ -59,7 +59,7 @@
     },
     {
       "date": "2026-05-04",
-      "high_f": 44,
+      "high_f": 45,
       "low_f": 32,
       "rain_pct": 53,
       "uv": 7,
@@ -102,5 +102,5 @@
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-05-04T01:10:50.356979+00:00"
+  "updated_at": "2026-05-04T01:30:58.512494+00:00"
 }

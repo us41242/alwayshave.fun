@@ -17,24 +17,25 @@
   "notes": "Snow above 9000ft until June \u2014 check SNOTEL",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 70,
-  "score_label": "Good conditions",
+  "score": 60,
+  "score_label": "Use caution",
   "gear_flags": [
     "wind layer recommended",
-    "insulation layer required"
+    "insulation layer required",
+    "mask for sensitive groups"
   ],
   "current": {
     "temp_f": 37,
-    "feels_like_f": 24,
-    "wind_mph": 17,
-    "gusts_mph": 28,
-    "rain_pct": 4
+    "feels_like_f": 26,
+    "wind_mph": 13,
+    "gusts_mph": 26,
+    "rain_pct": 5
   },
   "sunrise": "2026-05-03T05:47",
   "sunset": "2026-05-03T19:32",
   "aqi": {
-    "aqi": 41,
-    "category": "Good",
+    "aqi": 51,
+    "category": "Moderate",
     "pollutant": "PM10",
     "source": "airnow"
   },
@@ -53,8 +54,8 @@
       "uv": 8,
       "sunrise": "2026-05-03T05:47",
       "sunset": "2026-05-03T19:32",
-      "predicted_score": 88,
-      "score_label": "Great day to go"
+      "predicted_score": 78,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-05-04",
@@ -64,7 +65,7 @@
       "uv": 7,
       "sunrise": "2026-05-04T05:46",
       "sunset": "2026-05-04T19:32",
-      "predicted_score": 60,
+      "predicted_score": 50,
       "score_label": "Use caution"
     },
     {
@@ -75,7 +76,7 @@
       "uv": 6,
       "sunrise": "2026-05-05T05:45",
       "sunset": "2026-05-05T19:33",
-      "predicted_score": 60,
+      "predicted_score": 50,
       "score_label": "Use caution"
     },
     {
@@ -86,8 +87,8 @@
       "uv": 7,
       "sunrise": "2026-05-06T05:44",
       "sunset": "2026-05-06T19:34",
-      "predicted_score": 88,
-      "score_label": "Great day to go"
+      "predicted_score": 78,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-05-07",
@@ -97,9 +98,9 @@
       "uv": 9,
       "sunrise": "2026-05-07T05:43",
       "sunset": "2026-05-07T19:35",
-      "predicted_score": 100,
+      "predicted_score": 90,
       "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-05-04T01:01:35.190367+00:00"
+  "updated_at": "2026-05-04T01:21:32.622058+00:00"
 }
