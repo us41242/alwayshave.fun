@@ -21,16 +21,16 @@
   "score_label": "Great day to go",
   "gear_flags": [],
   "current": {
-    "temp_f": 46,
+    "temp_f": 45,
     "feels_like_f": 42,
-    "wind_mph": 5,
+    "wind_mph": 6,
     "gusts_mph": 10,
-    "rain_pct": 22
+    "rain_pct": 21
   },
   "sunrise": "2026-05-04T05:58",
   "sunset": "2026-05-04T19:51",
   "aqi": {
-    "aqi": 31,
+    "aqi": 30,
     "category": "Good",
     "pollutant": "O3",
     "source": "airnow"
@@ -55,8 +55,8 @@
     },
     {
       "date": "2026-05-05",
-      "high_f": 49,
-      "low_f": 41,
+      "high_f": 50,
+      "low_f": 43,
       "rain_pct": 43,
       "uv": 3,
       "sunrise": "2026-05-05T05:57",
@@ -67,7 +67,7 @@
     {
       "date": "2026-05-06",
       "high_f": 69,
-      "low_f": 44,
+      "low_f": 46,
       "rain_pct": 4,
       "uv": 8,
       "sunrise": "2026-05-06T05:56",
@@ -98,5 +98,5 @@
       "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-05-04T14:06:42.671311+00:00"
+  "updated_at": "2026-05-04T14:28:44.552268+00:00"
 }

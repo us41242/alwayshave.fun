@@ -23,16 +23,16 @@
     "wind layer recommended"
   ],
   "current": {
-    "temp_f": 72,
+    "temp_f": 73,
     "feels_like_f": 62,
-    "wind_mph": 18,
+    "wind_mph": 19,
     "gusts_mph": 28,
     "rain_pct": 0
   },
   "sunrise": "2026-05-04T05:42",
   "sunset": "2026-05-04T19:28",
   "aqi": {
-    "aqi": 50,
+    "aqi": 49,
     "category": "Good",
     "pollutant": "O3",
     "source": "airnow"
@@ -57,8 +57,8 @@
     },
     {
       "date": "2026-05-05",
-      "high_f": 76,
-      "low_f": 57,
+      "high_f": 79,
+      "low_f": 58,
       "rain_pct": 8,
       "uv": 8,
       "sunrise": "2026-05-05T05:41",
@@ -100,5 +100,5 @@
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-05-04T14:04:46.739327+00:00"
+  "updated_at": "2026-05-04T14:26:23.219708+00:00"
 }
