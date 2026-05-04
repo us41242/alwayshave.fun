@@ -30,9 +30,9 @@
   "sunrise": "2026-05-04T05:43",
   "sunset": "2026-05-04T19:28",
   "aqi": {
-    "aqi": 50,
+    "aqi": 49,
     "category": "Good",
-    "pollutant": "PM2.5",
+    "pollutant": "O3",
     "source": "airnow"
   },
   "fire": {
@@ -98,5 +98,5 @@
       "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-05-04T21:06:16.324923+00:00"
+  "updated_at": "2026-05-04T21:26:45.974798+00:00"
 }
