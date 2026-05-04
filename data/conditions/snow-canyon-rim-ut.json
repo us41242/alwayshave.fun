@@ -17,25 +17,26 @@
   "notes": "Sandstone scrambling \u2014 watch for rattlesnakes spring",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 90,
-  "score_label": "Great day to go",
+  "score": 68,
+  "score_label": "Use caution",
   "gear_flags": [
-    "mask for sensitive groups"
+    "wind layer recommended",
+    "N95 mask recommended"
   ],
   "current": {
     "temp_f": 68,
-    "feels_like_f": 60,
-    "wind_mph": 13,
-    "gusts_mph": 17,
-    "rain_pct": 4
+    "feels_like_f": 58,
+    "wind_mph": 17,
+    "gusts_mph": 23,
+    "rain_pct": 3
   },
   "sunrise": "2026-05-03T06:37",
   "sunset": "2026-05-03T20:25",
   "aqi": {
-    "aqi": 51,
-    "category": "Moderate",
-    "pollutant": "O3",
-    "source": "airnow"
+    "aqi": 105,
+    "category": "Unhealthy for Sensitive Groups",
+    "pollutant": "PM2.5",
+    "source": "open-meteo"
   },
   "fire": {
     "risk_level": "low",
@@ -52,8 +53,8 @@
       "uv": 8,
       "sunrise": "2026-05-03T06:37",
       "sunset": "2026-05-03T20:25",
-      "predicted_score": 78,
-      "score_label": "Good conditions"
+      "predicted_score": 68,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-05-04",
@@ -63,8 +64,8 @@
       "uv": 5,
       "sunrise": "2026-05-04T06:36",
       "sunset": "2026-05-04T20:26",
-      "predicted_score": 78,
-      "score_label": "Good conditions"
+      "predicted_score": 68,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-05-05",
@@ -74,8 +75,8 @@
       "uv": 8,
       "sunrise": "2026-05-05T06:35",
       "sunset": "2026-05-05T20:27",
-      "predicted_score": 78,
-      "score_label": "Good conditions"
+      "predicted_score": 68,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-05-06",
@@ -85,8 +86,8 @@
       "uv": 8,
       "sunrise": "2026-05-06T06:34",
       "sunset": "2026-05-06T20:28",
-      "predicted_score": 78,
-      "score_label": "Good conditions"
+      "predicted_score": 68,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-05-07",
@@ -96,9 +97,9 @@
       "uv": 8,
       "sunrise": "2026-05-07T06:33",
       "sunset": "2026-05-07T20:29",
-      "predicted_score": 60,
+      "predicted_score": 50,
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-05-04T02:46:27.709668+00:00"
+  "updated_at": "2026-05-04T03:14:08.212824+00:00"
 }
