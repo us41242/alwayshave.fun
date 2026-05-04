@@ -23,7 +23,7 @@
     "wind layer recommended"
   ],
   "current": {
-    "temp_f": 51,
+    "temp_f": 50,
     "feels_like_f": 36,
     "wind_mph": 26,
     "gusts_mph": 32,
@@ -32,7 +32,7 @@
   "sunrise": "2026-05-04T05:39",
   "sunset": "2026-05-04T19:27",
   "aqi": {
-    "aqi": 45,
+    "aqi": 46,
     "category": "Good",
     "pollutant": "PM2.5",
     "source": "open-meteo"
@@ -100,5 +100,5 @@
       "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-05-04T22:04:06.485968+00:00"
+  "updated_at": "2026-05-04T22:24:23.039208+00:00"
 }
