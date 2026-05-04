@@ -25,9 +25,9 @@
   ],
   "current": {
     "temp_f": 63,
-    "feels_like_f": 53,
-    "wind_mph": 20,
-    "gusts_mph": 28,
+    "feels_like_f": 52,
+    "wind_mph": 21,
+    "gusts_mph": 29,
     "rain_pct": 1
   },
   "sunrise": "2026-05-04T05:32",
@@ -44,7 +44,7 @@
     "fire_count_50km": 0
   },
   "river": {
-    "cfs": 7920,
+    "cfs": 8080,
     "stage": "flood"
   },
   "forecast": [
@@ -61,8 +61,8 @@
     },
     {
       "date": "2026-05-05",
-      "high_f": 54,
-      "low_f": 37,
+      "high_f": 56,
+      "low_f": 36,
       "rain_pct": 13,
       "uv": 8,
       "sunrise": "2026-05-05T05:31",
@@ -73,7 +73,7 @@
     {
       "date": "2026-05-06",
       "high_f": 64,
-      "low_f": 35,
+      "low_f": 33,
       "rain_pct": 10,
       "uv": 8,
       "sunrise": "2026-05-06T05:30",
@@ -104,5 +104,5 @@
       "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-05-04T20:24:17.687037+00:00"
+  "updated_at": "2026-05-04T20:44:10.788551+00:00"
 }
