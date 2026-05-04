@@ -26,8 +26,8 @@
   "current": {
     "temp_f": 64,
     "feels_like_f": 51,
-    "wind_mph": 18,
-    "gusts_mph": 28,
+    "wind_mph": 17,
+    "gusts_mph": 26,
     "rain_pct": 3
   },
   "sunrise": "2026-05-03T05:33",
@@ -44,7 +44,7 @@
     "fire_count_50km": 0
   },
   "river": {
-    "cfs": 8100,
+    "cfs": 7990,
     "stage": "flood"
   },
   "forecast": [
@@ -104,5 +104,5 @@
       "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-05-04T01:23:43.360085+00:00"
+  "updated_at": "2026-05-04T01:43:52.642705+00:00"
 }
