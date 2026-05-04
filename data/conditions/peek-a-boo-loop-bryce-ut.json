@@ -23,11 +23,11 @@
     "insulation layer required"
   ],
   "current": {
-    "temp_f": 44,
+    "temp_f": 43,
     "feels_like_f": 35,
-    "wind_mph": 10,
-    "gusts_mph": 13,
-    "rain_pct": 12
+    "wind_mph": 11,
+    "gusts_mph": 12,
+    "rain_pct": 15
   },
   "sunrise": "2026-05-03T06:30",
   "sunset": "2026-05-03T20:20",
@@ -58,9 +58,9 @@
     {
       "date": "2026-05-04",
       "high_f": 57,
-      "low_f": 39,
-      "rain_pct": 7,
-      "uv": 5,
+      "low_f": 38,
+      "rain_pct": 9,
+      "uv": 6,
       "sunrise": "2026-05-04T06:29",
       "sunset": "2026-05-04T20:21",
       "predicted_score": 100,
@@ -79,8 +79,8 @@
     },
     {
       "date": "2026-05-06",
-      "high_f": 61,
-      "low_f": 35,
+      "high_f": 60,
+      "low_f": 36,
       "rain_pct": 18,
       "uv": 8,
       "sunrise": "2026-05-06T06:27",
@@ -90,7 +90,7 @@
     },
     {
       "date": "2026-05-07",
-      "high_f": 67,
+      "high_f": 66,
       "low_f": 41,
       "rain_pct": 2,
       "uv": 8,
@@ -100,5 +100,5 @@
       "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-05-04T05:26:24.507216+00:00"
+  "updated_at": "2026-05-04T05:43:41.631062+00:00"
 }
