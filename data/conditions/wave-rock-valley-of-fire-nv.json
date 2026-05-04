@@ -20,14 +20,13 @@
   "score": 68,
   "score_label": "Use caution",
   "gear_flags": [
-    "wind layer recommended",
     "N95 mask recommended"
   ],
   "current": {
-    "temp_f": 81,
+    "temp_f": 80,
     "feels_like_f": 71,
-    "wind_mph": 12,
-    "gusts_mph": 26,
+    "wind_mph": 8,
+    "gusts_mph": 16,
     "rain_pct": 2
   },
   "sunrise": "2026-05-03T05:42",
@@ -101,5 +100,5 @@
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-05-04T02:21:37.344366+00:00"
+  "updated_at": "2026-05-04T02:41:32.456603+00:00"
 }
