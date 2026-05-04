@@ -20,16 +20,15 @@
   "score": 78,
   "score_label": "Good conditions",
   "gear_flags": [
-    "wind layer recommended",
     "insulation layer required",
     "mask for sensitive groups"
   ],
   "current": {
     "temp_f": 44,
     "feels_like_f": 35,
-    "wind_mph": 14,
-    "gusts_mph": 23,
-    "rain_pct": 22
+    "wind_mph": 12,
+    "gusts_mph": 17,
+    "rain_pct": 21
   },
   "sunrise": "2026-05-03T06:30",
   "sunset": "2026-05-03T20:20",
@@ -102,5 +101,5 @@
       "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-05-04T03:41:31.244629+00:00"
+  "updated_at": "2026-05-04T04:01:29.569246+00:00"
 }
