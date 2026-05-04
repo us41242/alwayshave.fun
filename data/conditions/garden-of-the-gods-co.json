@@ -17,25 +17,23 @@
   "notes": "Free entry; busy weekends \u2014 arrive before 9am",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 80,
-  "score_label": "Good conditions",
-  "gear_flags": [
-    "wind layer recommended"
-  ],
+  "score": 92,
+  "score_label": "Great day to go",
+  "gear_flags": [],
   "current": {
-    "temp_f": 68,
-    "feels_like_f": 60,
-    "wind_mph": 16,
-    "gusts_mph": 20,
+    "temp_f": 69,
+    "feels_like_f": 61,
+    "wind_mph": 15,
+    "gusts_mph": 19,
     "rain_pct": 1
   },
   "sunrise": "2026-05-04T05:57",
   "sunset": "2026-05-04T19:54",
   "aqi": {
-    "aqi": 47,
+    "aqi": 48,
     "category": "Good",
-    "pollutant": "PM2.5",
-    "source": "open-meteo"
+    "pollutant": "O3",
+    "source": "airnow"
   },
   "fire": {
     "risk_level": "moderate",
@@ -100,5 +98,5 @@
       "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-05-04T17:51:37.729070+00:00"
+  "updated_at": "2026-05-04T18:09:20.914181+00:00"
 }
