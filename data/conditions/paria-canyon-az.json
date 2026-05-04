@@ -22,10 +22,10 @@
   "gear_flags": [],
   "current": {
     "temp_f": 53,
-    "feels_like_f": 47,
-    "wind_mph": 6,
-    "gusts_mph": 6,
-    "rain_pct": 4
+    "feels_like_f": 48,
+    "wind_mph": 2,
+    "gusts_mph": 2,
+    "rain_pct": 2
   },
   "sunrise": "2026-05-04T06:29",
   "sunset": "2026-05-04T20:19",
@@ -44,7 +44,7 @@
   "forecast": [
     {
       "date": "2026-05-04",
-      "high_f": 77,
+      "high_f": 78,
       "low_f": 51,
       "rain_pct": 4,
       "uv": 6,
@@ -98,5 +98,5 @@
       "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-05-04T09:26:33.203116+00:00"
+  "updated_at": "2026-05-04T09:46:32.121561+00:00"
 }
