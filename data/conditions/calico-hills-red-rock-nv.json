@@ -17,17 +17,17 @@
   "notes": "Avoid mid-summer heat \u2014 best Oct\u2013Apr",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 78,
-  "score_label": "Good conditions",
+  "score": 60,
+  "score_label": "Use caution",
   "gear_flags": [
     "wind layer recommended",
     "mask for sensitive groups"
   ],
   "current": {
     "temp_f": 54,
-    "feels_like_f": 41,
-    "wind_mph": 21,
-    "gusts_mph": 39,
+    "feels_like_f": 37,
+    "wind_mph": 30,
+    "gusts_mph": 44,
     "rain_pct": 0
   },
   "sunrise": "2026-05-04T05:45",
@@ -48,7 +48,7 @@
     {
       "date": "2026-05-04",
       "high_f": 67,
-      "low_f": 51,
+      "low_f": 52,
       "rain_pct": 0,
       "uv": 8,
       "sunrise": "2026-05-04T05:45",
@@ -58,7 +58,7 @@
     },
     {
       "date": "2026-05-05",
-      "high_f": 62,
+      "high_f": 64,
       "low_f": 44,
       "rain_pct": 8,
       "uv": 8,
@@ -101,5 +101,5 @@
       "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-05-05T04:21:47.504520+00:00"
+  "updated_at": "2026-05-05T04:41:53.158021+00:00"
 }
