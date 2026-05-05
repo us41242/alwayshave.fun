@@ -17,24 +17,25 @@
   "notes": "Timed entry permit required Jun\u2013Oct; Bear Lake Rd closes seasonally",
   "dog_friendly": "No",
   "vehicle_req": "Any",
-  "score": 40,
-  "score_label": "Conditions poor",
+  "score": 50,
+  "score_label": "Use caution",
   "gear_flags": [
+    "wind layer recommended",
     "insulation layer required",
-    "N95 mask recommended"
+    "mask for sensitive groups"
   ],
   "current": {
     "temp_f": 34,
-    "feels_like_f": 25,
-    "wind_mph": 10,
-    "gusts_mph": 16,
-    "rain_pct": 14
+    "feels_like_f": 23,
+    "wind_mph": 14,
+    "gusts_mph": 20,
+    "rain_pct": 9
   },
   "sunrise": "2026-05-04T05:57",
   "sunset": "2026-05-04T20:00",
   "aqi": {
-    "aqi": 103,
-    "category": "Unhealthy for Sensitive Groups",
+    "aqi": 98,
+    "category": "Moderate",
     "pollutant": "PM2.5",
     "source": "open-meteo"
   },
@@ -53,19 +54,19 @@
       "uv": 8,
       "sunrise": "2026-05-04T05:57",
       "sunset": "2026-05-04T20:00",
-      "predicted_score": 50,
+      "predicted_score": 60,
       "score_label": "Use caution"
     },
     {
       "date": "2026-05-05",
       "high_f": 32,
       "low_f": 18,
-      "rain_pct": 80,
+      "rain_pct": 81,
       "uv": 3,
       "sunrise": "2026-05-05T05:56",
       "sunset": "2026-05-05T20:01",
-      "predicted_score": 40,
-      "score_label": "Conditions poor"
+      "predicted_score": 50,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-05-06",
@@ -75,8 +76,8 @@
       "uv": 7,
       "sunrise": "2026-05-06T05:55",
       "sunset": "2026-05-06T20:02",
-      "predicted_score": 40,
-      "score_label": "Conditions poor"
+      "predicted_score": 50,
+      "score_label": "Use caution"
     },
     {
       "date": "2026-05-07",
@@ -86,7 +87,7 @@
       "uv": 9,
       "sunrise": "2026-05-07T05:54",
       "sunset": "2026-05-07T20:03",
-      "predicted_score": 50,
+      "predicted_score": 60,
       "score_label": "Use caution"
     },
     {
@@ -97,9 +98,9 @@
       "uv": 9,
       "sunrise": "2026-05-08T05:53",
       "sunset": "2026-05-08T20:04",
-      "predicted_score": 50,
+      "predicted_score": 60,
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-05-05T03:51:05.399653+00:00"
+  "updated_at": "2026-05-05T04:09:05.020298+00:00"
 }
