@@ -19,16 +19,18 @@
   "vehicle_req": "Any",
   "score": 60,
   "score_label": "Use caution",
-  "gear_flags": [],
+  "gear_flags": [
+    "insulation layer required"
+  ],
   "current": {
-    "temp_f": 25,
-    "feels_like_f": 13,
-    "wind_mph": 16,
-    "gusts_mph": 20,
-    "rain_pct": 14
+    "temp_f": 27,
+    "feels_like_f": 15,
+    "wind_mph": 15,
+    "gusts_mph": 18,
+    "rain_pct": 9
   },
-  "sunrise": "",
-  "sunset": "",
+  "sunrise": "2026-05-04T05:35",
+  "sunset": "2026-05-04T19:32",
   "aqi": {
     "aqi": 48,
     "category": "Good",
@@ -41,6 +43,62 @@
     "fire_count_50km": 0
   },
   "river": null,
-  "forecast": [],
-  "updated_at": "2026-05-05T00:23:59.150948+00:00"
+  "forecast": [
+    {
+      "date": "2026-05-04",
+      "high_f": 29,
+      "low_f": 19,
+      "rain_pct": 29,
+      "uv": 7,
+      "sunrise": "2026-05-04T05:35",
+      "sunset": "2026-05-04T19:32",
+      "predicted_score": 60,
+      "score_label": "Use caution"
+    },
+    {
+      "date": "2026-05-05",
+      "high_f": 28,
+      "low_f": 14,
+      "rain_pct": 29,
+      "uv": 8,
+      "sunrise": "2026-05-05T05:34",
+      "sunset": "2026-05-05T19:33",
+      "predicted_score": 60,
+      "score_label": "Use caution"
+    },
+    {
+      "date": "2026-05-06",
+      "high_f": 38,
+      "low_f": 14,
+      "rain_pct": 19,
+      "uv": 8,
+      "sunrise": "2026-05-06T05:33",
+      "sunset": "2026-05-06T19:34",
+      "predicted_score": 70,
+      "score_label": "Good conditions"
+    },
+    {
+      "date": "2026-05-07",
+      "high_f": 47,
+      "low_f": 27,
+      "rain_pct": 2,
+      "uv": 8,
+      "sunrise": "2026-05-07T05:32",
+      "sunset": "2026-05-07T19:35",
+      "predicted_score": 88,
+      "score_label": "Great day to go"
+    },
+    {
+      "date": "2026-05-08",
+      "high_f": 50,
+      "low_f": 32,
+      "rain_pct": 4,
+      "uv": 8,
+      "sunrise": "2026-05-08T05:30",
+      "sunset": "2026-05-08T19:36",
+      "predicted_score": 100,
+      "score_label": "Great day to go"
+    }
+  ],
+  "updated_at": "2026-05-05T00:41:50.836094+00:00"
 }
