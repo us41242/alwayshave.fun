@@ -26,10 +26,10 @@
   ],
   "current": {
     "temp_f": 29,
-    "feels_like_f": 17,
+    "feels_like_f": 18,
     "wind_mph": 16,
-    "gusts_mph": 26,
-    "rain_pct": 41
+    "gusts_mph": 24,
+    "rain_pct": 42
   },
   "sunrise": "2026-05-04T06:05",
   "sunset": "2026-05-04T20:03",
@@ -41,7 +41,7 @@
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": 204.1,
+    "nearest_fire_km": null,
     "fire_count_50km": 0
   },
   "river": null,
@@ -102,5 +102,5 @@
       "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-05-04T23:50:25.160982+00:00"
+  "updated_at": "2026-05-05T00:06:27.214272+00:00"
 }

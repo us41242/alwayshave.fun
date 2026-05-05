@@ -40,7 +40,7 @@
   },
   "fire": {
     "risk_level": "low",
-    "nearest_fire_km": 352.4,
+    "nearest_fire_km": null,
     "fire_count_50km": 0
   },
   "river": null,
@@ -101,5 +101,5 @@
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-05-04T23:46:40.799918+00:00"
+  "updated_at": "2026-05-05T00:05:05.584539+00:00"
 }
