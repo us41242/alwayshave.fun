@@ -23,16 +23,16 @@
     "wind layer recommended"
   ],
   "current": {
-    "temp_f": 60,
+    "temp_f": 58,
     "feels_like_f": 49,
-    "wind_mph": 13,
-    "gusts_mph": 23,
+    "wind_mph": 11,
+    "gusts_mph": 24,
     "rain_pct": 0
   },
   "sunrise": "2026-05-04T06:33",
   "sunset": "2026-05-04T20:23",
   "aqi": {
-    "aqi": 48,
+    "aqi": 49,
     "category": "Good",
     "pollutant": "O3",
     "source": "airnow"
@@ -43,7 +43,7 @@
     "fire_count_50km": 0
   },
   "river": {
-    "cfs": 8140,
+    "cfs": 8170,
     "stage": "flood"
   },
   "forecast": [
@@ -103,5 +103,5 @@
       "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-05-05T02:01:47.666641+00:00"
+  "updated_at": "2026-05-05T02:21:44.918026+00:00"
 }
