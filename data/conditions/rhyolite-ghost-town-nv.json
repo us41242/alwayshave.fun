@@ -23,14 +23,14 @@
   "current": {
     "temp_f": 66,
     "feels_like_f": 54,
-    "wind_mph": 16,
-    "gusts_mph": 19,
+    "wind_mph": 17,
+    "gusts_mph": 20,
     "rain_pct": 1
   },
   "sunrise": "2026-05-04T05:49",
   "sunset": "2026-05-04T19:38",
   "aqi": {
-    "aqi": 47,
+    "aqi": 49,
     "category": "Good",
     "pollutant": "O3",
     "source": "airnow"
@@ -98,5 +98,5 @@
       "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-05-05T01:10:43.394546+00:00"
+  "updated_at": "2026-05-05T01:28:23.729343+00:00"
 }

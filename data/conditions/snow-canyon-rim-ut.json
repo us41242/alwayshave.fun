@@ -17,22 +17,25 @@
   "notes": "Sandstone scrambling \u2014 watch for rattlesnakes spring",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 88,
-  "score_label": "Great day to go",
-  "gear_flags": [],
+  "score": 78,
+  "score_label": "Good conditions",
+  "gear_flags": [
+    "wind layer recommended",
+    "mask for sensitive groups"
+  ],
   "current": {
     "temp_f": 69,
-    "feels_like_f": 57,
-    "wind_mph": 15,
-    "gusts_mph": 19,
+    "feels_like_f": 56,
+    "wind_mph": 16,
+    "gusts_mph": 20,
     "rain_pct": 0
   },
   "sunrise": "2026-05-04T06:36",
   "sunset": "2026-05-04T20:26",
   "aqi": {
-    "aqi": 43,
-    "category": "Good",
-    "pollutant": "O3",
+    "aqi": 51,
+    "category": "Moderate",
+    "pollutant": "PM2.5",
     "source": "airnow"
   },
   "fire": {
@@ -50,7 +53,7 @@
       "uv": 6,
       "sunrise": "2026-05-04T06:36",
       "sunset": "2026-05-04T20:26",
-      "predicted_score": 100,
+      "predicted_score": 90,
       "score_label": "Great day to go"
     },
     {
@@ -61,7 +64,7 @@
       "uv": 8,
       "sunrise": "2026-05-05T06:35",
       "sunset": "2026-05-05T20:27",
-      "predicted_score": 100,
+      "predicted_score": 90,
       "score_label": "Great day to go"
     },
     {
@@ -72,8 +75,8 @@
       "uv": 8,
       "sunrise": "2026-05-06T06:34",
       "sunset": "2026-05-06T20:28",
-      "predicted_score": 88,
-      "score_label": "Great day to go"
+      "predicted_score": 78,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-05-07",
@@ -83,8 +86,8 @@
       "uv": 8,
       "sunrise": "2026-05-07T06:33",
       "sunset": "2026-05-07T20:29",
-      "predicted_score": 88,
-      "score_label": "Great day to go"
+      "predicted_score": 78,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-05-08",
@@ -94,9 +97,9 @@
       "uv": 8,
       "sunrise": "2026-05-08T06:32",
       "sunset": "2026-05-08T20:30",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
+      "predicted_score": 60,
+      "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-05-05T01:10:41.549846+00:00"
+  "updated_at": "2026-05-05T01:28:22.327504+00:00"
 }

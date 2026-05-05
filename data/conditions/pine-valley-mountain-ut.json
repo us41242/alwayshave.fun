@@ -17,13 +17,14 @@
   "notes": "Multi-day backpack; no established campsites \u2014 LNT",
   "dog_friendly": "Yes",
   "vehicle_req": "AWD",
-  "score": 100,
+  "score": 90,
   "score_label": "Great day to go",
   "gear_flags": [
-    "wind layer recommended"
+    "wind layer recommended",
+    "mask for sensitive groups"
   ],
   "current": {
-    "temp_f": 53,
+    "temp_f": 52,
     "feels_like_f": 42,
     "wind_mph": 12,
     "gusts_mph": 21,
@@ -32,9 +33,9 @@
   "sunrise": "2026-05-04T06:35",
   "sunset": "2026-05-04T20:26",
   "aqi": {
-    "aqi": 43,
-    "category": "Good",
-    "pollutant": "O3",
+    "aqi": 51,
+    "category": "Moderate",
+    "pollutant": "PM2.5",
     "source": "airnow"
   },
   "fire": {
@@ -52,8 +53,8 @@
       "uv": 6,
       "sunrise": "2026-05-04T06:35",
       "sunset": "2026-05-04T20:26",
-      "predicted_score": 88,
-      "score_label": "Great day to go"
+      "predicted_score": 78,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-05-05",
@@ -63,7 +64,7 @@
       "uv": 7,
       "sunrise": "2026-05-05T06:34",
       "sunset": "2026-05-05T20:27",
-      "predicted_score": 100,
+      "predicted_score": 90,
       "score_label": "Great day to go"
     },
     {
@@ -74,8 +75,8 @@
       "uv": 8,
       "sunrise": "2026-05-06T06:33",
       "sunset": "2026-05-06T20:28",
-      "predicted_score": 88,
-      "score_label": "Great day to go"
+      "predicted_score": 78,
+      "score_label": "Good conditions"
     },
     {
       "date": "2026-05-07",
@@ -85,7 +86,7 @@
       "uv": 8,
       "sunrise": "2026-05-07T06:32",
       "sunset": "2026-05-07T20:29",
-      "predicted_score": 100,
+      "predicted_score": 90,
       "score_label": "Great day to go"
     },
     {
@@ -96,9 +97,9 @@
       "uv": 8,
       "sunrise": "2026-05-08T06:31",
       "sunset": "2026-05-08T20:29",
-      "predicted_score": 100,
+      "predicted_score": 90,
       "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-05-05T01:10:45.275082+00:00"
+  "updated_at": "2026-05-05T01:28:25.010936+00:00"
 }
