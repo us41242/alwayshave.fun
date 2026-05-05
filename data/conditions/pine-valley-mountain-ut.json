@@ -17,15 +17,16 @@
   "notes": "Multi-day backpack; no established campsites \u2014 LNT",
   "dog_friendly": "Yes",
   "vehicle_req": "AWD",
-  "score": 90,
-  "score_label": "Great day to go",
+  "score": 78,
+  "score_label": "Good conditions",
   "gear_flags": [
+    "wind layer recommended",
     "mask for sensitive groups"
   ],
   "current": {
-    "temp_f": 51,
-    "feels_like_f": 41,
-    "wind_mph": 10,
+    "temp_f": 50,
+    "feels_like_f": 40,
+    "wind_mph": 9,
     "gusts_mph": 20,
     "rain_pct": 0
   },
@@ -57,7 +58,7 @@
     },
     {
       "date": "2026-05-05",
-      "high_f": 53,
+      "high_f": 54,
       "low_f": 33,
       "rain_pct": 6,
       "uv": 7,
@@ -68,8 +69,8 @@
     },
     {
       "date": "2026-05-06",
-      "high_f": 64,
-      "low_f": 38,
+      "high_f": 60,
+      "low_f": 39,
       "rain_pct": 19,
       "uv": 8,
       "sunrise": "2026-05-06T06:33",
@@ -100,5 +101,5 @@
       "score_label": "Great day to go"
     }
   ],
-  "updated_at": "2026-05-05T01:48:35.190428+00:00"
+  "updated_at": "2026-05-05T02:08:34.187498+00:00"
 }
