@@ -28,13 +28,13 @@
     "temp_f": 30,
     "feels_like_f": 20,
     "wind_mph": 12,
-    "gusts_mph": 21,
+    "gusts_mph": 20,
     "rain_pct": 1
   },
   "sunrise": "2026-05-04T06:11",
   "sunset": "2026-05-04T20:04",
   "aqi": {
-    "aqi": 86,
+    "aqi": 85,
     "category": "Moderate",
     "pollutant": "PM2.5",
     "source": "open-meteo"
@@ -102,5 +102,5 @@
       "score_label": "Good conditions"
     }
   ],
-  "updated_at": "2026-05-05T00:49:42.190828+00:00"
+  "updated_at": "2026-05-05T01:13:11.970246+00:00"
 }

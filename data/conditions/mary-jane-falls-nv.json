@@ -17,20 +17,22 @@
   "notes": "Popular weekend trail \u2014 arrive before 8am",
   "dog_friendly": "Yes",
   "vehicle_req": "Any",
-  "score": 40,
-  "score_label": "Conditions poor",
+  "score": 50,
+  "score_label": "Use caution",
   "gear_flags": [
+    "wind layer recommended",
+    "insulation layer required",
     "N95 mask recommended"
   ],
   "current": {
-    "temp_f": 42,
-    "feels_like_f": 29,
+    "temp_f": 40,
+    "feels_like_f": 27,
     "wind_mph": 18,
     "gusts_mph": 28,
     "rain_pct": 0
   },
-  "sunrise": "",
-  "sunset": "",
+  "sunrise": "2026-05-04T05:45",
+  "sunset": "2026-05-04T19:32",
   "aqi": {
     "aqi": 128,
     "category": "Unhealthy for Sensitive Groups",
@@ -43,6 +45,62 @@
     "fire_count_50km": 0
   },
   "river": null,
-  "forecast": [],
-  "updated_at": "2026-05-05T00:45:49.994602+00:00"
+  "forecast": [
+    {
+      "date": "2026-05-04",
+      "high_f": 44,
+      "low_f": 33,
+      "rain_pct": 0,
+      "uv": 8,
+      "sunrise": "2026-05-04T05:45",
+      "sunset": "2026-05-04T19:32",
+      "predicted_score": 68,
+      "score_label": "Use caution"
+    },
+    {
+      "date": "2026-05-05",
+      "high_f": 40,
+      "low_f": 31,
+      "rain_pct": 15,
+      "uv": 6,
+      "sunrise": "2026-05-05T05:44",
+      "sunset": "2026-05-05T19:33",
+      "predicted_score": 68,
+      "score_label": "Use caution"
+    },
+    {
+      "date": "2026-05-06",
+      "high_f": 54,
+      "low_f": 34,
+      "rain_pct": 9,
+      "uv": 8,
+      "sunrise": "2026-05-06T05:43",
+      "sunset": "2026-05-06T19:34",
+      "predicted_score": 80,
+      "score_label": "Good conditions"
+    },
+    {
+      "date": "2026-05-07",
+      "high_f": 61,
+      "low_f": 45,
+      "rain_pct": 1,
+      "uv": 9,
+      "sunrise": "2026-05-07T05:42",
+      "sunset": "2026-05-07T19:35",
+      "predicted_score": 80,
+      "score_label": "Good conditions"
+    },
+    {
+      "date": "2026-05-08",
+      "high_f": 65,
+      "low_f": 49,
+      "rain_pct": 1,
+      "uv": 9,
+      "sunrise": "2026-05-08T05:41",
+      "sunset": "2026-05-08T19:36",
+      "predicted_score": 80,
+      "score_label": "Good conditions"
+    }
+  ],
+  "updated_at": "2026-05-05T01:07:35.111473+00:00"
 }
