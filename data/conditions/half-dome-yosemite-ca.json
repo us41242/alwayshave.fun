@@ -19,9 +19,7 @@
   "vehicle_req": "Any",
   "score": 60,
   "score_label": "Use caution",
-  "gear_flags": [
-    "insulation layer required"
-  ],
+  "gear_flags": [],
   "current": {
     "temp_f": 31,
     "feels_like_f": 26,
@@ -29,10 +27,10 @@
     "gusts_mph": 5,
     "rain_pct": 22
   },
-  "sunrise": "2026-05-04T05:58",
-  "sunset": "2026-05-04T19:50",
+  "sunrise": "",
+  "sunset": "",
   "aqi": {
-    "aqi": 36,
+    "aqi": 37,
     "category": "Good",
     "pollutant": "O3",
     "source": "airnow"
@@ -43,62 +41,6 @@
     "fire_count_50km": 0
   },
   "river": null,
-  "forecast": [
-    {
-      "date": "2026-05-04",
-      "high_f": 35,
-      "low_f": 29,
-      "rain_pct": 73,
-      "uv": 3,
-      "sunrise": "2026-05-04T05:58",
-      "sunset": "2026-05-04T19:50",
-      "predicted_score": 60,
-      "score_label": "Use caution"
-    },
-    {
-      "date": "2026-05-05",
-      "high_f": 35,
-      "low_f": 26,
-      "rain_pct": 37,
-      "uv": 6,
-      "sunrise": "2026-05-05T05:57",
-      "sunset": "2026-05-05T19:51",
-      "predicted_score": 70,
-      "score_label": "Good conditions"
-    },
-    {
-      "date": "2026-05-06",
-      "high_f": 55,
-      "low_f": 35,
-      "rain_pct": 2,
-      "uv": 9,
-      "sunrise": "2026-05-06T05:56",
-      "sunset": "2026-05-06T19:52",
-      "predicted_score": 100,
-      "score_label": "Great day to go"
-    },
-    {
-      "date": "2026-05-07",
-      "high_f": 60,
-      "low_f": 40,
-      "rain_pct": 2,
-      "uv": 8,
-      "sunrise": "2026-05-07T05:55",
-      "sunset": "2026-05-07T19:53",
-      "predicted_score": 100,
-      "score_label": "Great day to go"
-    },
-    {
-      "date": "2026-05-08",
-      "high_f": 61,
-      "low_f": 39,
-      "rain_pct": 1,
-      "uv": 9,
-      "sunrise": "2026-05-08T05:54",
-      "sunset": "2026-05-08T19:54",
-      "predicted_score": 100,
-      "score_label": "Great day to go"
-    }
-  ],
-  "updated_at": "2026-05-05T04:09:06.553852+00:00"
+  "forecast": [],
+  "updated_at": "2026-05-05T04:35:56.088166+00:00"
 }
