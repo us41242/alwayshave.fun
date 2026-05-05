@@ -24,16 +24,16 @@
     "N95 mask recommended"
   ],
   "current": {
-    "temp_f": 35,
+    "temp_f": 34,
     "feels_like_f": 26,
-    "wind_mph": 9,
-    "gusts_mph": 10,
-    "rain_pct": 33
+    "wind_mph": 8,
+    "gusts_mph": 9,
+    "rain_pct": 29
   },
   "sunrise": "2026-05-04T05:57",
   "sunset": "2026-05-04T20:00",
   "aqi": {
-    "aqi": 108,
+    "aqi": 103,
     "category": "Unhealthy for Sensitive Groups",
     "pollutant": "PM2.5",
     "source": "open-meteo"
@@ -49,7 +49,7 @@
       "date": "2026-05-04",
       "high_f": 47,
       "low_f": 30,
-      "rain_pct": 44,
+      "rain_pct": 46,
       "uv": 8,
       "sunrise": "2026-05-04T05:57",
       "sunset": "2026-05-04T20:00",
@@ -71,7 +71,7 @@
       "date": "2026-05-06",
       "high_f": 22,
       "low_f": 7,
-      "rain_pct": 98,
+      "rain_pct": 97,
       "uv": 7,
       "sunrise": "2026-05-06T05:55",
       "sunset": "2026-05-06T20:02",
@@ -82,7 +82,7 @@
       "date": "2026-05-07",
       "high_f": 37,
       "low_f": 8,
-      "rain_pct": 53,
+      "rain_pct": 42,
       "uv": 9,
       "sunrise": "2026-05-07T05:54",
       "sunset": "2026-05-07T20:03",
@@ -93,7 +93,7 @@
       "date": "2026-05-08",
       "high_f": 41,
       "low_f": 22,
-      "rain_pct": 53,
+      "rain_pct": 42,
       "uv": 9,
       "sunrise": "2026-05-08T05:53",
       "sunset": "2026-05-08T20:04",
@@ -101,5 +101,5 @@
       "score_label": "Use caution"
     }
   ],
-  "updated_at": "2026-05-05T02:51:01.858694+00:00"
+  "updated_at": "2026-05-05T03:24:07.919827+00:00"
 }
