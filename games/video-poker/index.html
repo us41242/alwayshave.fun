@@ -1,0 +1,218 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Video Poker Trainer: 9/6 Jacks or Better with an Exact-Math Coach</title>
+<meta name="description" content="Play 9/6 Jacks or Better and get coached on every hold. The trainer computes the exact expected value of all 32 ways to hold your hand, shows the best one, and tracks how much your mistakes cost.">
+<link rel="canonical" href="https://alwayshave.fun/video-poker-trainer/">
+<meta property="og:title" content="Video Poker Trainer: 9/6 Jacks or Better, coached">
+<meta property="og:description" content="Every hold scored by exact expected value. See the best hold, what yours cost, and learn the strategy by playing.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://alwayshave.fun/video-poker-trainer/">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700;900&family=Libre+Franklin:wght@400;700&display=swap">
+<link rel="stylesheet" href="/site.css">
+<style>
+.game{background:rgba(0,0,0,.28);border:1px solid var(--line);border-radius:14px;padding:1rem .8rem;margin:1rem 0}
+.cards{display:flex;gap:.45rem;justify-content:center;margin:.6rem 0}
+.card5{flex:1 1 0;max-width:84px;aspect-ratio:5/7;background:#f7f1e3;color:#1a1a1a;border-radius:8px;border:2px solid transparent;display:flex;flex-direction:column;justify-content:space-between;padding:.3rem .35rem;font:700 1.25rem/1 "Libre Franklin",sans-serif;cursor:pointer;user-select:none;position:relative;transition:transform .1s}
+.card5.red{color:#b3202b}
+.card5 .s{font-size:1.6rem;text-align:right}
+.card5.held{border-color:var(--brass);transform:translateY(-6px);box-shadow:0 0 0 2px var(--brass)}
+.card5.best::after{content:"BEST";position:absolute;left:0;right:0;bottom:-1.35rem;text-align:center;font-size:.6rem;letter-spacing:.1em;color:var(--good)}
+.card5.back{background:repeating-linear-gradient(45deg,#26543f,#26543f 6px,#1c4031 6px,#1c4031 12px);border-color:var(--line)}
+.bar{display:flex;gap:.5rem;justify-content:center;flex-wrap:wrap;margin-top:1.4rem}
+.btn{background:var(--brass);color:#231b06;font:inherit;font-weight:700;border:0;border-radius:8px;padding:.7rem 1.3rem;font-size:1.05rem;cursor:pointer}
+.btn.ghost{background:transparent;color:var(--cream);border:1px solid var(--line)}
+.btn:disabled{opacity:.4;cursor:default}
+.status{text-align:center;min-height:1.6rem;margin:.6rem 0 0;font-family:"Big Shoulders Display",Impact,sans-serif;font-size:1.5rem;letter-spacing:.03em;color:var(--brass)}
+.coach{margin-top:1rem;border-top:1px solid var(--line);padding-top:.8rem;font-size:.95rem}
+.coach .ok{color:var(--good)} .coach .no{color:var(--bad)}
+.coach table{font-size:.9rem;margin:.5rem 0}
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:.4rem;text-align:center;margin-top:.8rem;font-size:.8rem;color:var(--dim)}
+.stats b{display:block;font-family:"Big Shoulders Display",Impact,sans-serif;font-size:1.4rem;color:var(--cream)}
+.pay{font-size:.85rem}
+.pay td:last-child{text-align:right}
+@media (max-width:420px){.card5{font-size:1.05rem}.card5 .s{font-size:1.3rem}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<nav><a class="brand" href="/">ALWAYS<span>HAVE</span>.FUN</a><a href="/final-hand/">Play Final Hand</a></nav>
+
+<h1>Video poker <span>trainer</span></h1>
+<p class="lede">9/6 Jacks or Better, five coins. Tap the cards you want to hold and draw. The coach scores your hold against all 32 possible holds using the exact expected value of every draw from the remaining 47 cards, not a strategy chart, so it is right on every hand including the odd ones.</p>
+
+<div class="game">
+  <div class="cards" id="cards"></div>
+  <div class="status" id="status">&nbsp;</div>
+  <div class="bar">
+    <button class="btn" id="deal">Deal</button>
+    <button class="btn" id="draw" disabled>Draw</button>
+    <button class="btn ghost" id="hint" disabled>Show best hold</button>
+  </div>
+  <div class="coach" id="coach"><p class="why">Deal a hand. Hold cards by tapping them. Draw, and the coach tells you the best hold and what yours cost.</p></div>
+  <div class="stats" id="stats"></div>
+</div>
+
+<h2>How the coach scores a hold</h2>
+<p>For each of the 32 ways to hold a dealt hand, the trainer deals every possible replacement from the 47 unseen cards, pays each result on the 9/6 table, and averages. That is the exact expected value (EV) of the hold, in coins won per coin bet. The best hold is the one with the highest EV. Your cost on a hand is the gap between the best hold and yours; over a session the total cost, divided by hands, is how far you sit below the game's 99.54% return.</p>
+<p>Two habits produce most of the cost. Holding a "kicker" with a pair (never right in Jacks or Better). And breaking a paying hand for a draw when the draw is worth less: a made flush is worth 6, four to a royal is worth about 18, so you break the flush; but a made straight against four to a straight flush stays, because the straight flush draw is worth about 3.</p>
+
+<h2>9/6 Jacks or Better pay table (five coins)</h2>
+<table class="pay">
+  <tr><th>Hand</th><th>Pays (per coin)</th></tr>
+  <tr><td>Royal flush</td><td>800 (4,000 for 5 coins)</td></tr>
+  <tr><td>Straight flush</td><td>50</td></tr>
+  <tr><td>Four of a kind</td><td>25</td></tr>
+  <tr><td>Full house</td><td>9</td></tr>
+  <tr><td>Flush</td><td>6</td></tr>
+  <tr><td>Straight</td><td>4</td></tr>
+  <tr><td>Three of a kind</td><td>3</td></tr>
+  <tr><td>Two pair</td><td>2</td></tr>
+  <tr><td>Jacks or better</td><td>1</td></tr>
+</table>
+<p class="why">The "9/6" is the full house and flush payouts. Optimal play returns 99.54% on this table. The same game paying 8/5 returns 97.30%, and 6/5 returns 95.00%; before you sit down, read the full house and flush lines. The royal only pays 800-to-1 at five coins (it is 250 per coin at fewer), which is why the trainer assumes max coins. Play a lower denomination rather than fewer coins.</p>
+
+<h2>Where this fits</h2>
+<p>Video poker at 99.54% is one of the cheapest games in the building, and it is rated play: the <a href="/casino-comps/">comps guide</a> shows what a session of it is worth in theo, and the <a href="/players-cards-compared/">players cards comparison</a> shows which clubs pay points on it (most do, at a lower rate than slots). Blackjack tournament player? <a href="/final-hand/">Final Hand</a> is the trainer for that.</p>
+
+<h2>Sources</h2>
+<ul>
+  <li>Michael Shackleford, wizardofodds.com, "Jacks or Better" pay-table returns and hold-EV analysis: 9/6 returns 99.5439% with optimal strategy.</li>
+  <li>Bob Dancer and Liam W. Daily, <i>Video Poker for the Intelligent Beginner</i> (Huntington Press): the strategy the exact math reproduces.</li>
+  <li>Expected values in the coach are computed on the spot, not looked up; the engine's self-checks reproduce published values (draw five 0.360, high pair 1.537).</li>
+</ul>
+<p class="why">Strategy and education only. Nothing here guarantees a win; the best play on this table still loses 0.46% of coin-in over time.</p>
+
+<footer>Strategy and education only. Gambling problem? Call 1-800-GAMBLER. <a href="/">alwayshave.fun</a></footer>
+</div>
+<script>
+// ---- engine (9/6 Jacks or Better, per-coin payouts at max coins) ----
+// card = 0..51; rank = c % 13 (0=2 … 8=T, 9=J, 10=Q, 11=K, 12=A); suit = c / 13 | 0
+const PAY = {RF: 800, SF: 50, FK: 25, FH: 9, FL: 6, ST: 4, TK: 3, TP: 2, JB: 1};
+const NAME = {RF: 'Royal flush', SF: 'Straight flush', FK: 'Four of a kind', FH: 'Full house', FL: 'Flush', ST: 'Straight', TK: 'Three of a kind', TP: 'Two pair', JB: 'Jacks or better', NO: 'Nothing'};
+const cnt = new Uint8Array(13);
+function rankHand(h) { // h: array of 5 cards → key of PAY or 'NO'
+  cnt.fill(0);
+  let suitMask = 0, rankMask = 0, pairs = 0, trips = 0, quads = 0, hiPair = 0;
+  for (let i = 0; i < 5; i++) { const c = h[i], r = c % 13; suitMask |= 1 << (c / 13 | 0); rankMask |= 1 << r; cnt[r]++; }
+  for (let r = 0; r < 13; r++) { const n = cnt[r]; if (n === 2) { pairs++; if (r >= 9) hiPair = 1; } else if (n === 3) trips = 1; else if (n === 4) quads = 1; }
+  if (quads) return 'FK';
+  if (trips && pairs) return 'FH';
+  const flush = (suitMask & (suitMask - 1)) === 0;
+  let straight = false;
+  if (!pairs && !trips) { // 5 distinct ranks
+    if (rankMask === 0x100F) straight = true; // A2345
+    else { const low = rankMask & -rankMask; straight = rankMask / low === 31; } // five consecutive bits
+  }
+  if (flush && straight) return rankMask === 0x1F00 ? 'RF' : 'SF';
+  if (flush) return 'FL';
+  if (straight) return 'ST';
+  if (trips) return 'TK';
+  if (pairs === 2) return 'TP';
+  if (hiPair) return 'JB';
+  return 'NO';
+}
+const pay = h => PAY[rankHand(h)] || 0;
+
+// exact EV (coins per coin bet) of holding `held` (array of cards) from `dealt`, drawing from the other 47.
+function holdEV(dealt, held) {
+  const rest = []; for (let c = 0; c < 52; c++) if (!dealt.includes(c)) rest.push(c);
+  const hand = held.slice(), need = 5 - held.length, n = rest.length;
+  let total = 0, combos = 0;
+  (function rec(start, depth) {
+    if (depth === need) { total += pay(hand); combos++; return; }
+    for (let i = start; i <= n - (need - depth); i++) { hand[held.length + depth] = rest[i]; rec(i + 1, depth + 1); }
+  })(0, 0);
+  return total / combos;
+}
+// all 32 holds ranked best first: [{mask, held, ev}]
+function analyze(dealt) {
+  const out = [];
+  for (let m = 0; m < 32; m++) {
+    const held = dealt.filter((_, i) => m & (1 << i));
+    out.push({mask: m, held, ev: holdEV(dealt, held)});
+  }
+  return out.sort((a, b) => b.ev - a.ev);
+}
+// human name for a hold, for the coach line
+function describe(held) {
+  const k = held.length; if (!k) return 'nothing, draw five';
+  if (k === 5) { const r = rankHand(held); return r === 'NO' ? 'all five cards' : NAME[r].toLowerCase(); }
+  const ranks = held.map(c => c % 13), suits = new Set(held.map(c => c / 13 | 0));
+  const suited = suits.size === 1, allHigh = ranks.every(r => r >= 8), hi = ranks.filter(r => r >= 9).length;
+  const distinct = new Set(ranks).size;
+  if (distinct < k) { const p = ranks.find(r => ranks.indexOf(r) !== ranks.lastIndexOf(r)); if (k === 4 && distinct === 2) return 'two pair'; if (ranks.filter(r => r === p).length === 3) return 'three of a kind'; return (p >= 9 ? 'high' : 'low') + ' pair'; }
+  if (suited && allHigh && k >= 2) return k + ' to a royal';
+  if (suited && k === 4) return '4 to a flush';
+  const span = Math.max(...ranks) - Math.min(...ranks);
+  if (suited && k >= 3 && span <= 4) return k + ' to a straight flush';
+  if (k === 4 && span === 3) return 'open-ended 4 to a straight';
+  if (k === 4 && span === 4) return 'inside 4 to a straight' + (hi ? ' with ' + hi + ' high' : '');
+  if (k === 3 && span <= 4 && !suited) return '3 to a straight';
+  if (hi === k) return k === 1 ? 'one high card' : k + ' high cards';
+  return k + ' cards';
+}
+// ponytail: engine self-checks. Values from the 9/6 JoB literature (Wizard of Odds hold-EV tables).
+const C = s => { const r = '23456789TJQKA'.indexOf(s[0]), u = 'shdc'.indexOf(s[1]); return u * 13 + r; };
+const H = s => s.split(' ').map(C);
+const near = (a, b, t = 0.02) => Math.abs(a - b) < t;
+console.assert(pay(H('Th Jh Qh Kh Ah')) === 800, 'royal');
+console.assert(pay(H('Ah 2h 3h 4h 5h')) === 50, 'wheel sf');
+console.assert(pay(H('Ah 2d 3h 4h 5h')) === 4, 'wheel');
+console.assert(pay(H('Jh Jd 3h 4h 5h')) === 1 && pay(H('Th Td 3h 4h 5h')) === 0, 'jacks or better');
+console.assert(pay(H('9h 9d 9s 4h 4c')) === 9 && pay(H('9h 9d 9s 9c 4c')) === 25, 'fh/quads');
+console.assert(near(holdEV(H('2s 3d 5h 7c 9s'), []), 0.36, 0.01), 'draw five');
+{ const a = analyze(H('Ah Kh Qh Jh 5h')); console.assert(a[0].held.length === 4 && near(a[0].ev, 18.43, 0.01), '4 royal over flush: ' + a[0].ev); }
+{ const a = analyze(H('Jh Jd 3h 4h 5h')); console.assert(a[0].held.length === 2, 'high pair over 4 flush'); }
+{ const a = analyze(H('Th Td 3h 4h 5h')); console.assert(a[0].held.length === 4, '4 flush over low pair'); }
+{ const a = analyze(H('Ah Kd Qc 7s 2h')); console.assert(a[0].held.length === 2 && a[0].held.every(c => c % 13 >= 10), 'KQ from AKQ unsuited'); }
+console.assert(describe(H('Ah Kh Qh')) === '3 to a royal' && describe(H('8h 8d')) === 'low pair', 'describe');
+
+// ---- UI ----
+const $ = id => document.getElementById(id);
+const RANK = '23456789TJQKA', SUIT = ['♠', '♥', '♦', '♣'];
+const face = c => RANK[c % 13] + SUIT[c / 13 | 0];
+let dealt = [], held = 0, best = null, done = true, hinted = false;
+const S = JSON.parse(localStorage.getItem('vp-stats') || '{"hands":0,"perfect":0,"cost":0,"bet":0,"won":0}');
+
+function render() {
+  $('cards').innerHTML = dealt.map((c, i) => {
+    const suit = c / 13 | 0, cls = ['card5', suit === 1 || suit === 2 ? 'red' : '', held & (1 << i) ? 'held' : '', hinted && best && best.mask & (1 << i) ? 'best' : ''].join(' ');
+    return `<div class="${cls}" data-i="${i}"><span>${RANK[c % 13]}</span><span class="s">${SUIT[suit]}</span></div>`;
+  }).join('');
+  $('stats').innerHTML = `<div><b>${S.hands}</b>hands</div><div><b>${S.hands ? Math.round(100 * S.perfect / S.hands) : 0}%</b>best hold</div><div><b>${S.cost.toFixed(2)}</b>coins lost to errors</div><div><b>${S.bet ? (100 * S.won / S.bet).toFixed(1) : '0.0'}%</b>return</div>`;
+}
+function deal() {
+  const deck = Array.from({length: 52}, (_, i) => i);
+  for (let i = 51; i > 0; i--) { const j = Math.random() * (i + 1) | 0; [deck[i], deck[j]] = [deck[j], deck[i]]; }
+  dealt = deck.slice(0, 5); held = 0; best = null; done = false; hinted = false;
+  const r = rankHand(dealt);
+  $('status').textContent = r === 'NO' ? ' ' : NAME[r];
+  $('coach').innerHTML = '<p class="why">Choose your hold, then draw.</p>';
+  $('deal').disabled = true; $('draw').disabled = true; $('hint').disabled = true;
+  render();
+  setTimeout(() => { best = analyze(dealt); $('draw').disabled = false; $('hint').disabled = false; window._deck = deck; }, 0); // ponytail: ~0.2-1 s exact enumeration; a Web Worker if phones stutter
+}
+function draw() {
+  if (done || !best) return;
+  done = true; hinted = false;
+  const mine = best.find(h => h.mask === held), top = best[0], cost = top.ev - mine.ev, perfect = cost < 1e-9;
+  let k = 5; const final = dealt.map((c, i) => held & (1 << i) ? c : window._deck[k++]);
+  const r = rankHand(final), p = PAY[r] || 0;
+  S.hands++; S.perfect += perfect; S.cost += cost; S.bet += 1; S.won += p;
+  localStorage.setItem('vp-stats', JSON.stringify(S));
+  dealt = final; held = 0; $('status').textContent = r === 'NO' ? 'No pay' : NAME[r] + ' · pays ' + p * 5;
+  $('coach').innerHTML = `<p class="${perfect ? 'ok' : 'no'}"><b>${perfect ? 'Best hold.' : 'Cost ' + cost.toFixed(3) + ' coins per coin.'}</b> You held ${describe(mine.held)} (EV ${mine.ev.toFixed(3)}).${perfect ? '' : ' Best was <b>' + describe(top.held) + '</b> (EV ' + top.ev.toFixed(3) + '): ' + (top.held.length ? top.held.map(face).join(' ') : 'draw five') + '.'}</p>
+    <table><tr><th>Hold</th><th>Cards</th><th>EV</th></tr>${best.slice(0, 4).map(h => `<tr${h.mask === held ? ' style="color:var(--brass)"' : ''}><td>${describe(h.held)}</td><td>${h.held.map(face).join(' ') || '—'}</td><td>${h.ev.toFixed(3)}</td></tr>`).join('')}</table>`;
+  $('deal').disabled = false; $('draw').disabled = true; $('hint').disabled = true;
+  render();
+}
+$('cards').addEventListener('click', e => { const el = e.target.closest('.card5'); if (!el || done) return; held ^= 1 << +el.dataset.i; render(); });
+$('deal').onclick = deal; $('draw').onclick = draw;
+$('hint').onclick = () => { if (!best) return; hinted = true; held = best[0].mask; render(); };
+render();
+</script>
+</body>
+</html>
