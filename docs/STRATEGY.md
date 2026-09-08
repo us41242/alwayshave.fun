@@ -30,7 +30,10 @@ don't make you a winner.
 ## Growth (2c) candidates, in order
 1. ✅ Tournament bet sizer: `/tournament-bet-sizer/` (2026-09-05). One
    screen, Wong's last-hand rules encoded, asserted against the guide.
-2. Video poker trainer (9/6 Jacks or Better hold/discard coach).
+2. ✅ Video poker trainer: `/video-poker-trainer/` (2026-09-07). Exact EV of all
+   32 holds by full enumeration; coach, hint, session stats.
+3. Candidates: Deuces Wild pay table in the same trainer; pay-table
+   identifier; more only once something is indexed. Links are the bottleneck.
 
 Indexing: sitemap submitted 09-03, never downloaded by 09-06; Indexing API
 nudge sent for all 6 URLs 2026-09-06. Repo purged of trails files 09-06.
