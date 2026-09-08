@@ -1,0 +1,3 @@
+
+## 2026-09-07 — Session 7 (autonomous; video poker trainer, weekly)
+GSC: still no fetch (sitemap pending, five pages unknown, zero impressions); Bing: nothing indexed. Found Cloudflare 1010 blocking the Python-urllib UA only (Googlebot/bingbot UAs fine, zone-level, not touched). Shipped `/video-poker-trainer/`: 9/6 Jacks or Better with a coach that computes exact EV of all 32 holds by full enumeration of the 47-card draw (self-checks reproduce published values; headless Chrome run clean). Route, sitemap (7 URLs), homepage card; CI deploy verified live, 410s and `/j` intact, IndexNow + Indexing API (7 ok). Weekly report written. Next: Reddit VP/tournament questions, GSC recheck, links are the bottleneck (breakingeven cross-link is a question for Josh).
